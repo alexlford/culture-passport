@@ -268,9 +268,9 @@ assert not any(r["title"] in {"Michelob Ultra Mountain House", "The Butcher's Da
 # Venue-level audit: do not inflate stats with repeat visits or unverified awards.
 aud = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))
 assert aud["summary"] == {
-    "canonExperienceRecords": 26,
-    "distinctPublishedVenues": 24,
-    "recognized": 16,
+    "canonExperienceRecords": 27,
+    "distinctPublishedVenues": 25,
+    "recognized": 17,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 6,
@@ -281,7 +281,7 @@ assert {x["venueId"] for x in aud["publishedVenues"]} == {r["venueId"] for r in 
 assert {x["name"] for x in aud["reservationOnlyVenues"]} == {"Q House", "Wildflower"}
 assert not {"Q House", "Wildflower"} & {x["name"] for x in aud["publishedVenues"]}
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {x["name"] for x in aud["reservationOnlyVenues"]}
-assert sum(r["status"] == "confirmed" and r["type"] in {"dining", "bar"} for r in records) == 26
+assert sum(r["status"] == "confirmed" and r["type"] in {"dining", "bar"} for r in records) == 27
 assert {x["name"] for x in aud["confirmedArchiveOnly"]} == {
     "Joe's Kansas City Bar-B-Que", "Q39", "Arthur Bryant's Barbeque",
     "Jack Stack Barbecue", "Uchi Denver", "Dominic's on the Hill"
