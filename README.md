@@ -46,3 +46,17 @@ The GitHub Pages deployment workflow is deliberately **manual** until Pages host
 5. Once the standalone site is live, the legacy Life Map culture-specific content can redirect to the new address. Keep all career/map and work embeds independent.
 
 There is intentionally no `CNAME` in the Life Map repository for this Culture domain.
+
+## Pre-publication quality gate
+
+Continuous integration runs `scripts/audit_static_site.py` alongside the existing record validator. The new audit checks all seven HTML routes, internal links, assets, explicit performance record deep links, map library loading order, required dynamic JSON datasets, and likely accidentally committed credentials or email addresses. It also checks that all seven pages remain marked **`noindex, nofollow` during staging**. This does **not** replace visual browser/mobile testing.
+
+**Privacy checkpoint — before changing this repository from Private to Public:**
+
+- [ ] Review the complete repository **including Git history**. Public visibility exposes research/interview answers, source notes, reservation dates and party sizes, approximate personal chronology, and files removed in later commits.
+- [ ] Decide which private interview responses and historical reservation notes may be published. A `noindex` meta tag only affects search indexing; it does not prevent anyone from downloading published pages or public repository files.
+- [ ] If any source needs to remain confidential, separate it into a genuinely private repository or storage **before changing visibility**. Deleting a file in a new commit does not erase it from public Git history.
+- [ ] Run CI again and perform real phone/desktop browser QA after configuring Pages. Staging tests cannot establish the visible page is bug-free.
+- [ ] Only after confirming desired public visibility should you decide whether to keep or remove `noindex`.
+
+The deployment workflow is intentionally manual until the public launch decision. In the meantime, CI and source fixes can proceed safely in this private repository.
