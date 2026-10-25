@@ -15,19 +15,18 @@
   };
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
-    // For dining and bars the public-facing chronology is intentionally approximate:
-    // the memory, people, chefs, and venue history matter more than booking precision.
-    // Exact dates remain available in archival provenance, not as the lead headline.
-    if(["dining","bar"].includes(r.type)){
-      if(r.memory?.period)return r.memory.period;
-      if(r.visit?.year)return String(r.visit.year);
-      if(r.visit?.date)return r.visit.date.slice(0,4);
-    }
-    if(r.visit?.date&&r.visit?.precision==="day")return readableDate(r.visit.date)+(reservationDerived(r)?" · reservation on file":"");
-    if(r.visit?.label&&/^(January|February|March|April|May|June|July|August|September|October|November|December|Christmas|Fall|Autumn|Winter|Spring|Summer)/.test(r.visit.label))return r.visit.label;
+    // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
+    // memorable occasion first. Dates in bookings are supporting provenance only.
+    const isDining=["dining","bar"].includes(r.type);
+    if(isDining&&r.memory?.period)return r.memory.period;
+    if(isDining&&r.visit?.label&&/^(January|February|March|April|May|June|July|August|September|October|November|December|Christmas|Valentine|Fall|Autumn|Winter|Spring|Summer)/.test(r.visit.label))return r.visit.label;
+    if(isDining&&r.visit?.year)return String(r.visit.year);
+    const yrs=r.visit?.possibleYears||[];
+    if(isDining&&yrs.length===1)return String(yrs[0]);
+    if(isDining&&yrs.length>1)return String(yrs[0])+"–"+String(yrs[yrs.length-1]).slice(-2);
+    if(r.visit?.date&&r.visit?.precision==="day")return readableDate(r.visit.date);
     if(r.memory?.period)return r.memory.period;
     if(r.visit?.year)return String(r.visit.year);
-    const yrs=r.visit?.possibleYears||[];
     if(yrs.length===1)return String(yrs[0]);
     if(yrs.length>1)return String(yrs[0])+"–"+String(yrs[yrs.length-1]).slice(-2);
     return r.visit?.label||"A time worth remembering";
@@ -213,7 +212,7 @@
     }
     if(badges.childElementCount)host.append(el("h2","","Why it stands out"),badges);
     // Retain dates and party size for provenance without making them the story.
-    const details=el("details","archive-details"),heading=el("summary","","Archive details & sources"),body=el("div","archive-details-body");
+    const details=el("details","archive-details"),heading=el("summary","","Historical notes & sources"),body=el("div","archive-details-body");
     details.append(heading);
     const note=(label,value)=>{if(!value)return;const row=el("p");row.append(el("strong","",label+" "));row.append(document.createTextNode(String(value)));body.append(row);};
     note("Place:",[v.name||r.title,v.city,v.region].filter(Boolean).join(" · "));
@@ -227,7 +226,7 @@
       }
     }
     note("Evidence:",r.visit?.source);
-    if(r.visit?.evidenceType==="completed_reservation"||r.visit?.attendanceCertainty==="not_independently_verified")note("Reservation status:","A completed reservation does not independently prove the meal occurred.");
+    if(r.visit?.evidenceType==="completed_reservation"||r.visit?.attendanceCertainty==="not_independently_verified")note("Booking note:","Reservation dates are archival context; the memory is organized by approximate year and occasion.");
     note("Award context:",r.editorial?.note);
     details.append(body);host.append(details);
   }
@@ -296,7 +295,7 @@
       const sc=byId("screening-count");
       if(sc)sc.textContent=candidates.length+" in "+active+" · "+(screen==="awards"?"Michelin / James Beard candidates":screen==="leads"?"memory leads":"all historical candidates");
       if(!candidates.length){
-        empty(list,"No candidates in this selection.",included.some(x=>x.area===active)?"Switch between Michelin / James Beard, Memory leads, and All candidates.":"This destination has been added to the interview map. Award-eligible restaurant candidates and the history of its chefs will be researched in the next discovery phase.");
+        empty(list,"No candidates in this selection.","Switch between Michelin / James Beard, Memory leads, and All candidates.");
         persist();return;
       }
       const slice=candidates.slice(page*batchSize,(page+1)*batchSize);
