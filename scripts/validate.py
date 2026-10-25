@@ -92,11 +92,12 @@ assert "2010" in interview_data["periods"]["Chicago"]
 assert interview_data["periods"]["St. Louis"].startswith("2011–2014")
 assert interview_data["periods"]["Breckenridge"] == "2021, 2022 and 2023"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "The Aviary")["visitStatus"] == "not_visited"
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "The Violet Hour")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "The Violet Hour")["visitStatus"] == "not_visited"
 office_lead = next(lead for lead in interview_data["memoryLeads"] if lead["id"] == "chicago-the-office-aviary-downstairs-unresolved")
 assert office_lead["visitStatus"] == "unreviewed" and office_lead["publishAsExperience"] is False
 assert office_lead["relatedVenue"] == "The Aviary"
-assert not any(r["title"] in {"The Aviary", "The Office"} for r in records)
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
+assert not any(r["title"] in {"The Aviary", "The Office", "The Violet Hour"} for r in records)
 dominics = next(c for c in candidates if c["name"] == "Dominic's on the Hill")
 assert dominics["visitStatus"] == "confirmed" and dominics["visitPeriod"] == "December 28, 2012"
 assert dominics["researchOnly"] is True
