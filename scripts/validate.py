@@ -357,3 +357,18 @@ assert 'const isDining=["dining","bar"].includes(r.type);' in (ROOT / "assets/ap
 assert 'const allAreas=[...new Set([...included.map(x=>x.area),...Object.keys(db.periods||{})])];' in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert any(x["id"] == "cambridge-uk-restaurants-unknown" and x["publishAsExperience"] is False
            for x in interview_data["memoryLeads"])
+
+# Story-first editorial expansion: source-linked venue history, not invented meal details.
+featured_history = {r["title"]: r for r in records if r["status"] == "confirmed" and r.get("story", {}).get("paragraphs")}
+assert {"North Pond", "Sauvage", "Gunther & Co.", "The Majestic Restaurant", "Manifesto"} <= set(featured_history)
+for title in ("Sauvage", "Gunther & Co.", "The Majestic Restaurant", "Manifesto"):
+    record = featured_history[title]
+    story = record["story"]
+    assert len(story["paragraphs"]) >= 2 and len(story["chapters"]) >= 2
+    assert all(phase.get("year") and phase.get("title") and phase.get("detail") for phase in story["chapters"])
+    assert all(src["url"].startswith("https://") and src["label"] for src in story["sourceUrls"])
+    assert record["status"] == "confirmed"
+assert featured_history["Sauvage"]["visit"].get("year") == 2021
+assert featured_history["Gunther & Co."]["visit"].get("year") == 2020
+assert featured_history["The Majestic Restaurant"]["visit"]["date"] is None
+assert featured_history["Manifesto"]["visit"]["date"] is None

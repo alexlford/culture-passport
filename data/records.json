@@ -1296,7 +1296,37 @@
           "partySize": 4,
           "verification": "historical_reservation_only"
         }
-      ]
+      ],
+      "story": {
+        "headline": "A winter tasting-menu memory in Steamboat",
+        "paragraphs": [
+          "Sauvage is one of the meals you explicitly called a favorite. You place it in Steamboat Springs in January 2021, during the winter season. The memory belongs in the collection because of the experience, not because of a Michelin or James Beard distinction.",
+          "The French-inspired, multicourse restaurant was part of a wave of new dining openings in Steamboat around 2020. Contemporary reporting described a polished but relaxed tasting-menu experience, under the culinary direction of executive chef Garrett Kasper. That history helps place the meal without pretending to know exactly what you ordered.",
+          "The remembered winter visit falls close to the restaurant's opening era. An approximate month and year say enough for the timeline; the people, individual courses, and atmosphere of the evening can be enriched when additional memories return."
+        ],
+        "chapters": [
+          {
+            "year": "2020",
+            "title": "A new French-inspired table",
+            "detail": "Sauvage opens during Steamboat's 2020–21 wave of new restaurants."
+          },
+          {
+            "year": "2021",
+            "title": "Your January visit",
+            "detail": "A winter tasting-menu experience confirmed as a personal favorite."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Steamboat resort — 2021–22 dining history",
+            "url": "https://www.steamboat.com/-/media/steamboat/pdfs/w202122-press-kit.pdf"
+          },
+          {
+            "label": "Modern Luxury — Steamboat dining",
+            "url": "https://www.modernluxury.com/palate-pleasers"
+          }
+        ]
+      }
     },
     {
       "id": "dining-gunther-and-co-baltimore-2020-02-14",
@@ -1348,6 +1378,45 @@
         "story": "You singled out Gunther & Co. as a favorite, especially your Valentine’s Day dinner in Baltimore. The occasion and the setting are the heart of the entry.",
         "period": "Valentine’s Day · 2020",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "story": {
+        "headline": "Valentine's Day in a former Baltimore brewery",
+        "paragraphs": [
+          "February 14, 2020: a Valentine's Day meal you remember fondly enough to preserve even without a culinary award. The specific dishes and companions have not been recorded, but the occasion, the restaurant, and its importance to you have.",
+          "Gunther & Co. opened in 2016 inside the historic boiler building of the former Gunther Brewing Company in Brewers Hill. The restaurant retains an industrial sense of scale: exposed steel, soaring ceilings, old brewery details and a dramatic living wall. The space is part of what makes it different from an ordinary dining room.",
+          "Chef and co-owner Jerry Trice and restaurateur Nancy Hart Trice built a modern American restaurant with global influences. Jerry has described his seasonal ingredient philosophy as influenced by the practical, resourceful cooking he learned from his grandfather. Their restaurant's hospitality and setting provide a richer backdrop for the Valentine's Day memory."
+        ],
+        "chapters": [
+          {
+            "year": "Before 2016",
+            "title": "An industrial Baltimore landmark",
+            "detail": "The Gunther Brewing complex and its former boiler building define the space."
+          },
+          {
+            "year": "2016",
+            "title": "Gunther & Co. opens",
+            "detail": "Jerry Trice and Nancy Hart Trice bring modern American cooking to Brewers Hill."
+          },
+          {
+            "year": "2020",
+            "title": "Valentine's Day dinner",
+            "detail": "A February 14 meal confirmed directly as one of your memorable Baltimore experiences."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Gunther & Co. — founders",
+            "url": "https://eatatgunther.com/about-gco"
+          },
+          {
+            "label": "Baltimore Magazine — 2016 review",
+            "url": "https://www.baltimoremagazine.com/section/fooddrink/review-gunther-and-co/"
+          },
+          {
+            "label": "Gunther & Co. — venue history",
+            "url": "https://eatatgunther.com/events/"
+          }
+        ]
       }
     },
     {
@@ -1444,6 +1513,46 @@
         "story": "You remembered a terrific Kansas City steakhouse with live jazz in a basement bar. That distinctive combination led you back to The Majestic; it is kept because it mattered to you.",
         "period": "Kansas City years",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "story": {
+        "headline": "Steaks and jazz inside a century of Kansas City history",
+        "paragraphs": [
+          "Before the name came back, you remembered the combination: a wonderful Kansas City steakhouse with a jazz room down in the basement. That distinctive atmosphere brought you back to The Majestic. The year of your dinner remains open; the place itself is confirmed.",
+          "The building at 931 Broadway was originally Fitzpatrick's Saloon, opened in 1911. Its cellar took on a different life during Prohibition, when the lower level was used as a speakeasy. That room is today's Jazz Club—a link between the city's storied nightlife and the steakhouse you remembered.",
+          "The historic building was restored in the 1980s, and the Majestic name returned to the site in the early 1990s. The current restaurant opened under that name in November 2009, bringing dry-aged Kansas City steaks and live jazz together. It is an experience worth keeping for its atmosphere, regardless of Michelin or James Beard status."
+        ],
+        "chapters": [
+          {
+            "year": "1911",
+            "title": "Fitzpatrick's Saloon",
+            "detail": "The downtown building opens as a saloon at 10th and Broadway."
+          },
+          {
+            "year": "1920s",
+            "title": "A basement speakeasy",
+            "detail": "The cellar becomes part of the city's Prohibition-era nightlife."
+          },
+          {
+            "year": "2009",
+            "title": "The Majestic returns",
+            "detail": "The present-day restaurant opens under the Majestic name in November."
+          },
+          {
+            "year": "Visit",
+            "title": "The memory that identified the place",
+            "detail": "You remembered the basement jazz club and confirmed this steakhouse; the meal year is still unknown."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "The Majestic — history",
+            "url": "https://majestickc.com/history/"
+          },
+          {
+            "label": "The Majestic — jazz club",
+            "url": "https://majestickc.com/jazz-club/"
+          }
+        ]
       }
     },
     {
@@ -1568,7 +1677,51 @@
           "partySize": 6,
           "verification": "historical_reservation_only"
         }
-      ]
+      ],
+      "story": {
+        "headline": "A basement cocktail room that helped change Kansas City",
+        "paragraphs": [
+          "You remembered Manifesto as an amazing cocktail-bar experience. What stands out is its hidden, subterranean character—a room defined by candlelight, old stone walls, and carefully made drinks. The exact night is unknown, and there's no need to invent one.",
+          "Bartender Ryan Maybee opened Manifesto in 2009 beneath the building at 1924 Main Street. The intimate speakeasy paired a deliberately old-school atmosphere with a modern approach to classic cocktails. A temporary interruption followed the closure of the upstairs restaurant in 2010; the bar later returned alongside the Rieger Hotel Grill & Exchange.",
+          "Manifesto became an influential part of Kansas City's craft-cocktail identity. Its history also connects to the revival of J. Rieger & Co., a local distilling name that Maybee helped bring back. For this Passport, though, the reason for inclusion starts with your own memory of the place."
+        ],
+        "chapters": [
+          {
+            "year": "2009",
+            "title": "Manifesto opens",
+            "detail": "Ryan Maybee establishes the hidden cocktail bar beneath 1924 Main Street."
+          },
+          {
+            "year": "2010",
+            "title": "A brief interruption",
+            "detail": "The bar closes temporarily when its upstairs neighbor shuts down, then reopens."
+          },
+          {
+            "year": "Later",
+            "title": "A lasting local influence",
+            "detail": "Manifesto helps inspire the city's next generation of cocktail bars and the J. Rieger revival."
+          },
+          {
+            "year": "Visit",
+            "title": "An amazing speakeasy",
+            "detail": "You confirmed visiting Manifesto; the exact visit year remains open."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Eater — Ryan Maybee and Manifesto",
+            "url": "https://www.eater.com/2014/4/1/6255373/ryan-maybee-on-his-kansas-city-speakeasy-manifesto"
+          },
+          {
+            "label": "J. Rieger & Co. — brand history",
+            "url": "https://www.jriegerco.com/about"
+          },
+          {
+            "label": "Kansas City Magazine — speakeasies",
+            "url": "https://kansascitymag.com/your-guide-to-14-great-secret-bars-and-speakeasies-in-kansas-city-1/"
+          }
+        ]
+      }
     },
     {
       "id": "bar-death-and-co-denver",

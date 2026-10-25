@@ -91,3 +91,9 @@ The visitor build is a conservative public-facing proposal, **not a decision to 
 - City maps now present filtered category totals and an accessible expandable city directory, with direct links to experiences. Record pages have direct city-level map and Explore links; Explore honors the city in the URL.
 - Map markers remain explicitly **city-centroid** locations. Zoom levels are intentionally capped at city scope and the interface never claims those pins are the venue doorways. Replacing them with exact venue points remains a separate task requiring trustworthy coordinate sources.
 - The clean public preview uses the same component logic, but excludes private research, reservation and interview files. New story material still needs privacy approval before publishing. True rendered desktop/iPhone visual QA remains outstanding until browser-based testing is available.
+
+## Four memory-led restaurant histories (October 2026)
+
+Four previously confirmed venue memories now include separately sourced long-form background (not new first-person claims): **Sauvage** (2020 opening and January 2021 tasting-menu memory), **Gunther & Co.** (historic brewery and Valentine's Day 2020), **The Majestic** (1911 saloon, Prohibition-era jazz room, and current steakhouse), and **Manifesto** (Ryan Maybee's 2009 speakeasy and cocktail-scene legacy). Each story clearly separates the user's firsthand recollection from researched restaurant and chef history, with source links and a compact chronology. **North Pond** already had a rich history and is now displayed by the updated experience-page renderer.
+
+The site's approximate-visit-period rule is unchanged. No meal companions, dishes ordered or exact unknown nights were invented. Restaurant honors were not reclassified; the separate Michelin/James Beard eligibility audit remains on hold.
