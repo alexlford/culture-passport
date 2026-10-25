@@ -441,7 +441,7 @@ assert "do not mark confirmed" in cindy["reviewSource"]
 assert not any(r["title"] == "Cindy's Rooftop" and r["status"] == "confirmed" for r in records)
 friend_chicago = next(l for l in interview_data["memoryLeads"] if l["id"] == "chicago-friend-untitled-cindys-unknown-years")
 assert friend_chicago["unresolvedVenueNames"] == ["Cindy's Rooftop"]
-assert "only POSSIBLY visited" in friend_chicago["note"]
+assert "Cindy\'s Rooftop remains possibly visited" in friend_chicago["note"]
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
 
 # Friend-recalled memories: intentionally curated, not independently attended.
