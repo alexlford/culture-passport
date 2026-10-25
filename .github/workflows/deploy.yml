@@ -5,6 +5,12 @@ name: Deploy Culture Passport
 # On the currently private repository, check GitHub Pages plan/visibility eligibility first.
 on:
   workflow_dispatch:
+    inputs:
+      privacy_review_approved:
+        description: "I reviewed the generated visitor stories, venue data and Git privacy implications"
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: read
@@ -17,6 +23,7 @@ concurrency:
 
 jobs:
   publish:
+    if: ${{ inputs.privacy_review_approved == true }}
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

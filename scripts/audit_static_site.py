@@ -130,6 +130,15 @@ def audit_basic_secrets():
             f.name + ": possible personal email address")
 
 
+def audit_release_approval_gate():
+    workflow = (ROOT / ".github/workflows/deploy.yml").read_text(encoding="utf-8")
+    assert "privacy_review_approved:" in workflow
+    assert "default: false" in workflow
+    assert "inputs.privacy_review_approved == true" in workflow
+    assert "scripts/build_public_preview.py" in workflow
+    assert "path: dist" in workflow
+
+
 def audit_responsive_styles():
     styles = (ROOT / "assets/site.css").read_text(encoding="utf-8")
     for selector in (".skip-link:focus", "@media(max-width:720px)", "safe-area-inset-bottom",
@@ -142,6 +151,7 @@ def main():
     links = audit_pages(records)
     audit_dynamic_data()
     audit_responsive_styles()
+    audit_release_approval_gate()
     audit_basic_secrets()
     print(f"OK: {len(PAGE_NAMES)} static pages, {links} links/assets, {len(records)} archive records;")
     print("staging metadata and local deep links checked. Privacy approval and visual QA remain open.")
