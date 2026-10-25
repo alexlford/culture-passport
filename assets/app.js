@@ -97,6 +97,19 @@
       const mid=el("div");mid.append(el("strong","",r.title),el("small","",v.city+" · "+(r.memory?.headline||"A place in the collection")));
       a.append(mid,el("span","feature-arrow","↗"));host.append(a);
     });
+    const shared=byId("shared-memory-records");
+    if(shared){
+      shared.replaceChildren();
+      db.records.filter(isFriendRecalled).sort((a,b)=>a.title.localeCompare(b.title)).forEach(r=>{
+        const venue=venues.get(r.venueId);
+        const row=link("",href(r),"feature-row friend-memory-row");
+        const label=el("div");
+        label.append(el("strong","",r.title),
+          el("small","",(venue?.city||"Chicago")+" · Friend-recalled · Visit unconfirmed"));
+        row.append(el("span","feature-year","◒"),label,el("span","feature-arrow","↗"));
+        shared.append(row);
+      });
+    }
   }
   function explore(db){
     const host=byId("explore-results"),city=byId("city-filter"),search=byId("search"),count=byId("result-count"),includeMemories=byId("include-memories");
