@@ -154,10 +154,30 @@
     if(typeof window.L!=="undefined"){
       host.replaceChildren();
       leafletMap=L.map(host,{scrollWheelZoom:false,zoomControl:true,minZoom:2});
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-        {attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:18}).addTo(leafletMap);
+      const tileFallback=el("div","map-tile-fallback");
+      tileFallback.hidden=true;
+      tileFallback.setAttribute("role","status");
+      tileFallback.append(el("strong","","Map background unavailable"),
+        el("p","","The city directory still works. Select a city below to explore your experiences."),
+        link("Browse cities ↓","#city-list"));
+      // A tile outage must not turn the page into an unlabelled, empty map.
+      let successfulTiles=0,failedTiles=0;
+      const layer=L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        {attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:18});
+      layer.on("tileload",()=>{
+        successfulTiles+=1;
+        tileFallback.hidden=true;
+      });
+      layer.on("tileerror",()=>{
+        failedTiles+=1;
+        if(successfulTiles===0&&failedTiles>=2)tileFallback.hidden=false;
+      });
+      layer.addTo(leafletMap);
+      host.append(tileFallback);
     }else{
-      host.replaceChildren(el("div","empty","Map tiles unavailable. Choose a city below to browse the experiences."));
+      host.replaceChildren(el("div","empty",
+        "Map background unavailable. Browse the city directory to explore the experiences."),
+        link("Browse cities ↓","#city-list"));
     }
     function render(){
       markers.forEach(m=>{if(leafletMap)leafletMap.removeLayer(m);});

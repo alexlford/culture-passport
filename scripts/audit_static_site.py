@@ -136,6 +136,11 @@ def audit_basic_secrets():
 def audit_editorial_and_city_links(records):
     script = (ROOT / "assets/app.js").read_text(encoding="utf-8")
     assert "#culture-map{overflow:hidden;contain:paint}" in (ROOT / "assets/site.css").read_text(encoding="utf-8")
+    assert 'layer.on("tileerror"' in script
+    assert 'layer.on("tileload"' in script
+    assert 'tileFallback.hidden=false' in script
+    assert 'link("Browse cities ↓","#city-list")' in script
+    assert ".map-tile-fallback[hidden]" in (ROOT / "assets/site.css").read_text(encoding="utf-8")
     assert "r.story?.paragraphs?.length" in script
     assert '"https://www.google.com/maps/search/?"' in script
     assert 'new URLSearchParams({api:"1",query:placeQuery})' in script

@@ -372,3 +372,17 @@ assert featured_history["Sauvage"]["visit"].get("year") == 2021
 assert featured_history["Gunther & Co."]["visit"].get("year") == 2020
 assert featured_history["The Majestic Restaurant"]["visit"]["date"] is None
 assert featured_history["Manifesto"]["visit"]["date"] is None
+
+# Every stored point in the current city map has coherent, truthful precision.
+cities = {}
+for venue in venues:
+    pos = venue["location"]
+    assert pos["precision"] == "city-centroid"
+    assert isinstance(pos["lat"], (int, float)) and -90 <= pos["lat"] <= 90
+    assert isinstance(pos["lng"], (int, float)) and -180 <= pos["lng"] <= 180
+    city_key = (venue["city"], venue.get("region"), venue.get("country"))
+    coord = (pos["lat"], pos["lng"])
+    assert city_key not in cities or cities[city_key] == coord, (
+        "Inconsistent city-level map coordinate: " + venue["name"]
+    )
+    cities[city_key] = coord

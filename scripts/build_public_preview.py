@@ -53,8 +53,15 @@ def sanitize_record(record):
     selected = safe_fields(
         record,
         ("id", "type", "title", "venueId", "status", "summary", "sourceUrl",
-         "favorite", "production", "story"),
+         "favorite", "story"),
     )
+    if record.get("production"):
+        # Preserve public theater-program context, not internal date evidence.
+        selected["production"] = safe_fields(
+            record["production"],
+            ("name", "titleConfirmed", "engagementWindow",
+             "identificationConfidence", "sourceUrl")
+        )
     v = record["visit"]
     selected["visit"] = safe_fields(
         v, ("date", "year", "possibleYears", "label", "precision", "timeWindow")
@@ -118,6 +125,27 @@ class LinkScanner(HTMLParser):
                 self.urls.append(a[key])
 
 
+PRIVATE_FIELD_NAMES = {
+    "reservations", "reservationEvidence", "reservationDate", "bookingEvidence",
+    "reviewSource", "interviewNote", "interviewAnswers", "screening",
+    "userMemoryLead", "partySize", "attendanceCertainty", "evidenceType",
+    "exactAttendanceDate", "screenshot", "researchStatus",
+    "confirmedVisitSource", "visitSource", "source", "curation"
+}
+
+
+def assert_no_private_fields(value, path="visitor"):
+    if isinstance(value, dict):
+        for key, child in value.items():
+            assert key not in PRIVATE_FIELD_NAMES, (
+                f"Private field {path}.{key} reached the public preview"
+            )
+            assert_no_private_fields(child, f"{path}.{key}")
+    elif isinstance(value, list):
+        for i, child in enumerate(value):
+            assert_no_private_fields(child, f"{path}[{i}]")
+
+
 def validate_export(output, count):
     files = {str(p.relative_to(output)) for p in output.rglob("*") if p.is_file()}
     required = set(VISITOR_PAGES) | DIST_FILES | {
@@ -127,6 +155,7 @@ def validate_export(output, count):
     assert "data/interview.json" not in files and "data/reservation-evidence.json" not in files
     data = json.loads((output / "data/records.json").read_text(encoding="utf-8"))
     assert len(data["records"]) == count
+    assert_no_private_fields(data)
     assert all(r["status"] == "confirmed" for r in data["records"])
     assert all(not any(key in r for key in REDACTED) for r in data["records"])
     assert {r["venueId"] for r in data["records"]} == {v["id"] for v in data["venues"]}
