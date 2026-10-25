@@ -87,6 +87,15 @@ try{
       const metrics=await pageCheck(page,url,selector,name);
       console.log("PASS",name,url,metrics.width,metrics.documentWidth);
     }
+    await page.goto(BASE+"index.html",{waitUntil:"domcontentloaded"});
+    await page.locator("#shared-memory-records a.feature-row").first().waitFor();
+    assert((await page.locator("#shared-memory-records a.feature-row").count())===2,
+      "Exactly two unconfirmed friend memories should appear in their own home section");
+    const summary=await page.locator(".metrics").innerText();
+    const verifiedCount=data.records.filter(r=>r.status==="confirmed"&&
+      ["dining","bar"].includes(r.type)&&r.editorial?.awardQualified).length;
+    assert((await page.locator("#total-records").innerText())===String(verifiedCount),
+      "Home awards counter must exclude unconfirmed shared memories");
     await page.goto(BASE+"explore.html",{waitUntil:"domcontentloaded"});
     await page.locator("#explore-results a.record-card").first().waitFor();
     await page.locator("#search").fill("Sauvage");
