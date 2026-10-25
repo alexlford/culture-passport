@@ -26,7 +26,7 @@
     "maybe",
     "not_visited"
   ],
-  "notes": "Recognition year may predate or postdate the user's potential visit. An honor awarded to a chef is recorded as a chef honor, not proof that a restaurant received a Michelin star. Charleston is a confirmed visit and is prefilled as visited; do not require re-interview or let stale browser state override that. Woodberry Kitchen is also a confirmed visit; the restaurant interview must lock this answer as visited while retaining the 2015 chef award as pre-visit recognition. In the first-person interview, Alex explicitly ruled out Clavel as a Baltimore visit (2018–2021); it stays in interview results as not visited and is never counted as a restaurant visit. Cinghiale was explicitly ruled out in the user's Baltimore interview and must not be counted as a visit. Petit Louis Bistro is directly ruled out as an 2018–2021 Baltimore visit, and browser interview answers must not override this. Foraged originally served in Hampden and relocated to Station North in late 2021. Foraged is explicitly ruled out during Baltimore 2018–2021. Alex recalled visiting a David Chang restaurant in Washington DC, without naming the venue. Momofuku CCDC is a strong historically supported identity lead, but MUST remain unconfirmed and must NOT increment confirmed visit or Michelin-star counts until Alex identifies the venue. Ekiben is explicitly not visited (Baltimore 2018–2021). Momofuku CCDC is now specifically confirmed by Alex; the restaurant was identified in Washington, DC, and held a 2019 Michelin Plate distinction, not a star. Its exact visit date remains unknown. Its chef-founder David Chang's 2013 James Beard win was at a different location in NYC. On October 25, Alex marked Alma Cocina Latina as possibly visited during Baltimore 2018–2021; this is an explicit uncertain interview response and does not make a confirmed restaurant visit. Magdalena interview clues now distinguish pre-2020 fine dining from the October 2020 Maryland Bistro rebrand. Keep discovering period-appropriate restaurants in Baltimore/DC and Colorado based on the user's reported favorite meals. The Pendry restaurant identity remains an unconfirmed lead until the user verifies Rec Pier Chop House. Continued discovery batch 2026-10-25: 15 additional time-compatible Baltimore/DC restaurant candidates from dated historical sources. All remain unreviewed and excluded from public experience totals. Interview returns to Magdalena next; candidate discovery can continue periodically during future review sessions. Gunther & Co. appears as a confirmed dining record in the Culture Passport source archive. Its candidate status is locked as confirmed rather than inviting duplicate confirmation. Two new interview areas from direct user history: Charleston, South Carolina, three-month stay 2017–2018, and Kansas City metro frequent visits from 2010–present. The Majestic Restaurant is a strong identification lead for steakhouse + basement jazz, not confirmed by name. Distinguish James Beard chef awards from awards for the restaurant; consider post-visit award years. Confirmed by user: The Majestic Restaurant (Kansas City), Rec Pier Chop House (Baltimore). User dated Breckenridge Distillery dining to three separate years 2021/2022/2023; NYC speakeasy interview window 2018–2020; Chicago and Kansas City 2010–present; St Louis Hill Italian meal 2011–2014. None of these regional windows establish a visit to any unconfirmed candidate. Breckenridge has three year-specific Culture experience IDs attached to one venue. User uploaded OpenTable reservation screenshots on 2026-10-25. They establish Dominic's on the Hill (2012-12-28), Q House (2021-10-21), Wildflower (2022-03-21), Uchi Denver (2022-05-15), and other completed reservations. Le Fou Frog intentionally omitted from the published records and ledger per user's opt-out. Mister Oso reservation is WASH PARK, unlike the Bib Gourmand RiNo location. NYC PDT (Please Don't Tell) classified as a possibly visited bar during 2018–2020, not confirmed. The bar's 2012 James Beard Outstanding Bar Program victory is independently verified. Nine further JBF-recognized bar leads from 2018, 2025 and 2026: none counted as visited. Person-level JBF distinctions remain attributed to the person. User's direct 2026-10-25 interview response: The Dead Rabbit was NOT visited in NYC 2018–2020. PDT (Please Don't Tell) remains a possible visit only. Do not promote either to confirmed experiences or counts. North Pond Chicago is an unreviewed Michelin/James Beard candidate proposed in an independently merged update; this lead has not been confirmed by name. Mister Oso is a CONFIRMED restaurant visit; tell the family story with Señor Bear, RiNo 2019, Wash Park 2022, and Michelin's 2023 Bib Gourmand for the RiNo original. No extra branch-level interview question is necessary. Additional Boulder and mountain-town Michelin Guide candidates added from Michelin's official 2026 Colorado list for faster, batch-style questioning. Entries are leads only, no user visit claims. User explicitly marked Dante (Greenwich Village NYC) not visited during 2018–2020. Preserve PDT possibly visited and Dead Rabbit/Leyenda not visited, and skip repeat questions for answered venues. NYC cocktail interview: Bar Goto explicitly not visited (2018–2020). Previous answers are preserved: PDT possible, The Dead Rabbit not visited, Leyenda not visited and Dante not visited. Existing Conditions is the next unanswered James Beard-recognized bar. Recent rapid-fire results synchronized: Annette, Mercantile, North Pond, Barolo confirmed; Lucina maybe; KC BBQ Joe's, Q39, Arthur Bryant's and Jack Stack confirmed but archive-only due to no direct Michelin/JBF recognition; Jack Stack location unconfirmed. Avoid duplicate candidate questions. Personal Culture Passport continues to concerts, opera, plays and other arts. The Aviary (Chicago) explicitly not visited on 2026-10-25; The Office downstairs remains separately unreviewed and must not inherit Aviary's award. The Violet Hour is the next Chicago qualifying cocktail bar to interview. Chicago cocktail-bar interview: The Violet Hour explicitly not visited (2026-10-25); previous response The Aviary not visited; The Office downstairs separately unreviewed. Continue with Lost Lake (not yet answered).",
+  "notes": "Recognition year may predate or postdate the user's potential visit. An honor awarded to a chef is recorded as a chef honor, not proof that a restaurant received a Michelin star. Charleston is a confirmed visit and is prefilled as visited; do not require re-interview or let stale browser state override that. Woodberry Kitchen is also a confirmed visit; the restaurant interview must lock this answer as visited while retaining the 2015 chef award as pre-visit recognition. In the first-person interview, Alex explicitly ruled out Clavel as a Baltimore visit (2018–2021); it stays in interview results as not visited and is never counted as a restaurant visit. Cinghiale was explicitly ruled out in the user's Baltimore interview and must not be counted as a visit. Petit Louis Bistro is directly ruled out as an 2018–2021 Baltimore visit, and browser interview answers must not override this. Foraged originally served in Hampden and relocated to Station North in late 2021. Foraged is explicitly ruled out during Baltimore 2018–2021. Alex recalled visiting a David Chang restaurant in Washington DC, without naming the venue. Momofuku CCDC is a strong historically supported identity lead, but MUST remain unconfirmed and must NOT increment confirmed visit or Michelin-star counts until Alex identifies the venue. Ekiben is explicitly not visited (Baltimore 2018–2021). Momofuku CCDC is now specifically confirmed by Alex; the restaurant was identified in Washington, DC, and held a 2019 Michelin Plate distinction, not a star. Its exact visit date remains unknown. Its chef-founder David Chang's 2013 James Beard win was at a different location in NYC. On October 25, Alex marked Alma Cocina Latina as possibly visited during Baltimore 2018–2021; this is an explicit uncertain interview response and does not make a confirmed restaurant visit. Magdalena interview clues now distinguish pre-2020 fine dining from the October 2020 Maryland Bistro rebrand. Keep discovering period-appropriate restaurants in Baltimore/DC and Colorado based on the user's reported favorite meals. The Pendry restaurant identity remains an unconfirmed lead until the user verifies Rec Pier Chop House. Continued discovery batch 2026-10-25: 15 additional time-compatible Baltimore/DC restaurant candidates from dated historical sources. All remain unreviewed and excluded from public experience totals. Interview returns to Magdalena next; candidate discovery can continue periodically during future review sessions. Gunther & Co. appears as a confirmed dining record in the Culture Passport source archive. Its candidate status is locked as confirmed rather than inviting duplicate confirmation. Two new interview areas from direct user history: Charleston, South Carolina, three-month stay 2017–2018, and Kansas City metro frequent visits from 2010–present. The Majestic Restaurant is a strong identification lead for steakhouse + basement jazz, not confirmed by name. Distinguish James Beard chef awards from awards for the restaurant; consider post-visit award years. Confirmed by user: The Majestic Restaurant (Kansas City), Rec Pier Chop House (Baltimore). User dated Breckenridge Distillery dining to three separate years 2021/2022/2023; NYC speakeasy interview window 2018–2020; Chicago and Kansas City 2010–present; St Louis Hill Italian meal 2011–2014. None of these regional windows establish a visit to any unconfirmed candidate. Breckenridge has three year-specific Culture experience IDs attached to one venue. User uploaded OpenTable reservation screenshots on 2026-10-25. They establish Dominic's on the Hill (2012-12-28), Q House (2021-10-21), Wildflower (2022-03-21), Uchi Denver (2022-05-15), and other completed reservations. Le Fou Frog intentionally omitted from the published records and ledger per user's opt-out. Mister Oso reservation is WASH PARK, unlike the Bib Gourmand RiNo location. NYC PDT (Please Don't Tell) classified as a possibly visited bar during 2018–2020, not confirmed. The bar's 2012 James Beard Outstanding Bar Program victory is independently verified. Nine further JBF-recognized bar leads from 2018, 2025 and 2026: none counted as visited. Person-level JBF distinctions remain attributed to the person. User's direct 2026-10-25 interview response: The Dead Rabbit was NOT visited in NYC 2018–2020. PDT (Please Don't Tell) remains a possible visit only. Do not promote either to confirmed experiences or counts. North Pond Chicago is an unreviewed Michelin/James Beard candidate proposed in an independently merged update; this lead has not been confirmed by name. Mister Oso is a CONFIRMED restaurant visit; tell the family story with Señor Bear, RiNo 2019, Wash Park 2022, and Michelin's 2023 Bib Gourmand for the RiNo original. No extra branch-level interview question is necessary. Additional Boulder and mountain-town Michelin Guide candidates added from Michelin's official 2026 Colorado list for faster, batch-style questioning. Entries are leads only, no user visit claims. User explicitly marked Dante (Greenwich Village NYC) not visited during 2018–2020. Preserve PDT possibly visited and Dead Rabbit/Leyenda not visited, and skip repeat questions for answered venues. NYC cocktail interview: Bar Goto explicitly not visited (2018–2020). Previous answers are preserved: PDT possible, The Dead Rabbit not visited, Leyenda not visited and Dante not visited. Existing Conditions is the next unanswered James Beard-recognized bar. Recent rapid-fire results synchronized: Annette, Mercantile, North Pond, Barolo confirmed; Lucina maybe; KC BBQ Joe's, Q39, Arthur Bryant's and Jack Stack confirmed but archive-only due to no direct Michelin/JBF recognition; Jack Stack location unconfirmed. Avoid duplicate candidate questions. Personal Culture Passport continues to concerts, opera, plays and other arts. The Aviary (Chicago) explicitly not visited on 2026-10-25; The Office downstairs remains separately unreviewed and must not inherit Aviary's award. The Violet Hour is the next Chicago qualifying cocktail bar to interview. Chicago cocktail-bar interview: The Violet Hour explicitly not visited (2026-10-25); previous response The Aviary not visited; The Office downstairs separately unreviewed. Continue with Lost Lake (not yet answered). Chicago identification clues from friend (2026-10-25): Untitled Supper Club and Cindy's Rooftop at the Chicago Athletic Association, both friend-reported only and awaiting user's confirmation. Untitled is a Michelin Bib Gourmand (2019–2020); Cindy's was a 2016 James Beard design nominee. Cherry Circle Room separately won 2016 design award, NOT assumed visited.",
   "candidates": [
     {
       "id": "altimore-charleston",
@@ -4999,6 +4999,84 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-chicago-untitled-supper-club",
+      "area": "Chicago",
+      "name": "Untitled Supper Club",
+      "recognition": "2019 and 2020 Michelin Chicago Bib Gourmand",
+      "recognitionYear": 2019,
+      "awardFamily": "michelin",
+      "sourceUrl": "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+      "visitStatus": "maybe",
+      "venueType": "restaurant",
+      "priority": "high",
+      "addedOn": "2026-10-25",
+      "interviewCue": "111 W Kinzie St, River North. Speakeasy-themed supper club with cocktails, jazz, cabaret and live music; friend mentions a birthday visit, year unknown.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-25",
+        "note": "Michelin official 2019 and 2020 Bib Gourmand selections list Untitled Supper Club; designation is not a Michelin star. No user-verified meal date."
+      },
+      "visitPeriod": "Chicago trips, 2010–present; friend recalls a birthday visit, exact year unknown",
+      "reviewedOn": "2026-10-25",
+      "reviewSource": "Friend text screenshot shared October 25, 2026: 'We went to Untitled Supperclub for my birthday one year.'",
+      "reviewNote": "Friend-corrobated shared outing, not separately confirmed by user. The message speaker's birthday is implied; do not assert precise date or user birthday. Do not publish as confirmed."
+    },
+    {
+      "id": "candidate-chicago-cindys-rooftop",
+      "area": "Chicago",
+      "name": "Cindy's Rooftop",
+      "recognition": "2016 James Beard Outstanding Restaurant Design (76 Seats and Over) nominee; designers Roman and Williams",
+      "recognitionYear": 2016,
+      "awardFamily": "beard",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+      "visitStatus": "maybe",
+      "venueType": "cocktail_bar",
+      "priority": "high",
+      "addedOn": "2026-10-25",
+      "interviewCue": "13th floor of the Chicago Athletic Association hotel, 12 S Michigan Ave; glass atrium, views toward Millennium Park and Lake Michigan. Not the Cherry Circle Room.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-25",
+        "note": "James Beard Foundation lists Cindy's Rooftop Restaurant, designed by Roman and Williams, as a 2016 Outstanding Restaurant Design nominee (76 Seats and Over); not a culinary/bar-program award."
+      },
+      "visitPeriod": "Chicago trips, 2010–present; exact year unknown",
+      "reviewedOn": "2026-10-25",
+      "reviewSource": "Friend message screenshot shared October 25, 2026: 'One was in Chicago Athletic' and identification 'Cindy’s Rooftop Bar.'",
+      "reviewNote": "Friend reported this specific rooftop bar; user has not independently affirmed the visit. James Beard design nomination refers to the restaurant interior/design, not an Outstanding Bar Program award. Do not confuse with Cherry Circle Room or infer a meal."
+    },
+    {
+      "id": "candidate-chicago-cherry-circle-room",
+      "area": "Chicago",
+      "name": "Cherry Circle Room",
+      "recognition": "2016 James Beard Outstanding Restaurant Design (76 Seats and Over) winner; designers Land and Sea Dept.",
+      "recognitionYear": 2016,
+      "awardFamily": "beard",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-beard-award-winners",
+      "visitStatus": "unreviewed",
+      "venueType": "restaurant",
+      "priority": "high",
+      "addedOn": "2026-10-25",
+      "interviewCue": "Distinct restaurant inside Chicago Athletic Association, separate from Cindy's Rooftop. One did not necessarily visit the other.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2016-beard-award-winners",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-25",
+        "note": "2016 James Beard Restaurant Design winner for Land and Sea Dept. at Cherry Circle Room; not a dining or cocktail award. No asserted personal visit."
+      },
+      "visitPeriod": null,
+      "reviewedOn": "2026-10-25",
+      "reviewSource": "Discovered as a separate James Beard-recognized venue when cross-checking friend's Chicago Athletic Association clue; not named as a personal visit.",
+      "reviewNote": "Do not infer attendance from friend's likely visit to Cindy's. May be relevant to ask about separately."
     }
   ],
   "source": {
@@ -5103,6 +5181,26 @@
       "note": "Do not infer a visit or nonvisit to The Office from the negative interview response for The Aviary. Alinea Group describes The Office as a distinct 21-seat basement speakeasy. No separate James Beard award for The Office is asserted. Distinct-venue interview lead only.",
       "sourceUrl": "https://www.thealineagroup.com/office",
       "publishAsExperience": false
+    },
+    {
+      "id": "chicago-friend-untitled-cindys-unknown-years",
+      "category": "dining_and_cocktails",
+      "name": "Chicago friend recollections — Untitled Supper Club and Cindy's Rooftop",
+      "status": "awaiting_user_confirmation",
+      "venueIdentityConfirmed": true,
+      "visitStatus": "maybe",
+      "visitDate": null,
+      "visitPeriod": "Chicago trips between 2010 and present; exact years unknown",
+      "possibleRegions": [
+        "Chicago, Illinois"
+      ],
+      "publishAsExperience": false,
+      "venueCandidates": [
+        "Untitled Supper Club",
+        "Cindy's Rooftop"
+      ],
+      "note": "A friend reports 'We went to Untitled Supperclub for my birthday one year' and, separately, a bar at Chicago Athletic Association identified as Cindy's Rooftop. Both are strong friend-supplied visit leads, not independently user-confirmed; do not infer date, companions, meal, or Cherry Circle Room visit. No public experience record until the user confirms.",
+      "source": "User-shared text screenshots, October 25, 2026"
     }
   ]
 }
