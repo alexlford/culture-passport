@@ -96,7 +96,7 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Th
 office_lead = next(lead for lead in interview_data["memoryLeads"] if lead["id"] == "chicago-the-office-aviary-downstairs-unresolved")
 assert office_lead["visitStatus"] == "unreviewed" and office_lead["publishAsExperience"] is False
 assert office_lead["relatedVenue"] == "The Aviary"
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
 for venue_name, expected_status in (("Untitled Supper Club", "confirmed"), ("Cindy's Rooftop", "maybe")):
     lead = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == venue_name)
     assert lead["visitStatus"] == expected_status
@@ -442,7 +442,7 @@ assert not any(r["title"] == "Cindy's Rooftop" and r["status"] == "confirmed" fo
 friend_chicago = next(l for l in interview_data["memoryLeads"] if l["id"] == "chicago-friend-untitled-cindys-unknown-years")
 assert friend_chicago["unresolvedVenueNames"] == ["Cindy's Rooftop"]
 assert "only POSSIBLY visited" in friend_chicago["note"]
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
 
 # Friend-recalled memories: intentionally curated, not independently attended.
 recalled = [r for r in records if r["status"] == "recollected"]
@@ -458,8 +458,15 @@ assert gilt["visitStatus"] == "maybe"
 assert gilt["memoryRecordId"] == next(r["id"] for r in recalled if r["title"] == "The Library at Gilt Bar")
 assert next(r for r in recalled if r["title"] == "The Library at Gilt Bar")["editorial"]["awardQualified"] is False
 assert all(any(x["id"] == r["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"]) for r in recalled)
-assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "Chicago")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "Chicago")["visitStatus"] == "not_visited"
 assert "const inCollection=" in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert 'record["status"] == "recollected"' in (ROOT / "scripts/build_public_preview.py").read_text(encoding="utf-8")
 audit_recalled = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))["recollectedMemoryVenues"]
 assert {x["experienceId"] for x in audit_recalled} == {r["id"] for r in recalled}
+
+# Concurrent direct user interview explicitly excluded Lost Lake.
+lost_lake = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")
+assert lost_lake["visitStatus"] == "not_visited"
+assert "did not visit" in lost_lake["reviewSource"]
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "unreviewed"
+assert not any(r["title"] == "Lost Lake" for r in records)
