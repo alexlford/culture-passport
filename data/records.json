@@ -38,7 +38,7 @@
     "musicAndDining": "Attending a restaurant with live jazz does not automatically count as a distinct concert. Require a separately confirmed performance before adding a concert record.",
     "awardFocusedCollection": "Default Culture Passport Dining chapter shows only venues with verified historical Michelin inclusion or James Beard recognition of restaurant itself or chef at that restaurant. Memory-only confirmed visits are preserved but hidden by default, discoverable with a separate toggle. Recognition year may differ from dinner year.",
     "curated": "Default Culture Passport dining views show confirmed restaurants with documented Michelin Guide recognition (star, Bib, Selected, historic Plate) or directly associated James Beard awards, finalists or semifinalists. Those awards retain their recipient and year. Chef awards at unrelated restaurants or historical awards dated after a dinner may be context, not proof of qualification at the meal date. Unverified and outside-scope visits stay in archive but are hidden from curated browsing by default.",
-    "featuredExceptions": "Venue-specific Michelin/JBF honors are the default inclusion criteria, but the user's express favorites Sauvage, Gunther & Co., Death & Co Denver and provisional favorite The Majestic are displayed in the primary collection despite no established qualifying award.",
+    "featuredExceptions": "Venue-specific Michelin/JBF honors are the default inclusion criteria, but the user's express favorites Sauvage, Gunther & Co., Death & Co Denver and provisional favorite The Majestic are displayed in the primary collection despite no established qualifying award. FiNO was added as a user-selected confirmed 2026 visit without award recognition; this does not imply it is a personal favorite.",
     "beverages": "Stand-alone cocktail bars are type=bar, never counted as restaurants. James Beard Outstanding Bar Program includes bar semifinalists. Never borrow recognition from another location within a chain.",
     "repeatVisits": "A venue may be visited in multiple years. Each confirmed year is represented as a separate experience record with a stable unique ID, sharing one venue ID; do not manufacture precise calendar dates or collapse years into one event.",
     "reservationEvidence": "Date and party size from completed reservation screenshots are documentary evidence, not independent proof of check-in or dining. Only directly restaurant-level Michelin/JBF recognition enters the curated collection automatically. The user explicitly excluded Le Fou Frog: it must not enter any deployed venue/experience ledger, even though its date appears in private conversation uploads.",
@@ -794,6 +794,36 @@
         "precision": "city-centroid"
       },
       "sourceId": "santana"
+    },
+    {
+      "id": "venue-sap-sua-denver",
+      "name": "Sắp Sửa",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "2550 East Colfax Avenue, Denver, CO 80206",
+      "neighborhood": "East Colfax / Congress Park",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "sap-sua-denver"
+    },
+    {
+      "id": "venue-fino-denver",
+      "name": "FiNO",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "3015 East Colfax Avenue, Denver, CO 80206",
+      "neighborhood": "East Colfax / All Inn Hotel",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "fino-denver"
     }
   ],
   "records": [
@@ -3617,6 +3647,190 @@
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "dining-sap-sua-denver-2024",
+      "type": "dining",
+      "title": "Sap Sua",
+      "venueId": "venue-sap-sua-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": 2024,
+        "possibleYears": [
+          2024
+        ],
+        "label": "2024",
+        "precision": "approximate_year",
+        "source": "Alex directly reported dining at Sap Sua in Denver during 2024 on October 25, 2026.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A confirmed 2024 visit to Sắp Sửa, the modern Vietnamese-American restaurant on East Colfax founded by chefs Anna and Ni Nguyen. The specific company, dishes and occasion remain to be remembered.",
+      "memory": {
+        "headline": "Sap Sua on Colfax in 2024",
+        "teaser": "A Denver meal at Anna and Ni Nguyen's inventive Vietnamese-American restaurant.",
+        "story": "I visited Sap Sua in Denver in 2024. Chefs Anna and Ni Nguyen created a modern Vietnamese-American restaurant on East Colfax; I can add what we ate, who was there, and what made the evening memorable when those details return.",
+        "period": "2024",
+        "source": "Direct user confirmation of restaurant and approximate year; venue and chef context independently sourced."
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "result": "semifinalist",
+          "category": "Best New Restaurant",
+          "recipient": "Sắp Sửa",
+          "relationship": "restaurant itself",
+          "timingRelativeToVisit": "within_same_calendar_year_exact_meal_date_unknown",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        }
+      ],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin recognition is asserted. 2024 James Beard semifinalist recognition belongs to the restaurant, not a Michelin Guide distinction."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard",
+        "note": "2024 James Beard Best New Restaurant semifinalist; 2024 meal year directly recalled, exact date unknown."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "james_beard",
+        "reason": "Restaurant itself was named a James Beard Best New Restaurant semifinalist in 2024, the user's approximate visit year.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "official_james_beard_source_and_direct_year_recollection"
+      },
+      "story": {
+        "headline": "Vietnamese-American cooking on East Colfax",
+        "paragraphs": [
+          "This is a 2024 Denver dining memory. The restaurant and approximate year are confirmed; the particular evening, companions and dishes are still open for the personal story.",
+          "Chefs Anna and Ni Nguyen opened Sắp Sửa in June 2023, bringing interpretations of Vietnamese dishes shaped by family traditions and their work in professional kitchens. The name reflects a sense of being on the way to something new.",
+          "In January 2024 the James Beard Foundation named Sắp Sửa a Best New Restaurant semifinalist. That restaurant-level recognition adds context, without implying a Michelin star or establishing the precise visit night."
+        ],
+        "chapters": [
+          {
+            "year": "2023",
+            "title": "The restaurant opens",
+            "detail": "Anna and Ni Nguyen open Sắp Sửa on East Colfax after a series of pop-up dinners."
+          },
+          {
+            "year": "2024",
+            "title": "A new-restaurant recognition and a visit",
+            "detail": "Sắp Sửa is named a James Beard Best New Restaurant semifinalist; the year of the Denver dining visit is confirmed."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2024 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+          },
+          {
+            "label": "Sắp Sửa — restaurant and founders",
+            "url": "https://www.sapsua.com/about/"
+          },
+          {
+            "label": "Bon Appétit — chefs and restaurant",
+            "url": "https://www.bonappetit.com/story/dinner-sos-the-best-new-restaurants-edition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-fino-denver-2026",
+      "type": "dining",
+      "title": "FiNO",
+      "venueId": "venue-fino-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": 2026,
+        "possibleYears": [
+          2026
+        ],
+        "label": "2026",
+        "precision": "approximate_year",
+        "source": "Alex directly reported dining at Fino in Denver during 2026 on October 25, 2026.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A confirmed 2026 visit to FiNO, the coastal Mediterranean restaurant inside Denver's restored All Inn Hotel on East Colfax. The restaurant opened in March 2026.",
+      "memory": {
+        "headline": "FiNO, in its first year on Colfax",
+        "teaser": "Coastal Mediterranean small plates in a restored midcentury Denver hotel.",
+        "story": "I visited FiNO in Denver in 2026, the year the restaurant opened. It's part of the restored All Inn Hotel on East Colfax, with a coastal Mediterranean concept. The specific meal, company and atmosphere of the evening can be added later.",
+        "period": "2026",
+        "source": "Direct user confirmation of restaurant and year; hotel and restaurant context independently sourced."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin Guide inclusion or venue-specific James Beard award has been established for FiNO. The user explicitly chose to add this visited restaurant to Culture Passport."
+      },
+      "sourceUrl": "https://www.finocolfax.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": true,
+        "exceptionPriority": "user_requested_inclusion",
+        "collection": "user_selected_dining",
+        "basis": null,
+        "note": "Explicitly included at user's request as a confirmed 2026 visit; not declared a favorite and no Michelin/James Beard award claimed."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No direct Michelin or James Beard recognition verified as of the time of this record; the user explicitly asked to include the visit.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-10-25",
+        "confidence": "direct_user_confirmation_no_award_claim"
+      },
+      "story": {
+        "headline": "A new Mediterranean table in a midcentury hotel",
+        "paragraphs": [
+          "The restaurant and year are known: FiNO in 2026. The people, dishes and particular night remain to be recalled.",
+          "FiNO opened in March 2026 at the restored All Inn Hotel, a revival of a midcentury East Colfax property. Its menu draws on the coastal Mediterranean and encourages sharing small plates, wine and cocktails over a longer evening.",
+          "The atmosphere and restaurant's first year give the visit a place in Denver's evolving dining story; no Michelin or James Beard award is claimed for this venue."
+        ],
+        "chapters": [
+          {
+            "year": "Midcentury",
+            "title": "A motel on Colfax",
+            "detail": "The original property dates to Denver's midcentury motor-inn era."
+          },
+          {
+            "year": "2026",
+            "title": "FiNO opens and the visit",
+            "detail": "The restaurant launches in March 2026 inside the redeveloped All Inn Hotel; the meal is recalled as a 2026 experience."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "FiNO — restaurant philosophy and location",
+            "url": "https://www.finocolfax.com/"
+          },
+          {
+            "label": "DiningOut — FiNO opening and design",
+            "url": "https://diningout.com/denver/fino-opens-denver-colfax/"
+          },
+          {
+            "label": "Denver Gazette — All Inn Hotel restoration",
+            "url": "https://www.denvergazette.com/2026/04/09/inside-denvers-new-all-inn-hotel-another-restoration-of-east-colfaxs-motel-heydays/"
+          }
+        ]
       }
     }
   ],

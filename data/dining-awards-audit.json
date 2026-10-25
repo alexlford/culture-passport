@@ -1,7 +1,7 @@
 {
   "version": 1,
   "auditedOn": "2026-10-25",
-  "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals.",
+  "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
     "personal": "User explicitly chose to preserve a personally meaningful venue regardless of award.",
@@ -10,10 +10,10 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 24,
-    "distinctPublishedVenues": 22,
-    "recognized": 15,
-    "featuredPersonal": 4,
+    "canonExperienceRecords": 26,
+    "distinctPublishedVenues": 24,
+    "recognized": 16,
+    "featuredPersonal": 5,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 6,
     "possibleVisitLeads": 3,
@@ -490,6 +490,48 @@
       ],
       "editorialNote": "One Michelin star in the 2021 Guide at visit; Bruce Sherman won the 2012 JBF Best Chef: Great Lakes award at North Pond, but had departed daily leadership by 2021.",
       "visitConfidence": "user_confirmed_or_recorded_reservation"
+    },
+    {
+      "venueId": "venue-sap-sua-denver",
+      "name": "Sap Sua",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-sap-sua-denver-2024"
+      ],
+      "rememberedPeriods": [
+        "2024"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "https://www.sapsua.com/about/"
+      ],
+      "recognitionSummary": [
+        "2024 James Beard Best New Restaurant semifinalist"
+      ],
+      "editorialNote": "Verified 2024 James Beard Best New Restaurant semifinalist for Sắp Sửa; 2024 meal remembered.",
+      "visitConfidence": "direct_user_confirmed_approximate_year"
+    },
+    {
+      "venueId": "venue-fino-denver",
+      "name": "FiNO",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-fino-denver-2026"
+      ],
+      "rememberedPeriods": [
+        "2026"
+      ],
+      "recognitionStatus": "featured_personal_exception",
+      "sourceUrls": [
+        "https://www.finocolfax.com/",
+        "https://diningout.com/denver/fino-opens-denver-colfax/"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Explicit 2026 user-selected inclusion; no Michelin/James Beard recognition claimed, not characterized as a favorite.",
+      "visitConfidence": "direct_user_confirmed_approximate_year"
     }
   ],
   "confirmedArchiveOnly": [
@@ -588,7 +630,7 @@
       "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower"
     }
   ],
-  "interviewCandidateCount": 178,
+  "interviewCandidateCount": 180,
   "artsNext": {
     "concerts": "Collect artist, venue, tour/event, city, approximate year and the memory rather than set times.",
     "opera": "Collect production, opera house, approximate year and occasion.",
