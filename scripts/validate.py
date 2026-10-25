@@ -432,3 +432,14 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Ci
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "unreviewed"
 assert any(x["id"] == untitled["id"] and x["status"] == "pending"
            for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+
+# Cindy's Rooftop deliberately remains provisional after direct user reply.
+cindy = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")
+assert cindy["visitStatus"] == "maybe"
+assert "possibly visited" in cindy["reviewSource"]
+assert "do not mark confirmed" in cindy["reviewSource"]
+assert not any(r["title"] == "Cindy's Rooftop" for r in records)
+friend_chicago = next(l for l in interview_data["memoryLeads"] if l["id"] == "chicago-friend-untitled-cindys-unknown-years")
+assert friend_chicago["unresolvedVenueNames"] == ["Cindy's Rooftop"]
+assert "only POSSIBLY visited" in friend_chicago["note"]
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
