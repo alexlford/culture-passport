@@ -824,6 +824,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "fino-denver"
+    },
+    {
+      "id": "venue-untitled-supper-club-chicago",
+      "name": "Untitled Supper Club",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "neighborhood": "River North",
+      "address": "111 W Kinzie Street, Chicago, IL 60654",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "untitled-supper-club-chicago-confirmed"
     }
   ],
   "records": [
@@ -3829,6 +3844,98 @@
           {
             "label": "Denver Gazette — All Inn Hotel restoration",
             "url": "https://www.denvergazette.com/2026/04/09/inside-denvers-new-all-inn-hotel-another-restoration-of-east-colfaxs-motel-heydays/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-untitled-supper-club-chicago-year-unknown",
+      "type": "dining",
+      "title": "Untitled Supper Club",
+      "venueId": "venue-untitled-supper-club-chicago",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Chicago birthday outing · year unknown",
+        "precision": "unknown_year",
+        "source": "Direct user confirmation in the October 25, 2026 Culture Passport interview. A friend separately recalls a shared birthday outing at Untitled, with year not established.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A remembered night at Untitled Supper Club in Chicago's River North, with its Jazz Age atmosphere and a friend's recollection of a birthday outing. The visit year is unknown. The venue was named in the 2019 and 2020 Michelin Chicago Bib Gourmand selections.",
+      "memory": {
+        "headline": "A birthday outing at a Chicago supper club",
+        "teaser": "A remembered Chicago night in a vintage supper club; the year remains open.",
+        "story": "I remember visiting Untitled Supper Club in Chicago. A friend also remembers that we went there for their birthday one year. I don't remember the calendar year or the specific dishes and drinks, but the Jazz Age-inspired supper-club atmosphere helps bring the evening back.",
+        "period": "Chicago · year unknown",
+        "source": "User directly confirms visit and friend recalls their birthday outing; precise date unknown."
+      },
+      "recognitions": [],
+      "guide": {
+        "edition": 2019,
+        "distinction": "bib",
+        "stars": 0,
+        "sourceUrl": "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+        "verifiedEditions": [
+          2019,
+          2020
+        ],
+        "historicalVisitDistinction": "unknown_visit_year",
+        "note": "Michelin named Untitled Supper Club in its 2019 and 2020 Bib Gourmand lists. The visit year is not known, so award status at the time of the visit is not confirmed. A Bib Gourmand is not a star."
+      },
+      "sourceUrl": "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Official 2019/2020 Bib Gourmand, historically established; actual year of user visit unknown."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "Historical Michelin Bib Gourmand listings for this restaurant in 2019/2020. User confirmed visiting; year and recognition at the time of the visit are unknown.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+          "https://guide.michelin.com/en/article/news-and-views/michelin-guide-chicago-2020-bib-gourmand-results"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "historical_primary_michelin_and_direct_user_confirmation"
+      },
+      "story": {
+        "headline": "A remembered evening behind the River North doors",
+        "paragraphs": [
+          "Untitled Supper Club is a confirmed Chicago outing, independently recalled after a friend's message about a birthday celebration there. The year and exact evening have not been determined, nor have particular dishes or performers.",
+          "The River North establishment draws on the 1920s supper-club tradition with whiskey, cocktails, jazz-era interiors, and live entertainment. Those are venue characteristics rather than claims about what happened at the user's specific table.",
+          "Michelin selected Untitled Supper Club as a Chicago Bib Gourmand in its 2019 and 2020 Guides. Without a visit year, this is a historical venue honor rather than a claim that it applied on the day of the outing."
+        ],
+        "chapters": [
+          {
+            "year": "2019",
+            "title": "A Michelin Bib Gourmand",
+            "detail": "Untitled Supper Club appears in Michelin's official 2019 Chicago selection."
+          },
+          {
+            "year": "2020",
+            "title": "Another Bib Gourmand edition",
+            "detail": "The venue remains in the 2020 selection."
+          },
+          {
+            "year": "Date unknown",
+            "title": "A birthday celebration",
+            "detail": "The user confirms attending. A friend remembers celebrating their birthday there; the precise year remains unknown."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Michelin 2019 — Chicago Bib Gourmands",
+            "url": "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants"
+          },
+          {
+            "label": "Michelin 2020 — Chicago Bib Gourmands",
+            "url": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-chicago-2020-bib-gourmand-results"
           }
         ]
       }

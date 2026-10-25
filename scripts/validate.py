@@ -105,8 +105,7 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Ch
 assert any(lead["id"] == "chicago-friend-untitled-cindys-unknown-years"
            and lead["publishAsExperience"] is False
            for lead in interview_data["memoryLeads"])
-assert not any(r["title"] in {"Untitled Supper Club", "Cindy's Rooftop", "Cherry Circle Room"}
-               for r in records)
+assert not any(r["title"] in {"Cindy\'s Rooftop", "Cherry Circle Room"} for r in records)
 
 assert not any(r["title"] in {"The Aviary", "The Office", "The Violet Hour"} for r in records)
 dominics = next(c for c in candidates if c["name"] == "Dominic's on the Hill")
@@ -419,3 +418,17 @@ for name, record in (("Sap Sua", sap), ("FiNO", fino)):
     assert candidate["visitStatus"] == "confirmed" and candidate["confirmedVisitId"] == record["id"]
     assert any(x["id"] == record["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 assert all(next(v for v in venues if v["id"] == r["venueId"])["location"]["precision"] == "city-centroid" for r in (sap,fino))
+
+# User-confirmed Untitled, still unknown exact year; separate Cindy's remains unanswered.
+untitled = next(r for r in records if r["id"] == "dining-untitled-supper-club-chicago-year-unknown")
+assert untitled["status"] == "confirmed" and untitled["visit"]["year"] is None and untitled["visit"]["date"] is None
+assert untitled["visit"]["possibleYears"] == [] and untitled["guide"]["verifiedEditions"] == [2019, 2020]
+assert untitled["guide"]["distinction"] == "bib" and untitled["guide"]["stars"] == 0
+assert untitled["guide"]["historicalVisitDistinction"] == "unknown_visit_year"
+assert untitled["editorial"]["awardQualified"] is True
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["confirmedVisitId"] == untitled["id"]
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "unreviewed"
+assert any(x["id"] == untitled["id"] and x["status"] == "pending"
+           for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
