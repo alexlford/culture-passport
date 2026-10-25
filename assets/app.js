@@ -15,6 +15,14 @@
   };
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
+    // For dining and bars the public-facing chronology is intentionally approximate:
+    // the memory, people, chefs, and venue history matter more than booking precision.
+    // Exact dates remain available in archival provenance, not as the lead headline.
+    if(["dining","bar"].includes(r.type)){
+      if(r.memory?.period)return r.memory.period;
+      if(r.visit?.year)return String(r.visit.year);
+      if(r.visit?.date)return r.visit.date.slice(0,4);
+    }
     if(r.visit?.date&&r.visit?.precision==="day")return readableDate(r.visit.date)+(reservationDerived(r)?" · reservation on file":"");
     if(r.visit?.label&&/^(January|February|March|April|May|June|July|August|September|October|November|December|Christmas|Fall|Autumn|Winter|Spring|Summer)/.test(r.visit.label))return r.visit.label;
     if(r.memory?.period)return r.memory.period;
@@ -253,7 +261,7 @@
     const candidateFilter=(x)=>x.area===active&&(screen==="all"||screen==="awards"&&x.screening?.status==="award_qualified"||screen==="leads"&&(x.userMemoryLead&&!x.userMemoryLead.identityConfirmed||x.screening?.status!=="award_qualified"));
     const relevant=()=>included.filter(candidateFilter);
     const tabBox=$(".interview-actions .tabstrip");
-    const allAreas=[...new Set(included.map(x=>x.area))];
+    const allAreas=[...new Set([...included.map(x=>x.area),...Object.keys(db.periods||{})])];
     allAreas.filter(a=>!all("[data-area]").some(b=>b.dataset.area===a)).forEach(a=>{
       const b=el("button","",a);b.dataset.area=a;b.type="button";b.setAttribute("aria-pressed","false");tabBox.append(b);
     });
@@ -288,7 +296,7 @@
       const sc=byId("screening-count");
       if(sc)sc.textContent=candidates.length+" in "+active+" · "+(screen==="awards"?"Michelin / James Beard candidates":screen==="leads"?"memory leads":"all historical candidates");
       if(!candidates.length){
-        empty(list,"No candidates in this selection.","Switch between Michelin / James Beard, Memory leads, and All candidates.");
+        empty(list,"No candidates in this selection.",included.some(x=>x.area===active)?"Switch between Michelin / James Beard, Memory leads, and All candidates.":"This destination has been added to the interview map. Award-eligible restaurant candidates and the history of its chefs will be researched in the next discovery phase.");
         persist();return;
       }
       const slice=candidates.slice(page*batchSize,(page+1)*batchSize);
