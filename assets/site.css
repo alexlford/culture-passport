@@ -153,3 +153,6 @@ main:focus{outline:none}
 
 /* Friend-recalled vignettes are explicit about uncertainty, not false visit claims. */
 .recalled-notice{max-width:66ch;padding:16px 18px;margin:20px 0 28px;border-left:3px solid var(--wine);background:var(--cream);font-size:13px;line-height:1.8;color:var(--ink)}
+
+/* Shared recollections have their own chapter on Home, not verified-visit metrics. */
+.friend-memory-row .feature-year{color:var(--wine)}
