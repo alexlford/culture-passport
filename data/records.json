@@ -3170,13 +3170,13 @@
         "source": "Direct user attendance confirmation on October 25, 2026; corrected first attendance date October 9, 2016 (not October 6); 2017 and 2018 nights corroborated by contemporary Lyric listings.",
         "evidenceType": "direct_user_confirmation"
       },
-      "summary": "Three confirmed Ring Cycle performances at Lyric Opera of Chicago: Das Rheingold on October 9, 2016; Die Walküre on November 26, 2017; and Siegfried on November 11, 2018. Michelle Ford, Alex's sister, is credited in the 2016 Das Rheingold program among the actors and marked as making her Lyric debut.",
+      "summary": "Three attended Wagner Ring productions at Lyric Opera Chicago (2016, 2017, 2018), with sister Michelle Ford credited as an actor in all three original programs. The first marks her Lyric debut; Alex remembers her role growing over the next productions, though the programs do not specify individual non-singing characters.",
       "memory": {
-        "headline": "Three years of Wagner at the Lyric, with Michelle onstage",
-        "teaser": "Seeing my sister Michelle in Das Rheingold began three memorable years of opera in Chicago.",
-        "story": "I attended Wagner's Das Rheingold at the Lyric Opera of Chicago on October 9, 2016. My sister Michelle was in the production. The original Lyric program lists Michelle Ford with the actors and marks it as her Lyric debut. It made the night more than simply my first entry in this Ring Cycle. I returned to the Lyric for Die Walküre on November 26, 2017, and Siegfried on November 11, 2018. Together, those performances connect three years of opera-going with a particularly meaningful family memory.",
+        "headline": "Three years at Lyric, watching Michelle's role grow",
+        "teaser": "My sister's 2016 Lyric debut became a three-year family journey through Wagner's Ring.",
+        "story": "I went to Lyric Opera of Chicago for Das Rheingold on October 9, 2016, to see my sister Michelle perform. Its original program names her among the actors and marks her Lyric debut. I returned for Die Walküre on November 26, 2017, and Siegfried on November 11, 2018. She is credited in all three original programs, and I remember her role growing as the cycle continued. That personal progression is what connects the three evenings for me: Wagner's enormous theatrical world, and the experience of seeing Michelle become a bigger part of it. The programs do not name her individual non-singing characters, so that detail can be added when I can describe it more precisely.",
         "period": "October 9, 2016; November 26, 2017; November 11, 2018",
-        "source": "Alex's explicit October 25, 2026 interview confirmations and date correction; Lyric's 2016 Das Rheingold program and contemporary production listings."
+        "source": "Alex's direct attendance and growing-role recollections; original Lyric Opera of Chicago cast programs for 2016, 2017 and 2018, printed pages 27, 23, and 23 respectively."
       },
       "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/",
       "editorial": {
@@ -3192,24 +3192,62 @@
           "attendance": "confirmed",
           "dateSource": "Alex's corrected answer; show listed for October 9",
           "sourceUrl": "https://www.dailyherald.com/20161004/entertainment/new-lyric-rheingold-filled-with-imaginative-flourishes/",
-          "note": "Michelle Ford credited among actors in original program; asterisk denotes Lyric debut",
-          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DasRheingold/DasRheingoldProgram.pdf"
+          "note": "Michelle Ford listed among Actors with a Lyric-debut asterisk. Alex attended on October 9 (not October 6).",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DasRheingold/DasRheingoldProgram.pdf",
+          "michelleFordCredit": "Actor; Lyric debut"
         },
         {
           "title": "Die Walküre",
           "date": "2017-11-26",
           "attendance": "confirmed",
           "dateSource": "Alex's direct answer and documented November 26 performance",
-          "sourceUrl": "https://dankhaus.com/event-2682674"
+          "sourceUrl": "https://dankhaus.com/event-2682674",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2017_DieWalkure/DieWalkure_Program.pdf",
+          "michelleFordCredit": "Actor",
+          "note": "Michelle Ford explicitly named among Actors in the 2017 original program; her precise stage character is not individually identified. Alex recalls her part growing over the series."
         },
         {
           "title": "Siegfried",
           "date": "2018-11-11",
           "attendance": "confirmed",
           "dateSource": "Alex's direct answer and November 11 performance listing",
-          "sourceUrl": "https://chicago.suntimes.com/2018/11/4/18429069/strong-singing-prevails-in-lyric-opera-s-odd-kiddie-themed-siegfried"
+          "sourceUrl": "https://chicago.suntimes.com/2018/11/4/18429069/strong-singing-prevails-in-lyric-opera-s-odd-kiddie-themed-siegfried",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2018_Siegfried/SiegfriedProgram.pdf",
+          "michelleFordCredit": "Actor",
+          "note": "Michelle Ford explicitly named among Actors in the 2018 original program; her precise stage character is not individually identified. Alex recalls her part growing over the series."
         }
-      ]
+      ],
+      "michelleFordCredits": {
+        "relationship": "Alex's sister",
+        "officialRecord": "Michelle Ford is individually named in each original Lyric program under Actors. The 2016 name has an asterisk indicating Lyric debut; the 2017 and 2018 credits do not assign named singing roles. Performer descriptions should not be inflated beyond the printed credits.",
+        "recollection": "Alex recalls that Michelle's stage role grew as the Ring cycle progressed. The publicly available program credits independently establish her continued participation, but do not establish the precise individual characters or changing prominence. Leave the details available for a future personal-memory interview.",
+        "appearances": [
+          {
+            "performance": "Das Rheingold",
+            "attendedDate": "2016-10-09",
+            "printedCredit": "Actor; Lyric debut",
+            "lyricDebut": true,
+            "programPrintedPage": 27,
+            "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DasRheingold/DasRheingoldProgram.pdf"
+          },
+          {
+            "performance": "Die Walküre",
+            "attendedDate": "2017-11-26",
+            "printedCredit": "Actor",
+            "lyricDebut": false,
+            "programPrintedPage": 23,
+            "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2017_DieWalkure/DieWalkure_Program.pdf"
+          },
+          {
+            "performance": "Siegfried",
+            "attendedDate": "2018-11-11",
+            "printedCredit": "Actor",
+            "lyricDebut": false,
+            "programPrintedPage": 23,
+            "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2018_Siegfried/SiegfriedProgram.pdf"
+          }
+        ]
+      }
     },
     {
       "id": "concert-billy-joel-kansas-city",
