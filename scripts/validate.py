@@ -97,6 +97,17 @@ office_lead = next(lead for lead in interview_data["memoryLeads"] if lead["id"] 
 assert office_lead["visitStatus"] == "unreviewed" and office_lead["publishAsExperience"] is False
 assert office_lead["relatedVenue"] == "The Aviary"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
+for venue_name in ("Untitled Supper Club", "Cindy's Rooftop"):
+    lead = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == venue_name)
+    assert lead["visitStatus"] == "maybe"
+    assert lead["screening"]["status"] == "award_qualified"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "unreviewed"
+assert any(lead["id"] == "chicago-friend-untitled-cindys-unknown-years"
+           and lead["publishAsExperience"] is False
+           for lead in interview_data["memoryLeads"])
+assert not any(r["title"] in {"Untitled Supper Club", "Cindy's Rooftop", "Cherry Circle Room"}
+               for r in records)
+
 assert not any(r["title"] in {"The Aviary", "The Office", "The Violet Hour"} for r in records)
 dominics = next(c for c in candidates if c["name"] == "Dominic's on the Hill")
 assert dominics["visitStatus"] == "confirmed" and dominics["visitPeriod"] == "December 28, 2012"
