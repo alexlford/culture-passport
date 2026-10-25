@@ -2809,7 +2809,7 @@
     {
       "id": "theater-denver-holiday-theater-2024",
       "type": "theater",
-      "title": "Denver holiday theater outing",
+      "title": "A Christmas Carol — Denver",
       "venueId": "venue-theater-denver-holiday-theater-2024",
       "status": "confirmed",
       "favorite": false,
@@ -2822,24 +2822,25 @@
         ],
         "label": "Christmas season 2024",
         "precision": "approximate_month",
-        "source": "User directly recalled the cultural outing in conversation October 25, 2026; matching production dates established independently, not a verified ticket.",
-        "evidenceType": "first_person_memory"
+        "source": "Alex previously recalled a Denver Christmas 2024 theater outing and recognized the official 2024 A Christmas Carol production photograph in the October 25, 2026 Culture Passport interview. Production's season dates are independent context, not a ticket or exact attendance date.",
+        "evidenceType": "user_confirmed_production_from_2024_photo"
       },
-      "summary": "A Denver holiday performance you remember as probably A Christmas Carol.",
+      "summary": "Confirmed attendance at the Denver Center's 2024 A Christmas Carol production at the Wolf Theatre, recognized by Alex from the original production photograph. Exact performance date remains unknown.",
       "memory": {
-        "headline": "A Christmas-season night at the theater",
-        "teaser": "A Denver holiday performance you remember as probably A Christmas Carol.",
-        "story": "You remember attending a play or musical in Denver around Christmas 2024 and think it was A Christmas Carol. The Denver Center presented its musical adaptation of Dickens's story at the Wolf Theatre from November 22 to December 29, 2024, which matches that memory. The title and particular performance remain provisional until you recognize more details.",
+        "headline": "A Christmas Carol at the holidays",
+        "teaser": "A Christmas-season trip to see A Christmas Carol at Denver's Wolf Theatre.",
+        "story": "I attended A Christmas Carol in Denver during the 2024 holiday season. Seeing the Denver Center's photograph of the actual production brought the performance back and confirmed the title I had been trying to remember. The familiar Dickens story and its holiday staging are part of the memory. The Denver Center presented this production from November 22 through December 29, 2024, but I don't yet have the exact night I attended.",
         "period": "Christmas season 2024",
-        "source": "First-person recollection plus dated venue/production programming"
+        "source": "Alex's recollection and recognition of the 2024 Denver Center production photograph; contemporaneous Denver Center season announcement for the production run."
       },
       "production": {
-        "name": "Holiday theater in Denver",
-        "titleConfirmed": false,
-        "engagementWindow": "November–December 2024",
-        "identificationConfidence": "confirmed_theater_outing;production_probable_not_confirmed",
+        "name": "A Christmas Carol",
+        "titleConfirmed": true,
+        "engagementWindow": "November 22 – December 29, 2024",
+        "identificationConfidence": "user_recognized_official_2024_production_photo",
         "exactAttendanceDate": null,
-        "sourceUrl": "https://www.denvercenter.org/news-center/denver-center-theatre-company-announces-2024-25-season/"
+        "sourceUrl": "https://www.denvercenter.org/news-center/denver-center-theatre-company-announces-2024-25-season/",
+        "confirmationNote": "Alex's October 25, 2026 answer 'That looks correct' immediately followed the original Denver Center 2024 production photograph and question whether it looked like the show attended."
       },
       "recognitions": [],
       "sourceUrl": "https://www.denvercenter.org/news-center/denver-center-theatre-company-announces-2024-25-season/"

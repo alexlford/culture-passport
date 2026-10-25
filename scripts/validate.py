@@ -306,14 +306,17 @@ assert len([r for r in records if r["status"] == "confirmed" and r.get("editoria
 stage=[r for r in records if r["id"] in {"theater-book-of-mormon-kansas-city-2016", "theater-second-city-chicago-2017", "theater-six-denver-2023", "theater-denver-holiday-theater-2024"}]
 assert len(stage) == 4
 assert all(r["visit"]["date"] is None and r["visit"]["year"] in {2016,2017,2023,2024} for r in stage)
-assert {r["title"] for r in stage} == {"The Book of Mormon", "SIX", "The Second City — Chicago holiday outing", "Denver holiday theater outing"}
+assert {r["title"] for r in stage} == {"The Book of Mormon", "SIX", "The Second City — Chicago holiday outing", "A Christmas Carol — Denver"}
 assert next(r for r in stage if r["title"] == "The Book of Mormon")["production"]["engagementWindow"] == "December 6–11, 2016"
 assert next(r for r in stage if r["title"] == "SIX")["production"]["engagementWindow"] == "December 5–24, 2023"
-assert next(r for r in stage if r["title"] == "Denver holiday theater outing")["production"]["titleConfirmed"] is False
+assert next(r for r in stage if r["title"] == "A Christmas Carol — Denver")["production"]["titleConfirmed"] is True
 assert next(r for r in stage if r["title"] == "The Second City — Chicago holiday outing")["production"]["titleConfirmed"] is False
+assert next(r for r in stage if r["title"] == "A Christmas Carol — Denver")["production"]["exactAttendanceDate"] is None
 stage_research=json.loads((ROOT / "data/performance-interview.json").read_text(encoding="utf-8"))
 assert len(stage_research["candidates"]) >= 3
 assert any(c["id"] == "denver-unknown-play" for c in stage_research["candidates"])
+assert next(c for c in stage_research["candidates"] if c["id"] == "theater-christmas-carol-denver-2024")["confirmation"] == "confirmed"
+assert stage_research["interviewRoute"]["nextQuestionId"] == "denver-unknown-play"
 
 # Verified family-linked cultural artifacts already exist; opera interview now resolved.
 ring_record=next(r for r in records if r["id"] == "opera-wagner-s-ring-cycle-lyric-opera-of-chicago")
@@ -367,7 +370,7 @@ assert "performance-interview.html" in (ROOT / "index.html").read_text(encoding=
 assert 'localStorage.setItem(storageKey' in performance_js
 assert "preserve the entire card" in performance_js
 assert "denver-unknown-play" in performance_js
-assert {"The Book of Mormon", "SIX", "The Second City — Chicago holiday outing", "Denver holiday theater outing"}.issubset({x["title"] for x in stage})
+assert {"The Book of Mormon", "SIX", "The Second City — Chicago holiday outing", "A Christmas Carol — Denver"}.issubset({x["title"] for x in stage})
 
 
 # Provenance and geography integrity for the new Boston / Cape Cod memory lead.
