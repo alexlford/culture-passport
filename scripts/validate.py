@@ -315,6 +315,15 @@ stage_research=json.loads((ROOT / "data/performance-interview.json").read_text(e
 assert len(stage_research["candidates"]) >= 3
 assert any(c["id"] == "denver-unknown-play" for c in stage_research["candidates"])
 
+# Verified family-linked cultural artifacts already exist; opera interview now resolved.
+ring_record=next(r for r in records if r["id"] == "opera-wagner-s-ring-cycle-lyric-opera-of-chicago")
+assert [(x["title"], x["date"]) for x in ring_record["attendedPerformances"]] == [("Das Rheingold","2016-10-09"),("Die Walküre","2017-11-26"),("Siegfried","2018-11-11")]
+assert "Michelle Ford" in ring_record["summary"] and "October 9, 2016" in ring_record["memory"]["story"]
+carnegie_record=next(r for r in records if r["id"] == "concert-murray-state-choruses-at-carnegie-hall")
+assert carnegie_record["status"] == "confirmed" and carnegie_record["visit"]["date"] == "2010-01-18"
+assert "Michelle" in carnegie_record["memory"]["story"]
+assert next(x for x in stage_research["candidates"] if x["id"] == "lyric-ring-performances")["confirmation"] == "three_individual_operas_confirmed"
+
 # Stage chronology preserves distinct performances and existing theater entries.
 stage = [r for r in records if r["type"] in {"concert","opera","theater"}]
 assert len(stage) == 29 and len([r for r in stage if r["title"].startswith("Lollapalooza")]) == 1
