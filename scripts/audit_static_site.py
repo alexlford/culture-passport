@@ -97,6 +97,9 @@ def audit_pages(records):
                     assert len(ids) == 1 and ids[0] in valid_record_ids, f"{name}: invalid experience deep link {url}"
             checked += 1
         if name == "map.html":
+            assert "map-category" in parser.ids and "map-summary" in parser.ids
+            assert "city-list" in parser.ids
+        if name == "map.html":
             js = next((i for i, x in enumerate(parser.script_refs) if "leaflet.js" in x), None)
             app = next((i for i, x in enumerate(parser.script_refs) if "assets/app.js" in x), None)
             assert js is not None and app is not None and js < app, "Leaflet must load before the map app"
@@ -130,6 +133,18 @@ def audit_basic_secrets():
             f.name + ": possible personal email address")
 
 
+def audit_editorial_and_city_links(records):
+    script = (ROOT / "assets/app.js").read_text(encoding="utf-8")
+    assert "r.story?.paragraphs?.length" in script
+    assert "r.story.chapters?.length" in script
+    assert "storyPeriod(r)" in script
+    assert "new URLSearchParams(location.search).get(\"city\")" in script
+    assert 'const initialCity=params.get("city")' in script
+    assert 'details.open=true' in script
+    assert 'maxZoom:9' in script or 'maxZoom: 9' in script
+    assert any(r.get("story", {}).get("paragraphs") for r in records)
+
+
 def audit_release_approval_gate():
     workflow = (ROOT / ".github/workflows/deploy.yml").read_text(encoding="utf-8")
     assert "privacy_review_approved:" in workflow
@@ -151,6 +166,7 @@ def main():
     links = audit_pages(records)
     audit_dynamic_data()
     audit_responsive_styles()
+    audit_editorial_and_city_links(records)
     audit_release_approval_gate()
     audit_basic_secrets()
     print(f"OK: {len(PAGE_NAMES)} static pages, {links} links/assets, {len(records)} archive records;")

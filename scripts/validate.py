@@ -112,7 +112,7 @@ assert any(c["name"] == "Manifesto" and c["visitStatus"] == "confirmed" for c in
 assert any(c["name"] == "Death & Co Denver" and c["visitStatus"] == "confirmed" for c in candidates)
 assert 'data-type="bar"' in (ROOT / "explore.html").read_text(encoding="utf-8")
 assert 'id="bar-count"' in (ROOT / "index.html").read_text(encoding="utf-8")
-assert 'x.editorial?.featuredException' in (ROOT / "assets/app.js").read_text(encoding="utf-8")
+assert 'r.editorial?.featuredException' in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert all(c.get("confirmedVisitId") in {r["id"] for r in records}
            for c in candidates if c["visitStatus"] == "confirmed" and c.get("confirmedVisitId"))
 assert any(c["name"] == "Alma Cocina Latina" and c["visitStatus"] == "maybe" for c in candidates)
