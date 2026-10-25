@@ -13,6 +13,10 @@
     const [year,month,day]=d.split("-").map(Number);
     return new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"}).format(new Date(Date.UTC(year,month-1,day)));
   };
+  // User-requested memories may appear without claiming a verified visit.
+  const inCollection=(r)=>r.status==="confirmed"||
+    (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
+  const isRecalled=(r)=>r.status==="recollected";
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
@@ -63,7 +67,7 @@
   function card(r,v){
     const a=link(" ",href(r),"record-card");
     a.textContent="";
-    const top=el("p","eyebrow",r.type.toUpperCase()+" / "+(v?.city||"LOCATION UNKNOWN"));
+    const top=el("p","eyebrow",(isRecalled(r)?"FRIEND-RECALLED MEMORY":r.type.toUpperCase())+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
     bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record ↗"));
@@ -71,7 +75,7 @@
     return a;
   }
   function siteStats(db){
-    const records=db.records.filter(r=>r.status==="confirmed");
+    const records=db.records.filter(r=>inCollection(r));
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const cities=new Set(records.map(r=>venues.get(r.venueId)?.city).filter(Boolean));
     const starred=records.filter(r=>r.type==="dining"&&r.guide?.distinction==="starred"&&r.guide.stars>0);
@@ -84,7 +88,7 @@
     siteStats(db);
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const host=byId("featured-records");
-    const records=db.records.filter(r=>r.status==="confirmed"&&(r.editorial?.awardQualified||r.editorial?.featuredException||r.type!=="dining"&&r.type!=="bar")).sort((a,b)=>Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||Number(!!b.favorite)-Number(!!a.favorite)||byDate(a,b)).slice(0,6);
+    const records=db.records.filter(r=>inCollection(r)&&(r.editorial?.awardQualified||r.editorial?.featuredException||r.type!=="dining"&&r.type!=="bar")).sort((a,b)=>Number(isRecalled(a))-Number(isRecalled(b))||Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||Number(!!b.favorite)-Number(!!a.favorite)||byDate(a,b)).slice(0,6);
     host.replaceChildren();
     records.forEach(r=>{
       const v=venues.get(r.venueId);
@@ -109,9 +113,9 @@
       const rows=db.records.filter(r=>{
         const v=venues.get(r.venueId);
         const content=[r.title,r.summary,r.memory?.headline,r.memory?.teaser,r.memory?.story,v?.city,v?.region,v?.name].join(" ").toLocaleLowerCase();
-        return r.status==="confirmed"&&(!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
+        return inCollection(r)&&(!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
       }).sort(byDate);
-      count.textContent=rows.length+" confirmed experience"+(rows.length===1?"":"s");
+      count.textContent=rows.length+" places & experiences";
       host.replaceChildren();
       if(rows.length===0){empty(host,filter!=="all"?"This chapter is awaiting its first entry.":"No matching experiences yet.",filter!=="all"?"No "+titleFor[filter].toLowerCase()+" have been confirmed in this archive. Names and dates will be added as you recall them.":"Try changing the category, city, or search terms.",filter==="dining"?"./interview.html":null,"Continue the interview →");return;}
       rows.forEach(r=>host.append(card(r,venues.get(r.venueId))));
@@ -126,11 +130,11 @@
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     function render(){
       const grouped=new Map();
-      const results=db.records.filter(r=>r.status==="confirmed"&&(includeMemories.checked||!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException)&&(select.value==="all"||r.type===select.value)).sort(byDate);
+      const results=db.records.filter(r=>inCollection(r)&&(includeMemories.checked||!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException)&&(select.value==="all"||r.type===select.value)).sort(byDate);
       for(const r of results){const label=timelineChapter(r);if(!grouped.has(label))grouped.set(label,[]);grouped.get(label).push(r);}
       count.textContent=results.length+" recorded experience"+(results.length===1?"":"s");
       host.replaceChildren();
-      if(!results.length){empty(host,"Nothing confirmed in this chapter yet.","The timeline is ready for your first verified memory.");return;}
+      if(!results.length){empty(host,"No memories in this chapter yet.","More places can be added as the stories return.");return;}
       for(const [label,rows] of grouped){
         const section=el("section","timeline-group"),year=el("div","timeline-year",label),stack=el("div","timeline-stack");
         rows.forEach(r=>{const v=venues.get(r.venueId);const a=link("",href(r),"timeline-entry"),mid=el("div");
@@ -145,7 +149,7 @@
   function map(db){
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
-    const available=db.records.filter(r=>r.status==="confirmed"&&
+    const available=db.records.filter(r=>inCollection(r)&&
       (!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException));
     // Map points are city-centroid *representations* until independently
     // verified venue coordinates become available. Do not place pins at
@@ -199,7 +203,7 @@
       list.replaceChildren();
       const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||String(a.region||"").localeCompare(String(b.region||"")));
       if(!groupsSorted.length){
-        const noResults=el("p","map-legend","No confirmed experiences in this category yet.");
+        const noResults=el("p","map-legend","No places or experiences in this category yet.");
         list.append(noResults);
         if(leafletMap)leafletMap.setView([39.5,-98.35],4);
         return;
@@ -256,14 +260,16 @@
   }
     function detail(db){
     const host=byId("record-detail"),params=new URLSearchParams(window.location.search),id=params.get("id");
-    const r=db.records.find(x=>x.id===id&&x.status==="confirmed");
-    if(!r){empty(host,"Experience not found.","This record may have moved or has not been confirmed.","./explore.html","Back to the archive →");return;}
+    const r=db.records.find(x=>x.id===id&&inCollection(x));
+    if(!r){empty(host,"Experience not found.","This record may have moved or is not part of the collection.","./explore.html","Back to the archive →");return;}
     document.title=r.title+" | Culture Passport";
     const v=db.venues.find(x=>x.id===r.venueId)||{},context=r.memory;
     host.replaceChildren();
     host.append(el("p","eyebrow",r.type.toUpperCase()+" / "+(v.city||"")),el("h1","",r.title));
     const period=el("p","memory-period",storyPeriod(r)+" · "+[v.city,v.region].filter(Boolean).join(", "));
     host.append(period);
+    if(isRecalled(r))host.append(el("p","recalled-notice",
+      "FRIEND-RECALLED MEMORY · Included for the setting and shared story. A personal visit has not been independently confirmed; the year is unknown."));
     const orientation=el("div","experience-orientation");
     const periodTag=el("div","orientation-item");
     periodTag.append(el("span","","WHEN"),el("strong","",storyPeriod(r)));
@@ -277,7 +283,7 @@
       host.append(el("h2","memory-heading","A page in the collection"),
         el("p","memory-quote",storyTeaser(r)));
     }
-    if(r.favorite||r.editorial?.featuredException){
+    if((r.favorite||r.editorial?.featuredException)&&!isRecalled(r)){
       host.append(el("p","eyebrow memory-favorite","✳ KEPT FOR THE MEMORY"));
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){

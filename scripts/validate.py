@@ -8,13 +8,13 @@ interview_data = json.loads((ROOT / "data/interview.json").read_text(encoding="u
 records, venues = records_data["records"], records_data["venues"]
 candidates = interview_data["candidates"]
 assert records_data["project"] == "Culture Passport" and records_data["version"] == 1
-assert len(records) == 58 and len(venues) == 56
+assert len(records) == 60 and len(venues) == 58
 assert len({r["id"] for r in records}) == len(records)
 assert len({v["id"] for v in venues}) == len(venues)
 types = {"dining", "bar", "concert", "opera", "theater"}
 assert {c["id"] for c in records_data["categories"]} == types
 venue_ids = {v["id"] for v in venues}
-assert all(r["status"] in {"confirmed", "reservation_only"} and r["type"] in types for r in records)
+assert all(r["status"] in {"confirmed", "recollected", "reservation_only"} and r["type"] in types for r in records)
 assert len([r for r in records if r["status"] == "confirmed"]) == 56
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Q House", "Wildflower"}
 assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
@@ -82,7 +82,7 @@ assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
 assert all(r["visit"]["date"] is None and r["visit"]["precision"] == "approximate_year" for r in breck)
 assert all(r["editorial"]["awardQualified"] is False and r["editorial"]["featuredException"] is False for r in breck)
-assert len({r["venueId"] for r in records}) == 56
+assert len({r["venueId"] for r in records}) == 58
 qbreck = next(c for c in candidates if c["name"] == "Breckenridge Distillery Restaurant")
 assert qbreck["visitStatus"] == "confirmed" and set(qbreck["linkedVisitIds"]) == {r["id"] for r in breck}
 assert qbreck["screening"]["status"] == "memory_only"
@@ -105,7 +105,7 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Ch
 assert any(lead["id"] == "chicago-friend-untitled-cindys-unknown-years"
            and lead["publishAsExperience"] is False
            for lead in interview_data["memoryLeads"])
-assert not any(r["title"] in {"Cindy\'s Rooftop", "Cherry Circle Room"} for r in records)
+assert not any(r["title"] == "Cherry Circle Room" for r in records)
 
 assert not any(r["title"] in {"The Aviary", "The Office", "The Violet Hour"} for r in records)
 dominics = next(c for c in candidates if c["name"] == "Dominic's on the Hill")
@@ -438,13 +438,33 @@ cindy = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "C
 assert cindy["visitStatus"] == "maybe"
 assert "possibly visited" in cindy["reviewSource"]
 assert "do not mark confirmed" in cindy["reviewSource"]
-assert not any(r["title"] == "Cindy's Rooftop" for r in records)
+assert not any(r["title"] == "Cindy's Rooftop" and r["status"] == "confirmed" for r in records)
 friend_chicago = next(l for l in interview_data["memoryLeads"] if l["id"] == "chicago-friend-untitled-cindys-unknown-years")
 assert friend_chicago["unresolvedVenueNames"] == ["Cindy's Rooftop"]
-assert "only POSSIBLY visited" in friend_chicago["note"]
+assert "Cindy\'s Rooftop remains possibly visited" in friend_chicago["note"]
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
 
-# Direct user exclusion of Lost Lake, with separate future Kumiko interview candidate.
+# Friend-recalled memories: intentionally curated, not independently attended.
+recalled = [r for r in records if r["status"] == "recollected"]
+assert {r["title"] for r in recalled} == {"Cindy's Rooftop", "The Library at Gilt Bar"}
+assert all(r["editorial"]["userRequestedMemory"] is True and r["visit"]["date"] is None
+           and r["visit"]["year"] is None and r["visit"]["attendanceCertainty"] == "not_independently_verified"
+           for r in recalled)
+assert all(r["editorial"]["collection"] == "friend_recalled_memory" for r in recalled)
+assert cindy["visitStatus"] == "maybe"
+assert cindy["memoryRecordId"] == next(r["id"] for r in recalled if r["title"] == "Cindy's Rooftop")
+gilt = next(c for c in candidates if c["name"] == "The Library at Gilt Bar" and c["area"] == "Chicago")
+assert gilt["visitStatus"] == "maybe"
+assert gilt["memoryRecordId"] == next(r["id"] for r in recalled if r["title"] == "The Library at Gilt Bar")
+assert next(r for r in recalled if r["title"] == "The Library at Gilt Bar")["editorial"]["awardQualified"] is False
+assert all(any(x["id"] == r["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"]) for r in recalled)
+assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "Chicago")["visitStatus"] == "not_visited"
+assert "const inCollection=" in (ROOT / "assets/app.js").read_text(encoding="utf-8")
+assert 'record["status"] == "recollected"' in (ROOT / "scripts/build_public_preview.py").read_text(encoding="utf-8")
+audit_recalled = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))["recollectedMemoryVenues"]
+assert {x["experienceId"] for x in audit_recalled} == {r["id"] for r in recalled}
+
+# Concurrent direct user interview explicitly excluded Lost Lake.
 lost_lake = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")
 assert lost_lake["visitStatus"] == "not_visited"
 assert "did not visit" in lost_lake["reviewSource"]
