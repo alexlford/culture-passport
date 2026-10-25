@@ -53,7 +53,7 @@ async function pageCheck(page,url,ready,viewportName){
     };
   });
   assert(metrics.headingCount===1,viewportName+" "+url+": missing unique main h1");
-  assert(metrics.navCount===5,viewportName+" "+url+": unexpected navigation structure");
+  assert(metrics.navCount===4,viewportName+" "+url+": clean visitor preview must have four navigation links (private Interview excluded)");
   assert(metrics.documentWidth<=metrics.width+3&&metrics.bodyWidth<=metrics.width+3,
     viewportName+" "+url+": horizontal overflow "+JSON.stringify(metrics));
   const safe=url.split("?")[0].replace(".html","");
