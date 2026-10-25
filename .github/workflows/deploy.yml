@@ -1,0 +1,36 @@
+name: Deploy Culture Passport
+
+# Activate manually after Settings > Pages > Source: GitHub Actions.
+# On the currently private repository, check GitHub Pages plan/visibility eligibility first.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: culture-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate site before publishing
+        run: |
+          python scripts/validate.py
+          node --check assets/app.js
+          node --check assets/performance-interview.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy
+        id: deploy
+        uses: actions/deploy-pages@v4

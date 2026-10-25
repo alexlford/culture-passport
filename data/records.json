@@ -1,0 +1,3476 @@
+{
+  "version": 1,
+  "project": "Culture Passport",
+  "updated": "2026-10-25",
+  "categories": [
+    {
+      "id": "dining",
+      "label": "Dining",
+      "description": "Restaurants and remarkable tables"
+    },
+    {
+      "id": "bar",
+      "label": "Cocktail Bars",
+      "description": "Cocktail bars, speakeasies and beverage experiences"
+    },
+    {
+      "id": "concert",
+      "label": "Concerts",
+      "description": "Live music worth remembering"
+    },
+    {
+      "id": "opera",
+      "label": "Opera",
+      "description": "Companies, productions, performances"
+    },
+    {
+      "id": "theater",
+      "label": "Theater",
+      "description": "Plays, musicals and live stage"
+    }
+  ],
+  "methodology": {
+    "evidence": "Directly confirmed restaurant visits only; do not promote interview leads automatically.",
+    "date": "Exact visit date remains null unless verified. An assigned year is approximate, and a range is retained as a range.",
+    "awards": "Awards link to their actual recipient and their actual year; later recognition does not imply historical status at time of meal.",
+    "map": "Map groups experiences at approximate city centers, not exact venue entrances.",
+    "favorites": "Favorites come only from explicit user preference statements, independent of restaurant awards.",
+    "musicAndDining": "Attending a restaurant with live jazz does not automatically count as a distinct concert. Require a separately confirmed performance before adding a concert record.",
+    "awardFocusedCollection": "Default Culture Passport Dining chapter shows only venues with verified historical Michelin inclusion or James Beard recognition of restaurant itself or chef at that restaurant. Memory-only confirmed visits are preserved but hidden by default, discoverable with a separate toggle. Recognition year may differ from dinner year.",
+    "curated": "Default Culture Passport dining views show confirmed restaurants with documented Michelin Guide recognition (star, Bib, Selected, historic Plate) or directly associated James Beard awards, finalists or semifinalists. Those awards retain their recipient and year. Chef awards at unrelated restaurants or historical awards dated after a dinner may be context, not proof of qualification at the meal date. Unverified and outside-scope visits stay in archive but are hidden from curated browsing by default.",
+    "featuredExceptions": "Venue-specific Michelin/JBF honors are the default inclusion criteria, but the user's express favorites Sauvage, Gunther & Co., Death & Co Denver and provisional favorite The Majestic are displayed in the primary collection despite no established qualifying award.",
+    "beverages": "Stand-alone cocktail bars are type=bar, never counted as restaurants. James Beard Outstanding Bar Program includes bar semifinalists. Never borrow recognition from another location within a chain.",
+    "repeatVisits": "A venue may be visited in multiple years. Each confirmed year is represented as a separate experience record with a stable unique ID, sharing one venue ID; do not manufacture precise calendar dates or collapse years into one event.",
+    "reservationEvidence": "Date and party size from completed reservation screenshots are documentary evidence, not independent proof of check-in or dining. Only directly restaurant-level Michelin/JBF recognition enters the curated collection automatically. The user explicitly excluded Le Fou Frog: it must not enter any deployed venue/experience ledger, even though its date appears in private conversation uploads.",
+    "storyFirst": "Each published entry leads with a grounded personal memory, atmosphere, or occasion. Dates are retained in provenance but the public timeline emphasizes approximate years, seasons, and meaningful events. Never fabricate meals, companion details, specific actions, or feelings not supplied by the user.",
+    "dateDisplay": "Date/party details are backend evidence, available in a collapsed archive-notes section on experience pages, not default cards or timeline. Exact date may be shown only if necessary to a user-given occasion (Valentine's Day, etc.).",
+    "familyStory": "A venue may carry a narrative across sister restaurants or expansions. Guide badges identify the recognized original without treating each branch as a separate unverified award.",
+    "criterionAudit": "Keep separate: verified Michelin Guide inclusion (stars, Bib, Selected/historical Plate), James Beard semifinalist/finalist/winner at the specific venue or chef while working there, explicitly featured personal memories, user-confirmed history without award, uncertain leads, and reservation-only evidence. Never count unverified founders' awards from unrelated restaurants or award years as the historical dining year.",
+    "stageMemories": "Confirmed live outings can be recorded with a provisional production title. Verify the tour period and venue independently but do not infer exact performance dates; labels are about the memory.",
+    "culturalExperiences": "Concert, festival, theatrical, live television, magic and opera entries can be supported by user recollections or personal event archive screenshots without Michelin/James Beard recognition. Show exact performance dates only when supported; a run's date window never proves a particular night.",
+    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date."
+  },
+  "venues": [
+    {
+      "id": "venue-republique-los-angeles",
+      "name": "République",
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "USA",
+      "address": null,
+      "neighborhood": "La Brea / Hollywood",
+      "location": {
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "precision": "city-centroid"
+      },
+      "sourceId": "republique-los-angeles"
+    },
+    {
+      "id": "venue-minetta-tavern-nyc-2016-2017",
+      "name": "Minetta Tavern",
+      "city": "New York City",
+      "region": "New York",
+      "country": "USA",
+      "address": "113 MacDougal St., New York, NY 10012",
+      "neighborhood": "Greenwich Village",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.006,
+        "precision": "city-centroid"
+      },
+      "sourceId": "minetta-tavern-nyc-2016-2017"
+    },
+    {
+      "id": "venue-beckon-denver-2023",
+      "name": "Beckon",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "2843 Larimer St., Denver, CO 80205",
+      "neighborhood": "RiNo",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "beckon-denver-2023"
+    },
+    {
+      "id": "venue-charleston-baltimore-2018-2021",
+      "name": "Charleston",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": "1000 Lancaster St, Baltimore, MD 21202",
+      "neighborhood": "Harbor East",
+      "location": {
+        "lat": 39.2904,
+        "lng": -76.6122,
+        "precision": "city-centroid"
+      },
+      "sourceId": "charleston-baltimore-2018-2021"
+    },
+    {
+      "id": "venue-woodberry-kitchen-baltimore-2018-2021",
+      "name": "Woodberry Kitchen",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": null,
+      "neighborhood": "Woodberry",
+      "location": {
+        "lat": 39.2904,
+        "lng": -76.6122,
+        "precision": "city-centroid"
+      },
+      "sourceId": "woodberry-kitchen-baltimore-2018-2021"
+    },
+    {
+      "id": "venue-momofuku-ccdc-washington-dc",
+      "name": "Momofuku CCDC",
+      "city": "Washington, DC",
+      "region": "District of Columbia",
+      "country": "USA",
+      "address": "1090 I St NW, Washington, DC 20001",
+      "neighborhood": "CityCenterDC",
+      "location": {
+        "lat": 38.9072,
+        "lng": -77.0369,
+        "precision": "city-centroid"
+      },
+      "sourceId": "momofuku-ccdc-washington-dc"
+    },
+    {
+      "id": "venue-sauvage-steamboat-2021-01",
+      "name": "Sauvage",
+      "city": "Steamboat Springs",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "910 Yampa Street, Unit C4, Steamboat Springs, CO 80487",
+      "neighborhood": "Downtown",
+      "location": {
+        "lat": 40.4848,
+        "lng": -106.8317,
+        "precision": "city-centroid"
+      },
+      "sourceId": "sauvage-steamboat-2021-01"
+    },
+    {
+      "id": "venue-gunther-and-co-baltimore-2020-02-14",
+      "name": "Gunther & Co.",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": "3650 Toone Street, Baltimore, MD 21224",
+      "neighborhood": "Brewers Hill",
+      "location": {
+        "lat": 39.2904,
+        "lng": -76.6122,
+        "precision": "city-centroid"
+      },
+      "sourceId": "gunther-and-co-baltimore-2020-02-14"
+    },
+    {
+      "id": "venue-thames-street-oyster-house-baltimore",
+      "name": "Thames Street Oyster House",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": "1728 Thames Street, Baltimore, MD 21231",
+      "neighborhood": "Fells Point",
+      "location": {
+        "lat": 39.2904,
+        "lng": -76.6122,
+        "precision": "city-centroid"
+      },
+      "sourceId": "thames-street-oyster-house-baltimore"
+    },
+    {
+      "id": "venue-majestic-kansas-city",
+      "name": "The Majestic Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Downtown",
+      "address": "931 Broadway Blvd, Kansas City, MO 64105",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "majestic-kansas-city"
+    },
+    {
+      "id": "venue-rec-pier-chop-house-baltimore",
+      "name": "Rec Pier Chop House",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Fells Point",
+      "address": "1715 Thames Street, Baltimore, MD 21231",
+      "location": {
+        "lat": 39.2904,
+        "lng": -76.6122,
+        "precision": "city-centroid"
+      },
+      "sourceId": "rec-pier-chop-house-baltimore"
+    },
+    {
+      "id": "venue-manifesto-kansas-city",
+      "name": "Manifesto",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Crossroads",
+      "address": "1924 Main Street, Kansas City, MO 64108",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "manifesto-kansas-city"
+    },
+    {
+      "id": "venue-death-and-co-denver",
+      "name": "Death & Co Denver",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "neighborhood": "RiNo",
+      "address": "1280 25th Street, Denver, CO 80205",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "death-and-co-denver"
+    },
+    {
+      "id": "venue-breckenridge-distillery",
+      "name": "Breckenridge Distillery Restaurant",
+      "city": "Breckenridge",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "1925 Airport Road, Breckenridge, CO 80424",
+      "location": {
+        "lat": 39.4817,
+        "lng": -106.0384,
+        "precision": "city-centroid"
+      },
+      "sourceId": "breckenridge-distillery"
+    },
+    {
+      "id": "venue-q-house-denver-2021-10-21",
+      "name": "Q House",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "3421 E Colfax Ave, Denver, CO 80206",
+      "neighborhood": "City Park / East Colfax",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "q-house-denver-2021-10-21"
+    },
+    {
+      "id": "venue-wildflower-denver-2022-03-21",
+      "name": "Wildflower",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "3638 Navajo St, Denver, CO 80211",
+      "neighborhood": "LoHi",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "wildflower-denver-2022-03-21"
+    },
+    {
+      "id": "venue-yuan-wonton-denver",
+      "name": "Yuan Wonton",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "neighborhood": "North Park Hill",
+      "address": "2878 Fairfax St, Denver, CO 80207",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "yuan-wonton-denver"
+    },
+    {
+      "id": "venue-safta-denver",
+      "name": "Safta",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "3330 Brighton Blvd., Suite 201, Denver, CO 80216",
+      "neighborhood": "RiNo / The Source Hotel",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "safta-denver"
+    },
+    {
+      "id": "venue-smok-denver",
+      "name": "Smok",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "3330 Brighton Blvd., Suite 202, Denver, CO 80216",
+      "neighborhood": "RiNo / The Source Hotel",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "smok-denver"
+    },
+    {
+      "id": "venue-mister-oso-denver",
+      "name": "Mister Oso",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "neighborhood": "RiNo original; expanded to Wash Park",
+      "address": "Original: 3163 Larimer St, Denver; Wash Park: 103 S Ogden St, Denver",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "mister-oso-denver"
+    },
+    {
+      "id": "venue-annette-aurora",
+      "name": "Annette",
+      "city": "Aurora",
+      "region": "Colorado",
+      "country": "USA",
+      "neighborhood": "Stanley Marketplace",
+      "address": "2501 Dallas St, Aurora, CO 80010",
+      "location": {
+        "lat": 39.7294,
+        "lng": -104.8319,
+        "precision": "city-centroid"
+      },
+      "sourceId": "annette-aurora"
+    },
+    {
+      "id": "venue-mercantile-denver",
+      "name": "Mercantile Dining & Provision",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "neighborhood": "Union Station",
+      "address": "1701 Wynkoop St, Denver, CO 80202",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "mercantile-denver"
+    },
+    {
+      "id": "venue-barolo-grill-denver",
+      "name": "Barolo Grill",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "neighborhood": "Cherry Creek",
+      "address": "3030 E. 6th Ave., Denver, CO 80206",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "barolo-grill-denver"
+    },
+    {
+      "id": "venue-north-pond-chicago",
+      "name": "North Pond",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "neighborhood": "Lincoln Park",
+      "address": "2610 N Cannon Drive, Chicago, IL 60614",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "north-pond-chicago-2021"
+    },
+    {
+      "id": "venue-theater-book-of-mormon-kansas-city-2016",
+      "name": "Kansas City Music Hall",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": "301 W 13th St, Kansas City, MO 64105",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "book-of-mormon-kansas-city-2016",
+      "venueConfidence": "confirmed_title_and_tour_engagement"
+    },
+    {
+      "id": "venue-theater-second-city-chicago-2017",
+      "name": "The Second City, Chicago (exact stage unconfirmed)",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "address": "Chicago, IL",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "second-city-chicago-2017",
+      "venueConfidence": "confirmed_company_and_city;exact_production_unverified"
+    },
+    {
+      "id": "venue-theater-six-denver-2023",
+      "name": "Buell Theatre",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "1350 Curtis St, Denver, CO 80202",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "six-denver-2023",
+      "venueConfidence": "confirmed_title_city_and_tour_engagement"
+    },
+    {
+      "id": "venue-theater-denver-holiday-theater-2024",
+      "name": "Denver Performing Arts Complex (specific stage unconfirmed)",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "Denver, CO",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "denver-holiday-theater-2024",
+      "venueConfidence": "confirmed_theater_outing;production_probable_not_confirmed"
+    },
+    {
+      "id": "venue-red-hot-chili-peppers",
+      "name": "State Farm Center",
+      "city": "Champaign",
+      "region": "Illinois",
+      "country": "USA",
+      "location": {
+        "lat": 40.1164,
+        "lng": -88.2434,
+        "precision": "city-centroid"
+      },
+      "sourceId": "red-hot-chili-peppers"
+    },
+    {
+      "id": "venue-the-killers",
+      "name": "Sears Centre Arena",
+      "city": "Hoffman Estates",
+      "region": "Illinois",
+      "country": "USA",
+      "location": {
+        "lat": 42.0428,
+        "lng": -88.0798,
+        "precision": "city-centroid"
+      },
+      "sourceId": "the-killers"
+    },
+    {
+      "id": "venue-lollapalooza-all-three-days",
+      "name": "Grant Park",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "lollapalooza-all-three-days"
+    },
+    {
+      "id": "venue-saturday-night-live-sigourney-weaver-the-ting-tings",
+      "name": "NBC Studio 8H, Rockefeller Center",
+      "city": "New York City",
+      "region": "New York",
+      "country": "USA",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.006,
+        "precision": "city-centroid"
+      },
+      "sourceId": "saturday-night-live-sigourney-weaver-the-ting-tings"
+    },
+    {
+      "id": "venue-murray-state-choruses-at-carnegie-hall",
+      "name": "Carnegie Hall",
+      "city": "New York City",
+      "region": "New York",
+      "country": "USA",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.006,
+        "precision": "city-centroid"
+      },
+      "sourceId": "murray-state-choruses-at-carnegie-hall"
+    },
+    {
+      "id": "venue-blue-man-group-new-york",
+      "name": "Astor Place Theatre",
+      "city": "New York City",
+      "region": "New York",
+      "country": "USA",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.006,
+        "precision": "city-centroid"
+      },
+      "sourceId": "blue-man-group-new-york"
+    },
+    {
+      "id": "venue-penn-teller-las-vegas",
+      "name": "Rio All-Suite Hotel and Casino",
+      "city": "Las Vegas",
+      "region": "Nevada",
+      "country": "USA",
+      "location": {
+        "lat": 36.1699,
+        "lng": -115.1398,
+        "precision": "city-centroid"
+      },
+      "sourceId": "penn-teller-las-vegas"
+    },
+    {
+      "id": "venue-hozier",
+      "name": "Liberty Hall",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "country": "USA",
+      "location": {
+        "lat": 38.9717,
+        "lng": -95.2353,
+        "precision": "city-centroid"
+      },
+      "sourceId": "hozier"
+    },
+    {
+      "id": "venue-ellie-goulding",
+      "name": "Providence Medical Center Amphitheater",
+      "city": "Bonner Springs",
+      "region": "Kansas",
+      "country": "USA",
+      "location": {
+        "lat": 39.0597,
+        "lng": -94.8836,
+        "precision": "city-centroid"
+      },
+      "sourceId": "ellie-goulding"
+    },
+    {
+      "id": "venue-wagner-s-ring-cycle-lyric-opera-of-chicago",
+      "name": "Civic Opera House / Lyric Opera of Chicago",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "wagner-s-ring-cycle-lyric-opera-of-chicago"
+    },
+    {
+      "id": "venue-billy-joel-kansas-city",
+      "name": "Kauffman Stadium",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "billy-joel-kansas-city"
+    },
+    {
+      "id": "venue-cats-baltimore",
+      "name": "Hippodrome Theatre",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "location": {
+        "lat": 39.2904,
+        "lng": -76.6122,
+        "precision": "city-centroid"
+      },
+      "sourceId": "cats-baltimore"
+    },
+    {
+      "id": "venue-super-bowl-liv-halftime-shakira-jennifer-lopez",
+      "name": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "region": "Florida",
+      "country": "USA",
+      "location": {
+        "lat": 25.942,
+        "lng": -80.2456,
+        "precision": "city-centroid"
+      },
+      "sourceId": "super-bowl-liv-halftime-shakira-jennifer-lopez"
+    },
+    {
+      "id": "venue-jason-isbell-and-the-400-unit",
+      "name": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6536,
+        "lng": -105.1911,
+        "precision": "city-centroid"
+      },
+      "sourceId": "jason-isbell-and-the-400-unit"
+    },
+    {
+      "id": "venue-trampled-by-turtles",
+      "name": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6536,
+        "lng": -105.1911,
+        "precision": "city-centroid"
+      },
+      "sourceId": "trampled-by-turtles"
+    },
+    {
+      "id": "venue-said-the-sky",
+      "name": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6536,
+        "lng": -105.1911,
+        "precision": "city-centroid"
+      },
+      "sourceId": "said-the-sky"
+    },
+    {
+      "id": "venue-lauv",
+      "name": "The Mission Ballroom",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "lauv"
+    },
+    {
+      "id": "venue-billy-strings",
+      "name": "Fiddler's Green Amphitheatre",
+      "city": "Greenwood Village",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6172,
+        "lng": -104.9508,
+        "precision": "city-centroid"
+      },
+      "sourceId": "billy-strings"
+    },
+    {
+      "id": "venue-mt-joy",
+      "name": "Dillon Amphitheater",
+      "city": "Dillon",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6303,
+        "lng": -106.0434,
+        "precision": "city-centroid"
+      },
+      "sourceId": "mt-joy"
+    },
+    {
+      "id": "venue-outside-festival-day-two",
+      "name": "Civic Center Park",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "outside-festival-day-two"
+    },
+    {
+      "id": "venue-the-chainsmokers",
+      "name": "Lucas Oil Stadium",
+      "city": "Indianapolis",
+      "region": "Indiana",
+      "country": "USA",
+      "location": {
+        "lat": 39.7684,
+        "lng": -86.1581,
+        "precision": "city-centroid"
+      },
+      "sourceId": "the-chainsmokers"
+    },
+    {
+      "id": "venue-diplo-s-run-club-denver",
+      "name": "Cheesman Park",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "diplo-s-run-club-denver"
+    },
+    {
+      "id": "venue-tedeschi-trucks-band",
+      "name": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6536,
+        "lng": -105.1911,
+        "precision": "city-centroid"
+      },
+      "sourceId": "tedeschi-trucks-band"
+    },
+    {
+      "id": "venue-muse",
+      "name": "Fiddler's Green Amphitheatre",
+      "city": "Greenwood Village",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6172,
+        "lng": -104.9508,
+        "precision": "city-centroid"
+      },
+      "sourceId": "muse"
+    },
+    {
+      "id": "venue-santana",
+      "name": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "region": "Colorado",
+      "country": "USA",
+      "location": {
+        "lat": 39.6536,
+        "lng": -105.1911,
+        "precision": "city-centroid"
+      },
+      "sourceId": "santana"
+    }
+  ],
+  "records": [
+    {
+      "id": "dining-republique-los-angeles",
+      "type": "dining",
+      "title": "République",
+      "venueId": "venue-republique-los-angeles",
+      "status": "confirmed",
+      "visit": {
+        "date": "2026-10-24",
+        "year": 2026,
+        "possibleYears": [
+          2026
+        ],
+        "label": "2026-10-24",
+        "precision": "day",
+        "source": "Alex explicitly confirmed dining at République the night before 2026-10-25.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "directly_confirmed"
+      },
+      "summary": "Confirmed République dining visit on October 24, 2026. Michelin Selected in 2026 (not starred); its chef-owner Margarita Manzke won a James Beard Outstanding Pastry Chef or Baker award in 2023, before the visit.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2023,
+          "result": "winner",
+          "category": "Outstanding Pastry Chef or Baker",
+          "recipient": "Margarita Manzke",
+          "relationship": "chef at restaurant",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners",
+          "timingRelativeToVisit": "before_visit"
+        }
+      ],
+      "guide": {
+        "edition": 2026,
+        "distinction": "selected",
+        "stars": 0,
+        "sourceUrl": "https://guide.michelin.com/en/california/hollywood/restaurant/republique",
+        "historicalVisitDistinction": "selected"
+      },
+      "sourceUrl": "https://guide.michelin.com/en/california/hollywood/restaurant/republique",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "michelin_and_beard",
+        "note": "Michelin Selected 2026; Margarita Manzke 2023 JBF pastry winner at this restaurant."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "both",
+        "reason": "Michelin Selected in 2026 and a 2023 James Beard Outstanding Pastry Chef or Baker win by Margarita Manzke, both before Alex's confirmed October 24, 2026 visit.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/en/california/hollywood/restaurant/republique",
+          "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "Both listed Michelin Selected status in 2026 and the 2023 pastry award predate the meal."
+      },
+      "memory": {
+        "headline": "An evening at République",
+        "teaser": "A Los Angeles dinner worth remembering, at a restaurant celebrated for both its kitchen and pastry.",
+        "story": "You singled out your République dinner as one that belongs in Culture Passport. Its Michelin listing and Margarita Manzke’s James Beard recognition are part of the context, rather than the reason the evening needs to be remembered.",
+        "period": "2026",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-minetta-tavern-nyc-2016-2017",
+      "type": "dining",
+      "title": "Minetta Tavern",
+      "venueId": "venue-minetta-tavern-nyc-2016-2017",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [
+          2016,
+          2017
+        ],
+        "label": "2016 or 2017",
+        "precision": "year_range",
+        "source": "Alex's direct confirmation of Minetta Tavern on 2026-10-24"
+      },
+      "summary": "Confirmed visit to Minetta Tavern in 2016 or 2017. The Black Label Burger and white-tablecloth dining room match the remembered experience. Minetta Tavern held one Michelin star in both years.",
+      "recognitions": [],
+      "guide": {
+        "edition": 2017,
+        "verifiedEditions": [
+          2016,
+          2017
+        ],
+        "distinction": "starred",
+        "stars": 1,
+        "sourceUrl": "https://michelinmedia.com/michelin-guide-nyc-2017/",
+        "sourceUrls": [
+          "https://michelinmedia.com/c0/michelinguidenyc2016/",
+          "https://michelinmedia.com/michelin-guide-nyc-2017/"
+        ],
+        "historicalVisitDistinction": "starred",
+        "starsAtVisit": 1
+      },
+      "sourceUrl": "https://michelinmedia.com/michelin-guide-nyc-2017/",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Michelin 1 star in both possible visit years, 2016 and 2017."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "One Michelin star in both plausible 2016 and 2017 Guide editions.",
+        "evidenceUrls": [
+          "https://michelinmedia.com/michelin-guide-nyc-2017/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "consult dated award records; meal date may be unknown"
+      },
+      "memory": {
+        "headline": "A burger in a white-tablecloth dining room",
+        "teaser": "A classic New York room, almost Italian in atmosphere, and a burger that stuck with you.",
+        "story": "Your memory started with a great New York hamburger and an unusually traditional dining room. The white tablecloths and almost Italian atmosphere ultimately helped identify Minetta Tavern.",
+        "period": "2016–17",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-beckon-denver-2023",
+      "type": "dining",
+      "title": "Beckon",
+      "venueId": "venue-beckon-denver-2023",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2023,
+        "possibleYears": [
+          2023
+        ],
+        "label": "2023",
+        "precision": "approximate",
+        "source": "Alex's direct confirmation of Beckon on 2026-10-24; previously recalled visiting near the initial 2023 star announcement"
+      },
+      "summary": "Confirmed visit to Beckon around the time it received one Michelin star in the inaugural Colorado Guide, announced September 12, 2023. The precise visit date is still unknown.",
+      "recognitions": [],
+      "guide": {
+        "edition": 2023,
+        "distinction": "starred",
+        "stars": 1,
+        "starAwardDate": "2023-09-12",
+        "sourceUrl": "https://michelinmedia.com/c0/introducing-first-stars-michelin-guide-colorado/",
+        "historicalVisitDistinction": "unverified",
+        "starsAtVisit": null
+      },
+      "sourceUrl": "https://michelinmedia.com/c0/introducing-first-stars-michelin-guide-colorado/",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Michelin 1 star in inaugural Colorado 2023 selection; meal date relative to award uncertain."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "Awarded one Michelin star in Colorado's inaugural 2023 Guide; meal date relative to award announcement remains unknown.",
+        "evidenceUrls": [
+          "https://michelinmedia.com/c0/introducing-first-stars-michelin-guide-colorado/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "consult dated award records; meal date may be unknown"
+      },
+      "memory": {
+        "headline": "Denver’s first Michelin chapter",
+        "teaser": "A special Denver meal remembered around the city's inaugural Michelin recognition.",
+        "story": "You remember being at Beckon around the time it earned its first Michelin star. The moment matters more than pinning down the day of the reservation.",
+        "period": "2023",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-charleston-baltimore-2018-2021",
+      "type": "dining",
+      "title": "Charleston",
+      "venueId": "venue-charleston-baltimore-2018-2021",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2020,
+        "possibleYears": [
+          2020
+        ],
+        "label": "2020",
+        "precision": "approximate_year",
+        "source": "Alex's explicit confirmation in conversation on 2026-10-24; timeline year 2020 chosen directly by Alex on 2026-10-24"
+      },
+      "summary": "Confirmed Charleston visit, placed on the 2020 timeline (exact date unknown). Chef Cindy Wolf earned multiple James Beard nominations; Charleston later won the Outstanding Wine and Other Beverages Program award in 2025.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2018,
+          "result": "finalist",
+          "category": "Best Chef: Mid-Atlantic",
+          "recipient": "Cindy Wolf",
+          "relationship": "chef at restaurant",
+          "timingRelativeToVisit": "within_possible_visit_window",
+          "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2019,
+          "result": "finalist",
+          "category": "Best Chef: Mid-Atlantic",
+          "recipient": "Cindy Wolf",
+          "relationship": "chef at restaurant",
+          "timingRelativeToVisit": "within_possible_visit_window",
+          "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2020,
+          "result": "finalist",
+          "category": "Best Chef: Mid-Atlantic",
+          "recipient": "Cindy Wolf",
+          "relationship": "chef at restaurant",
+          "timingRelativeToVisit": "within_possible_visit_window",
+          "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "result": "winner",
+          "category": "Outstanding Wine and Other Beverages Program",
+          "recipient": "Charleston",
+          "relationship": "restaurant award",
+          "timingRelativeToVisit": "after_visit",
+          "sourceUrl": "https://web.jamesbeard.org/stories/the-2025-james-beard-award-winners"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "Baltimore was not covered by Michelin's US restaurant guide during the 2018–2021 visit window. Absence of stars here is not a negative dining assessment."
+      },
+      "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "james_beard",
+        "note": "Cindy Wolf Best Chef: Mid-Atlantic recognition during Baltimore period; restaurant-level wine program award in 2025, after meal."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "james_beard",
+        "reason": "Chef Cindy Wolf received James Beard Best Chef: Mid-Atlantic finalist recognition; restaurant won the 2025 Outstanding Wine and Other Beverages Program award, after the 2020 meal.",
+        "evidenceUrls": [
+          "https://archive.jamesbeard.org/chef/cindy-wolf",
+          "https://web.jamesbeard.org/stories/the-2025-james-beard-award-winners"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "consult dated award records; meal date may be unknown"
+      },
+      "memory": {
+        "headline": "A favorite chapter of Baltimore dining",
+        "teaser": "Charleston belongs to the Baltimore years you want to remember.",
+        "story": "You confirmed this restaurant from your Baltimore period and placed it on your 2020 timeline. The finer details of the evening can be added when you remember them. A late-October 2020 outdoor dinner reservation offers one small anchor for that Baltimore chapter.",
+        "period": "2020",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2020-10-26",
+          "platform": "Resy",
+          "occasion": "Outdoor seating",
+          "partySize": 2,
+          "verification": "historical_reservation_only"
+        }
+      ]
+    },
+    {
+      "id": "dining-woodberry-kitchen-baltimore-2018-2021",
+      "type": "dining",
+      "title": "Woodberry Kitchen",
+      "venueId": "venue-woodberry-kitchen-baltimore-2018-2021",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2018,
+        "possibleYears": [
+          2018
+        ],
+        "label": "2018 (exact dining date not established)",
+        "precision": "approximate_year",
+        "source": "Alex expressly confirmed dining at Woodberry Kitchen and placed it in 2018. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
+        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
+      },
+      "summary": "Confirmed Woodberry Kitchen visit, placed on the 2018 timeline (exact date unknown). Chef Spike Gjerde won the James Beard Best Chef: Mid-Atlantic award in 2015, before this visit.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2015,
+          "result": "winner",
+          "category": "Best Chef: Mid-Atlantic",
+          "recipient": "Spike Gjerde",
+          "relationship": "chef at restaurant",
+          "timingRelativeToVisit": "before_visit",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/blog/2015-james-beard-award-winners"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "Baltimore was not within a Michelin restaurant Guide region in the 2018–2021 period; no star claim is being made."
+      },
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/blog/2015-james-beard-award-winners",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "james_beard",
+        "note": "Spike Gjerde won 2015 JBF Best Chef: Mid-Atlantic while associated with Woodberry Kitchen."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "james_beard",
+        "reason": "Chef Spike Gjerde won James Beard Best Chef: Mid-Atlantic in 2015 at Woodberry Kitchen, before the approximate 2018 meal.",
+        "evidenceUrls": [
+          "https://archive.jamesbeard.org/index.php/blog/2015-james-beard-award-winners"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "consult dated award records; meal date may be unknown"
+      },
+      "memory": {
+        "headline": "A table from the Baltimore years",
+        "teaser": "A Baltimore dining memory associated with your 2018 chapter.",
+        "story": "You recognized Woodberry Kitchen from your time in Baltimore. We can preserve it here without asking you to reconstruct a detailed reservation.",
+        "period": "2018",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2018-05-16",
+          "partySize": 2,
+          "reservationStatus": "completed",
+          "attendanceInference": "not_independently_verified",
+          "source": "user_provided_reservation_screenshot",
+          "sourceNote": "Historical booking evidence; exact dining date unverified"
+        }
+      ]
+    },
+    {
+      "id": "dining-momofuku-ccdc-washington-dc",
+      "type": "dining",
+      "title": "Momofuku CCDC",
+      "venueId": "venue-momofuku-ccdc-washington-dc",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [
+          2018,
+          2019,
+          2020
+        ],
+        "label": "Washington, DC years (2018–2020; exact dining date unknown)",
+        "precision": "year_range",
+        "source": "Alex expressly confirmed dining at Momofuku CCDC. A completed 2018-08-21 reservation is on file but is not independently proven as the dining date.",
+        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
+      },
+      "summary": "Confirmed visit to David Chang's Momofuku CCDC in Washington, DC. Exact meal date uncertain; restaurant operated 2015 to March 2020. Michelin listed it with The Plate designation in 2019 (not a star). Chang's 2013 James Beard Outstanding Chef award was for Momofuku Noodle Bar in New York, not this restaurant.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2013,
+          "result": "winner",
+          "category": "Outstanding Chef",
+          "recipient": "David Chang",
+          "relationship": "Momofuku founder; award attributed to Momofuku Noodle Bar in New York City, not Momofuku CCDC",
+          "recognitionAtDifferentVenue": true,
+          "timingRelativeToVisit": "before_visit",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/winner-recap-4"
+        }
+      ],
+      "guide": {
+        "edition": 2019,
+        "distinction": "plate",
+        "stars": 0,
+        "sourceUrl": "https://guide.michelin.com/en/article/dining-out/washington-dc-restaurant-week",
+        "historicalVisitDistinction": "unverified",
+        "note": "Michelin referred to Momofuku CCDC as The Plate in a 2019 Guide article. Its designation at the exact date of Alex's meal is not confirmed, and The Plate is not a Michelin star."
+      },
+      "sourceUrl": "https://guide.michelin.com/en/article/dining-out/washington-dc-restaurant-week",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "2019 Michelin Plate selection, a recommendation but NOT a Michelin star; 2013 David Chang JBF honor at NYC Momofuku Noodle Bar is excluded from basis."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "Listed with Michelin's historical Plate recommendation in the 2019 Washington, DC Guide, not a Michelin star. The visit date is unknown; David Chang's 2013 James Beard win belongs to a different NYC restaurant.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/en/article/dining-out/washington-dc-restaurant-week"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "consult dated award records; meal date may be unknown"
+      },
+      "memory": {
+        "headline": "The David Chang restaurant in Washington",
+        "teaser": "The Washington, DC restaurant you remembered through David Chang's name.",
+        "story": "You recalled visiting one of David Chang's restaurants in Washington and then confirmed it was Momofuku CCDC. That identification is the story worth preserving.",
+        "period": "2018",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2018-08-21",
+          "partySize": 4,
+          "reservationStatus": "completed",
+          "attendanceInference": "not_independently_verified",
+          "source": "user_provided_reservation_screenshot",
+          "sourceNote": "Historical booking evidence; exact dining date unverified"
+        }
+      ]
+    },
+    {
+      "id": "dining-sauvage-steamboat-2021-01",
+      "type": "dining",
+      "title": "Sauvage",
+      "venueId": "venue-sauvage-steamboat-2021-01",
+      "status": "confirmed",
+      "favorite": true,
+      "visit": {
+        "date": null,
+        "year": 2021,
+        "month": 1,
+        "possibleYears": [
+          2021
+        ],
+        "label": "January 2021",
+        "precision": "month",
+        "source": "Alex's direct recollection, October 25, 2026"
+      },
+      "summary": "One of Alex's favorite dining experiences: a French-inspired tasting-menu dinner at Sauvage in Steamboat Springs in January 2021. The precise day is unknown. The restaurant has since closed.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No historical Michelin distinction is asserted for this visit. Colorado's first Michelin Guide selection arrived in 2023; Baltimore was not covered."
+      },
+      "sourceUrl": "https://www.steamboat.com/-/media/steamboat/pdfs/w202122-press-kit.pdf",
+      "editorial": {
+        "awardQualified": false,
+        "collection": "featured_personal_dining",
+        "basis": null,
+        "note": "Personally selected: one of the user's favorite dining experiences, January 2021, Steamboat Springs. No award claim.",
+        "featuredException": true,
+        "exceptionPriority": "permanent"
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "A valued personal favorite; no verified Michelin Guide or James Beard award/nomination established for this restaurant.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-10-25",
+        "confidence": "no_qualifying_evidence_found"
+      },
+      "memory": {
+        "headline": "A favorite winter dinner in Steamboat",
+        "teaser": "A French-inspired tasting-menu evening remembered as one of your favorite meals.",
+        "story": "You remembered Sauvage in Steamboat Springs as one of your favorite dining experiences during a winter trip. That feeling is why it remains in the collection, irrespective of award criteria. The reservation archive captures the original winter visit and a Valentine's Day booking the following February, another thread in the Steamboat story.",
+        "period": "Winter 2021",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2022-02-14",
+          "platform": "Resy",
+          "occasion": "Valentine's Day",
+          "partySize": 6,
+          "verification": "historical_reservation_only"
+        },
+        {
+          "date": "2021-01-17",
+          "platform": "Resy",
+          "occasion": "Dining room",
+          "partySize": 4,
+          "verification": "historical_reservation_only"
+        }
+      ]
+    },
+    {
+      "id": "dining-gunther-and-co-baltimore-2020-02-14",
+      "type": "dining",
+      "title": "Gunther & Co.",
+      "venueId": "venue-gunther-and-co-baltimore-2020-02-14",
+      "status": "confirmed",
+      "favorite": true,
+      "visit": {
+        "date": "2020-02-14",
+        "year": 2020,
+        "month": 2,
+        "possibleYears": [
+          2020
+        ],
+        "label": "February 14, 2020",
+        "precision": "day",
+        "source": "Alex's direct recollection, October 25, 2026"
+      },
+      "summary": "A standout Valentine's Day dinner at Gunther & Co. in Baltimore's historic Gunther Boiler Building, February 14, 2020. One of Alex's favorite dining experiences.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No historical Michelin distinction is asserted for this visit. Colorado's first Michelin Guide selection arrived in 2023; Baltimore was not covered."
+      },
+      "sourceUrl": "https://eatatgunther.com/contact",
+      "editorial": {
+        "awardQualified": false,
+        "collection": "featured_personal_dining",
+        "basis": null,
+        "note": "Personally selected: Valentine's Day 2020 dinner in Baltimore. No award claim.",
+        "featuredException": true,
+        "exceptionPriority": "permanent"
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "A valued personal favorite; no verified Michelin Guide or James Beard award/nomination established for this restaurant.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-10-25",
+        "confidence": "no_qualifying_evidence_found"
+      },
+      "memory": {
+        "headline": "Valentine’s Day in Baltimore",
+        "teaser": "A Valentine’s Day dinner that became one of your favorite restaurant memories.",
+        "story": "You singled out Gunther & Co. as a favorite, especially your Valentine’s Day dinner in Baltimore. The occasion and the setting are the heart of the entry.",
+        "period": "Valentine’s Day · 2020",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-thames-street-oyster-house-baltimore",
+      "type": "dining",
+      "title": "Thames Street Oyster House",
+      "venueId": "venue-thames-street-oyster-house-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "month": null,
+        "possibleYears": [],
+        "label": "Date to be established",
+        "precision": "unknown",
+        "source": "Alex's direct recollection, October 25, 2026"
+      },
+      "summary": "Confirmed visit to Thames Street Oyster House, a Fells Point seafood restaurant and raw bar serving Mid-Atlantic and New England seafood. Exact visit date is not yet recalled.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No historical Michelin distinction is asserted for this visit. Colorado's first Michelin Guide selection arrived in 2023; Baltimore was not covered."
+      },
+      "sourceUrl": "https://thamesstreetoysterhouse.com/",
+      "editorial": {
+        "awardQualified": false,
+        "collection": "personal_memories",
+        "basis": null,
+        "note": "Confirmed personal dining memory. No venue-specific Michelin or James Beard recognition verified; excluded from the award-focused default view."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed dining memory; no verified Michelin Guide or James Beard recognition established for this restaurant.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-10-25",
+        "confidence": "no_qualifying_evidence_found"
+      },
+      "memory": {
+        "headline": "Seafood in Fells Point",
+        "teaser": "A seafood-house memory from your Baltimore chapter.",
+        "story": "You confirmed visiting Thames Street Oyster House in Fells Point. There is no need to invent the meal or the occasion before that memory comes back to you.",
+        "period": "Baltimore years",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-majestic-kansas-city",
+      "type": "dining",
+      "title": "The Majestic Restaurant",
+      "venueId": "venue-majestic-kansas-city",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Kansas City visits, 2010–present (exact date unknown)",
+        "precision": "unknown",
+        "source": "Alex directly confirmed The Majestic Restaurant in the Culture Passport interview on October 25, 2026."
+      },
+      "summary": "Confirmed visit to The Majestic, a downtown Kansas City steakhouse with a basement jazz supper club. Exact dining date and jazz performers are unknown.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No Michelin star or James Beard distinction is claimed for this venue or this visit."
+      },
+      "sourceUrl": "https://majestickc.com/jazz-club/",
+      "editorial": {
+        "awardQualified": false,
+        "collection": "featured_personal_dining",
+        "basis": null,
+        "note": "User wants The Majestic kept in the visible collection, provisionally, because of the memorable steakhouse and basement jazz experience. No award claim.",
+        "featuredException": true,
+        "exceptionPriority": "provisional"
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed jazz-steakhouse memory; no verified Michelin Guide or James Beard honor for the restaurant established.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-10-25",
+        "confidence": "no_qualifying_evidence_found"
+      },
+      "memory": {
+        "headline": "Steak and jazz in Kansas City",
+        "teaser": "A wonderful steakhouse with a jazz club in its basement—the atmosphere made it unmistakable.",
+        "story": "You remembered a terrific Kansas City steakhouse with live jazz in a basement bar. That distinctive combination led you back to The Majestic; it is kept because it mattered to you.",
+        "period": "Kansas City years",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-rec-pier-chop-house-baltimore",
+      "type": "dining",
+      "title": "Rec Pier Chop House",
+      "venueId": "venue-rec-pier-chop-house-baltimore",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [
+          2018,
+          2019,
+          2020,
+          2021
+        ],
+        "label": "Baltimore years (2018–2021; exact dining date unknown)",
+        "precision": "year_range",
+        "source": "Alex expressly confirmed dining at Rec Pier Chop House. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
+        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
+      },
+      "summary": "Confirmed visit to Rec Pier Chop House, the Italian chophouse inside Sagamore Pendry Baltimore in Fells Point. Exact meal date remains unknown.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No Michelin star or James Beard distinction is claimed for this venue or this visit."
+      },
+      "sourceUrl": "https://www.pendry.com/baltimore/dining/rec-pier-chop-house/",
+      "editorial": {
+        "awardQualified": false,
+        "collection": "personal_memories",
+        "basis": null,
+        "note": "Confirmed personal dining memory. No venue-specific Michelin or James Beard recognition verified; excluded from the award-focused default view."
+      },
+      "curation": {
+        "status": "needs_verification",
+        "basis": "associated_chef",
+        "reason": "Chef Andrew Carmellini had James Beard awards from earlier career and was associated with this restaurant, but no direct James Beard award for Rec Pier Chop House has been established. Founder association alone is insufficient.",
+        "evidenceUrls": [
+          "https://www.ciachef.edu/cia-bios/andrew-carmellini/",
+          "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "indirect_only"
+      },
+      "memory": {
+        "headline": "Dinner inside the Sagamore Pendry",
+        "teaser": "An Italian chophouse in Baltimore's waterfront hotel, recalled from your Fells Point days.",
+        "story": "You recalled dining at the Sagamore Pendry Baltimore and identified its restaurant as Rec Pier Chop House. It connects another place and occasion to your Baltimore years.",
+        "period": "Baltimore years",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2018-05-16",
+          "partySize": 2,
+          "reservationStatus": "completed",
+          "attendanceInference": "not_independently_verified",
+          "source": "user_provided_reservation_screenshot",
+          "sourceNote": "Historical booking evidence; exact dining date unverified"
+        }
+      ]
+    },
+    {
+      "id": "bar-manifesto-kansas-city",
+      "type": "bar",
+      "title": "Manifesto",
+      "venueId": "venue-manifesto-kansas-city",
+      "status": "confirmed",
+      "favorite": true,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Visited during Kansas City years, precise date unknown",
+        "precision": "unknown",
+        "source": "Alex directly recalled Manifesto as an amazing Kansas City cocktail bar on October 25, 2026."
+      },
+      "summary": "A memorable visit to Manifesto, the intimate basement speakeasy in Kansas City's historic Rieger Hotel building. The original bar closed around 2020. Exact visit date is unknown.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2018,
+          "result": "semifinalist",
+          "category": "Outstanding Bar Program",
+          "recipient": "Manifesto, Kansas City",
+          "relationship": "bar itself",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "note": "Kansas City was not covered by Michelin during its operating years."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "exceptionPriority": null,
+        "collection": "recognized_cocktail_bar",
+        "basis": "james_beard",
+        "note": "The user explicitly described Manifesto as an amazing cocktail-bar experience; the venue was a named 2018 James Beard semifinalist."
+      },
+      "memory": {
+        "headline": "A hidden Kansas City cocktail bar",
+        "teaser": "An amazing speakeasy tucked beneath a historic Kansas City building.",
+        "story": "You remembered Manifesto as an amazing cocktail-bar experience. The subterranean speakeasy atmosphere is the main memory; its James Beard semifinalist recognition adds context. A 2019 booking at The Rieger specifically says ‘Drinks at Manifesto,’ placing a real night of cocktails in the history of that hidden bar.",
+        "period": "Kansas City years",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2019-10-25",
+          "platform": "Tock",
+          "occasion": "Drinks at Manifesto",
+          "partySize": 6,
+          "verification": "historical_reservation_only"
+        }
+      ]
+    },
+    {
+      "id": "bar-death-and-co-denver",
+      "type": "bar",
+      "title": "Death & Co Denver",
+      "venueId": "venue-death-and-co-denver",
+      "status": "confirmed",
+      "favorite": true,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date unknown (Denver outpost opened May 2018)",
+        "precision": "unknown",
+        "source": "Alex directly recalled enjoying Death & Co in Denver on October 25, 2026."
+      },
+      "summary": "A personally memorable cocktail-bar experience at Death & Co inside Denver's Ramble Hotel in RiNo. This Denver outpost opened in May 2018; the date of the visit remains unknown.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "note": "No Michelin or venue-specific James Beard recognition has been verified for the Denver location."
+      },
+      "sourceUrl": "https://www.deathandcompany.com/location/death-and-company-denver/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": true,
+        "exceptionPriority": "permanent",
+        "collection": "featured_cocktail_memory",
+        "basis": null,
+        "note": "The user expressly described Death & Co Denver as amazing and asked to include memorable cocktail bars. Awards earned by the New York location or at other competitions must not be attributed to the Denver site."
+      },
+      "memory": {
+        "headline": "A standout evening in RiNo",
+        "teaser": "A memorable cocktail-bar outing at Death & Co in Denver's Ramble Hotel.",
+        "story": "You singled out Death & Co in Denver as another exceptional cocktail experience. It stays in the collection as a personal favorite, without borrowing award recognition from the New York location.",
+        "period": "Denver years",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-breckenridge-distillery-2021",
+      "type": "dining",
+      "title": "Breckenridge Distillery Restaurant",
+      "venueId": "venue-breckenridge-distillery",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2021,
+        "possibleYears": [
+          2021
+        ],
+        "label": "2021 (exact date unknown)",
+        "precision": "approximate_year",
+        "source": "User explicitly confirmed dining at Breckenridge Distillery once each in 2021, 2022, and 2023. Exact dates and number of meals beyond the annual minimum are unknown (October 25, 2026)."
+      },
+      "summary": "Confirmed visit to Breckenridge Distillery Restaurant in 2021, one of three years Alex remembered dining there. The restaurant opened in 2016. James Beard-winning chef David Burke served as culinary ambassador, but this is not a venue-specific James Beard award; his involvement in any particular 2021–2023 meal is not verified.",
+      "recognitions": [],
+      "recognitionLeads": [
+        {
+          "recipient": "David Burke",
+          "relationship": "culinary ambassador",
+          "honor": "Prior James Beard-recognized chef, not a confirmed award for this restaurant",
+          "sourceUrl": "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No Michelin distinction established; Colorado's first Guide began in 2023."
+      },
+      "sourceUrl": "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "The restaurant opened in 2016. James Beard-winning chef David Burke served as culinary ambassador, but this is not a venue-specific James Beard award; his involvement in any particular 2021–2023 meal is not verified."
+      },
+      "curation": {
+        "status": "needs_verification",
+        "basis": "associated_chef",
+        "reason": "Chef David Burke's prior honors are not attributed to this venue, and the culinary-ambassador relationship is not sufficient to establish a Michelin/JBF qualifying restaurant.",
+        "evidenceUrls": [
+          "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "indirect_only"
+      },
+      "memory": {
+        "headline": "A meal worth returning for",
+        "teaser": "A fun distillery meal you returned to across several Breckenridge trips.",
+        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The story here is the place you returned to, not an exact ledger of each reservation.",
+        "period": "2021",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-breckenridge-distillery-2022",
+      "type": "dining",
+      "title": "Breckenridge Distillery Restaurant",
+      "venueId": "venue-breckenridge-distillery",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2022,
+        "possibleYears": [
+          2022
+        ],
+        "label": "2022 (exact date unknown)",
+        "precision": "approximate_year",
+        "source": "User explicitly confirmed dining at Breckenridge Distillery once each in 2021, 2022, and 2023. Exact dates and number of meals beyond the annual minimum are unknown (October 25, 2026)."
+      },
+      "summary": "Confirmed visit to Breckenridge Distillery Restaurant in 2022, one of three years Alex remembered dining there. The restaurant opened in 2016. James Beard-winning chef David Burke served as culinary ambassador, but this is not a venue-specific James Beard award; his involvement in any particular 2021–2023 meal is not verified.",
+      "recognitions": [],
+      "recognitionLeads": [
+        {
+          "recipient": "David Burke",
+          "relationship": "culinary ambassador",
+          "honor": "Prior James Beard-recognized chef, not a confirmed award for this restaurant",
+          "sourceUrl": "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No Michelin distinction established; Colorado's first Guide began in 2023."
+      },
+      "sourceUrl": "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "The restaurant opened in 2016. James Beard-winning chef David Burke served as culinary ambassador, but this is not a venue-specific James Beard award; his involvement in any particular 2021–2023 meal is not verified."
+      },
+      "curation": {
+        "status": "needs_verification",
+        "basis": "associated_chef",
+        "reason": "Chef David Burke's prior honors are not attributed to this venue, and the culinary-ambassador relationship is not sufficient to establish a Michelin/JBF qualifying restaurant.",
+        "evidenceUrls": [
+          "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "indirect_only"
+      },
+      "memory": {
+        "headline": "A meal worth returning for",
+        "teaser": "A fun distillery meal you returned to across several Breckenridge trips.",
+        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The story here is the place you returned to, not an exact ledger of each reservation.",
+        "period": "2022",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      }
+    },
+    {
+      "id": "dining-breckenridge-distillery-2023",
+      "type": "dining",
+      "title": "Breckenridge Distillery Restaurant",
+      "venueId": "venue-breckenridge-distillery",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2023,
+        "possibleYears": [
+          2023
+        ],
+        "label": "2023 (exact date unknown)",
+        "precision": "approximate_year",
+        "source": "User explicitly confirmed dining at Breckenridge Distillery once each in 2021, 2022, and 2023. Exact dates and number of meals beyond the annual minimum are unknown (October 25, 2026)."
+      },
+      "summary": "Confirmed visit to Breckenridge Distillery Restaurant in 2023, one of three years Alex remembered dining there. The restaurant opened in 2016. James Beard-winning chef David Burke served as culinary ambassador, but this is not a venue-specific James Beard award; his involvement in any particular 2021–2023 meal is not verified.",
+      "recognitions": [],
+      "recognitionLeads": [
+        {
+          "recipient": "David Burke",
+          "relationship": "culinary ambassador",
+          "honor": "Prior James Beard-recognized chef, not a confirmed award for this restaurant",
+          "sourceUrl": "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "No Michelin distinction established; Colorado's first Guide began in 2023."
+      },
+      "sourceUrl": "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "The restaurant opened in 2016. James Beard-winning chef David Burke served as culinary ambassador, but this is not a venue-specific James Beard award; his involvement in any particular 2021–2023 meal is not verified."
+      },
+      "curation": {
+        "status": "needs_verification",
+        "basis": "associated_chef",
+        "reason": "Chef David Burke's prior honors are not attributed to this venue, and the culinary-ambassador relationship is not sufficient to establish a Michelin/JBF qualifying restaurant.",
+        "evidenceUrls": [
+          "https://breckenridgedistillery.com/the-breckenridge-distillery-restaurant-inventive-cuisine-creative-cocktails/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "indirect_only"
+      },
+      "memory": {
+        "headline": "A meal worth returning for",
+        "teaser": "A fun distillery meal you returned to across several Breckenridge trips.",
+        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The story here is the place you returned to, not an exact ledger of each reservation.",
+        "period": "2023",
+        "source": "User’s directly shared recollection, with verified contextual description where applicable"
+      },
+      "reservations": [
+        {
+          "date": "2023-01-11",
+          "platform": "Tock",
+          "occasion": "Table reservation",
+          "partySize": 4,
+          "verification": "historical_reservation_only"
+        },
+        {
+          "date": "2023-01-05",
+          "platform": "Tock",
+          "occasion": "Chef counter reservation",
+          "partySize": 2,
+          "verification": "historical_reservation_only"
+        }
+      ]
+    },
+    {
+      "id": "dining-q-house-denver-2021-10-21",
+      "type": "dining",
+      "title": "Q House",
+      "venueId": "venue-q-house-denver-2021-10-21",
+      "status": "reservation_only",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Reservation on file; attendance not confirmed",
+        "precision": "unknown",
+        "source": "Completed reservation screenshot supplied 2026-10-25; booking date does not independently prove dining on that date.",
+        "evidenceType": "completed_reservation_only",
+        "attendanceCertainty": "not_independently_verified"
+      },
+      "summary": "A completed reservation is documented for Q House on 2021-10-21. Attendance at this restaurant was not directly confirmed. Michelin and James Beard recognition belongs to the restaurant, not to a verified personal visit.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2019,
+          "result": "semifinalist",
+          "category": "Best New Restaurant",
+          "recipient": "Q House, Denver",
+          "relationship": "restaurant itself",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+        }
+      ],
+      "guide": {
+        "edition": 2023,
+        "distinction": "selected",
+        "stars": 0,
+        "historicalVisitDistinction": "not_yet_awarded_at_visit",
+        "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
+        "note": "Recognition as Michelin Selected came after the 2021 reservation."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "james_beard_and_michelin",
+        "note": "2019 James Beard semifinalist predates the meal; Michelin 2023 selection postdates it. Booking only; this is an interview lead, not a confirmed experience."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "james_beard_and_michelin",
+        "reason": "James Beard 2019 Best New Restaurant semifinalist predates the 2021 reservation. Michelin Selected in 2023 postdates the reservation. User attendance is unconfirmed.",
+        "evidenceUrls": [
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
+          "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented_recognition; reservation_documented_meal",
+        "awardAtVisit": "Recognition is venue-level only; personal dining attendance remains unverified."
+      },
+      "reservations": [
+        {
+          "date": "2021-10-21",
+          "partySize": 2,
+          "reservationStatus": "completed",
+          "attendanceInference": "not_independently_verified",
+          "source": "user_provided_reservation_screenshot",
+          "sourceNote": "Historical booking evidence; exact dining date unverified"
+        }
+      ]
+    },
+    {
+      "id": "dining-wildflower-denver-2022-03-21",
+      "type": "dining",
+      "title": "Wildflower",
+      "venueId": "venue-wildflower-denver-2022-03-21",
+      "status": "reservation_only",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Reservation on file; attendance not confirmed",
+        "precision": "unknown",
+        "source": "Completed reservation screenshot supplied 2026-10-25; booking date does not independently prove dining on that date.",
+        "evidenceType": "completed_reservation_only",
+        "attendanceCertainty": "not_independently_verified"
+      },
+      "summary": "A completed reservation is documented for Wildflower on 2022-03-21. Attendance at this restaurant was not directly confirmed. Michelin and James Beard recognition belongs to the restaurant, not to a verified personal visit.",
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "result": "winner",
+          "category": "Young Chef Award",
+          "recipient": "Aiden Tibbetts",
+          "relationship": "chef at Wildflower",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
+        }
+      ],
+      "guide": {
+        "edition": 2026,
+        "distinction": "selected",
+        "stars": 0,
+        "historicalVisitDistinction": "not_yet_awarded_at_visit",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
+        "note": "Current Michelin Selected; exact first guide edition needs historical verification."
+      },
+      "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Michelin recognition documented after this reservation, not a Michelin star. Booking only; this is an interview lead, not a confirmed experience."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "Michelin Guide recognition in 2026 postdates the 2022 reservation; attendance remains unconfirmed.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
+          "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented_recognition; reservation_documented_meal",
+        "awardAtVisit": "Recognition is venue-level only; personal dining attendance remains unverified."
+      },
+      "reservations": [
+        {
+          "date": "2022-03-21",
+          "partySize": 7,
+          "reservationStatus": "completed",
+          "attendanceInference": "not_independently_verified",
+          "source": "user_provided_reservation_screenshot",
+          "sourceNote": "Historical booking evidence; exact dining date unverified"
+        }
+      ]
+    },
+    {
+      "id": "dining-yuan-wonton-denver",
+      "type": "dining",
+      "title": "Yuan Wonton",
+      "venueId": "venue-yuan-wonton-denver",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not established",
+        "precision": "unknown",
+        "source": "User named Yuan Wonton as a restaurant visited in Denver during Culinary Passport interview on 2026-10-25; exact meal date not provided.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "reported"
+      },
+      "summary": "Denver dumpling restaurant founded by chef-owner Penelope Wong. Wong won the 2026 James Beard Best Chef: Mountain award. This remembered dining visit has no verified date, so recognition timing relative to the meal remains unknown.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "result": "winner",
+          "category": "Best Chef: Mountain (CO, ID, MT, UT, WY)",
+          "recipient": "Penelope Wong",
+          "relationship": "chef-owner at Yuan Wonton",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "no_michelin_award_asserted",
+        "sourceUrl": null,
+        "note": "No Michelin Guide award is claimed for Yuan Wonton; qualification is through Penelope Wong's 2026 James Beard win."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-winners-2026",
+      "editorial": {
+        "awardQualified": true,
+        "collection": "recognized_dining",
+        "basis": "james_beard",
+        "note": "Penelope Wong won 2026 James Beard Best Chef: Mountain. Visit date not established."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "james_beard",
+        "reason": "Chef-owner Penelope Wong won 2026 James Beard Best Chef: Mountain for Yuan Wonton in Denver. Specific visit date unknown.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "unknown_visit_date"
+      }
+    },
+    {
+      "id": "dining-safta-denver",
+      "type": "dining",
+      "title": "Safta",
+      "venueId": "venue-safta-denver",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not established",
+        "precision": "unknown",
+        "source": "Alex directly confirmed visiting Safta in Denver in the 2026-10-25 Culture Passport conversation; year and occasion not provided.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A confirmed visit to Safta, the airy Israeli restaurant at The Source Hotel in Denver. The setting and distinctive kitchen give this memory a place in the collection; the particular occasion is still to be recalled.",
+      "memory": {
+        "headline": "A meal at Safta in Denver",
+        "teaser": "Israeli cooking at The Source Hotel: a lively Denver dining room remembered from your RiNo years.",
+        "story": "You confirmed Safta as a restaurant you've visited in Denver. We can add the moment that made this visit memorable whenever you recall it. A summer 2022 reservation anchors the restaurant in your Denver years, while the details that made the evening special can be added when they return to mind.",
+        "period": "Denver years",
+        "source": "Direct user confirmation; no date or specific meal recollection supplied."
+      },
+      "guide": {
+        "edition": 2026,
+        "distinction": "selected",
+        "stars": 0,
+        "historicalVisitDistinction": "visit_date_unknown",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/safta",
+        "note": "Michelin Guide Selected/Recommended from inaugural Colorado selection 2023 onward, including 2026. Not starred and not Bib Gourmand. Alon Shaya's 2015 James Beard Best Chef: South award was earned at Domenica in New Orleans and is not attributed to Safta."
+      },
+      "recognitions": [],
+      "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/safta",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Michelin Guide Selected/Recommended from inaugural Colorado selection 2023 onward, including 2026. Not starred and not Bib Gourmand. Alon Shaya's 2015 James Beard Best Chef: South award was earned at Domenica in New Orleans and is not attributed to Safta."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "The restaurant itself appears as a Michelin Guide Recommended/Selected restaurant, independently of other locations or chef awards.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/safta",
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented_recognition; firsthand user-confirmed visit; time unknown"
+      },
+      "reservations": [
+        {
+          "date": "2022-07-12",
+          "platform": "Resy",
+          "occasion": "Dining",
+          "partySize": 3,
+          "verification": "historical_reservation_only"
+        }
+      ]
+    },
+    {
+      "id": "dining-smok-denver",
+      "type": "dining",
+      "title": "Smok",
+      "venueId": "venue-smok-denver",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not established",
+        "precision": "unknown",
+        "source": "Alex directly confirmed visiting Smok in Denver in the 2026-10-25 Culture Passport conversation; year and occasion not provided.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A confirmed visit to Smok, Chef Bill Espiricueta's barbecue restaurant at The Source Hotel in Denver. The specific meal remains open for you to describe in your own words.",
+      "memory": {
+        "headline": "Barbecue at The Source Hotel",
+        "teaser": "A barbecue stop at The Source Hotel, where the smoker and relaxed atmosphere define the restaurant.",
+        "story": "You confirmed Smok as a restaurant you've visited in Denver. We can add the moment that made this visit memorable whenever you recall it.",
+        "period": "Denver years",
+        "source": "Direct user confirmation; no date or specific meal recollection supplied."
+      },
+      "guide": {
+        "edition": 2026,
+        "distinction": "selected",
+        "stars": 0,
+        "historicalVisitDistinction": "visit_date_unknown",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/smok",
+        "note": "Michelin Guide Selected/Recommended from Colorado's inaugural 2023 selection through the 2026 edition. Not starred and not Bib Gourmand."
+      },
+      "recognitions": [],
+      "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/smok",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Michelin Guide Selected/Recommended from Colorado's inaugural 2023 selection through the 2026 edition. Not starred and not Bib Gourmand."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "The restaurant itself appears as a Michelin Guide Recommended/Selected restaurant, independently of other locations or chef awards.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/smok",
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented_recognition; firsthand user-confirmed visit; time unknown"
+      }
+    },
+    {
+      "id": "dining-mister-oso-denver",
+      "type": "dining",
+      "title": "Mister Oso",
+      "venueId": "venue-mister-oso-denver",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Denver years",
+        "precision": "unknown",
+        "source": "Alex directly confirmed visiting Mister Oso during the October 25, 2026 Culture Passport interview; completed Wash Park reservation screenshot on file for March 31, 2024.",
+        "evidenceType": "user_confirmed_venue_and_booking",
+        "attendanceCertainty": "user_confirmed_venue"
+      },
+      "summary": "You remember Mister Oso as part of Denver's evolving dining scene, with its roots in Señor Bear and its expansion across neighborhoods.",
+      "memory": {
+        "headline": "From Señor Bear to RiNo and Wash Park",
+        "teaser": "A playful Latin American restaurant with roots in Señor Bear, a RiNo beginning, and a Wash Park chapter.",
+        "story": "The story begins with Señor Bear, the Latin American restaurant chef Blake Edmunds helped open in Highland in 2017. In 2019, the team brought a more casual, playful sibling to RiNo, taking over the former Populist space with tacos, ceviches, tropical greenery, and creative cocktails. Mister Oso's popularity helped carry it into Wash Park in summer 2022. The original RiNo restaurant earned a Michelin Bib Gourmand in 2023. Your visit belongs to that larger Denver restaurant story: one idea growing from Señor Bear into a neighborhood favorite with more than one home.",
+        "period": "Denver years",
+        "source": "User-confirmed restaurant memory plus restaurant website, Michelin, and contemporary Denver coverage"
+      },
+      "guide": {
+        "edition": 2023,
+        "distinction": "bib",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/mister-oso",
+        "note": "Mister Oso's original RiNo restaurant earned a Michelin Bib Gourmand in 2023; later/current guide listings are tied to RiNo. This is context about the original, not a claim that Wash Park separately received the honor."
+      },
+      "recognitions": [],
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin_bib_original",
+        "note": "The original RiNo restaurant received Michelin Bib Gourmand recognition. Mister Oso is one restaurant story spanning both RiNo and Wash Park; no separate branch award is claimed."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin_restaurant_brand",
+        "reason": "Mister Oso's original RiNo location received a Michelin Bib Gourmand in 2023; user confirmed a Mister Oso visit, with a prior Wash Park reservation, but did not specify every visited branch.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/mister-oso",
+          "https://www.westword.com/food-drink/mr-oso-wash-park-open-14893628/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "verified_recognition_to_original_location_and_direct_user_visit_to_brand"
+      }
+    },
+    {
+      "id": "dining-annette-aurora",
+      "type": "dining",
+      "title": "Annette",
+      "venueId": "venue-annette-aurora",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not specified",
+        "precision": "unknown",
+        "source": "Alex marked this restaurant visited in the October 25, 2026 Culture Passport interview; no exact date claimed.",
+        "evidenceType": "direct_user_confirmation"
+      },
+      "summary": "Chef Caroline Glover's intimate, ingredient-driven restaurant in a repurposed aviation building.",
+      "memory": {
+        "headline": "Annette at the Stanley Marketplace",
+        "teaser": "Chef Caroline Glover's intimate, ingredient-driven restaurant in a repurposed aviation building.",
+        "story": "You confirmed dining at Annette, the intimate restaurant tucked inside Aurora's Stanley Marketplace. Chef Caroline Glover helped establish it as one of the region's significant dining destinations, earning a James Beard Best Chef: Mountain award in 2022; it joined Michelin's Bib Gourmand selection in 2026. The story of the night itself can be added when it comes back to you.",
+        "period": "Denver years",
+        "source": "User-confirmed visit; Michelin/James Beard historical context sourced separately"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2022,
+          "result": "winner",
+          "category": "Best Chef: Mountain",
+          "recipient": "Caroline Glover",
+          "relationship": "chef at Annette",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-winners"
+        }
+      ],
+      "guide": {
+        "edition": 2026,
+        "distinction": "bib",
+        "stars": 0,
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurants/bib-gourmand",
+        "historicalVisitDistinction": "unknown_visit_date",
+        "note": "Aurora venue won Michelin Bib Gourmand for 2026; visit year is not known."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-winners",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "both",
+        "note": "Michelin/James Beard qualification is about the restaurant, not proof an award had already been received at an undated meal."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "both",
+        "reason": "Documented qualifying recognition directly associated with this restaurant.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2022-james-beard-award-winners",
+          "https://www.jamesbeard.org/stories/the-2022-james-beard-award-winners"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "Visit date unspecified; no claim recognition was held during the meal."
+      }
+    },
+    {
+      "id": "dining-mercantile-denver",
+      "type": "dining",
+      "title": "Mercantile Dining & Provision",
+      "venueId": "venue-mercantile-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not specified",
+        "precision": "unknown",
+        "source": "Alex marked this restaurant visited in the October 25, 2026 Culture Passport interview; no exact date claimed.",
+        "evidenceType": "direct_user_confirmation"
+      },
+      "summary": "An acclaimed kitchen inside Denver Union Station, led by James Beard-winning chef Alex Seidel.",
+      "memory": {
+        "headline": "A table at Union Station",
+        "teaser": "An acclaimed kitchen inside Denver Union Station, led by James Beard-winning chef Alex Seidel.",
+        "story": "You confirmed visiting Mercantile Dining & Provision, a place rooted in the transformation of Denver Union Station into a lively destination. Chef Alex Seidel's cooking at Mercantile earned the James Beard Best Chef: Southwest award in 2018. Your particular evening can stay undated until you remember what made it yours.",
+        "period": "Denver years",
+        "source": "User-confirmed visit; Michelin/James Beard historical context sourced separately"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2018,
+          "result": "winner",
+          "category": "Best Chef: Southwest",
+          "recipient": "Alex Seidel",
+          "relationship": "chef of Mercantile Dining & Provision",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+        }
+      ],
+      "guide": {
+        "edition": 2026,
+        "distinction": "selected",
+        "stars": 0,
+        "sourceUrl": "https://guide.michelin.com/en/colorado/denver_1261491/restaurants",
+        "historicalVisitDistinction": "unknown_visit_date",
+        "note": "Michelin Guide recommended/selected; Michelin status at an undated visit is unknown."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "both",
+        "note": "Michelin/James Beard qualification is about the restaurant, not proof an award had already been received at an undated meal."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "both",
+        "reason": "Documented qualifying recognition directly associated with this restaurant.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+          "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "Visit date unspecified; no claim recognition was held during the meal."
+      }
+    },
+    {
+      "id": "dining-barolo-grill-denver",
+      "type": "dining",
+      "title": "Barolo Grill",
+      "venueId": "venue-barolo-grill-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not specified",
+        "precision": "unknown",
+        "source": "Alex marked this restaurant visited in the October 25, 2026 Culture Passport interview; no exact date claimed.",
+        "evidenceType": "direct_user_confirmation"
+      },
+      "summary": "An enduring Northern Italian dining room known for hospitality and an exceptional wine list.",
+      "memory": {
+        "headline": "An Italian institution in Denver",
+        "teaser": "An enduring Northern Italian dining room known for hospitality and an exceptional wine list.",
+        "story": "You identified Barolo Grill as a place you've visited in Denver. Known for its Northern Italian kitchen, wine collection, and unusually dedicated approach to hospitality, it is included in the Michelin Guide's Colorado selection. We can add the particular occasion to the story whenever you remember it.",
+        "period": "Denver years",
+        "source": "User-confirmed visit; Michelin/James Beard historical context sourced separately"
+      },
+      "recognitions": [],
+      "guide": {
+        "edition": 2026,
+        "distinction": "selected",
+        "stars": 0,
+        "sourceUrl": "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill",
+        "historicalVisitDistinction": "unknown_visit_date",
+        "note": "Michelin Selected; not a star."
+      },
+      "sourceUrl": "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin",
+        "note": "Michelin/James Beard qualification is about the restaurant, not proof an award had already been received at an undated meal."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "michelin",
+        "reason": "Documented qualifying recognition directly associated with this restaurant.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "Visit date unspecified; no claim recognition was held during the meal."
+      }
+    },
+    {
+      "id": "dining-north-pond-chicago-2021",
+      "type": "dining",
+      "title": "North Pond",
+      "venueId": "venue-north-pond-chicago",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": 2021,
+        "month": 10,
+        "possibleYears": [
+          2021
+        ],
+        "label": "Fall 2021 · after the Chicago Marathon",
+        "precision": "approximate_month",
+        "timeWindow": "The week following October 10, 2021; exact dinner date unknown",
+        "source": "Alex directly confirmed visiting North Pond, Chicago in October 2021, the week after the October 10 Chicago Marathon (message Oct 25, 2026)."
+      },
+      "summary": "An autumn dinner at North Pond, hidden inside Chicago's Lincoln Park, in the week following the 2021 Chicago Marathon. The restaurant occupies a century-old ice-skating warming house on the edge of a pond and held one Michelin star during the visit. A peaceful, seasonal counterpoint to the energy of marathon week.",
+      "story": {
+        "headline": "A quiet table in Lincoln Park, after marathon week",
+        "paragraphs": [
+          "The memorable part begins before reaching the table. North Pond sits not on a busy downtown restaurant row, but tucked into the trees beside a pond in Lincoln Park. Its low Arts and Crafts-style building was constructed in 1912 as a warming shelter for ice skaters; decades later, that same refuge became a place for thoughtful, seasonal American cooking.",
+          "The restaurant's reputation was built in no small part by chef Bruce Sherman, whose focus on Midwestern ingredients earned him the James Beard Foundation's Best Chef: Great Lakes award in 2012. Sherman stepped away from daily kitchen leadership at the end of 2019, but the restaurant's identity endured.",
+          "In October 2021, during the week after the Chicago Marathon, this was one of the restaurants worth seeking out. That year's Michelin Guide had awarded North Pond one star months before the meal. The precise evening and dishes are not recorded; what survives is the setting, the post-race trip to Chicago, and a restaurant whose story reaches back more than a century."
+        ],
+        "chapters": [
+          {
+            "year": "1912",
+            "title": "A shelter by the water",
+            "detail": "Built to warm ice skaters in Lincoln Park."
+          },
+          {
+            "year": "2012",
+            "title": "A James Beard-winning kitchen",
+            "detail": "Bruce Sherman wins Best Chef: Great Lakes, representing North Pond."
+          },
+          {
+            "year": "2019",
+            "title": "A changing of the guard",
+            "detail": "Sherman steps away from daily kitchen leadership after two decades."
+          },
+          {
+            "year": "2021",
+            "title": "A Michelin-starred post-marathon dinner",
+            "detail": "One Michelin star in the 2021 Guide, with the remembered visit the week after the Chicago Marathon."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Michelin 2021 Chicago stars",
+            "url": "https://www.opentable.com/blog/chicago-michelin-stars-2021/"
+          },
+          {
+            "label": "James Beard: Bruce Sherman",
+            "url": "https://archive.jamesbeard.org/blog/best-chef-great-lakes-bruce-sherman"
+          },
+          {
+            "label": "Sherman's departure, Chicago magazine",
+            "url": "https://www.chicagomag.com/dining-drinking/november-2019/bruce-sherman-is-leaving-north-pond/"
+          },
+          {
+            "label": "Michelin venue and heritage",
+            "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/north-pond"
+          }
+        ]
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2012,
+          "result": "winner",
+          "category": "Best Chef: Great Lakes",
+          "recipient": "Bruce Sherman",
+          "relationship": "North Pond chef-partner when awarded; departed from daily kitchen leadership in 2019, before the remembered 2021 dinner.",
+          "timingRelativeToVisit": "before_visit",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/best-chef-great-lakes-bruce-sherman"
+        }
+      ],
+      "guide": {
+        "edition": 2021,
+        "distinction": "starred",
+        "stars": 1,
+        "sourceUrl": "https://chicago.eater.com/2021/4/29/22399621/michelin-restaurants-chicago-stars-2021",
+        "sourceUrls": [
+          "https://www.opentable.com/blog/chicago-michelin-stars-2021/",
+          "https://guide.michelin.com/us/en/illinois/chicago/restaurant/north-pond"
+        ],
+        "verifiedEditions": [
+          2021
+        ],
+        "starAwardDate": "2021-04-29",
+        "historicalVisitDistinction": "starred",
+        "starsAtVisit": 1,
+        "note": "2021 Michelin one-star selection announced April 29, ahead of user's post-marathon October visit. This documents the restaurant's star at the time, not its current award status."
+      },
+      "sourceUrl": "https://chicago.eater.com/2021/4/29/22399621/michelin-restaurants-chicago-stars-2021",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin_and_beard",
+        "note": "One Michelin star in the 2021 Guide at visit; Bruce Sherman won the 2012 JBF Best Chef: Great Lakes award at North Pond, but had departed daily leadership by 2021."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "both",
+        "reason": "2021 Michelin one-star selection before the October visit; Bruce Sherman won JBF Best Chef: Great Lakes in 2012 while chef-partner at North Pond.",
+        "evidenceUrls": [
+          "https://chicago.eater.com/2021/4/29/22399621/michelin-restaurants-chicago-stars-2021",
+          "https://archive.jamesbeard.org/blog/best-chef-great-lakes-bruce-sherman",
+          "https://www.chicagomag.com/dining-drinking/november-2019/bruce-sherman-is-leaving-north-pond/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "documented",
+        "awardAtVisit": "2021 Michelin one star confirmed; 2012 James Beard win predated dinner."
+      },
+      "memory": {
+        "headline": "A quiet table in Lincoln Park, after marathon week",
+        "teaser": "A quiet Lincoln Park dinner in a former skating shelter, following the 2021 Chicago Marathon.",
+        "story": "The memorable part begins before reaching the table. North Pond sits not on a busy downtown restaurant row, but tucked into the trees beside a pond in Lincoln Park. Its low Arts and Crafts-style building was constructed in 1912 as a warming shelter for ice skaters; decades later, that same refuge became a place for thoughtful, seasonal American cooking.\n\nThe restaurant's reputation was built in no small part by chef Bruce Sherman, whose focus on Midwestern ingredients earned him the James Beard Foundation's Best Chef: Great Lakes award in 2012. Sherman stepped away from daily kitchen leadership at the end of 2019, but the restaurant's identity endured.\n\nIn October 2021, during the week after the Chicago Marathon, this was one of the restaurants worth seeking out. That year's Michelin Guide had awarded North Pond one star months before the meal. The precise evening and dishes are not recorded; what survives is the setting, the post-race trip to Chicago, and a restaurant whose story reaches back more than a century.",
+        "period": "Autumn 2021",
+        "source": "User-confirmed North Pond visit from earlier interview, with Michelin's 2021 star and historic chef award verified separately."
+      }
+    },
+    {
+      "id": "theater-book-of-mormon-kansas-city-2016",
+      "type": "theater",
+      "title": "The Book of Mormon",
+      "venueId": "venue-theater-book-of-mormon-kansas-city-2016",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": 2016,
+        "month": 12,
+        "possibleYears": [
+          2016
+        ],
+        "label": "December 2016",
+        "precision": "approximate_month",
+        "source": "User directly recalled the cultural outing in conversation October 25, 2026; matching production dates established independently, not a verified ticket.",
+        "evidenceType": "first_person_memory"
+      },
+      "summary": "The irreverent Broadway musical on tour at Kansas City Music Hall during the 2016 holiday season.",
+      "memory": {
+        "headline": "A Broadway comedy comes to Kansas City",
+        "teaser": "The irreverent Broadway musical on tour at Kansas City Music Hall during the 2016 holiday season.",
+        "story": "You remembered seeing The Book of Mormon in Kansas City around December 2016. That matches the touring production at Kansas City Music Hall from December 6–11, 2016. The musical combines sharp satire from Trey Parker and Matt Stone with songs by Robert Lopez, and its Kansas City run provides a solid setting for this theater memory. The particular performance night is still unrecorded.",
+        "period": "December 2016",
+        "source": "First-person recollection plus dated venue/production programming"
+      },
+      "production": {
+        "name": "The Book of Mormon",
+        "titleConfirmed": true,
+        "engagementWindow": "December 6–11, 2016",
+        "identificationConfidence": "confirmed_title_and_tour_engagement",
+        "exactAttendanceDate": null,
+        "sourceUrl": "https://www.ibdb.com/tour-production/the-book-of-mormon-jumamosi-499334"
+      },
+      "recognitions": [],
+      "sourceUrl": "https://www.ibdb.com/tour-production/the-book-of-mormon-jumamosi-499334"
+    },
+    {
+      "id": "theater-second-city-chicago-2017",
+      "type": "theater",
+      "title": "The Second City — Chicago holiday outing",
+      "venueId": "venue-theater-second-city-chicago-2017",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": 2017,
+        "month": 12,
+        "possibleYears": [
+          2017
+        ],
+        "label": "Christmas season 2017",
+        "precision": "approximate_month",
+        "source": "User directly recalled the cultural outing in conversation October 25, 2026; matching production dates established independently, not a verified ticket.",
+        "evidenceType": "first_person_memory"
+      },
+      "summary": "A holiday-season outing to a Second City performance during a Chicago visit in 2017.",
+      "memory": {
+        "headline": "Laughing through the holidays in Chicago",
+        "teaser": "A holiday-season outing to a Second City performance during a Chicago visit in 2017.",
+        "story": "You remember going to a Second City performance in Chicago around Christmas 2017. Sketch comedy, improvisation, and that city's distinctive theater culture are the center of this memory. The troupe had more than one production during the season, including Holidazed and Confused, so we are not assigning an exact revue or stage without a ticket, photo, or more specific recollection.",
+        "period": "Christmas season 2017",
+        "source": "First-person recollection plus dated venue/production programming"
+      },
+      "production": {
+        "name": "The Second City — holiday performance",
+        "titleConfirmed": false,
+        "engagementWindow": "December 2017",
+        "identificationConfidence": "confirmed_company_and_city;exact_production_unverified",
+        "exactAttendanceDate": null,
+        "sourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more"
+      },
+      "recognitions": [],
+      "sourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more"
+    },
+    {
+      "id": "theater-six-denver-2023",
+      "type": "theater",
+      "title": "SIX",
+      "venueId": "venue-theater-six-denver-2023",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": 2023,
+        "month": 12,
+        "possibleYears": [
+          2023
+        ],
+        "label": "December 2023",
+        "precision": "approximate_month",
+        "source": "User directly recalled the cultural outing in conversation October 25, 2026; matching production dates established independently, not a verified ticket.",
+        "evidenceType": "first_person_memory"
+      },
+      "summary": "The pop-concert musical about Henry VIII’s six wives, in Denver during the December 2023 run.",
+      "memory": {
+        "headline": "Six queens reclaim their stories",
+        "teaser": "The pop-concert musical about Henry VIII’s six wives, in Denver during the December 2023 run.",
+        "story": "You remembered seeing the musical about Henry VIII's wives in Denver and confirmed the year as 2023. The touring production of SIX played the Buell Theatre from December 5–24 that year. Its six queens tell their versions of Tudor history as a high-energy pop concert, making the concept especially memorable even without an exact performance date.",
+        "period": "December 2023",
+        "source": "First-person recollection plus dated venue/production programming"
+      },
+      "production": {
+        "name": "SIX",
+        "titleConfirmed": true,
+        "engagementWindow": "December 5–24, 2023",
+        "identificationConfidence": "confirmed_title_city_and_tour_engagement",
+        "exactAttendanceDate": null,
+        "sourceUrl": "https://www.denvercenter.org/news-center/dcpa-broadways-2023-24-season-announcement/"
+      },
+      "recognitions": [],
+      "sourceUrl": "https://www.denvercenter.org/news-center/dcpa-broadways-2023-24-season-announcement/"
+    },
+    {
+      "id": "theater-denver-holiday-theater-2024",
+      "type": "theater",
+      "title": "Denver holiday theater outing",
+      "venueId": "venue-theater-denver-holiday-theater-2024",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": 2024,
+        "month": 12,
+        "possibleYears": [
+          2024
+        ],
+        "label": "Christmas season 2024",
+        "precision": "approximate_month",
+        "source": "User directly recalled the cultural outing in conversation October 25, 2026; matching production dates established independently, not a verified ticket.",
+        "evidenceType": "first_person_memory"
+      },
+      "summary": "A Denver holiday performance you remember as probably A Christmas Carol.",
+      "memory": {
+        "headline": "A Christmas-season night at the theater",
+        "teaser": "A Denver holiday performance you remember as probably A Christmas Carol.",
+        "story": "You remember attending a play or musical in Denver around Christmas 2024 and think it was A Christmas Carol. The Denver Center presented its musical adaptation of Dickens's story at the Wolf Theatre from November 22 to December 29, 2024, which matches that memory. The title and particular performance remain provisional until you recognize more details.",
+        "period": "Christmas season 2024",
+        "source": "First-person recollection plus dated venue/production programming"
+      },
+      "production": {
+        "name": "Holiday theater in Denver",
+        "titleConfirmed": false,
+        "engagementWindow": "November–December 2024",
+        "identificationConfidence": "confirmed_theater_outing;production_probable_not_confirmed",
+        "exactAttendanceDate": null,
+        "sourceUrl": "https://www.denvercenter.org/news-center/denver-center-theatre-company-announces-2024-25-season/"
+      },
+      "recognitions": [],
+      "sourceUrl": "https://www.denvercenter.org/news-center/denver-center-theatre-company-announces-2024-25-season/"
+    },
+    {
+      "id": "concert-red-hot-chili-peppers",
+      "type": "concert",
+      "title": "Red Hot Chili Peppers",
+      "venueId": "venue-red-hot-chili-peppers",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2007,
+        "date": "2007-03-03",
+        "possibleYears": [
+          2007
+        ],
+        "label": "March 2007",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "A Chili Peppers show in Champaign, one of your earliest archived concerts.",
+      "memory": {
+        "headline": "Red Hot Chili Peppers",
+        "teaser": "A Chili Peppers show in Champaign, one of your earliest archived concerts.",
+        "story": "An early Illinois concert from 2007, before that summer's extraordinary Lollapalooza weekend.",
+        "period": "March 2007",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-the-killers",
+      "type": "concert",
+      "title": "The Killers",
+      "venueId": "venue-the-killers",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2007,
+        "date": "2007-05-10",
+        "possibleYears": [
+          2007
+        ],
+        "label": "May 2007",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "The Killers in the Sam's Town era outside Chicago.",
+      "memory": {
+        "headline": "The Killers",
+        "teaser": "The Killers in the Sam's Town era outside Chicago.",
+        "story": "A spring 2007 concert at Sears Centre Arena in Hoffman Estates.",
+        "period": "May 2007",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-lollapalooza-all-three-days",
+      "type": "concert",
+      "title": "Lollapalooza — all three days",
+      "venueId": "venue-lollapalooza-all-three-days",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2007,
+        "date": null,
+        "possibleYears": [
+          2007
+        ],
+        "label": "August 2007",
+        "precision": "approximate",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "Three full days in Grant Park at Lollapalooza 2007.",
+      "memory": {
+        "headline": "Lollapalooza — all three days",
+        "teaser": "Three full days in Grant Park at Lollapalooza 2007.",
+        "story": "You attended the entire 2007 Lollapalooza weekend. Daft Punk and Pearl Jam were among its headliners, and the event archive captures their sets. Treat the weekend as one festival memory, without inventing attendance at every stage.",
+        "period": "August 2007",
+        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+      },
+      "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "theater-saturday-night-live-sigourney-weaver-the-ting-tings",
+      "type": "theater",
+      "title": "Saturday Night Live — Sigourney Weaver / The Ting Tings",
+      "venueId": "venue-saturday-night-live-sigourney-weaver-the-ting-tings",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2010,
+        "date": "2010-01-16",
+        "possibleYears": [
+          2010
+        ],
+        "label": "January 2010",
+        "precision": "day",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "Inside the Saturday Night Live studio during a New York trip.",
+      "memory": {
+        "headline": "Saturday Night Live — Sigourney Weaver / The Ting Tings",
+        "teaser": "Inside the Saturday Night Live studio during a New York trip.",
+        "story": "The January 16, 2010 broadcast was hosted by Sigourney Weaver and featured The Ting Tings, tying television comedy and a live musical performance to a memorable trip.",
+        "period": "January 2010",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": "https://www.nbc.com/saturday-night-live",
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-murray-state-choruses-at-carnegie-hall",
+      "type": "concert",
+      "title": "Murray State choruses at Carnegie Hall",
+      "venueId": "venue-murray-state-choruses-at-carnegie-hall",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2010,
+        "date": "2010-01-18",
+        "possibleYears": [
+          2010
+        ],
+        "label": "January 2010",
+        "precision": "day",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "Seeing your sister perform at Carnegie Hall.",
+      "memory": {
+        "headline": "Murray State choruses at Carnegie Hall",
+        "teaser": "Seeing your sister perform at Carnegie Hall.",
+        "story": "You remember a trip to New York for a performance by your sister while she studied at Murray State. University reporting places its Concert Choir and University Chorale at Carnegie Hall on January 18, 2010. Her connection is the centerpiece of this story.",
+        "period": "January 2010",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "theater-blue-man-group-new-york",
+      "type": "theater",
+      "title": "Blue Man Group — New York",
+      "venueId": "venue-blue-man-group-new-york",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2010,
+        "date": null,
+        "possibleYears": [
+          2010
+        ],
+        "label": "January 2010",
+        "precision": "approximate",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "The visually inventive Blue Man Group stage show in New York.",
+      "memory": {
+        "headline": "Blue Man Group — New York",
+        "teaser": "The visually inventive Blue Man Group stage show in New York.",
+        "story": "The January 2010 New York visit included Blue Man Group: drumming, comedy and visual spectacle in an intimate off-Broadway setting.",
+        "period": "January 2010",
+        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "theater-penn-teller-las-vegas",
+      "type": "theater",
+      "title": "Penn & Teller — Las Vegas",
+      "venueId": "venue-penn-teller-las-vegas",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2010,
+        "date": null,
+        "possibleYears": [
+          2010
+        ],
+        "label": "March 2010",
+        "precision": "approximate",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "A trip to Las Vegas and Penn & Teller's stage magic.",
+      "memory": {
+        "headline": "Penn & Teller — Las Vegas",
+        "teaser": "A trip to Las Vegas and Penn & Teller's stage magic.",
+        "story": "You remember seeing Penn & Teller in Las Vegas in March 2010. The show's magic, humor and skepticism make it a natural part of the Culture Passport.",
+        "period": "March 2010",
+        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-hozier",
+      "type": "concert",
+      "title": "Hozier",
+      "venueId": "venue-hozier",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2015,
+        "date": "2015-02-23",
+        "possibleYears": [
+          2015
+        ],
+        "label": "February 2015",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Hozier at Liberty Hall in Lawrence.",
+      "memory": {
+        "headline": "Hozier",
+        "teaser": "Hozier at Liberty Hall in Lawrence.",
+        "story": "A concert archive entry from Hozier's international breakthrough years, in a much more intimate venue than today's arenas.",
+        "period": "February 2015",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-ellie-goulding",
+      "type": "concert",
+      "title": "Ellie Goulding",
+      "venueId": "venue-ellie-goulding",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2016,
+        "date": "2016-05-17",
+        "possibleYears": [
+          2016
+        ],
+        "label": "May 2016",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Ellie Goulding outside Kansas City, with Years & Years.",
+      "memory": {
+        "headline": "Ellie Goulding",
+        "teaser": "Ellie Goulding outside Kansas City, with Years & Years.",
+        "story": "An outdoor amphitheater concert from the mid-2010s, preserved in your event archive.",
+        "period": "May 2016",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "opera-wagner-s-ring-cycle-lyric-opera-of-chicago",
+      "type": "opera",
+      "title": "Wagner's Ring Cycle — Lyric Opera of Chicago",
+      "venueId": "venue-wagner-s-ring-cycle-lyric-opera-of-chicago",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2016,
+        "date": null,
+        "possibleYears": [
+          2016
+        ],
+        "label": "2016–2018",
+        "precision": "approximate",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "A multi-year journey through Wagner's Ring at the Lyric.",
+      "memory": {
+        "headline": "Wagner's Ring Cycle — Lyric Opera of Chicago",
+        "teaser": "A multi-year journey through Wagner's Ring at the Lyric.",
+        "story": "Your photo of the Civic Opera House in October 2016 displays Das Rheingold banners; another photo from November 2018 shows your group at the Lyric during the Siegfried season. Those are anchors for your Ring Cycle memories, not assertions that the photos prove attendance at any particular performance.",
+        "period": "2016–2018",
+        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-billy-joel-kansas-city",
+      "type": "concert",
+      "title": "Billy Joel — Kansas City",
+      "venueId": "venue-billy-joel-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2018,
+        "date": "2018-09-21",
+        "possibleYears": [
+          2018
+        ],
+        "label": "September 2018",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Billy Joel brings a concert to Kansas City's baseball stadium.",
+      "memory": {
+        "headline": "Billy Joel — Kansas City",
+        "teaser": "Billy Joel brings a concert to Kansas City's baseball stadium.",
+        "story": "Your event archive remembers Billy Joel at Kauffman Stadium in September 2018.",
+        "period": "September 2018",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "theater-cats-baltimore",
+      "type": "theater",
+      "title": "Cats — Baltimore",
+      "venueId": "venue-cats-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2020,
+        "date": null,
+        "possibleYears": [
+          2020
+        ],
+        "label": "January 2020",
+        "precision": "approximate",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "Cats at the Hippodrome, just before the pandemic.",
+      "memory": {
+        "headline": "Cats — Baltimore",
+        "teaser": "Cats at the Hippodrome, just before the pandemic.",
+        "story": "You remember seeing Cats at Baltimore's Hippodrome right before COVID. The tour played January 21–26, 2020, which fits your memory. Keep the exact evening unspecified.",
+        "period": "January 2020",
+        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+      },
+      "sourceUrl": "https://www.broadwayworld.com/baltimore/article/Hippodrome-Theatre-Presents-CATS-20200121",
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-super-bowl-liv-halftime-shakira-jennifer-lopez",
+      "type": "concert",
+      "title": "Super Bowl LIV halftime — Shakira / Jennifer Lopez",
+      "venueId": "venue-super-bowl-liv-halftime-shakira-jennifer-lopez",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2020,
+        "date": "2020-02-02",
+        "possibleYears": [
+          2020
+        ],
+        "label": "February 2020",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "The Super Bowl halftime show in Miami.",
+      "memory": {
+        "headline": "Super Bowl LIV halftime — Shakira / Jennifer Lopez",
+        "teaser": "The Super Bowl halftime show in Miami.",
+        "story": "Your live-music event archive records Shakira's Super Bowl LIV halftime appearance, featuring Jennifer Lopez, as a cultural experience within the larger football event. It should link to the sporting memory rather than double-count the trip.",
+        "period": "February 2020",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-jason-isbell-and-the-400-unit",
+      "type": "concert",
+      "title": "Jason Isbell and the 400 Unit",
+      "venueId": "venue-jason-isbell-and-the-400-unit",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2022,
+        "date": "2022-05-03",
+        "possibleYears": [
+          2022
+        ],
+        "label": "May 2022",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Jason Isbell at Red Rocks, with Waxahatchee.",
+      "memory": {
+        "headline": "Jason Isbell and the 400 Unit",
+        "teaser": "Jason Isbell at Red Rocks, with Waxahatchee.",
+        "story": "The 2022 archive lists Jason Isbell and the 400 Unit at Red Rocks with Waxahatchee.",
+        "period": "May 2022",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-trampled-by-turtles",
+      "type": "concert",
+      "title": "Trampled by Turtles",
+      "venueId": "venue-trampled-by-turtles",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2022,
+        "date": "2022-07-14",
+        "possibleYears": [
+          2022
+        ],
+        "label": "July 2022",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Trampled by Turtles, with Ruston Kelly, at Red Rocks.",
+      "memory": {
+        "headline": "Trampled by Turtles",
+        "teaser": "Trampled by Turtles, with Ruston Kelly, at Red Rocks.",
+        "story": "Another summer night of music in the foothills, preserved in your archive.",
+        "period": "July 2022",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-said-the-sky",
+      "type": "concert",
+      "title": "Said the Sky",
+      "venueId": "venue-said-the-sky",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2022,
+        "date": "2022-08-14",
+        "possibleYears": [
+          2022
+        ],
+        "label": "August 2022",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Said the Sky at Red Rocks, with Nurko and Autograf.",
+      "memory": {
+        "headline": "Said the Sky",
+        "teaser": "Said the Sky at Red Rocks, with Nurko and Autograf.",
+        "story": "Electronic music at Red Rocks with the foothills as the setting.",
+        "period": "August 2022",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-lauv",
+      "type": "concert",
+      "title": "Lauv",
+      "venueId": "venue-lauv",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2022,
+        "date": "2022-09-06",
+        "possibleYears": [
+          2022
+        ],
+        "label": "September 2022",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Lauv at Mission Ballroom with Hayley Kiyoko.",
+      "memory": {
+        "headline": "Lauv",
+        "teaser": "Lauv at Mission Ballroom with Hayley Kiyoko.",
+        "story": "Your concert archive places Lauv in Denver during his 2022 tour.",
+        "period": "September 2022",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-billy-strings",
+      "type": "concert",
+      "title": "Billy Strings",
+      "venueId": "venue-billy-strings",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2024,
+        "date": "2024-05-17",
+        "possibleYears": [
+          2024
+        ],
+        "label": "May 2024",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Billy Strings at Fiddler's Green.",
+      "memory": {
+        "headline": "Billy Strings",
+        "teaser": "Billy Strings at Fiddler's Green.",
+        "story": "A high-energy bluegrass night in the 2024 concert archive.",
+        "period": "May 2024",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-mt-joy",
+      "type": "concert",
+      "title": "Mt. Joy",
+      "venueId": "venue-mt-joy",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2024,
+        "date": "2024-08-10",
+        "possibleYears": [
+          2024
+        ],
+        "label": "August 2024",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Mt. Joy beside Lake Dillon and the Colorado mountains.",
+      "memory": {
+        "headline": "Mt. Joy",
+        "teaser": "Mt. Joy beside Lake Dillon and the Colorado mountains.",
+        "story": "The archive places Mt. Joy at the Dillon Amphitheater in August 2024.",
+        "period": "August 2024",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-outside-festival-day-two",
+      "type": "concert",
+      "title": "Outside Festival — day two",
+      "venueId": "venue-outside-festival-day-two",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2025,
+        "date": "2025-06-01",
+        "possibleYears": [
+          2025
+        ],
+        "label": "June 2025",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "A music-and-outdoors festival in central Denver.",
+      "memory": {
+        "headline": "Outside Festival — day two",
+        "teaser": "A music-and-outdoors festival in central Denver.",
+        "story": "Your 2025 event archive shows you at day two of the Outside Festival in Civic Center Park. Preserve it as a festival experience without guessing which sets you watched.",
+        "period": "June 2025",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-the-chainsmokers",
+      "type": "concert",
+      "title": "The Chainsmokers",
+      "venueId": "venue-the-chainsmokers",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2026,
+        "date": "2026-04-04",
+        "possibleYears": [
+          2026
+        ],
+        "label": "April 2026",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "The Chainsmokers at Lucas Oil Stadium.",
+      "memory": {
+        "headline": "The Chainsmokers",
+        "teaser": "The Chainsmokers at Lucas Oil Stadium.",
+        "story": "An Indianapolis music memory from your 2026 concert archive.",
+        "period": "April 2026",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-diplo-s-run-club-denver",
+      "type": "concert",
+      "title": "Diplo's Run Club — Denver",
+      "venueId": "venue-diplo-s-run-club-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2026,
+        "date": "2026-07-12",
+        "possibleYears": [
+          2026
+        ],
+        "label": "July 2026",
+        "precision": "day",
+        "source": "Direct user recollection + personal event archive and published season history",
+        "evidenceType": "user_recollection"
+      },
+      "summary": "Running meets live electronic music at Cheesman Park.",
+      "memory": {
+        "headline": "Diplo's Run Club — Denver",
+        "teaser": "Running meets live electronic music at Cheesman Park.",
+        "story": "Diplo's Run Club combined a Denver 5K with a post-run DJ concert in Cheesman Park. It belongs in the Cultural Passport as a crossover with the Adventures and running archive, not a separate race invented from the concert.",
+        "period": "July 2026",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": "https://diplosrunclub.com/denver",
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-tedeschi-trucks-band",
+      "type": "concert",
+      "title": "Tedeschi Trucks Band",
+      "venueId": "venue-tedeschi-trucks-band",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2026,
+        "date": "2026-08-01",
+        "possibleYears": [
+          2026
+        ],
+        "label": "August 2026",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Tedeschi Trucks Band with Lukas Nelson at Red Rocks.",
+      "memory": {
+        "headline": "Tedeschi Trucks Band",
+        "teaser": "Tedeschi Trucks Band with Lukas Nelson at Red Rocks.",
+        "story": "Your concert archive records this Red Rocks show in early August 2026.",
+        "period": "August 2026",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-muse",
+      "type": "concert",
+      "title": "Muse",
+      "venueId": "venue-muse",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2026,
+        "date": "2026-08-18",
+        "possibleYears": [
+          2026
+        ],
+        "label": "August 2026",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Muse, Portugal. The Man and The Temper Trap at Fiddler's Green.",
+      "memory": {
+        "headline": "Muse",
+        "teaser": "Muse, Portugal. The Man and The Temper Trap at Fiddler's Green.",
+        "story": "A major summer 2026 rock show in Greenwood Village, preserved in your event archive.",
+        "period": "August 2026",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    },
+    {
+      "id": "concert-santana",
+      "type": "concert",
+      "title": "Santana",
+      "venueId": "venue-santana",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2026,
+        "date": "2026-08-24",
+        "possibleYears": [
+          2026
+        ],
+        "label": "August 2026",
+        "precision": "day",
+        "source": "User's personal event archive screenshot",
+        "evidenceType": "personal_event_archive"
+      },
+      "summary": "Santana at Red Rocks.",
+      "memory": {
+        "headline": "Santana",
+        "teaser": "Santana at Red Rocks.",
+        "story": "A late-summer 2026 Santana show in the Colorado foothills, confirmed in the concert archive.",
+        "period": "August 2026",
+        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      }
+    }
+  ],
+  "origin": {
+    "repository": "alexlford/life-map",
+    "path": "data/dining.json",
+    "interviewPath": "data/dining-interview.json",
+    "asOf": "2026-10-25"
+  }
+}

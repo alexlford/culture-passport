@@ -1,0 +1,701 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "source": "User-provided screenshots of completed restaurant reservations in the OpenTable app.",
+  "policy": "A completed reservation is strong corroborating evidence but does not independently prove diner attendance. The screening of MICHELIN/James Beard status must use named-venue recognition, not simply a high rating or chef at another branch. One explicitly excluded unqualified venue is omitted from this public ledger at the user's request.",
+  "entries": [
+    {
+      "id": "westward-social-2026-03-13",
+      "name": "Westward Social",
+      "reservationDate": "2026-03-13",
+      "partySize": 3,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3565.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "louie-s-wine-dive-119th-kitchen-2025-12-27",
+      "name": "Louie's Wine Dive 119th Kitchen",
+      "reservationDate": "2025-12-27",
+      "partySize": 5,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3565.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "benzina-2025-03-01",
+      "name": "Benzina",
+      "reservationDate": "2025-03-01",
+      "partySize": 4,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3564.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "stellar-jay-2025-01-04",
+      "name": "Stellar Jay",
+      "reservationDate": "2025-01-04",
+      "partySize": 4,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3564.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "bao-brewhouse-2024-12-24",
+      "name": "Bao Brewhouse",
+      "reservationDate": "2024-12-24",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3563.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "senor-bear-2024-12-19",
+      "name": "Señor Bear",
+      "reservationDate": "2024-12-19",
+      "partySize": 5,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3563.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "the-kitchen-american-bistro-boulder-2024-12-07",
+      "name": "The Kitchen American Bistro - Boulder",
+      "reservationDate": "2024-12-07",
+      "partySize": 4,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3562.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "mister-oso-wash-park-2024-03-31",
+      "name": "Mister Oso Wash Park",
+      "reservationDate": "2024-03-31",
+      "partySize": 4,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3561.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "allred-s-restaurant-2023-10-14",
+      "name": "Allred's Restaurant",
+      "reservationDate": "2023-10-14",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3561.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "ember-breckenridge-2023-01-09",
+      "name": "Ember - Breckenridge",
+      "reservationDate": "2023-01-09",
+      "partySize": 6,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3560.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "uchi-denver-2022-05-15",
+      "name": "Uchi Denver",
+      "reservationDate": "2022-05-15",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3560.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "blanco-cocina-cantina-denver-2022-05-05",
+      "name": "Blanco Cocina + Cantina - Denver",
+      "reservationDate": "2022-05-05",
+      "partySize": 2,
+      "reservationStatus": "waitlist_completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3560.jpeg",
+      "attendanceInference": "not_confirmed",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "wildflower-denver-2022-03-21",
+      "name": "Wildflower - Denver",
+      "reservationDate": "2022-03-21",
+      "partySize": 7,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3559.jpeg",
+      "attendanceInference": "not_confirmed",
+      "publicCuration": "research_only",
+      "archivedRecordId": "dining-wildflower-denver-2022-03-21"
+    },
+    {
+      "id": "atelier-by-radex-2021-11-07",
+      "name": "Atelier by Radex",
+      "reservationDate": "2021-11-07",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3559.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "q-house-2021-10-21",
+      "name": "Q House",
+      "reservationDate": "2021-10-21",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3558.jpeg",
+      "attendanceInference": "not_confirmed",
+      "publicCuration": "research_only",
+      "archivedRecordId": "dining-q-house-denver-2021-10-21"
+    },
+    {
+      "id": "shells-and-sauce-2021-10-05",
+      "name": "Shells and Sauce",
+      "reservationDate": "2021-10-05",
+      "partySize": 4,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3558.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "ritual-social-house-2021-09-30",
+      "name": "Ritual Social House",
+      "reservationDate": "2021-09-30",
+      "partySize": 3,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3557.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "ritual-social-house-2021-09-26",
+      "name": "Ritual Social House",
+      "reservationDate": "2021-09-26",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3557.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "901-west-2016-01-24",
+      "name": "901 West",
+      "reservationDate": "2016-01-24",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3543.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    },
+    {
+      "id": "dominic-s-on-the-hill-2012-12-28",
+      "name": "Dominic's on the Hill",
+      "reservationDate": "2012-12-28",
+      "partySize": 2,
+      "reservationStatus": "completed",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "IMG_3543.jpeg",
+      "attendanceInference": "probable_not_independently_verified",
+      "publicCuration": "research_only"
+    }
+  ],
+  "semantics": "Existing 20 screenshot-corroborated entries are retained exactly; supplemental 39 screenshot-derived rows expand review. A completed reservation does not prove attendance. Explicitly excluded venues are omitted. Resy/Tock screenshots added October 25, 2026 are separate historical booking evidence. They do not establish that every reservation was attended; do not invent a dinner from a booking or copy guest counts into public narratives. Multiple dates for one venue are not duplicates.",
+  "rows": [
+    {
+      "name": "Westward Social",
+      "date": "2026-03-13",
+      "partySize": 3,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Louie's Wine Dive 119th Kitchen",
+      "date": "2025-12-27",
+      "partySize": 5,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Benzina",
+      "date": "2025-03-01",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Stellar Jay",
+      "date": "2025-01-04",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Bao Brewhouse",
+      "date": "2024-12-24",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Señor Bear",
+      "date": "2024-12-19",
+      "partySize": 5,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Ember - Breckenridge",
+      "date": "2023-01-09",
+      "partySize": 6,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Uchi Denver",
+      "date": "2022-05-15",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Blanco Cocina + Cantina - Denver",
+      "date": "2022-05-05",
+      "partySize": 2,
+      "status": "waitlist_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Mister Oso Wash Park",
+      "date": "2024-03-31",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Allred's Restaurant",
+      "date": "2023-10-14",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "The Kitchen American Bistro - Boulder",
+      "date": "2024-12-07",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Wildflower - Denver",
+      "date": "2022-03-21",
+      "partySize": 7,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Atelier by Radex",
+      "date": "2021-11-07",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Q House",
+      "date": "2021-10-21",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Shells and Sauce",
+      "date": "2021-10-05",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Ritual Social House",
+      "date": "2021-09-26",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Ritual Social House",
+      "date": "2021-09-30",
+      "partySize": 3,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Gunther & Co.",
+      "date": "2020-02-14",
+      "partySize": null,
+      "status": "user_recollected_visit",
+      "sourceType": "user_recollection_and_partially_visible_reservation",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "901 West",
+      "date": "2016-01-24",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Dominic's on the Hill",
+      "date": "2012-12-28",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "RND Corner Grille",
+      "date": "2016-07-13",
+      "partySize": 7,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Tannin Wine Bar and Kitchen",
+      "date": "2016-05-06",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Urban Table",
+      "date": "2017-02-22",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Cooper's Hawk Winery & Restaurant - Kansas City Plaza",
+      "date": "2017-02-18",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "715",
+      "date": "2017-05-10",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Gram & Dun at the Country Club Plaza",
+      "date": "2017-02-23",
+      "partySize": 5,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "BLU Restaurant & Bar",
+      "date": "2017-11-05",
+      "partySize": 1,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "The Farmhouse - Kansas City",
+      "date": "2017-05-12",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Woodberry Kitchen",
+      "date": "2018-05-16",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "La Scala - Baltimore",
+      "date": "2018-02-02",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Rye Plaza",
+      "date": "2018-06-03",
+      "partySize": 6,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Rec Pier Chop House",
+      "date": "2018-05-16",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Barcocina - Baltimore",
+      "date": "2018-11-16",
+      "partySize": 8,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Momofuku CCDC",
+      "date": "2018-08-21",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "FIG & OLIVE Meatpacking",
+      "date": "2019-01-26",
+      "partySize": 2,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "Affäre",
+      "date": "2018-12-08",
+      "partySize": 3,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "The Taproom at Guinness Open Gate Brewery",
+      "date": "2019-02-17",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "The Taproom at Guinness Open Gate Brewery",
+      "date": "2019-03-29",
+      "partySize": 4,
+      "status": "reservation_completed",
+      "sourceType": "user_provided_screenshot",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+    },
+    {
+      "name": "The Butcher's Daughter - West Hollywood",
+      "date": "2023-07-29",
+      "partySize": 3,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "Dining",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Safta",
+      "date": "2022-07-12",
+      "partySize": 3,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "Dining",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Sauvage",
+      "date": "2022-02-14",
+      "partySize": 6,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "Valentine's Day",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Sauvage",
+      "date": "2021-01-17",
+      "partySize": 4,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "Dining room",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Charleston",
+      "date": "2020-10-26",
+      "partySize": 2,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "Outdoor seating",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Willow Creek Restaurant",
+      "date": "2026-08-23",
+      "partySize": 4,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Tock",
+      "occasion": "Standard reservation",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Q39 South",
+      "date": "2025-05-24",
+      "partySize": 4,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Tock",
+      "occasion": "Reservation",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Breckenridge Distillery Restaurant",
+      "date": "2023-01-11",
+      "partySize": 4,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Tock",
+      "occasion": "Table reservation",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Breckenridge Distillery Restaurant",
+      "date": "2023-01-05",
+      "partySize": 2,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Tock",
+      "occasion": "Chef counter reservation",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Michelob Ultra Mountain House",
+      "date": "2025-11-20",
+      "partySize": 2,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "MUMH event day",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Michelob Ultra Mountain House",
+      "date": "2025-01-03",
+      "partySize": 4,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "BBMH event day",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Michelob Ultra Mountain House",
+      "date": "2024-04-22",
+      "partySize": 4,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Resy",
+      "occasion": "BBMH event day",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "The Rieger / Drinks at Manifesto",
+      "date": "2019-10-25",
+      "partySize": 6,
+      "status": "historical_reservation",
+      "sourceType": "user_provided_screenshot",
+      "platform": "Tock",
+      "occasion": "Drinks at Manifesto",
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    }
+  ]
+}
