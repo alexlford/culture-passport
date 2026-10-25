@@ -8,13 +8,13 @@ interview_data = json.loads((ROOT / "data/interview.json").read_text(encoding="u
 records, venues = records_data["records"], records_data["venues"]
 candidates = interview_data["candidates"]
 assert records_data["project"] == "Culture Passport" and records_data["version"] == 1
-assert len(records) == 58 and len(venues) == 56
+assert len(records) == 60 and len(venues) == 58
 assert len({r["id"] for r in records}) == len(records)
 assert len({v["id"] for v in venues}) == len(venues)
 types = {"dining", "bar", "concert", "opera", "theater"}
 assert {c["id"] for c in records_data["categories"]} == types
 venue_ids = {v["id"] for v in venues}
-assert all(r["status"] in {"confirmed", "reservation_only"} and r["type"] in types for r in records)
+assert all(r["status"] in {"confirmed", "reservation_only", "recollected"} and r["type"] in types for r in records)
 assert len([r for r in records if r["status"] == "confirmed"]) == 56
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Q House", "Wildflower"}
 assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
@@ -82,7 +82,7 @@ assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
 assert all(r["visit"]["date"] is None and r["visit"]["precision"] == "approximate_year" for r in breck)
 assert all(r["editorial"]["awardQualified"] is False and r["editorial"]["featuredException"] is False for r in breck)
-assert len({r["venueId"] for r in records}) == 56
+assert len({r["venueId"] for r in records}) == 58
 qbreck = next(c for c in candidates if c["name"] == "Breckenridge Distillery Restaurant")
 assert qbreck["visitStatus"] == "confirmed" and set(qbreck["linkedVisitIds"]) == {r["id"] for r in breck}
 assert qbreck["screening"]["status"] == "memory_only"
@@ -105,7 +105,7 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Ch
 assert any(lead["id"] == "chicago-friend-untitled-cindys-unknown-years"
            and lead["publishAsExperience"] is False
            for lead in interview_data["memoryLeads"])
-assert not any(r["title"] in {"Cindy\'s Rooftop", "Cherry Circle Room"} for r in records)
+assert not any(r["title"] == "Cherry Circle Room" for r in records)
 
 assert not any(r["title"] in {"The Aviary", "The Office", "The Violet Hour"} for r in records)
 dominics = next(c for c in candidates if c["name"] == "Dominic's on the Hill")
@@ -438,7 +438,7 @@ cindy = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "C
 assert cindy["visitStatus"] == "maybe"
 assert "possibly visited" in cindy["reviewSource"]
 assert "do not mark confirmed" in cindy["reviewSource"]
-assert not any(r["title"] == "Cindy's Rooftop" for r in records)
+assert next(r for r in records if r["title"] == "Cindy\'s Rooftop")["status"] == "recollected"
 friend_chicago = next(l for l in interview_data["memoryLeads"] if l["id"] == "chicago-friend-untitled-cindys-unknown-years")
 assert friend_chicago["unresolvedVenueNames"] == ["Cindy's Rooftop"]
 assert "only POSSIBLY visited" in friend_chicago["note"]
