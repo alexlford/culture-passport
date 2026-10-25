@@ -129,3 +129,9 @@ The packet is intended to support story and privacy review, not a fresh Michelin
 ## Experience-first copy edits (October 25, 2026)
 
 The public-facing memories of Beckon, Charleston, Woodberry Kitchen, Sauvage, Manifesto, and Safta were rewritten in a personal, first-person editorial voice without asserting new companions, dishes, dates or award statuses. Booking/reconstruction references were removed **from the public memory prose only**; the private research and reservation provenance remains intact. The visitor approval manifest stays pending for every record, so all updated copy will be reviewed before any release.
+
+## Denver dining added October 25, 2026
+
+- **Sap Sua (Sắp Sửa)**: confirmed 2024 dining visit. Opened June 2023 by chefs Anna and Ni Nguyen; directly recognized as a **2024 James Beard Best New Restaurant semifinalist** (source: https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists). Qualifies by the restaurant's own honor, not a Michelin star. Exact dining date, dishes, and company unknown.
+- **FiNO**: confirmed 2026 visit to the coastal Mediterranean restaurant opened in March 2026 at All Inn Hotel, 3015 E. Colfax. User explicitly directed it into Culture Passport; **featured as a personally selected inclusion, not automatically a favorite**, without unverified Michelin or James Beard award claims. Source: https://www.finocolfax.com/.
+- Both are available as private interview-confirmed experiences and are added to the 50-story prospective visitor publication manifest as **pending**, with no release approval or public visibility changes.

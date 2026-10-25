@@ -4927,6 +4927,74 @@
       "reviewSource": "User directly confirmed visiting this Kansas City barbecue restaurant, location/date unspecified.",
       "visitPeriod": "Kansas City visits, 2010–present; specific meal date not recorded",
       "researchOnly": true
+    },
+    {
+      "id": "candidate-denver-metro-sap-sua-denver",
+      "area": "Denver Metro",
+      "name": "Sap Sua",
+      "aliases": [
+        "Sắp Sửa"
+      ],
+      "recognition": "2024 James Beard Best New Restaurant semifinalist",
+      "recognitionYear": 2024,
+      "awardFamily": "beard",
+      "interviewCue": "East Colfax Vietnamese-American restaurant founded by chefs Anna and Ni Nguyen.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-sap-sua-denver-2024",
+      "visitPeriod": "2024 (approximate)",
+      "reviewedOn": "2026-10-25",
+      "reviewSource": "Alex directly requested adding Sap Sua as a Denver dining experience in 2024.",
+      "venueType": "restaurant",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-25",
+        "note": "2024 Best New Restaurant James Beard semifinalist directly attributed to this venue."
+      },
+      "eligibility": {
+        "status": "eligible_candidate",
+        "basis": "james_beard",
+        "reason": "2024 James Beard semifinalist; visit year 2024.",
+        "screenedOn": "2026-10-25",
+        "verifiedForPublication": true
+      }
+    },
+    {
+      "id": "candidate-denver-metro-fino-denver",
+      "area": "Denver Metro",
+      "name": "FiNO",
+      "aliases": [
+        "Fino"
+      ],
+      "recognition": "Confirmed new 2026 restaurant visit; Michelin or James Beard qualification not established",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Coastal Mediterranean shared plates in the restored All Inn Hotel, opened March 2026.",
+      "sourceUrl": "https://www.finocolfax.com/",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-fino-denver-2026",
+      "visitPeriod": "2026 (approximate)",
+      "reviewedOn": "2026-10-25",
+      "reviewSource": "Alex directly requested adding FiNO as a Denver dining experience in 2026.",
+      "venueType": "restaurant",
+      "screening": {
+        "status": "featured_personal_exception",
+        "basis": null,
+        "evidenceUrl": null,
+        "sourceTier": null,
+        "verifiedAt": "2026-10-25",
+        "note": "User directly requested addition; inclusion is independent of Michelin or James Beard recognition and does not establish a favorite rating."
+      },
+      "eligibility": {
+        "status": "outside_scope",
+        "basis": "explicit_user_inclusion",
+        "reason": "User expressly selected this personal dining memory, award not verified.",
+        "screenedOn": "2026-10-25",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
