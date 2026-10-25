@@ -29,8 +29,31 @@
       "venue": "Lyric Opera of Chicago",
       "year": 2016,
       "status": "resolved_confirmed",
-      "recollection": "Resolved from Alex's interview: attended Das Rheingold October 9, 2016; Die Walküre November 26, 2017; Siegfried November 11, 2018. Michelle Ford (sister) listed in the 2016 cast as an actor. Keep this as completed historical research, not an unanswered interview prompt.",
-      "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/"
+      "recollection": "Resolved: Das Rheingold 2016-10-09, Die Walküre 2017-11-26, Siegfried 2018-11-11, all attended. Sister Michelle Ford is named among the acting ensemble in ALL THREE original programs (2016 Lyric debut). Alex recalls that her role expanded from year to year; exact non-singing parts are undocumented in the program cast lists.",
+      "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/",
+      "sources": [
+        {
+          "title": "Das Rheingold",
+          "url": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DasRheingold/DasRheingoldProgram.pdf",
+          "printedPage": 27
+        },
+        {
+          "title": "Die Walküre",
+          "url": "https://lyricoperamedia.s3.amazonaws.com/programs/2017_DieWalkure/DieWalkure_Program.pdf",
+          "printedPage": 23
+        },
+        {
+          "title": "Siegfried",
+          "url": "https://lyricoperamedia.s3.amazonaws.com/programs/2018_Siegfried/SiegfriedProgram.pdf",
+          "printedPage": 23
+        }
+      ]
     }
+  ],
+  "nextInterviewFocus": "musicals_and_plays",
+  "interviewOrder": [
+    "theater-christmas-carol-denver-2024",
+    "another-denver-show",
+    "second-city-revue-2017"
   ]
 }
