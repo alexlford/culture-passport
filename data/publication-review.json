@@ -409,6 +409,22 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-cindys-rooftop-chicago-friend-recalled",
+      "title": "Cindy's Rooftop",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-the-library-gilt-bar-chicago-friend-recalled",
+      "title": "The Library at Gilt Bar",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }

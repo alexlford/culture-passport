@@ -839,6 +839,36 @@
         "precision": "city-centroid"
       },
       "sourceId": "untitled-supper-club-chicago-confirmed"
+    },
+    {
+      "id": "venue-cindys-rooftop-chicago",
+      "name": "Cindy's Rooftop",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "address": "12 S Michigan Avenue, Chicago, IL 60603",
+      "neighborhood": "The Loop / Chicago Athletic Association",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "friend-text-chicago-athletic-cindys"
+    },
+    {
+      "id": "venue-the-library-gilt-bar-chicago",
+      "name": "The Library at Gilt Bar",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "USA",
+      "address": "230 W Kinzie Street, Chicago, IL 60654",
+      "neighborhood": "River North",
+      "location": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "precision": "city-centroid"
+      },
+      "sourceId": "friend-text-the-library-gilt-bar"
     }
   ],
   "records": [
@@ -3936,6 +3966,186 @@
           {
             "label": "Michelin 2020 — Chicago Bib Gourmands",
             "url": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-chicago-2020-bib-gourmand-results"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bar-cindys-rooftop-chicago-friend-recalled",
+      "type": "bar",
+      "title": "Cindy's Rooftop",
+      "venueId": "venue-cindys-rooftop-chicago",
+      "status": "recollected",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Chicago · year unknown",
+        "precision": "unknown_year",
+        "evidenceType": "friend_recollection",
+        "attendanceCertainty": "not_independently_verified",
+        "source": "Friend text screenshot shared October 25, 2026 identifies a bar in Chicago Athletic Association as Cindy's Rooftop. Alex said only 'possibly visited' and then asked that friend-recalled venues be included for memory and atmosphere."
+      },
+      "summary": "A Chicago rooftop remembered through a friend's message: 'One was in Chicago Athletic,' later identified as Cindy's Rooftop. The view, the building and the shared possibility are worth keeping, even though the visit year and firsthand memory remain open.",
+      "memory": {
+        "headline": "Above the city, a memory passed between friends",
+        "teaser": "A friend remembered a bar inside the Chicago Athletic Association. The name that brought the place back was Cindy's Rooftop.",
+        "story": "Some evenings resurface because somebody else remembers a detail. A friend recalled a bar in the Chicago Athletic Association, then supplied the name: Cindy's Rooftop. I cannot independently place the night yet, but that exchange is part of the memory. I want to keep the view, the building, and the possibility of a shared Chicago evening here, ready to enrich if more comes back.",
+        "period": "Chicago · friend-recalled, year unknown",
+        "source": "Friend message and subsequent user direction to include shared memories; independent visit confirmation withheld."
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2016,
+          "result": "nominee",
+          "category": "Outstanding Restaurant Design (76 Seats and Over)",
+          "recipient": "Cindy's Rooftop Restaurant — Roman and Williams",
+          "relationship": "A venue design nomination, not a culinary or Outstanding Bar Program award. The date of a possible visit is unknown.",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin listing or star is asserted for Cindy's; James Beard recognition was for design."
+      },
+      "sourceUrl": "https://cindysrooftop.com/about",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "userRequestedMemory": true,
+        "collection": "friend_recalled_memory",
+        "basis": "james_beard_design",
+        "note": "Included at user's explicit request as a friend-recalled Chicago memory. Actual personal visit is not independently confirmed; do not count as a confirmed visit."
+      },
+      "curation": {
+        "status": "recollected_for_memory",
+        "basis": "james_beard_design",
+        "reason": "Friend-recalled venue with user-directed inclusion and independently verified 2016 JBF restaurant design nomination; visit unconfirmed.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+          "https://cindysrooftop.com/about"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "friend_message_identity_with_unconfirmed_visit"
+      },
+      "story": {
+        "headline": "A rooftop over Millennium Park",
+        "paragraphs": [
+          "It began with a half-recalled Chicago bar: 'One was in Chicago Athletic.' A follow-up message named Cindy's Rooftop. That is a small but vivid fragment of a shared night, even without a date, a drink order, or the certainty of being there.",
+          "Cindy's sits on the 13th floor of the Chicago Athletic Association, under a glass atrium with an outdoor terrace overlooking Millennium Park, the skyline and Lake Michigan. That panorama is the backdrop for the story, not a claimed memory of exactly what happened.",
+          "The James Beard Foundation recognized Cindy's with a 2016 Outstanding Restaurant Design nomination for Roman and Williams. The award honors the setting, an unusually fitting distinction for a remembered place whose atmosphere matters more than a reservation receipt."
+        ],
+        "chapters": [
+          {
+            "year": "2016",
+            "title": "Recognized design",
+            "detail": "The James Beard Foundation names Cindy's Rooftop Restaurant as an Outstanding Restaurant Design nominee."
+          },
+          {
+            "year": "Year unknown",
+            "title": "A message brings back a place",
+            "detail": "A friend recalls a rooftop bar inside the Chicago Athletic Association and identifies Cindy's. User requests the place be kept while their personal visit remains unconfirmed."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Cindy's — setting and history",
+            "url": "https://cindysrooftop.com/about"
+          },
+          {
+            "label": "James Beard — 2016 design nominations",
+            "url": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bar-the-library-gilt-bar-chicago-friend-recalled",
+      "type": "bar",
+      "title": "The Library at Gilt Bar",
+      "venueId": "venue-the-library-gilt-bar-chicago",
+      "status": "recollected",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Chicago · year unknown",
+        "precision": "unknown_year",
+        "evidenceType": "friend_recollection",
+        "attendanceCertainty": "not_independently_verified",
+        "source": "Friend text screenshot shared October 25, 2026 naming 'The Library in Gilt Bar' as an additional Chicago venue. No direct independent recollection or date from user; inclusion explicitly requested for remembered atmospheres."
+      },
+      "summary": "Four words from a friend—'The Library in Gilt Bar'—bring a hidden River North speakeasy into the Chicago collection. Velvet seating, framed artwork, books and a low-lit cellar preserve the atmosphere even as the date remains unknown.",
+      "memory": {
+        "headline": "The Library, hidden below a Chicago bar",
+        "teaser": "A friend remembered the basement Library at Gilt Bar; the intimate, candlelit place deserves a page of its own.",
+        "story": "A message brought back a Chicago name without needing a date: 'The Library in Gilt Bar.' That is the sort of clue I want to keep. The Library sits tucked below Gilt Bar, where books, velvety booths and warm lamps evoke another era. I cannot yet add the night, the companions or the drinks from personal recollection, but the room has a place in the story of those Chicago years.",
+        "period": "Chicago · friend-recalled, year unknown",
+        "source": "Friend's explicit venue identification from user-supplied screenshot; no independent user visit confirmation."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "parent_venue_only",
+        "sourceUrl": "https://guide.michelin.com/en/illinois/chicago/restaurant/gilt-bar",
+        "note": "The MICHELIN Guide lists Gilt Bar (the host restaurant) as a Bib Gourmand. That distinction is not assigned separately to its basement Library room, and it does not establish any award at the unknown time of the recalled outing."
+      },
+      "sourceUrl": "https://www.giltbarchicago.com/the-library/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": true,
+        "userRequestedMemory": true,
+        "collection": "friend_recalled_memory",
+        "basis": null,
+        "exceptionPriority": "user_requested_inclusion",
+        "note": "Memory-first inclusion: The Library is part of Michelin-recognized Gilt Bar, but is not independently claimed Michelin-recognized. Attendance unconfirmed; friend text names it."
+      },
+      "curation": {
+        "status": "recollected_for_memory",
+        "basis": "personal_memory_exception",
+        "reason": "User chose to preserve friend-recalled Chicago venues. Parent Gilt Bar appears in Michelin Bib Gourmand, but no separate accolade is assigned to The Library.",
+        "evidenceUrls": [
+          "https://www.giltbarchicago.com/the-library/",
+          "https://guide.michelin.com/en/illinois/chicago/restaurant/gilt-bar"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "friend_message_identity_with_unconfirmed_visit"
+      },
+      "story": {
+        "headline": "A library below the city",
+        "paragraphs": [
+          "The clue was brief: 'The Library in Gilt Bar.' A friend's message put this tucked-away Chicago space back into the collection. The personal occasion and year are still uncertain; the name itself is the piece worth preserving.",
+          "The Library is a basement room reached through a discreet door beneath Gilt Bar in River North. Wine-colored walls, leather and velvet seating, old books and low-hanging chandeliers give it the feel of a private Prohibition-era hideaway. It is part of Gilt Bar, not a separate restaurant elsewhere in town.",
+          "Michelin includes Gilt Bar in its Chicago Bib Gourmand selection. That honor belongs to the restaurant above and around the Library, not to an independently awarded basement cocktail bar. For this archive, the real reason to keep the entry is the atmosphere—and a name recovered through a friend's memory."
+        ],
+        "chapters": [
+          {
+            "year": "2010",
+            "title": "Gilt Bar opens",
+            "detail": "The River North restaurant opens; its downstairs room later becomes known as The Library."
+          },
+          {
+            "year": "Year unknown",
+            "title": "A friend remembers The Library",
+            "detail": "A message identifies the basement room; no exact Chicago evening or personal attendance has been independently verified."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Gilt Bar — The Library",
+            "url": "https://www.giltbarchicago.com/the-library/"
+          },
+          {
+            "label": "Michelin — Gilt Bar (parent restaurant)",
+            "url": "https://guide.michelin.com/en/illinois/chicago/restaurant/gilt-bar"
           }
         ]
       }
