@@ -4967,8 +4967,34 @@
       ],
       "cuisine": "fish/seafood",
       "source": "Alex's recollection on October 25, 2026",
-      "note": "User remembers a great fish restaurant from time in Boston or Cape Cod. Do not assume a specific city, restaurant, date, Michelin status, or James Beard connection. Interview research pending.",
-      "publishAsExperience": false
+      "note": "User remembers an excellent fish/seafood restaurant somewhere in Boston or Cape Cod, with waterfront harbor/ocean views. Woods Hill Pier 4 identity is still uncertain. User intends to ask a friend. Do not infer that a particular restaurant was visited, use any exact date, or publish an experience entry.",
+      "publishAsExperience": false,
+      "setting": "Waterfront restaurant with harbor or ocean views",
+      "settingConfidence": "user_recalled",
+      "identityResolution": "pending_friend_confirmation",
+      "identificationCandidates": [
+        {
+          "name": "Woods Hill Pier 4",
+          "area": "Boston",
+          "status": "unresolved_not_confirmed",
+          "reviewedOn": "2026-10-25",
+          "note": "User did not recognize sufficiently to confirm; will ask a friend. Do not classify as visited or not visited."
+        },
+        {
+          "name": "Fishermen's View",
+          "area": "Cape Cod",
+          "status": "not_reviewed",
+          "note": "Waterfront/marina view match, but venue award eligibility unverified."
+        },
+        {
+          "name": "The Lobster Pot",
+          "area": "Cape Cod",
+          "status": "not_reviewed",
+          "note": "Provincetown bay-view restaurant possibility; award eligibility unverified."
+        }
+      ],
+      "lastInterviewResponse": "Not sure which restaurant; will text a friend for confirmation.",
+      "updatedOn": "2026-10-25"
     },
     {
       "id": "cambridge-uk-restaurants-unknown",
