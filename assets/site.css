@@ -57,3 +57,41 @@
 .performance-memory-notes textarea{width:100%;box-sizing:border-box;padding:15px;border:1px solid var(--line);background:var(--cream);color:var(--ink);font:inherit}
 .performance-return{padding:12px 0 50px}
 @media(max-width:730px){.arts-interview-invite{display:block}.arts-interview-invite .text-link{display:inline-block;margin-top:18px}.performance-known-grid,.performance-candidates{grid-template-columns:1fr}}
+
+
+/* Prelaunch responsive/a11y polish: deliberate layouts at narrow screen widths. */
+.skip-link{position:fixed;z-index:10000;top:12px;left:12px;padding:11px 16px;background:var(--cream);color:var(--wine);border:2px solid var(--wine);border-radius:4px;font-weight:800;transform:translateY(-160%);transition:transform .12s ease}
+.skip-link:focus,.skip-link:focus-visible{transform:translateY(0)}
+main:focus{outline:none}
+.nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px}
+.tabstrip button,.choices button,.interview-pagination button,.city-item,.button-main,.button-quiet{min-height:44px}
+.wordmark,.chapter h3,.record-card h3,.detail h1,.page-intro h1{overflow-wrap:anywhere}
+.chapter,.record-card,.feature-row,.timeline-entry,.interview-item{min-width:0}
+.map-sidebar,.map-shell,.culture-map{min-width:0}
+.page-intro h1,.hero h1{hyphens:none}
+@media(max-width:720px){
+ .layout{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+ .nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;width:100%;margin:0;padding-top:6px;overflow:visible;white-space:normal}
+ .nav a{min-width:0;padding:10px 2px;text-align:center;font-size:clamp(9px,2.6vw,12px);line-height:1.2}
+ .page-intro h1{font-size:clamp(42px,10vw,70px);line-height:1.04}
+ .hero h1{font-size:clamp(46px,11.8vw,78px);line-height:1.02}
+ .metrics strong{font-size:clamp(31px,8vw,45px)}
+ .feature-row{grid-template-columns:65px minmax(0,1fr) 20px}
+ .footer{padding-bottom:max(42px,env(safe-area-inset-bottom))}
+ .interview-actions .tabstrip{gap:8px}
+ .filter-row input,.filter-row select,.timeline-tools select,.performance-memory-notes textarea,.copy-panel textarea{font-size:16px}
+ .copy-actions button{max-width:100%}
+ .map-shell,.culture-map{width:100%}
+ .archive-details-body{overflow-wrap:anywhere}
+}
+@media(max-width:390px){
+ .monogram{width:38px;height:38px}
+ .wordmark{font-size:10px;letter-spacing:.06em;white-space:normal}
+ .wordmark em{font-size:12px}
+ .chapter{padding:20px}
+ .hero h1{font-size:clamp(40px,11vw,52px)}
+ .timeline-year{overflow-wrap:anywhere}
+ .tabstrip button{padding:9px 12px}
+ .page-intro h1{font-size:clamp(40px,10.6vw,48px)}
+}
+@media(prefers-reduced-motion:reduce){.skip-link{transition:none}}
