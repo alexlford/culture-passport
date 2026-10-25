@@ -105,3 +105,11 @@ Continuous integration now runs a **real Chromium browser** against the locally 
 The browser tests never publish the site, change GitHub visibility, or move research records into the public export. They provide executable layout/interaction evidence, not a substitute for manual review on a real iPhone or an approved release. Source/frontend code remains private.
 
 Record pages offer a *venue-name lookup* in Google Maps when a venue name and city are known, rather than treating city-centroid dots as door-level coordinates. Search results can be outdated for closed or relocated venues and must not be presented as verified precise venue GPS.
+
+## Graceful map degradation and visitor-data field safety (October 2026)
+
+- If the Carto basemap provider is unavailable, an inline explanation appears on the map, with a keyboard-accessible link to the independent city directory. This is tested by deliberately blocking basemap tile requests during the private Chromium run; a successful tile load hides the fallback.
+- The city directory remains populated and functional without basemap tiles. No map markers are represented as GPS-verified restaurant entrance locations: all stored points retain `city-centroid` precision.
+- The canonical source validator checks latitude/longitude bounds and that all venue entries for the same city use consistent city-center coordinates. Any future precise venue map will need a separately verified provenance and schema.
+- The visitor export now checks **nested objects as well as top-level records** for forbidden internal research fields. Internal production attendance date fields are explicitly excluded from the visitor version. This is a field-level safety gate, not editorial approval of the public stories or Git history.
+- Publication remains **manual and gated**, with the repository private. The stand-alone domain, live map-provider tiles, and in-person iPhone Safari check remain external dependencies.

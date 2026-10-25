@@ -94,6 +94,11 @@ try{
     assert((await page.locator("#explore-results").innerText()).includes("Sauvage"),"Search failed");
     await page.goto(BASE+"map.html",{waitUntil:"domcontentloaded"});
     await page.locator("#city-list details.city-section").first().waitFor();
+    // Carto tiles are intentionally blocked by the QA harness. The fallback
+    // must be visible without obscuring the usable city directory.
+    await page.locator(".map-tile-fallback:visible").waitFor({timeout:12000});
+    assert(await page.locator(".map-tile-fallback a[href='#city-list']").isVisible(),
+      "Map outage fallback must link to the city directory");
     await page.locator("#map-category").selectOption("bar");
     await page.waitForFunction(()=>document.querySelector("#map-summary")?.textContent?.includes("cities"));
     assert((await page.locator("#city-list details.city-section").count())>0,"Map category filter erased bars");

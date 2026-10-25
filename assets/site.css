@@ -139,3 +139,14 @@ main:focus{outline:none}
 /* Leaflet draws large translated tile/proxy elements. Clamp them inside the
  *  map viewport so the entire page cannot pan horizontally on phones. */
 #culture-map{overflow:hidden;contain:paint}
+
+/* A real tile-provider outage keeps the city list usable and explains the blank map. */
+.map-tile-fallback{position:absolute;z-index:1000;left:14px;right:14px;bottom:16px;
+  max-width:400px;margin:0 auto;padding:17px 21px;background:var(--cream);
+  border:1px solid var(--line);box-shadow:0 9px 30px rgba(20,20,20,.15);
+  font-size:13px;line-height:1.45;color:var(--ink)}
+.map-tile-fallback[hidden]{display:none!important}
+.map-tile-fallback strong{font-size:14px}
+.map-tile-fallback p{margin:5px 0 10px;color:var(--muted)}
+.map-tile-fallback a{color:var(--wine);font-weight:800;display:inline-flex;align-items:center;min-height:44px}
+@media(max-width:390px){.map-tile-fallback{left:9px;right:9px;padding:12px 15px}}
