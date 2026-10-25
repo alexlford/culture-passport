@@ -125,3 +125,7 @@ A future approval must be a deliberate human decision. Each approved entry requi
 Even after the existing manual deployment checkbox is selected, `python scripts/audit_publication.py --require-approved` will **refuse deployment** until all proposed visitor records have current explicit approval. Withheld records require a separately reviewed visitor dataset change rather than silently publishing them. The canonical private source repository remains private; a clean distribution site/repository is still preferred when configured.
 
 The packet is intended to support story and privacy review, not a fresh Michelin/James Beard eligibility audit. That separate Step 3 remains on hold.
+
+## Experience-first copy edits (October 25, 2026)
+
+The public-facing memories of Beckon, Charleston, Woodberry Kitchen, Sauvage, Manifesto, and Safta were rewritten in a personal, first-person editorial voice without asserting new companions, dishes, dates or award statuses. Booking/reconstruction references were removed **from the public memory prose only**; the private research and reservation provenance remains intact. The visitor approval manifest stays pending for every record, so all updated copy will be reviewed before any release.
