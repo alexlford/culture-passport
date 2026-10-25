@@ -46,12 +46,35 @@
       "year": 2016,
       "confirmation": "three_individual_operas_confirmed",
       "relatedExperienceId": "opera-wagner-s-ring-cycle-lyric-opera-of-chicago",
-      "userMemory": "Alex confirmed attending Das Rheingold on October 9, 2016 (corrected from October 6), Die Walküre on November 26, 2017, and Siegfried on November 11, 2018. Sister Michelle Ford performed in Das Rheingold's acting ensemble, as listed in the original 2016 program. This is resolved, not an outstanding attendance question.",
+      "userMemory": "All three individual attendances are explicitly confirmed: Das Rheingold (October 9, 2016), Die Walküre (November 26, 2017), Siegfried (November 11, 2018). Michelle Ford, Alex's sister, is named among the Actors in all three original programs; the first marks her Lyric debut. Alex remembers her role expanding through the series, but her specific unnamed stage parts are not established by cast listings.",
       "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/",
       "attendedDates": [
         "2016-10-09",
         "2017-11-26",
         "2018-11-11"
+      ],
+      "programSources": [
+        {
+          "title": "Das Rheingold",
+          "date": "2016-10-09",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DasRheingold/DasRheingoldProgram.pdf",
+          "printedPage": 27,
+          "printedCredit": "Actor; Lyric debut"
+        },
+        {
+          "title": "Die Walküre",
+          "date": "2017-11-26",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2017_DieWalkure/DieWalkure_Program.pdf",
+          "printedPage": 23,
+          "printedCredit": "Actor"
+        },
+        {
+          "title": "Siegfried",
+          "date": "2018-11-11",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2018_Siegfried/SiegfriedProgram.pdf",
+          "printedPage": 23,
+          "printedCredit": "Actor"
+        }
       ]
     },
     {
@@ -139,5 +162,28 @@
   ],
   "updated": "2026-10-25",
   "intro": "Research the identity of remembered theater performances without confusing a touring production's dates with personal attendance.",
-  "userNotes": "User has seen SIX in Denver in December 2023, another theater outing around Christmas 2024 possibly A Christmas Carol, at least one unidentified additional Denver show, and The Second City in Chicago Christmas season 2017. The original four outings are already published. Theater leads remain unconfirmed. As of October 25, 2026, the Ring Cycle opera attendance has been confirmed individually on 2016-10-09, 2017-11-26, and 2018-11-11. Michelle Ford, Alex's sister, is credited in the 2016 Lyric program. The Murray State choral concert at Carnegie Hall on January 18, 2010 was already confirmed and remains in the main records; never re-interview as uncertain."
+  "userNotes": "User has seen SIX in Denver in December 2023, another theater outing around Christmas 2024 possibly A Christmas Carol, at least one unidentified additional Denver show, and The Second City in Chicago Christmas season 2017. The original four outings are already published. Theater leads remain unconfirmed. As of October 25, 2026, the Ring Cycle opera attendance has been confirmed individually on 2016-10-09, 2017-11-26, and 2018-11-11. Michelle Ford, Alex's sister, is credited in the 2016 Lyric program. The Murray State choral concert at Carnegie Hall on January 18, 2010 was already confirmed and remains in the main records; never re-interview as uncertain. Original 2016 Das Rheingold, 2017 Die Walküre, and 2018 Siegfried program credits independently place Michelle Ford in all three acting ensembles. Alex remembers her part growing, but precise characters remain unspecified. Additional Don Quichotte 2016 supernumerary credit is verified without claiming Alex attendance. Transition next to musicals and plays, beginning with Christmas 2024 Denver A Christmas Carol identity check, then unidentified Denver show and Second City revue.",
+  "michelleFordAdditionalLyricResearch": {
+    "production": "Don Quichotte",
+    "season": "2016/17",
+    "programWindow": "November 19 – December 7, 2016",
+    "artist": "Michelle Ford",
+    "printedCredit": "Supernumerary (Women)",
+    "programPrintedPage": 28,
+    "sourceUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DonQuichotte/DonQuichotteProgram.pdf",
+    "attendanceStatus": "not_asked_not_confirmed",
+    "note": "Michelle's appearance is verified from the program. This is NOT evidence Alex attended; do not add a visited record without his recollection."
+  },
+  "interviewRoute": {
+    "currentCategory": "musicals_and_plays",
+    "operaStatus": "three_attended_ring_operas_confirmed_and_researched",
+    "nextQuestionId": "theater-christmas-carol-denver-2024",
+    "nextQuestion": "Does A Christmas Carol at the Denver Center's Wolf Theatre match the performance you attended around Christmas 2024?",
+    "futureQuestionIds": [
+      "denver-unknown-play",
+      "second-city-holidazed-chicago-2017"
+    ],
+    "nextCategoryAfterStage": "restaurants_and_cocktail_bars",
+    "editorialPolicy": "Interview existing memories rather than restart previously resolved experiences. A probable show name must not be promoted to confirmed based solely on matching production dates."
+  }
 }

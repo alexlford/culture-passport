@@ -319,6 +319,12 @@ assert any(c["id"] == "denver-unknown-play" for c in stage_research["candidates"
 ring_record=next(r for r in records if r["id"] == "opera-wagner-s-ring-cycle-lyric-opera-of-chicago")
 assert [(x["title"], x["date"]) for x in ring_record["attendedPerformances"]] == [("Das Rheingold","2016-10-09"),("Die Walküre","2017-11-26"),("Siegfried","2018-11-11")]
 assert "Michelle Ford" in ring_record["summary"] and "October 9, 2016" in ring_record["memory"]["story"]
+assert len(ring_record["michelleFordCredits"]["appearances"]) == 3
+assert [a["printedCredit"] for a in ring_record["michelleFordCredits"]["appearances"]] == ["Actor; Lyric debut", "Actor", "Actor"]
+assert all(x["programUrl"].endswith(".pdf") and "michelleFordCredit" in x for x in ring_record["attendedPerformances"])
+assert "role growing" in ring_record["memory"]["story"]
+assert stage_research["interviewRoute"]["currentCategory"] == "musicals_and_plays"
+assert stage_research["michelleFordAdditionalLyricResearch"]["attendanceStatus"] == "not_asked_not_confirmed"
 carnegie_record=next(r for r in records if r["id"] == "concert-murray-state-choruses-at-carnegie-hall")
 assert carnegie_record["status"] == "confirmed" and carnegie_record["visit"]["date"] == "2010-01-18"
 assert "Michelle" in carnegie_record["memory"]["story"]
