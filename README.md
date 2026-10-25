@@ -73,3 +73,13 @@ The deployment workflow is intentionally manual until the public launch decision
 Run `python scripts/report_publication_risk.py` for an aggregate inventory of personal stories, reservation source rows, and historical research answers. This script never prints individual records.
 
 **Prefer keeping this canonical repository private.** If you want a public GitHub Pages website, the safest option is a clean, separate distribution repository containing only approved public pages and datasets, rather than making the existing source repository public. Git history in a newly public source repository is accessible even if data files are subsequently deleted. A staging `noindex` tag is not access control. Public release requires explicit review of which memories, names, research notes and reservation details belong in the public experience.
+
+## Clean visitor export (review-only until approved)
+
+The script `python scripts/build_public_preview.py --check` builds a temporary static preview and runs integrity checks without publishing anything. `python scripts/build_public_preview.py` writes to `dist/` (Git-ignored). The **manual** Pages workflow will publish `dist/`, not the entire repository.
+
+The visitor export contains only Home, Explore, Timeline, Map, experience pages, app assets, and **confirmed curated experiences** (award-qualified restaurants/bars, explicit personal favorites, and arts). It omits interview pages, candidate lists, reservation ledgers, booking-only records, exclusion records, old source notes, provenance fields and the entire research directory. This allows the future public site to focus on stories and venues instead of private reconstruction notes.
+
+**Not yet approved for public release:** individual memory/story text, venue geography, and content in `data/records.json` still require human privacy review. Running the exporter does not cleanse or protect the current repository's Git history. Keep the existing source repository **private**; prefer deployment from private Pages (if account settings support it) or a new *clean public distribution repository* containing only the reviewed `dist/` contents. Do not make the canonical history public merely to enable Pages.
+
+The visitor build is a conservative public-facing proposal, **not a decision to remove the private interview workflow**: you can continue using the private research pages and interview answers in this source repository.

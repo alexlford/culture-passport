@@ -1,6 +1,7 @@
 name: Deploy Culture Passport
 
-# Activate manually after Settings > Pages > Source: GitHub Actions.
+# Manual release only: review personally identifying stories and Git history first.
+# Configure GitHub Pages only when you approve visitor content.
 # On the currently private repository, check GitHub Pages plan/visibility eligibility first.
 on:
   workflow_dispatch:
@@ -27,10 +28,12 @@ jobs:
           python scripts/validate.py
           node --check assets/app.js
           node --check assets/performance-interview.js
+      - name: Export visitor-only preview without private interview and reservation ledgers
+        run: python scripts/build_public_preview.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
       - name: Deploy
         id: deploy
         uses: actions/deploy-pages@v4
