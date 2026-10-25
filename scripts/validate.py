@@ -450,3 +450,13 @@ assert lost_lake["visitStatus"] == "not_visited"
 assert "did not visit" in lost_lake["reviewSource"]
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "unreviewed"
 assert not any(r["title"] == "Lost Lake" for r in records)
+
+# Friend-recalled Chicago spaces remain deliberately different from confirmed visits.
+shared=[r for r in records if r["status"]=="recollected"]
+assert {r["title"] for r in shared} == {"Cindy's Rooftop", "The Library at Gilt Bar"}
+assert all(r["type"]=="bar" and r["visit"]["date"] is None and r["visit"]["year"] is None for r in shared)
+assert all(r["visit"]["attendanceCertainty"]=="not_independently_verified" for r in shared)
+assert all(r["editorial"]["userRequestedMemory"] is True for r in shared)
+assert next(c for c in candidates if c["name"]=="The Library at Gilt Bar")["visitStatus"]=="maybe"
+assert next(c for c in candidates if c["name"]=="Lost Lake")["visitStatus"]=="not_visited"
+assert len(json.loads((ROOT/"data/publication-review.json").read_text())["reviewedRecords"])==53
