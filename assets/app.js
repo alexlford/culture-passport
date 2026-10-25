@@ -7,6 +7,9 @@
   const link=(label,url,cls)=>{const a=el("a",cls,label);a.href=url;return a;};
   const byId=(id)=>document.getElementById(id);
   const href=(r)=>"./record.html?id="+encodeURIComponent(r.id);
+  const isCollectionEntry=(r)=>r.status==="confirmed"||r.status==="recollected";
+  const isFriendRecalled=(r)=>r.status==="recollected";
+
   // The archive keeps precision; the public UI favors memories and meaningful periods.
   const readableDate=(d)=>{
     if(!/^\d{4}-\d{2}-\d{2}$/.test(d||""))return d||"";
@@ -62,11 +65,12 @@
   }
   function card(r,v){
     const a=link(" ",href(r),"record-card");
+    if(isFriendRecalled(r))a.classList.add("friend-memory-card");
     a.textContent="";
-    const top=el("p","eyebrow",r.type.toUpperCase()+" / "+(v?.city||"LOCATION UNKNOWN"));
+    const top=el("p","eyebrow",(isFriendRecalled(r)?"FRIEND-RECALLED":r.type.toUpperCase())+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
-    bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record ↗"));
+    bottom.append(el("span","",storyPeriod(r)+(isFriendRecalled(r)?" · Visit unconfirmed":r.favorite?" · A favorite":"")),el("span","","Open record ↗"));
     a.append(top,h,description,bottom);
     return a;
   }
@@ -78,7 +82,7 @@
     const awardDining=records.filter(r=>["dining","bar"].includes(r.type)&&r.editorial?.awardQualified);
     const st=[["total-records",awardDining.length],["total-venues",new Set(records.filter(r=>["dining","bar"].includes(r.type)).map(r=>r.venueId)).size],["total-cities",cities.size],["total-starred",starred.length]];
     st.forEach(([key,value])=>{const target=byId(key);if(target)target.textContent=value;});
-    for(const key of Object.keys(titleFor)){const target=byId(key+"-count");if(target)target.textContent=key==="dining"?records.filter(r=>r.type==="dining"&&(r.editorial?.awardQualified||r.editorial?.featuredException)).length+" included":key==="bar"?records.filter(r=>r.type==="bar").length+" bars":records.filter(r=>r.type===key).length+" recorded";}
+    for(const key of Object.keys(titleFor)){const target=byId(key+"-count");if(target)target.textContent=key==="dining"?records.filter(r=>r.type==="dining"&&(r.editorial?.awardQualified||r.editorial?.featuredException)).length+" included":key==="bar"?records.filter(r=>r.type==="bar").length+" visits · "+db.records.filter(r=>r.type==="bar"&&isFriendRecalled(r)).length+" shared memories":records.filter(r=>r.type===key).length+" recorded";}
   }
   function home(db){
     siteStats(db);
@@ -109,9 +113,9 @@
       const rows=db.records.filter(r=>{
         const v=venues.get(r.venueId);
         const content=[r.title,r.summary,r.memory?.headline,r.memory?.teaser,r.memory?.story,v?.city,v?.region,v?.name].join(" ").toLocaleLowerCase();
-        return r.status==="confirmed"&&(!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
+        return isCollectionEntry(r)&&(!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
       }).sort(byDate);
-      count.textContent=rows.length+" confirmed experience"+(rows.length===1?"":"s");
+      count.textContent=rows.length+" entries · "+rows.filter(r=>r.status==="confirmed").length+" visits · "+rows.filter(isFriendRecalled).length+" shared memories";
       host.replaceChildren();
       if(rows.length===0){empty(host,filter!=="all"?"This chapter is awaiting its first entry.":"No matching experiences yet.",filter!=="all"?"No "+titleFor[filter].toLowerCase()+" have been confirmed in this archive. Names and dates will be added as you recall them.":"Try changing the category, city, or search terms.",filter==="dining"?"./interview.html":null,"Continue the interview →");return;}
       rows.forEach(r=>host.append(card(r,venues.get(r.venueId))));
@@ -126,15 +130,15 @@
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     function render(){
       const grouped=new Map();
-      const results=db.records.filter(r=>r.status==="confirmed"&&(includeMemories.checked||!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException)&&(select.value==="all"||r.type===select.value)).sort(byDate);
+      const results=db.records.filter(r=>isCollectionEntry(r)&&(includeMemories.checked||!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException)&&(select.value==="all"||r.type===select.value)).sort(byDate);
       for(const r of results){const label=timelineChapter(r);if(!grouped.has(label))grouped.set(label,[]);grouped.get(label).push(r);}
-      count.textContent=results.length+" recorded experience"+(results.length===1?"":"s");
+      count.textContent=results.length+" entries · "+results.filter(isFriendRecalled).length+" shared memories";
       host.replaceChildren();
-      if(!results.length){empty(host,"Nothing confirmed in this chapter yet.","The timeline is ready for your first verified memory.");return;}
+      if(!results.length){empty(host,"Nothing recorded in this chapter yet.","Additional memories can be added when they surface.");return;}
       for(const [label,rows] of grouped){
         const section=el("section","timeline-group"),year=el("div","timeline-year",label),stack=el("div","timeline-stack");
         rows.forEach(r=>{const v=venues.get(r.venueId);const a=link("",href(r),"timeline-entry"),mid=el("div");
-          mid.append(el("small","",r.type.toUpperCase()+" · "+v.city+" · "+storyPeriod(r)),el("h3","",r.title),el("p","timeline-memory",storyTeaser(r)));
+          mid.append(el("small","",(isFriendRecalled(r)?"FRIEND-RECALLED":r.type.toUpperCase())+" · "+v.city+" · "+storyPeriod(r)),el("h3","",r.title),el("p","timeline-memory",storyTeaser(r)));
           a.append(mid,el("span","","↗"));stack.append(a);
         });
         section.append(year,stack);host.append(section);
@@ -145,7 +149,7 @@
   function map(db){
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
-    const available=db.records.filter(r=>r.status==="confirmed"&&
+    const available=db.records.filter(r=>isCollectionEntry(r)&&
       (!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException));
     // Map points are city-centroid *representations* until independently
     // verified venue coordinates become available. Do not place pins at
@@ -199,7 +203,7 @@
       list.replaceChildren();
       const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||String(a.region||"").localeCompare(String(b.region||"")));
       if(!groupsSorted.length){
-        const noResults=el("p","map-legend","No confirmed experiences in this category yet.");
+        const noResults=el("p","map-legend","No experiences or shared memories in this category yet.");
         list.append(noResults);
         if(leafletMap)leafletMap.setView([39.5,-98.35],4);
         return;
@@ -217,7 +221,7 @@
         const ul=el("ul","map-place-list");
         const rows=[...g.records].sort((a,b)=>a.title.localeCompare(b.title));
         for(const r of rows){
-          const li=el("li"),a=link(r.title,href(r));
+          const li=el("li"),a=link(r.title+(isFriendRecalled(r)?" · Friend-recalled":""),href(r));
           a.append(el("span","",storyPeriod(r)));
           li.append(a);ul.append(li);
         }
@@ -256,7 +260,7 @@
   }
     function detail(db){
     const host=byId("record-detail"),params=new URLSearchParams(window.location.search),id=params.get("id");
-    const r=db.records.find(x=>x.id===id&&x.status==="confirmed");
+    const r=db.records.find(x=>x.id===id&&isCollectionEntry(x));
     if(!r){empty(host,"Experience not found.","This record may have moved or has not been confirmed.","./explore.html","Back to the archive →");return;}
     document.title=r.title+" | Culture Passport";
     const v=db.venues.find(x=>x.id===r.venueId)||{},context=r.memory;
@@ -271,16 +275,18 @@
     placeTag.append(el("span","","WHERE"),el("strong","",[v.city,v.region].filter(Boolean).join(", ")||"Location to be established"));
     orientation.append(periodTag,placeTag);
     host.append(orientation);
+    if(isFriendRecalled(r))host.append(el("p","friend-memory-disclosure",
+      "Remembered through a friend's message · Personal visit not independently confirmed"));
     if(context){
       host.append(el("h2","memory-heading",context.headline),el("p","memory-quote",context.story));
     }else{
       host.append(el("h2","memory-heading","A page in the collection"),
         el("p","memory-quote",storyTeaser(r)));
     }
-    if(r.favorite||r.editorial?.featuredException){
+    if(!isFriendRecalled(r)&&(r.favorite||r.editorial?.featuredException)){
       host.append(el("p","eyebrow memory-favorite","✳ KEPT FOR THE MEMORY"));
     }
-    if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
+    if(!isFriendRecalled(r)&&["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
       host.append(el("p","memory-disclosure",r.editorial?.featuredException?
         "A personal favorite, kept for the experience rather than an award.":
         "A remembered place, with no verified Michelin or James Beard qualification."));
