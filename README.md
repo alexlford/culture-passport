@@ -60,3 +60,16 @@ Continuous integration runs `scripts/audit_static_site.py` alongside the existin
 - [ ] Only after confirming desired public visibility should you decide whether to keep or remove `noindex`.
 
 The deployment workflow is intentionally manual until the public launch decision. In the meantime, CI and source fixes can proceed safely in this private repository.
+
+## Mobile and keyboard navigation (October 2026)
+
+- All seven pages include a keyboard-accessible **Skip to content** link and main landmark.
+- iPhone-sized layouts use five equal navigation cells with at least 44px tap targets, scaled headlines and safe-area padding.
+- Mobile text inputs use 16px text to prevent unwanted Safari zoom; existing interview choices retain focus and scroll positions.
+- Static CI asserts the skip links, dynamic record headings, locally valid links, and presence of responsive style safeguards. **Actual device and screen-reader testing is still required** once a browser test environment is available.
+
+## Privacy release recommendation
+
+Run `python scripts/report_publication_risk.py` for an aggregate inventory of personal stories, reservation source rows, and historical research answers. This script never prints individual records.
+
+**Prefer keeping this canonical repository private.** If you want a public GitHub Pages website, the safest option is a clean, separate distribution repository containing only approved public pages and datasets, rather than making the existing source repository public. Git history in a newly public source repository is accessible even if data files are subsequently deleted. A staging `noindex` tag is not access control. Public release requires explicit review of which memories, names, research notes and reservation details belong in the public experience.

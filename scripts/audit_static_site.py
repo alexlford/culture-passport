@@ -67,6 +67,10 @@ def audit_pages(records):
             f"{name}: unexpected static h1 count {parser.heading_count}; record.html injects its heading from JS"
         )
         assert parser.description_count == 1, f"{name}: expected one meta description"
+        assert "main" in parser.ids, f"{name}: missing main landmark id"
+        assert any(url == "#main" for _, _, url in parser.links), (
+            f"{name}: missing keyboard skip-to-content link"
+        )
         assert parser.robots == ["noindex, nofollow"], f"{name}: expected staging noindex metadata"
         assert parser.stylesheets, f"{name}: missing site stylesheet"
         for tag, attr, url in parser.links:
@@ -122,14 +126,22 @@ def audit_basic_secrets():
         raw = f.read_text(encoding="utf-8")
         assert not re.search(r"(?i)(?:sk-[A-Za-z0-9]{18,}|gh[pousr]_[A-Za-z0-9_]{20,}|-----BEGIN PRIVATE KEY-----)", raw), (
             f.name + ": possible credential material")
-        assert not re.search(r"(?i)\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b", raw), (
+        assert not re.search(r"(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", raw), (
             f.name + ": possible personal email address")
+
+
+def audit_responsive_styles():
+    styles = (ROOT / "assets/site.css").read_text(encoding="utf-8")
+    for selector in (".skip-link:focus", "@media(max-width:720px)", "safe-area-inset-bottom",
+                     "grid-template-columns:repeat(5,minmax(0,1fr))", ".filter-row input"):
+        assert selector in styles, "Mobile/accessibility rule missing: " + selector
 
 
 def main():
     records = audited_records()
     links = audit_pages(records)
     audit_dynamic_data()
+    audit_responsive_styles()
     audit_basic_secrets()
     print(f"OK: {len(PAGE_NAMES)} static pages, {links} links/assets, {len(records)} archive records;")
     print("staging metadata and local deep links checked. Privacy approval and visual QA remain open.")

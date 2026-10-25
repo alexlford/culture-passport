@@ -18,6 +18,8 @@ jobs:
         run: python scripts/validate.py
       - name: Audit static routes, deep links and staging privacy safeguards
         run: python scripts/audit_static_site.py
+      - name: Print safe aggregate publication risk inventory
+        run: python scripts/report_publication_risk.py
       - name: Check interactive JavaScript syntax
         run: |
           node --check assets/app.js
