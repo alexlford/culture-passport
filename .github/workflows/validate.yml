@@ -22,6 +22,15 @@ jobs:
         run: python scripts/report_publication_risk.py
       - name: Validate clean visitor export without publishing
         run: python scripts/build_public_preview.py --check
+      - name: Validate explicit story-review manifest and generate private review packet
+        run: python scripts/audit_publication.py --check --report
+      - name: Upload private publication review packet
+        uses: actions/upload-artifact@v4
+        with:
+          name: culture-private-publication-review
+          path: test-results/publication-review.md
+          retention-days: 7
+          if-no-files-found: error
       - name: Check interactive JavaScript syntax
         run: |
           node --check assets/app.js

@@ -1,2 +1,5 @@
 # Generated for explicit manual publishing; never commit private research into a public artifact.
 dist/
+
+# Private editorial text packets and ephemeral QA assets.
+test-results/

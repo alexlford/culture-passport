@@ -37,6 +37,8 @@ jobs:
           node --check assets/performance-interview.js
       - name: Export visitor-only preview without private interview and reservation ledgers
         run: python scripts/build_public_preview.py
+      - name: Require every visitor story to be explicitly approved and unchanged
+        run: python scripts/audit_publication.py --require-approved
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -113,3 +113,15 @@ Record pages offer a *venue-name lookup* in Google Maps when a venue name and ci
 - The canonical source validator checks latitude/longitude bounds and that all venue entries for the same city use consistent city-center coordinates. Any future precise venue map will need a separately verified provenance and schema.
 - The visitor export now checks **nested objects as well as top-level records** for forbidden internal research fields. Internal production attendance date fields are explicitly excluded from the visitor version. This is a field-level safety gate, not editorial approval of the public stories or Git history.
 - Publication remains **manual and gated**, with the repository private. The stand-alone domain, live map-provider tiles, and in-person iPhone Safari check remain external dependencies.
+
+## Visitor-by-visitor publication review (October 2026)
+
+A private, explicit **48-record editorial approval manifest** now lives at `data/publication-review.json`. Every proposed visitor experience begins with `status: pending`. Nobody has approved these experiences for public release yet.
+
+Continuous integration validates that the manifest's IDs match **exactly** the selected visitor dataset, then writes a full-text private review packet at `test-results/publication-review.md` (a private Actions artifact retained for 7 days). It includes the actual proposed visitor-facing summaries, personal memory narratives, sourced historical paragraphs, city precision, and award statements. It contains no research/booking/interview ledgers and must not be shared publicly before review.
+
+A future approval must be a deliberate human decision. Each approved entry requires a review date and SHA-256 digest covering **both** the sanitized public record and its venue. If the text, dates, award context or public venue metadata changes afterward, the digest no longer matches and CI rejects the stale approval. The script `python scripts/audit_publication.py --check` checks integrity without authorizing release.
+
+Even after the existing manual deployment checkbox is selected, `python scripts/audit_publication.py --require-approved` will **refuse deployment** until all proposed visitor records have current explicit approval. Withheld records require a separately reviewed visitor dataset change rather than silently publishing them. The canonical private source repository remains private; a clean distribution site/repository is still preferred when configured.
+
+The packet is intended to support story and privacy review, not a fresh Michelin/James Beard eligibility audit. That separate Step 3 remains on hold.
