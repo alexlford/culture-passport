@@ -83,3 +83,11 @@ The visitor export contains only Home, Explore, Timeline, Map, experience pages,
 **Not yet approved for public release:** individual memory/story text, venue geography, and content in `data/records.json` still require human privacy review. Running the exporter does not cleanse or protect the current repository's Git history. Keep the existing source repository **private**; prefer deployment from private Pages (if account settings support it) or a new *clean public distribution repository* containing only the reviewed `dist/` contents. Do not make the canonical history public merely to enable Pages.
 
 The visitor build is a conservative public-facing proposal, **not a decision to remove the private interview workflow**: you can continue using the private research pages and interview answers in this source repository.
+
+## Visitor story and map improvements — October 2026
+
+- Experience pages prioritize the user's own recollection and approximate period, followed by an at-a-glance context row and **optional long-form venue history**. The long-form section is shown only when the source record contains actual narrative paragraphs, sourced venue chronology, and historical references. No missing companions, chefs or dishes are invented.
+- North Pond is the first richer editorial story already supported by the canonical data. Its historically grounded building/chef timeline and source links are rendered automatically. Other entries will develop similarly only as researched details become available.
+- City maps now present filtered category totals and an accessible expandable city directory, with direct links to experiences. Record pages have direct city-level map and Explore links; Explore honors the city in the URL.
+- Map markers remain explicitly **city-centroid** locations. Zoom levels are intentionally capped at city scope and the interface never claims those pins are the venue doorways. Replacing them with exact venue points remains a separate task requiring trustworthy coordinate sources.
+- The clean public preview uses the same component logic, but excludes private research, reservation and interview files. New story material still needs privacy approval before publishing. True rendered desktop/iPhone visual QA remains outstanding until browser-based testing is available.

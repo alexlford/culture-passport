@@ -117,6 +117,8 @@
       rows.forEach(r=>host.append(card(r,venues.get(r.venueId))));
     }
     buttons.forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.type;const url=new URL(location.href);if(filter==="all")url.searchParams.delete("type");else url.searchParams.set("type",filter);history.replaceState(null,"",url);update();}));
+    const initialCity=params.get("city");
+    if(initialCity&&availableCities.includes(initialCity))city.value=initialCity;
     city.addEventListener("change",update);search.addEventListener("input",update);includeMemories.addEventListener("change",()=>{const url=new URL(location.href);if(includeMemories.checked)url.searchParams.set("memories","1");else url.searchParams.delete("memories");history.replaceState(null,"",url);update();});update();
   }
   function timeline(db){
@@ -175,7 +177,7 @@
         g.venues.add(r.venueId);
       }
       list.replaceChildren();
-      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||a.region.localeCompare(b.region));
+      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||String(a.region||"").localeCompare(String(b.region||"")));
       if(!groupsSorted.length){
         const noResults=el("p","map-legend","No confirmed experiences in this category yet.");
         list.append(noResults);
