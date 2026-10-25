@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Validate experience data and site pages
         run: python scripts/validate.py
+      - name: Audit static routes, deep links and staging privacy safeguards
+        run: python scripts/audit_static_site.py
       - name: Check interactive JavaScript syntax
         run: |
           node --check assets/app.js
