@@ -26,3 +26,31 @@ jobs:
         run: |
           node --check assets/app.js
           node --check assets/performance-interview.js
+
+  browser-smoke:
+    name: Browser smoke · visitor preview
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout private source
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned browser QA dependencies
+        run: npm install --no-save --no-package-lock playwright@1.56.1 leaflet@1.9.4
+      - name: Install Chromium and Linux dependencies
+        run: npx playwright install --with-deps chromium
+      - name: Build minimal visitor-only artifact
+        run: python scripts/build_public_preview.py --output dist
+      - name: Test rendered pages at mobile and desktop widths
+        run: node scripts/smoke_browser.mjs
+      - name: Upload private QA screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: culture-browser-screenshots
+          path: test-results/screenshots/
+          if-no-files-found: ignore
+          retention-days: 7

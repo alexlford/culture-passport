@@ -132,3 +132,6 @@ main:focus{outline:none}
 .map-popup-link{display:inline-block;border:0;border-bottom:1px solid var(--wine);background:transparent;color:var(--wine);padding:8px 0;font-size:12px;font-weight:800;cursor:pointer;text-align:left}
 @media(max-width:720px){.map-controls{display:block}.map-summary{text-align:left;margin:12px 0 0}.map-shell{margin-top:21px}.feature-story{padding:26px 20px}.heritage-chapter{grid-template-columns:60px minmax(0,1fr);gap:13px}.orientation-item strong{font-size:12px}}
 @media(max-width:390px){.experience-orientation{grid-template-columns:1fr;gap:0}.orientation-item+ .orientation-item{border-top:1px solid var(--line)}}
+
+/* External venue lookups remain distinct from city-level memory maps. */
+.experience-navigation a{display:inline-flex;align-items:center;min-height:44px}

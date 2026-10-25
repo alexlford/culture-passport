@@ -298,6 +298,15 @@
     const around=el("div","experience-navigation");
     around.append(link("Explore experiences in "+(v.city||"this city")+" ↗","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));
     if(v.location&&v.city)around.append(link("Find this city on the map ↗","./map.html?"+new URLSearchParams({city:v.city}).toString()));
+    // Link to a *place-name search*, never an unverified door-level GPS marker.
+    // Restaurants can move/close; this is a lookup, not proof of present operation.
+    if(v.name&&v.city){
+      const placeQuery=[v.name,v.city,v.region].filter(Boolean).join(", ");
+      const mapsUrl="https://www.google.com/maps/search/?"+new URLSearchParams({api:"1",query:placeQuery}).toString();
+      const lookup=link("Look up this venue ↗",mapsUrl);
+      lookup.target="_blank";lookup.rel="noopener noreferrer";
+      around.append(lookup);
+    }
     host.append(around);
         const badges=el("div","award-list"),g=r.guide;
     if(g?.distinction==="starred"){
