@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-10-25",
-  "methodology": "Unresolved shows or productions are not counted as confirmed until identified. Venue or performance-season matches provide context, not proof of a particular evening. Previously confirmed cultural artifacts, including the Murray State Concert Choir and University Chorale at Carnegie Hall on January 18, 2010, must not be treated as unconfirmed leads. Preserve linked family narratives and actual performance dates.",
+  "methodology": "Unresolved shows or productions are not counted as confirmed until identified. Venue or performance-season matches provide context, not proof of a particular evening. Previously confirmed cultural artifacts, including the Murray State Concert Choir and University Chorale at Carnegie Hall on January 18, 2010, must not be treated as unconfirmed leads. Preserve linked family narratives and actual performance dates. The Denver Center's 2024 A Christmas Carol title was directly confirmed through Alex's recognition of the original production photo; leave the exact night unknown. Focus the remaining interview on the additional Denver show and 2017 Second City revue.",
   "leads": [
     {
       "id": "another-denver-show",
@@ -52,7 +52,6 @@
   ],
   "nextInterviewFocus": "musicals_and_plays",
   "interviewOrder": [
-    "theater-christmas-carol-denver-2024",
     "another-denver-show",
     "second-city-revue-2017"
   ]
