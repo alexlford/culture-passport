@@ -75,14 +75,26 @@
     return a;
   }
   function siteStats(db){
-    const records=db.records.filter(r=>inCollection(r));
+    // Verified visit totals must NEVER include friend-recalled, unconfirmed memories.
+    const confirmed=db.records.filter(r=>r.status==="confirmed");
+    const selected=db.records.filter(inCollection);
     const venues=new Map(db.venues.map(v=>[v.id,v]));
-    const cities=new Set(records.map(r=>venues.get(r.venueId)?.city).filter(Boolean));
-    const starred=records.filter(r=>r.type==="dining"&&r.guide?.distinction==="starred"&&r.guide.stars>0);
-    const awardDining=records.filter(r=>["dining","bar"].includes(r.type)&&r.editorial?.awardQualified);
-    const st=[["total-records",awardDining.length],["total-venues",new Set(records.filter(r=>["dining","bar"].includes(r.type)).map(r=>r.venueId)).size],["total-cities",cities.size],["total-starred",starred.length]];
+    const cities=new Set(confirmed.map(r=>venues.get(r.venueId)?.city).filter(Boolean));
+    const starred=confirmed.filter(r=>r.type==="dining"&&r.guide?.distinction==="starred"&&r.guide.stars>0);
+    const awards=confirmed.filter(r=>["dining","bar"].includes(r.type)&&r.editorial?.awardQualified);
+    const visitVenues=new Set(confirmed.filter(r=>["dining","bar"].includes(r.type)).map(r=>r.venueId));
+    const st=[["total-records",awards.length],["total-venues",visitVenues.size],["total-cities",cities.size],["total-starred",starred.length]];
     st.forEach(([key,value])=>{const target=byId(key);if(target)target.textContent=value;});
-    for(const key of Object.keys(titleFor)){const target=byId(key+"-count");if(target)target.textContent=key==="dining"?records.filter(r=>r.type==="dining"&&(r.editorial?.awardQualified||r.editorial?.featuredException)).length+" included":key==="bar"?records.filter(r=>r.type==="bar").length+" bars":records.filter(r=>r.type===key).length+" recorded";}
+    for(const key of Object.keys(titleFor)){
+      const target=byId(key); // counts use their own id rather than a category placeholder
+      const badge=byId(key+"-count");
+      if(!badge)continue;
+      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&(r.editorial?.awardQualified||r.editorial?.featuredException)).length+" included";
+      else if(key==="bar"){
+        const visits=confirmed.filter(r=>r.type==="bar").length,shared=selected.filter(r=>r.type==="bar"&&isRecalled(r)).length;
+        badge.textContent=visits+" visits · "+shared+" shared memories";
+      }else badge.textContent=confirmed.filter(r=>r.type===key).length+" recorded";
+    }
   }
   function home(db){
     siteStats(db);
@@ -97,6 +109,20 @@
       const mid=el("div");mid.append(el("strong","",r.title),el("small","",v.city+" · "+(r.memory?.headline||"A place in the collection")));
       a.append(mid,el("span","feature-arrow","↗"));host.append(a);
     });
+    const shared=byId("shared-memory-records");
+    if(shared){
+      shared.replaceChildren();
+      db.records.filter(r=>inCollection(r)&&isRecalled(r))
+        .sort((a,b)=>a.title.localeCompare(b.title)).forEach(r=>{
+          const venue=venues.get(r.venueId);
+          const row=link("",href(r),"feature-row friend-memory-row");
+          const title=el("div");
+          title.append(el("strong","",r.title),
+            el("small","",(venue?.city||"Chicago")+" · Shared recollection · Visit unconfirmed"));
+          row.append(el("span","feature-year","◒"),title,el("span","feature-arrow","↗"));
+          shared.append(row);
+        });
+    }
   }
   function explore(db){
     const host=byId("explore-results"),city=byId("city-filter"),search=byId("search"),count=byId("result-count"),includeMemories=byId("include-memories");
