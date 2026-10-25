@@ -707,5 +707,21 @@
       "visitConfidence": "reservation_only_not_a_confirmed_dining_experience",
       "publicationStatus": "research_only"
     }
+  ],
+  "recollectedMemoryVenues": [
+    {
+      "venueId": "venue-cindys-rooftop-chicago",
+      "name": "Cindy's Rooftop",
+      "experienceId": "bar-cindys-rooftop-chicago-friend-recalled",
+      "status": "recollected_not_confirmed",
+      "awardContext": "2016 James Beard Outstanding Restaurant Design nominee; venue award"
+    },
+    {
+      "venueId": "venue-the-library-gilt-bar-chicago",
+      "name": "The Library at Gilt Bar",
+      "experienceId": "bar-the-library-gilt-bar-chicago-friend-recalled",
+      "status": "recollected_not_confirmed",
+      "awardContext": "Gilt Bar parent restaurant is Michelin Bib Gourmand-listed; The Library has no separate award"
+    }
   ]
 }
