@@ -18,7 +18,20 @@
   </nav>
 </header><main id="main">
 <section class="page-intro map-intro"><p class="eyebrow">A MAP OF MEMORIES</p><h1>The places<br><em>that hosted them.</em></h1><p>Map of Michelin / James Beard-eligible venues and personally chosen favorites, including cocktail bars. Other memories are available through Explore. Pins mark <strong>approximate city centers</strong>, not venue doorways.</p></section>
-<div class="map-shell"><div id="culture-map" class="culture-map" aria-label="Map showing cities with recorded Culture Passport visits" role="region"><div class="empty">Map loading…</div></div><aside class="map-sidebar"><p class="eyebrow">WHERE I'VE BEEN</p><h2>City index</h2><div id="city-list" class="city-list">Loading…</div></aside></div>
+<div class="map-controls">
+  <label for="map-category">Explore a category
+    <select id="map-category">
+      <option value="all">All experiences</option>
+      <option value="dining">Restaurants</option>
+      <option value="bar">Cocktail bars</option>
+      <option value="concert">Concerts</option>
+      <option value="opera">Opera</option>
+      <option value="theater">Theater</option>
+    </select>
+  </label>
+  <p id="map-summary" class="map-summary" aria-live="polite">Loading city-level experience locations…</p>
+</div>
+<div class="map-shell"><div id="culture-map" class="culture-map" aria-label="Map showing cities with recorded Culture Passport visits" role="region"><div class="empty">Map loading…</div></div><aside class="map-sidebar"><p class="eyebrow">WHERE I'VE BEEN</p><h2>Browse by city</h2><p class="map-disclaimer">Each pin represents a city. Open a city to see its confirmed venues; individual street locations are not mapped yet.</p><div id="city-list" class="city-list">Loading…</div></aside></div>
 </main><footer class="footer">
   <div><strong>CULTURE PASSPORT</strong><p>A personal record of remarkable evenings and memorable tables.</p></div>
   <div class="footer-links"><a href="https://sports.alexlford.com">Sports ↗</a><a href="https://adventures.alexlford.com">Adventures ↗</a><a href="https://alexlford.github.io/life-map/atlas.html">Personal Atlas ↗</a></div>

@@ -95,3 +95,40 @@ main:focus{outline:none}
  .page-intro h1{font-size:clamp(40px,10.6vw,48px)}
 }
 @media(prefers-reduced-motion:reduce){.skip-link{transition:none}}
+
+
+/* Editorial experience pages: personally remembered moments first, verified venue history second. */
+.experience-orientation{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:24px 0 42px;gap:14px}
+.orientation-item{padding:18px 4px 19px;display:flex;flex-direction:column;gap:7px}
+.orientation-item span{font-size:10px;font-weight:800;letter-spacing:.2em;color:var(--wine)}
+.orientation-item strong{font-size:14px;font-weight:650;line-height:1.5}
+.feature-story{margin:55px 0;padding:42px clamp(20px,4vw,56px);border:1px solid var(--line);background:var(--cream)}
+.feature-story>h2{font:500 clamp(30px,4vw,49px)/1.15 var(--serif);margin:0 0 26px;letter-spacing:-.035em}
+.feature-story-paragraph{font:400 clamp(15px,1.6vw,18px)/1.85 var(--sans);color:#484e50;max-width:67ch;margin-bottom:23px}
+.feature-story h3{font:500 28px/1.25 var(--serif);margin:41px 0 19px}
+.heritage-list{list-style:none;display:grid;gap:0;margin:0;padding:0}
+.heritage-chapter{display:grid;grid-template-columns:90px minmax(0,1fr);gap:22px;border-top:1px solid var(--line);padding:16px 0}
+.heritage-year{color:var(--wine);font:500 20px var(--serif)}
+.heritage-copy strong{display:block;font-size:14px}.heritage-copy p{color:var(--muted);font-size:13px;margin:5px 0 0}
+.feature-sources{display:flex;flex-wrap:wrap;gap:12px 20px;border-top:1px solid var(--line);padding-top:22px;margin-top:28px;font-size:12px}
+.feature-sources>span{width:100%;color:var(--muted);font-size:10px;letter-spacing:.13em;font-weight:800}
+.feature-sources a,.experience-navigation a{color:var(--wine);font-weight:700;text-underline-offset:4px}
+.experience-navigation{display:flex;flex-wrap:wrap;gap:15px 30px;margin:34px 0;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px}
+/* City-first maps avoid fictitious street-level GPS precision. */
+.map-controls{display:flex;align-items:end;justify-content:space-between;gap:15px;padding:28px 0 0}
+.map-controls label{display:block;font-size:11px;font-weight:800;color:var(--muted)}
+.map-controls select{display:block;min-width:190px;max-width:100%;border:1px solid var(--line);border-radius:3px;margin-top:8px;padding:11px 12px;background:var(--cream);color:var(--ink)}
+.map-summary{font-size:11px;color:var(--muted);text-align:right;margin:0 0 9px}
+.map-disclaimer{font-size:12px;color:var(--muted);line-height:1.6;margin:5px 0 22px}
+.city-section{border-bottom:1px solid var(--line)}
+.city-summary{cursor:pointer;padding:15px 1px;list-style-position:inside;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.city-summary strong{font-size:13px}
+.city-summary span{font-size:10px;color:var(--muted);text-align:right}
+.city-summary:focus-visible,.map-popup-link:focus-visible{outline:3px solid var(--wine);outline-offset:3px}
+.map-place-list{list-style:none;padding:0 0 15px;margin:0}
+.map-place-list li+li{border-top:1px solid var(--line)}
+.map-place-list a{display:flex;flex-direction:column;gap:2px;text-decoration:none;padding:9px 5px;font-size:12px;font-weight:700;color:var(--wine)}
+.map-place-list a span{font-size:10px;font-weight:400;color:var(--muted)}
+.map-popup-link{display:inline-block;border:0;border-bottom:1px solid var(--wine);background:transparent;color:var(--wine);padding:8px 0;font-size:12px;font-weight:800;cursor:pointer;text-align:left}
+@media(max-width:720px){.map-controls{display:block}.map-summary{text-align:left;margin:12px 0 0}.map-shell{margin-top:21px}.feature-story{padding:26px 20px}.heritage-chapter{grid-template-columns:60px minmax(0,1fr);gap:13px}.orientation-item strong{font-size:12px}}
+@media(max-width:390px){.experience-orientation{grid-template-columns:1fr;gap:0}.orientation-item+ .orientation-item{border-top:1px solid var(--line)}}

@@ -141,35 +141,98 @@
     select.addEventListener("change",render);includeMemories.addEventListener("change",render);render();
   }
   function map(db){
-    const host=byId("culture-map"),list=byId("city-list"),venues=new Map(db.venues.map(v=>[v.id,v])),groups=new Map();
-    for(const r of db.records.filter(x=>x.status==="confirmed"&&(!["dining","bar"].includes(x.type)||x.editorial?.awardQualified||x.editorial?.featuredException))){
-      const v=venues.get(r.venueId);if(!v||!v.location)continue;
-      if(!groups.has(v.city))groups.set(v.city,{city:v.city,lat:v.location.lat,lng:v.location.lng,records:[]});
-      groups.get(v.city).records.push(r);
-    }
-    list.replaceChildren();
-    if(!groups.size){host.textContent="No mapped experiences yet.";list.textContent="No cities yet.";return;}
-    if(typeof window.L==="undefined"){host.textContent="Map library unavailable. Use the city list to browse each destination."; }
-    let leafletMap=null;
+    const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
+    const venues=new Map(db.venues.map(v=>[v.id,v]));
+    const available=db.records.filter(r=>r.status==="confirmed"&&
+      (!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException));
+    // Map points are city-centroid *representations* until independently
+    // verified venue coordinates become available. Do not place pins at
+    // address approximations or imply the GPS belongs to the venue.
+    let leafletMap=null,markers=[];
     if(typeof window.L!=="undefined"){
       host.replaceChildren();
-      leafletMap=L.map(host,{scrollWheelZoom:false,zoomControl:true});
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:18}).addTo(leafletMap);
+      leafletMap=L.map(host,{scrollWheelZoom:false,zoomControl:true,minZoom:2});
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        {attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:18}).addTo(leafletMap);
+    }else{
+      host.replaceChildren(el("div","empty","Map tiles unavailable. Choose a city below to browse the experiences."));
     }
-    const bounds=[];
-    [...groups.values()].sort((a,b)=>a.city.localeCompare(b.city)).forEach(g=>{
-      if(leafletMap){
-        const marker=L.marker([g.lat,g.lng],{icon:L.divIcon({className:"",html:'<div class="culture-marker">'+g.records.length+'</div>',iconSize:[28,28],iconAnchor:[14,14]})}).addTo(leafletMap);
-        const popup=el("div");popup.append(el("strong","",g.city),el("p","",g.records.length+" recorded visits · approximate city location"));
-        const ul=el("ul");g.records.forEach(r=>{const li=el("li");li.append(link(r.title,href(r)));ul.append(li);});popup.append(ul);marker.bindPopup(popup);
-        bounds.push([g.lat,g.lng]);
+    function render(){
+      markers.forEach(m=>{if(leafletMap)leafletMap.removeLayer(m);});
+      markers=[];
+      const groups=new Map();
+      for(const r of available){
+        if(category.value!=="all"&&r.type!==category.value)continue;
+        const v=venues.get(r.venueId);
+        if(!v?.location||!Number.isFinite(v.location.lat)||!Number.isFinite(v.location.lng))continue;
+        const cityKey=[v.city,v.region,v.country].filter(Boolean).join(" · ");
+        if(!groups.has(cityKey)){
+          groups.set(cityKey,{key:cityKey,name:v.city,region:v.region,
+            lat:v.location.lat,lng:v.location.lng,records:[],venues:new Set()});
+        }
+        const g=groups.get(cityKey);
+        g.records.push(r);
+        g.venues.add(r.venueId);
       }
-      const b=el("button","city-item");b.type="button";b.append(el("strong","",g.city),el("span","",g.records.length+" experience"+(g.records.length===1?"":"s")));
-      b.addEventListener("click",()=>{if(leafletMap)leafletMap.setView([g.lat,g.lng],11,{animate:true});else window.location.href="./explore.html";});list.append(b);
-    });
-    if(leafletMap){if(bounds.length===1)leafletMap.setView(bounds[0],10);else leafletMap.fitBounds(bounds,{padding:[45,45],maxZoom:10});}
+      list.replaceChildren();
+      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||a.region.localeCompare(b.region));
+      if(!groupsSorted.length){
+        const noResults=el("p","map-legend","No confirmed experiences in this category yet.");
+        list.append(noResults);
+        if(leafletMap)leafletMap.setView([39.5,-98.35],4);
+        return;
+      }
+      const locations=[];
+      const selectedCity=new URLSearchParams(location.search).get("city");
+      let focus=null;
+      for(const g of groupsSorted){
+        const details=el("details","city-section");
+        const summary=el("summary","city-summary");
+        const name=el("strong","",g.name);
+        const qualifier=el("span","",g.venues.size+" place"+(g.venues.size===1?"":"s")+" · "+g.region);
+        summary.append(name,qualifier);
+        details.append(summary);
+        const ul=el("ul","map-place-list");
+        const rows=[...g.records].sort((a,b)=>a.title.localeCompare(b.title));
+        for(const r of rows){
+          const li=el("li"),a=link(r.title,href(r));
+          a.append(el("span","",storyPeriod(r)));
+          li.append(a);ul.append(li);
+        }
+        details.append(ul);
+        list.append(details);
+        if(selectedCity===g.name||selectedCity===g.key){details.open=true;focus=g;}
+        if(leafletMap){
+          const marker=L.marker([g.lat,g.lng],{icon:L.divIcon({
+            className:"",html:'<div class="culture-marker" aria-hidden="true">'+g.venues.size+'</div>',
+            iconSize:[28,28],iconAnchor:[14,14]})}).addTo(leafletMap);
+          const popup=el("div","map-popup");
+          popup.append(el("strong","",g.name),el("p","",g.venues.size+" place"+(g.venues.size===1?"":"s")+" · city-level pin, not an exact venue"));
+          const openCity=el("button","map-popup-link","View places in this city");
+          openCity.type="button";
+          openCity.addEventListener("click",()=>{
+            details.open=true;
+            details.scrollIntoView({behavior:"smooth",block:"nearest"});
+          });
+          popup.append(openCity);
+          marker.bindPopup(popup);
+          markers.push(marker);
+          locations.push([g.lat,g.lng]);
+        }
+      }
+      const total=groupsSorted.reduce((n,g)=>n+g.venues.size,0);
+      const status=byId("map-summary");
+      if(status)status.textContent=groupsSorted.length+" cities · "+total+" city-grouped places · Approximate location markers";
+      if(leafletMap){
+        if(focus)leafletMap.setView([focus.lat,focus.lng],9,{animate:false});
+        else if(locations.length===1)leafletMap.setView(locations[0],9,{animate:false});
+        else leafletMap.fitBounds(locations,{padding:[45,45],maxZoom:9});
+      }
+    }
+    category.addEventListener("change",render);
+    render();
   }
-  function detail(db){
+    function detail(db){
     const host=byId("record-detail"),params=new URLSearchParams(window.location.search),id=params.get("id");
     const r=db.records.find(x=>x.id===id&&x.status==="confirmed");
     if(!r){empty(host,"Experience not found.","This record may have moved or has not been confirmed.","./explore.html","Back to the archive →");return;}
@@ -179,6 +242,13 @@
     host.append(el("p","eyebrow",r.type.toUpperCase()+" / "+(v.city||"")),el("h1","",r.title));
     const period=el("p","memory-period",storyPeriod(r)+" · "+[v.city,v.region].filter(Boolean).join(", "));
     host.append(period);
+    const orientation=el("div","experience-orientation");
+    const periodTag=el("div","orientation-item");
+    periodTag.append(el("span","","WHEN"),el("strong","",storyPeriod(r)));
+    const placeTag=el("div","orientation-item");
+    placeTag.append(el("span","","WHERE"),el("strong","",[v.city,v.region].filter(Boolean).join(", ")||"Location to be established"));
+    orientation.append(periodTag,placeTag);
+    host.append(orientation);
     if(context){
       host.append(el("h2","memory-heading",context.headline),el("p","memory-quote",context.story));
     }else{
@@ -193,7 +263,41 @@
         "A personal favorite, kept for the experience rather than an award.":
         "A remembered place, with no verified Michelin or James Beard qualification."));
     }
-    const badges=el("div","award-list"),g=r.guide;
+    if(r.story?.paragraphs?.length){
+      const feature=el("section","feature-story");
+      feature.append(el("p","eyebrow","BEHIND THE EXPERIENCE"),
+        el("h2","","The place and its history"));
+      for(const paragraph of r.story.paragraphs)feature.append(el("p","feature-story-paragraph",paragraph));
+      if(r.story.chapters?.length){
+        feature.append(el("h3","","A few chapters in the story"));
+        const chapters=el("ol","heritage-list");
+        for(const ch of r.story.chapters){
+          const li=el("li","heritage-chapter");
+          li.append(el("time","heritage-year",ch.year||""),el("div","heritage-copy"));
+          li.lastChild.append(el("strong","",ch.title),el("p","",ch.detail));
+          chapters.append(li);
+        }
+        feature.append(chapters);
+      }
+      if(r.story.sourceUrls?.length){
+        const sources=el("div","feature-sources");
+        sources.append(el("span","","HISTORY & SOURCES"));
+        for(const source of r.story.sourceUrls){
+          if(typeof source.url==="string"&&source.url.startsWith("https://")){
+            const a=link(source.label||"Read source",source.url);
+            a.target="_blank";a.rel="noopener noreferrer";
+            sources.append(a);
+          }
+        }
+        feature.append(sources);
+      }
+      host.append(feature);
+    }
+    const around=el("div","experience-navigation");
+    around.append(link("Explore experiences in "+(v.city||"this city")+" ↗","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));
+    if(v.location&&v.city)around.append(link("Find this city on the map ↗","./map.html?"+new URLSearchParams({city:v.city}).toString()));
+    host.append(around);
+        const badges=el("div","award-list"),g=r.guide;
     if(g?.distinction==="starred"){
       const b=el("div","award-card");b.append(el("strong","","Michelin · "+g.stars+" star"+(g.stars===1?"":"s")),el("p","","Recognition belongs to the restaurant, but may differ from the date of the meal."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
     }else if(g?.distinction==="bib"){const b=el("div","award-card");b.append(el("strong","","Michelin Bib Gourmand"),el("p","",g.note||"Michelin recognition for great food at good value, not a Michelin star."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);}
