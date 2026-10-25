@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-10-25",
-  "methodology": "Unresolved shows or productions are not counted as confirmed until identified. Venue or performance-season matches provide context, not proof of a particular evening.",
+  "methodology": "Unresolved shows or productions are not counted as confirmed until identified. Venue or performance-season matches provide context, not proof of a particular evening. Previously confirmed cultural artifacts, including the Murray State Concert Choir and University Chorale at Carnegie Hall on January 18, 2010, must not be treated as unconfirmed leads. Preserve linked family narratives and actual performance dates.",
   "leads": [
     {
       "id": "another-denver-show",
@@ -25,12 +25,12 @@
     },
     {
       "id": "lyric-ring-performances",
-      "name": "Which Ring operas were attended",
+      "name": "Three confirmed Lyric Opera Ring performances",
       "venue": "Lyric Opera of Chicago",
-      "year": null,
-      "status": "series_confirmed_individual_performances_unverified",
-      "recollection": "October 2016 venue image and November 2018 group photo; the Ring Cycle memory is confirmed, but precise opera performances not established.",
-      "sourceUrl": null
+      "year": 2016,
+      "status": "resolved_confirmed",
+      "recollection": "Resolved from Alex's interview: attended Das Rheingold October 9, 2016; Die Walküre November 26, 2017; Siegfried November 11, 2018. Michelle Ford (sister) listed in the 2016 cast as an actor. Keep this as completed historical research, not an unanswered interview prompt.",
+      "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/"
     }
   ]
 }
