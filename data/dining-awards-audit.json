@@ -10,9 +10,9 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 26,
-    "distinctPublishedVenues": 24,
-    "recognized": 16,
+    "canonExperienceRecords": 27,
+    "distinctPublishedVenues": 25,
+    "recognized": 17,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 6,
@@ -532,6 +532,28 @@
       "recognitionSummary": [],
       "editorialNote": "Explicit 2026 user-selected inclusion; no Michelin/James Beard recognition claimed, not characterized as a favorite.",
       "visitConfidence": "direct_user_confirmed_approximate_year"
+    },
+    {
+      "venueId": "venue-untitled-supper-club-chicago",
+      "name": "Untitled Supper Club",
+      "city": "Chicago",
+      "region": "Illinois",
+      "experienceIds": [
+        "dining-untitled-supper-club-chicago-year-unknown"
+      ],
+      "rememberedPeriods": [
+        "Chicago visit · year unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+        "https://guide.michelin.com/en/article/news-and-views/michelin-guide-chicago-2020-bib-gourmand-results"
+      ],
+      "recognitionSummary": [
+        "Michelin Chicago Bib Gourmand, 2019 and 2020 editions"
+      ],
+      "editorialNote": "User directly confirmed visit, but exact calendar year unknown. Michelin award in 2019/2020 is historical venue recognition and cannot be claimed as award-at-visit.",
+      "visitConfidence": "direct_user_confirmed_unknown_year"
     }
   ],
   "confirmedArchiveOnly": [
