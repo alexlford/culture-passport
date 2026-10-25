@@ -38,6 +38,8 @@ def public_story(record):
     # Curated experiences only: a personal favorite may be included even
     # without a Michelin or James Beard distinction.
     editorial = record.get("editorial") or {}
+    if record["status"] == "recollected":
+        return editorial.get("userRequestedMemory") is True
     if record["status"] != "confirmed":
         return False
     if record["type"] in {"dining", "bar"}:
@@ -83,7 +85,7 @@ def sanitize_record(record):
             if not a.get("recognitionAtDifferentVenue")
         ]
     selected["editorial"] = safe_fields(
-        record.get("editorial", {}), ("awardQualified", "featuredException")
+        record.get("editorial", {}), ("awardQualified", "featuredException", "userRequestedMemory")
     )
     return selected
 
@@ -156,7 +158,11 @@ def validate_export(output, count):
     data = json.loads((output / "data/records.json").read_text(encoding="utf-8"))
     assert len(data["records"]) == count
     assert_no_private_fields(data)
-    assert all(r["status"] == "confirmed" for r in data["records"])
+    assert all(
+        r["status"] == "confirmed" or
+        (r["status"] == "recollected" and r["editorial"].get("userRequestedMemory") is True)
+        for r in data["records"]
+    )
     assert all(not any(key in r for key in REDACTED) for r in data["records"])
     assert {r["venueId"] for r in data["records"]} == {v["id"] for v in data["venues"]}
     for p in VISITOR_PAGES:

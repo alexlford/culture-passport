@@ -112,6 +112,19 @@ try{
     }
     await page.locator(".skip-link").focus();
     assert(await page.locator(".skip-link").evaluate(el=>document.activeElement===el),"Keyboard skip link cannot receive focus");
+    // A memory page must be reachable while explicitly disclaiming firsthand proof.
+    for(const title of ["Cindy's Rooftop","The Library at Gilt Bar"]){
+      const memory=data.records.find(r=>r.title===title);
+      assert(memory?.status==="recollected"&&memory.editorial.userRequestedMemory===true,
+        title+" absent from visitor collection");
+      await page.goto(BASE+"record.html?id="+encodeURIComponent(memory.id),{waitUntil:"domcontentloaded"});
+      await page.locator("#record-detail h1").waitFor();
+      assert((await page.locator(".recalled-notice").innerText()).includes("not been independently confirmed"),
+        "Unverified visit not disclosed for "+title);
+      await page.locator(".feature-story .feature-story-paragraph").first().waitFor();
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth+3),
+        title+" has horizontal overflow on "+name);
+    }
     await context.close();
   }
   console.log("PASS: 10 rendered screenshots; search, map filters, history, venue lookup, keyboard focus, and mobile/desktop overflow.");
