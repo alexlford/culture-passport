@@ -2995,18 +2995,18 @@
         ],
         "label": "January 2010",
         "precision": "day",
-        "source": "Direct user recollection + personal event archive and published season history",
-        "evidenceType": "user_recollection"
+        "source": "Previously archived direct user attendance and date, explicitly reconfirmed by Alex on October 25, 2026; Murray State university newsletter reported the Concert Choir and University Chorale Carnegie Hall engagement on January 18, 2010.",
+        "evidenceType": "direct_user_confirmation_and_historical_program"
       },
-      "summary": "Seeing your sister perform at Carnegie Hall.",
+      "summary": "Attended the Murray State Concert Choir and University Chorale performance at Carnegie Hall on January 18, 2010, to see sister Michelle perform. This experience was already confirmed in Culture Passport; not a new research lead.",
       "memory": {
-        "headline": "Murray State choruses at Carnegie Hall",
-        "teaser": "Seeing your sister perform at Carnegie Hall.",
-        "story": "You remember a trip to New York for a performance by your sister while she studied at Murray State. University reporting places its Concert Choir and University Chorale at Carnegie Hall on January 18, 2010. Her connection is the centerpiece of this story.",
-        "period": "January 2010",
-        "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
+        "headline": "Seeing Michelle perform at Carnegie Hall",
+        "teaser": "A family trip to New York to hear Michelle perform with Murray State's choirs at Carnegie Hall.",
+        "story": "On January 18, 2010, I attended the Murray State choral performance at Carnegie Hall in New York City to see my sister Michelle sing. Murray State's Concert Choir and members of the University Chorale were appearing at one of classical music's most celebrated halls under director Bradley Almquist. For me, the defining memory is the family connection: being there to watch Michelle perform at Carnegie Hall.",
+        "period": "January 18, 2010",
+        "source": "Previously documented personal event archive, explicit reconfirmation by Alex on October 25, 2026, and contemporaneous Murray State University newsletter."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://doczz.net/doc/739390/inside-this-issue---murray-state-university",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
@@ -3161,28 +3161,55 @@
         "year": 2016,
         "date": null,
         "possibleYears": [
-          2016
+          2016,
+          2017,
+          2018
         ],
-        "label": "2016–2018",
+        "label": "October 2016 – November 2018",
         "precision": "approximate",
-        "source": "Direct user recollection + personal event archive and published season history",
-        "evidenceType": "user_recollection"
+        "source": "Direct user attendance confirmation on October 25, 2026; corrected first attendance date October 9, 2016 (not October 6); 2017 and 2018 nights corroborated by contemporary Lyric listings.",
+        "evidenceType": "direct_user_confirmation"
       },
-      "summary": "A multi-year journey through Wagner's Ring at the Lyric.",
+      "summary": "Three confirmed Ring Cycle performances at Lyric Opera of Chicago: Das Rheingold on October 9, 2016; Die Walküre on November 26, 2017; and Siegfried on November 11, 2018. Michelle Ford, Alex's sister, is credited in the 2016 Das Rheingold program among the actors and marked as making her Lyric debut.",
       "memory": {
-        "headline": "Wagner's Ring Cycle — Lyric Opera of Chicago",
-        "teaser": "A multi-year journey through Wagner's Ring at the Lyric.",
-        "story": "Your photo of the Civic Opera House in October 2016 displays Das Rheingold banners; another photo from November 2018 shows your group at the Lyric during the Siegfried season. Those are anchors for your Ring Cycle memories, not assertions that the photos prove attendance at any particular performance.",
-        "period": "2016–2018",
-        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+        "headline": "Three years of Wagner at the Lyric, with Michelle onstage",
+        "teaser": "Seeing my sister Michelle in Das Rheingold began three memorable years of opera in Chicago.",
+        "story": "I attended Wagner's Das Rheingold at the Lyric Opera of Chicago on October 9, 2016. My sister Michelle was in the production. The original Lyric program lists Michelle Ford with the actors and marks it as her Lyric debut. It made the night more than simply my first entry in this Ring Cycle. I returned to the Lyric for Die Walküre on November 26, 2017, and Siegfried on November 11, 2018. Together, those performances connect three years of opera-going with a particularly meaningful family memory.",
+        "period": "October 9, 2016; November 26, 2017; November 11, 2018",
+        "source": "Alex's explicit October 25, 2026 interview confirmations and date correction; Lyric's 2016 Das Rheingold program and contemporary production listings."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
-      }
+      },
+      "attendedPerformances": [
+        {
+          "title": "Das Rheingold",
+          "date": "2016-10-09",
+          "attendance": "confirmed",
+          "dateSource": "Alex's corrected answer; show listed for October 9",
+          "sourceUrl": "https://www.dailyherald.com/20161004/entertainment/new-lyric-rheingold-filled-with-imaginative-flourishes/",
+          "note": "Michelle Ford credited among actors in original program; asterisk denotes Lyric debut",
+          "programUrl": "https://lyricoperamedia.s3.amazonaws.com/programs/2016_DasRheingold/DasRheingoldProgram.pdf"
+        },
+        {
+          "title": "Die Walküre",
+          "date": "2017-11-26",
+          "attendance": "confirmed",
+          "dateSource": "Alex's direct answer and documented November 26 performance",
+          "sourceUrl": "https://dankhaus.com/event-2682674"
+        },
+        {
+          "title": "Siegfried",
+          "date": "2018-11-11",
+          "attendance": "confirmed",
+          "dateSource": "Alex's direct answer and November 11 performance listing",
+          "sourceUrl": "https://chicago.suntimes.com/2018/11/4/18429069/strong-singing-prevails-in-lyric-opera-s-odd-kiddie-themed-siegfried"
+        }
+      ]
     },
     {
       "id": "concert-billy-joel-kansas-city",
