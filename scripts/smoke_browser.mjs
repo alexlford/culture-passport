@@ -47,6 +47,7 @@ async function pageCheck(page,url,ready,viewportName){
     return {
       width,documentWidth:document.documentElement.scrollWidth,
       bodyWidth:document.body.scrollWidth,
+      offenders:[...document.querySelectorAll("body *")].map(el=>({el,left:el.getBoundingClientRect().left,right:el.getBoundingClientRect().right})).filter(x=>x.right>width+4||x.left< -4).sort((a,b)=>b.right-a.right).slice(0,12).map(x=>({tag:x.el.tagName,cls:String(x.el.className||"").slice(0,75),id:x.el.id,left:Math.round(x.left),right:Math.round(x.right)})),
       headingCount:document.querySelectorAll("main h1").length,
       mainLabel:document.querySelector("main h1")?.textContent?.trim()||"",
       navCount:document.querySelectorAll(".nav a").length
