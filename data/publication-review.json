@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "description": "Private editorial approval list for prospective Culture Passport visitor pages. Entries remain pending until explicitly reviewed and approved. This file does not authorize publication.",
+  "reviewedRecords": [
+    {
+      "id": "dining-republique-los-angeles",
+      "title": "République",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-minetta-tavern-nyc-2016-2017",
+      "title": "Minetta Tavern",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-beckon-denver-2023",
+      "title": "Beckon",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-charleston-baltimore-2018-2021",
+      "title": "Charleston",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-woodberry-kitchen-baltimore-2018-2021",
+      "title": "Woodberry Kitchen",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-momofuku-ccdc-washington-dc",
+      "title": "Momofuku CCDC",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-sauvage-steamboat-2021-01",
+      "title": "Sauvage",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-gunther-and-co-baltimore-2020-02-14",
+      "title": "Gunther & Co.",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-majestic-kansas-city",
+      "title": "The Majestic Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-manifesto-kansas-city",
+      "title": "Manifesto",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-death-and-co-denver",
+      "title": "Death & Co Denver",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-yuan-wonton-denver",
+      "title": "Yuan Wonton",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-safta-denver",
+      "title": "Safta",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-smok-denver",
+      "title": "Smok",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-mister-oso-denver",
+      "title": "Mister Oso",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-annette-aurora",
+      "title": "Annette",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-mercantile-denver",
+      "title": "Mercantile Dining & Provision",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-barolo-grill-denver",
+      "title": "Barolo Grill",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-north-pond-chicago-2021",
+      "title": "North Pond",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-book-of-mormon-kansas-city-2016",
+      "title": "The Book of Mormon",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-second-city-chicago-2017",
+      "title": "The Second City — Chicago holiday outing",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-six-denver-2023",
+      "title": "SIX",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-denver-holiday-theater-2024",
+      "title": "Denver holiday theater outing",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-red-hot-chili-peppers",
+      "title": "Red Hot Chili Peppers",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-the-killers",
+      "title": "The Killers",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-lollapalooza-all-three-days",
+      "title": "Lollapalooza — all three days",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-saturday-night-live-sigourney-weaver-the-ting-tings",
+      "title": "Saturday Night Live — Sigourney Weaver / The Ting Tings",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-murray-state-choruses-at-carnegie-hall",
+      "title": "Murray State choruses at Carnegie Hall",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-blue-man-group-new-york",
+      "title": "Blue Man Group — New York",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-penn-teller-las-vegas",
+      "title": "Penn & Teller — Las Vegas",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-hozier",
+      "title": "Hozier",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-ellie-goulding",
+      "title": "Ellie Goulding",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "opera-wagner-s-ring-cycle-lyric-opera-of-chicago",
+      "title": "Wagner's Ring Cycle — Lyric Opera of Chicago",
+      "category": "opera",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-billy-joel-kansas-city",
+      "title": "Billy Joel — Kansas City",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "theater-cats-baltimore",
+      "title": "Cats — Baltimore",
+      "category": "theater",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-super-bowl-liv-halftime-shakira-jennifer-lopez",
+      "title": "Super Bowl LIV halftime — Shakira / Jennifer Lopez",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-jason-isbell-and-the-400-unit",
+      "title": "Jason Isbell and the 400 Unit",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-trampled-by-turtles",
+      "title": "Trampled by Turtles",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-said-the-sky",
+      "title": "Said the Sky",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-lauv",
+      "title": "Lauv",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-billy-strings",
+      "title": "Billy Strings",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-mt-joy",
+      "title": "Mt. Joy",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-outside-festival-day-two",
+      "title": "Outside Festival — day two",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-the-chainsmokers",
+      "title": "The Chainsmokers",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-diplo-s-run-club-denver",
+      "title": "Diplo's Run Club — Denver",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-tedeschi-trucks-band",
+      "title": "Tedeschi Trucks Band",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-muse",
+      "title": "Muse",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "concert-santana",
+      "title": "Santana",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    }
+  ]
+}
