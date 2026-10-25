@@ -97,3 +97,11 @@ The visitor build is a conservative public-facing proposal, **not a decision to 
 Four previously confirmed venue memories now include separately sourced long-form background (not new first-person claims): **Sauvage** (2020 opening and January 2021 tasting-menu memory), **Gunther & Co.** (historic brewery and Valentine's Day 2020), **The Majestic** (1911 saloon, Prohibition-era jazz room, and current steakhouse), and **Manifesto** (Ryan Maybee's 2009 speakeasy and cocktail-scene legacy). Each story clearly separates the user's firsthand recollection from researched restaurant and chef history, with source links and a compact chronology. **North Pond** already had a rich history and is now displayed by the updated experience-page renderer.
 
 The site's approximate-visit-period rule is unchanged. No meal companions, dishes ordered or exact unknown nights were invented. Restaurant honors were not reclassified; the separate Michelin/James Beard eligibility audit remains on hold.
+
+## Private rendered-browser QA (October 2026)
+
+Continuous integration now runs a **real Chromium browser** against the locally hosted `dist/` visitor preview at iPhone-sized (390px) and desktop (1440px) viewports. It checks Home, Explore, Timeline, Map and a fully rendered experience page, verifies search, map filters, venue lookup links, keyboard skip navigation, known historical story content, and horizontal overflow. Ten full-page screenshots are uploaded as **private GitHub Actions artifacts**, retained for seven days.
+
+The browser tests never publish the site, change GitHub visibility, or move research records into the public export. They provide executable layout/interaction evidence, not a substitute for manual review on a real iPhone or an approved release. Source/frontend code remains private.
+
+Record pages offer a *venue-name lookup* in Google Maps when a venue name and city are known, rather than treating city-centroid dots as door-level coordinates. Search results can be outdated for closed or relocated venues and must not be presented as verified precise venue GPS.
