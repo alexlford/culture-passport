@@ -96,7 +96,7 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Th
 office_lead = next(lead for lead in interview_data["memoryLeads"] if lead["id"] == "chicago-the-office-aviary-downstairs-unresolved")
 assert office_lead["visitStatus"] == "unreviewed" and office_lead["publishAsExperience"] is False
 assert office_lead["relatedVenue"] == "The Aviary"
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
 for venue_name, expected_status in (("Untitled Supper Club", "confirmed"), ("Cindy's Rooftop", "maybe")):
     lead = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == venue_name)
     assert lead["visitStatus"] == expected_status
@@ -442,4 +442,11 @@ assert not any(r["title"] == "Cindy's Rooftop" for r in records)
 friend_chicago = next(l for l in interview_data["memoryLeads"] if l["id"] == "chicago-friend-untitled-cindys-unknown-years")
 assert friend_chicago["unresolvedVenueNames"] == ["Cindy's Rooftop"]
 assert "only POSSIBLY visited" in friend_chicago["note"]
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
+
+# Direct user exclusion of Lost Lake, with separate future Kumiko interview candidate.
+lost_lake = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")
+assert lost_lake["visitStatus"] == "not_visited"
+assert "did not visit" in lost_lake["reviewSource"]
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "unreviewed"
+assert not any(r["title"] == "Lost Lake" for r in records)
