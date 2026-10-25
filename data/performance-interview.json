@@ -41,13 +41,18 @@
     {
       "id": "lyric-ring-performances",
       "category": "opera",
-      "name": "Which Wagner Ring Cycle performances were attended",
+      "name": "Wagner Ring Cycle — three attended performances",
       "city": "Chicago",
-      "year": null,
-      "confirmation": "series_confirmed_individual_performances_unverified",
+      "year": 2016,
+      "confirmation": "three_individual_operas_confirmed",
       "relatedExperienceId": "opera-wagner-s-ring-cycle-lyric-opera-of-chicago",
-      "userMemory": "Lyric Opera Chicago photos from 2016 and 2018 support a series experience. The individual operas and exact performance nights remain unidentified.",
-      "sourceUrl": "https://www.lyricopera.org/"
+      "userMemory": "Alex confirmed attending Das Rheingold on October 9, 2016 (corrected from October 6), Die Walküre on November 26, 2017, and Siegfried on November 11, 2018. Sister Michelle Ford performed in Das Rheingold's acting ensemble, as listed in the original 2016 program. This is resolved, not an outstanding attendance question.",
+      "sourceUrl": "https://www.lyricopera.org/engage-explore/opera-program-books/Das-Rheingold-Program/",
+      "attendedDates": [
+        "2016-10-09",
+        "2017-11-26",
+        "2018-11-11"
+      ]
     },
     {
       "id": "denver-wicked-2024",
@@ -134,5 +139,5 @@
   ],
   "updated": "2026-10-25",
   "intro": "Research the identity of remembered theater performances without confusing a touring production's dates with personal attendance.",
-  "userNotes": "User has seen SIX in Denver in December 2023, another theater outing around Christmas 2024 possibly A Christmas Carol, at least one unidentified additional Denver show, and The Second City in Chicago Christmas season 2017. The original four outings are already published. Theater leads remain unconfirmed."
+  "userNotes": "User has seen SIX in Denver in December 2023, another theater outing around Christmas 2024 possibly A Christmas Carol, at least one unidentified additional Denver show, and The Second City in Chicago Christmas season 2017. The original four outings are already published. Theater leads remain unconfirmed. As of October 25, 2026, the Ring Cycle opera attendance has been confirmed individually on 2016-10-09, 2017-11-26, and 2018-11-11. Michelle Ford, Alex's sister, is credited in the 2016 Lyric program. The Murray State choral concert at Carnegie Hall on January 18, 2010 was already confirmed and remains in the main records; never re-interview as uncertain."
 }
