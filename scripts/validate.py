@@ -75,7 +75,7 @@ assert north_pond["visitStatus"] == "confirmed" and north_pond["confirmedVisitId
 assert north_pond["userMemoryLead"]["identityConfirmed"] is True
 assert north_pond["screening"]["basis"] == "both"
 assert any(r["title"] == "North Pond" and r["guide"]["stars"] == 1 for r in records)
-assert len([r for r in records if r["type"] == "dining" and r["status"] == "confirmed"]) == 24
+assert len([r for r in records if r["type"] == "dining" and r["status"] == "confirmed"]) == 25
 assert len([r for r in records if r["type"] == "bar" and r["status"] == "confirmed"]) == 2
 breck = [r for r in records if r["venueId"] == "venue-breckenridge-distillery"]
 assert len(breck) == 3
@@ -300,7 +300,7 @@ for name in ("Q39", "Joe's Kansas City Bar-B-Que", "Arthur Bryant's Barbeque", "
     assert not any(r["title"] == name for r in records)
 assert next(q for q in candidates if q["name"] == "Lucina Eatery & Bar")["visitStatus"] == "maybe"
 assert len([r for r in records if r.get("guide", {}).get("distinction") == "starred"]) == 3
-assert len([r for r in records if r["status"] == "confirmed" and r.get("editorial", {}).get("awardQualified")]) == 16
+assert len([r for r in records if r["status"] == "confirmed" and r.get("editorial", {}).get("awardQualified")]) == 17
 
 # Theater memories: preserve uncertainty in titles, not in the fact an outing occurred.
 stage=[r for r in records if r["id"] in {"theater-book-of-mormon-kansas-city-2016", "theater-second-city-chicago-2017", "theater-six-denver-2023", "theater-denver-holiday-theater-2024"}]
