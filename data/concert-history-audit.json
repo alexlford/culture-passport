@@ -4,11 +4,12 @@
   "project": "Culture Passport",
   "scope": "Concert and live-music chronology audit; this is a private evidence ledger, not visitor publication approval",
   "summary": {
-    "totalConfirmedMusicExperiences": 20,
+    "totalConfirmedMusicExperiences": 21,
     "exactCalendarDates": 19,
     "multiDayFestivalWithoutSingleDate": 1,
-    "externalEventMatches": 20,
+    "externalEventMatches": 21,
     "distinctYears": [
+      2006,
       2007,
       2010,
       2015,
@@ -20,7 +21,8 @@
       2025,
       2026
     ],
-    "publiclyPublishedStoriesApproved": false
+    "publiclyPublishedStoriesApproved": false,
+    "attendedConcertsWithoutIndividualCalendarDate": 2
   },
   "distinctions": [
     "Existing user-reported attendance is preserved; third-party setlists and venue listings corroborate the show, not who attended.",
@@ -28,9 +30,34 @@
     "Historical 2007 Red Hot Chili Peppers venue name is Assembly Hall; State Farm Center is the subsequent name.",
     "Some concert records represent combined sporting/running events; cross-linking to sports/adventures should not create duplicated attendances.",
     "No concerts have been inferred from gaps in calendar years. The collection may be incomplete, especially early and middle years.",
-    "Companions, standout songs, and first-person recollections remain to be enriched; do not manufacture them from concert setlists."
+    "Companions, standout songs, and first-person recollections remain to be enriched; do not manufacture them from concert setlists.",
+    "Attendance at Hawthorne Heights during UIUC freshman year is confirmed firsthand. November 10, 2006 Assembly Hall is an independently documented local show but is NOT promoted to the user's exact date or auditorium without corresponding ticket/photo evidence."
   ],
   "entries": [
+    {
+      "experienceId": "concert-hawthorne-heights-freshman-year-illinois",
+      "title": "Hawthorne Heights",
+      "year": 2006,
+      "attendanceStatus": "confirmed_direct_user",
+      "attendanceEvidence": "direct_user_confirmation",
+      "dateLabel": "Freshman year at Illinois, 2006–07",
+      "exactPersonalDateRecorded": false,
+      "historicalEventSource": "https://www.concertarchives.org/bands/hawthorne-heights?date=past&page=96",
+      "externalVerificationMeaning": "This November 10, 2006 lineup is a documented contemporary show; user attendance is confirmed independently by firsthand account, while precise date/venue remain unassigned.",
+      "venue": "Illinois freshman-year concert (exact venue to establish)"
+    },
+    {
+      "experienceId": "concert-lollapalooza-all-three-days",
+      "title": "Lollapalooza — all three days",
+      "year": 2007,
+      "attendanceStatus": "confirmed_in_existing_personal_archive",
+      "attendanceEvidence": "user_recollection",
+      "dateLabel": "August 3–5, 2007",
+      "exactPersonalDateRecorded": false,
+      "historicalEventSource": "https://news.pollstar.com/2007/04/12/lolla-07/",
+      "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
+      "venue": "Grant Park"
+    },
     {
       "experienceId": "concert-red-hot-chili-peppers",
       "title": "Red Hot Chili Peppers",
@@ -54,18 +81,6 @@
       "historicalEventSource": "https://www.setlist.fm/setlist/the-killers/2007/sears-centre-arena-hoffman-estates-il-7bd6a234.html",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
       "venue": "Sears Centre Arena"
-    },
-    {
-      "experienceId": "concert-lollapalooza-all-three-days",
-      "title": "Lollapalooza — all three days",
-      "year": 2007,
-      "attendanceStatus": "confirmed_in_existing_personal_archive",
-      "attendanceEvidence": "user_recollection",
-      "dateLabel": "August 3–5, 2007",
-      "exactPersonalDateRecorded": false,
-      "historicalEventSource": "https://news.pollstar.com/2007/04/12/lolla-07/",
-      "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "Grant Park"
     },
     {
       "experienceId": "concert-murray-state-choruses-at-carnegie-hall",
@@ -140,16 +155,16 @@
       "venue": "Red Rocks Amphitheatre"
     },
     {
-      "experienceId": "concert-trampled-by-turtles",
-      "title": "Trampled by Turtles",
+      "experienceId": "concert-lauv",
+      "title": "Lauv",
       "year": 2022,
       "attendanceStatus": "confirmed_in_existing_personal_archive",
       "attendanceEvidence": "personal_event_archive",
-      "dateLabel": "July 2022",
+      "dateLabel": "September 2022",
       "exactPersonalDateRecorded": true,
-      "historicalEventSource": "https://www.redrocksonline.com/events/trampled-by-turtles-2/",
+      "historicalEventSource": "https://www.concertarchives.org/venues/mission-ballroom?page=3&year=2022",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "Red Rocks Amphitheatre"
+      "venue": "The Mission Ballroom"
     },
     {
       "experienceId": "concert-said-the-sky",
@@ -164,16 +179,16 @@
       "venue": "Red Rocks Amphitheatre"
     },
     {
-      "experienceId": "concert-lauv",
-      "title": "Lauv",
+      "experienceId": "concert-trampled-by-turtles",
+      "title": "Trampled by Turtles",
       "year": 2022,
       "attendanceStatus": "confirmed_in_existing_personal_archive",
       "attendanceEvidence": "personal_event_archive",
-      "dateLabel": "September 2022",
+      "dateLabel": "July 2022",
       "exactPersonalDateRecorded": true,
-      "historicalEventSource": "https://www.concertarchives.org/venues/mission-ballroom?page=3&year=2022",
+      "historicalEventSource": "https://www.redrocksonline.com/events/trampled-by-turtles-2/",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "The Mission Ballroom"
+      "venue": "Red Rocks Amphitheatre"
     },
     {
       "experienceId": "concert-billy-strings",
@@ -212,18 +227,6 @@
       "venue": "Civic Center Park"
     },
     {
-      "experienceId": "concert-the-chainsmokers",
-      "title": "The Chainsmokers",
-      "year": 2026,
-      "attendanceStatus": "confirmed_in_existing_personal_archive",
-      "attendanceEvidence": "personal_event_archive",
-      "dateLabel": "April 2026",
-      "exactPersonalDateRecorded": true,
-      "historicalEventSource": "https://www.setlist.fm/setlist/the-chainsmokers/2026/lucas-oil-stadium-indianapolis-in-5376978d.html",
-      "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "Lucas Oil Stadium"
-    },
-    {
       "experienceId": "concert-diplo-s-run-club-denver",
       "title": "Diplo's Run Club — Denver",
       "year": 2026,
@@ -234,18 +237,6 @@
       "historicalEventSource": "https://diplosrunclub.com/denver",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
       "venue": "Cheesman Park"
-    },
-    {
-      "experienceId": "concert-tedeschi-trucks-band",
-      "title": "Tedeschi Trucks Band",
-      "year": 2026,
-      "attendanceStatus": "confirmed_in_existing_personal_archive",
-      "attendanceEvidence": "personal_event_archive",
-      "dateLabel": "August 2026",
-      "exactPersonalDateRecorded": true,
-      "historicalEventSource": "https://www.artsandvenuesdenver.com/events/detail/tedeschi-trucks-band-1303204",
-      "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "Red Rocks Amphitheatre"
     },
     {
       "experienceId": "concert-muse",
@@ -270,6 +261,30 @@
       "historicalEventSource": "https://www.redrocksonline.com/events/santana-oneness-tour-2026-1471220/",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
       "venue": "Red Rocks Amphitheatre"
+    },
+    {
+      "experienceId": "concert-tedeschi-trucks-band",
+      "title": "Tedeschi Trucks Band",
+      "year": 2026,
+      "attendanceStatus": "confirmed_in_existing_personal_archive",
+      "attendanceEvidence": "personal_event_archive",
+      "dateLabel": "August 2026",
+      "exactPersonalDateRecorded": true,
+      "historicalEventSource": "https://www.artsandvenuesdenver.com/events/detail/tedeschi-trucks-band-1303204",
+      "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
+      "venue": "Red Rocks Amphitheatre"
+    },
+    {
+      "experienceId": "concert-the-chainsmokers",
+      "title": "The Chainsmokers",
+      "year": 2026,
+      "attendanceStatus": "confirmed_in_existing_personal_archive",
+      "attendanceEvidence": "personal_event_archive",
+      "dateLabel": "April 2026",
+      "exactPersonalDateRecorded": true,
+      "historicalEventSource": "https://www.setlist.fm/setlist/the-chainsmokers/2026/lucas-oil-stadium-indianapolis-in-5376978d.html",
+      "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
+      "venue": "Lucas Oil Stadium"
     }
   ]
 }
