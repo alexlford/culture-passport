@@ -18,9 +18,9 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 ## Files
 
 - `index.html`, `explore.html`, `timeline.html`, `map.html`, `record.html` — main experience pages.
-- `interview.html`, `performance-interview.html` — restaurant and performing-arts reconstruction.
+- `interview.html`, `performance-interview.html`, `lollapalooza-interview.html` — restaurant and performing-arts reconstruction; Lollapalooza is a private, browser-local artist-selection interview seeded from confirmed memories.
 - `data/records.json` — canonical experience and venue records (including archived research-only entries).
-- `data/interview.json`, `data/performance-interview.json`, `data/performance-leads.json` — research queues.
+- `data/interview.json`, `data/performance-interview.json`, `data/performance-leads.json`, `data/lollapalooza-2007-interview.json` — research queues; performer selections require explicit confirmation and remain separate from the one festival experience.
 - `data/dining-awards-audit.json`, `data/reservation-evidence.json` — source ledgers, not competing databases.
 - `assets/` — independent stylesheet and JavaScript, with no runtime dependency on the Life Map application.
 
