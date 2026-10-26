@@ -18,7 +18,7 @@ from build_public_preview import visitor_dataset
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "publication-review.json"
 REPORT = ROOT / "test-results" / "publication-review.md"
-KINDS = ("dining", "bar", "concert", "opera", "theater")
+KINDS = ("dining", "bar", "concert", "opera", "theater", "film")
 
 
 def canonical_digest(record, venue):

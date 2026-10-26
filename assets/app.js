@@ -52,7 +52,7 @@
   const dateMonth=(r)=>r.visit?.month||Number(r.visit?.date?.slice(5,7))||0;
   const dateDay=(r)=>Number(r.visit?.date?.slice(8,10))||0;
   const byDate=(a,b)=>yearForSorting(b)-yearForSorting(a)||dateMonth(b)-dateMonth(a)||dateDay(b)-dateDay(a)||a.title.localeCompare(b.title);
-  const titleFor={dining:"Restaurants",bar:"Cocktail Bars",concert:"Concerts",opera:"Opera",theater:"Theater"};
+  const titleFor={dining:"Restaurants",bar:"Cocktail Bars",concert:"Concerts",opera:"Opera",theater:"Theater",film:"Film & Festivals"};
   function empty(parent,title,description,url,label){
     parent.replaceChildren();
     const block=el("div","empty");

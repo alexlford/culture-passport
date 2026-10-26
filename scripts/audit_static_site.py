@@ -165,7 +165,7 @@ def audit_release_approval_gate():
 def audit_responsive_styles():
     styles = (ROOT / "assets/site.css").read_text(encoding="utf-8")
     for selector in (".skip-link:focus", "@media(max-width:720px)", "safe-area-inset-bottom",
-                     "grid-template-columns:repeat(5,minmax(0,1fr))", ".filter-row input"):
+                     "grid-template-columns:repeat(3,minmax(0,1fr))", ".filter-row input"):
         assert selector in styles, "Mobile/accessibility rule missing: " + selector
 
 

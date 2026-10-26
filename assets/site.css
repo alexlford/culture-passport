@@ -156,3 +156,10 @@ main:focus{outline:none}
 
 /* Shared recollections have their own chapter on Home, not verified-visit metrics. */
 .friend-memory-row .feature-year{color:var(--wine)}
+
+/* Six cultural chapters. */
+.chapter-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.chapter-film .chapter-symbol,.chapter-film .chapter-number{color:#8c5669}
+@media(max-width:1100px){.chapter-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){.chapter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:450px){.chapter-grid{grid-template-columns:1fr}}
