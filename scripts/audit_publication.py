@@ -92,7 +92,7 @@ def report(rows, dest):
                 f"- Approximate visit: {rec.get('visit',{}).get('label','Unknown')}",
                 f"- Venue: {venue.get('name','Unknown')} — "
                 f"{', '.join(str(venue.get(k)) for k in ('city','region','country') if venue.get(k))}",
-                f"- Visitor location precision: {venue.get('location',{}).get('precision','not mapped')}",
+                f"- Visitor location precision: {(venue.get('location') or {}).get('precision','not mapped')}",
                 "- Locally preview: \`record.html?id=" + rec["id"] + "\`",
                 "",
             ]
