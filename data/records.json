@@ -27,6 +27,11 @@
       "id": "theater",
       "label": "Theater",
       "description": "Plays, musicals and live stage"
+    },
+    {
+      "id": "film",
+      "label": "Film & Festivals",
+      "description": "Film premieres, festival screenings, and landmark cinema experiences"
     }
   ],
   "methodology": {
@@ -869,6 +874,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "friend-text-the-library-gilt-bar"
+    },
+    {
+      "id": "venue-american-fiction-denver-film-festival-2023",
+      "name": "Ellie Caulkins Opera House",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "1385 Curtis Street, Denver, CO",
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
+      "sourceId": "american-fiction-denver-film-festival-2023",
+      "venueConfidence": "Verified 2023 opening-night screening venue; map location is deliberately city-centroid, not a venue GPS coordinate"
     }
   ],
   "records": [
@@ -4215,6 +4235,53 @@
           }
         ]
       }
+    },
+    {
+      "id": "film-american-fiction-denver-film-festival-2023",
+      "type": "film",
+      "title": "American Fiction — Denver Film Festival opening night",
+      "venueId": "venue-american-fiction-denver-film-festival-2023",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2023,
+        "month": 11,
+        "date": "2023-11-03",
+        "possibleYears": [
+          2023
+        ],
+        "label": "November 3, 2023",
+        "precision": "day",
+        "source": "Alex explicitly confirmed attending the Denver Film Festival screening of American Fiction on November 3, 2023 in conversation on October 25, 2026. Festival's original 2023 schedule independently confirms venue and opening-night date.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "Attended American Fiction at the opening-night presentation of the 46th Denver Film Festival on November 3, 2023, at Ellie Caulkins Opera House. The festival's original program scheduled the screening for 8:00 PM; no personal arrival time, guests, or post-film experience is claimed.",
+      "memory": {
+        "headline": "Opening night at the Denver Film Festival",
+        "teaser": "Seeing American Fiction at the Denver Film Festival's opening-night screening.",
+        "story": "I attended the Denver Film Festival on November 3, 2023, to see American Fiction. It was the 46th festival's opening-night presentation at the Ellie Caulkins Opera House. Writer-director Cord Jefferson's sharp satire, starring Jeffrey Wright, was part of a special festival evening rather than an ordinary trip to the movies. I remember the film and the festival experience; the people I went with and what happened before or afterward can be filled in when those memories return.",
+        "period": "November 3, 2023",
+        "source": "Alex's confirmation of the November 3, 2023 festival attendance, plus Denver Film's original 2023 festival calendar and opening-night coverage."
+      },
+      "screening": {
+        "festival": "46th Denver Film Festival",
+        "program": "Opening Night Red Carpet Presentation",
+        "scheduledTime": "8:00 PM",
+        "location": "Ellie Caulkins Opera House",
+        "filmDirector": "Cord Jefferson",
+        "filmYear": 2023,
+        "attendanceDate": "2023-11-03",
+        "scheduleSourceUrl": "https://www.denverfilm.org/wp-content/uploads/2023/10/DFS-DFF2023-8.25x10.75-Web-Single-Pages-compressed.pdf",
+        "contextSourceUrl": "https://denverite.com/2023/10/04/denver-film-festival-lineup-guests-events/",
+        "exactArrivalTimeKnown": false
+      },
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "User-confirmed opening-night attendance. The screening's event date and venue match the original festival schedule; no inferred personal details."
+      },
+      "sourceUrl": "https://www.denverfilm.org/wp-content/uploads/2023/10/DFS-DFF2023-8.25x10.75-Web-Single-Pages-compressed.pdf"
     }
   ],
   "origin": {
