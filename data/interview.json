@@ -1330,7 +1330,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Baker; modern Chinese American comfort food.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -1345,7 +1345,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-25",
+      "visitSource": "Alex explicitly answered 'Did not visit' in Denver Culture Passport restaurant interview on October 25, 2026.",
+      "visitNote": "Negative answer; preserve Michelin Bib Gourmand recognition only as interview context, exclude from confirmed experiences."
     },
     {
       "id": "enveretro-kizaki",
@@ -5408,10 +5411,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "MAKfam"
+        "Kizaki"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at MAKfam in Denver's Baker neighborhood? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Kizaki, the Japanese omakase restaurant on South Pearl Street in Denver? Visited, Maybe, or Not visited? Share an approximate year and memories if visited."
     },
     "pausedBatches": [
       {
