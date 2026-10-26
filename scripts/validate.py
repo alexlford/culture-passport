@@ -533,6 +533,12 @@ assert gilt["memoryRecordId"] == next(r["id"] for r in recalled if r["title"] ==
 assert next(r for r in recalled if r["title"] == "The Library at Gilt Bar")["editorial"]["awardQualified"] is False
 assert all(any(x["id"] == r["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"]) for r in recalled)
 assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "Chicago")["visitStatus"] == "not_visited"
+# Empty Chicago checklist is an interview pause, not a series of non-attendance answers.
+chapter = interview_data["interviewChapters"]["chicagoCocktailBars"]
+assert chapter["state"] == "paused_by_user_for_now" and chapter["newConfirmedVisits"] == []
+assert len(chapter["unansweredVenues"]) == 6
+assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "unreviewed" for name in chapter["unansweredVenues"])
+
 assert "const inCollection=" in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert 'record["status"] == "recollected"' in (ROOT / "scripts/build_public_preview.py").read_text(encoding="utf-8")
 audit_recalled = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))["recollectedMemoryVenues"]
