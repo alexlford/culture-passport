@@ -3355,7 +3355,7 @@
       "awardFamily": "beard",
       "interviewCue": "Cole neighborhood Denver; a neighborhood bar with natural wines, inventive cocktails and hot dogs.",
       "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -3366,7 +3366,11 @@
         "sourceTier": "secondary_or_primary",
         "verifiedAt": "2026-10-25",
         "note": "Documented James Beard cocktail recognition; user visit has NOT been confirmed."
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-26",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport cocktail-bar interview on October 26, 2026.",
+      "visitNote": "Explicit negative response. Preserve 2026 James Beard cocktail-service recognition as research; do not count as a personal visit.",
+      "reviewedOn": "2026-10-26"
     },
     {
       "id": "candidate-breckenridge-breckenridge-distillery-restaurant",
@@ -5444,10 +5448,10 @@
       "area": "Denver Metro",
       "category": "cocktail_bars",
       "candidateNames": [
-        "Yacht Club"
+        "Williams & Graham"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Yacht Club, the cocktail bar on North Humboldt Street in Denver? Visited, Maybe, or Not visited? Share approximate date or memories if visited."
+      "question": "Have you been to Williams & Graham, the LoHi speakeasy-style cocktail bar entered through a bookstore? Visited, Maybe, or Not visited? Share any approximate year or recollections."
     },
     "pausedBatches": [
       {
