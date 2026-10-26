@@ -2615,7 +2615,7 @@
       "awardFamily": "beard",
       "interviewCue": "Small seasonal globally influenced restaurant in the Union Hill/Longfellow area with intimate tables and inventive small plates.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2633,7 +2633,8 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026 interview: user does not recall having visited this restaurant. This response is tentative."
     },
     {
       "id": "candidate-kansas-city-metro-bluestem",
