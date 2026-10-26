@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE_NAMES = (
     "index.html", "explore.html", "timeline.html", "map.html",
     "record.html", "interview.html", "performance-interview.html",
+    "lollapalooza-interview.html",
 )
 
 
