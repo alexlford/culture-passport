@@ -8,20 +8,20 @@ interview_data = json.loads((ROOT / "data/interview.json").read_text(encoding="u
 records, venues = records_data["records"], records_data["venues"]
 candidates = interview_data["candidates"]
 assert records_data["project"] == "Culture Passport" and records_data["version"] == 1
-assert len(records) == 61 and len(venues) == 59
+assert len(records) == 62 and len(venues) == 60
 assert len({r["id"] for r in records}) == len(records)
 assert len({v["id"] for v in venues}) == len(venues)
 types = {"dining", "bar", "concert", "opera", "theater", "film"}
 assert {c["id"] for c in records_data["categories"]} == types
 venue_ids = {v["id"] for v in venues}
 assert all(r["status"] in {"confirmed", "recollected", "reservation_only"} and r["type"] in types for r in records)
-assert len([r for r in records if r["status"] == "confirmed"]) == 57
+assert len([r for r in records if r["status"] == "confirmed"]) == 58
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Q House", "Wildflower"}
 assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
 assert all(r["venueId"] in venue_ids and r["visit"]["source"] for r in records)
 assert all(r["visit"].get("date") is None or r["visit"]["precision"] == "day" for r in records)
-assert all(v["location"]["precision"] == "city-centroid" for v in venues)
-assert all(-90 <= v["location"]["lat"] <= 90 and -180 <= v["location"]["lng"] <= 180 for v in venues)
+assert all(v["location"] is None or v["location"]["precision"] == "city-centroid" for v in venues)
+assert all(v["location"] is None or (-90 <= v["location"]["lat"] <= 90 and -180 <= v["location"]["lng"] <= 180) for v in venues)
 stars = [r for r in records if r.get("guide") and r["guide"]["distinction"] == "starred"]
 assert len(stars) >= 2 and all(1 <= r["guide"]["stars"] <= 3 for r in stars)
 assert all(r["guide"]["stars"] == 0 for r in records if r.get("guide") and r["guide"]["distinction"] != "starred")
@@ -82,7 +82,7 @@ assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
 assert all(r["visit"]["date"] is None and r["visit"]["precision"] == "approximate_year" for r in breck)
 assert all(r["editorial"]["awardQualified"] is False and r["editorial"]["featuredException"] is False for r in breck)
-assert len({r["venueId"] for r in records}) == 59
+assert len({r["venueId"] for r in records}) == 60
 qbreck = next(c for c in candidates if c["name"] == "Breckenridge Distillery Restaurant")
 assert qbreck["visitStatus"] == "confirmed" and set(qbreck["linkedVisitIds"]) == {r["id"] for r in breck}
 assert qbreck["screening"]["status"] == "memory_only"
@@ -354,14 +354,22 @@ assert '<option value="film">' in (ROOT / "map.html").read_text(encoding="utf-8"
 # Concert chronology provenance: independent event research is not personal attendance proof.
 concerts = [r for r in records if r["type"] == "concert"]
 concert_audit = json.loads((ROOT / "data/concert-history-audit.json").read_text(encoding="utf-8"))
-assert len(concerts) == 20
-assert concert_audit["summary"]["totalConfirmedMusicExperiences"] == 20
+assert len(concerts) == 21
+assert concert_audit["summary"]["totalConfirmedMusicExperiences"] == 21
 assert concert_audit["summary"]["exactCalendarDates"] == 19
 assert concert_audit["summary"]["multiDayFestivalWithoutSingleDate"] == 1
 assert concert_audit["summary"]["externalEventMatches"] == 20
 assert {r["id"] for r in concerts} == {x["experienceId"] for x in concert_audit["entries"]}
-assert all(r["historicalEventVerification"]["status"] == "independently_corresponding_event_found" and r["sourceUrl"].startswith("https://") for r in concerts)
-assert all(r["historicalEventVerification"]["note"].startswith("The source corroborates") for r in concerts)
+assert all(r["historicalEventVerification"]["status"] == "independently_corresponding_event_found" and r["sourceUrl"].startswith("https://") for r in concerts if r["id"] != "concert-hawthorne-heights")
+assert next(r for r in concerts if r["id"] == "concert-hawthorne-heights")["historicalEventVerification"]["status"] == "attendance_confirmed_event_details_unresolved"
+assert all(r["historicalEventVerification"]["note"].startswith("The source corroborates") for r in concerts if r["id"] != "concert-hawthorne-heights")
+hawthorne = next(r for r in concerts if r["id"] == "concert-hawthorne-heights")
+assert hawthorne["status"] == "confirmed" and hawthorne["visit"]["attendanceCertainty"] == "confirmed"
+assert hawthorne["visit"]["date"] is None and hawthorne["visit"]["year"] is None
+assert next(v for v in venues if v["id"] == hawthorne["venueId"])["location"] is None
+assert concert_audit["summary"]["recordsWithoutSingleCalendarDate"] == 2
+assert next(a for a in concert_audit["entries"] if a["experienceId"] == hawthorne["id"])["attendanceStatus"] == "confirmed_direct_user_statement"
+assert any(x["id"] == hawthorne["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 assembly = next(r for r in concerts if r["id"] == "concert-red-hot-chili-peppers")
 assert next(v for v in venues if v["id"] == assembly["venueId"])["historicalName"] == "Assembly Hall"
 lolla = next(r for r in concerts if r["id"] == "concert-lollapalooza-all-three-days")
@@ -369,7 +377,7 @@ assert lolla["visit"]["date"] is None and lolla["visit"]["timeWindow"]["startDat
 
 # Stage chronology preserves distinct performances and existing theater entries.
 stage = [r for r in records if r["type"] in {"concert","opera","theater"}]
-assert len(stage) == 29 and len([r for r in stage if r["title"].startswith("Lollapalooza")]) == 1
+assert len(stage) == 30 and len([r for r in stage if r["title"].startswith("Lollapalooza")]) == 1
 assert any(r["title"] == "The Book of Mormon" and r["visit"]["year"] == 2016 and r["visit"]["date"] is None for r in stage)
 assert any(r["title"] == "SIX" and r["visit"]["year"] == 2023 and r["visit"]["date"] is None for r in stage)
 assert any(r["type"] == "opera" and "Ring" in r["title"] for r in stage)
@@ -445,6 +453,9 @@ assert featured_history["Manifesto"]["visit"]["date"] is None
 cities = {}
 for venue in venues:
     pos = venue["location"]
+    if pos is None:
+        assert venue["id"] == "venue-hawthorne-heights-unidentified" and not venue["city"]
+        continue
     assert pos["precision"] == "city-centroid"
     assert isinstance(pos["lat"], (int, float)) and -90 <= pos["lat"] <= 90
     assert isinstance(pos["lng"], (int, float)) and -180 <= pos["lng"] <= 180
