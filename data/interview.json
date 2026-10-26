@@ -894,7 +894,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Pearl Street Boulder, renowned Italian fine dining and wine; one Michelin star in 2026.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -909,7 +909,11 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of October 26, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Boulder Culture Passport restaurant interview on October 26, 2026.",
+      "visitNote": "Direct negative response: preserve Michelin and James Beard research context, but exclude from confirmed personal visits.",
+      "reviewedOn": "2026-10-26"
     },
     {
       "id": "enveretro-alma-fonda-fina",
@@ -5472,10 +5476,10 @@
       "area": "Boulder",
       "category": "restaurants",
       "candidateNames": [
-        "Frasca Food and Wine"
+        "Basta"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Frasca Food and Wine on Pearl Street in Boulder? Visited, Maybe, or Not visited? If visited, share an approximate year or anything you remember."
+      "question": "Have you eaten at Basta in Boulder? Visited, Maybe, or Not visited? If visited, share approximate year or a memory."
     },
     "pausedBatches": [
       {
