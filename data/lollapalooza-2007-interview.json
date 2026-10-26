@@ -1,0 +1,1402 @@
+{
+  "version": 1,
+  "festival": "Lollapalooza 2007",
+  "festivalExperienceId": "concert-lollapalooza-all-three-days",
+  "location": "Grant Park, Chicago",
+  "timezone": "America/Chicago",
+  "attendance": "confirmed_all_three_days",
+  "methodology": "The historical day and stage lineup is separate from Alex's watched-performer claims. Original schedule pages have disappeared from the current festival site; precise times are attached only to selected sets supported by contemporary reporting. Stage order is not an exact start-time prediction. Recognize that people could move between conflicting stages and watch part of each set.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Lollapalooza_lineups_by_year",
+      "role": "2007 lineup listed by day, stage, and sequence; also notes CSS cancellation"
+    },
+    {
+      "url": "https://www.spinmagazine.com/2007/06/lollapalooza-timetable-revealed/",
+      "role": "Contemporary June 2007 announcement with selective timing"
+    },
+    {
+      "url": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "role": "Contemporary discussion of key overlapping performances"
+    },
+    {
+      "url": "https://enthusiastofall.com/2007/07/page/3/",
+      "role": "Contemporary pre-event personal itinerary with selective timed sets; this is a different attendee, NOT Alex's schedule"
+    }
+  ],
+  "days": [
+    {
+      "date": "2007-08-03",
+      "label": "Friday, August 3",
+      "headline": "Daft Punk / Ben Harper"
+    },
+    {
+      "date": "2007-08-04",
+      "label": "Saturday, August 4",
+      "headline": "Muse / Interpol"
+    },
+    {
+      "date": "2007-08-05",
+      "label": "Sunday, August 5",
+      "headline": "Pearl Jam"
+    }
+  ],
+  "sets": [
+    {
+      "id": "03-at-t-ghostland-observatory",
+      "day": "2007-08-03",
+      "stage": "AT&T",
+      "artist": "Ghostland Observatory",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-at-t-jack-s-mannequin",
+      "day": "2007-08-03",
+      "stage": "AT&T",
+      "artist": "Jack's Mannequin",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 870,
+      "scheduledEndMinutes": 930,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-at-t-moe",
+      "day": "2007-08-03",
+      "stage": "AT&T",
+      "artist": "moe.",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "03-at-t-satellite-party",
+      "day": "2007-08-03",
+      "stage": "AT&T",
+      "artist": "Satellite Party",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-at-t-daft-punk",
+      "day": "2007-08-03",
+      "stage": "AT&T",
+      "artist": "Daft Punk",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1230,
+      "scheduledEndMinutes": 1320,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-bud-light-soulive",
+      "day": "2007-08-03",
+      "stage": "Bud Light",
+      "artist": "Soulive",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-bud-light-the-polyphonic-spree",
+      "day": "2007-08-03",
+      "stage": "Bud Light",
+      "artist": "The Polyphonic Spree",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 870,
+      "scheduledEndMinutes": 930,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-bud-light-m-i-a",
+      "day": "2007-08-03",
+      "stage": "Bud Light",
+      "artist": "M.I.A.",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "03-bud-light-the-black-keys",
+      "day": "2007-08-03",
+      "stage": "Bud Light",
+      "artist": "The Black Keys",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-bud-light-ben-harper-the-innocent-criminals",
+      "day": "2007-08-03",
+      "stage": "Bud Light",
+      "artist": "Ben Harper & the Innocent Criminals",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1230,
+      "scheduledEndMinutes": 1320,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-adidas-elvis-perkins-in-dearland",
+      "day": "2007-08-03",
+      "stage": "adidas",
+      "artist": "Elvis Perkins in Dearland",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-adidas-son-volt",
+      "day": "2007-08-03",
+      "stage": "adidas",
+      "artist": "Son Volt",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 810,
+      "scheduledEndMinutes": 870,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-adidas-sparklehorse",
+      "day": "2007-08-03",
+      "stage": "adidas",
+      "artist": "Sparklehorse",
+      "stageOrder": 3,
+      "kind": "music",
+      "scheduledStartMinutes": 930,
+      "scheduledEndMinutes": 990,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-adidas-g-love-special-sauce",
+      "day": "2007-08-03",
+      "stage": "adidas",
+      "artist": "G. Love & Special Sauce",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-adidas-femi-kuti-the-positive-force",
+      "day": "2007-08-03",
+      "stage": "adidas",
+      "artist": "Femi Kuti & the Positive Force",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "03-myspace-the-fratellis",
+      "day": "2007-08-03",
+      "stage": "MySpace",
+      "artist": "The Fratellis",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-myspace-ted-leo-and-the-pharmacists",
+      "day": "2007-08-03",
+      "stage": "MySpace",
+      "artist": "Ted Leo and the Pharmacists",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 810,
+      "scheduledEndMinutes": 870,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-myspace-slightly-stoopid",
+      "day": "2007-08-03",
+      "stage": "MySpace",
+      "artist": "Slightly Stoopid",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "03-myspace-blonde-redhead",
+      "day": "2007-08-03",
+      "stage": "MySpace",
+      "artist": "Blonde Redhead",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-myspace-lcd-soundsystem",
+      "day": "2007-08-03",
+      "stage": "MySpace",
+      "artist": "LCD Soundsystem",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1170,
+      "scheduledEndMinutes": 1230,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-playstation-carey-ott",
+      "day": "2007-08-03",
+      "stage": "PlayStation",
+      "artist": "Carey Ott",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-playstation-colour-revolt",
+      "day": "2007-08-03",
+      "stage": "PlayStation",
+      "artist": "Colour Revolt",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "03-playstation-charlie-musselwhite",
+      "day": "2007-08-03",
+      "stage": "PlayStation",
+      "artist": "Charlie Musselwhite",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "03-playstation-electric-six",
+      "day": "2007-08-03",
+      "stage": "PlayStation",
+      "artist": "Electric Six",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-playstation-the-rapture",
+      "day": "2007-08-03",
+      "stage": "PlayStation",
+      "artist": "The Rapture",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1020,
+      "scheduledEndMinutes": 1080,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "03-citi-helicopters",
+      "day": "2007-08-03",
+      "stage": "Citi",
+      "artist": "Helicopters",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-citi-illinois",
+      "day": "2007-08-03",
+      "stage": "Citi",
+      "artist": "Illinois",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "03-citi-chin-up-chin-up",
+      "day": "2007-08-03",
+      "stage": "Citi",
+      "artist": "Chin Up Chin Up",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "03-citi-viva-voce",
+      "day": "2007-08-03",
+      "stage": "Citi",
+      "artist": "Viva Voce",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-citi-against-me",
+      "day": "2007-08-03",
+      "stage": "Citi",
+      "artist": "Against Me!",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "03-citi-silversun-pickups",
+      "day": "2007-08-03",
+      "stage": "Citi",
+      "artist": "Silversun Pickups",
+      "stageOrder": 6,
+      "kind": "music"
+    },
+    {
+      "id": "03-bmi-the-switches",
+      "day": "2007-08-03",
+      "stage": "BMI",
+      "artist": "The Switches",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "03-bmi-tom-schraeder",
+      "day": "2007-08-03",
+      "stage": "BMI",
+      "artist": "Tom Schraeder",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "03-bmi-bang-bang-bang",
+      "day": "2007-08-03",
+      "stage": "BMI",
+      "artist": "Bang Bang Bang",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "03-bmi-powerspace",
+      "day": "2007-08-03",
+      "stage": "BMI",
+      "artist": "Powerspace",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "03-bmi-inward-eye",
+      "day": "2007-08-03",
+      "stage": "BMI",
+      "artist": "Inward Eye",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "03-bmi-wax-on-radio",
+      "day": "2007-08-03",
+      "stage": "BMI",
+      "artist": "Wax on Radio",
+      "stageOrder": 6,
+      "kind": "music"
+    },
+    {
+      "id": "03-moto-the-second-city-comedy",
+      "day": "2007-08-03",
+      "stage": "MOTO",
+      "artist": "The Second City (comedy)",
+      "stageOrder": 1,
+      "kind": "performance"
+    },
+    {
+      "id": "03-moto-mission-improvable-comedy",
+      "day": "2007-08-03",
+      "stage": "MOTO",
+      "artist": "Mission IMPROVable (comedy)",
+      "stageOrder": 2,
+      "kind": "performance"
+    },
+    {
+      "id": "03-moto-matt-roan",
+      "day": "2007-08-03",
+      "stage": "MOTO",
+      "artist": "Matt Roan",
+      "stageOrder": 3,
+      "kind": "performance"
+    },
+    {
+      "id": "03-moto-mickey-avalon",
+      "day": "2007-08-03",
+      "stage": "MOTO",
+      "artist": "Mickey Avalon",
+      "stageOrder": 4,
+      "kind": "performance"
+    },
+    {
+      "id": "03-kidz-rock-for-kids-youth-jam-band",
+      "day": "2007-08-03",
+      "stage": "KIDZ",
+      "artist": "Rock for Kids Youth Jam Band",
+      "stageOrder": 1,
+      "kind": "family_stage"
+    },
+    {
+      "id": "03-kidz-the-hipwaders",
+      "day": "2007-08-03",
+      "stage": "KIDZ",
+      "artist": "The Hipwaders",
+      "stageOrder": 2,
+      "kind": "family_stage"
+    },
+    {
+      "id": "03-kidz-the-sippy-cups",
+      "day": "2007-08-03",
+      "stage": "KIDZ",
+      "artist": "The Sippy Cups",
+      "stageOrder": 3,
+      "kind": "family_stage"
+    },
+    {
+      "id": "03-kidz-peter-himmelman",
+      "day": "2007-08-03",
+      "stage": "KIDZ",
+      "artist": "Peter Himmelman",
+      "stageOrder": 4,
+      "kind": "family_stage"
+    },
+    {
+      "id": "03-kidz-paul-green-s-school-of-rock-all-stars",
+      "day": "2007-08-03",
+      "stage": "KIDZ",
+      "artist": "Paul Green's School of Rock All-Stars",
+      "stageOrder": 5,
+      "kind": "family_stage"
+    },
+    {
+      "id": "04-at-t-tokyo-police-club",
+      "day": "2007-08-04",
+      "stage": "AT&T",
+      "artist": "Tokyo Police Club",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-at-t-silverchair",
+      "day": "2007-08-04",
+      "stage": "AT&T",
+      "artist": "Silverchair",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 870,
+      "scheduledEndMinutes": 930,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-at-t-clap-your-hands-say-yeah",
+      "day": "2007-08-04",
+      "stage": "AT&T",
+      "artist": "Clap Your Hands Say Yeah",
+      "stageOrder": 3,
+      "kind": "music",
+      "scheduledStartMinutes": 990,
+      "scheduledEndMinutes": 1050,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-at-t-yeah-yeah-yeahs",
+      "day": "2007-08-04",
+      "stage": "AT&T",
+      "artist": "Yeah Yeah Yeahs",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1110,
+      "scheduledEndMinutes": 1170,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-at-t-muse",
+      "day": "2007-08-04",
+      "stage": "AT&T",
+      "artist": "Muse",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1230,
+      "scheduledEndMinutes": 1320,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-bud-light-i-m-from-barcelona",
+      "day": "2007-08-04",
+      "stage": "Bud Light",
+      "artist": "I'm from Barcelona",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-bud-light-stephen-marley",
+      "day": "2007-08-04",
+      "stage": "Bud Light",
+      "artist": "Stephen Marley",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "04-bud-light-the-roots",
+      "day": "2007-08-04",
+      "stage": "Bud Light",
+      "artist": "The Roots",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "04-bud-light-snow-patrol",
+      "day": "2007-08-04",
+      "stage": "Bud Light",
+      "artist": "Snow Patrol",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1110,
+      "scheduledEndMinutes": 1170,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-bud-light-interpol",
+      "day": "2007-08-04",
+      "stage": "Bud Light",
+      "artist": "Interpol",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1230,
+      "scheduledEndMinutes": 1320,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-adidas-matt-and-kim",
+      "day": "2007-08-04",
+      "stage": "adidas",
+      "artist": "Matt and Kim",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-adidas-pete-yorn",
+      "day": "2007-08-04",
+      "stage": "adidas",
+      "artist": "Pete Yorn",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 810,
+      "scheduledEndMinutes": 870,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-adidas-sound-tribe-sector-9",
+      "day": "2007-08-04",
+      "stage": "adidas",
+      "artist": "Sound Tribe Sector 9",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "04-adidas-regina-spektor",
+      "day": "2007-08-04",
+      "stage": "adidas",
+      "artist": "Regina Spektor",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1050,
+      "scheduledEndMinutes": 1110,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-adidas-patti-smith",
+      "day": "2007-08-04",
+      "stage": "adidas",
+      "artist": "Patti Smith",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "04-myspace-shock-stars",
+      "day": "2007-08-04",
+      "stage": "MySpace",
+      "artist": "Shock Stars",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-myspace-sherwood",
+      "day": "2007-08-04",
+      "stage": "MySpace",
+      "artist": "Sherwood",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "04-myspace-tapes-n-tapes",
+      "day": "2007-08-04",
+      "stage": "MySpace",
+      "artist": "Tapes 'n Tapes",
+      "stageOrder": 3,
+      "kind": "music",
+      "scheduledStartMinutes": 810,
+      "scheduledEndMinutes": 870,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-myspace-motion-city-soundtrack",
+      "day": "2007-08-04",
+      "stage": "MySpace",
+      "artist": "Motion City Soundtrack",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 930,
+      "scheduledEndMinutes": 990,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-myspace-the-hold-steady",
+      "day": "2007-08-04",
+      "stage": "MySpace",
+      "artist": "The Hold Steady",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1050,
+      "scheduledEndMinutes": 1110,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-myspace-spoon",
+      "day": "2007-08-04",
+      "stage": "MySpace",
+      "artist": "Spoon",
+      "stageOrder": 6,
+      "kind": "music",
+      "scheduledStartMinutes": 1170,
+      "scheduledEndMinutes": 1230,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-playstation-high-class-elite",
+      "day": "2007-08-04",
+      "stage": "PlayStation",
+      "artist": "High Class Elite",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-playstation-ryan-shaw",
+      "day": "2007-08-04",
+      "stage": "PlayStation",
+      "artist": "Ryan Shaw",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "04-playstation-sam-roberts-band",
+      "day": "2007-08-04",
+      "stage": "PlayStation",
+      "artist": "Sam Roberts Band",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "04-playstation-rhymefest",
+      "day": "2007-08-04",
+      "stage": "PlayStation",
+      "artist": "Rhymefest",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "04-playstation-roky-erickson-the-explosives",
+      "day": "2007-08-04",
+      "stage": "PlayStation",
+      "artist": "Roky Erickson & the Explosives",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "04-citi-arckid",
+      "day": "2007-08-04",
+      "stage": "Citi",
+      "artist": "Arckid",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-citi-the-satin-peaches",
+      "day": "2007-08-04",
+      "stage": "Citi",
+      "artist": "The Satin Peaches",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "04-citi-aqueduct",
+      "day": "2007-08-04",
+      "stage": "Citi",
+      "artist": "Aqueduct",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "04-citi-cold-war-kids",
+      "day": "2007-08-04",
+      "stage": "Citi",
+      "artist": "Cold War Kids",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 930,
+      "scheduledEndMinutes": 990,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "04-citi-matt-and-kim-replacement-citi-set",
+      "day": "2007-08-04",
+      "stage": "Citi",
+      "artist": "Matt and Kim (replacement Citi set)",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "04-bmi-dear-and-the-headlights",
+      "day": "2007-08-04",
+      "stage": "BMI",
+      "artist": "Dear and the Headlights",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "04-bmi-ludo",
+      "day": "2007-08-04",
+      "stage": "BMI",
+      "artist": "Ludo",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "04-bmi-kevin-michael",
+      "day": "2007-08-04",
+      "stage": "BMI",
+      "artist": "Kevin Michael",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "04-bmi-lady-gaga-lady-starlight",
+      "day": "2007-08-04",
+      "stage": "BMI",
+      "artist": "Lady Gaga & Lady Starlight",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "04-bmi-cage-the-elephant",
+      "day": "2007-08-04",
+      "stage": "BMI",
+      "artist": "Cage the Elephant",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "04-bmi-back-door-slam",
+      "day": "2007-08-04",
+      "stage": "BMI",
+      "artist": "Back Door Slam",
+      "stageOrder": 6,
+      "kind": "music"
+    },
+    {
+      "id": "04-moto-the-second-city-comedy",
+      "day": "2007-08-04",
+      "stage": "MOTO",
+      "artist": "The Second City (comedy)",
+      "stageOrder": 1,
+      "kind": "performance"
+    },
+    {
+      "id": "04-moto-mission-improvable-comedy",
+      "day": "2007-08-04",
+      "stage": "MOTO",
+      "artist": "Mission IMPROVable (comedy)",
+      "stageOrder": 2,
+      "kind": "performance"
+    },
+    {
+      "id": "04-moto-josh-hopkins",
+      "day": "2007-08-04",
+      "stage": "MOTO",
+      "artist": "Josh Hopkins",
+      "stageOrder": 3,
+      "kind": "performance"
+    },
+    {
+      "id": "04-moto-dj-klever-and-dj-craze",
+      "day": "2007-08-04",
+      "stage": "MOTO",
+      "artist": "DJ Klever and DJ Craze",
+      "stageOrder": 4,
+      "kind": "performance"
+    },
+    {
+      "id": "04-kidz-the-candy-band",
+      "day": "2007-08-04",
+      "stage": "KIDZ",
+      "artist": "The Candy Band",
+      "stageOrder": 1,
+      "kind": "family_stage"
+    },
+    {
+      "id": "04-kidz-the-blisters",
+      "day": "2007-08-04",
+      "stage": "KIDZ",
+      "artist": "The Blisters",
+      "stageOrder": 2,
+      "kind": "family_stage"
+    },
+    {
+      "id": "04-kidz-the-sippy-cups",
+      "day": "2007-08-04",
+      "stage": "KIDZ",
+      "artist": "The Sippy Cups",
+      "stageOrder": 3,
+      "kind": "family_stage"
+    },
+    {
+      "id": "04-kidz-the-hipwaders",
+      "day": "2007-08-04",
+      "stage": "KIDZ",
+      "artist": "The Hipwaders",
+      "stageOrder": 4,
+      "kind": "family_stage"
+    },
+    {
+      "id": "04-kidz-patti-smith-kidz",
+      "day": "2007-08-04",
+      "stage": "KIDZ",
+      "artist": "Patti Smith (KIDZ)",
+      "stageOrder": 5,
+      "kind": "family_stage"
+    },
+    {
+      "id": "04-kidz-jim-james",
+      "day": "2007-08-04",
+      "stage": "KIDZ",
+      "artist": "Jim James",
+      "stageOrder": 6,
+      "kind": "family_stage"
+    },
+    {
+      "id": "05-at-t-dax-riggs",
+      "day": "2007-08-05",
+      "stage": "AT&T",
+      "artist": "Dax Riggs",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-at-t-lupe-fiasco",
+      "day": "2007-08-05",
+      "stage": "AT&T",
+      "artist": "Lupe Fiasco",
+      "stageOrder": 2,
+      "kind": "music",
+      "scheduledStartMinutes": 855,
+      "scheduledEndMinutes": 915,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-at-t-kings-of-leon",
+      "day": "2007-08-05",
+      "stage": "AT&T",
+      "artist": "Kings of Leon",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-at-t-my-morning-jacket",
+      "day": "2007-08-05",
+      "stage": "AT&T",
+      "artist": "My Morning Jacket",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1095,
+      "scheduledEndMinutes": 1155,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-at-t-pearl-jam",
+      "day": "2007-08-05",
+      "stage": "AT&T",
+      "artist": "Pearl Jam",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1200,
+      "scheduledEndMinutes": 1320,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-bud-light-the-cribs",
+      "day": "2007-08-05",
+      "stage": "Bud Light",
+      "artist": "The Cribs",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-bud-light-amy-winehouse",
+      "day": "2007-08-05",
+      "stage": "Bud Light",
+      "artist": "Amy Winehouse",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "05-bud-light-iggy-the-stooges",
+      "day": "2007-08-05",
+      "stage": "Bud Light",
+      "artist": "Iggy & the Stooges",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-bud-light-modest-mouse",
+      "day": "2007-08-05",
+      "stage": "Bud Light",
+      "artist": "Modest Mouse",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1095,
+      "scheduledEndMinutes": 1155,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-adidas-juliette-and-the-licks",
+      "day": "2007-08-05",
+      "stage": "adidas",
+      "artist": "Juliette and the Licks",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-adidas-rodrigo-y-gabriela",
+      "day": "2007-08-05",
+      "stage": "adidas",
+      "artist": "Rodrigo y Gabriela",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "05-adidas-paolo-nutini",
+      "day": "2007-08-05",
+      "stage": "adidas",
+      "artist": "Paolo Nutini",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-adidas-yo-la-tengo",
+      "day": "2007-08-05",
+      "stage": "adidas",
+      "artist": "Yo La Tengo",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1035,
+      "scheduledEndMinutes": 1095,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-adidas-cafe-tacuba",
+      "day": "2007-08-05",
+      "stage": "adidas",
+      "artist": "Café Tacuba",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "05-myspace-white-rabbits",
+      "day": "2007-08-05",
+      "stage": "MySpace",
+      "artist": "White Rabbits",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-myspace-heartless-bastards",
+      "day": "2007-08-05",
+      "stage": "MySpace",
+      "artist": "Heartless Bastards",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "05-myspace-blue-october",
+      "day": "2007-08-05",
+      "stage": "MySpace",
+      "artist": "Blue October",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-myspace-",
+      "day": "2007-08-05",
+      "stage": "MySpace",
+      "artist": "!!!",
+      "stageOrder": 4,
+      "kind": "music",
+      "scheduledStartMinutes": 1035,
+      "scheduledEndMinutes": 1095,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-myspace-tv-on-the-radio",
+      "day": "2007-08-05",
+      "stage": "MySpace",
+      "artist": "TV on the Radio",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1155,
+      "scheduledEndMinutes": 1200,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-playstation-the-postmarks",
+      "day": "2007-08-05",
+      "stage": "PlayStation",
+      "artist": "The Postmarks",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-playstation-dios-malos",
+      "day": "2007-08-05",
+      "stage": "PlayStation",
+      "artist": "dios (malos)",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "05-playstation-los-campesinos",
+      "day": "2007-08-05",
+      "stage": "PlayStation",
+      "artist": "Los Campesinos!",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-playstation-apostle-of-hustle",
+      "day": "2007-08-05",
+      "stage": "PlayStation",
+      "artist": "Apostle of Hustle",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "05-playstation-the-wailers",
+      "day": "2007-08-05",
+      "stage": "PlayStation",
+      "artist": "The Wailers",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "05-citi-the-1900s",
+      "day": "2007-08-05",
+      "stage": "Citi",
+      "artist": "The 1900s",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-citi-david-vandervelde",
+      "day": "2007-08-05",
+      "stage": "Citi",
+      "artist": "David Vandervelde",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "05-citi-the-black-angels",
+      "day": "2007-08-05",
+      "stage": "Citi",
+      "artist": "The Black Angels",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-citi-annuals",
+      "day": "2007-08-05",
+      "stage": "Citi",
+      "artist": "Annuals",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "05-citi-peter-bjorn-and-john",
+      "day": "2007-08-05",
+      "stage": "Citi",
+      "artist": "Peter Bjorn and John",
+      "stageOrder": 5,
+      "kind": "music",
+      "scheduledStartMinutes": 1020,
+      "scheduledEndMinutes": 1080,
+      "timeEvidence": "contemporary_2007_press_approximate_sched"
+    },
+    {
+      "id": "05-bmi-the-graduate",
+      "day": "2007-08-05",
+      "stage": "BMI",
+      "artist": "The Graduate",
+      "stageOrder": 1,
+      "kind": "music"
+    },
+    {
+      "id": "05-bmi-mr-north",
+      "day": "2007-08-05",
+      "stage": "BMI",
+      "artist": "Mr. North",
+      "stageOrder": 2,
+      "kind": "music"
+    },
+    {
+      "id": "05-bmi-smoosh",
+      "day": "2007-08-05",
+      "stage": "BMI",
+      "artist": "Smoosh",
+      "stageOrder": 3,
+      "kind": "music"
+    },
+    {
+      "id": "05-bmi-the-diffs",
+      "day": "2007-08-05",
+      "stage": "BMI",
+      "artist": "The Diffs",
+      "stageOrder": 4,
+      "kind": "music"
+    },
+    {
+      "id": "05-bmi-john-paul-white",
+      "day": "2007-08-05",
+      "stage": "BMI",
+      "artist": "John Paul White",
+      "stageOrder": 5,
+      "kind": "music"
+    },
+    {
+      "id": "05-bmi-bound-stems",
+      "day": "2007-08-05",
+      "stage": "BMI",
+      "artist": "Bound Stems",
+      "stageOrder": 6,
+      "kind": "music"
+    },
+    {
+      "id": "05-moto-the-second-city-comedy",
+      "day": "2007-08-05",
+      "stage": "MOTO",
+      "artist": "The Second City (comedy)",
+      "stageOrder": 1,
+      "kind": "performance"
+    },
+    {
+      "id": "05-moto-mission-improvable-comedy",
+      "day": "2007-08-05",
+      "stage": "MOTO",
+      "artist": "Mission IMPROVable (comedy)",
+      "stageOrder": 2,
+      "kind": "performance"
+    },
+    {
+      "id": "05-moto-flosstradamus",
+      "day": "2007-08-05",
+      "stage": "MOTO",
+      "artist": "Flosstradamus",
+      "stageOrder": 3,
+      "kind": "performance"
+    },
+    {
+      "id": "05-moto-kid-sister",
+      "day": "2007-08-05",
+      "stage": "MOTO",
+      "artist": "Kid Sister",
+      "stageOrder": 4,
+      "kind": "performance"
+    },
+    {
+      "id": "05-kidz-peter-himmelman",
+      "day": "2007-08-05",
+      "stage": "KIDZ",
+      "artist": "Peter Himmelman",
+      "stageOrder": 1,
+      "kind": "family_stage"
+    },
+    {
+      "id": "05-kidz-q-brothers",
+      "day": "2007-08-05",
+      "stage": "KIDZ",
+      "artist": "Q Brothers",
+      "stageOrder": 2,
+      "kind": "family_stage"
+    },
+    {
+      "id": "05-kidz-wee-hairy-beasties",
+      "day": "2007-08-05",
+      "stage": "KIDZ",
+      "artist": "Wee Hairy Beasties",
+      "stageOrder": 3,
+      "kind": "family_stage"
+    },
+    {
+      "id": "05-kidz-peter-distefano-perry-farrell",
+      "day": "2007-08-05",
+      "stage": "KIDZ",
+      "artist": "Peter DiStefano & Perry Farrell",
+      "stageOrder": 4,
+      "kind": "family_stage"
+    },
+    {
+      "id": "05-kidz-paul-green-s-school-of-rock-all-stars-with-perry-farrell",
+      "day": "2007-08-05",
+      "stage": "KIDZ",
+      "artist": "Paul Green's School of Rock All-Stars with Perry Farrell",
+      "stageOrder": 5,
+      "kind": "family_stage"
+    },
+    {
+      "id": "05-kidz-ben-harper-kidz",
+      "day": "2007-08-05",
+      "stage": "KIDZ",
+      "artist": "Ben Harper (KIDZ)",
+      "stageOrder": 6,
+      "kind": "family_stage"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "decision-01",
+      "day": "2007-08-03",
+      "label": "Fri 1:30 PM",
+      "setIds": [
+        "03-myspace-ted-leo-and-the-pharmacists",
+        "03-adidas-son-volt"
+      ],
+      "note": "Contemporaneous coverage flagged this as a concurrent choice.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-02",
+      "day": "2007-08-03",
+      "label": "Fri 2:30 PM",
+      "setIds": [
+        "03-at-t-jack-s-mannequin",
+        "03-bud-light-the-polyphonic-spree"
+      ],
+      "note": "Same scheduled hour, different stages.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-03",
+      "day": "2007-08-03",
+      "label": "Fri 8:30 PM",
+      "setIds": [
+        "03-at-t-daft-punk",
+        "03-bud-light-ben-harper-the-innocent-criminals"
+      ],
+      "note": "Competing headliners.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-04",
+      "day": "2007-08-04",
+      "label": "Sat 1:30 PM",
+      "setIds": [
+        "04-myspace-tapes-n-tapes",
+        "04-adidas-pete-yorn"
+      ],
+      "note": "Concurrent afternoon sets.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-05",
+      "day": "2007-08-04",
+      "label": "Sat 3:30 PM",
+      "setIds": [
+        "04-citi-cold-war-kids",
+        "04-myspace-motion-city-soundtrack"
+      ],
+      "note": "Different stages, overlapping sets.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-06",
+      "day": "2007-08-04",
+      "label": "Sat 5:30 PM",
+      "setIds": [
+        "04-myspace-the-hold-steady",
+        "04-adidas-regina-spektor"
+      ],
+      "note": "Competing late afternoon sets.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-07",
+      "day": "2007-08-04",
+      "label": "Sat 6:30 PM",
+      "setIds": [
+        "04-at-t-yeah-yeah-yeahs",
+        "04-bud-light-snow-patrol"
+      ],
+      "note": "Two big sets running simultaneously.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-08",
+      "day": "2007-08-04",
+      "label": "Sat 8:30 PM",
+      "setIds": [
+        "04-at-t-muse",
+        "04-bud-light-interpol"
+      ],
+      "note": "Competing headliners.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-09",
+      "day": "2007-08-05",
+      "label": "Sun around 2:15 PM",
+      "setIds": [
+        "05-at-t-lupe-fiasco",
+        "05-bud-light-amy-winehouse",
+        "05-playstation-los-campesinos",
+        "05-citi-the-black-angels"
+      ],
+      "note": "Four alternative choices in the early afternoon. Individual starts may vary.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-10",
+      "day": "2007-08-05",
+      "label": "Sun around 5:15 PM",
+      "setIds": [
+        "05-adidas-yo-la-tengo",
+        "05-myspace-",
+        "05-citi-peter-bjorn-and-john"
+      ],
+      "note": "Overlapping late afternoon performances; partial coverage possible.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-11",
+      "day": "2007-08-05",
+      "label": "Sun 6:15 PM",
+      "setIds": [
+        "05-at-t-my-morning-jacket",
+        "05-bud-light-modest-mouse"
+      ],
+      "note": "Competing sets on opposite sides of Grant Park.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    },
+    {
+      "id": "decision-12",
+      "day": "2007-08-05",
+      "label": "Sun 8:00 PM",
+      "setIds": [
+        "05-at-t-pearl-jam"
+      ],
+      "note": "Finale set, not an exclusive either/or choice.",
+      "selectionRule": "multiple_allowed_partial_sets_allowed",
+      "evidence": "contemporary_2007_schedules_or_conflict_reports"
+    }
+  ],
+  "historicalChanges": [
+    {
+      "day": "2007-08-04",
+      "artist": "CSS (Cansei de Ser Sexy)",
+      "stage": "Citi",
+      "status": "canceled",
+      "replacement": "Matt and Kim",
+      "note": "Initial program lists CSS; later accounts say canceled and replaced. Do not present CSS as a watched 2007 performance without independent evidence."
+    }
+  ],
+  "interviewState": "unanswered",
+  "answers": {},
+  "watchedArtistCount": 0,
+  "editorialRule": "Only explicit positive interview answers establish artist-level attendance. An unanswered set, headline, stage placement or public setlist is not proof the user watched it."
+}
