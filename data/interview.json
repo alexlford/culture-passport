@@ -5179,6 +5179,35 @@
         "verifiedAt": "2026-10-25",
         "note": "Gilt Bar Michelin Bib Gourmand host venue, Library is a distinct room within it, award not separately ascribed."
       }
+    },
+    {
+      "id": "candidate-boulder-the-kitchen-american-bistro",
+      "area": "Boulder",
+      "name": "The Kitchen American Bistro",
+      "recognition": "No confirmed direct Michelin or James Beard award at the Boulder location; not to be confused with Sacramento's similarly named restaurant.",
+      "recognitionYear": null,
+      "awardFamily": "none_verified",
+      "interviewCue": "West Pearl Street; original farm-to-table community bistro; exposed brick and upstairs lounge.",
+      "sourceUrl": "https://www.thekitchen.com/location/the-kitchen-bistros-boulder/",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-the-kitchen-american-bistro-boulder",
+      "visitPeriod": "Date unspecified, Boulder years",
+      "visitSource": "Alex volunteered The Kitchen American Bistro in Boulder during his 2026-10-25 Culture Passport restaurant interview.",
+      "screening": {
+        "status": "memory_only",
+        "basis": "user_recollection",
+        "evidenceUrl": "https://www.thekitchen.com/location/the-kitchen-bistros-boulder/",
+        "sourceTier": "official_venue",
+        "verifiedAt": "2026-10-25",
+        "note": "Venue location verified; recognition not established."
+      },
+      "eligibility": {
+        "status": "not_award_qualified",
+        "basis": "none_verified",
+        "reason": "Keep as archived personal dining memory, not as an award-qualified restaurant.",
+        "screenedOn": "2026-10-25",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
