@@ -101,11 +101,19 @@ for venue_name, expected_status in (("Untitled Supper Club", "confirmed"), ("Cin
     lead = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == venue_name)
     assert lead["visitStatus"] == expected_status
     assert lead["screening"]["status"] == "award_qualified"
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "not_visited"
 assert any(lead["id"] == "chicago-friend-untitled-cindys-unknown-years"
            and lead["publishAsExperience"] is False
            for lead in interview_data["memoryLeads"])
 assert not any(r["title"] == "Cherry Circle Room" for r in records)
+# Direct response "None of those yet" applies to exactly six previously named Chicago bar candidates.
+chicago_six = {"Kumiko", "Best Intentions", "Bisous", "Hopleaf Bar", "Truce", "Cherry Circle Room"}
+assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "not_visited" for name in chicago_six)
+assert interview_data["interviewProgress"]["pausedBatches"][0]["status"] == "closed_for_now_at_user_request"
+assert set(interview_data["interviewProgress"]["pausedBatches"][0]["explicitlyNotVisitedAsOfDate"]) == chicago_six
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Kansas City Metro"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
 
 assert not any(r["title"] in {"The Aviary", "The Office", "The Violet Hour"} for r in records)
 dominics = next(c for c in candidates if c["name"] == "Dominic's on the Hill")
@@ -138,7 +146,7 @@ assert pdt["recognitionYear"] == 2012 and pdt["screening"]["status"] == "award_q
 assert pdt["sourceUrl"].startswith("https://archive.jamesbeard.org")
 assert not any(r["title"] == "PDT (Please Don't Tell)" for r in records)
 for name, area in [("Clover Club", "New York City"), ("Columbia Room", "Washington, DC"),
-                   ("Best Intentions", "Chicago"), ("Hopleaf Bar", "Chicago"),
+                   
                    ("Fern Bar", "Kansas City Metro"), ("Wild Child", "Kansas City Metro"),
                    ("Traveling Mercies", "Denver Metro")]:
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == area)
@@ -503,7 +511,7 @@ assert untitled["editorial"]["awardQualified"] is True
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["confirmedVisitId"] == untitled["id"]
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "not_visited"
 assert any(x["id"] == untitled["id"] and x["status"] == "pending"
            for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 
@@ -548,5 +556,5 @@ assert {x["experienceId"] for x in audit_recalled} == {r["id"] for r in recalled
 lost_lake = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")
 assert lost_lake["visitStatus"] == "not_visited"
 assert "did not visit" in lost_lake["reviewSource"]
-assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "not_visited"
 assert not any(r["title"] == "Lost Lake" for r in records)
