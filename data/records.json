@@ -3415,7 +3415,7 @@
         "period": "February 2020",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.nfl.com/news/jennifer-lopez-shakira-to-perform-at-pepsi-sb-halftime-show-0ap3000001059129",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
@@ -3423,9 +3423,9 @@
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
       },
       "historicalEventVerification": {
-        "status": "attendance_archive_only_external_event_source_to_add",
+        "status": "independently_corresponding_event_found",
         "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
-        "sourceUrl": null,
+        "sourceUrl": "https://www.nfl.com/news/jennifer-lopez-shakira-to-perform-at-pepsi-sb-halftime-show-0ap3000001059129",
         "verifiedOn": "2026-10-25"
       }
     },
