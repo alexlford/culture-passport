@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -1388,7 +1388,7 @@
       "awardFamily": "michelin",
       "interviewCue": "South Pearl Street; contemporary tasting menu.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -1403,7 +1403,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of October 26, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in his Culture Passport Denver restaurant interview on October 26, 2026.",
+      "visitNote": "Direct negative answer; retain award/restaurant research context but do not count this as a personal visit."
     },
     {
       "id": "candidate-baltimore-rec-pier-chop-house",
@@ -5414,10 +5417,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Margot"
+        "A5 Steakhouse"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Margot on South Pearl Street in Denver? Visited, Maybe, or Not visited? If visited, please share an approximate year or a memory."
+      "question": "Have you eaten at A5 Steakhouse in Denver's LoDo neighborhood? Visited, Maybe, or Not visited? If visited, share approximate year or memories."
     },
     "pausedBatches": [
       {
