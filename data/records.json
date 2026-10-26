@@ -910,7 +910,11 @@
       "country": "USA",
       "address": "1039 Pearl Street, Boulder, CO 80302",
       "neighborhood": "West Pearl Street",
-      "location": null,
+      "location": {
+        "lat": 40.015,
+        "lng": -105.2705,
+        "precision": "city-centroid"
+      },
       "sourceId": "the-kitchen-american-bistro-boulder"
     },
     {
@@ -921,7 +925,11 @@
       "country": "USA",
       "address": "1487 S Pearl St, Denver, CO 80210",
       "neighborhood": "Platt Park / South Pearl Street",
-      "location": null,
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
       "sourceId": "sushi-den-denver"
     },
     {
@@ -932,7 +940,11 @@
       "country": "USA",
       "address": "2500 Lawrence St, Denver, CO 80205",
       "neighborhood": "RiNo",
-      "location": null,
+      "location": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "precision": "city-centroid"
+      },
       "sourceId": "uchi-denver"
     }
   ],
