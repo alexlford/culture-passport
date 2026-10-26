@@ -8,14 +8,14 @@ interview_data = json.loads((ROOT / "data/interview.json").read_text(encoding="u
 records, venues = records_data["records"], records_data["venues"]
 candidates = interview_data["candidates"]
 assert records_data["project"] == "Culture Passport" and records_data["version"] == 1
-assert len(records) == 60 and len(venues) == 58
+assert len(records) == 61 and len(venues) == 59
 assert len({r["id"] for r in records}) == len(records)
 assert len({v["id"] for v in venues}) == len(venues)
-types = {"dining", "bar", "concert", "opera", "theater"}
+types = {"dining", "bar", "concert", "opera", "theater", "film"}
 assert {c["id"] for c in records_data["categories"]} == types
 venue_ids = {v["id"] for v in venues}
 assert all(r["status"] in {"confirmed", "recollected", "reservation_only"} and r["type"] in types for r in records)
-assert len([r for r in records if r["status"] == "confirmed"]) == 56
+assert len([r for r in records if r["status"] == "confirmed"]) == 57
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Q House", "Wildflower"}
 assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
 assert all(r["venueId"] in venue_ids and r["visit"]["source"] for r in records)
@@ -82,7 +82,7 @@ assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
 assert all(r["visit"]["date"] is None and r["visit"]["precision"] == "approximate_year" for r in breck)
 assert all(r["editorial"]["awardQualified"] is False and r["editorial"]["featuredException"] is False for r in breck)
-assert len({r["venueId"] for r in records}) == 58
+assert len({r["venueId"] for r in records}) == 59
 qbreck = next(c for c in candidates if c["name"] == "Breckenridge Distillery Restaurant")
 assert qbreck["visitStatus"] == "confirmed" and set(qbreck["linkedVisitIds"]) == {r["id"] for r in breck}
 assert qbreck["screening"]["status"] == "memory_only"
@@ -332,6 +332,21 @@ carnegie_record=next(r for r in records if r["id"] == "concert-murray-state-chor
 assert carnegie_record["status"] == "confirmed" and carnegie_record["visit"]["date"] == "2010-01-18"
 assert "Michelle" in carnegie_record["memory"]["story"]
 assert next(x for x in stage_research["candidates"] if x["id"] == "lyric-ring-performances")["confirmation"] == "three_individual_operas_confirmed"
+
+# Film festival attendance and interview-hold integrity.
+film=next(r for r in records if r["id"] == "film-american-fiction-denver-film-festival-2023")
+assert film["status"] == "confirmed" and film["type"] == "film"
+assert film["visit"]["date"] == "2023-11-03" and film["visit"]["precision"] == "day"
+assert "Ellie Caulkins" in film["screening"]["location"]
+assert film["screening"]["scheduledTime"] == "8:00 PM" and film["screening"]["exactArrivalTimeKnown"] is False
+assert film["screening"]["scheduleSourceUrl"].startswith("https://www.denverfilm.org/")
+assert next(v for v in venues if v["id"] == film["venueId"])["location"]["precision"] == "city-centroid"
+assert next(x for x in stage_research["candidates"] if x["id"] == "denver-unknown-play")["followUpStatus"] == "awaiting_friends_reply"
+assert stage_research["interviewRoute"]["nextQuestionId"] == "second-city-holidazed-chicago-2017"
+assert any(a["id"] == film["id"] and a["category"] == "film" and a["status"] == "pending" for a in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert '<button type="button" data-type="film"' in (ROOT / "explore.html").read_text(encoding="utf-8")
+assert '<option value="film">' in (ROOT / "timeline.html").read_text(encoding="utf-8")
+assert '<option value="film">' in (ROOT / "map.html").read_text(encoding="utf-8")
 
 # Stage chronology preserves distinct performances and existing theater entries.
 stage = [r for r in records if r["type"] in {"concert","opera","theater"}]
