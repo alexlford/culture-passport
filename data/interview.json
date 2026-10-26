@@ -3791,7 +3791,7 @@
       "awardFamily": "beard",
       "interviewCue": "LoHi, Denver, hidden speakeasy behind a bookstore-style entrance; classic prohibition-style cocktails.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -3802,7 +3802,11 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-25",
         "note": "Verified named restaurant or bar's James Beard recognition; does not establish user visit or visit date."
-      }
+      },
+      "visitPeriod": "Possibly visited at original LoHi location; visit date unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Denver Culture Passport cocktail bar interview on October 26, 2026.",
+      "visitNote": "Preserve as unconfirmed personal memory lead. Do not count as confirmed, do not associate the airport location with this uncertain original LoHi visit, and do not publish as attended.",
+      "reviewedOn": "2026-10-26"
     },
     {
       "id": "candidate-st-louis-planter-s-house",
@@ -5448,10 +5452,10 @@
       "area": "Denver Metro",
       "category": "cocktail_bars",
       "candidateNames": [
-        "Williams & Graham"
+        "Traveling Mercies"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you been to Williams & Graham, the LoHi speakeasy-style cocktail bar entered through a bookstore? Visited, Maybe, or Not visited? Share any approximate year or recollections."
+      "question": "Have you visited Traveling Mercies, the oyster and cocktail bar at Stanley Marketplace in Aurora? Visited, Maybe, or Not visited? Share an approximate year or memories if visited."
     },
     "pausedBatches": [
       {
