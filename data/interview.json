@@ -1288,9 +1288,9 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "visitPeriod": "Did not visit as of 2026-10-25",
-      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport restaurant interview on October 25, 2026; repeated the answer to confirm it was saved.",
-      "visitNote": "Do not count as a personal dining experience; preserve Michelin research context."
+      "visitPeriod": "Did not visit as of October 25, 2026",
+      "visitSource": "Alex explicitly confirmed no visit to Temaki Den in his October 25, 2026 Denver restaurant interview.",
+      "visitNote": "Keep separate from Uchi Denver and Sushi Den; no attendance asserted."
     },
     {
       "id": "enveretro-lucina-eatery-bar",
@@ -3879,7 +3879,7 @@
       "interviewCue": "Japanese sushi and omakase at 2500 Lawrence Street, founded by chef Tyson Cole.",
       "sourceUrl": "https://uchi.uchirestaurants.com/our-story/",
       "visitStatus": "confirmed",
-      "visitPeriod": "2022-05-15",
+      "visitPeriod": "Date unspecified; historical reservation on May 15, 2022 does not establish meal date.",
       "reviewedOn": "2026-10-25",
       "reviewSource": "User-provided screenshot of a completed reservation for 2022-05-15; actual seating is not independently verified.",
       "screening": {
@@ -3890,7 +3890,9 @@
         "verifiedAt": "2026-10-25",
         "note": "Founder Tyson Cole won the 2011 James Beard Best Chef: Southwest award for the original Austin Uchi; NOT a venue-level award for the Denver branch."
       },
-      "researchOnly": true
+      "visitSource": "Alex explicitly reconfirmed Uchi Denver among sushi restaurants he has eaten at on October 25, 2026.",
+      "confirmedVisitId": "dining-uchi-denver",
+      "visitNote": "User directly confirms visit. Founder Tyson Cole's James Beard award at the Austin Uchi is not a Denver venue award."
     },
     {
       "id": "candidate-new-york-city-clover-club",
@@ -5214,6 +5216,35 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-denver-sushi-den",
+      "area": "Denver Metro",
+      "name": "Sushi Den",
+      "recognition": "2020 James Beard Foundation Outstanding Restaurant semifinalist (restaurant itself). Not Michelin starred.",
+      "recognitionYear": 2020,
+      "awardFamily": "beard",
+      "interviewCue": "South Pearl Street; founded by brothers Toshi and Yasu Kizaki in 1984, known for fresh seafood sourced from Japan.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-sushi-den-denver",
+      "visitPeriod": "Denver years; date unspecified",
+      "visitSource": "Alex directly said Sushi Den is one of the good sushi restaurants in Denver he has eaten at, October 25, 2026.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-25",
+        "note": "Direct restaurant-level semifinalist honor; not a James Beard win and no Michelin distinction implied."
+      },
+      "eligibility": {
+        "status": "eligible_candidate",
+        "basis": "beard",
+        "reason": "Sushi Den directly named in the 2020 James Beard Outstanding Restaurant semifinalist list.",
+        "screenedOn": "2026-10-25",
+        "verifiedForPublication": true
+      }
     }
   ],
   "source": {
@@ -5380,7 +5411,7 @@
         "MAKfam"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at MAKfam, the modern Chinese American restaurant in Denver's Baker neighborhood? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at MAKfam in Denver's Baker neighborhood? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
