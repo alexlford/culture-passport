@@ -10,9 +10,9 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 27,
-    "distinctPublishedVenues": 25,
-    "recognized": 17,
+    "canonExperienceRecords": 28,
+    "distinctPublishedVenues": 26,
+    "recognized": 18,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 7,
@@ -554,6 +554,28 @@
       ],
       "editorialNote": "User directly confirmed visit, but exact calendar year unknown. Michelin award in 2019/2020 is historical venue recognition and cannot be claimed as award-at-visit.",
       "visitConfidence": "direct_user_confirmed_unknown_year"
+    },
+    {
+      "venueId": "venue-sushi-den-denver",
+      "name": "Sushi Den",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-sushi-den-denver"
+      ],
+      "rememberedPeriods": [
+        "Denver years; exact date unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "https://www.sushiden.net/about/"
+      ],
+      "recognitionSummary": [
+        "2020 James Beard Outstanding Restaurant semifinalist (venue-level)"
+      ],
+      "editorialNote": "User confirmed dining at Sushi Den in 2026 interview; meal year unknown. JBF semifinalist is not an award win or Michelin recognition.",
+      "visitConfidence": "direct_user_confirmation"
     }
   ],
   "confirmedArchiveOnly": [
@@ -588,9 +610,9 @@
     {
       "name": "Uchi Denver",
       "city": "Denver",
-      "period": "2022",
+      "period": "Denver years; 2022 reservation exists but not independently confirmed as meal date",
       "status": "confirmed_memory_award_elsewhere",
-      "note": "Founder Tyson Cole's James Beard win pertains to Austin Uchi; don't transfer it to Denver."
+      "note": "Alex directly reconfirmed Uchi Denver as a visited sushi restaurant on 2026-10-25; Tyson Cole's 2011 award belongs to original Austin Uchi, not Denver. Confirmed archive-only experience."
     },
     {
       "name": "Dominic's on the Hill",
