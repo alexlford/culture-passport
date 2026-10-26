@@ -477,7 +477,7 @@
     },
     {
       "id": "venue-red-hot-chili-peppers",
-      "name": "State Farm Center",
+      "name": "Assembly Hall (now State Farm Center)",
       "city": "Champaign",
       "region": "Illinois",
       "country": "USA",
@@ -486,7 +486,9 @@
         "lng": -88.2434,
         "precision": "city-centroid"
       },
-      "sourceId": "red-hot-chili-peppers"
+      "sourceId": "red-hot-chili-peppers",
+      "historicalName": "Assembly Hall",
+      "currentName": "State Farm Center"
     },
     {
       "id": "venue-the-killers",
@@ -2884,20 +2886,26 @@
         "source": "User's personal event archive screenshot",
         "evidenceType": "personal_event_archive"
       },
-      "summary": "A Chili Peppers show in Champaign, one of your earliest archived concerts.",
+      "summary": "Red Hot Chili Peppers performed at Assembly Hall in Champaign on March 3, 2007, supported by Gnarls Barkley. The arena was renamed State Farm Center years later.",
       "memory": {
         "headline": "Red Hot Chili Peppers",
         "teaser": "A Chili Peppers show in Champaign, one of your earliest archived concerts.",
-        "story": "An early Illinois concert from 2007, before that summer's extraordinary Lollapalooza weekend.",
+        "story": "I saw Red Hot Chili Peppers in Champaign on March 3, 2007, at the university's Assembly Hall (now State Farm Center). Gnarls Barkley opened; the show was part of the Stadium Arcadium tour and a significant early concert memory.",
         "period": "March 2007",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.rhcplivearchive.com/show/mar-3-2007-champaign-il-773",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.rhcplivearchive.com/show/mar-3-2007-champaign-il-773",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -2926,12 +2934,18 @@
         "period": "May 2007",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.setlist.fm/setlist/the-killers/2007/sears-centre-arena-hoffman-estates-il-7bd6a234.html",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.setlist.fm/setlist/the-killers/2007/sears-centre-arena-hoffman-estates-il-7bd6a234.html",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -2947,17 +2961,23 @@
         "possibleYears": [
           2007
         ],
-        "label": "August 2007",
-        "precision": "approximate",
+        "label": "August 3–5, 2007",
+        "precision": "event_date_range",
         "source": "Direct user recollection + personal event archive and published season history",
-        "evidenceType": "user_recollection"
+        "evidenceType": "user_recollection",
+        "month": 8,
+        "timeWindow": {
+          "startDate": "2007-08-03",
+          "endDate": "2007-08-05",
+          "note": "Confirmed three-day festival attendance; no individual stage times inferred"
+        }
       },
-      "summary": "Three full days in Grant Park at Lollapalooza 2007.",
+      "summary": "Confirmed attendance all three days at Lollapalooza 2007 (August 3–5) in Grant Park. The lineup included Daft Punk and Pearl Jam; individual sets attended are not yet identified.",
       "memory": {
         "headline": "Lollapalooza — all three days",
         "teaser": "Three full days in Grant Park at Lollapalooza 2007.",
         "story": "You attended the entire 2007 Lollapalooza weekend. Daft Punk and Pearl Jam were among its headliners, and the event archive captures their sets. Treat the weekend as one festival memory, without inventing attendance at every stage.",
-        "period": "August 2007",
+        "period": "August 3–5, 2007",
         "source": "Direct user recollection matched to the published production window; exact performance date unknown."
       },
       "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
@@ -2966,6 +2986,12 @@
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3034,6 +3060,12 @@
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://doczz.net/doc/739390/inside-this-issue---murray-state-university",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3130,12 +3162,18 @@
         "period": "February 2015",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.thepitchkc.com/hoziers-voice-filled-liberty-hall-to-the-rafters-last-night/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.thepitchkc.com/hoziers-voice-filled-liberty-hall-to-the-rafters-last-night/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3164,12 +3202,18 @@
         "period": "May 2016",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://cdn.concertarchives.org/venues/azura-amphitheater?year=2016",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://cdn.concertarchives.org/venues/azura-amphitheater?year=2016",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3297,12 +3341,18 @@
         "period": "September 2018",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.billyjoel.com/news/billy-joel-concert-kauffman-stadium-fri-sept-21/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.billyjoel.com/news/billy-joel-concert-kauffman-stadium-fri-sept-21/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3371,6 +3421,12 @@
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "attendance_archive_only_external_event_source_to_add",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": null,
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3399,12 +3455,18 @@
         "period": "May 2022",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.redrocksonline.com/events/jason-isbell-and-the-400-unit-3/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.redrocksonline.com/events/jason-isbell-and-the-400-unit-3/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3433,12 +3495,18 @@
         "period": "July 2022",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.redrocksonline.com/events/trampled-by-turtles-2/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.redrocksonline.com/events/trampled-by-turtles-2/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3467,12 +3535,18 @@
         "period": "August 2022",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.redrocksonline.com/events/said-the-sky-432550/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.redrocksonline.com/events/said-the-sky-432550/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3501,12 +3575,18 @@
         "period": "September 2022",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.concertarchives.org/venues/mission-ballroom?page=3&year=2022",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.concertarchives.org/venues/mission-ballroom?page=3&year=2022",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3535,12 +3615,18 @@
         "period": "May 2024",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.setlist.fm/setlist/billy-strings/2024/fiddlers-green-amphitheatre-greenwood-village-co-7ba8becc.html",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.setlist.fm/setlist/billy-strings/2024/fiddlers-green-amphitheatre-greenwood-village-co-7ba8becc.html",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3569,12 +3655,18 @@
         "period": "August 2024",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.dillonamp.com/the-venue/about-the-dillon-amphitheater",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.dillonamp.com/the-venue/about-the-dillon-amphitheater",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3603,12 +3695,18 @@
         "period": "June 2025",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://visitdenver.com/articles/post/headliners-khruangbin-and-lord-huron-to-perform-at-the-second-annual-outside-festival-presented-by/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://visitdenver.com/articles/post/headliners-khruangbin-and-lord-huron-to-perform-at-the-second-annual-outside-festival-presented-by/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3637,12 +3735,18 @@
         "period": "April 2026",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.setlist.fm/setlist/the-chainsmokers/2026/lucas-oil-stadium-indianapolis-in-5376978d.html",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.setlist.fm/setlist/the-chainsmokers/2026/lucas-oil-stadium-indianapolis-in-5376978d.html",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3677,6 +3781,12 @@
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://diplosrunclub.com/denver",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3705,12 +3815,18 @@
         "period": "August 2026",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.artsandvenuesdenver.com/events/detail/tedeschi-trucks-band-1303204",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.artsandvenuesdenver.com/events/detail/tedeschi-trucks-band-1303204",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3739,12 +3855,18 @@
         "period": "August 2026",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.setlist.fm/setlist/muse/2026/fiddlers-green-amphitheatre-greenwood-village-co-3b495484.html",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.setlist.fm/setlist/muse/2026/fiddlers-green-amphitheatre-greenwood-village-co-3b495484.html",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
@@ -3773,12 +3895,18 @@
         "period": "August 2026",
         "source": "Event date appears in the user's prior concert archive screenshot or historical event record; it does not establish event time."
       },
-      "sourceUrl": null,
+      "sourceUrl": "https://www.redrocksonline.com/events/santana-oneness-tour-2026-1471220/",
       "editorial": {
         "collection": "cultural_performances",
         "awardQualified": false,
         "featuredException": false,
         "note": "User-attested cultural experience; no Michelin/James Beard requirement applies to non-dining records."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.redrocksonline.com/events/santana-oneness-tour-2026-1471220/",
+        "verifiedOn": "2026-10-25"
       }
     },
     {
