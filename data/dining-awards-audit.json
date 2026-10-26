@@ -10,14 +10,14 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 29,
-    "distinctPublishedVenues": 27,
-    "recognized": 19,
+    "canonExperienceRecords": 30,
+    "distinctPublishedVenues": 28,
+    "recognized": 20,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 7,
     "possibleVisitLeads": 3,
-    "reviewedButNotConfirmedReservations": 3
+    "reviewedButNotConfirmedReservations": 2
   },
   "publishedVenues": [
     {
@@ -600,6 +600,30 @@
       "editorialNote": "2019 James Beard Best New Restaurant semifinalist; 2023 Michelin Selected. Directly confirmed restaurant visit on 2026-10-26; actual meal date unknown. 2021-10-21 was a reservation, not a verified meal date.",
       "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown",
       "publicationStatus": "pending_explicit_privacy_review"
+    },
+    {
+      "venueId": "venue-wildflower-denver-2022-03-21",
+      "name": "Wildflower",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-wildflower-denver-2022-03-21"
+      ],
+      "rememberedPeriods": [
+        "Denver years; exact meal date unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
+        "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
+      ],
+      "recognitionSummary": [
+        "Michelin Guide Selected (2026)",
+        "Michelin Young Chef Award 2025: Aiden Tibbetts"
+      ],
+      "editorialNote": "Wildflower visit directly confirmed October 26, 2026; the date of the meal is unknown. March 21, 2022 is a historical reservation for seven, not a verified meal date. Michelin distinctions may postdate the meal.",
+      "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown",
+      "publicationStatus": "pending_explicit_privacy_review"
     }
   ],
   "confirmedArchiveOnly": [
@@ -687,14 +711,6 @@
       "recognition": "Chef Martin Heuser 2013 JBF semifinalist; restaurant wine program semifinalist 2024",
       "status": "completed_reservation_needs_attendance_confirmation",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
-    },
-    {
-      "name": "Wildflower",
-      "period": "2022-03-21 reservation on file",
-      "recognition": "2026 Michelin Selected; subsequent chef recognition",
-      "status": "completed_reservation_needs_attendance_confirmation",
-      "archivedRecordId": "dining-wildflower-denver-2022-03-21",
-      "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower"
     }
   ],
   "interviewCandidateCount": 180,
@@ -703,32 +719,7 @@
     "opera": "Collect production, opera house, approximate year and occasion.",
     "theater": "Collect play, musical or theatrical production, venue, year and companion/occasion only if remembered."
   },
-  "reservationOnlyVenues": [
-    {
-      "venueId": "venue-wildflower-denver-2022-03-21",
-      "name": "Wildflower",
-      "city": "Denver",
-      "region": "Colorado",
-      "experienceIds": [
-        "dining-wildflower-denver-2022-03-21"
-      ],
-      "rememberedPeriods": [
-        "2022-03-21"
-      ],
-      "recognitionStatus": "qualifies",
-      "sourceUrls": [
-        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
-        "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
-      ],
-      "recognitionSummary": [
-        "Michelin Selected (2026)",
-        "James Beard winner 2025: Aiden Tibbetts, Young Chef Award"
-      ],
-      "editorialNote": "Michelin recognition documented after this reservation, not a Michelin star.",
-      "visitConfidence": "reservation_only_not_a_confirmed_dining_experience",
-      "publicationStatus": "research_only"
-    }
-  ],
+  "reservationOnlyVenues": [],
   "recollectedMemoryVenues": [
     {
       "venueId": "venue-cindys-rooftop-chicago",
