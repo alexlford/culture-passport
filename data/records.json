@@ -901,6 +901,17 @@
       "location": null,
       "sourceId": "hawthorne-heights-attendance",
       "venueConfidence": "personal_attendance_confirmed_venue_and_location_not_yet_identified"
+    },
+    {
+      "id": "venue-the-kitchen-american-bistro-boulder",
+      "name": "The Kitchen American Bistro",
+      "city": "Boulder",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "1039 Pearl Street, Boulder, CO 80302",
+      "neighborhood": "West Pearl Street",
+      "location": null,
+      "sourceId": "the-kitchen-american-bistro-boulder"
     }
   ],
   "records": [
@@ -4558,6 +4569,58 @@
         "awardQualified": false,
         "featuredException": false,
         "note": "Direct user confirmation of attendance. Event date and venue may be researched later; preserve confirmation."
+      }
+    },
+    {
+      "id": "dining-the-kitchen-american-bistro-boulder",
+      "type": "dining",
+      "title": "The Kitchen American Bistro",
+      "venueId": "venue-the-kitchen-american-bistro-boulder",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not established",
+        "precision": "unknown",
+        "source": "Alex identified visiting The Kitchen American Bistro in Boulder in the Culture Passport interview on 2026-10-25; no visit year supplied.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A visit to The Kitchen American Bistro on Pearl Street in Boulder. The particular meal, year, and companions have not yet been recalled.",
+      "memory": {
+        "headline": "The Kitchen on Pearl Street",
+        "teaser": "The original farm-to-table Boulder bistro on Pearl Street.",
+        "story": "I visited The Kitchen American Bistro in Boulder. It is the original Pearl Street community bistro, opened in 2004. I can add the details of the meal and the company when I remember them.",
+        "period": "Boulder years; date unspecified",
+        "source": "User-volunteered restaurant name and location; contextual venue history is independently sourced."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "The 2026 Michelin Guide Boulder selection does not include this restaurant. No eligible James Beard recognition for this specific Boulder restaurant has been established. Unrelated to The Kitchen Restaurant in Sacramento."
+      },
+      "sourceUrl": "https://www.thekitchen.com/location/the-kitchen-bistros-boulder/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "User-confirmed personal meal. Venue has no verified qualifying Michelin or James Beard honor and is not automatically included in award-curated totals."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No verified award for this particular Boulder venue. Archived as a confirmed personal experience, not featured in Michelin/Beard collection.",
+        "evidenceUrls": [
+          "https://www.thekitchen.com/location/the-kitchen-bistros-boulder/",
+          "https://guide.michelin.com/us/en/colorado/boulder_1261512/restaurants"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "user_recollection_no_award_claim"
       }
     }
   ],
