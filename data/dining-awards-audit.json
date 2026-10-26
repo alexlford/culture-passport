@@ -15,7 +15,7 @@
     "recognized": 17,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 6,
+    "additionalConfirmedArchiveOnly": 7,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 4
   },
@@ -598,6 +598,13 @@
       "period": "2012",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Italian restaurant on The Hill identified by user and booking evidence; no qualifying distinction established."
+    },
+    {
+      "name": "The Kitchen American Bistro",
+      "city": "Boulder",
+      "period": "Date not established",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Confirmed visit to Boulder restaurant on West Pearl Street. No qualifying Michelin or James Beard recognition verified; unrelated to Sacramento's The Kitchen Restaurant."
     }
   ],
   "possiblyVisited": [
