@@ -891,6 +891,16 @@
       },
       "sourceId": "american-fiction-denver-film-festival-2023",
       "venueConfidence": "Verified 2023 opening-night screening venue; map location is deliberately city-centroid, not a venue GPS coordinate"
+    },
+    {
+      "id": "venue-hawthorne-heights-unidentified",
+      "name": "Venue not yet identified",
+      "city": "",
+      "region": "",
+      "country": "",
+      "location": null,
+      "sourceId": "hawthorne-heights-attendance",
+      "venueConfidence": "personal_attendance_confirmed_venue_and_location_not_yet_identified"
     }
   ],
   "records": [
@@ -4411,6 +4421,45 @@
         "note": "User-confirmed opening-night attendance. The screening's event date and venue match the original festival schedule; no inferred personal details."
       },
       "sourceUrl": "https://www.denverfilm.org/wp-content/uploads/2023/10/DFS-DFF2023-8.25x10.75-Web-Single-Pages-compressed.pdf"
+    },
+    {
+      "id": "concert-hawthorne-heights",
+      "type": "concert",
+      "title": "Hawthorne Heights",
+      "venueId": "venue-hawthorne-heights-unidentified",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not yet established",
+        "precision": "unknown",
+        "source": "Alex recognized Hawthorne Heights as an attended concert in the Culture Passport interview on October 25, 2026 and explicitly directed that his statement of having gone be treated as confirmation; do not mark attendance as probable simply because date or venue are unknown.",
+        "evidenceType": "direct_user_attendance_confirmation",
+        "attendanceCertainty": "confirmed"
+      },
+      "summary": "Confirmed Hawthorne Heights concert attendance. The precise date, city, venue, and supporting event listing remain to be identified; none are prerequisites for counting an attended concert.",
+      "memory": {
+        "headline": "Seeing Hawthorne Heights live",
+        "teaser": "A Hawthorne Heights show remembered from earlier concert-going years.",
+        "story": "I saw Hawthorne Heights live. The band is part of my concert history, even though the original night and venue haven't been established yet. Rather than guessing at a specific tour stop, I want to keep the experience and fill in the details as the evidence comes back.",
+        "period": "Date to be established",
+        "source": "Alex's direct attendance confirmation in the Culture Passport interview."
+      },
+      "sourceUrl": null,
+      "historicalEventVerification": {
+        "status": "attendance_confirmed_event_details_unresolved",
+        "note": "Personal concert attendance is confirmed by Alex. Historical candidate shows do not determine the date or venue without further evidence.",
+        "sourceUrl": null,
+        "verifiedOn": "2026-10-25"
+      },
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "Direct user confirmation of attendance. Event date and venue may be researched later; preserve confirmation."
+      }
     }
   ],
   "origin": {
