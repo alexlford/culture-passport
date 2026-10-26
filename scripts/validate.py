@@ -112,6 +112,12 @@ assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] ==
 assert interview_data["interviewProgress"]["pausedBatches"][0]["status"] == "closed_for_now_at_user_request"
 assert set(interview_data["interviewProgress"]["pausedBatches"][0]["explicitlyNotVisitedAsOfDate"]) == chicago_six
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Kansas City Metro"
+kc_not_recalled = ["Corvino Supper Club & Tasting Room", "The Antler Room", "Bluestem", "Rye (Leawood)", "The Town Company", "Fox & Pearl", "Waldo Thai", "The American Restaurant"]
+kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c["name"] in kc_not_recalled or c["name"] == "Fox and Pearl")]
+assert len(kc_reviewed) == 9
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == "tentative_negative" for c in kc_reviewed)
+assert interview_data["interviewProgress"]["currentBatch"]["status"] == "ready_for_visual_screening"
+
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
 
