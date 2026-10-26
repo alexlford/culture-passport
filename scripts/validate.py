@@ -102,6 +102,13 @@ for venue_name, expected_status in (("Untitled Supper Club", "confirmed"), ("Cin
     assert lead["visitStatus"] == expected_status
     assert lead["screening"]["status"] == "award_qualified"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "unreviewed"
+# The user closed the Chicago bar interview without actually naming a new visited bar.
+chicago_closed = interview_data["interviewProgress"]["pausedBatches"][0]
+assert chicago_closed["area"] == "Chicago" and chicago_closed["status"] == "closed_for_now_at_user_request"
+assert chicago_closed["newlyConfirmedVisitNames"] == []
+assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "unreviewed" for name in chicago_closed["remainingUnanswered"])
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Kansas City Metro"
+
 assert any(lead["id"] == "chicago-friend-untitled-cindys-unknown-years"
            and lead["publishAsExperience"] is False
            for lead in interview_data["memoryLeads"])
