@@ -1,6 +1,6 @@
 # Culture Passport
 
-A standalone cultural experience archive for restaurants, cocktail bars, concerts, opera, and theater.
+A standalone cultural experience archive for restaurants, cocktail bars, concerts, opera, theater, and film festivals.
 
 **Canonical repository:** `alexlford/culture-passport`
 
@@ -139,3 +139,9 @@ The public-facing memories of Beckon, Charleston, Woodberry Kitchen, Sauvage, Ma
 ## Chicago friend-recalled memories, October 2026
 
 Cindy's Rooftop and The Library at Gilt Bar now have memory-first visitor stories with `status: recollected`, intentionally distinct from confirmed user visits. The user asked to include these places for their atmosphere even though a friend, not the user, supplied the identifying texts. Both have unknown dates and explicit friend-recalled UI disclosures. Cindy's has a James Beard **restaurant design nomination** from 2016; The Library is a room within Michelin Bib Gourmand-listed **Gilt Bar**, but receives no separately attributed Michelin award. Both remain **pending** for publication privacy review. Dining award audit counts of confirmed visits remain unchanged, with provisional memories tracked separately. Lost Lake was directly ruled out by the user and remains excluded; Kumiko is next in the interview.
+
+## Film and festival chapter — October 25, 2026
+
+- American Fiction at the 46th Denver Film Festival opening night, Friday, November 3, 2023, is a confirmed attended screening. The official program establishes an 8 p.m. scheduled start at Ellie Caulkins Opera House, not the visitor's arrival time. Original calendar: https://www.denverfilm.org/wp-content/uploads/2023/10/DFS-DFF2023-8.25x10.75-Web-Single-Pages-compressed.pdf
+- Film & Festivals is the sixth experience chapter across Home, Explore, Timeline, Map, and record pages. The prospective visitor story remains `pending` under the explicit privacy/publication gate.
+- The other unidentified Denver stage outing is awaiting a friend's response; move the stage interview to the unidentified 2017 Second City revue in the meantime. No attendance is inferred from matching a candidate show's season.
