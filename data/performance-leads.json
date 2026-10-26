@@ -14,14 +14,14 @@
     },
     {
       "id": "second-city-revue-2017",
-      "name": "The exact Second City revue",
+      "name": "Probable Holidazed & Confused: Mandatory Merriment",
       "venue": "Second City Chicago",
       "year": 2017,
-      "season": "Christmas",
-      "status": "confirmed_visit_unidentified_production",
-      "recollection": "Second City visit confirmed; revue title and performance date unknown.",
-      "sourceUrl": null,
-      "note": "Venue attendance already confirmed as separate public record; specific revue unknown"
+      "season": "Thanksgiving",
+      "status": "confirmed_visit_probable_production",
+      "recollection": "Alex attended Second City near Thanksgiving 2017. Holidazed & Confused: Mandatory Merriment sounds likely to him; exact revue and date remain unconfirmed.",
+      "sourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more",
+      "note": "Preserve tentative identification; do not upgrade to fully confirmed based on schedule overlap."
     },
     {
       "id": "lyric-ring-performances",
@@ -50,9 +50,14 @@
       ]
     }
   ],
-  "nextInterviewFocus": "musicals_and_plays",
+  "nextInterviewFocus": "musicals_and_plays_rapid_batch",
   "interviewOrder": [
-    "second-city-revue-2017",
+    "denver-wicked-2024",
+    "denver-company-2024",
+    "denver-mj-2024",
+    "denver-beetlejuice-2023",
+    "denver-hamlet-2024",
+    "denver-little-shop-of-horrors-2025",
     "another-denver-show"
   ]
 }
