@@ -1272,7 +1272,7 @@
       "awardFamily": "michelin",
       "interviewCue": "RiNo; hand rolls and counter sushi.",
       "sourceUrl": "https://visitdenver.com/articles/post/denver-michelin-guide/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -1287,7 +1287,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-25",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport restaurant interview on 2026-10-25 (repeated for clarity).",
+      "visitNote": "Explicit negative answer. Preserve Michelin Guide Selected research context; exclude from confirmed personal visits."
     },
     {
       "id": "enveretro-lucina-eatery-bar",
@@ -5374,10 +5377,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Temaki Den"
+        "MAKfam"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Temaki Den in RiNo, Denver? Visited, Maybe, or Not visited? If visited, please share the approximate year and what you remember."
+      "question": "Have you eaten at MAKfam in Denver's Baker neighborhood? Visited, Maybe, or Not visited? Share approximate year or memories if visited."
     },
     "pausedBatches": [
       {
