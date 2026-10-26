@@ -425,6 +425,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "film-american-fiction-denver-film-festival-2023",
+      "title": "American Fiction — Denver Film Festival opening night",
+      "category": "film",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
