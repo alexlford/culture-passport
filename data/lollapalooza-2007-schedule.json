@@ -1,0 +1,1541 @@
+{
+  "schemaVersion": 1,
+  "festival": "Lollapalooza 2007",
+  "venue": "Grant Park",
+  "city": "Chicago",
+  "attendance": "confirmed_all_three_days",
+  "sourceNote": "Stage-by-stage running order (without individual set times) reconstructed from historical festival lineup. Confirmed contemporary conflicts explicitly listed below. Never equate performer on lineup to attendance.",
+  "sourceUrls": [
+    "https://en.wikipedia.org/wiki/List_of_Lollapalooza_lineups_by_year",
+    "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+    "https://www.spinmagazine.com/2007/06/lollapalooza-timetable-revealed/",
+    "https://www.concertarchives.org/concerts/lollapalooza-2007--2"
+  ],
+  "importantCorrections": [
+    {
+      "date": "2007-08-04",
+      "text": "CSS was scheduled on Citi Stage but did not perform; Matt and Kim were the replacement. CSS is not an eligible attended set.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Lollapalooza_lineups_by_year"
+    },
+    {
+      "date": "2007-08-05",
+      "text": "Pearl Jam's closing set is an interview candidate, not an individually confirmed set for Alex."
+    }
+  ],
+  "statusLabels": {
+    "full": "Watched full set",
+    "partial": "Saw part of set",
+    "no": "Did not see",
+    "unsure": "Don't remember"
+  },
+  "days": [
+    {
+      "date": "2007-08-03",
+      "label": "Friday, August 3",
+      "stages": [
+        {
+          "name": "AT&T",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-ghostland-observatory-at-and-t",
+              "name": "Ghostland Observatory",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-jack-s-mannequin-at-and-t",
+              "name": "Jack's Mannequin",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-moe-at-and-t",
+              "name": "moe.",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-satellite-party-at-and-t",
+              "name": "Satellite Party",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-daft-punk-at-and-t",
+              "name": "Daft Punk",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Bud Light",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-soulive-bud-light",
+              "name": "Soulive",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-the-polyphonic-spree-bud-light",
+              "name": "The Polyphonic Spree",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-m-i-a-bud-light",
+              "name": "M.I.A.",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-the-black-keys-bud-light",
+              "name": "The Black Keys",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-ben-harper-and-the-innocent-criminals-bud-light",
+              "name": "Ben Harper & the Innocent Criminals",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "adidas",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-elvis-perkins-in-dearland-adidas",
+              "name": "Elvis Perkins in Dearland",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-son-volt-adidas",
+              "name": "Son Volt",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-sparklehorse-adidas",
+              "name": "Sparklehorse",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-g-love-and-special-sauce-adidas",
+              "name": "G. Love & Special Sauce",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-femi-kuti-and-the-positive-force-adidas",
+              "name": "Femi Kuti & the Positive Force",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "MySpace",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-the-fratellis-myspace",
+              "name": "The Fratellis",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-ted-leo-and-the-pharmacists-myspace",
+              "name": "Ted Leo and the Pharmacists",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-slightly-stoopid-myspace",
+              "name": "Slightly Stoopid",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-blonde-redhead-myspace",
+              "name": "Blonde Redhead",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-lcd-soundsystem-myspace",
+              "name": "LCD Soundsystem",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "PlayStation",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-carey-ott-playstation",
+              "name": "Carey Ott",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-colour-revolt-playstation",
+              "name": "Colour Revolt",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-charlie-musselwhite-playstation",
+              "name": "Charlie Musselwhite",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-electric-six-playstation",
+              "name": "Electric Six",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-the-rapture-playstation",
+              "name": "The Rapture",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Citi",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-helicopters-citi",
+              "name": "Helicopters",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-illinois-citi",
+              "name": "Illinois",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-chin-up-chin-up-citi",
+              "name": "Chin Up Chin Up",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-viva-voce-citi",
+              "name": "Viva Voce",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-against-me-citi",
+              "name": "Against Me!",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-silversun-pickups-citi",
+              "name": "Silversun Pickups",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "BMI",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-03-the-switches-bmi",
+              "name": "The Switches",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-tom-schraeder-bmi",
+              "name": "Tom Schraeder",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-bang-bang-bang-bmi",
+              "name": "Bang Bang Bang",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-powerspace-bmi",
+              "name": "Powerspace",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-inward-eye-bmi",
+              "name": "Inward Eye",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-wax-on-radio-bmi",
+              "name": "Wax on Radio",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "MOTO",
+          "kind": "dj_and_comedy_adjacent",
+          "acts": [
+            {
+              "id": "2007-08-03-matt-roan-moto",
+              "name": "Matt Roan",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-mickey-avalon-moto",
+              "name": "Mickey Avalon",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Kidz",
+          "kind": "family_program",
+          "acts": [
+            {
+              "id": "2007-08-03-rock-for-kids-youth-jam-band-kidz",
+              "name": "Rock for Kids Youth Jam Band",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-the-hipwaders-kidz",
+              "name": "The Hipwaders",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-the-sippy-cups-kidz",
+              "name": "The Sippy Cups",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-peter-himmelman-kidz",
+              "name": "Peter Himmelman",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-03-paul-green-s-school-of-rock-all-stars-kidz",
+              "name": "Paul Green's School of Rock All-Stars",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2007-08-04",
+      "label": "Saturday, August 4",
+      "stages": [
+        {
+          "name": "AT&T",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-tokyo-police-club-at-and-t",
+              "name": "Tokyo Police Club",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-silverchair-at-and-t",
+              "name": "Silverchair",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-clap-your-hands-say-yeah-at-and-t",
+              "name": "Clap Your Hands Say Yeah",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-yeah-yeah-yeahs-at-and-t",
+              "name": "Yeah Yeah Yeahs",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-muse-at-and-t",
+              "name": "Muse",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Bud Light",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-i-m-from-barcelona-bud-light",
+              "name": "I'm from Barcelona",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-stephen-marley-bud-light",
+              "name": "Stephen Marley",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-the-roots-bud-light",
+              "name": "The Roots",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-snow-patrol-bud-light",
+              "name": "Snow Patrol",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-interpol-bud-light",
+              "name": "Interpol",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "adidas",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-matt-and-kim-adidas",
+              "name": "Matt and Kim",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-pete-yorn-adidas",
+              "name": "Pete Yorn",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-sound-tribe-sector-9-adidas",
+              "name": "Sound Tribe Sector 9",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-regina-spektor-adidas",
+              "name": "Regina Spektor",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-patti-smith-adidas",
+              "name": "Patti Smith",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "MySpace",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-shock-stars-myspace",
+              "name": "Shock Stars",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-sherwood-myspace",
+              "name": "Sherwood",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-tapes-n-tapes-myspace",
+              "name": "Tapes 'n Tapes",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-motion-city-soundtrack-myspace",
+              "name": "Motion City Soundtrack",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-the-hold-steady-myspace",
+              "name": "The Hold Steady",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-spoon-myspace",
+              "name": "Spoon",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "PlayStation",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-high-class-elite-playstation",
+              "name": "High Class Elite",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-ryan-shaw-playstation",
+              "name": "Ryan Shaw",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-sam-roberts-band-playstation",
+              "name": "Sam Roberts Band",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-rhymefest-playstation",
+              "name": "Rhymefest",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-roky-erickson-and-the-explosives-playstation",
+              "name": "Roky Erickson & the Explosives",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Citi",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-arckid-citi",
+              "name": "Arckid",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-the-satin-peaches-citi",
+              "name": "The Satin Peaches",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-aqueduct-citi",
+              "name": "Aqueduct",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-cold-war-kids-citi",
+              "name": "Cold War Kids",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-matt-and-kim-css-replacement-citi",
+              "name": "Matt and Kim (CSS replacement)",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "BMI",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-04-dear-and-the-headlights-bmi",
+              "name": "Dear and the Headlights",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-ludo-bmi",
+              "name": "Ludo",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-kevin-michael-bmi",
+              "name": "Kevin Michael",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-lady-gaga-and-lady-starlight-bmi",
+              "name": "Lady Gaga & Lady Starlight",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-cage-the-elephant-bmi",
+              "name": "Cage the Elephant",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-back-door-slam-bmi",
+              "name": "Back Door Slam",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "MOTO",
+          "kind": "dj_and_comedy_adjacent",
+          "acts": [
+            {
+              "id": "2007-08-04-josh-hopkins-moto",
+              "name": "Josh Hopkins",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-dj-klever-and-dj-craze-moto",
+              "name": "DJ Klever and DJ Craze",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Kidz",
+          "kind": "family_program",
+          "acts": [
+            {
+              "id": "2007-08-04-the-candy-band-kidz",
+              "name": "The Candy Band",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-the-blisters-kidz",
+              "name": "The Blisters",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-the-sippy-cups-kidz",
+              "name": "The Sippy Cups",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-the-hipwaders-kidz",
+              "name": "The Hipwaders",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-patti-smith-kidz",
+              "name": "Patti Smith",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-04-jim-james-kidz",
+              "name": "Jim James",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2007-08-05",
+      "label": "Sunday, August 5",
+      "stages": [
+        {
+          "name": "AT&T",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-dax-riggs-at-and-t",
+              "name": "Dax Riggs",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-lupe-fiasco-at-and-t",
+              "name": "Lupe Fiasco",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-kings-of-leon-at-and-t",
+              "name": "Kings of Leon",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-my-morning-jacket-at-and-t",
+              "name": "My Morning Jacket",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-pearl-jam-at-and-t",
+              "name": "Pearl Jam",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Bud Light",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-the-cribs-bud-light",
+              "name": "The Cribs",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-amy-winehouse-bud-light",
+              "name": "Amy Winehouse",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-iggy-and-the-stooges-bud-light",
+              "name": "Iggy & the Stooges",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-modest-mouse-bud-light",
+              "name": "Modest Mouse",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "adidas",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-juliette-and-the-licks-adidas",
+              "name": "Juliette and the Licks",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-rodrigo-y-gabriela-adidas",
+              "name": "Rodrigo y Gabriela",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-paolo-nutini-adidas",
+              "name": "Paolo Nutini",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-yo-la-tengo-adidas",
+              "name": "Yo La Tengo",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-caf-tacvba-adidas",
+              "name": "Café Tacvba",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "MySpace",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-white-rabbits-myspace",
+              "name": "White Rabbits",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-heartless-bastards-myspace",
+              "name": "Heartless Bastards",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-blue-october-myspace",
+              "name": "Blue October",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05--myspace",
+              "name": "!!!",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-tv-on-the-radio-myspace",
+              "name": "TV on the Radio",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "PlayStation",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-the-postmarks-playstation",
+              "name": "The Postmarks",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-dios-malos-playstation",
+              "name": "dios (malos)",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-los-campesinos-playstation",
+              "name": "Los Campesinos!",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-apostle-of-hustle-playstation",
+              "name": "Apostle of Hustle",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-the-wailers-playstation",
+              "name": "The Wailers",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Citi",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-the-1900s-citi",
+              "name": "The 1900s",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-david-vandervelde-citi",
+              "name": "David Vandervelde",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-the-black-angels-citi",
+              "name": "The Black Angels",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-annuals-citi",
+              "name": "Annuals",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-peter-bjorn-and-john-citi",
+              "name": "Peter Bjorn and John",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "BMI",
+          "kind": "main_music",
+          "acts": [
+            {
+              "id": "2007-08-05-the-graduate-bmi",
+              "name": "The Graduate",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-mr-north-bmi",
+              "name": "Mr. North",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-smoosh-bmi",
+              "name": "Smoosh",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-the-diffs-bmi",
+              "name": "The Diffs",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-john-paul-white-bmi",
+              "name": "John Paul White",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-bound-stems-bmi",
+              "name": "Bound Stems",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "MOTO",
+          "kind": "dj_and_comedy_adjacent",
+          "acts": [
+            {
+              "id": "2007-08-05-flosstradamus-moto",
+              "name": "Flosstradamus",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-kid-sister-moto",
+              "name": "Kid Sister",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        },
+        {
+          "name": "Kidz",
+          "kind": "family_program",
+          "acts": [
+            {
+              "id": "2007-08-05-peter-himmelman-kidz",
+              "name": "Peter Himmelman",
+              "orderOnStage": 1,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-q-brothers-kidz",
+              "name": "Q Brothers",
+              "orderOnStage": 2,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-wee-hairy-beasties-kidz",
+              "name": "Wee Hairy Beasties",
+              "orderOnStage": 3,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-peter-distefano-and-perry-farrell-kidz",
+              "name": "Peter DiStefano & Perry Farrell",
+              "orderOnStage": 4,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-paul-green-s-school-of-rock-all-stars-with-perry-farrell-kidz",
+              "name": "Paul Green's School of Rock All-Stars with Perry Farrell",
+              "orderOnStage": 5,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            },
+            {
+              "id": "2007-08-05-ben-harper-kidz",
+              "name": "Ben Harper",
+              "orderOnStage": 6,
+              "timeStart": null,
+              "timeEnd": null,
+              "timeStatus": "not independently established",
+              "source": "stage-specific 2007 festival lineup"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "date": "2007-08-03",
+      "id": "fri-early-afternoon",
+      "order": 1,
+      "title": "Friday early afternoon",
+      "timeLabel": "Around 1:30 PM",
+      "confidence": "contemporary reported overlap",
+      "choices": [
+        "Son Volt",
+        "Ted Leo and the Pharmacists"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "Did you catch one or part of both?",
+      "actIds": [
+        "2007-08-03-son-volt-adidas",
+        "2007-08-03-ted-leo-and-the-pharmacists-myspace"
+      ]
+    },
+    {
+      "date": "2007-08-03",
+      "id": "fri-headliners",
+      "order": 2,
+      "title": "Friday evening headliners",
+      "timeLabel": "Evening; Daft Punk scheduled 8:30 PM",
+      "confidence": "contemporary reported overlap",
+      "choices": [
+        "Daft Punk",
+        "Ben Harper & the Innocent Criminals"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "Which headline set did you attend? You may have caught pieces of both.",
+      "actIds": [
+        "2007-08-03-daft-punk-at-and-t",
+        "2007-08-03-ben-harper-and-the-innocent-criminals-bud-light"
+      ]
+    },
+    {
+      "date": "2007-08-04",
+      "id": "sat-late-afternoon",
+      "order": 1,
+      "title": "Saturday overlapping late-afternoon sets",
+      "timeLabel": "Around 5–6 PM",
+      "confidence": "contemporary reported overlap; cancelled act excluded",
+      "choices": [
+        "Regina Spektor",
+        "The Hold Steady",
+        "Matt and Kim (CSS replacement)"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "CSS was scheduled but canceled; Matt and Kim replaced them. Which actual acts did you see?",
+      "actIds": [
+        "2007-08-04-regina-spektor-adidas",
+        "2007-08-04-the-hold-steady-myspace",
+        "2007-08-04-matt-and-kim-css-replacement-citi"
+      ]
+    },
+    {
+      "date": "2007-08-04",
+      "id": "sat-headliners",
+      "order": 2,
+      "title": "Saturday night headliners",
+      "timeLabel": "Night",
+      "confidence": "contemporary reported overlap",
+      "choices": [
+        "Muse",
+        "Interpol"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "Which headline set did you watch? Partial sets count.",
+      "actIds": [
+        "2007-08-04-muse-at-and-t",
+        "2007-08-04-interpol-bud-light"
+      ]
+    },
+    {
+      "date": "2007-08-05",
+      "id": "sun-early-afternoon",
+      "order": 1,
+      "title": "Sunday early-afternoon conflict",
+      "timeLabel": "Around 2:15 PM",
+      "confidence": "contemporary reported overlap",
+      "choices": [
+        "Los Campesinos!",
+        "The Black Angels",
+        "Lupe Fiasco",
+        "Amy Winehouse"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "Which of these did you see?",
+      "actIds": [
+        "2007-08-05-los-campesinos-playstation",
+        "2007-08-05-the-black-angels-citi",
+        "2007-08-05-lupe-fiasco-at-and-t",
+        "2007-08-05-amy-winehouse-bud-light"
+      ]
+    },
+    {
+      "date": "2007-08-05",
+      "id": "sun-late-afternoon",
+      "order": 2,
+      "title": "Sunday later afternoon overlap",
+      "timeLabel": "Around 5:15 PM",
+      "confidence": "contemporary reported overlap",
+      "choices": [
+        "Yo La Tengo",
+        "!!!"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "Which set did you catch?",
+      "actIds": [
+        "2007-08-05-yo-la-tengo-adidas",
+        "2007-08-05--myspace"
+      ]
+    },
+    {
+      "date": "2007-08-05",
+      "id": "sun-evening",
+      "order": 3,
+      "title": "Sunday early evening overlap",
+      "timeLabel": "Around 6:15 PM",
+      "confidence": "contemporary reported overlap",
+      "choices": [
+        "My Morning Jacket",
+        "Modest Mouse"
+      ],
+      "sourceUrl": "https://stereogum.com/5607/lollapalooza_schedule_2007/news",
+      "prompt": "Did you watch one, or move between both?",
+      "actIds": [
+        "2007-08-05-my-morning-jacket-at-and-t",
+        "2007-08-05-modest-mouse-bud-light"
+      ]
+    }
+  ],
+  "interviewModel": {
+    "stage1": "Known clashes, ask all bands in a conflict window; a split set is possible",
+    "stage2": "Browse each stage in running order for additional performers",
+    "stage3": "Review all full/partial choices and flag spatial/temporal impossibilities only where exact set times are verified",
+    "save": "Browser-local draft with manual copy/export of answers. Individual performer attendance is not transferred to the private repository until Alex provides the completed answers."
+  }
+}
