@@ -4953,7 +4953,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Basque-leaning coastal Spanish restaurant near 26th Street; 2026 recommended.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4972,7 +4972,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 26, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport restaurant interview on 2026-10-26.",
+      "visitNote": "Explicit negative response, not a personal dining experience. Preserve 2026 Michelin recognition as research context only.",
+      "reviewedOn": "2026-10-26"
     },
     {
       "id": "candidate-denver-metro-brasserie-brixton",
@@ -5427,10 +5431,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Heretík"
+        "Brasserie Brixton"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Heretík in Denver? Visited, Maybe, or Not visited? If visited, share the approximate date or anything you remember."
+      "question": "Have you eaten at Brasserie Brixton on North Williams Street in Denver? Visited, Maybe, or Not visited? If visited, an approximate year or memory is welcome."
     },
     "pausedBatches": [
       {
