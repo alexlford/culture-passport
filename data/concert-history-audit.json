@@ -65,7 +65,18 @@
       "exactPersonalDateRecorded": false,
       "historicalEventSource": "https://news.pollstar.com/2007/04/12/lolla-07/",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "Grant Park"
+      "venue": "Grant Park",
+      "confirmedArtists": [
+        "Daft Punk",
+        "Muse",
+        "Snow Patrol",
+        "Regina Spektor",
+        "Lupe Fiasco",
+        "Modest Mouse"
+      ],
+      "confirmedArtistsCount": 6,
+      "artistInterviewDataPath": "data/lollapalooza-2007-interview.json",
+      "artistAttendanceEvidence": "direct_user_confirmation"
     },
     {
       "experienceId": "concert-murray-state-choruses-at-carnegie-hall",
