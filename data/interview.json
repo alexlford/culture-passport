@@ -5130,7 +5130,7 @@
     "rule": "Research additional real restaurants and historically dated Michelin/James Beard recognition; never infer the user attended.",
     "newCandidateStatus": "unreviewed",
     "confirmOnlyFrom": "explicit direct user answer",
-    "interviewOrder": "Continue pending Baltimore candidates (Magdalena then La Cuchara), then newly discovered Baltimore leads, then DC and Denver",
+    "interviewOrder": "Chicago cocktail-bar batch closed for now by user request; move to Kansas City Metro recognized restaurants. Preserve outstanding Baltimore/DC/Denver research leads for later rapid batches.",
     "sourceRequirement": "Each candidate has a cited real-world source URL and an era-specific memory cue."
   },
   "screeningMethodology": {
@@ -5251,5 +5251,43 @@
         "bar-the-library-gilt-bar-chicago-friend-recalled"
       ]
     }
-  ]
+  ],
+  "interviewProgress": {
+    "currentBatch": {
+      "area": "Kansas City Metro",
+      "category": "restaurants",
+      "question": "Which of these have you visited? Corvino Supper Club & Tasting Room, The Antler Room, Bluestem, Rye (Leawood), The Town Company, Fox and Pearl.",
+      "candidateNames": [
+        "Corvino Supper Club & Tasting Room",
+        "The Antler Room",
+        "Bluestem",
+        "Rye (Leawood)",
+        "The Town Company",
+        "Fox and Pearl"
+      ],
+      "status": "ready_for_user_answers"
+    },
+    "pausedBatches": [
+      {
+        "area": "Chicago",
+        "category": "cocktail_bars",
+        "status": "closed_for_now_at_user_request",
+        "closedOn": "2026-10-25",
+        "lastMessage": "I visited . Other bars or memories: I think we call this closed for now.",
+        "newlyConfirmedVisitNames": [],
+        "reason": "No actual venue name followed 'I visited'; do not fabricate confirmations or infer non-visits.",
+        "remainingUnanswered": [
+          "Kumiko",
+          "Best Intentions",
+          "Bisous",
+          "Hopleaf Bar",
+          "Truce",
+          "Cherry Circle Room"
+        ],
+        "policy": "Preserve all existing confirmed visits, negative answers, maybe and recollected memories, and unreviewed states. Do not ask again until user requests reopening."
+      }
+    ],
+    "interviewMode": "rapid_batch",
+    "evidencePolicy": "Only names supplied in an explicit attended response become confirmed. Empty selections make no status changes; unanswered candidates remain unreviewed."
+  }
 }
