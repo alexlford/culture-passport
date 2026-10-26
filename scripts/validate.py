@@ -544,7 +544,7 @@ assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "
 # Empty Chicago checklist is an interview pause, not a series of non-attendance answers.
 chapter = interview_data["interviewChapters"]["chicagoCocktailBars"]
 assert chapter["state"] == "paused_by_user_for_now" and chapter["newConfirmedVisits"] == []
-assert len(chapter["unansweredVenues"]) == 6
+assert chapter["unansweredVenues"] == []
 assert chapter["unansweredVenues"] == []
 assert set(chapter["explicitlyNotVisitedAsOf"]) == chicago_six
 assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "not_visited" for name in chapter["explicitlyNotVisitedAsOf"])
