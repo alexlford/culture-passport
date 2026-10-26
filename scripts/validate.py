@@ -97,6 +97,16 @@ office_lead = next(lead for lead in interview_data["memoryLeads"] if lead["id"] 
 assert office_lead["visitStatus"] == "unreviewed" and office_lead["publishAsExperience"] is False
 assert office_lead["relatedVenue"] == "The Aviary"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Lost Lake")["visitStatus"] == "not_visited"
+# A blank 'I visited .' is not an attendance statement. Keep Chicago bars unreviewed.
+chicago_pause = interview_data["interviewProgress"]["chicagoBarInterview"]
+assert chicago_pause["status"] == "closed_for_now_user_requested"
+assert chicago_pause["newConfirmedVisitsFromLastResponse"] == []
+assert set(chicago_pause["unansweredVenues"]) == {"Kumiko","Best Intentions","Bisous","Hopleaf Bar","Truce","Cherry Circle Room"}
+assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "unreviewed" for name in chicago_pause["unansweredVenues"])
+kc_batch = interview_data["interviewProgress"]["currentBatch"]
+assert kc_batch["area"] == "Kansas City Metro"
+assert len(kc_batch["venueNames"]) == 8
+assert all(next(c for c in candidates if c["area"] == "Kansas City Metro" and c["name"] == name)["visitStatus"] == "unreviewed" for name in kc_batch["venueNames"])
 for venue_name, expected_status in (("Untitled Supper Club", "confirmed"), ("Cindy's Rooftop", "maybe")):
     lead = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == venue_name)
     assert lead["visitStatus"] == expected_status
