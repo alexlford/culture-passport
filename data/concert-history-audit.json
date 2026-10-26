@@ -4,7 +4,7 @@
   "project": "Culture Passport",
   "scope": "Concert and live-music chronology audit; this is a private evidence ledger, not visitor publication approval",
   "summary": {
-    "totalConfirmedMusicExperiences": 20,
+    "totalConfirmedMusicExperiences": 21,
     "exactCalendarDates": 19,
     "multiDayFestivalWithoutSingleDate": 1,
     "externalEventMatches": 20,
@@ -20,7 +20,8 @@
       2025,
       2026
     ],
-    "publiclyPublishedStoriesApproved": false
+    "publiclyPublishedStoriesApproved": false,
+    "recordsWithoutSingleCalendarDate": 2
   },
   "distinctions": [
     "Existing user-reported attendance is preserved; third-party setlists and venue listings corroborate the show, not who attended.",
@@ -28,7 +29,8 @@
     "Historical 2007 Red Hot Chili Peppers venue name is Assembly Hall; State Farm Center is the subsequent name.",
     "Some concert records represent combined sporting/running events; cross-linking to sports/adventures should not create duplicated attendances.",
     "No concerts have been inferred from gaps in calendar years. The collection may be incomplete, especially early and middle years.",
-    "Companions, standout songs, and first-person recollections remain to be enriched; do not manufacture them from concert setlists."
+    "Companions, standout songs, and first-person recollections remain to be enriched; do not manufacture them from concert setlists.",
+    "Hawthorne Heights attendance was explicitly confirmed by Alex. Unknown date, city and venue do not reduce the attendance status; add historical specificity later without reverting confirmation."
   ],
   "entries": [
     {
@@ -270,6 +272,18 @@
       "historicalEventSource": "https://www.redrocksonline.com/events/santana-oneness-tour-2026-1471220/",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
       "venue": "Red Rocks Amphitheatre"
+    },
+    {
+      "experienceId": "concert-hawthorne-heights",
+      "title": "Hawthorne Heights",
+      "year": null,
+      "attendanceStatus": "confirmed_direct_user_statement",
+      "attendanceEvidence": "direct_user_attendance_confirmation",
+      "dateLabel": "Date not yet established",
+      "exactPersonalDateRecorded": false,
+      "historicalEventSource": null,
+      "externalVerificationMeaning": "User-confirmed concert attendance stands independently; do not assign a candidate tour stop without evidence.",
+      "venue": "Venue not yet identified"
     }
   ]
 }
