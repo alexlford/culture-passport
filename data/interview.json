@@ -5271,19 +5271,20 @@
     "chicagoCocktailBars": {
       "state": "paused_by_user_for_now",
       "updatedOn": "2026-10-25",
-      "interpretation": "The user submitted the Chicago bar checklist without selecting any venues and wrote 'I think we call this closed for now.' This closes the current interview pass only, not the underlying candidates or broader Culture Passport project.",
+      "interpretation": "The user initially closed the Chicago bar interview with an empty selected-visits response, then said 'None of those yet' about the six explicitly listed bar candidates. Their visit status is not visited as of Oct 25, 2026; the paused interview can be reopened for later visits.",
       "newConfirmedVisits": [],
-      "unansweredVenues": [
+      "unansweredVenues": [],
+      "resumeOnlyOnUserRequest": true,
+      "nextSuggestedInterview": "Kansas City award-recognized dining and cocktail bars",
+      "guardrail": "Six explicit not-visited-yet answers are not permanent exclusions. Existing confirmed/recollected Chicago experiences remain unchanged. No new positive visit was claimed.",
+      "explicitlyNotVisitedAsOf": [
         "Kumiko",
         "Best Intentions",
         "Bisous",
         "Hopleaf Bar",
         "Truce",
         "Cherry Circle Room"
-      ],
-      "resumeOnlyOnUserRequest": true,
-      "nextSuggestedInterview": "Kansas City award-recognized dining and cocktail bars",
-      "guardrail": "No selected venue means no new confirmations. Unanswered is not a negative visit claim. Preserve earlier confirmed and friend-recalled memories independently."
+      ]
     }
   },
   "interviewProgress": {
