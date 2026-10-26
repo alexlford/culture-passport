@@ -2186,18 +2186,18 @@
       "type": "dining",
       "title": "Wildflower",
       "venueId": "venue-wildflower-denver-2022-03-21",
-      "status": "reservation_only",
+      "status": "confirmed",
       "visit": {
         "date": null,
         "year": null,
         "possibleYears": [],
-        "label": "Reservation on file; attendance not confirmed",
+        "label": "Date not established (March 2022 reservation on file)",
         "precision": "unknown",
-        "source": "Completed reservation screenshot supplied 2026-10-25; booking date does not independently prove dining on that date.",
-        "evidenceType": "completed_reservation_only",
-        "attendanceCertainty": "not_independently_verified"
+        "source": "Alex directly confirmed dining at Wildflower in the October 26, 2026 Culture Passport interview. A March 21, 2022 reservation is separately recorded but is not a verified date of the attended meal.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
       },
-      "summary": "A completed reservation is documented for Wildflower on 2022-03-21. Attendance at this restaurant was not directly confirmed. Michelin and James Beard recognition belongs to the restaurant, not to a verified personal visit.",
+      "summary": "A confirmed Wildflower dining experience in Denver's LoHi neighborhood. The evening's date, companions, and dishes are still unestablished. A March 21, 2022 reservation for seven is kept as separate booking evidence, not proof that the meal occurred then. Michelin Guide Selected status and the 2025 Michelin Young Chef Award are restaurant context, not necessarily awards held on the visit date.",
       "recognitions": [
         {
           "organization": "MICHELIN Guide",
@@ -2206,7 +2206,7 @@
           "category": "Young Chef Award",
           "recipient": "Aiden Tibbetts",
           "relationship": "chef at Wildflower",
-          "timingRelativeToVisit": "unknown_visit_date",
+          "timingRelativeToVisit": "visit_date_unknown",
           "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
         }
       ],
@@ -2214,39 +2214,46 @@
         "edition": 2026,
         "distinction": "selected",
         "stars": 0,
-        "historicalVisitDistinction": "not_yet_awarded_at_visit",
+        "historicalVisitDistinction": "unknown_visit_date",
         "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
-        "note": "Current Michelin Selected; exact first guide edition needs historical verification."
+        "note": "Wildflower is Michelin Guide Selected, not starred. The restaurant's exact first guide inclusion requires historical verification. No Michelin award status is attributed to the user's undated visit."
       },
       "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
       "editorial": {
         "awardQualified": true,
         "collection": "recognized_dining",
         "basis": "michelin",
-        "note": "Michelin recognition documented after this reservation, not a Michelin star. Booking only; this is an interview lead, not a confirmed experience."
+        "note": "Michelin Selected 2026 and Michelin Young Chef Award for Aiden Tibbetts in 2025. Attendance separately confirmed by user; March 21, 2022 is only an historical reservation date, not the verified meal date."
       },
       "curation": {
         "status": "qualifies",
         "basis": "michelin",
-        "reason": "Michelin Guide recognition in 2026 postdates the 2022 reservation; attendance remains unconfirmed.",
+        "reason": "Wildflower is Michelin Guide Selected and its chef Aiden Tibbetts received the Michelin Young Chef Award in 2025. The user directly confirmed dining at the venue, but the actual meal date is unknown.",
         "evidenceUrls": [
           "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
           "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
         ],
         "reviewedOn": "2026-10-25",
-        "confidence": "documented_recognition; reservation_documented_meal",
-        "awardAtVisit": "Recognition is venue-level only; personal dining attendance remains unverified."
+        "confidence": "documented_recognition; user_confirmed_attendance; exact_meal_date_unknown",
+        "awardAtVisit": "Actual meal date unspecified; do not claim Michelin Selected or chef award were in effect during the visit."
       },
       "reservations": [
         {
           "date": "2022-03-21",
           "partySize": 7,
           "reservationStatus": "completed",
-          "attendanceInference": "not_independently_verified",
+          "attendanceInference": "reservation_date_not_verified_as_meal_date",
           "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical booking evidence; exact dining date unverified"
+          "sourceNote": "Historical booking for seven on March 21, 2022; Alex separately confirmed visiting Wildflower without confirming a dinner on this date."
         }
-      ]
+      ],
+      "memory": {
+        "headline": "An evening at Wildflower in LoHi",
+        "teaser": "A confirmed Denver dining memory in Wildflower's intimate, vintage-inspired room.",
+        "story": "I ate at Wildflower in LoHi, in a warmly decorated restaurant known for its seasonal cooking and intimate atmosphere. I have a historical reservation for March 21, 2022, for seven people, but I have not confirmed that it was the night I dined there. I can return to the company, dishes and occasion when those memories become clearer.",
+        "period": "Denver years; exact dining date unknown",
+        "source": "Direct personal dining confirmation on 2026-10-26; venue and awards independently documented; dated reservation distinct from attended visit."
+      }
     },
     {
       "id": "dining-yuan-wonton-denver",
