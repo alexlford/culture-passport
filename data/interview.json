@@ -1289,8 +1289,8 @@
         "verifiedForPublication": false
       },
       "visitPeriod": "Did not visit as of 2026-10-25",
-      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport restaurant interview on 2026-10-25 (repeated for clarity).",
-      "visitNote": "Explicit negative answer. Preserve Michelin Guide Selected research context; exclude from confirmed personal visits."
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport restaurant interview on October 25, 2026; repeated the answer to confirm it was saved.",
+      "visitNote": "Do not count as a personal dining experience; preserve Michelin research context."
     },
     {
       "id": "enveretro-lucina-eatery-bar",
@@ -5380,7 +5380,7 @@
         "MAKfam"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at MAKfam in Denver's Baker neighborhood? Visited, Maybe, or Not visited? Share approximate year or memories if visited."
+      "question": "Have you eaten at MAKfam, the modern Chinese American restaurant in Denver's Baker neighborhood? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
