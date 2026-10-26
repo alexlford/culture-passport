@@ -16,7 +16,7 @@ assert {c["id"] for c in records_data["categories"]} == types
 venue_ids = {v["id"] for v in venues}
 assert all(r["status"] in {"confirmed", "recollected", "reservation_only"} and r["type"] in types for r in records)
 assert len([r for r in records if r["status"] == "confirmed"]) >= 58
-assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Wildflower"}
+assert not any(r["status"] == "reservation_only" for r in records)  # both reservation leads now have separately confirmed venue visits
 assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
 assert all(r["venueId"] in venue_ids and r["visit"]["source"] for r in records)
 assert all(r["visit"].get("date") is None or r["visit"]["precision"] == "day" for r in records)
@@ -184,16 +184,18 @@ assert sum(1 for e in reservations if e["name"] == "Ritual Social House") == 2
 assert sum(1 for e in reservations if e["reservationStatus"] == "waitlist_completed") == 1
 blanco = next(e for e in reservations if e["name"].startswith("Blanco Cocina"))
 assert blanco["attendanceInference"] == "not_confirmed"
-for name, date in [("Wildflower", "2022-03-21")]:
+# Historical reservations remain verifiable even after separate user confirmation of dining.
+for name, date, evidence_name in [("Wildflower", "2022-03-21", "Wildflower - Denver")]:
     restaurant = next(r for r in records if r["title"] == name)
-    assert restaurant["status"] == "reservation_only"
-    assert restaurant["visit"]["date"] is None and restaurant["visit"]["evidenceType"] == "completed_reservation_only"
-    assert restaurant["editorial"]["awardQualified"] is True  # Eligible venue, NOT proven attendance
-    assert any(b["date"] == date and b["attendanceInference"] == "not_independently_verified" for b in restaurant["reservations"])
+    assert restaurant["status"] == "confirmed" and restaurant["visit"]["date"] is None
+    assert restaurant["visit"]["evidenceType"] == "direct_user_recollection"
+    assert restaurant["visit"]["attendanceCertainty"] == "restaurant_visit_confirmed_exact_date_unverified"
+    assert restaurant["editorial"]["awardQualified"] is True
+    assert any(b["date"] == date and b["attendanceInference"] == "reservation_date_not_verified_as_meal_date" for b in restaurant["reservations"])
     assert any(e.get("archivedRecordId") == restaurant["id"] and e["publicCuration"] == "research_only" for e in reservations)
+    assert next(e for e in reservations if e["name"] == evidence_name)["attendanceInference"] == "venue_visit_confirmed_separately_exact_date_unverified"
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == "Denver Metro")
-    assert candidate["visitStatus"] == "unreviewed" and candidate.get("bookingLeadRecordId") == restaurant["id"]
-    assert not candidate.get("confirmedVisitId")
+    assert candidate["visitStatus"] == "confirmed" and candidate["confirmedVisitId"] == restaurant["id"]
 q_house = next(r for r in records if r["title"] == "Q House")
 assert q_house["status"] == "confirmed"
 assert q_house["visit"]["date"] is None and q_house["visit"]["evidenceType"] == "direct_user_recollection"
@@ -205,7 +207,7 @@ assert q_house_candidate["visitStatus"] == "confirmed" and q_house_candidate["co
 assert next(e for e in reservations if e["name"] == "Q House")["reservationDate"] == "2021-10-21"
 assert next(e for e in reservations if e["name"] == "Q House")["attendanceInference"] == "venue_visit_confirmed_separately_exact_date_unverified"
 wildflower = next(r for r in records if r["title"] == "Wildflower")
-assert wildflower["guide"]["stars"] == 0 and all(a["timingRelativeToVisit"] == "unknown_visit_date" for a in wildflower["recognitions"])
+assert wildflower["guide"]["stars"] == 0 and all(a["timingRelativeToVisit"] == "visit_date_unknown" for a in wildflower["recognitions"])
 uchi = next(c for c in candidates if c["name"] == "Uchi Denver")
 assert uchi["visitStatus"] == "confirmed" and uchi.get("confirmedVisitId") == "dining-uchi-denver"
 assert uchi["screening"]["status"] == "needs_verification"
@@ -305,7 +307,7 @@ assert aud["summary"] == {
     "reviewedButNotConfirmedReservations": len(aud["bookingLeads"]),
 }
 assert {x["venueId"] for x in aud["publishedVenues"]} == {r["venueId"] for r in published_experiences}
-assert {x["name"] for x in aud["reservationOnlyVenues"]} == {"Wildflower"}
+assert not aud["reservationOnlyVenues"]  # both former booking-only venues directly confirmed by Alex
 assert not {x["name"] for x in aud["reservationOnlyVenues"]} & {x["name"] for x in aud["publishedVenues"]}
 assert any(x["name"] == "Q House" and x["visitConfidence"] == "direct_user_confirmation_exact_meal_date_unknown" for x in aud["publishedVenues"])
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {x["name"] for x in aud["reservationOnlyVenues"]}
