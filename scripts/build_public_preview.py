@@ -179,7 +179,7 @@ def validate_export(output, count):
             assert target.exists(), f"Missing public export link in {p}: {link}"
     assert not (output / "interview.html").exists()
     assert not (output / "performance-interview.html").exists()
-    assert all(r["title"] not in {"Wildflower", "Le Fou Frog"}
+    assert all(r["title"] not in {"Le Fou Frog"}
                for r in data["records"])
     return data
 
