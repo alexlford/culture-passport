@@ -80,7 +80,10 @@
               "timeStart": null,
               "timeEnd": null,
               "timeStatus": "not independently established",
-              "source": "stage-specific 2007 festival lineup"
+              "source": "stage-specific 2007 festival lineup",
+              "personalAttendance": "confirmed_seen",
+              "personalAttendanceSource": "first_person",
+              "extentSeen": "unspecified"
             }
           ]
         },
@@ -536,7 +539,10 @@
               "timeStart": null,
               "timeEnd": null,
               "timeStatus": "not independently established",
-              "source": "stage-specific 2007 festival lineup"
+              "source": "stage-specific 2007 festival lineup",
+              "personalAttendance": "confirmed_seen",
+              "personalAttendanceSource": "first_person",
+              "extentSeen": "unspecified"
             }
           ]
         },
@@ -578,7 +584,10 @@
               "timeStart": null,
               "timeEnd": null,
               "timeStatus": "not independently established",
-              "source": "stage-specific 2007 festival lineup"
+              "source": "stage-specific 2007 festival lineup",
+              "personalAttendance": "confirmed_seen",
+              "personalAttendanceSource": "first_person",
+              "extentSeen": "unspecified"
             },
             {
               "id": "2007-08-04-interpol-bud-light",
@@ -629,7 +638,10 @@
               "timeStart": null,
               "timeEnd": null,
               "timeStatus": "not independently established",
-              "source": "stage-specific 2007 festival lineup"
+              "source": "stage-specific 2007 festival lineup",
+              "personalAttendance": "confirmed_seen",
+              "personalAttendanceSource": "first_person",
+              "extentSeen": "unspecified"
             },
             {
               "id": "2007-08-04-patti-smith-adidas",
@@ -974,7 +986,10 @@
               "timeStart": null,
               "timeEnd": null,
               "timeStatus": "not independently established",
-              "source": "stage-specific 2007 festival lineup"
+              "source": "stage-specific 2007 festival lineup",
+              "personalAttendance": "confirmed_seen",
+              "personalAttendanceSource": "first_person",
+              "extentSeen": "unspecified"
             },
             {
               "id": "2007-08-05-kings-of-leon-at-and-t",
@@ -1043,7 +1058,10 @@
               "timeStart": null,
               "timeEnd": null,
               "timeStatus": "not independently established",
-              "source": "stage-specific 2007 festival lineup"
+              "source": "stage-specific 2007 festival lineup",
+              "personalAttendance": "confirmed_seen",
+              "personalAttendanceSource": "first_person",
+              "extentSeen": "unspecified"
             }
           ]
         },
@@ -1536,6 +1554,69 @@
     "stage1": "Known clashes, ask all bands in a conflict window; a split set is possible",
     "stage2": "Browse each stage in running order for additional performers",
     "stage3": "Review all full/partial choices and flag spatial/temporal impossibilities only where exact set times are verified",
-    "save": "Browser-local draft with manual copy/export of answers. Individual performer attendance is not transferred to the private repository until Alex provides the completed answers."
-  }
+    "save": "Browser-local draft with manual copy/export of answers. Individual performer attendance is not transferred to the private repository until Alex provides the completed answers.",
+    "initialAnswers": "These 6 individual performers are preselected as 'Seen' (extent unknown), without excluding any other artist. Preserve confirmation even where opposite-stage clashes overlap; do not guess duration or make one-choice-per-slot rules."
+  },
+  "confirmedPerformerAnswers": [
+    {
+      "artist": "Daft Punk",
+      "day": "2007-08-03",
+      "stage": "AT&T",
+      "actId": "2007-08-03-daft-punk-at-and-t",
+      "attendance": "confirmed_seen",
+      "portion": "unspecified",
+      "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+      "confirmedOn": "2026-10-25"
+    },
+    {
+      "artist": "Muse",
+      "day": "2007-08-04",
+      "stage": "AT&T",
+      "actId": "2007-08-04-muse-at-and-t",
+      "attendance": "confirmed_seen",
+      "portion": "unspecified",
+      "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+      "confirmedOn": "2026-10-25"
+    },
+    {
+      "artist": "Snow Patrol",
+      "day": "2007-08-04",
+      "stage": "Bud Light",
+      "actId": "2007-08-04-snow-patrol-bud-light",
+      "attendance": "confirmed_seen",
+      "portion": "unspecified",
+      "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+      "confirmedOn": "2026-10-25"
+    },
+    {
+      "artist": "Regina Spektor",
+      "day": "2007-08-04",
+      "stage": "adidas",
+      "actId": "2007-08-04-regina-spektor-adidas",
+      "attendance": "confirmed_seen",
+      "portion": "unspecified",
+      "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+      "confirmedOn": "2026-10-25"
+    },
+    {
+      "artist": "Lupe Fiasco",
+      "day": "2007-08-05",
+      "stage": "AT&T",
+      "actId": "2007-08-05-lupe-fiasco-at-and-t",
+      "attendance": "confirmed_seen",
+      "portion": "unspecified",
+      "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+      "confirmedOn": "2026-10-25"
+    },
+    {
+      "artist": "Modest Mouse",
+      "day": "2007-08-05",
+      "stage": "Bud Light",
+      "actId": "2007-08-05-modest-mouse-bud-light",
+      "attendance": "confirmed_seen",
+      "portion": "unspecified",
+      "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+      "confirmedOn": "2026-10-25"
+    }
+  ]
 }
