@@ -67,7 +67,28 @@
       "exactPersonalDateRecorded": false,
       "historicalEventSource": "https://news.pollstar.com/2007/04/12/lolla-07/",
       "externalVerificationMeaning": "Event date, venue and lineup corroborated; external listings do not prove the personal visit",
-      "venue": "Grant Park"
+      "venue": "Grant Park",
+      "confirmedArtists": [
+        "Daft Punk",
+        "M.I.A.",
+        "The Black Keys",
+        "Muse",
+        "Snow Patrol",
+        "Regina Spektor",
+        "Interpol",
+        "The Roots",
+        "Cold War Kids",
+        "Lupe Fiasco",
+        "Modest Mouse",
+        "Pearl Jam",
+        "Kings of Leon",
+        "Iggy & the Stooges",
+        "Rodrigo y Gabriela"
+      ],
+      "confirmedArtistsCount": 15,
+      "artistInterviewDataPath": "data/lollapalooza-2007-interview.json",
+      "artistAttendanceEvidence": "direct_user_confirmation",
+      "otherSetsStatus": "unreviewed_not_excluded"
     },
     {
       "experienceId": "concert-murray-state-choruses-at-carnegie-hall",
