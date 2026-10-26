@@ -8,8 +8,8 @@
       "name": "Another Denver musical or play",
       "venue": "Denver, to identify",
       "year": null,
-      "status": "unknown_identity",
-      "recollection": "User remembers at least one additional live theater experience in Denver.",
+      "status": "awaiting_friends_reply",
+      "recollection": "The user recalls an additional Denver play or musical but no identifying details. On October 25, 2026 he sent a text requesting more information and directed the interview to continue; preserve unresolved attendance identity and check the response later.",
       "sourceUrl": null
     },
     {
@@ -52,7 +52,7 @@
   ],
   "nextInterviewFocus": "musicals_and_plays",
   "interviewOrder": [
-    "another-denver-show",
-    "second-city-revue-2017"
+    "second-city-revue-2017",
+    "another-denver-show"
   ]
 }
