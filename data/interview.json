@@ -3860,10 +3860,10 @@
       "awardFamily": "michelin",
       "interviewCue": "LoHi contemporary seasonal tasting and à la carte menus.",
       "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
-      "visitStatus": "unreviewed",
-      "visitPeriod": "2022-03-21",
-      "reviewedOn": "2026-10-25",
-      "reviewSource": "User-provided screenshot of a completed reservation for 2022-03-21; actual seating is not independently verified.",
+      "visitStatus": "confirmed",
+      "visitPeriod": "Denver years; date of meal unknown. Reservation recorded 2022-03-21.",
+      "reviewedOn": "2026-10-26",
+      "reviewSource": "Direct user confirmation of Wildflower attendance, with 2022-03-21 reservation kept as separate historical evidence.",
       "screening": {
         "status": "award_qualified",
         "basis": "venue_recognition",
@@ -3875,11 +3875,14 @@
       "bookingEvidence": {
         "reservationDate": "2022-03-21",
         "partySize": 7,
-        "attendance": "unconfirmed",
-        "source": "completed_reservation_screenshot"
+        "attendance": "venue_visit_confirmed_separately_exact_date_unverified",
+        "source": "completed_reservation_screenshot",
+        "note": "Reservation is confirmed; exact date of attended dinner remains unknown."
       },
-      "researchOnly": true,
-      "bookingLeadRecordId": "dining-wildflower-denver-2022-03-21"
+      "bookingLeadRecordId": "dining-wildflower-denver-2022-03-21",
+      "confirmedVisitId": "dining-wildflower-denver-2022-03-21",
+      "visitSource": "Alex directly confirmed having eaten at Wildflower on 2026-10-26, without confirming the reservation date as his dining date.",
+      "visitNote": "The restaurant visit is confirmed. Do not infer meal happened on 2022-03-21, or that any award was held at the time of the meal."
     },
     {
       "id": "candidate-denver-metro-uchi-denver",
@@ -5435,12 +5438,12 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Denver Metro",
-      "category": "restaurants",
+      "category": "cocktail_bars",
       "candidateNames": [
-        "Wildflower"
+        "Lady Jane"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you actually eaten at Wildflower in LoHi Denver? You have a reservation record dated March 21, 2022 for seven people, but no confirmed dining date. Visited, Maybe, or Not visited?"
+      "question": "Have you visited Lady Jane cocktail bar in Denver's LoHi neighborhood? Visited, Maybe, or Not visited? Share an approximate year or memories if visited."
     },
     "pausedBatches": [
       {
