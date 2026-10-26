@@ -144,9 +144,10 @@
       "reservationStatus": "completed",
       "source": "user_provided_reservation_screenshot",
       "screenshot": "IMG_3559.jpeg",
-      "attendanceInference": "not_confirmed",
+      "attendanceInference": "venue_visit_confirmed_separately_exact_date_unverified",
       "publicCuration": "research_only",
-      "archivedRecordId": "dining-wildflower-denver-2022-03-21"
+      "archivedRecordId": "dining-wildflower-denver-2022-03-21",
+      "attendanceNote": "Alex confirmed having dined at Wildflower on October 26, 2026, but did not confirm that the attended dinner occurred on the March 21, 2022 reservation date."
     },
     {
       "id": "atelier-by-radex-2021-11-07",
@@ -332,7 +333,8 @@
       "partySize": 7,
       "status": "reservation_completed",
       "sourceType": "user_provided_screenshot",
-      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceNote": "Venue visit confirmed separately; reservation date is not independently verified as the meal date."
     },
     {
       "name": "Atelier by Radex",
