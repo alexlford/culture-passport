@@ -351,6 +351,22 @@ assert '<button type="button" data-type="film"' in (ROOT / "explore.html").read_
 assert '<option value="film">' in (ROOT / "timeline.html").read_text(encoding="utf-8")
 assert '<option value="film">' in (ROOT / "map.html").read_text(encoding="utf-8")
 
+# Concert chronology provenance: independent event research is not personal attendance proof.
+concerts = [r for r in records if r["type"] == "concert"]
+concert_audit = json.loads((ROOT / "data/concert-history-audit.json").read_text(encoding="utf-8"))
+assert len(concerts) == 20
+assert concert_audit["summary"]["totalConfirmedMusicExperiences"] == 20
+assert concert_audit["summary"]["exactCalendarDates"] == 19
+assert concert_audit["summary"]["multiDayFestivalWithoutSingleDate"] == 1
+assert concert_audit["summary"]["externalEventMatches"] == 20
+assert {r["id"] for r in concerts} == {x["experienceId"] for x in concert_audit["entries"]}
+assert all(r["historicalEventVerification"]["status"] == "independently_corresponding_event_found" and r["sourceUrl"].startswith("https://") for r in concerts)
+assert all(r["historicalEventVerification"]["note"].startswith("The source corroborates") for r in concerts)
+assembly = next(r for r in concerts if r["id"] == "concert-red-hot-chili-peppers")
+assert next(v for v in venues if v["id"] == assembly["venueId"])["historicalName"] == "Assembly Hall"
+lolla = next(r for r in concerts if r["id"] == "concert-lollapalooza-all-three-days")
+assert lolla["visit"]["date"] is None and lolla["visit"]["timeWindow"]["startDate"] == "2007-08-03" and lolla["visit"]["timeWindow"]["endDate"] == "2007-08-05"
+
 # Stage chronology preserves distinct performances and existing theater entries.
 stage = [r for r in records if r["type"] in {"concert","opera","theater"}]
 assert len(stage) == 29 and len([r for r in stage if r["title"].startswith("Lollapalooza")]) == 1
