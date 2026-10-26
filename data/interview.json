@@ -836,7 +836,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Sunnyside; tasting menu fusing different cuisines.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -851,7 +851,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-25",
+      "visitSource": "Alex explicitly stated 'Did not visit' in Denver restaurant interview on 2026-10-25.",
+      "visitNote": "Negative response only; do not count as a personal experience. Preserve Michelin recognition as interview context."
     },
     {
       "id": "enveretro-brut",
@@ -5319,10 +5322,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "The Wolf's Tailor"
+        "Brutø"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you dined at The Wolf's Tailor in Sunnyside during 2021–2026? Confirmed, Maybe, or Not visited. If yes, share the approximate year and anything memorable."
+      "question": "Have you eaten at Brutø, the intimate open-fire chef's counter in Denver's Dairy Block? Visited, Maybe, or Not visited? Share approximate date and memories if visited."
     },
     "pausedBatches": [
       {
