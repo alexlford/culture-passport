@@ -3329,7 +3329,7 @@
       "awardFamily": "beard",
       "interviewCue": "LoHi Denver cocktail bar with minimalist design, intimate atmosphere and inventive cocktails.",
       "sourceUrl": "https://blog.resy.com/2026/01/2026-james-beard-nominees/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -3340,7 +3340,11 @@
         "sourceTier": "secondary_or_primary",
         "verifiedAt": "2026-10-25",
         "note": "Documented James Beard cocktail recognition; user visit has NOT been confirmed."
-      }
+      },
+      "visitPeriod": "Possibly visited; date unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' during Denver Culture Passport cocktail bar interview on 2026-10-26.",
+      "reviewedOn": "2026-10-26",
+      "visitNote": "Unconfirmed memory lead. Do not count as a confirmed bar visit or publish as attended; retain James Beard research context."
     },
     {
       "id": "candidate-denver-metro-yacht-club",
@@ -5440,10 +5444,10 @@
       "area": "Denver Metro",
       "category": "cocktail_bars",
       "candidateNames": [
-        "Lady Jane"
+        "Yacht Club"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Lady Jane cocktail bar in Denver's LoHi neighborhood? Visited, Maybe, or Not visited? Share an approximate year or memories if visited."
+      "question": "Have you visited Yacht Club, the cocktail bar on North Humboldt Street in Denver? Visited, Maybe, or Not visited? Share approximate date or memories if visited."
     },
     "pausedBatches": [
       {
