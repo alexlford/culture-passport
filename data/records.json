@@ -891,6 +891,20 @@
       },
       "sourceId": "american-fiction-denver-film-festival-2023",
       "venueConfidence": "Verified 2023 opening-night screening venue; map location is deliberately city-centroid, not a venue GPS coordinate"
+    },
+    {
+      "id": "venue-hawthorne-heights-freshman-era",
+      "name": "Illinois freshman-year concert (exact venue to establish)",
+      "city": "Champaign",
+      "region": "Illinois",
+      "country": "USA",
+      "location": {
+        "lat": 40.1164,
+        "lng": -88.2434,
+        "precision": "city-centroid"
+      },
+      "sourceId": "hawthorne-heights-freshman-illinois",
+      "venueConfidence": "user-attested freshman-year show; exact auditorium or room not directly identified"
     }
   ],
   "records": [
@@ -2867,6 +2881,63 @@
       },
       "recognitions": [],
       "sourceUrl": "https://www.denvercenter.org/news-center/denver-center-theatre-company-announces-2024-25-season/"
+    },
+    {
+      "id": "concert-hawthorne-heights-freshman-year-illinois",
+      "type": "concert",
+      "title": "Hawthorne Heights",
+      "venueId": "venue-hawthorne-heights-freshman-era",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "year": 2006,
+        "date": null,
+        "possibleYears": [
+          2006,
+          2007
+        ],
+        "label": "Freshman year at Illinois, 2006–07",
+        "precision": "academic_year",
+        "source": "User personally confirms attending Hawthorne Heights in his 2006–07 freshman year at the University of Illinois (October 25, 2026 conversation); official show listings identify a November 10, 2006 Champaign date, but the attendee's exact date has not been separately identified.",
+        "evidenceType": "direct_user_confirmation"
+      },
+      "summary": "Saw Hawthorne Heights during freshman year at the University of Illinois, 2006–07. A documented Nintendo Fusion Tour stop on November 10, 2006 at Assembly Hall in Champaign is relevant archival context, not a personally confirmed exact ticket date.",
+      "memory": {
+        "headline": "Hawthorne Heights — freshman year at Illinois",
+        "teaser": "Seeing Hawthorne Heights during my first year at Illinois.",
+        "story": "During my freshman year at the University of Illinois, I went to see Hawthorne Heights. It belongs alongside the other early concerts that shaped my college years. Historical tour calendars show Hawthorne Heights played Assembly Hall in Champaign on November 10, 2006, as part of the Nintendo Fusion Tour with Relient K, Emery, Plain White T's and The Sleeping. That documented bill helps place the memory in the period, even though I haven't pinned my exact night or recalled all the supporting acts.",
+        "period": "Freshman year, 2006–07",
+        "source": "Direct attendance confirmation by Alex; separate 2006 Hawthorne Heights performance listings for historical context."
+      },
+      "historicalEventContext": {
+        "documentedShowDate": "2006-11-10",
+        "documentedVenue": "Assembly Hall, Champaign",
+        "tour": "Nintendo Fusion Tour",
+        "listedArtists": [
+          "Hawthorne Heights",
+          "Relient K",
+          "Emery",
+          "Plain White T's",
+          "The Sleeping"
+        ],
+        "sourceUrl": "https://www.concertarchives.org/bands/hawthorne-heights?date=past&page=96",
+        "exactDatePersonallyConfirmed": false,
+        "venuePersonallyConfirmed": false,
+        "note": "Historical show context, not evidence that the user's attended show was on this precise date."
+      },
+      "historicalEventVerification": {
+        "status": "independently_corresponding_event_found",
+        "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
+        "sourceUrl": "https://www.concertarchives.org/bands/hawthorne-heights?date=past&page=96",
+        "verifiedOn": "2026-10-25"
+      },
+      "editorial": {
+        "collection": "cultural_performances",
+        "awardQualified": false,
+        "featuredException": false,
+        "note": "Confirmed firsthand concert attendance; venue and specific day are kept separate pending direct confirmation."
+      },
+      "sourceUrl": "https://www.concertarchives.org/bands/hawthorne-heights?date=past&page=96"
     },
     {
       "id": "concert-red-hot-chili-peppers",
