@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "auditedOn": "2026-10-25",
+  "auditedOn": "2026-10-26",
   "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
@@ -10,14 +10,14 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 28,
-    "distinctPublishedVenues": 26,
-    "recognized": 18,
+    "canonExperienceRecords": 29,
+    "distinctPublishedVenues": 27,
+    "recognized": 19,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 7,
     "possibleVisitLeads": 3,
-    "reviewedButNotConfirmedReservations": 4
+    "reviewedButNotConfirmedReservations": 3
   },
   "publishedVenues": [
     {
@@ -576,6 +576,30 @@
       ],
       "editorialNote": "User confirmed dining at Sushi Den in 2026 interview; meal year unknown. JBF semifinalist is not an award win or Michelin recognition.",
       "visitConfidence": "direct_user_confirmation"
+    },
+    {
+      "venueId": "venue-q-house-denver-2021-10-21",
+      "name": "Q House",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-q-house-denver-2021-10-21"
+      ],
+      "rememberedPeriods": [
+        "Denver years; actual meal date unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
+        "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+      ],
+      "recognitionSummary": [
+        "Michelin Selected (2023)",
+        "James Beard semifinalist 2019: Q House, Denver, Best New Restaurant"
+      ],
+      "editorialNote": "2019 James Beard Best New Restaurant semifinalist; 2023 Michelin Selected. Directly confirmed restaurant visit on 2026-10-26; actual meal date unknown. 2021-10-21 was a reservation, not a verified meal date.",
+      "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown",
+      "publicationStatus": "pending_explicit_privacy_review"
     }
   ],
   "confirmedArchiveOnly": [
@@ -665,14 +689,6 @@
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
     },
     {
-      "name": "Q House",
-      "period": "2021-10-21 reservation on file",
-      "recognition": "2019 James Beard Best New Restaurant semifinalist; 2023 Michelin Selected",
-      "status": "completed_reservation_needs_attendance_confirmation",
-      "archivedRecordId": "dining-q-house-denver-2021-10-21",
-      "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
-    },
-    {
       "name": "Wildflower",
       "period": "2022-03-21 reservation on file",
       "recognition": "2026 Michelin Selected; subsequent chef recognition",
@@ -688,30 +704,6 @@
     "theater": "Collect play, musical or theatrical production, venue, year and companion/occasion only if remembered."
   },
   "reservationOnlyVenues": [
-    {
-      "venueId": "venue-q-house-denver-2021-10-21",
-      "name": "Q House",
-      "city": "Denver",
-      "region": "Colorado",
-      "experienceIds": [
-        "dining-q-house-denver-2021-10-21"
-      ],
-      "rememberedPeriods": [
-        "2021-10-21"
-      ],
-      "recognitionStatus": "qualifies",
-      "sourceUrls": [
-        "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
-        "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
-      ],
-      "recognitionSummary": [
-        "Michelin Selected (2023)",
-        "James Beard semifinalist 2019: Q House, Denver, Best New Restaurant"
-      ],
-      "editorialNote": "2019 James Beard semifinalist predates the meal; Michelin 2023 selection postdates it.",
-      "visitConfidence": "reservation_only_not_a_confirmed_dining_experience",
-      "publicationStatus": "research_only"
-    },
     {
       "venueId": "venue-wildflower-denver-2022-03-21",
       "name": "Wildflower",
