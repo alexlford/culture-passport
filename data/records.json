@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "categories": [
     {
       "id": "dining",
@@ -2112,18 +2112,18 @@
       "type": "dining",
       "title": "Q House",
       "venueId": "venue-q-house-denver-2021-10-21",
-      "status": "reservation_only",
+      "status": "confirmed",
       "visit": {
         "date": null,
         "year": null,
         "possibleYears": [],
-        "label": "Reservation on file; attendance not confirmed",
+        "label": "Date not established (2021 reservation on file)",
         "precision": "unknown",
-        "source": "Completed reservation screenshot supplied 2026-10-25; booking date does not independently prove dining on that date.",
-        "evidenceType": "completed_reservation_only",
-        "attendanceCertainty": "not_independently_verified"
+        "source": "Alex directly confirmed having eaten at Q House in the Culture Passport interview on October 26, 2026; the 2021-10-21 reservation is separate evidence and does not verify the dining date.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
       },
-      "summary": "A completed reservation is documented for Q House on 2021-10-21. Attendance at this restaurant was not directly confirmed. Michelin and James Beard recognition belongs to the restaurant, not to a verified personal visit.",
+      "summary": "A confirmed visit to Q House, the modern Chinese restaurant on East Colfax. The date and details of the meal are not established. A completed reservation for October 21, 2021 is preserved separately and must not be treated as proof of the meal date. Q House was named a 2019 James Beard Best New Restaurant semifinalist and later included in the Michelin Guide.",
       "recognitions": [
         {
           "organization": "James Beard Foundation",
@@ -2132,7 +2132,7 @@
           "category": "Best New Restaurant",
           "recipient": "Q House, Denver",
           "relationship": "restaurant itself",
-          "timingRelativeToVisit": "unknown_visit_date",
+          "timingRelativeToVisit": "visit_date_unknown",
           "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
         }
       ],
@@ -2140,39 +2140,46 @@
         "edition": 2023,
         "distinction": "selected",
         "stars": 0,
-        "historicalVisitDistinction": "not_yet_awarded_at_visit",
+        "historicalVisitDistinction": "unknown_visit_date",
         "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
-        "note": "Recognition as Michelin Selected came after the 2021 reservation."
+        "note": "Michelin Selected status documented in 2023, following the 2021 reservation; because the actual dining date is unknown, no recognition at the time of the meal is claimed."
       },
       "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
       "editorial": {
         "awardQualified": true,
         "collection": "recognized_dining",
         "basis": "james_beard_and_michelin",
-        "note": "2019 James Beard semifinalist predates the meal; Michelin 2023 selection postdates it. Booking only; this is an interview lead, not a confirmed experience."
+        "note": "2019 James Beard Best New Restaurant semifinalist directly recognizes Q House. Michelin Selected status came in 2023; the meal date is unknown. Attendance is directly user-confirmed; 2021-10-21 remains a booking date only."
       },
       "curation": {
         "status": "qualifies",
         "basis": "james_beard_and_michelin",
-        "reason": "James Beard 2019 Best New Restaurant semifinalist predates the 2021 reservation. Michelin Selected in 2023 postdates the reservation. User attendance is unconfirmed.",
+        "reason": "Q House was a 2019 James Beard Best New Restaurant semifinalist, with Michelin Guide selection subsequently recorded in 2023. Alex directly confirms eating there, but the meal date has not been established and is not necessarily the 2021-10-21 reservation date.",
         "evidenceUrls": [
           "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
           "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
         ],
         "reviewedOn": "2026-10-25",
-        "confidence": "documented_recognition; reservation_documented_meal",
-        "awardAtVisit": "Recognition is venue-level only; personal dining attendance remains unverified."
+        "confidence": "documented_award; confirmed_restaurant_attendance_by_user; exact_visit_date_unknown",
+        "awardAtVisit": "Visit date is unknown; award status at the actual meal is not asserted."
       },
       "reservations": [
         {
           "date": "2021-10-21",
           "partySize": 2,
           "reservationStatus": "completed",
-          "attendanceInference": "not_independently_verified",
+          "attendanceInference": "reservation_date_not_verified_as_meal_date",
           "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical booking evidence; exact dining date unverified"
+          "sourceNote": "Booking date documented. Alex separately confirmed dining at the venue but not dining on this exact date."
         }
-      ]
+      ],
+      "memory": {
+        "headline": "Q House on East Colfax",
+        "teaser": "A confirmed Denver Chinese dining memory, with a historical reservation kept separately from the remembered meal.",
+        "story": "I ate at Q House on East Colfax in Denver. The intimate modern Chinese restaurant was known for Sichuan-influenced dishes and shared plates. I also have a reservation on file for October 21, 2021, but I haven't confirmed that as the date of the meal. The particular dishes, companions and occasion remain to be filled in.",
+        "period": "Denver years; meal date unknown",
+        "source": "Alex directly confirmed attending Q House; restaurant and award history independently sourced, and dated reservation recorded separately."
+      }
     },
     {
       "id": "dining-wildflower-denver-2022-03-21",
