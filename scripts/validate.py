@@ -155,12 +155,14 @@ assert pdt["sourceUrl"].startswith("https://archive.jamesbeard.org")
 assert not any(r["title"] == "PDT (Please Don't Tell)" for r in records)
 for name, area in [("Clover Club", "New York City"), ("Columbia Room", "Washington, DC"),
                    
-                   ("Fern Bar", "Kansas City Metro"), ("Wild Child", "Kansas City Metro"),
-                   ("Traveling Mercies", "Denver Metro")]:
+                   ("Fern Bar", "Kansas City Metro"), ("Wild Child", "Kansas City Metro")]:
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == area)
     assert candidate["visitStatus"] == "unreviewed"
     assert candidate["screening"]["status"] == "award_qualified"
     assert candidate["sourceUrl"].startswith("https://")
+traveling_mercies = next(c for c in candidates if c["name"] == "Traveling Mercies" and c["area"] == "Denver Metro")
+assert traveling_mercies["visitStatus"] == "not_visited"  # Alex's explicit 2026-10-26 response
+assert traveling_mercies["screening"]["status"] == "award_qualified"  # Venue research remains preserved
 assert any(c["name"] == "Gunther & Co." and c["visitStatus"] == "confirmed" for c in candidates)
 assert all(len(c.get("linkedVisitIds", [])) == 3 for c in candidates if c["name"] == "Breckenridge Distillery Restaurant")
 assert all(c["name"] not in {r["title"] for r in records}
