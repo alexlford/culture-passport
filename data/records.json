@@ -2982,13 +2982,13 @@
           "note": "Confirmed three-day festival attendance; no individual stage times inferred"
         }
       },
-      "summary": "Confirmed attendance all three days at Lollapalooza 2007 (August 3–5) in Grant Park. The lineup included Daft Punk and Pearl Jam; individual sets attended are not yet identified.",
+      "summary": "Attended all three days of Lollapalooza 2007 in Grant Park, August 3–5. Personally confirmed seeing Daft Punk (Friday); Muse, Snow Patrol, Regina Spektor (Saturday); Lupe Fiasco and Modest Mouse (Sunday). Other artists remain unreviewed, not excluded.",
       "memory": {
-        "headline": "Lollapalooza — all three days",
-        "teaser": "Three full days in Grant Park at Lollapalooza 2007.",
-        "story": "You attended the entire 2007 Lollapalooza weekend. Daft Punk and Pearl Jam were among its headliners, and the event archive captures their sets. Treat the weekend as one festival memory, without inventing attendance at every stage.",
+        "headline": "Three days of Lollapalooza 2007",
+        "teaser": "Three days in Grant Park, including six acts I distinctly remember seeing.",
+        "story": "I attended all three days of Lollapalooza 2007 in Chicago's Grant Park. I remember seeing Daft Punk on Friday; Muse, Snow Patrol, and Regina Spektor on Saturday; and Lupe Fiasco and Modest Mouse on Sunday. There were many more stages and overlapping acts, and I'm working back through the original schedule to reconstruct more of the artists I caught. These six are my confirmed memories; I haven't assigned full sets or invented the rest of my itinerary.",
         "period": "August 3–5, 2007",
-        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+        "source": "Direct user recollection of full three-day attendance plus six individually named sets in conversation; historical lineup cross-reference."
       },
       "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
       "editorial": {
@@ -3002,7 +3002,69 @@
         "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
         "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
         "verifiedOn": "2026-10-25"
-      }
+      },
+      "confirmedPerformers": [
+        {
+          "artist": "Daft Punk",
+          "day": "2007-08-03",
+          "stage": "AT&T",
+          "actId": "2007-08-03-daft-punk-at-and-t",
+          "attendance": "confirmed_seen",
+          "portion": "unspecified",
+          "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+          "confirmedOn": "2026-10-25"
+        },
+        {
+          "artist": "Muse",
+          "day": "2007-08-04",
+          "stage": "AT&T",
+          "actId": "2007-08-04-muse-at-and-t",
+          "attendance": "confirmed_seen",
+          "portion": "unspecified",
+          "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+          "confirmedOn": "2026-10-25"
+        },
+        {
+          "artist": "Snow Patrol",
+          "day": "2007-08-04",
+          "stage": "Bud Light",
+          "actId": "2007-08-04-snow-patrol-bud-light",
+          "attendance": "confirmed_seen",
+          "portion": "unspecified",
+          "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+          "confirmedOn": "2026-10-25"
+        },
+        {
+          "artist": "Regina Spektor",
+          "day": "2007-08-04",
+          "stage": "adidas",
+          "actId": "2007-08-04-regina-spektor-adidas",
+          "attendance": "confirmed_seen",
+          "portion": "unspecified",
+          "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+          "confirmedOn": "2026-10-25"
+        },
+        {
+          "artist": "Lupe Fiasco",
+          "day": "2007-08-05",
+          "stage": "AT&T",
+          "actId": "2007-08-05-lupe-fiasco-at-and-t",
+          "attendance": "confirmed_seen",
+          "portion": "unspecified",
+          "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+          "confirmedOn": "2026-10-25"
+        },
+        {
+          "artist": "Modest Mouse",
+          "day": "2007-08-05",
+          "stage": "Bud Light",
+          "actId": "2007-08-05-modest-mouse-bud-light",
+          "attendance": "confirmed_seen",
+          "portion": "unspecified",
+          "source": "Alex's direct message listing these six performers as acts seen at Lollapalooza 2007",
+          "confirmedOn": "2026-10-25"
+        }
+      ]
     },
     {
       "id": "theater-saturday-night-live-sigourney-weaver-the-ting-tings",
