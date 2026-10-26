@@ -101,6 +101,15 @@ try{
     await page.locator("#search").fill("Sauvage");
     await page.waitForFunction(()=>document.querySelectorAll("#explore-results a.record-card").length===1);
     assert((await page.locator("#explore-results").innerText()).includes("Sauvage"),"Search failed");
+    // The film festival is a separately filterable cultural chapter.
+    await page.goto(BASE+"explore.html",{waitUntil:"domcontentloaded"});
+    await page.locator("#explore-results a.record-card").first().waitFor();
+    await page.locator('[data-type="film"]').click();
+    await page.waitForFunction(()=>document.querySelector("#explore-results")?.textContent?.includes("American Fiction"));
+    assert((await page.locator("#explore-results a.record-card").count())===1,"Film filter should show the confirmed festival experience");
+    await page.goto(BASE+"record.html?id=film-american-fiction-denver-film-festival-2023",{waitUntil:"domcontentloaded"});
+    await page.locator("#record-detail h1").waitFor();
+    assert((await page.locator("#record-detail").innerText()).includes("Nov 3, 2023")||(await page.locator("#record-detail").innerText()).includes("November 3, 2023"),"Film festival date was not rendered");
     await page.goto(BASE+"map.html",{waitUntil:"domcontentloaded"});
     await page.locator("#city-list details.city-section").first().waitFor();
     // Carto tiles are intentionally blocked by the QA harness. The fallback
