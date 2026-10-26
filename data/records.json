@@ -912,6 +912,28 @@
       "neighborhood": "West Pearl Street",
       "location": null,
       "sourceId": "the-kitchen-american-bistro-boulder"
+    },
+    {
+      "id": "venue-sushi-den-denver",
+      "name": "Sushi Den",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "1487 S Pearl St, Denver, CO 80210",
+      "neighborhood": "Platt Park / South Pearl Street",
+      "location": null,
+      "sourceId": "sushi-den-denver"
+    },
+    {
+      "id": "venue-uchi-denver",
+      "name": "Uchi Denver",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "2500 Lawrence St, Denver, CO 80205",
+      "neighborhood": "RiNo",
+      "location": null,
+      "sourceId": "uchi-denver"
     }
   ],
   "records": [
@@ -4621,6 +4643,119 @@
         ],
         "reviewedOn": "2026-10-25",
         "confidence": "user_recollection_no_award_claim"
+      }
+    },
+    {
+      "id": "dining-sushi-den-denver",
+      "type": "dining",
+      "title": "Sushi Den",
+      "venueId": "venue-sushi-den-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Denver years; date unknown",
+        "precision": "unknown",
+        "source": "Alex directly confirmed eating at Sushi Den among his good Denver sushi experiences on 2026-10-25.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A confirmed meal at Sushi Den, the Japanese restaurant opened in 1984 on South Pearl Street. Its restaurant-level James Beard Outstanding Restaurant semifinalist recognition in 2020 qualifies this experience for Culture Passport; the specific night remains to be recalled.",
+      "memory": {
+        "headline": "Sushi Den on South Pearl Street",
+        "teaser": "A Denver sushi favorite with roots in 1984 and seafood sourced from Japan.",
+        "story": "I have eaten at Sushi Den in Denver. The South Pearl Street institution was founded in 1984 and became famous for its relationships with Japanese fish markets. The year, occasion, and particular dishes are still open to recall.",
+        "period": "Denver years; exact date unknown",
+        "source": "Explicit personal visit confirmation; restaurant history and award independently sourced."
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2020,
+          "result": "semifinalist",
+          "category": "Outstanding Restaurant",
+          "recipient": "Sushi Den",
+          "relationship": "restaurant itself",
+          "timingRelativeToVisit": "visit_date_unknown",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+        }
+      ],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "Not a Michelin star, Bib, or Selected claim. James Beard semifinalist is the qualifying venue distinction."
+      },
+      "sourceUrl": "https://www.sushiden.net/about/",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard",
+        "note": "2020 James Beard Foundation Outstanding Restaurant semifinalist. Not winner. Visit date unspecified."
+      },
+      "curation": {
+        "status": "qualifies",
+        "basis": "james_beard",
+        "reason": "Restaurant itself appears in James Beard Foundation official 2020 Outstanding Restaurant semifinalist list.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "primary_james_beard_source_and_direct_user_visit"
+      }
+    },
+    {
+      "id": "dining-uchi-denver",
+      "type": "dining",
+      "title": "Uchi Denver",
+      "venueId": "venue-uchi-denver",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Date not established",
+        "precision": "unknown",
+        "source": "Alex reconfirmed dining at Uchi Denver October 25, 2026. A May 15, 2022 reservation is recorded separately and does not prove the visit date.",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "A confirmed visit to Uchi Denver in RiNo, one of two Denver sushi restaurants Alex specifically remembers. No Michelin or venue-specific James Beard recognition has been verified for this location.",
+      "memory": {
+        "headline": "Sushi at Uchi in RiNo",
+        "teaser": "A remembered Denver sushi experience at chef Tyson Cole's RiNo restaurant.",
+        "story": "I ate at Uchi in Denver's RiNo neighborhood. The venue is known for Japanese-inspired sushi, seasonal omakase and thoughtfully presented small plates. The specific visit date, company and dishes can be added later.",
+        "period": "Denver years; date unknown",
+        "source": "Direct recollection on October 25, 2026; contextual venue history independently sourced."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "The original Austin Uchi's founder Tyson Cole won a 2011 James Beard award, which cannot be attributed as a direct honor earned by this Denver branch."
+      },
+      "sourceUrl": "https://uchi.uchirestaurants.com/location/sushi-denver/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed personal dining experience; founder's award at original Austin restaurant does not independently qualify Denver branch."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "founder_award_at_other_location",
+        "reason": "No directly applicable Michelin or James Beard honor for Uchi Denver established; founder's honor was awarded for another location.",
+        "evidenceUrls": [
+          "https://uchi.uchirestaurants.com/location/sushi-denver/"
+        ],
+        "reviewedOn": "2026-10-25",
+        "confidence": "direct_user_confirmation_no_venue_award"
       }
     }
   ],
