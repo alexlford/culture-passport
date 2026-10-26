@@ -4093,7 +4093,7 @@
       "awardFamily": "beard",
       "interviewCue": "Aurora, Colorado, at Stanley Marketplace, a cocktail and oyster bar; more recent than your early 2021 Denver years.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -4104,7 +4104,11 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-25",
         "note": "Named bar featured in official JBF semifinalist list; user visit not established."
-      }
+      },
+      "visitPeriod": "Did not visit as of October 26, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport cocktail-bar interview on October 26, 2026.",
+      "visitNote": "Explicit negative visit answer. Preserve 2025 James Beard Best New Bar semifinalist research, but never count as a personal visit.",
+      "reviewedOn": "2026-10-26"
     },
     {
       "id": "candidate-chicago-truce",
@@ -5445,17 +5449,33 @@
         "Truce",
         "Cherry Circle Room"
       ]
+    },
+    "denverMetro": {
+      "state": "initial_candidate_screening_complete",
+      "updatedOn": "2026-10-26",
+      "scope": "37 existing Denver Metro restaurant and cocktail bar candidates",
+      "confirmedVisits": 14,
+      "notVisited": 19,
+      "maybeVisited": 4,
+      "unreviewed": 0,
+      "uncertainLeadsPreserved": [
+        "Lucina Eatery & Bar",
+        "Marco's Coal-Fired",
+        "Lady Jane",
+        "Williams & Graham"
+      ],
+      "note": "Finished first-pass Denver screening. Uncertain visits remain unconfirmed; additional places and memories may be added in future rounds."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Denver Metro",
-      "category": "cocktail_bars",
+      "area": "Boulder",
+      "category": "restaurants",
       "candidateNames": [
-        "Traveling Mercies"
+        "Frasca Food and Wine"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Traveling Mercies, the oyster and cocktail bar at Stanley Marketplace in Aurora? Visited, Maybe, or Not visited? Share an approximate year or memories if visited."
+      "question": "Have you eaten at Frasca Food and Wine on Pearl Street in Boulder? Visited, Maybe, or Not visited? If visited, share an approximate year or anything you remember."
     },
     "pausedBatches": [
       {
