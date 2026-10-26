@@ -1097,7 +1097,7 @@
       "awardFamily": "michelin",
       "interviewCue": "RiNo; Sichuan-inspired Chinese cuisine.",
       "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-bib-gourmands-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -1112,7 +1112,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-25",
+      "visitSource": "Alex explicitly answered 'Did not visit' during the Denver Culture Passport restaurant interview on 2026-10-25.",
+      "visitNote": "Direct negative interview answer; preserve Michelin Bib Gourmand recognition solely as research context and exclude from personal experiences."
     },
     {
       "id": "enveretro-ash-kara",
@@ -5334,10 +5337,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Hop Alley"
+        "Ash'Kara"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Hop Alley in RiNo, Denver? Visited, Maybe, or Not visited? If visited, share approximate year or memories."
+      "question": "Have you dined at Ash'Kara in LoHi Denver? Visited, Maybe, or Not visited? If visited, mention approximate year or any memorable details."
     },
     "pausedBatches": [
       {
