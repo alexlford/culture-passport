@@ -433,6 +433,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "concert-hawthorne-heights-freshman-year-illinois",
+      "title": "Hawthorne Heights",
+      "category": "concert",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
