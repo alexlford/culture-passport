@@ -374,6 +374,17 @@ assembly = next(r for r in concerts if r["id"] == "concert-red-hot-chili-peppers
 assert next(v for v in venues if v["id"] == assembly["venueId"])["historicalName"] == "Assembly Hall"
 lolla = next(r for r in concerts if r["id"] == "concert-lollapalooza-all-three-days")
 assert lolla["visit"]["date"] is None and lolla["visit"]["timeWindow"]["startDate"] == "2007-08-03" and lolla["visit"]["timeWindow"]["endDate"] == "2007-08-05"
+# Fifteen directly named performances are confirmed; do not infer negatives for unreviewed acts.
+lolla_interview=json.loads((ROOT / "data/lollapalooza-2007-interview.json").read_text(encoding="utf-8"))
+assert len(lolla_interview["days"]) == 3 and len(lolla_interview["sets"]) > 100
+assert lolla_interview["watchedArtistCount"] == 15
+assert len(lolla["attendedPerformers"]) == 15
+assert {x["artist"] for x in lolla["attendedPerformers"]} == {x["artist"] for x in lolla_interview["confirmedArtists"]}
+assert all(lolla_interview["answers"][x["setId"]] == "watched" for x in lolla_interview["confirmedArtists"])
+assert all(x["setExtent"] == "unspecified" for x in lolla["attendedPerformers"])
+assert lolla_interview["interviewState"] == "paused_user_remembers_more_bands_but_none_more_named"
+assert len(lolla_interview["answers"]) == 15
+
 
 # Stage chronology preserves distinct performances and existing theater entries.
 stage = [r for r in records if r["type"] in {"concert","opera","theater"}]
