@@ -4852,7 +4852,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Casual scratch-made pasta in RiNo on Larimer Street.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4871,7 +4871,10 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-26",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport interview on 2026-10-26.",
+      "visitNote": "Explicit negative answer. Preserve Michelin Guide recognition as research context; exclude from personal dining experiences."
     },
     {
       "id": "candidate-denver-metro-marco-s-coal-fired",
@@ -5420,10 +5423,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Dio Mio"
+        "Marco's Coal-Fired"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Dio Mio in Denver's RiNo neighborhood on Larimer Street? Visited, Maybe, or Not visited? If visited, share approximate year and memories."
+      "question": "Have you eaten at Marco's Coal-Fired at 2129 Larimer St near Coors Field? Visited, Maybe, or Not visited? If visited, share approximate date and a memory."
     },
     "pausedBatches": [
       {
