@@ -3827,10 +3827,10 @@
       "awardFamily": "both",
       "interviewCue": "Upscale modern Chinese on East Colfax; closed in October 2025.",
       "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
-      "visitPeriod": "2021-10-21",
-      "reviewedOn": "2026-10-25",
-      "reviewSource": "User-provided screenshot of a completed reservation for 2021-10-21; actual seating is not independently verified.",
+      "visitStatus": "confirmed",
+      "visitPeriod": "Denver years; exact dining date unknown (reservation recorded for 2021-10-21)",
+      "reviewedOn": "2026-10-26",
+      "reviewSource": "Alex directly confirmed actually eating at Q House on 2026-10-26. Booking on 2021-10-21 is evidence of a reservation only, not the confirmed dining date.",
       "screening": {
         "status": "award_qualified",
         "basis": "venue_recognition",
@@ -3842,11 +3842,14 @@
       "bookingEvidence": {
         "reservationDate": "2021-10-21",
         "partySize": 2,
-        "attendance": "unconfirmed",
-        "source": "completed_reservation_screenshot"
+        "attendance": "venue_visit_confirmed_separately",
+        "source": "completed_reservation_screenshot",
+        "note": "Reservation date is historical evidence only; it is not a verified visit date."
       },
-      "researchOnly": true,
-      "bookingLeadRecordId": "dining-q-house-denver-2021-10-21"
+      "bookingLeadRecordId": "dining-q-house-denver-2021-10-21",
+      "confirmedVisitId": "dining-q-house-denver-2021-10-21",
+      "visitSource": "Direct user confirmation of Q House dining, 2026-10-26; historical reservation evidence is separate.",
+      "visitNote": "Restaurant visit is confirmed; exact meal date and companions are not. Do not infer the visit happened on the dated reservation or that Michelin status existed at the meal."
     },
     {
       "id": "candidate-denver-metro-wildflower",
@@ -5434,10 +5437,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Q House"
+        "Wildflower"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you actually eaten at Q House in Denver? A reservation exists, but attendance is unconfirmed. Visited, Maybe, or Not visited?"
+      "question": "Have you actually eaten at Wildflower in LoHi Denver? You have a reservation record dated March 21, 2022 for seven people, but no confirmed dining date. Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
