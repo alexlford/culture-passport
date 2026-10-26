@@ -316,7 +316,7 @@ stage_research=json.loads((ROOT / "data/performance-interview.json").read_text(e
 assert len(stage_research["candidates"]) >= 3
 assert any(c["id"] == "denver-unknown-play" for c in stage_research["candidates"])
 assert next(c for c in stage_research["candidates"] if c["id"] == "theater-christmas-carol-denver-2024")["confirmation"] == "confirmed"
-assert stage_research["interviewRoute"]["nextQuestionId"] == "denver-unknown-play"
+assert stage_research["interviewRoute"]["nextQuestionId"] == "second-city-holidazed-chicago-2017"
 
 # Verified family-linked cultural artifacts already exist; opera interview now resolved.
 ring_record=next(r for r in records if r["id"] == "opera-wagner-s-ring-cycle-lyric-opera-of-chicago")
