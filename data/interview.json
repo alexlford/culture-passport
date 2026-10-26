@@ -5316,18 +5316,13 @@
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Kansas City Metro",
+      "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "The Restaurant at 1900",
-        "Room 39",
-        "Affäre",
-        "Chewology",
-        "Yoli Tortilleria",
-        "Rye (Plaza)"
+        "The Wolf's Tailor"
       ],
-      "status": "ready_for_visual_screening",
-      "question": "Do you recognize any of these six Kansas City places from interior or food photographs? Only name ones you have been to."
+      "status": "awaiting_user_response",
+      "question": "Have you dined at The Wolf's Tailor in Sunnyside during 2021–2026? Confirmed, Maybe, or Not visited. If yes, share the approximate year and anything memorable."
     },
     "pausedBatches": [
       {
@@ -5366,9 +5361,25 @@
         "visitStatusApplied": "not_visited",
         "reviewCertainty": "tentative_negative",
         "note": "Eight locations, nine candidate aliases because Fox & Pearl appears twice. No new confirmed visits."
+      },
+      {
+        "area": "Kansas City Metro",
+        "category": "restaurants",
+        "candidateNames": [
+          "The Restaurant at 1900",
+          "Room 39",
+          "Affäre",
+          "Chewology",
+          "Yoli Tortilleria",
+          "Rye (Plaza)"
+        ],
+        "status": "paused_for_denver_interview",
+        "question": "Do you recognize any of these six Kansas City places from interior or food photographs? Only name ones you have been to.",
+        "reason": "User chose to switch to Denver restaurant interview on 2026-10-25; no answers inferred",
+        "resumeOnlyOnUserRequest": true
       }
     ],
-    "interviewMode": "rapid_batch",
+    "interviewMode": "one_venue_at_a_time",
     "evidencePolicy": "Direct statements establish attendance or non-attendance as of the specified date; unanswered venues remain unreviewed. None of the six Chicago bar candidates are confirmed."
   }
 }
