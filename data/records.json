@@ -2982,13 +2982,13 @@
           "note": "Confirmed three-day festival attendance; no individual stage times inferred"
         }
       },
-      "summary": "Confirmed attendance all three days at Lollapalooza 2007 (August 3–5) in Grant Park. The lineup included Daft Punk and Pearl Jam; individual sets attended are not yet identified.",
+      "summary": "Attended all three days at Lollapalooza 2007, August 3–5, in Chicago. Fifteen artists named from Alex's direct recollection so far; he remembers seeing additional bands not yet identified.",
       "memory": {
-        "headline": "Lollapalooza — all three days",
-        "teaser": "Three full days in Grant Park at Lollapalooza 2007.",
-        "story": "You attended the entire 2007 Lollapalooza weekend. Daft Punk and Pearl Jam were among its headliners, and the event archive captures their sets. Treat the weekend as one festival memory, without inventing attendance at every stage.",
+        "headline": "Three days at Lollapalooza 2007",
+        "teaser": "Fifteen bands remembered across Friday, Saturday, and Sunday.",
+        "story": "I attended all three days of Lollapalooza 2007 in Grant Park. On Friday, I saw Daft Punk, M.I.A., and The Black Keys. Saturday brought Muse, Snow Patrol, Regina Spektor, Interpol, The Roots, and Cold War Kids. On Sunday, I saw Lupe Fiasco, Modest Mouse, Pearl Jam, Kings of Leon, Iggy & the Stooges, and Rodrigo y Gabriela. I know there were more performances that weekend, but these are the fifteen artists I can name from memory so far.",
         "period": "August 3–5, 2007",
-        "source": "Direct user recollection matched to the published production window; exact performance date unknown."
+        "source": "Alex's direct answers across three Culture Passport Lollapalooza 2007 interview rounds, with historical lineup corroboration."
       },
       "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
       "editorial": {
@@ -3002,7 +3002,115 @@
         "note": "The source corroborates a public event's lineup/date/venue; the user's personal archive or direct recollection supports attendance. Do not infer personal attendance from the public listing alone.",
         "sourceUrl": "https://news.pollstar.com/2007/04/12/lolla-07/",
         "verifiedOn": "2026-10-25"
-      }
+      },
+      "attendedPerformers": [
+        {
+          "artist": "Daft Punk",
+          "date": "2007-08-03",
+          "stage": "AT&T",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "M.I.A.",
+          "date": "2007-08-03",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "The Black Keys",
+          "date": "2007-08-03",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Muse",
+          "date": "2007-08-04",
+          "stage": "AT&T",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Snow Patrol",
+          "date": "2007-08-04",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Regina Spektor",
+          "date": "2007-08-04",
+          "stage": "adidas",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Interpol",
+          "date": "2007-08-04",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "The Roots",
+          "date": "2007-08-04",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Cold War Kids",
+          "date": "2007-08-04",
+          "stage": "Citi",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Lupe Fiasco",
+          "date": "2007-08-05",
+          "stage": "AT&T",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Modest Mouse",
+          "date": "2007-08-05",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Pearl Jam",
+          "date": "2007-08-05",
+          "stage": "AT&T",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Kings of Leon",
+          "date": "2007-08-05",
+          "stage": "AT&T",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Iggy & the Stooges",
+          "date": "2007-08-05",
+          "stage": "Bud Light",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        },
+        {
+          "artist": "Rodrigo y Gabriela",
+          "date": "2007-08-05",
+          "stage": "adidas",
+          "evidenceType": "direct_user_confirmation",
+          "setExtent": "unspecified"
+        }
+      ],
+      "artistInterviewStatus": "fifteen_confirmed_more_attended_bands_not_yet_recalled"
     },
     {
       "id": "theater-saturday-night-live-sigourney-weaver-the-ting-tings",
