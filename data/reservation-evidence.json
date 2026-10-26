@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "source": "User-provided screenshots of completed restaurant reservations in the OpenTable app.",
   "policy": "A completed reservation is strong corroborating evidence but does not independently prove diner attendance. The screening of MICHELIN/James Beard status must use named-venue recognition, not simply a high rating or chef at another branch. One explicitly excluded unqualified venue is omitted from this public ledger at the user's request.",
   "entries": [
@@ -167,9 +167,10 @@
       "reservationStatus": "completed",
       "source": "user_provided_reservation_screenshot",
       "screenshot": "IMG_3558.jpeg",
-      "attendanceInference": "not_confirmed",
+      "attendanceInference": "venue_visit_confirmed_separately_exact_date_unverified",
       "publicCuration": "research_only",
-      "archivedRecordId": "dining-q-house-denver-2021-10-21"
+      "archivedRecordId": "dining-q-house-denver-2021-10-21",
+      "attendanceNote": "Alex independently confirmed having dined at Q House on 2026-10-26. Reservation on 2021-10-21 remains a booking record only, not proof the meal occurred on that date."
     },
     {
       "id": "shells-and-sauce-2021-10-05",
@@ -347,7 +348,8 @@
       "partySize": 2,
       "status": "reservation_completed",
       "sourceType": "user_provided_screenshot",
-      "publicationEligibility": "requires_independent_michelin_james_beard_review"
+      "publicationEligibility": "requires_independent_michelin_james_beard_review",
+      "attendanceNote": "Venue visit confirmed independently; reservation date is not a verified dining date."
     },
     {
       "name": "Shells and Sauce",
