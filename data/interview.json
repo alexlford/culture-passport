@@ -1009,7 +1009,7 @@
       "awardFamily": "beard",
       "interviewCue": "Larimer Square; Mediterranean cuisine and handmade pasta.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard",
@@ -1024,7 +1024,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-25",
+      "visitSource": "Alex explicitly stated 'Did not visit' in the Denver restaurant interview on 2026-10-25.",
+      "visitNote": "Explicit negative response; do not count in confirmed dining experiences. Preserve restaurant award recognition in research catalog."
     },
     {
       "id": "enveretro-yuan-wonton",
@@ -5328,10 +5331,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Rioja"
+        "Tavernetta"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Rioja in Larimer Square, Denver? Visited, Maybe, or Not visited? If visited, share approximate year or memories."
+      "question": "Have you eaten at Tavernetta near Union Station, Denver? Visited, Maybe, or Not visited? Add approximate year and what you remember if visited."
     },
     "pausedBatches": [
       {
