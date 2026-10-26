@@ -545,7 +545,9 @@ assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "
 chapter = interview_data["interviewChapters"]["chicagoCocktailBars"]
 assert chapter["state"] == "paused_by_user_for_now" and chapter["newConfirmedVisits"] == []
 assert len(chapter["unansweredVenues"]) == 6
-assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "unreviewed" for name in chapter["unansweredVenues"])
+assert chapter["unansweredVenues"] == []
+assert set(chapter["explicitlyNotVisitedAsOf"]) == chicago_six
+assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "not_visited" for name in chapter["explicitlyNotVisitedAsOf"])
 
 assert "const inCollection=" in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert 'record["status"] == "recollected"' in (ROOT / "scripts/build_public_preview.py").read_text(encoding="utf-8")
