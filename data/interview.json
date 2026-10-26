@@ -2586,7 +2586,7 @@
       "awardFamily": "beard",
       "interviewCue": "Crossroads destination with an expansive dining room, stage and live music; also offers an intimate tasting room. Another music-and-dinner memory candidate.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -2604,7 +2604,10 @@
         "reason": "2023 James Beard Foundation Best Chef: Midwest semifinalist at this restaurant (verified official source).",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-the-antler-room",
@@ -2615,7 +2618,7 @@
       "awardFamily": "beard",
       "interviewCue": "Small seasonal globally influenced restaurant in the Union Hill/Longfellow area with intimate tables and inventive small plates.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2633,7 +2636,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-bluestem",
@@ -2644,7 +2650,7 @@
       "awardFamily": "beard",
       "interviewCue": "Former acclaimed Westside tasting-menu restaurant by Colby and Megan Garrelts; closed in 2020.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2662,7 +2668,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-rye-leawood",
@@ -2673,7 +2682,7 @@
       "awardFamily": "beard",
       "interviewCue": "Modern Midwestern comfort food in Leawood, Kansas; one of Colby and Megan Garrelts' restaurants.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2691,7 +2700,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-rye-plaza",
@@ -2731,7 +2743,7 @@
       "awardFamily": "beard",
       "interviewCue": "Landmark fine-dining room high above Crown Center; ceased regular public restaurant operations at the end of 2016, later used for special events.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2749,7 +2761,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-q39",
@@ -2947,7 +2962,7 @@
       "awardFamily": "beard",
       "interviewCue": "Restaurant inside Hotel Kansas City, opened 2020; kitchen led by Johnny and Helen Jo Leach.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2965,7 +2980,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-gram-dun",
@@ -3005,7 +3023,7 @@
       "awardFamily": "beard",
       "interviewCue": "Westside Kansas City butcher-driven restaurant, smoked meats, seasonal plates, patio and old-house interior.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "documented_award_candidate",
       "addedOn": "2026-10-25",
       "screening": {
@@ -3022,7 +3040,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-the-restaurant-at-1900",
@@ -3061,7 +3082,7 @@
       "awardFamily": "beard",
       "interviewCue": "Waldo neighborhood; northern Thai food, vibrant dining room, spicy regional dishes.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "documented_award_candidate",
       "addedOn": "2026-10-25",
       "screening": {
@@ -3078,7 +3099,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-fox-pearl",
@@ -3089,7 +3113,7 @@
       "awardFamily": "beard",
       "interviewCue": "Westside KC restaurant known for live-fire and smoked meats, in an intimate setting.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "award_screened",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -3099,7 +3123,10 @@
         "reason": "James Beard recognition documented in Visit KC's honorees guide; original category/year should be rechecked if a visit is confirmed.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
+      "reviewedOn": "2026-10-25",
+      "reviewCertainty": "tentative_negative"
     },
     {
       "id": "candidate-kansas-city-metro-room-39",
@@ -5292,17 +5319,15 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Corvino Supper Club & Tasting Room",
-        "The Antler Room",
-        "Bluestem",
-        "Rye (Leawood)",
-        "The Town Company",
-        "Fox and Pearl",
-        "Waldo Thai",
-        "The Restaurant at 1900"
+        "The Restaurant at 1900",
+        "Room 39",
+        "Affäre",
+        "Chewology",
+        "Yoli Tortilleria",
+        "Rye (Plaza)"
       ],
-      "status": "ready_for_user_answers",
-      "question": "Which of these Kansas City restaurants have you visited? Name any you've been to; those not named stay unanswered."
+      "status": "ready_for_visual_screening",
+      "question": "Do you recognize any of these six Kansas City places from interior or food photographs? Only name ones you have been to."
     },
     "pausedBatches": [
       {
@@ -5322,6 +5347,25 @@
         "newlyConfirmedVisitNames": [],
         "preservePriorConfirmedAndRecollected": true,
         "reason": "The user named none in the preceding empty submission, then explicitly answered that he has not visited the six proposed venues yet. His existing confirmed and uncertain Chicago memories must not be overwritten."
+      },
+      {
+        "area": "Kansas City Metro",
+        "category": "restaurants",
+        "status": "paused_after_tentative_negative",
+        "closedOn": "2026-10-25",
+        "candidateNames": [
+          "Corvino Supper Club & Tasting Room",
+          "The Antler Room",
+          "Bluestem",
+          "Rye (Leawood)",
+          "The Town Company",
+          "Fox & Pearl",
+          "Waldo Thai",
+          "The American Restaurant"
+        ],
+        "visitStatusApplied": "not_visited",
+        "reviewCertainty": "tentative_negative",
+        "note": "Eight locations, nine candidate aliases because Fox & Pearl appears twice. No new confirmed visits."
       }
     ],
     "interviewMode": "rapid_batch",
