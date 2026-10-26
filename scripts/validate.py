@@ -289,7 +289,7 @@ assert aud["summary"] == {
     "distinctPublishedVenues": len({r["venueId"] for r in published_experiences}),
     "recognized": sum(r.get("editorial", {}).get("awardQualified", False) for r in published_experiences),
     "featuredPersonal": sum(r.get("editorial", {}).get("featuredException", False) for r in published_experiences),
-    "unfeaturedOther": sum(not r.get("editorial", {}).get("awardQualified", False) and not r.get("editorial", {}).get("featuredException", False) for r in published_experiences),
+    "unfeaturedOther": len({r["venueId"] for r in published_experiences if not r.get("editorial", {}).get("awardQualified", False) and not r.get("editorial", {}).get("featuredException", False)}),
     "additionalConfirmedArchiveOnly": len(aud["confirmedArchiveOnly"]),
     "possibleVisitLeads": len(aud["possiblyVisited"]),
     "reviewedButNotConfirmedReservations": len(aud["bookingLeads"]),
