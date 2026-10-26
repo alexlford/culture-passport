@@ -4819,7 +4819,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Modern steakhouse in LoDo with distinctive steak displays.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4838,7 +4838,10 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 26, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Denver Culture Passport restaurant interview on October 26, 2026.",
+      "visitNote": "Explicit negative response; preserve Michelin Guide restaurant qualification solely as research context, not a personal visit."
     },
     {
       "id": "candidate-denver-metro-dio-mio",
@@ -5417,10 +5420,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "A5 Steakhouse"
+        "Dio Mio"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at A5 Steakhouse in Denver's LoDo neighborhood? Visited, Maybe, or Not visited? If visited, share approximate year or memories."
+      "question": "Have you eaten at Dio Mio in Denver's RiNo neighborhood on Larimer Street? Visited, Maybe, or Not visited? If visited, share approximate year and memories."
     },
     "pausedBatches": [
       {
