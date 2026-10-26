@@ -16,7 +16,7 @@ assert {c["id"] for c in records_data["categories"]} == types
 venue_ids = {v["id"] for v in venues}
 assert all(r["status"] in {"confirmed", "recollected", "reservation_only"} and r["type"] in types for r in records)
 assert len([r for r in records if r["status"] == "confirmed"]) >= 58
-assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Q House", "Wildflower"}
+assert {r["title"] for r in records if r["status"] == "reservation_only"} == {"Wildflower"}
 assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
 assert all(r["venueId"] in venue_ids and r["visit"]["source"] for r in records)
 assert all(r["visit"].get("date") is None or r["visit"]["precision"] == "day" for r in records)
@@ -184,7 +184,7 @@ assert sum(1 for e in reservations if e["name"] == "Ritual Social House") == 2
 assert sum(1 for e in reservations if e["reservationStatus"] == "waitlist_completed") == 1
 blanco = next(e for e in reservations if e["name"].startswith("Blanco Cocina"))
 assert blanco["attendanceInference"] == "not_confirmed"
-for name, date in [("Q House", "2021-10-21"), ("Wildflower", "2022-03-21")]:
+for name, date in [("Wildflower", "2022-03-21")]:
     restaurant = next(r for r in records if r["title"] == name)
     assert restaurant["status"] == "reservation_only"
     assert restaurant["visit"]["date"] is None and restaurant["visit"]["evidenceType"] == "completed_reservation_only"
@@ -195,7 +195,15 @@ for name, date in [("Q House", "2021-10-21"), ("Wildflower", "2022-03-21")]:
     assert candidate["visitStatus"] == "unreviewed" and candidate.get("bookingLeadRecordId") == restaurant["id"]
     assert not candidate.get("confirmedVisitId")
 q_house = next(r for r in records if r["title"] == "Q House")
-assert any(a["organization"] == "James Beard Foundation" and a["year"] == 2019 and a["result"] == "semifinalist" and a["timingRelativeToVisit"] == "unknown_visit_date" for a in q_house["recognitions"])
+assert q_house["status"] == "confirmed"
+assert q_house["visit"]["date"] is None and q_house["visit"]["evidenceType"] == "direct_user_recollection"
+assert q_house["visit"]["attendanceCertainty"] == "restaurant_visit_confirmed_exact_date_unverified"
+assert any(b["date"] == "2021-10-21" and b["attendanceInference"] == "reservation_date_not_verified_as_meal_date" for b in q_house["reservations"])
+assert any(a["organization"] == "James Beard Foundation" and a["year"] == 2019 and a["result"] == "semifinalist" and a["timingRelativeToVisit"] == "visit_date_unknown" for a in q_house["recognitions"])
+q_house_candidate = next(c for c in candidates if c["area"] == "Denver Metro" and c["name"] == "Q House")
+assert q_house_candidate["visitStatus"] == "confirmed" and q_house_candidate["confirmedVisitId"] == q_house["id"]
+assert next(e for e in reservations if e["name"] == "Q House")["reservationDate"] == "2021-10-21"
+assert next(e for e in reservations if e["name"] == "Q House")["attendanceInference"] == "venue_visit_confirmed_separately_exact_date_unverified"
 wildflower = next(r for r in records if r["title"] == "Wildflower")
 assert wildflower["guide"]["stars"] == 0 and all(a["timingRelativeToVisit"] == "unknown_visit_date" for a in wildflower["recognitions"])
 uchi = next(c for c in candidates if c["name"] == "Uchi Denver")
@@ -297,8 +305,9 @@ assert aud["summary"] == {
     "reviewedButNotConfirmedReservations": len(aud["bookingLeads"]),
 }
 assert {x["venueId"] for x in aud["publishedVenues"]} == {r["venueId"] for r in published_experiences}
-assert {x["name"] for x in aud["reservationOnlyVenues"]} == {"Q House", "Wildflower"}
-assert not {"Q House", "Wildflower"} & {x["name"] for x in aud["publishedVenues"]}
+assert {x["name"] for x in aud["reservationOnlyVenues"]} == {"Wildflower"}
+assert not {x["name"] for x in aud["reservationOnlyVenues"]} & {x["name"] for x in aud["publishedVenues"]}
+assert any(x["name"] == "Q House" and x["visitConfidence"] == "direct_user_confirmation_exact_meal_date_unknown" for x in aud["publishedVenues"])
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {x["name"] for x in aud["reservationOnlyVenues"]}
 assert len(published_experiences) == aud["summary"]["canonExperienceRecords"]
 assert {"Joe's Kansas City Bar-B-Que", "Q39", "Arthur Bryant's Barbeque",
