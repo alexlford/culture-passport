@@ -2760,30 +2760,31 @@
       "visit": {
         "date": null,
         "year": 2017,
-        "month": 12,
+        "month": 11,
         "possibleYears": [
           2017
         ],
-        "label": "Christmas season 2017",
+        "label": "Around Thanksgiving 2017",
         "precision": "approximate_month",
-        "source": "User directly recalled the cultural outing in conversation October 25, 2026; matching production dates established independently, not a verified ticket.",
+        "source": "User-confirmed Second City attendance in 2017; in an October 25, 2026 follow-up Alex refined the timing to around Thanksgiving rather than Christmas 2017. No specific performance date is claimed.",
         "evidenceType": "first_person_memory"
       },
-      "summary": "A holiday-season outing to a Second City performance during a Chicago visit in 2017.",
+      "summary": "Confirmed attendance at The Second City in Chicago around Thanksgiving 2017. Holidazed & Confused: Mandatory Merriment is a probable match based on Alex's recognition of the title and contemporaneous 2017 listings; exact revue and night remain unconfirmed.",
       "memory": {
-        "headline": "Laughing through the holidays in Chicago",
-        "teaser": "A holiday-season outing to a Second City performance during a Chicago visit in 2017.",
-        "story": "You remember going to a Second City performance in Chicago around Christmas 2017. Sketch comedy, improvisation, and that city's distinctive theater culture are the center of this memory. The troupe had more than one production during the season, including Holidazed and Confused, so we are not assigning an exact revue or stage without a ticket, photo, or more specific recollection.",
-        "period": "Christmas season 2017",
-        "source": "First-person recollection plus dated venue/production programming"
+        "headline": "Thanksgiving-week laughs at The Second City",
+        "teaser": "An evening of Chicago sketch comedy around Thanksgiving 2017.",
+        "story": "I went to The Second City in Chicago around Thanksgiving 2017. The holiday revue Holidazed & Confused: Mandatory Merriment sounds familiar, and contemporary listings place it at The Second City during that period, but I can't yet say with certainty that it was the exact performance we saw. The comedy night and city are what I remember clearly; the sketches, companions, and specific evening can be added as they come back.",
+        "period": "Around Thanksgiving 2017",
+        "source": "Alex's confirmed venue recollection, October 25 2026 approximate-Thanksgiving correction, and tentative title recognition; verified period-appropriate historical programming."
       },
       "production": {
-        "name": "The Second City — holiday performance",
+        "name": "Holidazed & Confused: Mandatory Merriment (probable)",
         "titleConfirmed": false,
-        "engagementWindow": "December 2017",
-        "identificationConfidence": "confirmed_company_and_city;exact_production_unverified",
+        "engagementWindow": "November 15 – December 30, 2017 (production run; exact attended night unknown)",
+        "identificationConfidence": "user_says_title_makes_sense_not_confirmed",
         "exactAttendanceDate": null,
-        "sourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more"
+        "sourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more",
+        "candidateShowSourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more"
       },
       "recognitions": [],
       "sourceUrl": "https://chicago.suntimes.com/2017/11/22/18368555/holiday-show-guide-scrooges-nutcrackers-taylor-swift-and-more"

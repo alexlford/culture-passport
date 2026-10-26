@@ -311,12 +311,15 @@ assert next(r for r in stage if r["title"] == "The Book of Mormon")["production"
 assert next(r for r in stage if r["title"] == "SIX")["production"]["engagementWindow"] == "December 5–24, 2023"
 assert next(r for r in stage if r["title"] == "A Christmas Carol — Denver")["production"]["titleConfirmed"] is True
 assert next(r for r in stage if r["title"] == "The Second City — Chicago holiday outing")["production"]["titleConfirmed"] is False
+assert next(r for r in stage if r["id"] == "theater-second-city-chicago-2017")["visit"]["month"] == 11
+assert next(r for r in stage if r["id"] == "theater-second-city-chicago-2017")["production"]["identificationConfidence"] == "user_says_title_makes_sense_not_confirmed"
 assert next(r for r in stage if r["title"] == "A Christmas Carol — Denver")["production"]["exactAttendanceDate"] is None
 stage_research=json.loads((ROOT / "data/performance-interview.json").read_text(encoding="utf-8"))
 assert len(stage_research["candidates"]) >= 3
 assert any(c["id"] == "denver-unknown-play" for c in stage_research["candidates"])
 assert next(c for c in stage_research["candidates"] if c["id"] == "theater-christmas-carol-denver-2024")["confirmation"] == "confirmed"
-assert stage_research["interviewRoute"]["nextQuestionId"] == "second-city-holidazed-chicago-2017"
+assert stage_research["interviewRoute"]["nextQuestionId"] == "denver-wicked-2024"
+assert stage_research["interviewRoute"]["interviewMode"] == "rapid_batch"
 
 # Verified family-linked cultural artifacts already exist; opera interview now resolved.
 ring_record=next(r for r in records if r["id"] == "opera-wagner-s-ring-cycle-lyric-opera-of-chicago")
@@ -342,7 +345,7 @@ assert film["screening"]["scheduledTime"] == "8:00 PM" and film["screening"]["ex
 assert film["screening"]["scheduleSourceUrl"].startswith("https://www.denverfilm.org/")
 assert next(v for v in venues if v["id"] == film["venueId"])["location"]["precision"] == "city-centroid"
 assert next(x for x in stage_research["candidates"] if x["id"] == "denver-unknown-play")["followUpStatus"] == "awaiting_friends_reply"
-assert stage_research["interviewRoute"]["nextQuestionId"] == "second-city-holidazed-chicago-2017"
+assert stage_research["interviewRoute"]["nextQuestionId"] == "denver-wicked-2024"
 assert any(a["id"] == film["id"] and a["category"] == "film" and a["status"] == "pending" for a in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 assert '<button type="button" data-type="film"' in (ROOT / "explore.html").read_text(encoding="utf-8")
 assert '<option value="film">' in (ROOT / "timeline.html").read_text(encoding="utf-8")
