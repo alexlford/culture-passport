@@ -1213,7 +1213,7 @@
       "awardFamily": "michelin",
       "interviewCue": "West Highland; ramen, noodles and Japanese small plates.",
       "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-bib-gourmands-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -1228,7 +1228,10 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Did not visit as of 2026-10-25",
+      "visitSource": "Alex explicitly answered 'Did not visit' during Denver Culture Passport restaurant interview on 2026-10-25.",
+      "visitNote": "Explicit negative response: preserve Michelin Bib Gourmand research context but exclude from confirmed visits."
     },
     {
       "id": "enveretro-safta",
@@ -5371,10 +5374,10 @@
       "area": "Denver Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Glo Noodle House"
+        "Temaki Den"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you visit Glo Noodle House? Reply visited, maybe, or not visited."
+      "question": "Have you eaten at Temaki Den in RiNo, Denver? Visited, Maybe, or Not visited? If visited, please share the approximate year and what you remember."
     },
     "pausedBatches": [
       {
