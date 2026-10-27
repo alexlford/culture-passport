@@ -6136,11 +6136,11 @@
       "recognition": "No Michelin or James Beard award claimed; qualification screening deferred until a confirmed visit.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_second_round",
+      "visitStatus": "maybe",
+      "researchStatus": "possible_visit_user_direct_response",
       "addedOn": "2026-10-27",
       "priority": "standard",
-      "visitNote": "Next unreviewed Crested Butte breakfast restaurant candidate. Restaurant website and local dining guide verify address and menu; no attendance or visit date asserted.",
+      "visitNote": "On October 27, 2026 Alex explicitly answered 'Maybe visited' regarding McGill's at Crested Butte (228 Elk Avenue). Neither dining attendance nor meal date is confirmed. Keep it as a private uncertain interview candidate, not a confirmed visit, award-watchlist entry or public memory.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -6151,8 +6151,39 @@
       },
       "eligibility": {
         "status": "unreviewed",
+        "basis": "attendance_unconfirmed",
+        "reason": "User only maybe recalls McGill's; Michelin/James Beard review is not an assertion of a qualifying visit.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-paradise-cafe",
+      "name": "Paradise Cafe",
+      "sourceUrl": "https://www.paradisecafecb.com/",
+      "addressHint": "435 6th Street, Crested Butte, CO 81224",
+      "interviewCue": "A longtime, casual breakfast/lunch café just off the main Elk Avenue corridor. Green-and-yellow Paradise Cafe signage with rooster logo; windows say Espresso, Bloody Marys, and Breakfast & Lunch. Known for Maui pancakes, huevos rancheros, espresso drinks and sunny patio. This is the café in town, NOT the Paradise Warming House at the ski resort's Paradise lift. Ask if Alex actually ate here; no attendance or date presumed.",
+      "area": "Crested Butte",
+      "recognition": "Local Best of the Butte breakfast accolade claimed by the restaurant, but not a Michelin or James Beard distinction. Venue-specific Michelin/JBF qualification not yet audited.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_second_round",
+      "addedOn": "2026-10-27",
+      "priority": "standard",
+      "visitNote": "New unreviewed local café lead; selected as an identifiable visual prompt after McGill's. Restaurant's own site establishes location, atmosphere and breakfast/lunch menu. Do not confuse with Paradise Warming House ski-mountain location.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.paradisecafecb.com/",
+        "sourceTier": "restaurant_primary",
+        "verifiedAt": null,
+        "note": "Restaurant claims 'Best of the Butte — Breakfast Joint - 5 Years Running'; local honor is not a Michelin/JBF award. No separate Michelin/JBF verification performed."
+      },
+      "eligibility": {
+        "status": "unreviewed",
         "basis": "context",
-        "reason": "Requires a direct visit response then venue-specific recognition research before adding to award watchlist.",
+        "reason": "Requires direct user dining confirmation and later source-specific Michelin/JBF recognition research. Do not put unconfirmed venue on private award watchlist.",
         "screenedOn": null,
         "verifiedForPublication": false
       }
@@ -6451,12 +6482,12 @@
       "state": "second_round_in_progress",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
-      "candidateCount": 16,
+      "candidateCount": 17,
       "confirmedNamedVisits": 6,
-      "note": "First 10 CB venues answered; expanded round: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe, Marchitelli's/The Gourmet Noodle maybe, historical Last Steep maybe. McGill's at Crested Butte is next. Six confirmed dining visits remain unchanged; successor restaurants and award qualifications never inferred from possible visits.",
+      "note": "First 10 CB candidates answered; expanded: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe, Marchitelli's/The Gourmet Noodle maybe, The Last Steep maybe, McGill's maybe. Next Paradise Cafe (435 6th St), distinct from resort Paradise Warming House. No additional confirmed meal inferred; six direct confirmations preserved.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 9,
+      "maybeVisited": 10,
       "unreviewed": 1,
       "confirmedNames": [
         "The Sunflower",
@@ -6475,14 +6506,16 @@
         "Bonez",
         "Izakaya Cabin",
         "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
-        "The Last Steep Bar & Grill"
+        "The Last Steep Bar & Grill",
+        "McGill's at Crested Butte"
       ],
       "additionalCandidatesQueued": [
         "Two Twelve",
         "Izakaya Cabin",
         "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
         "The Last Steep Bar & Grill",
-        "McGill's at Crested Butte"
+        "McGill's at Crested Butte",
+        "Paradise Cafe"
       ]
     },
     "kansasCityMetro": {
@@ -6500,10 +6533,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "McGill's at Crested Butte"
+        "Paradise Cafe"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten breakfast or lunch at McGill's, the diner at 228 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Paradise Cafe, the breakfast-and-lunch café at 435 6th Street in Crested Butte (green-and-yellow rooster sign)? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
@@ -6588,7 +6621,8 @@
       "Izakaya Cabin",
       "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
       "The Last Steep Bar & Grill",
-      "McGill's at Crested Butte"
+      "McGill's at Crested Butte",
+      "Paradise Cafe"
     ]
   }
 }
