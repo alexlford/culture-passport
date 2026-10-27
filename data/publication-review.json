@@ -465,6 +465,30 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-uchi-denver",
+      "title": "Uchi Denver",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-allreds-telluride-date-unknown",
+      "title": "Allred's Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-jack-stack-overland-park-multiple-visits",
+      "title": "Jack Stack Barbecue (Overland Park)",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
