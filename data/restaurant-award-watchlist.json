@@ -724,7 +724,7 @@
         "data/records.json",
         "data/interview.json"
       ],
-      "sourceNotes": "User directly confirmed dining at the 214 Elk Ave restaurant. As of 2026-10-27, The Sunflower is absent from the official Michelin Colorado 2026 statewide selection and the 2026 James Beard semifinalist list. This is a limited screen, not proof there were never honors. Keep distinct from Michelin-listed Wildflower Denver.",
+      "sourceNotes": "Deep historical research documents chef alumni (Christoph Peherstorfer, John Leonardi, Ian Scott), former executive chef's festival participation and independent publication coverage. JBF historical Smart Catch belongs to later employer Soupçon, not Sunflower. Screenshot Michelin 2025/JBF 2026 hospitality claims belong to Restaurant Olivia in Denver, not Sunflower. Retain as a richly documented confirmed dining memory and permanent watchlist entry; eligible for personal feature if user expressly selects it, but not currently Michelin/JBF-qualified.",
       "reviewHistory": [
         {
           "date": "2026-10-27",
@@ -743,11 +743,67 @@
           "evidenceUrls": [
             "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "deep_dive_chef_lineage_and_award_attribution",
+          "note": "Traced Sunflower former executive chefs Christoph Peherstorfer and John Leonardi, former sous chef Ian Scott, festival involvement, Colorado.com and Axios mentions, and original screenshot citations. Festival bio of Restaurant Olivia's Ty Leon is adjacent to Sunflower-linked alumnus Christoph; the JBF hospitality and Michelin service awards belong to Olivia, not Sunflower. The former Sunflower chef's later Soupçon Smart Catch venue is a secondary alumni link, not direct Sunflower Foundation recognition. No Sunflower Michelin/JBF honor verified; honor attribution not transferred across chefs or restaurants.",
+          "evidenceUrls": [
+            "https://www.cbwineandfood.org/whos-coming",
+            "https://www.alpenchef.com/",
+            "https://www.theadventuristmagazine.com/chef-profiles/the-west/colorado/john-leonardi-of-soupcon-in-crested-butte",
+            "https://www.slogarcrestedbutte.com/storytime",
+            "https://www.michelin.com/en/publications/products-and-services/michelin-guide-colorado-2025",
+            "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "https://www.colorado.com/en/articles/explore-5-colorados-epic-mountain-ranges"
+          ]
         }
       ],
       "recognitionEvents": [],
       "expandedReviewTier": "archived_pending_recognition",
-      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json",
+      "industryNetworkEvidence": [
+        {
+          "person": "Christoph Peherstorfer",
+          "role": "Former Sunflower executive chef; listed participant at 2026 Crested Butte Wine + Food Festival",
+          "sourceUrls": [
+            "https://www.alpenchef.com/",
+            "https://www.cbwineandfood.org/whos-coming"
+          ],
+          "officialAwardClaim": false
+        },
+        {
+          "person": "John Leonardi",
+          "role": "Former Sunflower executive chef; later owner of Soupçon, which appears in JBF historic Smart Catch Committed roster",
+          "sourceUrls": [
+            "https://www.theadventuristmagazine.com/chef-profiles/the-west/colorado/john-leonardi-of-soupcon-in-crested-butte",
+            "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page"
+          ],
+          "officialAwardClaim": false
+        },
+        {
+          "person": "Ian Scott",
+          "role": "Former Sunflower sous chef; later Slogar chef-owner",
+          "sourceUrls": [
+            "https://www.slogarcrestedbutte.com/storytime"
+          ],
+          "officialAwardClaim": false
+        }
+      ],
+      "recognitionClaimReview": {
+        "date": "2026-10-27",
+        "claims": {
+          "jbf2026OutstandingHospitality": "Not Sunflower. Official JBF 2026 semifinalist: Restaurant Olivia, Denver; absent from finalists. Festival page loosely calls its chef a nominee.",
+          "michelin2025OutstandingService": "Not Sunflower. Official 2025 Colorado Outstanding Service winner: Heather Morrison at Restaurant Olivia.",
+          "usaToday2026RestaurantsOfYear": "Unable to verify for Sunflower."
+        },
+        "sourceUrls": [
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-colorado-2025",
+          "https://www.cbwineandfood.org/whos-coming"
+        ]
+      }
     },
     {
       "id": "venue-the-wooden-nickel-crested-butte",
@@ -939,6 +995,52 @@
           "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
           "evidenceUrls": [
             "https://guide.michelin.com/us/en/colorado/restaurants"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-teocalli-tamale-crested-butte",
+      "venueId": "venue-teocalli-tamale-crested-butte",
+      "venueName": "Teocalli Tamale",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-teocalli-tamale-crested-butte-date-unknown"
+      ],
+      "visitPeriods": [
+        "Crested Butte visit; date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Direct confirmed meal at the Crested Butte location. Tourism source describes locally voted Best in the Butte, but this is not Michelin or James Beard Foundation recognition. No direct official Michelin/JBF award or editorial/program connection found in targeted 2026 source review. Keep historic coverage open.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Targeted statewide Michelin 2026, JBF 2026 awards and Foundation program searches. No verifiable official venue link. Local 'Best in the Butte' reputation is independent; do not call it a Beard/Michelin award.",
+          "evidenceUrls": [
+            "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+            "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "https://heycrestedbutte.com/crested-butte-restaurants/"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "No direct verified official Michelin/JBF event, program or editorial connection found; retain as confirmed private memory.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado"
           ]
         }
       ],
