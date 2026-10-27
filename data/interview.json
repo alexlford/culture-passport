@@ -2901,12 +2901,12 @@
       "awardFamily": "context",
       "interviewCue": "Historic Freight House restaurant in Crossroads with higher-end barbecue, red meat, and upscale warehouse dining. User confirmed Jack Stack generally; the particular branch, including Freight House, is NOT confirmed.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "confirmed",
+      "visitStatus": "unreviewed",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
+        "status": "location_unconfirmed",
         "basis": null,
         "evidenceUrl": null,
         "sourceTier": null,
@@ -2914,17 +2914,19 @@
         "note": "Confirmed barbecue memory; no direct Michelin or James Beard distinction established. Recorded in BBQ trail, outside curated awards view."
       },
       "eligibility": {
-        "status": "outside_scope",
+        "status": "unreviewed",
         "basis": "context",
-        "reason": "No Michelin Guide or James Beard honor established for the named venue.",
+        "reason": "Brand-level visits confirmed; particular Freight House visit not yet confirmed.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewedOn": "2026-10-25",
-      "reviewSource": "User directly confirmed visiting this Kansas City barbecue restaurant, location/date unspecified.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Alex has confirmed visiting multiple Jack Stack locations and repeatedly visiting the Overland Park location. He has NOT identified Freight House as an attended branch, so this location remains unreviewed.",
       "visitPeriod": "Kansas City visits, 2010–present; specific meal date not recorded",
       "locationConfirmed": false,
-      "researchOnly": true
+      "researchOnly": true,
+      "confirmedVisitId": null,
+      "visitNote": "Jack Stack restaurant-group visits confirmed by user, including multiple repeated Overland Park meals, but attendance at the Freight House location unconfirmed. Do not infer a Freight House dining visit from group-level memories."
     },
     {
       "id": "candidate-kansas-city-metro-lidia-s-kansas-city",
@@ -5869,6 +5871,44 @@
         "screenedOn": null,
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-kansas-city-metro-jack-stack-barbecue-overland-park",
+      "area": "Kansas City Metro",
+      "name": "Jack Stack Barbecue (Overland Park)",
+      "category": "restaurants",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "sourceUrl": "https://www.jackstackbbq.com/locations/overland-park",
+      "addressHint": "9520 Metcalf Ave, Overland Park, KS 66212",
+      "recognition": "James Beard Foundation Beard House guest dinner (2012): three named Jack Stack Overland Park chefs. NOT a James Beard Award or nomination.",
+      "recognitionYear": 2012,
+      "awardFamily": "jbf_program",
+      "interviewCue": "Overland Park Jack Stack at 9520 Metcalf Avenue, the branch Alex visited many times.",
+      "visitStatus": "confirmed",
+      "locationConfirmed": true,
+      "repeatVisitsConfirmed": true,
+      "confirmedVisitId": "dining-jack-stack-overland-park-multiple-visits",
+      "researchStatus": "directly_confirmed_repeated_visit_and_foundation_program",
+      "reviewedOn": "2026-10-27",
+      "visitPeriod": "Multiple visits over the Kansas City years; individual years and dates not established",
+      "visitSource": "On 2026-10-27 Alex said: 'I've been to multiple Jack Stack locations. I've been to the Overland Park location many times.'",
+      "visitNote": "Multiple direct confirmed visits to the Overland Park branch; specific dates, meals, companions unknown. The Beard House program was held July 26, 2012 in New York by a team identified as Jack Stack, Overland Park, not at this restaurant. Do not attribute the event to a user dining date.",
+      "screening": {
+        "status": "foundation_program_connection",
+        "basis": "jbf_program",
+        "evidenceUrl": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "Three chefs from Jack Stack Barbecue, Overland Park (Todd Hulse, Tim Keegan, Jeff Rousselo) headlined a July 26, 2012 James Beard House event in NYC. Official event listing, not a James Beard award."
+      },
+      "eligibility": {
+        "status": "officially_featured_candidate",
+        "basis": "foundation_program",
+        "reason": "Exact-branch chefs documented as participants in a JBF Beard House dinner. Qualified for separate On the Radar tier, not award-winning.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -6180,6 +6220,15 @@
         "The Secret Stash",
         "Elk Ave Prime"
       ]
+    },
+    "kansasCityMetro": {
+      "updatedOn": "2026-10-27",
+      "confirmedRepeatedVisits": [
+        "Jack Stack Barbecue (Overland Park)"
+      ],
+      "otherBranchVisitsConfirmed": true,
+      "otherBranchNamesStillUnknown": true,
+      "notes": "User confirmed multiple Jack Stack locations and many visits to Overland Park on 2026-10-27. Freight House explicitly NOT identified as confirmed. Official 2012 JBF Beard House dinner was served by chefs from the Overland Park location, in New York. This is program participation, not an award."
     }
   },
   "interviewProgress": {
