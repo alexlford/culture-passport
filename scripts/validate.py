@@ -316,7 +316,7 @@ assert any(x["name"] == "Q House" and x["visitConfidence"] == "direct_user_confi
 assert {r["title"] for r in records if r["status"] == "reservation_only"} == {x["name"] for x in aud["reservationOnlyVenues"]}
 assert len(published_experiences) == aud["summary"]["canonExperienceRecords"]
 assert {"Joe's Kansas City Bar-B-Que", "Q39", "Arthur Bryant's Barbeque",
-    "Jack Stack Barbecue", "Uchi Denver", "Dominic's on the Hill",
+    "Jack Stack Barbecue", "Dominic's on the Hill",
     "The Kitchen American Bistro"}.issubset(archive_only_names)
 assert {x["name"] for x in aud["possiblyVisited"]} == {
     "Alma Cocina Latina", "Lucina Eatery & Bar", "PDT (Please Don't Tell)"
@@ -336,6 +336,7 @@ assert len([r for r in records if r["status"] == "confirmed" and r.get("editoria
 # Broader source-linked JBF participation is not an award, nomination or win.
 for name in ("Uchi Denver", "Jack Stack Barbecue (Overland Park)"):
     rec = next(r for r in records if r["title"] == name)
+    assert name not in archive_only_names, f"{name}: program-linked inclusion must not remain archive-only"
     assert rec["status"] == "confirmed" and rec["editorial"]["officialFeature"]
     assert not rec["editorial"]["awardQualified"]
     assert rec["officialFeatures"] and all(f["organization"] == "James Beard Foundation" and
