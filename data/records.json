@@ -4839,7 +4839,7 @@
         "source": "Alex reconfirmed dining at Uchi Denver October 25, 2026. A May 15, 2022 reservation is recorded separately and does not prove the visit date.",
         "evidenceType": "direct_user_recollection"
       },
-      "summary": "A confirmed visit to Uchi Denver in RiNo, one of two Denver sushi restaurants Alex specifically remembers. No Michelin or venue-specific James Beard recognition has been verified for this location.",
+      "summary": "A confirmed visit to Uchi Denver in RiNo, linked to an official James Beard Foundation fundraising dinner hosted at the same Denver restaurant in July 2019. The Foundation connection is historical context, not a Beard Award, and the user's actual dining date remains unknown.",
       "memory": {
         "headline": "Sushi at Uchi in RiNo",
         "teaser": "A remembered Denver sushi experience at chef Tyson Cole's RiNo restaurant.",
@@ -4859,20 +4859,44 @@
       "editorial": {
         "awardQualified": false,
         "featuredException": false,
-        "collection": "archived_personal_memory",
+        "collection": "official_foundation_featured_dining",
         "basis": null,
-        "note": "Confirmed personal dining experience; founder's award at original Austin restaurant does not independently qualify Denver branch."
+        "note": "James Beard Foundation-linked restaurant via a July 30, 2019 benefit held at the Denver location with Denver chefs. A program connection, not an award or nomination. 2019 was the event date, not the year of Alex's unrecorded visit.",
+        "officialFeature": true,
+        "officialFeatureType": "jbf_program_event"
       },
       "curation": {
         "status": "outside_scope",
         "basis": "founder_award_at_other_location",
-        "reason": "No directly applicable Michelin or James Beard honor for Uchi Denver established; founder's honor was awarded for another location.",
+        "reason": "No venue-specific Michelin or James Beard award verified; qualifies for new On the Radar collection because Uchi Denver itself hosted an official James Beard Foundation benefit featuring its Denver culinary team in July 2019.",
         "evidenceUrls": [
-          "https://uchi.uchirestaurants.com/location/sushi-denver/"
+          "https://uchi.uchirestaurants.com/location/sushi-denver/",
+          "https://archive.jamesbeard.org/index.php/events/denver-5"
         ],
-        "reviewedOn": "2026-10-25",
-        "confidence": "direct_user_confirmation_no_venue_award"
-      }
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_no_venue_award",
+        "officialFeature": {
+          "organization": "James Beard Foundation",
+          "type": "official_program_event",
+          "scope": "exact_visited_venue",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/denver-5",
+          "verifiedOn": "2026-10-27",
+          "year": 2019
+        }
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Friends of James Beard Benefit",
+          "year": 2019,
+          "relationship": "Host restaurant and participating Denver culinary team",
+          "recognitionType": "program_event",
+          "venueScope": "exact_visited_venue",
+          "eventDate": "2019-07-30",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/denver-5",
+          "description": "Uchi Denver hosted a 2019 James Beard Foundation benefit supporting its Women's Leadership Programs. This is Foundation program participation, not a James Beard Award, finalist or semifinalist recognition."
+        }
+      ]
     },
     {
       "id": "dining-primrose-steamboat-date-unknown",
