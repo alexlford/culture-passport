@@ -33,9 +33,20 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://guide.michelin.com/us/en/colorado/aspen_1262302/restaurants"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-gunther-and-co-baltimore-2020-02-14",
@@ -51,7 +62,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": true,
       "evidenceRefs": [
         "data/records.json"
@@ -62,9 +73,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Preserved separately as an explicitly chosen personal highlight. No new qualifying official recognition verified in the expanded sweep; monitor future awards.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-rec-pier-chop-house-baltimore",
@@ -80,7 +100,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "association_requires_verification",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json"
@@ -91,9 +111,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-thames-street-oyster-house-baltimore",
@@ -109,7 +138,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json"
@@ -120,9 +149,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-the-kitchen-american-bistro-boulder",
@@ -138,7 +176,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json"
@@ -149,9 +187,20 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://guide.michelin.com/us/en/colorado/boulder_1261512/restaurants"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-breckenridge-distillery",
@@ -171,7 +220,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "association_requires_verification",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json"
@@ -182,9 +231,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-fino-denver",
@@ -200,7 +258,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json"
@@ -211,9 +269,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Preserved separately as an explicitly chosen personal highlight. No new qualifying official recognition verified in the expanded sweep; monitor future awards.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-uchi-denver",
@@ -248,6 +315,15 @@
           "evidenceUrls": [
             "https://archive.jamesbeard.org/index.php/events/denver-5"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Official James Beard Foundation program or venue-team connection confirmed and linked, but no award or nomination asserted. Continue award monitoring.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/index.php/events/denver-5"
+          ]
         }
       ],
       "recognitionEvents": [],
@@ -262,7 +338,9 @@
           "description": "Friends of James Beard Benefit hosted at Uchi Denver with Denver chefs; event supported the Foundation's Women's Leadership Programs."
         }
       ],
-      "officialFeatureStatus": "direct_program_connection"
+      "officialFeatureStatus": "direct_program_connection",
+      "expandedReviewTier": "official_program_or_editorial_connection",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "watch-arthur-bryants-barbeque-kansas-city",
@@ -287,9 +365,18 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "watch-jack-stack-barbecue-kansas-city",
@@ -331,6 +418,13 @@
             "https://www.jackstackbbq.com/locations/overland-park",
             "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
       "recognitionEvents": [],
@@ -345,7 +439,9 @@
           "description": "Jack Stack culinary team served a James Beard House dinner in 2012; official Foundation program specifies the Overland Park location, not a confirmed exact branch from the user's visit."
         }
       ],
-      "officialFeatureStatus": "brand_context_plus_confirmed_specific_branch"
+      "officialFeatureStatus": "brand_context_plus_confirmed_specific_branch",
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "watch-joes-kansas-city-bar-b-que-kansas-city",
@@ -370,9 +466,18 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "watch-q39-kansas-city",
@@ -397,9 +502,18 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-majestic-kansas-city",
@@ -415,7 +529,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": true,
       "evidenceRefs": [
         "data/records.json"
@@ -426,9 +540,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Preserved separately as an explicitly chosen personal highlight. No new qualifying official recognition verified in the expanded sweep; monitor future awards.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "watch-dominics-on-the-hill-st-louis",
@@ -453,9 +576,18 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-primrose-steamboat",
@@ -482,9 +614,18 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-sauvage-steamboat-2021-01",
@@ -500,7 +641,7 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": true,
       "evidenceRefs": [
         "data/records.json"
@@ -511,9 +652,18 @@
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Preserved separately as an explicitly chosen personal highlight. No new qualifying official recognition verified in the expanded sweep; monitor future awards.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-allreds-restaurant-telluride",
@@ -541,9 +691,18 @@
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline with no directly qualifying award established. Featured for the personal anniversary memory, not an award claim."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Preserved separately as an explicitly chosen personal highlight. No new qualifying official recognition verified in the expanded sweep; monitor future awards.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": []
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-the-sunflower-crested-butte",
@@ -575,9 +734,20 @@
             "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
             "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-the-wooden-nickel-crested-butte",
@@ -610,9 +780,21 @@
             "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
             "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Expanded source screening of Michelin 2026, Foundation 2026 announcements, historical program/event archive and existing venue evidence found no additional qualifying direct Michelin/JBF link in this pass. Not an exhaustive historical negative.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
       "id": "venue-jack-stack-barbecue-overland-park",
@@ -655,9 +837,20 @@
           "evidenceUrls": [
             "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Official James Beard Foundation program or venue-team connection confirmed and linked, but no award or nomination asserted. Continue award monitoring.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "expandedReviewTier": "official_program_or_editorial_connection",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
