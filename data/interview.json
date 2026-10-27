@@ -5375,6 +5375,38 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
       }
+    },
+    {
+      "id": "candidate-aspen-the-wild-fig",
+      "area": "Aspen",
+      "name": "The Wild Fig",
+      "recognition": "Long-running Aspen Mediterranean restaurant; no verified Michelin Guide Colorado (2026) listing or venue-specific James Beard honor",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Original cozy brasserie with white tablecloths and warm lighting, moved next door in 2023 to larger room with black-and-white tile and red banquettes; across from Wheeler Opera House.",
+      "sourceUrl": "https://thewildfig.com/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "public_sources_checked_no_eligible_distinction_found",
+      "addedOn": "2026-10-27",
+      "priority": "user_suggested",
+      "addressHint": "315 E Hyman Ave (newer location; formerly near 305 S Mill St)",
+      "screening": {
+        "status": "memory_only",
+        "basis": null,
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "The Wild Fig not named in official 2026 statewide Michelin Colorado list. No venue-specific James Beard honor identified. This is a personal memory interview lead, not a qualifying award assertion."
+      },
+      "eligibility": {
+        "status": "outside_scope",
+        "basis": "context",
+        "reason": "No confirmed restaurant-level Michelin Guide or James Beard distinction; preserve as memory candidate if user actually dined there.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "historicalLocationNote": "Aspen Sojourner reported opening in 2003 and move next door in 2023; photos of prior and new rooms differ. Separate Willits/Basalt sister location exists; ask which location if user confirms a meal.",
+      "promptedByUser": "User asked 'What about the Wild Fig?' during Aspen restaurant interview on 2026-10-27. This is not a direct confirmation of visiting."
     }
   ],
   "source": {
@@ -5597,10 +5629,19 @@
       "area": "Aspen",
       "category": "restaurants",
       "candidateNames": [
-        "Prospect"
+        "The Wild Fig"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Prospect, the restaurant inside the historic Hotel Jerome in downtown Aspen? Visited, Maybe, or Not visited? If visited, an approximate year and memories are welcome."
+      "question": "Have you eaten at The Wild Fig in Aspen? Visited, Maybe, or Not visited? If visited, was it in the older brasserie room or the newer space, and roughly when?",
+      "resumeAfter": {
+        "area": "Aspen",
+        "category": "restaurants",
+        "candidateNames": [
+          "Prospect"
+        ],
+        "status": "awaiting_user_response",
+        "question": "Have you eaten at Prospect, the restaurant inside the historic Hotel Jerome in downtown Aspen? Visited, Maybe, or Not visited? If visited, an approximate year and memories are welcome."
+      }
     },
     "pausedBatches": [
       {
