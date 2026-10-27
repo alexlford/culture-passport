@@ -16,7 +16,7 @@
     "featuredPersonal": 6,
     "officiallyFeatured": 2,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 14,
+    "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -790,6 +790,13 @@
       "period": "Crested Butte meal; exact visit date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex explicitly confirmed eating at Teocalli Tamale on 2026-10-27. 'Best in the Butte' local reputation documented by tourism site, but no Michelin/JBF distinction or official program link verified. Permanent watchlist; date unknown."
+    },
+    {
+      "name": "Two Twelve",
+      "city": "Crested Butte",
+      "period": "Restaurant visit after July 2024 opening, exact date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex directly confirmed eating at Two Twelve, 212 Elk Avenue, on 2026-10-27 interview. Chef Anthony Nelson's live-fire cooking has positive independent Axios/5280/Mountain Town Magazine coverage, with aspirations for a James Beard nomination, NOT actual Foundation nomination or Michelin Guide recognition. Keep owner ties to Bonez and Secret Stash as restaurant history, without treating those venues as confirmed visits."
     }
   ],
   "possiblyVisited": [
