@@ -43,7 +43,7 @@ def public_story(record):
     if record["status"] != "confirmed":
         return False
     if record["type"] in {"dining", "bar"}:
-        return bool(editorial.get("awardQualified") or editorial.get("featuredException"))
+        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature"))
     return True
 
 
@@ -85,8 +85,15 @@ def sanitize_record(record):
             if not a.get("recognitionAtDifferentVenue")
         ]
     selected["editorial"] = safe_fields(
-        record.get("editorial", {}), ("awardQualified", "featuredException", "userRequestedMemory")
+        record.get("editorial", {}), ("awardQualified", "featuredException", "officialFeature", "officialFeatureType", "userRequestedMemory")
     )
+    if record.get("officialFeatures"):
+        selected["officialFeatures"] = [
+            safe_fields(feature, ("organization", "year", "category", "relationship",
+                                  "venueScope", "recognitionType", "sourceUrl"))
+            for feature in record["officialFeatures"]
+            if feature.get("sourceUrl", "").startswith("https://")
+        ]
     return selected
 
 
