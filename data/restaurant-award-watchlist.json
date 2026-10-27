@@ -465,6 +465,36 @@
         }
       ],
       "recognitionEvents": []
+    },
+    {
+      "id": "venue-allreds-restaurant-telluride",
+      "venueId": "venue-allreds-restaurant-telluride",
+      "venueName": "Allred's Restaurant",
+      "city": "Telluride",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-allreds-telluride-date-unknown"
+      ],
+      "visitPeriods": [
+        "Anniversary dinner; year unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": true,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Featured personal exception: scenic gondola-top anniversary dinner. No qualifying Michelin/James Beard recognition verified. Monitor quarterly without conflating wine-list accolades with Michelin or James Beard distinctions.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline with no directly qualifying award established. Featured for the personal anniversary memory, not an award claim."
+        }
+      ],
+      "recognitionEvents": []
     }
   ]
 }
