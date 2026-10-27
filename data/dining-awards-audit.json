@@ -10,12 +10,12 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 33,
-    "distinctPublishedVenues": 31,
+    "canonExperienceRecords": 34,
+    "distinctPublishedVenues": 32,
     "recognized": 20,
     "featuredPersonal": 6,
     "officiallyFeatured": 2,
-    "unfeaturedOther": 3,
+    "unfeaturedOther": 4,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -689,6 +689,27 @@
       ],
       "editorialNote": "Exact branch visited many times; JBF event in New York was by its identified chefs and is not the user's personal dining date, not an award, and not an event hosted at the Overland Park restaurant.",
       "visitConfidence": "direct_user_confirmation_multiple_meals_no_dates"
+    },
+    {
+      "venueId": "venue-butchers-daughter-west-hollywood",
+      "name": "The Butcher's Daughter",
+      "city": "West Hollywood",
+      "region": "California",
+      "experienceIds": [
+        "dining-butchers-daughter-los-angeles-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "LA visit date unconfirmed; West Hollywood reservation July 29, 2023 only"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://thebutchersdaughter.com/location-all/west-hollywood",
+        "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Direct user confirmation of restaurant visit, October 27, 2026; Resy screenshot corroborates West Hollywood as probable venue but does not prove date or exact branch of attended meal. No directly qualifying Michelin/James Beard recognition verified.",
+      "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown_branch_provisional",
+      "publicationStatus": "archived_private_not_curated"
     }
   ],
   "confirmedArchiveOnly": [
