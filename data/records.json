@@ -1111,6 +1111,18 @@
         "precision": "city-centroid"
       },
       "sourceId": "two-twelve-crested-butte"
+    },
+    {
+      "id": "venue-butchers-daughter-west-hollywood",
+      "name": "The Butcher's Daughter (West Hollywood)",
+      "city": "West Hollywood",
+      "region": "California",
+      "country": "USA",
+      "address": "8755 Melrose Avenue, West Hollywood, CA 90069",
+      "neighborhood": "Melrose / West Hollywood Design District",
+      "location": null,
+      "sourceId": "the-butchers-daughter-west-hollywood",
+      "locationAttribution": "2023 Resy reservation for this exact West Hollywood branch; user independently confirms restaurant dining, exact attended branch and meal date not yet re-verified."
     }
   ],
   "records": [
@@ -5798,6 +5810,71 @@
           "sourceUrl": "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining"
         }
       ]
+    },
+    {
+      "id": "dining-butchers-daughter-los-angeles-date-unknown",
+      "type": "dining",
+      "title": "The Butcher's Daughter",
+      "venueId": "venue-butchers-daughter-west-hollywood",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Los Angeles-area meal; date unconfirmed (July 2023 West Hollywood reservation on file)",
+        "precision": "unknown",
+        "source": "On October 27, 2026 Alex explicitly corrected the Culture Passport tally and confirmed that he has eaten at The Butcher's Daughter in Los Angeles. A separately saved Resy booking supports West Hollywood as the probable branch, but the booking date itself is not verified as the attended meal date.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified_branch_provisionally_correlated_with_reservation"
+      },
+      "reservations": [
+        {
+          "date": "2023-07-29",
+          "partySize": 3,
+          "reservationStatus": "historical_reservation",
+          "attendanceInference": "reservation_date_not_verified_as_meal_date",
+          "source": "user_provided_reservation_screenshot",
+          "sourceNote": "Historical Resy booking for The Butcher's Daughter - West Hollywood, for three people. Alex separately confirmed eating at The Butcher's Daughter, without verifying the exact date or who attended."
+        }
+      ],
+      "summary": "Confirmed personal dining visit to The Butcher's Daughter in the Los Angeles area. A July 29, 2023 Resy booking for three people points toward its 8755 Melrose Avenue West Hollywood restaurant, which opened in September 2022. Exact dining date, companions, dishes, and branch attribution remain to be confirmed. No direct Michelin Guide or James Beard Foundation restaurant recognition independently verified in this review.",
+      "memory": {
+        "headline": "The Butcher's Daughter, remembered in Los Angeles",
+        "teaser": "A confirmed Los Angeles meal at the plant-forward restaurant, with an older West Hollywood booking as a clue to the specific night.",
+        "story": "I've eaten at The Butcher's Daughter during my time in Los Angeles. A historical reservation points to its West Hollywood location on Melrose, but I haven't yet established whether that reservation marks the actual meal I remember. The date, what we ordered, and who joined me are details to reconstruct rather than invent.",
+        "period": "Los Angeles visit; exact date unknown (West Hollywood Resy booking July 29, 2023)",
+        "source": "Direct user's correction on 2026-10-27 plus previously saved Resy screenshot evidence. Location opening date from Eater Los Angeles, September 20, 2022. Companion Jay relates to other unidentified LA meals; no inference that he attended this one."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://guide.michelin.com/us/en/california/restaurants",
+        "note": "No direct West Hollywood Michelin Selected, Bib, Star or Green Star verified as of 2026-10-27; this does not establish absence from all historical guides."
+      },
+      "sourceUrl": "https://thebutchersdaughter.com/location-all/west-hollywood",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed dining visit irrespective of Michelin or James Beard eligibility. West Hollywood is supported by a historical booking, not a verified attended-meal date or definitively recalled branch. Independent Eater and LA Magazine coverage is not Michelin or JBF recognition."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No direct Michelin Guide or James Beard Foundation award, nomination, Guide inclusion, or official program/editorial linkage for this LA branch positively verified in targeted October 2026 research. Preserve in the private permanent award watchlist; do not infer nonexistence of historical awards.",
+        "evidenceUrls": [
+          "https://thebutchersdaughter.com/location-all/west-hollywood",
+          "https://la.eater.com/2022/9/20/23363171/butchers-daughter-melrose-west-hollywood-opening-plant-forward-vegetarian-restaurant",
+          "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmed_restaurant_visit_branch_supported_by_resy_booking_exact_meal_unverified"
+      }
     }
   ],
   "origin": {
