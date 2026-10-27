@@ -5,8 +5,8 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 40,
-    "canonicalDistinctVenues": 35,
+    "restaurantEntriesReviewed": 41,
+    "canonicalDistinctVenues": 36,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas."
@@ -50,7 +50,7 @@
     "noNewBreaderyDirectRecognition": "Confirmed restaurant visit archived. Breadery absent from the official Colorado Michelin guide and 2026 JBF announcements; no positive direct Foundation program association found in targeted archive search. Re-audit later."
   },
   "countsByTier": {
-    "archived_pending_recognition": 14,
+    "archived_pending_recognition": 15,
     "formal_michelin_jbf_recognition": 19,
     "personal_featured_exception": 5,
     "official_program_or_editorial_connection": 2
@@ -385,6 +385,32 @@
       "officialFeatures": [],
       "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
       "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-public-house-crested-butte",
+      "restaurantName": "Public House",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-public-house-crested-butte-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/restaurants",
+        "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Confirmed meal at Public House, no named Michelin/JBF official recognition or program feature found in targeted source screen. Official brewery/beer competition awards are not restaurant Michelin/JBF evidence; do not assert no historical recognition ever existed.",
+      "watchlistId": "venue-public-house-crested-butte",
       "reviewedOn": "2026-10-27"
     },
     {
