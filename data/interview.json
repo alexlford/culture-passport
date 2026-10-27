@@ -5621,12 +5621,12 @@
       "awardFamily": "context",
       "interviewCue": "Longtime eclectic pizza and wings restaurant.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "303 Elk Ave",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Uncertain recollection. Preserve as a possible visit only; do not count as confirmed, publish as verified attendance, or add to the permanent confirmed-visit restaurant award watchlist until attendance is established.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -5641,7 +5641,10 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possible Crested Butte visit; year and date unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' for The Secret Stash in the Culture Passport Crested Butte interview on October 27, 2026.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-elk-ave-prime",
@@ -6156,16 +6159,17 @@
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
       "confirmedNamedVisits": 1,
-      "note": "The Sunflower confirmed. Soupçon maybe visited; no attendance inferred. Move next to The Secret Stash. Award watchlist only contains confirmed dining memories that lack qualifying awards.",
+      "note": "The Sunflower is confirmed. Soupçon and The Secret Stash remain maybe visited, not confirmed. Continue to Elk Ave Prime. Only confirmed visits with no verified qualifying honors enter the permanent award watchlist.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 1,
-      "unreviewed": 8,
+      "maybeVisited": 2,
+      "unreviewed": 7,
       "confirmedNames": [
         "The Sunflower"
       ],
       "uncertainLeadsPreserved": [
-        "Soupçon"
+        "Soupçon",
+        "The Secret Stash"
       ]
     }
   },
@@ -6174,10 +6178,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "The Secret Stash"
+        "Elk Ave Prime"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Secret Stash, the eclectic pizza restaurant at 303 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Elk Ave Prime, the steakhouse at 226 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
