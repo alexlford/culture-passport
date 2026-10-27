@@ -5684,32 +5684,36 @@
       "id": "candidate-crested-butte-the-wooden-nickel",
       "area": "Crested Butte",
       "name": "The Wooden Nickel",
-      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognition": "No restaurant-specific qualifying Michelin or James Beard honor verified in the checked 2026 primary-source lists; historical recognition not exhaustively ruled out.",
       "recognitionYear": null,
       "awardFamily": "context",
       "interviewCue": "Historic Crested Butte steakhouse.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/visit/trip-planning/restaurants/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "visitStatus": "confirmed",
+      "researchStatus": "direct_user_confirmed_2026_award_screen_no_qualification_verified",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "222 Elk Ave",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Confirmed personal dining experience at The Wooden Nickel, 222 Elk Ave. Visit date, dining companions, dishes and occasion unrecorded. The venue's history and latest menu are background, not specific recollections. No qualifying recognition found in official 2026 Michelin Colorado selection or James Beard Foundation's 2026 semifinalist and winner lists.",
       "screening": {
-        "status": "not_yet_audited",
+        "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://gunnisoncrestedbutte.com/visit/trip-planning/restaurants/",
-        "sourceTier": "local_or_primary",
-        "verifiedAt": null,
-        "note": "Venue existence cited, not award eligibility verified."
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "The Wooden Nickel absent from the 2026 official Michelin Colorado selection and JBF 2026 semifinalist/winner lists. Historical years not exhaustively screened; absence in 2026 isn't proof of no award ever."
       },
       "eligibility": {
-        "status": "unreviewed",
+        "status": "outside_scope",
         "basis": "context",
-        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
-        "screenedOn": null,
+        "reason": "Confirmed meal but no qualifying venue-level Michelin/JBF honor currently verified. Monitor in permanent restaurant award watchlist.",
+        "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Crested Butte trip; year unknown",
+      "visitSource": "Alex explicitly answered 'Visited' for The Wooden Nickel in the Culture Passport Crested Butte interview on 2026-10-27.",
+      "confirmedVisitId": "dining-the-wooden-nickel-crested-butte-date-unknown",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-slogar",
@@ -6161,14 +6165,15 @@
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
-      "confirmedNamedVisits": 1,
-      "note": "The Sunflower confirmed. Soupçon, The Secret Stash and Elk Ave Prime possibly visited only, not counted as confirmed. Next: The Wooden Nickel. Only confirmed visits lacking qualifying awards enter the award watchlist.",
+      "confirmedNamedVisits": 2,
+      "note": "The Sunflower and The Wooden Nickel confirmed. Soupçon, The Secret Stash and Elk Ave Prime possible only. Continue to Slogar; eligibility separate from attendance.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 3,
-      "unreviewed": 6,
+      "unreviewed": 5,
       "confirmedNames": [
-        "The Sunflower"
+        "The Sunflower",
+        "The Wooden Nickel"
       ],
       "uncertainLeadsPreserved": [
         "Soupçon",
@@ -6182,10 +6187,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "The Wooden Nickel"
+        "Slogar"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Wooden Nickel, the longtime steakhouse on Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at The Slogar, the family-style fried chicken restaurant at 517 2nd St in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
