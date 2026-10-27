@@ -142,6 +142,17 @@ taiwanese_with_jay = next(m for m in interview_data["memoryLeads"]
     if m["id"] == "la-west-hollywood-jay-taiwanese-unidentified")
 assert taiwanese_with_jay["venueIdentityConfirmed"] is False
 assert taiwanese_with_jay["probableCandidateId"] == lius["id"]
+assert taiwanese_with_jay["comparativeReview"]["comparisonCount"] == 8
+assert len(taiwanese_with_jay["comparativeReview"]["candidates"]) == 8
+assert taiwanese_with_jay["comparativeReview"]["noNewVisitConfirmations"] is True
+assert {row["id"] for row in taiwanese_with_jay["comparativeReview"]["candidates"]} == {
+    "candidate-la-lius-cafe-ktown", "candidate-la-pine-crane-silver-lake",
+    "candidate-la-pine-crane-dtla", "candidate-la-joy-highland-park",
+    "candidate-la-little-fatty-mar-vista", "candidate-la-din-tai-fung-century-city",
+    "candidate-la-kato", "candidate-la-formosa-cafe"}
+assert all(c["visitStatus"] == "unreviewed" for c in candidates
+    if c["id"] in {row["id"] for row in taiwanese_with_jay["comparativeReview"]["candidates"]}
+    - {"candidate-la-lius-cafe-ktown"})
 assert taiwanese_with_jay["temporalConstraint"]["earliestPossibleVisit"] == "2023-08-31"
 assert not any(r["status"] == "confirmed" and "Liu's Cafe" in r["title"] for r in records)
 assert active_la["strongestUnconfirmedTaiwaneseLead"] == "Liu's Cafe (Koreatown)"
