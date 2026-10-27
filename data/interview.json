@@ -1598,7 +1598,7 @@
       "awardFamily": "context",
       "interviewCue": "Downtown Steamboat, Latin tapas-style plates and lively cocktails, existed by January 2021.",
       "sourceUrl": "https://www.besamesteamboat.com/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -1613,7 +1613,11 @@
         "reason": "No Michelin Guide or James Beard honor established for the named venue.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possibly visited; exact date, meals, and companions unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Steamboat Springs Culture Passport interview on 2026-10-27.",
+      "visitNote": "Keep unconfirmed as memory lead, do not count as confirmed dinner or cocktail visit. Do not infer attendance during the January 2021 Sauvage trip. No qualifying Michelin/James Beard award has been established for Bésame Steamboat.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-steamboat-springs-primrose",
@@ -5539,10 +5543,10 @@
       "area": "Steamboat Springs",
       "category": "restaurants",
       "candidateNames": [
-        "Bésame Steamboat"
+        "Primrose"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at or had drinks at Bésame in downtown Steamboat Springs? Visited, Maybe, or Not visited? If visited, what do you remember and about when?"
+      "question": "Have you dined at Primrose in downtown Steamboat Springs? Visited, Maybe, or Not visited? If you recall, share a date or detail; no date will be inferred from your 2021 Sauvage meal."
     },
     "pausedBatches": [
       {
