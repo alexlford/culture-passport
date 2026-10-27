@@ -6032,11 +6032,11 @@
       "recognition": "Michelin/JBF status not yet researched; restaurant lead only.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_second_round",
+      "visitStatus": "maybe",
+      "researchStatus": "possible_visit_user_direct_response",
       "addedOn": "2026-10-27",
       "priority": "standard",
-      "visitNote": "Named venue unreviewed, no attendance inferred from general Crested Butte dining memory.",
+      "visitNote": "On October 27, 2026 Alex responded 'Maybe visited' to Izakaya Cabin. Venue attendance is uncertain; do not count as confirmed dining, infer date, or add to award watchlist without direct confirmation.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -6047,8 +6047,39 @@
       },
       "eligibility": {
         "status": "unreviewed",
+        "basis": "attendance_unconfirmed",
+        "reason": "User only possibly recalls visiting; no confirmed meal. Michelin/JBF award or program audit deferred until visit confirmation.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-marchitellis-gourmet-noodle",
+      "name": "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
+      "sourceUrl": "https://www.thegourmetnoodle.com/",
+      "addressHint": "411 3rd Street, Crested Butte, CO 81224",
+      "interviewCue": "Long-running Italian restaurant just off Elk Avenue, originally Marchitelli’s Gourmet Noodle with Michael Marchitelli’s family recipes. It was acquired by chef Robert Hyre in May 2025 and renamed The Gourmet Noodle. Ask if Alex ate here, and if so whether he recalls the earlier Marchitelli era or current restaurant; never presume the newer ownership was present during a past visit.",
+      "area": "Crested Butte",
+      "recognition": "Michelin/James Beard distinction not yet audited; venue lead only. Do not infer awards from acclaim.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_second_round",
+      "addedOn": "2026-10-27",
+      "priority": "standard",
+      "visitNote": "Named next interview venue, but no attendance asserted. Restaurant identity/ownership transition supported by Crested Butte Magazine's 2026 'Turning the tables' article; older restaurant and current operation share address.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.crestedbuttemagazine.com/feature/turning-the-tables/",
+        "sourceTier": "independent_local_reporting",
+        "verifiedAt": null,
+        "note": "May 2025 ownership/name change documented; Michelin/JBF research not completed."
+      },
+      "eligibility": {
+        "status": "unreviewed",
         "basis": "context",
-        "reason": "Requires a direct user visit response and subsequent award/program verification.",
+        "reason": "Requires a direct visit response and subsequent exact venue/time-specific award research.",
         "screenedOn": null,
         "verifiedForPublication": false
       }
@@ -6347,12 +6378,12 @@
       "state": "second_round_in_progress",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
-      "candidateCount": 13,
+      "candidateCount": 14,
       "confirmedNamedVisits": 6,
-      "note": "All 10 first-round cases recorded; expanded round: Bonez maybe only, Two Twelve confirmed direct meal, next Izakaya Cabin. Keep separate status of every restaurant. Chef/owner relations never establish attendance.",
+      "note": "All 10 first-round cases recorded; expanded round: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe. Next interview is Marchitelli’s Gourmet Noodle / The Gourmet Noodle; May 2025 ownership/name transition must remain distinct. No venue attendance inferred from town visits.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 6,
+      "maybeVisited": 7,
       "unreviewed": 1,
       "confirmedNames": [
         "The Sunflower",
@@ -6368,11 +6399,13 @@
         "Elk Ave Prime",
         "Slogar",
         "Pitas in Paradise",
-        "Bonez"
+        "Bonez",
+        "Izakaya Cabin"
       ],
       "additionalCandidatesQueued": [
         "Two Twelve",
-        "Izakaya Cabin"
+        "Izakaya Cabin",
+        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
       ]
     },
     "kansasCityMetro": {
@@ -6390,10 +6423,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Izakaya Cabin"
+        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Izakaya Cabin, the Japanese sushi and izakaya restaurant at 321 Elk Avenue, Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Marchitelli’s Gourmet Noodle (now The Gourmet Noodle), 411 3rd Street in Crested Butte? Visited, Maybe, or Not visited? If visited, was it before or after the 2025 ownership/name change?"
     },
     "pausedBatches": [
       {
@@ -6472,7 +6505,11 @@
       "The Breadery",
       "Public House",
       "Pitas in Paradise",
-      "Teocalli Tamale"
+      "Teocalli Tamale",
+      "Bonez",
+      "Two Twelve",
+      "Izakaya Cabin",
+      "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
     ]
   }
 }
