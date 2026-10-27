@@ -125,6 +125,25 @@ assert interview_data["interviewProgress"]["currentBatch"]["area"] == "South Bay
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
     x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
 
+# LA research is deliberately two parallel chapters. Never silently abandon
+# the Taiwanese meal with Jay when the Space Park/South Bay interview resumes.
+active_la = interview_data["interviewChapters"]["losAngeles"]
+active_south_bay = interview_data["interviewChapters"]["spaceParkSouthBay"]
+assert active_la["state"] == "active_research_parallel"
+assert active_south_bay["state"] == "active_research_parallel"
+assert active_la["confirmedNamedVisits"] == 2
+assert set(active_la["confirmedNames"]) == {"République", "The Butcher's Daughter"}
+parallel = interview_data["interviewProgress"]["parallelActiveChapters"]
+assert {x["area"] for x in parallel} == {"Los Angeles / West Hollywood", "South Bay / Space Park"}
+assert any(x["id"] == "la-west-hollywood-jay-taiwanese-unidentified" and
+    x["venueIdentityConfirmed"] is False for x in interview_data["memoryLeads"])
+for title in ("Petit Trois (L'Original)", "Chi Spacca", "Angelini Osteria",
+              "Ardor (West Hollywood EDITION)"):
+    match = next(c for c in candidates if c["name"] == title and
+        c["area"] == "Los Angeles / West Hollywood")
+    assert match["visitStatus"] == "unreviewed"
+    assert match["screening"]["basis"] == "michelin"
+
 active_batch = interview_data["interviewProgress"]["currentBatch"]
 assert active_batch["area"] in {c["area"] for c in candidates}
 assert all(any(c["area"] == active_batch["area"] and c["name"] == name for c in candidates) for name in active_batch["candidateNames"])
