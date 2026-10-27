@@ -6063,11 +6063,11 @@
       "recognition": "Michelin/James Beard distinction not yet audited; venue lead only. Do not infer awards from acclaim.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_second_round",
+      "visitStatus": "maybe",
+      "researchStatus": "possible_visit_user_direct_response",
       "addedOn": "2026-10-27",
       "priority": "standard",
-      "visitNote": "Named next interview venue, but no attendance asserted. Restaurant identity/ownership transition supported by Crested Butte Magazine's 2026 'Turning the tables' article; older restaurant and current operation share address.",
+      "visitNote": "On October 27, 2026 Alex responded 'Maybe visited' to Marchitelli’s Gourmet Noodle / The Gourmet Noodle. Attendance and meal date remain unconfirmed. Do not assign either the pre-May-2025 Marchitelli family era or the later Robert Hyre era to any actual visit until corroborated. No confirmed dining record, award-watchlist entry or public story is authorized.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -6078,10 +6078,52 @@
       },
       "eligibility": {
         "status": "unreviewed",
-        "basis": "context",
-        "reason": "Requires a direct visit response and subsequent exact venue/time-specific award research.",
+        "basis": "attendance_unconfirmed",
+        "reason": "User answered maybe; neither meal nor restaurant era confirmed. Exact venue and era awards/program screening deferred until visit confirmation.",
         "screenedOn": null,
         "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-last-steep",
+      "name": "The Last Steep Bar & Grill",
+      "area": "Crested Butte",
+      "sourceUrl": "https://travelcrestedbutte.com/the-last-steep/",
+      "addressHint": "208 Elk Avenue, Crested Butte, CO 81224 (former restaurant; now The Hideout)",
+      "interviewCue": "Historic casual restaurant opened by the Hartigan family December 16, 2000, named after a Crested Butte North Face ski run. Entered via quirky wooden exterior steps to small bar and upstairs dining room, Kansas City-influenced comfort food, burgers, Bloody Marys and patio. The Last Steep closed for its conversion during 2023; the same address reopened as The Hideout in late 2023. Ask specifically about dining during the Last Steep era rather than visiting The Hideout or nearby Two Twelve.",
+      "recognition": "Historical local polls named its burger and Bloody Mary best in Crested Butte. These are community awards, NOT Michelin/JBF qualification; Michelin/JBF status not separately audited.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_second_round_historical_venue",
+      "addedOn": "2026-10-27",
+      "priority": "standard",
+      "visitNote": "Historical named-venue lead only. The Last Steep era and successor The Hideout at same address must remain separate and not imply that any visit to Two Twelve at 212 Elk Avenue was at The Last Steep. Identity, former restaurant and change verified from 2023 Colorado Sun reporting and 2023 Town of Crested Butte liquor-license transfer; no user attendance asserted.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://crestedbuttevisitorsguide.com/2020/11/20-21-dining-guide/",
+        "sourceTier": "historical_local_directory",
+        "verifiedAt": null,
+        "note": "Local Best Burger and Best Bloody Mary accolades documented for 2020–21, not Michelin or James Beard recognition; Foundation and Guide audit not yet completed."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Requires direct user recall of a meal in Last Steep era and later, separate recognition check.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      },
+      "historicalContext": {
+        "openedOn": "2000-12-16",
+        "succeededBy": "The Hideout",
+        "transitionPeriod": "2023",
+        "continuity": "same_address_distinct_restaurant",
+        "sources": [
+          "https://travelcrestedbutte.com/the-last-steep/",
+          "https://coloradosun.com/2023/08/03/crested-butte-restaurants-closed-grocery-store/",
+          "https://www.crestedbutte-co.gov/vertical/sites/%7B6058FFBB-CB06-4864-B42F-B476F794BE07%7D/uploads/Executive_Summary_E-Packet_11.6.2023.pdf"
+        ]
       }
     }
   ],
@@ -6378,12 +6420,12 @@
       "state": "second_round_in_progress",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
-      "candidateCount": 14,
+      "candidateCount": 15,
       "confirmedNamedVisits": 6,
-      "note": "All 10 first-round cases recorded; expanded round: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe. Next interview is Marchitelli’s Gourmet Noodle / The Gourmet Noodle; May 2025 ownership/name transition must remain distinct. No venue attendance inferred from town visits.",
+      "note": "First ten CB restaurants answered; expanded: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe, Marchitelli’s Gourmet Noodle/The Gourmet Noodle maybe; next The Last Steep (pre-2023 historical identity). Its successor The Hideout is separate; confirmed dining totals remain 6.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 7,
+      "maybeVisited": 8,
       "unreviewed": 1,
       "confirmedNames": [
         "The Sunflower",
@@ -6400,12 +6442,14 @@
         "Slogar",
         "Pitas in Paradise",
         "Bonez",
-        "Izakaya Cabin"
+        "Izakaya Cabin",
+        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
       ],
       "additionalCandidatesQueued": [
         "Two Twelve",
         "Izakaya Cabin",
-        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
+        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
+        "The Last Steep Bar & Grill"
       ]
     },
     "kansasCityMetro": {
@@ -6423,10 +6467,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
+        "The Last Steep Bar & Grill"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Marchitelli’s Gourmet Noodle (now The Gourmet Noodle), 411 3rd Street in Crested Butte? Visited, Maybe, or Not visited? If visited, was it before or after the 2025 ownership/name change?"
+      "question": "Did you eat at The Last Steep Bar & Grill at 208 Elk Avenue, before it became The Hideout in 2023? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
@@ -6509,7 +6553,8 @@
       "Bonez",
       "Two Twelve",
       "Izakaya Cabin",
-      "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
+      "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
+      "The Last Steep Bar & Grill"
     ]
   }
 }
