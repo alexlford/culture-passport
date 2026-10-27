@@ -5655,12 +5655,12 @@
       "awardFamily": "context",
       "interviewCue": "Steakhouse and seafood on Elk Avenue.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "226 Elk Ave",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Uncertain recollection. Preserve as possible only; do not count as confirmed dining, award-qualified visit, or permanent restaurant-award watchlist item until attendance is established.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -5675,7 +5675,10 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possibly visited during Crested Butte trips; exact date unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' for Elk Ave Prime during the October 27, 2026 Culture Passport Crested Butte interview.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-the-wooden-nickel",
@@ -6159,17 +6162,18 @@
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
       "confirmedNamedVisits": 1,
-      "note": "The Sunflower is confirmed. Soupçon and The Secret Stash remain maybe visited, not confirmed. Continue to Elk Ave Prime. Only confirmed visits with no verified qualifying honors enter the permanent award watchlist.",
+      "note": "The Sunflower confirmed. Soupçon, The Secret Stash and Elk Ave Prime possibly visited only, not counted as confirmed. Next: The Wooden Nickel. Only confirmed visits lacking qualifying awards enter the award watchlist.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 2,
-      "unreviewed": 7,
+      "maybeVisited": 3,
+      "unreviewed": 6,
       "confirmedNames": [
         "The Sunflower"
       ],
       "uncertainLeadsPreserved": [
         "Soupçon",
-        "The Secret Stash"
+        "The Secret Stash",
+        "Elk Ave Prime"
       ]
     }
   },
@@ -6178,10 +6182,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Elk Ave Prime"
+        "The Wooden Nickel"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Elk Ave Prime, the steakhouse at 226 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at The Wooden Nickel, the longtime steakhouse on Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
