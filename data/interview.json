@@ -6607,28 +6607,30 @@
       "recognition": "Current Michelin Guide restaurant listing (Selected; NOT Michelin Star); chef David LeFevre's James Beard archive has historical semifinalist entries but these are not assigned to this restaurant without year-specific verification.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "visitStatus": "maybe",
+      "researchStatus": "user_maybe_visited_during_space_park_trips",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "visitNote": "On October 27, 2026 Alex responded to the Space Park dining interview: 'Manhattan Beach Post — Maybe visited.' This is explicit uncertainty; do not mark the named venue confirmed, not visited, or award-qualified as a personal experience. No meal date, companions, dish or specific visit established. The restaurant's Michelin Guide Selected listing is independent of personal attendance.",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
         "evidenceUrl": "https://guide.michelin.com/us/en/california/manhattan-beach/restaurant/manhattan-beach-post",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide restaurant listing (Selected; NOT Michelin Star); chef David LeFevre's James Beard archive has historical semifinalist entries but these are not assigned to this restaurant without year-specific verification."
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide restaurant listing (Selected; NOT Michelin Star); chef David LeFevre's James Beard archive has historical semifinalist entries but these are not assigned to this restaurant without year-specific verification. Personal visit status is MAYBE (direct user's tentative reply Oct 27), not a confirmation."
       },
       "eligibility": {
         "status": "unreviewed",
         "basis": "michelin_guide_listing",
-        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "reason": "Michelin Guide Selected qualifies this venue in principle, but Alex only said 'maybe visited' on 2026-10-27. Await direct confirmation of an actual meal at this restaurant before adding canonical dining visit, award watchlist entry or public experience.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "venueCity": "Manhattan Beach",
-      "openedYear": 2011
+      "openedYear": 2011,
+      "lastInterviewResponse": "Maybe visited.",
+      "lastReviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-space-park-fishing-with-dynamite",
@@ -7460,7 +7462,7 @@
         "Rancho Palos Verdes"
       ],
       "source": "User directly stated October 27, 2026 that he has eaten at many restaurants around the Northrop Grumman Space Park campus in LA.",
-      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation.",
+      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit.",
       "publishAsExperience": false,
       "visitStatus": "unidentified",
       "identificationCandidates": [
@@ -7468,9 +7470,11 @@
           "candidateId": "candidate-space-park-manhattan-beach-post",
           "name": "Manhattan Beach Post",
           "city": "Manhattan Beach",
-          "status": "unreviewed",
+          "status": "maybe",
           "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
-          "openingYear": 2011
+          "openingYear": 2011,
+          "lastInterviewResponse": "Maybe visited.",
+          "note": "Alex explicitly expressed uncertainty about eating at Manhattan Beach Post on October 27 2026. Do not count it as a confirmed named visit; exact date unknown."
         },
         {
           "candidateId": "candidate-space-park-fishing-with-dynamite",
@@ -7529,7 +7533,8 @@
           "openingYear": null
         }
       ],
-      "nextQuestion": "Which of these named Michelin-listed South Bay restaurants did you actually eat at? Start with M.B. Post, Fishing with Dynamite, RYLA, and Sushi Inaba. You can confirm several at once or mark maybe/no."
+      "nextQuestion": "Fishing with Dynamite, 1148 Manhattan Avenue, Manhattan Beach: did you actually eat at the tiny 32-seat seafood/oyster bar near the pier? Confirmed, maybe, or did not visit.",
+      "lastInterviewResponse": "Manhattan Beach Post — Maybe visited."
     }
   ],
   "interviewChapters": {
@@ -7764,7 +7769,29 @@
         "Sweet Rice",
         "Mar'sel"
       ],
-      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star."
+      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel.",
+      "maybeVisitedNames": [
+        "Manhattan Beach Post"
+      ],
+      "maybeVisitedCandidates": 1,
+      "unreviewedCandidates": 7,
+      "lastReviewedCandidate": "Manhattan Beach Post",
+      "nextCandidate": "Fishing with Dynamite",
+      "firstBatchProgress": {
+        "answered": [
+          {
+            "name": "Manhattan Beach Post",
+            "status": "maybe",
+            "date": "2026-10-27",
+            "source": "Direct user answer; no date or dining proof inferred"
+          }
+        ],
+        "remaining": [
+          "Fishing with Dynamite",
+          "RYLA",
+          "Sushi Inaba (Torrance)"
+        ]
+      }
     }
   },
   "interviewProgress": {
@@ -7772,15 +7799,14 @@
       "area": "South Bay / Space Park",
       "category": "restaurants",
       "candidateNames": [
-        "Manhattan Beach Post",
         "Fishing with Dynamite",
         "RYLA",
         "Sushi Inaba (Torrance)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Which of these four Michelin-recognized South Bay restaurants did you eat at during your Space Park visits? Confirmed, maybe, or not visited; multiple answers welcome.",
-      "continuation": "After first four, proceed to other qualified South Bay locations and preserve exact restaurant/address distinction.",
-      "note": "First South Bay batch awaits direct recall while West Hollywood's Michelin screening and Jay's Taiwanese restaurant identification remain concurrently active. Never mark West Hollywood as completed, closed, or permanently paused."
+      "question": "Fishing with Dynamite, Manhattan Beach — did you actually dine at this compact 32-seat oyster bar by the pier? Respond visited, maybe, or did not visit.",
+      "continuation": "After Fishing with Dynamite, continue with RYLA, then Sushi Inaba Torrance. Manhattan Beach Post remains MAYBE with its exact date unverified.",
+      "note": "West Hollywood/Joy-Liu's still parallel active. Manhattan Beach Post maybe; do not publish. Fishing with Dynamite remains unreviewed."
     },
     "pausedBatches": [
       {
@@ -7957,7 +7983,26 @@
           "Mar'sel"
         ],
         "confirmedNamedVisits": 0,
-        "visitEvidenceRule": "Only explicit user-specific confirmations add dining experiences; current Michelin status does not establish historical status."
+        "visitEvidenceRule": "Only explicit user-specific confirmations add dining experiences; current Michelin status does not establish historical status.",
+        "firstBatchProgress": {
+          "answered": [
+            {
+              "name": "Manhattan Beach Post",
+              "status": "maybe",
+              "date": "2026-10-27",
+              "source": "Direct user answer; no date or dining proof inferred"
+            }
+          ],
+          "remaining": [
+            "Fishing with Dynamite",
+            "RYLA",
+            "Sushi Inaba (Torrance)"
+          ]
+        },
+        "maybeVisitedNames": [
+          "Manhattan Beach Post"
+        ],
+        "nextCandidate": "Fishing with Dynamite"
       }
     ]
   }
