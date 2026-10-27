@@ -1096,6 +1096,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "teocalli-tamale-crested-butte"
+    },
+    {
+      "id": "venue-two-twelve-crested-butte",
+      "name": "Two Twelve",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "212 Elk Avenue, Crested Butte, CO 81224",
+      "neighborhood": "Downtown / Elk Avenue",
+      "location": {
+        "lat": 38.8697,
+        "lng": -106.9878,
+        "precision": "city-centroid"
+      },
+      "sourceId": "two-twelve-crested-butte"
     }
   ],
   "records": [
@@ -5689,6 +5704,100 @@
         "reviewedOn": "2026-10-27",
         "confidence": "user_confirmed_not_verified_michelin_jbf"
       }
+    },
+    {
+      "id": "dining-two-twelve-crested-butte-date-unknown",
+      "type": "dining",
+      "title": "Two Twelve",
+      "venueId": "venue-two-twelve-crested-butte",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Crested Butte dining visit; exact date unknown",
+        "precision": "unknown",
+        "source": "Alex confirmed eating at Two Twelve, Crested Butte, in the October 27, 2026 Culture Passport interview. Opening July 2024 is establishment context, not the visit date.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_attendance_confirmed_date_unknown"
+      },
+      "summary": "Confirmed dining visit to Two Twelve, a live-fire, farm-to-table restaurant at 212 Elk Avenue in Crested Butte. Opened in July 2024, it is led by executive chef Anthony Nelson and partners including Kyleena Falzone. The specific meal and visit date are unrecorded.",
+      "memory": {
+        "headline": "Dinner by the hearth at Two Twelve",
+        "teaser": "A confirmed visit to Crested Butte's live-fire restaurant, known for seasonal Colorado ingredients and its dramatic open kitchen.",
+        "story": "I ate at Two Twelve in Crested Butte, a live-fire restaurant on Elk Avenue. The kitchen's emphasis on regional farms, a central hearth and modern alpine dining gives the venue a distinctive place in town's food story. I haven't yet recalled which trip it was, what we ordered, or who joined me. I also know the owners are connected to Bonez and The Secret Stash, but my visits to those restaurants remain possible rather than confirmed.",
+        "period": "Crested Butte visit; after the restaurant's 2024 opening, exact year unknown",
+        "source": "Direct user confirmation on 2026-10-27. Official Two Twelve restaurant website establishes concept, chef and partner names, Axios and 5280 corroborate opening-era context. Personal dishes and occasion not inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/restaurants",
+        "note": "No official Michelin Guide listing for Two Twelve identified in the October 2026 screening. Contemporary reporting notes Crested Butte is not a Guide-covered location; do not equate absence with lack of culinary quality."
+      },
+      "sourceUrl": "https://www.twotwelvecb.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed meal, but no verified Michelin/JBF formal recognition or official editorial/program connection. Positive press from Axios, 5280, Mountain Town Magazine supports an independent emerging-restaurant profile; chef aspirations are not a James Beard nomination."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No official Two Twelve Michelin Guide distinction or James Beard 2026 semifinalist/nominee listing found. Newspaper coverage describes ambitions and reputation, not verified Foundation recognition. Retain in permanent watchlist.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://guide.michelin.com/us/en/colorado/restaurants",
+          "https://www.twotwelvecb.com/story",
+          "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining",
+          "https://5280.com/road-trip-dining-crested-buttes-two-twelve-offers-smoke-tinged-colorado-cuisine/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "user_confirmed_dining_2026_awards_and_programs_not_verified"
+      },
+      "editorialMentions": [
+        {
+          "type": "independent_editorial",
+          "outlet": "Axios Denver",
+          "date": "2025-09-18",
+          "url": "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining",
+          "description": "Covers chef Anthony Nelson, live-fire cuisine and culinary ambitions. A journalist's expressed hope for Beard nomination, not an official nomination."
+        },
+        {
+          "type": "independent_editorial",
+          "outlet": "5280",
+          "date": "2025-12-16",
+          "url": "https://5280.com/road-trip-dining-crested-buttes-two-twelve-offers-smoke-tinged-colorado-cuisine/",
+          "description": "Profiles hearth cuisine and ownership; discusses potential future James Beard ambitions and geographic Michelin Guide limitations, without claiming actual recognition."
+        },
+        {
+          "type": "independent_editorial",
+          "outlet": "Mountain Town Magazine",
+          "date": "2025",
+          "url": "https://mtntownmagazine.com/two-twelve-in-crested-butte-catching-fire/",
+          "description": "Feature on partner Kyleena Falzone and chef Anthony Nelson, shared seasonal meals and restaurant design; independent media coverage."
+        }
+      ],
+      "relatedVenueConnections": [
+        {
+          "venue": "Bonez",
+          "relation": "Partner Kyleena Falzone also associated with Bonez",
+          "userVisitStatus": "maybe",
+          "sourceUrl": "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining"
+        },
+        {
+          "venue": "The Secret Stash",
+          "relation": "Partner Kyleena Falzone also associated with The Secret Stash",
+          "userVisitStatus": "maybe",
+          "sourceUrl": "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining"
+        }
+      ]
     }
   ],
   "origin": {
