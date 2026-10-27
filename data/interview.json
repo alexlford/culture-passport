@@ -6226,28 +6226,28 @@
       "name": "Liu's Cafe (Koreatown)",
       "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/liu-s-cafe",
       "addressHint": "3915 1/2 W 6th Street, Los Angeles, CA 90020",
-      "interviewCue": "Minimalist wood-table Taiwanese/Hong Kong-style café with pastries, chili-oil wontons, Chiayi chicken rice and braised pork rice. More plausible if meal took place from September 2023 onward.",
+      "interviewCue": "Leading likely identity, still unconfirmed. Original Liu's Cafe opened Aug 31 2023 at 3915 1/2 W 6th St in Koreatown, a modern Taiwanese/Hong Kong-style cafe with long dark-wood communal tables, dark bentwood chairs, green tiled water wall, vintage art, brass pendant lights and a pastry counter. Food: Chiayi chicken rice, pork belly rice, chile-oil wontons, sesame noodles, pineapple buns, HK milk tea. Ask whether the dining room, distinctive dishes or a date after August 2023 matches Jay's meal. Do not infer Westwood branch or any other branch.",
       "area": "Los Angeles / West Hollywood",
       "recognition": "2026 Michelin Bib Gourmand at 6th Street Koreatown location. Opened August 2023; exclude as an identity for earlier trips.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "visitStatus": "maybe",
+      "researchStatus": "user_strongly_suspects_identity_not_yet_confirmed",
       "addedOn": "2026-10-27",
-      "priority": "high",
-      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "priority": "top_candidate_for_jay_taiwanese_memory",
+      "visitNote": "On October 27, 2026 Alex stated 'I have a strong feeling it is Liu's Cafe' when shown Liu's Cafe as a candidate for a Taiwanese restaurant visited with his friend Jay around West Hollywood/Los Angeles. This is a strong but expressly tentative restaurant identification, not a confirmed named venue meal. Keep status MAYBE and do not create a canonical dining record, award-watchlist entry or public experience. Original Koreatown location opened August 31, 2023: any earlier meal cannot have been at Liu's Cafe. The 2023-07-29 Butcher's Daughter West Hollywood reservation predates opening and must not be reused as the Taiwanese visit date. A Westwood branch now also exists, but user's visit branch is unconfirmed.",
       "screening": {
         "status": "verified_michelin_bib_2026",
         "basis": "michelin",
-        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/liu-s-cafe",
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "2026 Michelin Bib Gourmand at 6th Street Koreatown location. Opened August 2023; exclude as an identity for earlier trips."
+        "note": "Liu's Cafe at 3915½ W 6th Street is a 2026 Michelin Bib Gourmand. Opened August 31, 2023. Michelin status and exact premises independently verified; user attendance at this named restaurant only strongly suspected."
       },
       "eligibility": {
         "status": "award_qualified",
         "basis": "michelin",
-        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "reason": "Venue independently qualifies by 2026 Michelin Bib Gourmand, but the user's 'strong feeling' is a tentative ID, NOT direct confirmation of a meal at Liu's Cafe. Do not promote candidate to a confirmed dining record or public experience without stronger confirmation.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -7156,7 +7156,7 @@
       "id": "la-west-hollywood-jay-taiwanese-unidentified",
       "category": "dining",
       "name": "Taiwanese restaurant with Jay — Los Angeles/West Hollywood area",
-      "status": "confirmed_dining_memory_venue_unidentified",
+      "status": "probable_identity_pending_confirmation",
       "venueIdentityConfirmed": false,
       "visitDate": null,
       "visitPeriod": null,
@@ -7170,9 +7170,9 @@
         "ROW DTLA"
       ],
       "source": "Direct user recollection October 27, 2026",
-      "note": "Alex recalls Jay taking him to several unnamed restaurants in or around West Hollywood, including a Taiwanese spot. The Butcher's Daughter is separately confirmed at West Hollywood, but Jay's attendance there is unknown and must not be inferred. All proposed Taiwanese venues are unconfirmed. Use visually distinctive interiors and travel neighborhood as identification clues. The 2023 Butcher's Daughter reservation is not evidence of the Taiwanese meal's date.",
+      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. No evidence links the 2023-07-29 Butcher's Daughter reservation to this meal; that booking predates Liu's opening. West Hollywood and South Bay research both remain active.",
       "publishAsExperience": false,
-      "visitStatus": "unidentified",
+      "visitStatus": "unidentified_probable_venue",
       "confirmedVisitId": null,
       "identificationCandidates": [
         {
@@ -7184,8 +7184,9 @@
         {
           "candidateId": "candidate-la-lius-cafe-ktown",
           "name": "Liu's Cafe (Koreatown)",
-          "status": "unreviewed",
-          "note": "Minimalist wood-table Taiwanese/Hong Kong-style café with pastries, chili-oil wontons, Chiayi chicken rice and braised pork rice. More plausible if meal took place from September 2023 onward."
+          "status": "leading_probable_identity_pending_confirmation",
+          "note": "User strongly feels Liu's Cafe was the Taiwanese restaurant Jay took him to, but has not definitely confirmed it. Opened 2023-08-31 at Koreatown 6th Street address; current 2026 Bib Gourmand. No exact visit date established.",
+          "confidence": "strong_user_suspicion"
         },
         {
           "candidateId": "candidate-la-kato",
@@ -7224,7 +7225,33 @@
           "note": "Modern Taiwanese restaurant in South Park, Downtown LA, at 1120 S Grand Ave. Its breakfast/all-day menu and cocktails distinguish it from Silver Lake, at 1521 Griffith Park Blvd. Current Michelin Bib Gourmand applies to the original SILVER LAKE branch only unless a separate official DTLA listing is verified."
         }
       ],
-      "nextQuestion": "Which interior resembles your Taiwanese meal with Jay: Pine & Crane's pale wood and communal tables, Liu's Cafe's vintage posters and long wood table (only if September 2023 or later), Din Tai Fung's glass dumpling kitchen, Little Fatty's bright mural/bar, Joy's red-patterned banquette, Kato's tasting-menu room, or Formosa's preserved red trolley? If unsure, recall a dish or neighborhood."
+      "nextQuestion": "Does the Liu's Cafe dining room with long wood table, vintage poster wall and brass lamps look familiar, and would your visit with Jay have been after August 31, 2023? The exact year or food ordered would be enough to narrow the evidence.",
+      "probableCandidateId": "candidate-la-lius-cafe-ktown",
+      "identificationConfidence": "user_strong_feeling_not_definitive_confirmation",
+      "lastInterviewResponse": "I have a strong feeling it is Liu's Cafe.",
+      "updatedOn": "2026-10-27",
+      "temporalConstraint": {
+        "earliestPossibleVisit": "2023-08-31",
+        "basis": "Original Koreatown Liu's Cafe public soft opening. Future Westwood branch is a distinct venue and must not be inferred.",
+        "evidenceUrls": [
+          "https://visitkoreatown.org/lius-cafe/",
+          "https://la.eater.com/2023/9/26/23889744/lius-cafe-koreatown-hong-kong-taiwanese-opening"
+        ]
+      },
+      "imageReviewSources": [
+        {
+          "role": "restaurant_operator_interior",
+          "url": "https://liuscafe.com/"
+        },
+        {
+          "role": "interior_and_menu_photographs",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/lius-cafe-koreatown"
+        },
+        {
+          "role": "2023_original_restaurant_coverage",
+          "url": "https://la.eater.com/2023/9/26/23889744/lius-cafe-koreatown-hong-kong-taiwanese-opening"
+        }
+      ]
     },
     {
       "id": "redondo-space-park-dining-unidentified",
@@ -7507,9 +7534,9 @@
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 17,
-      "unreviewed": 16,
+      "unreviewed": 15,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -7520,7 +7547,10 @@
         "Chi Spacca",
         "Angelini Osteria",
         "Ardor (West Hollywood EDITION)"
-      ]
+      ],
+      "strongestUnconfirmedTaiwaneseLead": "Liu's Cafe (Koreatown)",
+      "liusCafeCandidateStatus": "maybe_user_strong_feeling_not_confirmed_venue",
+      "maybeVisited": 1
     },
     "spaceParkSouthBay": {
       "state": "active_research_parallel",
@@ -7646,7 +7676,7 @@
       {
         "area": "Los Angeles / West Hollywood",
         "category": "restaurants",
-        "status": "parallel_active_awaiting_photo_identification",
+        "status": "parallel_active_probable_liu_identity_pending_confirmation",
         "pausedOn": "2026-10-27",
         "candidateNames": [
           "Pine & Crane (Silver Lake)",
@@ -7656,7 +7686,7 @@
           "Joy (Highland Park)",
           "Kato"
         ],
-        "reason": "User explicitly requested on October 27 that West Hollywood and the Taiwanese restaurant with Jay remain active in parallel with Space Park. This is not abandoned or closed.",
+        "reason": "Liu's Cafe strongly suspected by user, not confirmed. Original Koreatown restaurant opened Aug 31 2023; maintain open memory lead and parallel Space Park effort.",
         "resumeOnlyOnUserRequest": false
       }
     ],
@@ -7695,7 +7725,7 @@
       {
         "area": "Los Angeles / West Hollywood",
         "status": "actively_researching",
-        "priority": "Identify Taiwanese restaurant with Jay, and screen Michelin-recognized venues around West Hollywood",
+        "priority": "Test Liu's Cafe 2023-or-later chronology and photo recognition, then continue the rest of West Hollywood Michelin shortlist and parallel Space Park screen",
         "confirmedNamedVisits": 2,
         "confirmedNames": [
           "République",
@@ -7714,7 +7744,9 @@
           "Angelini Osteria",
           "Ardor (West Hollywood EDITION)"
         ],
-        "visitEvidenceRule": "No venue attendance inferred from Michelin inclusion or geographical proximity; 2023 Butcher's Daughter booking is not a verified meal date."
+        "visitEvidenceRule": "Liu's Cafe is a MAYBE visit with strong user suspicion only. Confirm specific meal before moving to canonical records; no invented date or cross-branch award; Butcher's Daughter booking July 2023 predates Liu's opening.",
+        "leadIdentificationCandidate": "Liu's Cafe (Koreatown)",
+        "leadConfidence": "strong_user_feeling_not_confirmed"
       },
       {
         "area": "South Bay / Space Park",
