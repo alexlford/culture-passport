@@ -10,12 +10,13 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 31,
-    "distinctPublishedVenues": 29,
+    "canonExperienceRecords": 32,
+    "distinctPublishedVenues": 30,
     "recognized": 20,
     "featuredPersonal": 6,
+    "officiallyFeatured": 1,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 12,
+    "additionalConfirmedArchiveOnly": 11,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -644,6 +645,27 @@
       "recognitionSummary": [],
       "editorialNote": "Special user-requested inclusion for a scenic and memorable anniversary dinner above Telluride, without claiming Michelin/James Beard qualification.",
       "visitConfidence": "direct_user_confirmation_anniversary_dinner"
+    },
+    {
+      "venueId": "venue-uchi-denver",
+      "name": "Uchi Denver",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-uchi-denver"
+      ],
+      "rememberedPeriods": [
+        "Denver years; exact visit date unknown"
+      ],
+      "recognitionStatus": "official_foundation_program_connection",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/denver-5"
+      ],
+      "recognitionSummary": [
+        "2019 James Beard Foundation benefit hosted at the Uchi Denver restaurant; no Beard Award or nomination claimed"
+      ],
+      "editorialNote": "Public On the Radar tier: direct official James Beard Foundation program-host link from 2019. Date belongs to Foundation event, not to the undated personal meal. Tyson Cole's awards for Austin are not attributed to this Denver venue.",
+      "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown"
     }
   ],
   "confirmedArchiveOnly": [
@@ -674,13 +696,6 @@
       "period": "Kansas City years",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Visit to Jack Stack confirmed; particular branch not confirmed."
-    },
-    {
-      "name": "Uchi Denver",
-      "city": "Denver",
-      "period": "Denver years; 2022 reservation exists but not independently confirmed as meal date",
-      "status": "confirmed_memory_award_elsewhere",
-      "note": "Alex directly reconfirmed Uchi Denver as a visited sushi restaurant on 2026-10-25; Tyson Cole's 2011 award belongs to original Austin Uchi, not Denver. Confirmed archive-only experience."
     },
     {
       "name": "Dominic's on the Hill",
