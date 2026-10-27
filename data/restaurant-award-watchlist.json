@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "asOf": "2026-10-27",
+  "classification": "private_research",
+  "purpose": "Permanent watchlist of user-confirmed restaurant visits without currently verified qualifying Michelin or James Beard recognition. Preserve here even if they later qualify; change status to promoted and append dated recognition evidence rather than deleting.",
+  "scope": "Restaurants only. Cocktail bars such as J-Bar stay in the existing bar/research ledger and should be monitored separately if a bar watchlist is created.",
+  "qualificationPolicy": "Do not infer an absence of all awards. 'No qualifying award verified' only describes the documented screening as of lastReviewedOn. Specific location and time of honor matter. Chef awards at another restaurant do not qualify this venue. Visit confirmation is independent of award verification.",
+  "auditGuidance": "On each review check official Michelin Guide restaurant pages and regional editions, the James Beard Foundation semifinalist, finalist, and winner announcements, and reliable award archives for the actual restaurant/chef relationship. Record organization, category, recognition year, date confirmed, recipient, exact location, URL, and whether the distinction occurred before or after the meal. If newly qualified, update the main record's editorial/curation, document the honor in data/dining-awards-audit.json, mark this entry promoted, and keep the previous reviewHistory and memory. Do not infer a meal date from a reservation.",
+  "reviewCadence": "quarterly",
+  "entries": [
+    {
+      "id": "venue-acquolina-aspen",
+      "venueId": "venue-acquolina-aspen",
+      "venueName": "Acquolina Trattoria & Pizzeria",
+      "city": "Aspen",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-acquolina-aspen-date-unknown"
+      ],
+      "visitPeriods": [
+        "Aspen visit; date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "Not listed among Aspen's four 2026 Michelin restaurants and no qualifying James Beard award found for this location.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-gunther-and-co-baltimore-2020-02-14",
+      "venueId": "venue-gunther-and-co-baltimore-2020-02-14",
+      "venueName": "Gunther & Co.",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-gunther-and-co-baltimore-2020-02-14"
+      ],
+      "visitPeriods": [
+        "Valentine’s Day · 2020"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": true,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "A valued personal favorite; no verified Michelin Guide or James Beard award/nomination established for this restaurant.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-rec-pier-chop-house-baltimore",
+      "venueId": "venue-rec-pier-chop-house-baltimore",
+      "venueName": "Rec Pier Chop House",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-rec-pier-chop-house-baltimore"
+      ],
+      "visitPeriods": [
+        "Baltimore years"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "association_requires_verification",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "Chef Andrew Carmellini had James Beard awards from earlier career and was associated with this restaurant, but no direct James Beard award for Rec Pier Chop House has been established. Founder association alone is insufficient.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-thames-street-oyster-house-baltimore",
+      "venueId": "venue-thames-street-oyster-house-baltimore",
+      "venueName": "Thames Street Oyster House",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-thames-street-oyster-house-baltimore"
+      ],
+      "visitPeriods": [
+        "Baltimore years"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "Confirmed dining memory; no verified Michelin Guide or James Beard recognition established for this restaurant.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-the-kitchen-american-bistro-boulder",
+      "venueId": "venue-the-kitchen-american-bistro-boulder",
+      "venueName": "The Kitchen American Bistro",
+      "city": "Boulder",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-the-kitchen-american-bistro-boulder"
+      ],
+      "visitPeriods": [
+        "Boulder years; date unspecified"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "No verified award for this particular Boulder venue. Archived as a confirmed personal experience, not featured in Michelin/Beard collection.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-breckenridge-distillery",
+      "venueId": "venue-breckenridge-distillery",
+      "venueName": "Breckenridge Distillery Restaurant",
+      "city": "Breckenridge",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-breckenridge-distillery-2021",
+        "dining-breckenridge-distillery-2022",
+        "dining-breckenridge-distillery-2023"
+      ],
+      "visitPeriods": [
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "association_requires_verification",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "Chef David Burke's prior honors are not attributed to this venue, and the culinary-ambassador relationship is not sufficient to establish a Michelin/JBF qualifying restaurant.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-fino-denver",
+      "venueId": "venue-fino-denver",
+      "venueName": "FiNO",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-fino-denver-2026"
+      ],
+      "visitPeriods": [
+        "2026"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "No direct Michelin or James Beard recognition verified as of the time of this record; the user explicitly asked to include the visit.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-uchi-denver",
+      "venueId": "venue-uchi-denver",
+      "venueName": "Uchi Denver",
+      "city": "Denver",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-uchi-denver"
+      ],
+      "visitPeriods": [
+        "Denver years; date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "No directly applicable Michelin or James Beard honor for Uchi Denver established; founder's honor was awarded for another location.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "watch-arthur-bryants-barbeque-kansas-city",
+      "venueId": null,
+      "venueName": "Arthur Bryant's Barbeque",
+      "city": "Kansas City",
+      "region": null,
+      "experienceIds": [],
+      "visitPeriods": [
+        "Kansas City years"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Historic KC institution, but no direct qualifying Michelin or James Beard honor verified.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "watch-jack-stack-barbecue-kansas-city",
+      "venueId": null,
+      "venueName": "Jack Stack Barbecue",
+      "city": "Kansas City",
+      "region": null,
+      "experienceIds": [],
+      "visitPeriods": [
+        "Kansas City years"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Visit to Jack Stack confirmed; particular branch not confirmed.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "watch-joes-kansas-city-bar-b-que-kansas-city",
+      "venueId": null,
+      "venueName": "Joe's Kansas City Bar-B-Que",
+      "city": "Kansas City",
+      "region": null,
+      "experienceIds": [],
+      "visitPeriods": [
+        "Kansas City years"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Confirmed Kansas City barbecue experience; no direct Michelin/JBF distinction established.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "watch-q39-kansas-city",
+      "venueId": null,
+      "venueName": "Q39",
+      "city": "Kansas City",
+      "region": null,
+      "experienceIds": [],
+      "visitPeriods": [
+        "Kansas City years; historical reservation at Q39 South in 2025"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Chef-driven competition barbecue credentials do not substitute for a Michelin or James Beard honor.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-majestic-kansas-city",
+      "venueId": "venue-majestic-kansas-city",
+      "venueName": "The Majestic Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-majestic-kansas-city"
+      ],
+      "visitPeriods": [
+        "Kansas City years"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": true,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "Confirmed jazz-steakhouse memory; no verified Michelin Guide or James Beard honor for the restaurant established.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "watch-dominics-on-the-hill-st-louis",
+      "venueId": null,
+      "venueName": "Dominic's on the Hill",
+      "city": "St. Louis",
+      "region": null,
+      "experienceIds": [],
+      "visitPeriods": [
+        "2012"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Italian restaurant on The Hill identified by user and booking evidence; no qualifying distinction established.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-primrose-steamboat",
+      "venueId": "venue-primrose-steamboat",
+      "venueName": "Primrose",
+      "city": "Steamboat Springs",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-primrose-steamboat-date-unknown"
+      ],
+      "visitPeriods": [
+        "Steamboat Springs; exact date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "No venue-specific qualifying Michelin or James Beard recognition verified. Primrose is a separately confirmed personal experience.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-sauvage-steamboat-2021-01",
+      "venueId": "venue-sauvage-steamboat-2021-01",
+      "venueName": "Sauvage",
+      "city": "Steamboat Springs",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-sauvage-steamboat-2021-01"
+      ],
+      "visitPeriods": [
+        "Winter 2021"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-25",
+      "featuredException": true,
+      "evidenceRefs": [
+        "data/records.json"
+      ],
+      "sourceNotes": "A valued personal favorite; no verified Michelin Guide or James Beard award/nomination established for this restaurant.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-25",
+          "result": "no_qualifying_award_verified",
+          "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        }
+      ],
+      "recognitionEvents": []
+    }
+  ]
+}
