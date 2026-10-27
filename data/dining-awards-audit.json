@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "auditedOn": "2026-10-26",
+  "auditedOn": "2026-10-27",
   "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
@@ -15,7 +15,7 @@
     "recognized": 20,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 7,
+    "additionalConfirmedArchiveOnly": 8,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -675,6 +675,13 @@
       "period": "Date not established",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Confirmed visit to Boulder restaurant on West Pearl Street. No qualifying Michelin or James Beard recognition verified; unrelated to Sacramento's The Kitchen Restaurant."
+    },
+    {
+      "name": "Primrose",
+      "city": "Steamboat Springs",
+      "period": "Exact dinner date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex directly confirmed eating at Primrose on 2026-10-27. Exact date/occasion unknown; do not attach the January 2021 Sauvage visit. Restaurant-specific Michelin or James Beard recognition not established. Private archive only, pending publication approval."
     }
   ],
   "possiblyVisited": [
