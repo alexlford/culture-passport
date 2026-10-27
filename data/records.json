@@ -1006,6 +1006,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "allreds-restaurant-telluride"
+    },
+    {
+      "id": "venue-the-sunflower-crested-butte",
+      "name": "The Sunflower",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "214 Elk Avenue, Crested Butte, CO 81224",
+      "neighborhood": "Downtown / Elk Avenue",
+      "location": {
+        "lat": 38.8697,
+        "lng": -106.9878,
+        "precision": "city-centroid"
+      },
+      "sourceId": "the-sunflower-crested-butte"
     }
   ],
   "records": [
@@ -5055,6 +5070,60 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_anniversary_dinner_no_qualifying_award_claim"
+      }
+    },
+    {
+      "id": "dining-the-sunflower-crested-butte-date-unknown",
+      "type": "dining",
+      "title": "The Sunflower",
+      "venueId": "venue-the-sunflower-crested-butte",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Crested Butte years; date unknown",
+        "precision": "unknown",
+        "source": "Alex directly confirmed dining at The Sunflower during the Crested Butte Culture Passport interview on 2026-10-27. Actual dining date unestablished.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed visit to The Sunflower, a small farm-to-table restaurant at 214 Elk Avenue in Crested Butte, Colorado. The exact date, companions and dishes are not established. Distinct from Wildflower in Denver.",
+      "memory": {
+        "headline": "An evening at The Sunflower in Crested Butte",
+        "teaser": "One of the restaurants remembered among many meals in Crested Butte, an intimate farm-to-table dining room on Elk Avenue.",
+        "story": "I ate at The Sunflower in Crested Butte, a restaurant known for seasonal, farm-sourced cooking. It's one of many restaurants I remember visiting in town. The year, occasion, people at the table and dishes are still details to reconstruct.",
+        "period": "Crested Butte visits; date unknown",
+        "source": "Direct venue-level visit confirmation on October 27, 2026. Restaurant concept and address from The Sunflower official website; no menu items or occasion attributed to Alex."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "note": "Not listed in Michelin Colorado's official 2026 statewide selection. Historical editions and possible future inclusion still subject to quarterly re-audit; do not infer status on unknown visit date."
+      },
+      "sourceUrl": "https://www.sunflowercb.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed dining visit; no directly qualifying Michelin/James Beard distinction found in checked 2026 primary sources. Preserve in private archive and quarterly restaurant award watchlist."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No verified venue-specific qualifying Michelin/James Beard honor. 2026 Michelin statewide selection and 2026 JBF semifinalist lists did not name The Sunflower.",
+        "evidenceUrls": [
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://www.sunflowercb.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_2026_primary_source_screening"
       }
     }
   ],
