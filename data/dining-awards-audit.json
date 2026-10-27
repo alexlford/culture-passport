@@ -16,7 +16,7 @@
     "featuredPersonal": 6,
     "officiallyFeatured": 2,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 12,
+    "additionalConfirmedArchiveOnly": 13,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -775,6 +775,13 @@
       "period": "Crested Butte trip; restaurant date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex confirmed dining at The Breadery in the 2026-10-27 interview. No verified formal Michelin/JBF recognition or direct official Foundation program/editorial connection in the targeted 2026 and historical-index source review. Roots in Sunflower Communal Kitchen are historic business context, not proof same meal. Private watchlist, no invented meal date."
+    },
+    {
+      "name": "Public House",
+      "city": "Crested Butte",
+      "period": "Crested Butte meal; date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Directly confirmed dining at Public House on Elk Avenue, 2026-10-27 interview. No direct Michelin/JBF venue honor or Foundation event/editorial link verified in targeted source screen. Bar, live-music and brewery operations don't establish attended show or borrowing of beer awards. Private permanent award watchlist."
     }
   ],
   "possiblyVisited": [
