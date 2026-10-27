@@ -15,7 +15,7 @@
     "recognized": 20,
     "featuredPersonal": 5,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 8,
+    "additionalConfirmedArchiveOnly": 10,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -682,6 +682,20 @@
       "period": "Exact dinner date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex directly confirmed eating at Primrose on 2026-10-27. Exact date/occasion unknown; do not attach the January 2021 Sauvage visit. Restaurant-specific Michelin or James Beard recognition not established. Private archive only, pending publication approval."
+    },
+    {
+      "name": "J-Bar (Hotel Jerome)",
+      "city": "Aspen",
+      "period": "Visit confirmed, date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex directly confirmed visiting J-Bar inside Hotel Jerome on 2026-10-27. Distinct from the Michelin-selected restaurant Prospect in the same hotel; J-Bar has no verified qualifying Michelin or James Beard award. Private memory only."
+    },
+    {
+      "name": "Acquolina Trattoria & Pizzeria",
+      "city": "Aspen",
+      "period": "Visit confirmed, date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex directly confirmed a visit to Acquolina at 415 E Main Street on 2026-10-27. No exact date or dishes stated; restaurant not in 2026 Aspen Michelin list and no venue-specific James Beard distinction verified. Private memory only."
     }
   ],
   "possiblyVisited": [
