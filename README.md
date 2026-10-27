@@ -24,6 +24,7 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - `data/interview.json`, `data/performance-interview.json`, `data/performance-leads.json` — research queues.
 - `data/dining-awards-audit.json`, `data/reservation-evidence.json` — source ledgers, not competing databases.
 - `data/restaurant-award-watchlist.json` — **private, permanent, quarterly re-audit ledger** for confirmed restaurants not currently award-qualified. It includes archive-only barbecue and St. Louis memories, and keeps award promotion history. No additional public page is created from this file.
+- `data/expanded-recognition-audit-2026-10-27.json` — source-linked, **full-scope recognition review** of every confirmed restaurant/location or brand-level dining memory, classifying awards, program connections, featured exceptions, and watchlisted archives without counting uncertain visits.
 - `assets/` — independent stylesheet and JavaScript, with no runtime dependency on the Life Map application.
 
 ## Broader Michelin / James Beard curation (October 2026)
@@ -40,6 +41,20 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 **Award watchlist remains permanent:** Every confirmed restaurant without directly verified qualifying award/Guide recognition stays in the quarterly private watchlist even when included via a Foundation program or personal exception. Record newly discovered official links in its historical review ledger. Michelin editorial recognition and JBF program participation are tracked in `officialFeatures` on canonical records, independently of `recognitions` and `guide`. Only elevate `editorial.awardQualified` after confirming an actual Guide inclusion or qualifying Beard award stage.
 
 **Public release remains unapproved.** The visitor-preview exporter may select directly confirmed `officialFeature` restaurants, but publication-review entries must stay `pending` until explicitly approved. Do not expose private interview notes or complete watchlists on the public website.
+
+## Full confirmed-restaurant recognition sweep — October 27, 2026
+
+The private full-scope audit reviews **39 confirmed dining entries**: 34 specific canonical restaurant venues plus five separately recorded dining/brand memories (Joe's Kansas City, Q39, Arthur Bryant's, Jack Stack at as-yet-unidentified branches, and Dominic's on the Hill). This is not 39 independently verified restaurant addresses: the Jack Stack group entry is retained in addition to the separately confirmed Overland Park branch. The confirmed bar visit to J-Bar is separately excluded.
+
+- **19** entries already held venue-linked Michelin/James Beard distinctions; historical organization-sourced documentation was retained, with official Michelin media confirmation additionally checked for Beckon (2023) and Minetta Tavern (2017).
+- **2** confirmed restaurants now have direct, explicitly nonaward official Foundation program connections: **Uchi Denver** (hosted a 2019 Foundation benefit) and **Jack Stack Overland Park** (its named chefs participated in a 2012 Beard House dinner in New York). Their source URLs and venue/chef roles are preserved; neither was promoted to an award winner.
+- **5** personal-feature exceptions remain included because of the user's memories, irrespective of awards (including Allred's anniversary dinner).
+- **13** confirmed entries remain in the private nonaward archive without an independently verified direct program connection. The quarterly watchlist includes these, all personal exceptions and the two program-linked restaurants.
+- Further official Foundation historical Smart Catch evidence was identified for **Barolo Grill** and **Mercantile**, already formally recognized; it is now supplemental program context. **Soupçon (Crested Butte)** appears on the Foundation's historical Smart Catch Committed list, but the user's visit is still only **maybe**, so it is excluded from confirmed totals.
+
+**Limitations:** This sweep consulted official Michelin Colorado 2026 lists, 2026 JBF award announcements, historical Michelin media releases and named James Beard event/program archives. It is *not* a claim to have exhaustively indexed every historical Guide edition or Foundation event. Absence of a match means **not verified in this review**, not never awarded. Future quarterly research should check additional official editorial features, Awards Watch, Taste America/TasteTwenty, program rosters and location-specific chef history.
+
+Source detail, all 39 rows, the exact naming/branch distinctions and future-review guidance are in `data/expanded-recognition-audit-2026-10-27.json`. This file is private research, not included in visitor export. The new validator checks exact coverage against canonical confirmed dining and the separate archive, and ensures official program ties are never presented as awards.
 
 ## Quarterly restaurant award review
 
@@ -145,7 +160,7 @@ A future approval must be a deliberate human decision. Each approved entry requi
 
 Even after the existing manual deployment checkbox is selected, `python scripts/audit_publication.py --require-approved` will **refuse deployment** until all proposed visitor records have current explicit approval. Withheld records require a separately reviewed visitor dataset change rather than silently publishing them. The canonical private source repository remains private; a clean distribution site/repository is still preferred when configured.
 
-The packet is intended to support story and privacy review, not a fresh Michelin/James Beard eligibility audit. That separate Step 3 remains on hold.
+The packet is intended to support story and privacy review, not the separate Michelin/James Beard eligibility audit. An initial comprehensive confirmed-restaurant recognition sweep was completed October 27, 2026; its findings remain private and quarterly re-audit will continue.
 
 ## Experience-first copy edits (October 25, 2026)
 
