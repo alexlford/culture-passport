@@ -6510,10 +6510,10 @@
       "recognitionYear": null,
       "awardFamily": "context",
       "visitStatus": "confirmed",
-      "researchStatus": "direct_user_confirmed_restaurant_branch_provisional",
+      "researchStatus": "direct_user_confirmed_west_hollywood_branch",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User corrected previous count and confirms eating at The Butcher's Daughter (October 27, 2026). 2023 West Hollywood Resy booking remains separate. No claim of exact meal date, companions, or definitively confirmed branch.",
+      "visitNote": "On October 27, 2026 Alex directly confirmed visiting The Butcher's Daughter at its West Hollywood branch, 8755 Melrose Ave. Venue and branch are confirmed independently of the 2023-07-29 Resy reservation, which must not be treated as exact meal date. Companions, dishes, and date are unknown.",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -6525,14 +6525,76 @@
       "eligibility": {
         "status": "outside_scope",
         "basis": "none_verified",
-        "reason": "Confirmed dining independent of awards; retain in private watchlist. Historical booking corroborates possible specific branch only.",
+        "reason": "Branch and dining confirmed directly; no venue-specific Michelin or James Beard recognition established. Permanent award watchlist retains history. Meal date unknown.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "confirmedVisitId": "dining-butchers-daughter-los-angeles-date-unknown",
       "reviewedOn": "2026-10-27",
-      "visitPeriod": "Date unknown; West Hollywood booking 2023-07-29",
-      "visitSource": "User direct correction and existing private reservation ledger"
+      "visitPeriod": "West Hollywood restaurant visit, exact date unknown. Separate reservation July 29, 2023 for three.",
+      "visitSource": "Direct user confirmation of venue and West Hollywood branch, October 27, 2026. Historical 2023 Resy screenshot is corroborating reservation evidence only."
+    },
+    {
+      "id": "candidate-la-joy-highland-park",
+      "name": "Joy (Highland Park)",
+      "area": "Los Angeles / West Hollywood",
+      "sourceUrl": "https://www.joyonyork.com/",
+      "addressHint": "5100 York Blvd, Los Angeles, CA 90042",
+      "interviewCue": "Taiwanese casual counter service with exposed brick, woven pendant lights and distinctive RED floral-upholstered bench seating, clamshell buns and sesame bread; opened 2018. Farther east from West Hollywood; connected to Pine & Crane through chef/ownership but is a separate restaurant.",
+      "recognition": "No direct venue-specific Michelin or James Beard award, Guide distinction or Foundation program link positively verified in this review. Do not borrow Pine & Crane's Michelin Bib Gourmand for Joy.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_jay_taiwanese_venue_identity_lead",
+      "addedOn": "2026-10-27",
+      "priority": "secondary_geo_outside_west_hollywood",
+      "visitNote": "Candidate only: Alex has not identified this venue as a place he ate with Jay. Do not publish or include in confirmed totals.",
+      "screening": {
+        "status": "not_yet_audited_for_official_recognition",
+        "basis": null,
+        "evidenceUrl": "https://www.joyonyork.com/",
+        "sourceTier": "restaurant_primary_and_editorial",
+        "verifiedAt": "2026-10-27",
+        "note": "No direct venue-specific Michelin or James Beard award, Guide distinction or Foundation program link positively verified in this review. Do not borrow Pine & Crane's Michelin Bib Gourmand for Joy."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "none_verified",
+        "reason": "Confirmed attendance at this named venue has not been supplied. Award status does not prove a visit.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-pine-crane-dtla",
+      "name": "Pine & Crane (DTLA)",
+      "area": "Los Angeles / West Hollywood",
+      "sourceUrl": "https://www.pineandcrane.com/dtla",
+      "addressHint": "1120 S Grand Ave, Unit 101, Los Angeles, CA 90015",
+      "interviewCue": "Modern Taiwanese restaurant in South Park, Downtown LA, at 1120 S Grand Ave. Its breakfast/all-day menu and cocktails distinguish it from Silver Lake, at 1521 Griffith Park Blvd. Current Michelin Bib Gourmand applies to the original SILVER LAKE branch only unless a separate official DTLA listing is verified.",
+      "recognition": "No location-specific Michelin Bib or JBF award verified for the Downtown branch. The original Silver Lake Pine & Crane is separately Michelin-listed. Never transfer its award to DTLA.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_jay_taiwanese_venue_identity_lead",
+      "addedOn": "2026-10-27",
+      "priority": "secondary_geo_outside_west_hollywood",
+      "visitNote": "Candidate only: Alex has not identified this venue as a place he ate with Jay. Do not publish or include in confirmed totals.",
+      "screening": {
+        "status": "not_yet_audited_for_official_recognition",
+        "basis": null,
+        "evidenceUrl": "https://www.pineandcrane.com/dtla",
+        "sourceTier": "restaurant_primary_and_editorial",
+        "verifiedAt": "2026-10-27",
+        "note": "No location-specific Michelin Bib or JBF award verified for the Downtown branch. The original Silver Lake Pine & Crane is separately Michelin-listed. Never transfer its award to DTLA."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "none_verified",
+        "reason": "Confirmed attendance at this named venue has not been supplied. Award status does not prove a visit.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -6715,7 +6777,7 @@
         "ROW DTLA"
       ],
       "source": "Direct user recollection October 27, 2026",
-      "note": "Alex recalls buddy Jay taking him to several restaurants in or around West Hollywood, including one Taiwanese restaurant. This confirms a general dining recollection, NOT identity/venue attendance of any proposed name. Preserve the companion Jay as explicitly volunteered for the Culture Passport story. Do not count as an additional confirmed named restaurant, award-eligible experience, or public visitor record.",
+      "note": "Alex recalls Jay taking him to several unnamed restaurants in or around West Hollywood, including a Taiwanese spot. The Butcher's Daughter is separately confirmed at West Hollywood, but Jay's attendance there is unknown and must not be inferred. All proposed Taiwanese venues are unconfirmed. Use visually distinctive interiors and travel neighborhood as identification clues. The 2023 Butcher's Daughter reservation is not evidence of the Taiwanese meal's date.",
       "publishAsExperience": false,
       "visitStatus": "unidentified",
       "confirmedVisitId": null,
@@ -6755,9 +6817,21 @@
           "name": "Little Fatty (Mar Vista)",
           "status": "unreviewed",
           "note": "Lively Taiwanese-American comfort food and cocktails next to Accomplice bar; bright street-side logo and dramatic mural inside. Mar Vista Westside, well outside West Hollywood proper."
+        },
+        {
+          "candidateId": "candidate-la-joy-highland-park",
+          "name": "Joy (Highland Park)",
+          "status": "unreviewed",
+          "note": "Taiwanese casual counter service with exposed brick, woven pendant lights and distinctive RED floral-upholstered bench seating, clamshell buns and sesame bread; opened 2018. Farther east from West Hollywood; connected to Pine & Crane through chef/ownership but is a separate restaurant."
+        },
+        {
+          "candidateId": "candidate-la-pine-crane-dtla",
+          "name": "Pine & Crane (DTLA)",
+          "status": "unreviewed",
+          "note": "Modern Taiwanese restaurant in South Park, Downtown LA, at 1120 S Grand Ave. Its breakfast/all-day menu and cocktails distinguish it from Silver Lake, at 1521 Griffith Park Blvd. Current Michelin Bib Gourmand applies to the original SILVER LAKE branch only unless a separate official DTLA listing is verified."
         }
       ],
-      "nextQuestion": "Which Taiwanese restaurant interior or signature meal looks familiar from a trip with Jay? Was it a casual counter, red Hollywood booths, a dumpling mall restaurant, or a polished tasting menu?"
+      "nextQuestion": "Which interior resembles your Taiwanese meal with Jay: Pine & Crane's pale wood and communal tables, Liu's Cafe's vintage posters and long wood table (only if September 2023 or later), Din Tai Fung's glass dumpling kitchen, Little Fatty's bright mural/bar, Joy's red-patterned banquette, Kato's tasting-menu room, or Formosa's preserved red trolley? If unsure, recall a dish or neighborhood."
     }
   ],
   "interviewChapters": {
@@ -6949,11 +7023,11 @@
       ],
       "unidentifiedDiningMemories": 1,
       "companion": "Jay (user-supplied)",
-      "confirmedContext": "One or more restaurant trips near/around West Hollywood; one Taiwanese restaurant among them. Venue identities unconfirmed. No date tied to Jay meals. Direct October 27 user correction: The Butcher's Daughter is also confirmed. Saved Resy screenshot for West Hollywood on 2023-07-29, party 3, is branch-identification evidence, NOT an established attended-meal date. The user has not said whether Jay attended.",
-      "candidateCount": 11,
-      "unreviewed": 10,
+      "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
+      "candidateCount": 13,
+      "unreviewed": 12,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The user explicitly confirms République on October 24 2026, separately from the new unnamed meals with Jay. Research candidates are not assertions of visits; awards apply only to named location and year. Current Michelin awards are not proof of historical award status at an unknown meal date. Correction: République is not the sole named confirmed LA restaurant. The Butcher's Daughter is directly confirmed; exact date and branch remain conservatively qualified."
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date."
     }
   },
   "interviewProgress": {
@@ -6963,14 +7037,14 @@
       "candidateNames": [
         "Pine & Crane (Silver Lake)",
         "Liu's Cafe (Koreatown)",
-        "Kato",
-        "The Formosa Cafe",
         "Din Tai Fung (Century City)",
-        "Little Fatty (Mar Vista)"
+        "Little Fatty (Mar Vista)",
+        "Joy (Highland Park)",
+        "Kato"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Which Taiwanese restaurant from the photo shortlist looks like the place you visited with Jay? It is okay to keep all named candidates unreviewed.",
-      "nextStep": "Confirm one named venue first, then run a separate follow-up to identify other West Hollywood restaurants."
+      "question": "Which Taiwanese restaurant looks familiar from your visit with Jay? All names are identification candidates, not confirmations.",
+      "note": "The Formosa Cafe is a separate Chinese-American red-trolley alternative exactly in West Hollywood, not specifically Taiwanese. Reserve as geographic outlier rather than a high-confidence Taiwanese identity."
     },
     "pausedBatches": [
       {
