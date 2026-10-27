@@ -5755,33 +5755,37 @@
       "id": "candidate-crested-butte-the-breadery",
       "area": "Crested Butte",
       "name": "The Breadery",
-      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognition": "No directly verifiable qualifying Michelin Guide selection, James Beard semifinalist/finalist/winner honor, or official venue/chef program connection found in the checked primary and secondary sources as of 2026-10-27. Not a claim that no historical distinction has ever existed.",
       "recognitionYear": null,
       "awardFamily": "context",
       "interviewCue": "Sourdough-focused restaurant and bakehouse at 209 Elk Ave since April 2021: tall navy-blue interior wall, vintage wooden bar with string bulbs, large front windows; house-made sourdough pizza, bread and pasta. Earlier Sunflower Bakery & Brunch operated at the Sunflower Communal Kitchen in 2018, then Sixth Street 2019; avoid confusing a Sunflower dining memory with this 2021 Elk Ave restaurant.",
       "sourceUrl": "https://www.breaderycb.com/about-us",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "visitStatus": "confirmed",
+      "researchStatus": "direct_user_confirmed_expanded_awards_audit_no_link_verified",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "209 Elk Ave, Crested Butte, CO",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Direct confirmation of restaurant visit. Exact meal date, companions and dishes unknown. The Breadery's 2018–2019 bakery concept is separate from the full-service 209 Elk Ave dining room opened in 2021; user confirmed the restaurant when shown current dining-room photos. Do not infer a particular visit date.",
       "screening": {
-        "status": "not_yet_audited",
+        "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
-        "sourceTier": "local_or_primary",
-        "verifiedAt": null,
-        "note": "Venue existence cited, not award eligibility verified."
+        "evidenceUrl": "https://guide.michelin.com/us/en/colorado/restaurants",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "The Breadery absent from Michelin 2026 Colorado statewide restaurant guide. Not named in 2026 JBF semifinalist, nominee or winner listings. Also checked named searches of JBF archives and 5280 Colorado historical winners index; no direct Foundation editorial/program feature positively verified. Nonmatches are not exhaustive historical proof."
       },
       "eligibility": {
-        "status": "unreviewed",
+        "status": "outside_scope",
         "basis": "context",
-        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
-        "screenedOn": null,
+        "reason": "Confirmed visit but no official qualifying Michelin/JBF recognition or program link verified in this screening. Retain in permanent award watchlist.",
+        "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
-      "historicalLocationNote": "Breadery's early bakery roots date to Sunflower Communal Kitchen in 2018, then Off Elk Bakery on Sixth Street in 2019. The full-service restaurant opened at 209 Elk Ave in April 2021. A pre-2021 recollection must be disambiguated; do not count as the current dining venue without confirmation."
+      "historicalLocationNote": "Breadery's early bakery roots date to Sunflower Communal Kitchen in 2018, then Off Elk Bakery on Sixth Street in 2019. The full-service restaurant opened at 209 Elk Ave in April 2021. A pre-2021 recollection must be disambiguated; do not count as the current dining venue without confirmation.",
+      "visitPeriod": "Visit to Breadery restaurant in Crested Butte; meal year unknown, restaurant opened at 209 Elk Avenue in April 2021",
+      "visitSource": "Alex directly answered 'Visited' for The Breadery in the Culture Passport Crested Butte interview on October 27, 2026.",
+      "confirmedVisitId": "dining-the-breadery-crested-butte-date-unknown",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-public-house",
@@ -6209,15 +6213,16 @@
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
-      "confirmedNamedVisits": 2,
-      "note": "Slogar remains possibly visited only; confirmed memories are The Sunflower and The Wooden Nickel. Continue to The Breadery. Don't add uncertain venues to confirmed dining/award watchlist.",
+      "confirmedNamedVisits": 3,
+      "note": "The Sunflower, The Wooden Nickel and The Breadery confirmed. Soupçon, The Secret Stash, Elk Ave Prime and Slogar remain maybe, and must not be counted. Continue with Public House; preserve distinctions and award watchlist separately.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 4,
-      "unreviewed": 4,
+      "unreviewed": 3,
       "confirmedNames": [
         "The Sunflower",
-        "The Wooden Nickel"
+        "The Wooden Nickel",
+        "The Breadery"
       ],
       "uncertainLeadsPreserved": [
         "Soupçon",
@@ -6241,10 +6246,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "The Breadery"
+        "Public House"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Breadery in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Public House on Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
