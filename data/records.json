@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "categories": [
     {
       "id": "dining",
@@ -946,6 +946,17 @@
         "precision": "city-centroid"
       },
       "sourceId": "uchi-denver"
+    },
+    {
+      "id": "venue-primrose-steamboat",
+      "name": "Primrose",
+      "city": "Steamboat Springs",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "1110 Yampa St #100, Steamboat Springs, CO 80487",
+      "neighborhood": "Downtown / Yampa Street",
+      "location": null,
+      "sourceId": "primrose-steamboat"
     }
   ],
   "records": [
@@ -4782,6 +4793,59 @@
         ],
         "reviewedOn": "2026-10-25",
         "confidence": "direct_user_confirmation_no_venue_award"
+      }
+    },
+    {
+      "id": "dining-primrose-steamboat-date-unknown",
+      "type": "dining",
+      "title": "Primrose",
+      "venueId": "venue-primrose-steamboat",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Exact dining date unknown",
+        "precision": "unknown",
+        "source": "Alex directly confirmed dining at Primrose during the Steamboat Culture Passport interview on October 27, 2026; no year or exact date provided.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed visit to Primrose, the downtown Steamboat Springs steak-and-seafood restaurant on Yampa Street. The meal date, company, occasion and dishes have not been recalled. This is distinct from Alex's January 2021 dining memory at Sauvage.",
+      "memory": {
+        "headline": "Dinner at Primrose on Yampa Street",
+        "teaser": "A Steamboat restaurant visit remembered, with details of the night still to recover.",
+        "story": "I ate at Primrose in downtown Steamboat Springs. The restaurant has an open-kitchen counter and a menu built around steak and seafood. I have not yet placed the meal in a specific year, or recalled who joined me and what we ordered. It is a separate memory from my January 2021 dinner at Sauvage.",
+        "period": "Steamboat Springs; exact date unknown",
+        "source": "Confirmed attendance from Alex's direct October 27, 2026 interview answer; dining concept and address verified from the restaurant's website. No specific meal details inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No qualifying Michelin or James Beard distinction for this specific restaurant verified; do not infer an award from regional coverage."
+      },
+      "sourceUrl": "https://www.primrosesteamboat.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Direct user confirmation, visit date unknown. Excluded from Michelin/James Beard-recognized curation but retained as a private dining memory pending publication review."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No venue-specific qualifying Michelin or James Beard recognition verified. Primrose is a separately confirmed personal experience.",
+        "evidenceUrls": [
+          "https://www.primrosesteamboat.com/",
+          "https://www.steamboat.net/new-restaurants-to-try-in-steamboat-springs"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_no_venue_award_claim"
       }
     }
   ],
