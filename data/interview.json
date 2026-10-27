@@ -5971,15 +5971,77 @@
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
-        "evidenceUrl": "https://www.boneztequilabar.com/",
+        "evidenceUrl": "https://www.bonez.co/",
         "sourceTier": "operator",
         "verifiedAt": null,
-        "note": "Venue background only."
+        "note": "Official venue address/decor confirmed, not a recognition or visit status review."
       },
       "eligibility": {
         "status": "unreviewed",
         "basis": "context",
         "reason": "Requires direct user confirmation and Michelin/JBF audit.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-two-twelve",
+      "name": "Two Twelve",
+      "sourceUrl": "https://www.twotwelvecb.com/",
+      "addressHint": "212 Elk Ave, Crested Butte, CO 81224",
+      "interviewCue": "Opened July 2024; contemporary live-fire Colorado restaurant led by chef Anthony Nelson, with a visible hearth, open kitchen, seasonal locally sourced vegetables, whole roasted meats, wine service. Distinct from the much older Two Twelve address's former occupants.",
+      "area": "Crested Butte",
+      "recognition": "Michelin/JBF status not yet researched; restaurant lead only.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_second_round",
+      "addedOn": "2026-10-27",
+      "priority": "standard",
+      "visitNote": "Named venue unreviewed, no attendance inferred from general Crested Butte dining memory.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.twotwelvecb.com/",
+        "sourceTier": "operator_or_local_directory",
+        "verifiedAt": null,
+        "note": "Venue address and identity only; no Michelin/JBF award assertion."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Requires a direct user visit response and subsequent award/program verification.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-izakaya-cabin",
+      "name": "Izakaya Cabin",
+      "sourceUrl": "https://www.ironhorsecb.com/dining-guide/",
+      "addressHint": "321 Elk Ave, Crested Butte, CO 81224",
+      "interviewCue": "Japanese restaurant and sushi spot on Elk Avenue, noted in regional lodging/dining guides. User visit not confirmed.",
+      "area": "Crested Butte",
+      "recognition": "Michelin/JBF status not yet researched; restaurant lead only.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_second_round",
+      "addedOn": "2026-10-27",
+      "priority": "standard",
+      "visitNote": "Named venue unreviewed, no attendance inferred from general Crested Butte dining memory.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.ironhorsecb.com/dining-guide/",
+        "sourceTier": "operator_or_local_directory",
+        "verifiedAt": null,
+        "note": "Venue address and identity only; no Michelin/JBF award assertion."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Requires a direct user visit response and subsequent award/program verification.",
         "screenedOn": null,
         "verifiedForPublication": false
       }
@@ -6278,9 +6340,9 @@
       "state": "initial_candidate_screening_complete",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
-      "candidateCount": 10,
+      "candidateCount": 13,
       "confirmedNamedVisits": 5,
-      "note": "First batch of ten is complete. Confirmed: Sunflower, Wooden Nickel, Breadery, Public House, Teocalli Tamale. Maybe: Soupçon, Secret Stash, Elk Ave Prime, Slogar, Pitas in Paradise. Sunflower chef alumni & festival network investigated; Michelin/JBF 2026 hospitality claims belong to Olivia, not Sunflower. More Crested Butte venues may be interviewed in subsequent batches.",
+      "note": "Initial ten-venue screening completed: five confirmed, five possible. Second-round Bonez is next, followed by Two Twelve and Izakaya Cabin. Possible visits never count as confirmed; Michelin/JBF eligibility is a separate evidence review.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 5,
@@ -6300,7 +6362,9 @@
         "Pitas in Paradise"
       ],
       "additionalCandidatesQueued": [
-        "Bonez"
+        "Bonez",
+        "Two Twelve",
+        "Izakaya Cabin"
       ]
     },
     "kansasCityMetro": {
