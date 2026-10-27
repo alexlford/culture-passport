@@ -622,3 +622,44 @@ assert nonqualified_venue_ids == active_watch_ids, (
 audit_confirmed = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))["confirmedArchiveOnly"]
 archive_only_names = {v["name"] for v in audit_confirmed if v["name"] != "J-Bar (Hotel Jerome)"}
 assert archive_only_names.issubset({w["venueName"] for w in watch_entries})
+
+# Expanded Michelin and James Beard recognition audit must cover every confirmed restaurant.
+expanded = json.loads((ROOT / "data/expanded-recognition-audit-2026-10-27.json").read_text(encoding="utf-8"))
+assert expanded["schemaVersion"] == 1 and expanded["classification"] == "private_research"
+expanded_rows = expanded["confirmedRestaurants"]
+assert len(expanded_rows) == expanded["scope"]["restaurantEntriesReviewed"]
+assert len({(r["venueId"] or "archive:"+r["restaurantName"]) for r in expanded_rows}) == len(expanded_rows)
+confirmed_dining_venue_ids = {r["venueId"] for r in records if r["type"] == "dining" and r["status"] == "confirmed"}
+assert confirmed_dining_venue_ids == {r["venueId"] for r in expanded_rows if r["venueId"]}
+archived_not_in_records = {x["name"] for x in audit_confirmed
+    if x["name"] != "J-Bar (Hotel Jerome)" and
+    x["name"] not in {r["title"] for r in records if r["type"] == "dining" and r["status"] == "confirmed"}}
+assert archived_not_in_records == {x["restaurantName"] for x in expanded_rows if x["venueId"] is None}
+tier_names = {"formal_michelin_jbf_recognition", "official_program_or_editorial_connection",
+    "personal_featured_exception", "archived_pending_recognition"}
+assert {x["collectionTier"] for x in expanded_rows} <= tier_names
+assert sum(expanded["countsByTier"].values()) == len(expanded_rows)
+assert all(expanded["countsByTier"][tier] ==
+    sum(r["collectionTier"] == tier for r in expanded_rows)
+    for tier in expanded["countsByTier"])
+for row in expanded_rows:
+    if row["venueId"] is None:
+        assert row["collectionTier"] == "archived_pending_recognition"
+        continue
+    experience = next(r for r in records if r["venueId"] == row["venueId"] and r["type"] == "dining")
+    assert row["formalAwardOrGuideQualified"] == bool(experience["editorial"].get("awardQualified"))
+    assert row["officialProgramConnection"] == bool(experience["editorial"].get("officialFeature"))
+    assert row["personalFeaturedException"] == bool(experience["editorial"].get("featuredException"))
+    assert set(row["experienceIds"]) == {r["id"] for r in records
+        if r["type"] == "dining" and r["status"] == "confirmed" and r["venueId"] == row["venueId"]}
+    assert all(url.startswith("https://") for url in row["officialSourceUrls"])
+    if row["collectionTier"] == "official_program_or_editorial_connection":
+        assert experience["editorial"]["officialFeature"] is True
+        assert experience["editorial"]["awardQualified"] is False
+        assert row["officialFeatures"]
+    if row["collectionTier"] == "archived_pending_recognition":
+        assert not experience["editorial"].get("awardQualified")
+assert next(x for x in candidates if x["name"] == "Soupçon" and x["area"] == "Crested Butte")["visitStatus"] == "maybe"
+assert all(not (x["restaurantName"] == "Soupçon") for x in expanded_rows)
+assert {r["restaurantName"] for r in expanded_rows if r["collectionTier"] == "official_program_or_editorial_connection"} == {
+    "Uchi Denver", "Jack Stack Barbecue (Overland Park)"}
