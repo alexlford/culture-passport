@@ -900,6 +900,51 @@
       "recognitionEvents": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-public-house-crested-butte",
+      "venueId": "venue-public-house-crested-butte",
+      "venueName": "Public House",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-public-house-crested-butte-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed restaurant meal; year unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "User confirmed eating at Public House, a Crested Butte saloon, restaurant and music venue. No direct named Michelin/JBF honor or Foundation/Guide program link found in targeted primary-source search. Irwin Brewing beer competition awards cannot be transferred to Public House as Michelin or JBF honors. Preserve undated visit.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Targeted 2026 Michelin Colorado and James Beard Foundation name/restaurant-program search; no direct qualifying match found. Not a claim of never having received recognition.",
+          "evidenceUrls": [
+            "https://guide.michelin.com/us/en/colorado/restaurants",
+            "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Checked for official venue/editorial/chef/benefit program as well as awards; no verified named link. Continue monitoring.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://guide.michelin.com/us/en/colorado/restaurants"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
