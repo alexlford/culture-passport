@@ -15,7 +15,7 @@
     "recognized": 20,
     "featuredPersonal": 6,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 10,
+    "additionalConfirmedArchiveOnly": 11,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -716,6 +716,13 @@
       "period": "Visit confirmed, date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex directly confirmed a visit to Acquolina at 415 E Main Street on 2026-10-27. No exact date or dishes stated; restaurant not in 2026 Aspen Michelin list and no venue-specific James Beard distinction verified. Private memory only."
+    },
+    {
+      "name": "The Sunflower",
+      "city": "Crested Butte",
+      "period": "Crested Butte years; exact date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex directly confirmed dining at The Sunflower (214 Elk Ave) on 2026-10-27. The 2026 Michelin Colorado selection and James Beard 2026 semifinalists do not identify venue-specific qualifying recognition. Add to permanent private award watchlist; distinct from Wildflower Denver. No exact meal date inferred."
     }
   ],
   "possiblyVisited": [
