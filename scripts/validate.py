@@ -303,7 +303,17 @@ assert butchers["reservations"][0]["date"] == "2023-07-29"
 assert butchers["reservations"][0]["partySize"] == 3
 assert butchers["editorial"]["awardQualified"] is False
 assert butchers["venueId"] == "venue-butchers-daughter-west-hollywood"
-assert "provisional" in butchers["visit"]["attendanceCertainty"]
+assert butchers["visit"]["attendanceCertainty"] == "venue_and_branch_confirmed_date_unknown"
+assert butchers["visit"]["source"].find("West Hollywood") >= 0
+assert "provisionally" not in butchers["visit"]["source"].lower()
+assert interview_data["interviewChapters"]["losAngeles"]["confirmedNamedVisits"] == 2
+assert any(x["name"] == "The Butcher's Daughter (West Hollywood)" and x["visitStatus"] == "confirmed"
+    for x in candidates)
+assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["date"] == "2023-07-29"
+assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["attendanceInference"] == "restaurant_and_west_hollywood_branch_confirmed_independently_of_booking_date"
+assert all(x["visitStatus"] == "unreviewed" for x in candidates if x["id"] in {
+    "candidate-la-joy-highland-park", "candidate-la-pine-crane-dtla"
+})
 assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngeles"]["confirmedNames"]
 
 
