@@ -112,6 +112,39 @@
       const mid=el("div");mid.append(el("strong","",r.title),el("small","",v.city+" · "+(r.memory?.headline||"A place in the collection")));
       a.append(mid,el("span","feature-arrow","↗"));host.append(a);
     });
+    // City editions are generated from confirmed *curated* stories only. This
+    // works on both the private archive and the separately sanitized preview,
+    // never counting tentative interview memories or friend-recalled visits.
+    const cityHost=byId("city-editions");
+    if(cityHost){
+      const grouped=new Map();
+      db.records.filter(r=>r.status==="confirmed"&&(!["dining","bar"].includes(r.type)||includedDining(r))).forEach(r=>{
+        const venue=venues.get(r.venueId);
+        if(!venue?.city)return;
+        let entry=grouped.get(venue.city);
+        if(!entry){entry={city:venue.city,venueIds:new Set(),records:[]};grouped.set(venue.city,entry);}
+        entry.venueIds.add(r.venueId);entry.records.push(r);
+      });
+      const cities=[...grouped.values()]
+        .sort((a,b)=>b.venueIds.size-a.venueIds.size||a.city.localeCompare(b.city))
+        .slice(0,6);
+      cityHost.replaceChildren();
+      if(!cities.length)empty(cityHost,"The city editions are being prepared.","Confirmed curated stories will appear here after they have been reviewed.");
+      cities.forEach((entry,index)=>{
+        const preview=entry.records.slice().sort((a,b)=>
+          Number(!!b.favorite)-Number(!!a.favorite)||
+          Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||
+          byDate(a,b))[0];
+        const card=link("","./explore.html?city="+encodeURIComponent(entry.city),"city-edition");
+        card.setAttribute("aria-label","Explore "+entry.city+" — "+entry.venueIds.size+" confirmed places");
+        card.append(el("span","city-edition-number",String(index+1).padStart(2,"0")+" / CITY EDITION"));
+        card.append(el("h3","city-edition-name",entry.city));
+        card.append(el("span","city-edition-count",entry.venueIds.size+" confirmed "+(entry.venueIds.size===1?"place":"places")));
+        card.append(el("p","city-edition-memory","From the archive: "+preview.title));
+        card.append(el("span","city-edition-cta","Explore stories ↗"));
+        cityHost.append(card);
+      });
+    }
     const shared=byId("shared-memory-records");
     if(shared){
       shared.replaceChildren();
@@ -152,7 +185,7 @@
     buttons.forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.type;const url=new URL(location.href);if(filter==="all")url.searchParams.delete("type");else url.searchParams.set("type",filter);history.replaceState(null,"",url);update();}));
     const initialCity=params.get("city");
     if(initialCity&&availableCities.includes(initialCity))city.value=initialCity;
-    city.addEventListener("change",update);search.addEventListener("input",update);includeMemories.addEventListener("change",()=>{const url=new URL(location.href);if(includeMemories.checked)url.searchParams.set("memories","1");else url.searchParams.delete("memories");history.replaceState(null,"",url);update();});update();
+    city.addEventListener("change",()=>{const url=new URL(location.href);if(city.value)url.searchParams.set("city",city.value);else url.searchParams.delete("city");history.replaceState(null,"",url);update();});search.addEventListener("input",update);includeMemories.addEventListener("change",()=>{const url=new URL(location.href);if(includeMemories.checked)url.searchParams.set("memories","1");else url.searchParams.delete("memories");history.replaceState(null,"",url);update();});update();
   }
   function timeline(db){
     const host=byId("timeline-results"),select=byId("timeline-type"),count=byId("timeline-count"),includeMemories=byId("timeline-memories");
