@@ -6498,6 +6498,41 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-la-butchers-daughter-west-hollywood",
+      "name": "The Butcher's Daughter (West Hollywood)",
+      "sourceUrl": "https://thebutchersdaughter.com/location-all/west-hollywood",
+      "addressHint": "8755 Melrose Ave, West Hollywood, CA 90069",
+      "interviewCue": "Confirmed The Butcher's Daughter restaurant visit in LA. Earlier Resy reservation July 29, 2023 for three at West Hollywood supports but does not prove the specific meal/branch. Don't confuse with Venice location at 1205 Abbot Kinney. Ask if iconic green greenhouse-style bar in Melrose dining room is familiar.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "No venue-specific Michelin/James Beard award or official program link verified in October 2026 screening. Keep in permanent private restaurant recognition watchlist.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "confirmed",
+      "researchStatus": "direct_user_confirmed_restaurant_branch_provisional",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User corrected previous count and confirms eating at The Butcher's Daughter (October 27, 2026). 2023 West Hollywood Resy booking remains separate. No claim of exact meal date, companions, or definitively confirmed branch.",
+      "screening": {
+        "status": "memory_only",
+        "basis": null,
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
+        "sourceTier": "primary_michelin_plus_local_reporting",
+        "verifiedAt": "2026-10-27",
+        "note": "No qualifying official source positively verified."
+      },
+      "eligibility": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed dining independent of awards; retain in private watchlist. Historical booking corroborates possible specific branch only.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "confirmedVisitId": "dining-butchers-daughter-los-angeles-date-unknown",
+      "reviewedOn": "2026-10-27",
+      "visitPeriod": "Date unknown; West Hollywood booking 2023-07-29",
+      "visitSource": "User direct correction and existing private reservation ledger"
     }
   ],
   "source": {
@@ -6903,20 +6938,22 @@
     "losAngeles": {
       "state": "visual_identification_in_progress",
       "updatedOn": "2026-10-27",
-      "confirmedNamedVisits": 1,
+      "confirmedNamedVisits": 2,
       "confirmedNames": [
-        "République"
+        "République",
+        "The Butcher's Daughter"
       ],
       "confirmedVenueIds": [
-        "venue-republique-los-angeles"
+        "venue-republique-los-angeles",
+        "venue-butchers-daughter-west-hollywood"
       ],
       "unidentifiedDiningMemories": 1,
       "companion": "Jay (user-supplied)",
-      "confirmedContext": "One or more restaurant trips near/around West Hollywood; one Taiwanese restaurant among them. Venue identities unconfirmed. No date tied to Jay meals.",
-      "candidateCount": 10,
+      "confirmedContext": "One or more restaurant trips near/around West Hollywood; one Taiwanese restaurant among them. Venue identities unconfirmed. No date tied to Jay meals. Direct October 27 user correction: The Butcher's Daughter is also confirmed. Saved Resy screenshot for West Hollywood on 2023-07-29, party 3, is branch-identification evidence, NOT an established attended-meal date. The user has not said whether Jay attended.",
+      "candidateCount": 11,
       "unreviewed": 10,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The user explicitly confirms République on October 24 2026, separately from the new unnamed meals with Jay. Research candidates are not assertions of visits; awards apply only to named location and year. Current Michelin awards are not proof of historical award status at an unknown meal date."
+      "notes": "The user explicitly confirms République on October 24 2026, separately from the new unnamed meals with Jay. Research candidates are not assertions of visits; awards apply only to named location and year. Current Michelin awards are not proof of historical award status at an unknown meal date. Correction: République is not the sole named confirmed LA restaurant. The Butcher's Daughter is directly confirmed; exact date and branch remain conservatively qualified."
     }
   },
   "interviewProgress": {
