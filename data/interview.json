@@ -4807,7 +4807,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Long-running contemporary restaurant in Vail Village.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4826,7 +4826,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Possibly visited in Vail; date unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' during the Culture Passport Vail interview on October 27, 2026.",
+      "visitNote": "Uncertain dining memory. Preserve as an interview lead, not a confirmed meal or an award-qualified personal experience.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-vail-beaver-creek-splendido-at-the-chateau",
@@ -5721,6 +5725,18 @@
         "The Wild Fig"
       ],
       "note": "Acquolina dining and J-Bar drinking directly confirmed. The Wild Fig and Prospect are only maybe visited. Bosq, Element 47, and Mawa's Kitchen not visited. Preserve uncertainties and distinguish The Wild Fig's pre/post 2023 addresses."
+    },
+    "vailBeaverCreek": {
+      "state": "in_progress",
+      "updatedOn": "2026-10-27",
+      "confirmedVisits": 0,
+      "notVisited": 0,
+      "maybeVisited": 1,
+      "unreviewed": 3,
+      "uncertainLeadsPreserved": [
+        "Sweet Basil"
+      ],
+      "note": "Sweet Basil explicitly maybe visited; do not count as confirmed. Continuing one venue at a time."
     }
   },
   "interviewProgress": {
@@ -5728,10 +5744,10 @@
       "area": "Vail / Beaver Creek",
       "category": "restaurants",
       "candidateNames": [
-        "Sweet Basil"
+        "Osaki's"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Sweet Basil in Vail Village? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Osaki's, a sushi/Japanese restaurant in Vail? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
