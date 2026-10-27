@@ -5963,11 +5963,11 @@
       "interviewCue": "Mexican restaurant and tequila bar at 130 Elk Avenue in Crested Butte, with Día de los Muertos-inspired decor, colorful skeletons, a large communal table, house margaritas, tacos and made-at-the-table guacamole.",
       "sourceUrl": "https://www.bonez.co/",
       "addressHint": "130 Elk Avenue, Crested Butte, CO 81224",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "additional_crested_butte_candidate",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User says they've visited almost every restaurant in Crested Butte, but Bonez specifically not yet confirmed. No attendance inferred.",
+      "visitNote": "Possibly visited Bonez at 130 Elk Avenue only. No direct venue-level attendance confirmation. This remains private and is excluded from confirmed experience counts, public display and the confirmed-restaurant Michelin/James Beard award watchlist until separately confirmed.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -5982,14 +5982,17 @@
         "reason": "Requires direct user confirmation and Michelin/JBF audit.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possible Crested Butte Bonez restaurant visit; date and year unknown",
+      "visitSource": "Alex directly answered 'Maybe visited' for Bonez in the Crested Butte Culture Passport interview on October 27, 2026.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-two-twelve",
       "name": "Two Twelve",
       "sourceUrl": "https://www.twotwelvecb.com/",
-      "addressHint": "212 Elk Ave, Crested Butte, CO 81224",
-      "interviewCue": "Opened July 2024; contemporary live-fire Colorado restaurant led by chef Anthony Nelson, with a visible hearth, open kitchen, seasonal locally sourced vegetables, whole roasted meats, wine service. Distinct from the much older Two Twelve address's former occupants.",
+      "addressHint": "212 Elk Avenue, Crested Butte, CO 81224",
+      "interviewCue": "Modern American/live-fire restaurant at 212 Elk Ave, opened around 2024. Curved gray booths, copper-faced bar, open wood-burning hearth behind visible kitchen, modern steel-and-glass staircase and wine area; outdoor patio beneath trees and string lights. Chef Anthony Nelson; associated with Bonez and Secret Stash through partner Kyleena Falzone. Restaurant chef/ownership connections are contextual, not personal visit evidence.",
       "area": "Crested Butte",
       "recognition": "Michelin/JBF status not yet researched; restaurant lead only.",
       "recognitionYear": null,
@@ -6003,9 +6006,9 @@
         "status": "not_yet_audited",
         "basis": null,
         "evidenceUrl": "https://www.twotwelvecb.com/",
-        "sourceTier": "operator_or_local_directory",
-        "verifiedAt": null,
-        "note": "Venue address and identity only; no Michelin/JBF award assertion."
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "Official restaurant confirms location, dining room and cuisine; 2025 Axios reporting says chef hoped for a James Beard nomination. Aspirational nomination is not a verified award or finalist/semifinalist."
       },
       "eligibility": {
         "status": "unreviewed",
@@ -6337,16 +6340,16 @@
       "note": "Allred's confirmed as a memorable scenic anniversary dinner at San Sophia Station. Featured personal exception, with no award claim. Exact anniversary year unspecified. The National explicitly not visited."
     },
     "crestedButte": {
-      "state": "initial_candidate_screening_complete",
+      "state": "second_round_in_progress",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 13,
       "confirmedNamedVisits": 5,
-      "note": "Initial ten-venue screening completed: five confirmed, five possible. Second-round Bonez is next, followed by Two Twelve and Izakaya Cabin. Possible visits never count as confirmed; Michelin/JBF eligibility is a separate evidence review.",
+      "note": "First ten candidates closed (five confirmed, five maybe). Second round Bonez possibly visited, never count as confirmed; Two Twelve next, followed by Izakaya Cabin. Continue qualifying-award research independently from visit confirmation.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 5,
-      "unreviewed": 0,
+      "maybeVisited": 6,
+      "unreviewed": 2,
       "confirmedNames": [
         "The Sunflower",
         "The Wooden Nickel",
@@ -6359,10 +6362,10 @@
         "The Secret Stash",
         "Elk Ave Prime",
         "Slogar",
-        "Pitas in Paradise"
+        "Pitas in Paradise",
+        "Bonez"
       ],
       "additionalCandidatesQueued": [
-        "Bonez",
         "Two Twelve",
         "Izakaya Cabin"
       ]
@@ -6382,10 +6385,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Bonez"
+        "Two Twelve"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Bonez, the Mexican restaurant and tequila bar at 130 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Two Twelve at 212 Elk Avenue in Crested Butte, the modern live-fire restaurant with curved booths, open hearth and patio? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
