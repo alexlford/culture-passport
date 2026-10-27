@@ -2708,7 +2708,19 @@
         "reviewedOn": "2026-10-25",
         "confidence": "documented",
         "awardAtVisit": "Visit date unspecified; no claim recognition was held during the meal."
-      }
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Smart Catch Committed Restaurants",
+          "year": 2020,
+          "recognitionType": "sustainability_program_list",
+          "relationship": "Chef de Cuisine Matthew Vawter",
+          "venueScope": "same_restaurant",
+          "sourceUrl": "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page",
+          "description": "Named on the Foundation's historical Smart Catch Committed Restaurants list, as of March 16, 2020. 'Committed' denotes first assessment participation; not certification or a James Beard Award."
+        }
+      ]
     },
     {
       "id": "dining-barolo-grill-denver",
@@ -2761,7 +2773,19 @@
         "reviewedOn": "2026-10-25",
         "confidence": "documented",
         "awardAtVisit": "Visit date unspecified; no claim recognition was held during the meal."
-      }
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Smart Catch Committed Restaurants",
+          "year": 2020,
+          "recognitionType": "sustainability_program_list",
+          "relationship": "General Manager Adam Moore",
+          "venueScope": "same_restaurant",
+          "sourceUrl": "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page",
+          "description": "Named on the Foundation's historical Smart Catch Committed Restaurants list, as of March 16, 2020. 'Committed' denotes first assessment participation; not certification or a James Beard Award."
+        }
+      ]
     },
     {
       "id": "dining-north-pond-chicago-2021",
