@@ -16,7 +16,7 @@
     "featuredPersonal": 6,
     "officiallyFeatured": 2,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 13,
+    "additionalConfirmedArchiveOnly": 14,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -760,7 +760,8 @@
       "city": "Crested Butte",
       "period": "Crested Butte years; exact date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
-      "note": "Alex directly confirmed dining at The Sunflower (214 Elk Ave) on 2026-10-27. The 2026 Michelin Colorado selection and James Beard 2026 semifinalists do not identify venue-specific qualifying recognition. Add to permanent private award watchlist; distinct from Wildflower Denver. No exact meal date inferred."
+      "note": "Directly confirmed dining at Sunflower, Crested Butte, exact date unknown. Deep-dive verified former Sunflower executive chefs Christoph Peherstorfer (2026 Crested Butte Wine + Food Festival participant) and John Leonardi (later Soupçon owner; Soupçon appears in historical James Beard Smart Catch program), and sous chef Ian Scott (later Slogar). Festival roster includes Michelin/JBF-acclaimed chefs separately; these links are context, not a Sunflower Michelin/JBF award. 2025 Michelin Service Award belongs to Heather Morrison of Restaurant Olivia; Olivia also was 2026 JBF Outstanding Hospitality semifinalist, not finalist. Screenshot attribution to Sunflower is unsupported. Positive state tourism, Axios and Fodor's coverage preserved. Remains in private awards watchlist.",
+      "industryLineageAuditedOn": "2026-10-27"
     },
     {
       "name": "The Wooden Nickel",
@@ -782,6 +783,13 @@
       "period": "Crested Butte meal; date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Directly confirmed dining at Public House on Elk Avenue, 2026-10-27 interview. No direct Michelin/JBF venue honor or Foundation event/editorial link verified in targeted source screen. Bar, live-music and brewery operations don't establish attended show or borrowing of beer awards. Private permanent award watchlist."
+    },
+    {
+      "name": "Teocalli Tamale",
+      "city": "Crested Butte",
+      "period": "Crested Butte meal; exact visit date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex explicitly confirmed eating at Teocalli Tamale on 2026-10-27. 'Best in the Butte' local reputation documented by tourism site, but no Michelin/JBF distinction or official program link verified. Permanent watchlist; date unknown."
     }
   ],
   "possiblyVisited": [
