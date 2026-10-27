@@ -15,7 +15,7 @@
     "recognized": 20,
     "featuredPersonal": 6,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 11,
+    "additionalConfirmedArchiveOnly": 12,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -723,6 +723,13 @@
       "period": "Crested Butte years; exact date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex directly confirmed dining at The Sunflower (214 Elk Ave) on 2026-10-27. The 2026 Michelin Colorado selection and James Beard 2026 semifinalists do not identify venue-specific qualifying recognition. Add to permanent private award watchlist; distinct from Wildflower Denver. No exact meal date inferred."
+    },
+    {
+      "name": "The Wooden Nickel",
+      "city": "Crested Butte",
+      "period": "Crested Butte visit; date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex directly confirmed eating at The Wooden Nickel (222 Elk Ave) on 2026-10-27. No qualifying distinction found in the 2026 Michelin statewide Colorado selection or 2026 James Beard semifinalist/winner lists. Previous years not exhaustively screened. Preserved in private restaurant archive and award watchlist."
     }
   ],
   "possiblyVisited": [
