@@ -5726,12 +5726,12 @@
       "awardFamily": "context",
       "interviewCue": "Long-running family-style Southern restaurant.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "517 2nd St",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Unconfirmed possible dining memory. Keep separate from confirmed visits and restaurant award watchlist; do not assert user attendance, meal date, guests or dishes.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -5746,7 +5746,10 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possible Crested Butte visit; year unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' for Slogar in the Culture Passport Crested Butte interview on October 27, 2026.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-the-breadery",
@@ -6206,11 +6209,11 @@
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
       "confirmedNamedVisits": 2,
-      "note": "The Sunflower and The Wooden Nickel confirmed. Soupçon, The Secret Stash and Elk Ave Prime possible only. Continue to Slogar; eligibility separate from attendance.",
+      "note": "Slogar remains possibly visited only; confirmed memories are The Sunflower and The Wooden Nickel. Continue to The Breadery. Don't add uncertain venues to confirmed dining/award watchlist.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 3,
-      "unreviewed": 5,
+      "maybeVisited": 4,
+      "unreviewed": 4,
       "confirmedNames": [
         "The Sunflower",
         "The Wooden Nickel"
@@ -6218,7 +6221,8 @@
       "uncertainLeadsPreserved": [
         "Soupçon",
         "The Secret Stash",
-        "Elk Ave Prime"
+        "Elk Ave Prime",
+        "Slogar"
       ]
     },
     "kansasCityMetro": {
@@ -6236,10 +6240,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Slogar"
+        "The Breadery"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Slogar, the family-style fried chicken restaurant at 517 2nd St in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at The Breadery in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
