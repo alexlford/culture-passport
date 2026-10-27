@@ -6860,6 +6860,134 @@
       },
       "venueCity": "Rancho Palos Verdes",
       "openedYear": null
+    },
+    {
+      "id": "candidate-la-petit-trois-original",
+      "name": "Petit Trois (L'Original)",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/petit-trois",
+      "addressHint": "718 N Highland Ave, Los Angeles, CA 90038",
+      "interviewCue": "Tiny bustling French bistro opened 2014; crowded counter, French hip-hop, classic omelet, escargots, steak frites and Big Mec burger. Distinct from Petit Trois Le Valley.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Michelin Guide Selected listing for this exact restaurant in 2026; this is inclusion in the Guide, not a Michelin Star. Year of the user's hypothetical meal and precise recognition status at that time are unknown.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_guide_west_hollywood_area_candidate_not_visit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "Named restaurant independently listed in the current Michelin Guide near/around West Hollywood. No user attendance inferred; this is separate from the Taiwanese restaurant with Jay.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/petit-trois",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Current Guide listing Selected only; not a Star. Historical recognition year must be checked if user's visit predates current edition."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_selected_current",
+        "reason": "Recognized restaurant, potential visit only. Not eligible for confirmed personal archive until explicit user statement.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "openedYear": 2014
+    },
+    {
+      "id": "candidate-la-chi-spacca-melrose",
+      "name": "Chi Spacca",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/chi-spacca",
+      "addressHint": "6610 Melrose Ave, Los Angeles, CA 90038",
+      "interviewCue": "Nancy Silverton's intimate meat-focused Italian dining room near the Mozza restaurants; salumi, big dry-aged steaks and wood-fired meats. Open since 2013; not the same venue as Osteria Mozza or Pizzeria Mozza.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Michelin Guide Selected listing for this exact restaurant in 2026; this is inclusion in the Guide, not a Michelin Star. Year of the user's hypothetical meal and precise recognition status at that time are unknown.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_guide_west_hollywood_area_candidate_not_visit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "Named restaurant independently listed in the current Michelin Guide near/around West Hollywood. No user attendance inferred; this is separate from the Taiwanese restaurant with Jay.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/chi-spacca",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Current Guide listing Selected only; not a Star. Historical recognition year must be checked if user's visit predates current edition."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_selected_current",
+        "reason": "Recognized restaurant, potential visit only. Not eligible for confirmed personal archive until explicit user statement.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "openedYear": 2013
+    },
+    {
+      "id": "candidate-la-angelini-osteria-beverly",
+      "name": "Angelini Osteria",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/angelini-osteria",
+      "addressHint": "7313 Beverly Blvd, Los Angeles, CA 90036",
+      "interviewCue": "Classic long-running intimate Italian trattoria with closely spaced tables, pasta and warm traditional service; opened 2001, useful for reconstructing older visits.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Michelin Guide Selected listing for this exact restaurant in 2026; this is inclusion in the Guide, not a Michelin Star. Year of the user's hypothetical meal and precise recognition status at that time are unknown.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_guide_west_hollywood_area_candidate_not_visit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "Named restaurant independently listed in the current Michelin Guide near/around West Hollywood. No user attendance inferred; this is separate from the Taiwanese restaurant with Jay.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/angelini-osteria",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Current Guide listing Selected only; not a Star. Historical recognition year must be checked if user's visit predates current edition."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_selected_current",
+        "reason": "Recognized restaurant, potential visit only. Not eligible for confirmed personal archive until explicit user statement.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "openedYear": 2001
+    },
+    {
+      "id": "candidate-la-ardor-west-hollywood",
+      "name": "Ardor (West Hollywood EDITION)",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/west-hollywood/restaurant/ardor",
+      "addressHint": "9040 W Sunset Blvd, West Hollywood, CA 90069",
+      "interviewCue": "Inside The West Hollywood EDITION hotel: lush green plants, cream/white velvet booths, vegetable-forward dishes and a tempura onion-ring tower. Only likely from 2019 onward.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Michelin Guide Selected listing for this exact restaurant in 2026; this is inclusion in the Guide, not a Michelin Star. Year of the user's hypothetical meal and precise recognition status at that time are unknown.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_guide_west_hollywood_area_candidate_not_visit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "Named restaurant independently listed in the current Michelin Guide near/around West Hollywood. No user attendance inferred; this is separate from the Taiwanese restaurant with Jay.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/west-hollywood/restaurant/ardor",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Current Guide listing Selected only; not a Star. Historical recognition year must be checked if user's visit predates current edition."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_selected_current",
+        "reason": "Recognized restaurant, potential visit only. Not eligible for confirmed personal archive until explicit user statement.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "openedYear": 2019
     }
   ],
   "source": {
@@ -7364,7 +7492,7 @@
       "notes": "User confirmed multiple Jack Stack locations and many visits to Overland Park on 2026-10-27. Freight House explicitly NOT identified as confirmed. Official 2012 JBF Beard House dinner was served by chefs from the Overland Park location, in New York. This is program participation, not an award."
     },
     "losAngeles": {
-      "state": "visual_identification_in_progress",
+      "state": "active_research_parallel",
       "updatedOn": "2026-10-27",
       "confirmedNamedVisits": 2,
       "confirmedNames": [
@@ -7378,13 +7506,24 @@
       "unidentifiedDiningMemories": 1,
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
-      "candidateCount": 13,
-      "unreviewed": 12,
+      "candidateCount": 17,
+      "unreviewed": 16,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date."
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research.",
+      "researchStatus": "parallel_active_with_space_park_south_bay",
+      "verifiedMichelinShortlistNearWeHo": [
+        "Osteria Mozza",
+        "Pizzeria Mozza",
+        "Jon & Vinny's (Fairfax)",
+        "Somni (West Hollywood)",
+        "Petit Trois (L'Original)",
+        "Chi Spacca",
+        "Angelini Osteria",
+        "Ardor (West Hollywood EDITION)"
+      ]
     },
     "spaceParkSouthBay": {
-      "state": "first_visual_batch_awaiting_response",
+      "state": "active_research_parallel",
       "updatedOn": "2026-10-27",
       "area": "South Bay / Space Park",
       "anchor": "Northrop Grumman Space Park, 1 Space Park Blvd, Redondo Beach",
@@ -7420,7 +7559,8 @@
       ],
       "status": "ready_for_visual_screening",
       "question": "Which of these four Michelin-recognized South Bay restaurants did you eat at during your Space Park visits? Confirmed, maybe, or not visited; multiple answers welcome.",
-      "continuation": "After first four, proceed to other qualified South Bay locations and preserve exact restaurant/address distinction."
+      "continuation": "After first four, proceed to other qualified South Bay locations and preserve exact restaurant/address distinction.",
+      "note": "First South Bay batch awaits direct recall while West Hollywood's Michelin screening and Jay's Taiwanese restaurant identification remain concurrently active. Never mark West Hollywood as completed, closed, or permanently paused."
     },
     "pausedBatches": [
       {
@@ -7506,7 +7646,7 @@
       {
         "area": "Los Angeles / West Hollywood",
         "category": "restaurants",
-        "status": "paused_for_space_park_chapter",
+        "status": "parallel_active_awaiting_photo_identification",
         "pausedOn": "2026-10-27",
         "candidateNames": [
           "Pine & Crane (Silver Lake)",
@@ -7516,7 +7656,8 @@
           "Joy (Highland Park)",
           "Kato"
         ],
-        "reason": "User requested focusing on qualifying restaurants near Northrop Grumman Space Park in South Bay, separately from the Taiwanese restaurant with Jay. Preserve unresolved Taiwanese identity and previously confirmed République / Butcher's Daughter."
+        "reason": "User explicitly requested on October 27 that West Hollywood and the Taiwanese restaurant with Jay remain active in parallel with Space Park. This is not abandoned or closed.",
+        "resumeOnlyOnUserRequest": false
       }
     ],
     "interviewMode": "one_venue_at_a_time",
@@ -7549,6 +7690,51 @@
       "The Last Steep Bar & Grill",
       "McGill's at Crested Butte",
       "Paradise Cafe"
+    ],
+    "parallelActiveChapters": [
+      {
+        "area": "Los Angeles / West Hollywood",
+        "status": "actively_researching",
+        "priority": "Identify Taiwanese restaurant with Jay, and screen Michelin-recognized venues around West Hollywood",
+        "confirmedNamedVisits": 2,
+        "confirmedNames": [
+          "République",
+          "The Butcher's Daughter (West Hollywood)"
+        ],
+        "unresolvedLeadId": "la-west-hollywood-jay-taiwanese-unidentified",
+        "candidateNames": [
+          "Pine & Crane (Silver Lake)",
+          "Liu's Cafe (Koreatown)",
+          "Din Tai Fung (Century City)",
+          "Little Fatty (Mar Vista)",
+          "Joy (Highland Park)",
+          "Kato",
+          "Petit Trois (L'Original)",
+          "Chi Spacca",
+          "Angelini Osteria",
+          "Ardor (West Hollywood EDITION)"
+        ],
+        "visitEvidenceRule": "No venue attendance inferred from Michelin inclusion or geographical proximity; 2023 Butcher's Daughter booking is not a verified meal date."
+      },
+      {
+        "area": "South Bay / Space Park",
+        "status": "actively_researching",
+        "priority": "Recognize previously visited Michelin-listed venues near Northrop Grumman Space Park",
+        "firstBatch": [
+          "Manhattan Beach Post",
+          "Fishing with Dynamite",
+          "RYLA",
+          "Sushi Inaba (Torrance)"
+        ],
+        "additionalCandidates": [
+          "Vin Folk",
+          "Sushi Sonagi",
+          "Sweet Rice",
+          "Mar'sel"
+        ],
+        "confirmedNamedVisits": 0,
+        "visitEvidenceRule": "Only explicit user-specific confirmations add dining experiences; current Michelin status does not establish historical status."
+      }
     ]
   }
 }
