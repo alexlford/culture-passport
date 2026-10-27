@@ -1081,6 +1081,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "public-house-crested-butte"
+    },
+    {
+      "id": "venue-teocalli-tamale-crested-butte",
+      "name": "Teocalli Tamale",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "311 Elk Ave, Crested Butte, CO 81224",
+      "neighborhood": "Downtown / Elk Avenue",
+      "location": {
+        "lat": 38.8697,
+        "lng": -106.9878,
+        "precision": "city-centroid"
+      },
+      "sourceId": "teocalli-tamale-crested-butte"
     }
   ],
   "records": [
@@ -5231,7 +5246,8 @@
         "featuredException": false,
         "collection": "archived_personal_memory",
         "basis": null,
-        "note": "Confirmed user visit to Sunflower in Crested Butte. It has documented favorable coverage from Axios, Fodor's and local tourism, but these are NOT Michelin/James Beard awards. A supplied 2026 screenshot misattributes hospitality recognition to Sunflower; official awards identify Olivia in Denver. No direct Michelin/JBF award or program recognition verified. Preserve on private watchlist."
+        "note": "Confirmed Sunflower visit. Substantive chef lineage and festival recognition: former executive chef Christoph Peherstorfer was a 2026 Crested Butte Wine + Food Festival participant; John Leonardi later ran Soupçon, which appears on the historical JBF Smart Catch list; former sous chef Ian Scott later owned Slogar. These are real industry connections but NOT awards/endorsements of Sunflower. Michelin 2025 service award belongs to Olivia's Heather Morrison, while JBF 2026 Outstanding Hospitality semi was Restaurant Olivia (not a Sunflower nomination). Independent positive destination coverage also documented.",
+        "industryNetworkDocumented": true
       },
       "curation": {
         "status": "outside_scope",
@@ -5245,7 +5261,12 @@
           "https://www.michelin.com/en/publications/products-and-services/michelin-guide-colorado-2025",
           "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining",
           "https://www.fodors.com/world/north-america/usa/colorado/southwest-colorado/places/crested-butte/restaurants",
-          "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/"
+          "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+          "https://www.cbwineandfood.org/whos-coming",
+          "https://www.alpenchef.com/",
+          "https://www.theadventuristmagazine.com/chef-profiles/the-west/colorado/john-leonardi-of-soupcon-in-crested-butte",
+          "https://www.slogarcrestedbutte.com/storytime",
+          "https://www.colorado.com/en/articles/explore-5-colorados-epic-mountain-ranges"
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_2026_primary_source_screening"
@@ -5309,8 +5330,55 @@
           "Restaurant Olivia, Denver",
           "Wildflower, Denver"
         ],
-        "note": "Screenshot text is a research lead, not verified recognition. Do not copy unsupported award or nominee claims to public Culture Passport."
-      }
+        "note": "Screenshot text is a research lead, not verified recognition. Do not copy unsupported award or nominee claims to public Culture Passport.",
+        "researchDepth": "Deep audit of venue ownership and 2013–2026 chef lineage, JBF 2026 semifinalists/nominees/winners, Michelin 2025 service award and 2026 statewide selection, festival participants and regional/national editorial sources.",
+        "apparentMisattributionPath": "Crested Butte Wine + Food Festival 2026 talent page presents Restaurant Olivia's Ty Leon and an explicitly Sunflower-linked former chef Christoph Peherstorfer in nearby biographies. The festival biography itself loosely attributes the 2025 Michelin service award to Ty Leon; official Michelin credits Heather Morrison at Olivia. A generated summary may have confused adjacent festival people and restaurants, but the exact cause cannot be proven.",
+        "positiveSunflowerFindings": [
+          "Official Colorado tourism destination spotlights the restaurant as a farm-sourced Crested Butte dining destination.",
+          "Axios named Sunflower (and Breadery) as part of the local fine-dining scene in September 2025.",
+          "Former executive chefs Christoph Peherstorfer and John Leonardi and former sous chef Ian Scott have documented later regional restaurant roles.",
+          "2026 Wine + Food Festival roster names former Sunflower executive chef Christoph Peherstorfer as a featured talent. The roster includes Michelin/JBF-recognized participants separately."
+        ],
+        "officialAwardsStatus": "No Michelin/JBF award, shortlist or official Sunflower feature found; identity-confused 2025/26 hospitality awards belong to Olivia, not Sunflower.",
+        "reviewedOn": "2026-10-27"
+      },
+      "chefAlumniConnections": [
+        {
+          "name": "Christoph Peherstorfer",
+          "historicalRole": "Former executive chef, The Sunflower",
+          "laterRole": "Chef-owner, Alpen Chef; 2026 Crested Butte Wine + Food Festival featured talent",
+          "directlyMichelinOrJbfAwarded": false,
+          "connectionStrength": "documented_former_chef_industry_festival",
+          "sources": [
+            "https://www.alpenchef.com/",
+            "https://www.cbwineandfood.org/whos-coming"
+          ],
+          "note": "Festival roster includes recognized Michelin/JBF chefs separately. Co-appearance is meaningful local industry visibility but not a Sunflower Michelin/JBF honor."
+        },
+        {
+          "name": "John Leonardi",
+          "historicalRole": "Former executive chef, The Sunflower",
+          "laterRole": "Chef-owner, Soupçon since 2019",
+          "directlyMichelinOrJbfAwarded": false,
+          "connectionStrength": "documented_former_chef_to_historical_jbf_program_venue",
+          "sources": [
+            "https://www.theadventuristmagazine.com/chef-profiles/the-west/colorado/john-leonardi-of-soupcon-in-crested-butte",
+            "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page"
+          ],
+          "note": "Historical Foundation Smart Catch list applies to Soupçon, not Sunflower. No evidence proving Leonardi personally led its Smart Catch participation or that user dined during Leonardi's Sunflower tenure."
+        },
+        {
+          "name": "Ian Scott",
+          "historicalRole": "Former sous chef, The Sunflower",
+          "laterRole": "Chef-owner, Slogar",
+          "directlyMichelinOrJbfAwarded": false,
+          "connectionStrength": "documented_chef_alumni",
+          "sources": [
+            "https://www.slogarcrestedbutte.com/storytime"
+          ],
+          "note": "Additional network connection to the region's restaurant lineage, not an award."
+        }
+      ]
     },
     {
       "id": "dining-the-wooden-nickel-crested-butte-date-unknown",
@@ -5554,6 +5622,72 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_no_direct_michelin_jbf_evidence_in_targeted_screen"
+      }
+    },
+    {
+      "id": "dining-teocalli-tamale-crested-butte-date-unknown",
+      "type": "dining",
+      "title": "Teocalli Tamale",
+      "venueId": "venue-teocalli-tamale-crested-butte",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Crested Butte trips; date unknown",
+        "precision": "unknown",
+        "source": "Alex explicitly confirmed eating at Teocalli Tamale in Crested Butte in the Culture Passport interview on 2026-10-27.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed meal at Teocalli Tamale, the small longtime burrito, taco and tamale restaurant at 311 Elk Avenue in Crested Butte. Locally recognized as 'Best in the Butte' but no Michelin/James Beard honor verified. Exact dining year and details unknown.",
+      "memory": {
+        "headline": "A Crested Butte favorite: Teocalli Tamale",
+        "teaser": "A confirmed stop at the longtime Elk Avenue burrito, taco and tamale counter.",
+        "story": "I ate at Teocalli Tamale in Crested Butte, a local standby for burritos, tamales and tacos, sometimes called The Taco Palace. I don't have the year, companions or exact order recorded yet, but it belongs among my Crested Butte dining memories.",
+        "period": "Crested Butte trips; date unknown",
+        "source": "Directly confirmed user attendance Oct 27, 2026, with restaurant history from the operator's website and local tourist listings. No dishes or personal occasions invented."
+      },
+      "recognitions": [],
+      "localRecognitions": [
+        {
+          "sourceType": "local_dining_award",
+          "name": "Best in the Butte",
+          "organization": "Local community polling / tourism listing",
+          "year": null,
+          "sourceUrl": "https://heycrestedbutte.com/crested-butte-restaurants/",
+          "note": "Local award phrase from a tourism listing; no dated proof of specific win year; unrelated to Michelin or JBF."
+        }
+      ],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "note": "Not listed in statewide 2026 Michelin Guide Colorado selection; no historical status assumed."
+      },
+      "sourceUrl": "https://www.teocallitamale.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed Crested Butte dining, and local 'Best in the Butte' reputation. No directly verifiable Michelin/JBF award or official program/Guide editorial connection. Preserve in private permanent awards watchlist."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Targeted check of 2026 Michelin and JBF award listings and official name search found no direct qualifying award or program connection. Local awards aren't Michelin/JBF distinctions.",
+        "evidenceUrls": [
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "https://heycrestedbutte.com/crested-butte-restaurants/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "user_confirmed_not_verified_michelin_jbf"
       }
     }
   ],
