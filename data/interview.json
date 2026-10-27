@@ -1568,7 +1568,7 @@
       "awardFamily": "context",
       "interviewCue": "Old Town Steamboat restaurant in former laundry building, known for inventive shared plates and cocktails.",
       "sourceUrl": "https://www.laundryrestaurant.com/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -1583,7 +1583,11 @@
         "reason": "No Michelin Guide or James Beard honor established for the named venue.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possibly visited; exact date and details unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' during the Steamboat Springs Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Unconfirmed memory lead, not counted as a confirmed dining or cocktail experience; do not infer attendance during the January 2021 trip to Sauvage. No qualifying Michelin or James Beard distinction established.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-steamboat-springs-b-same-steamboat",
@@ -5535,10 +5539,10 @@
       "area": "Steamboat Springs",
       "category": "restaurants",
       "candidateNames": [
-        "Laundry Kitchen & Cocktails"
+        "Bésame Steamboat"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Laundry Kitchen & Cocktails in Old Town Steamboat Springs, in the historic laundry building? Visited, Maybe, or Not visited? If visited, share memories or approximate date."
+      "question": "Have you eaten at or had drinks at Bésame in downtown Steamboat Springs? Visited, Maybe, or Not visited? If visited, what do you remember and about when?"
     },
     "pausedBatches": [
       {
