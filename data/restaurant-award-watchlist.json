@@ -851,6 +851,55 @@
       "recognitionEvents": [],
       "expandedReviewTier": "official_program_or_editorial_connection",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-the-breadery-crested-butte",
+      "venueId": "venue-the-breadery-crested-butte",
+      "venueName": "The Breadery",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-the-breadery-crested-butte-date-unknown"
+      ],
+      "visitPeriods": [
+        "Crested Butte restaurant visit; exact year unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "User directly confirmed dining at The Breadery. Not listed in the official 2026 Colorado Michelin restaurants or 2026 James Beard semifinalist, nominee or winner lists; no direct official venue feature found in targeted archive searches. 5280 January 2026 historic Colorado JBF awards index is a secondary cross-check only. Recheck on a later audit; do not conflate with Sunflower bakery roots or assert no awards have ever existed.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Targeted review of Michelin statewide Colorado 2026, JBF 2026 semifinalists/nominees/winners, official event searches, 5280 historical winner list. No official recognition or program link positively verified; historical archives not exhaustively searched.",
+          "evidenceUrls": [
+            "https://guide.michelin.com/us/en/colorado/restaurants",
+            "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+            "https://www.jamesbeard.org/stories/james-beard-award-winners-2026",
+            "https://5280.com/complete-list-of-colorado-james-beard-award-winners/"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "expanded_official_recognition_scope_review",
+          "note": "Reviewed current Guide inclusion, JBF nomination/winner tiers and name-matched Foundation editorial/event searches. No direct verified award, editorial feature or official program connection found. Maintain private monitoring rather than treating a nonmatch as definitive.",
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json",
+          "evidenceUrls": [
+            "https://guide.michelin.com/us/en/colorado/restaurants",
+            "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
