@@ -92,7 +92,7 @@
       const target=byId(key); // counts use their own id rather than a category placeholder
       const badge=byId(key+"-count");
       if(!badge)continue;
-      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&(includedDining(r)).length+" included";
+      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&includedDining(r)).length+" included";
       else if(key==="bar"){
         const visits=confirmed.filter(r=>r.type==="bar").length,shared=selected.filter(r=>r.type==="bar"&&isRecalled(r)).length;
         badge.textContent=visits+" visits · "+shared+" shared memories";
