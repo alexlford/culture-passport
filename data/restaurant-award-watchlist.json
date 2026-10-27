@@ -529,6 +529,41 @@
         }
       ],
       "recognitionEvents": []
+    },
+    {
+      "id": "venue-the-wooden-nickel-crested-butte",
+      "venueId": "venue-the-wooden-nickel-crested-butte",
+      "venueName": "The Wooden Nickel",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-the-wooden-nickel-crested-butte-date-unknown"
+      ],
+      "visitPeriods": [
+        "Crested Butte trip; exact visit date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Alex directly confirmed a dining visit. Checked the 2026 Michelin statewide Colorado restaurant selection and the 2026 James Beard Foundation semifinalists and winners, with no qualifying The Wooden Nickel honor identified. Earlier years and unrelated award programs not exhaustively checked; preserve this entry for quarterly audit.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Venue-specific 2026 primary-source Michelin and James Beard lists screened. Neither names the Wooden Nickel. Do not infer there were never historical or unrelated honors.",
+          "evidenceUrls": [
+            "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+            "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+          ]
+        }
+      ],
+      "recognitionEvents": []
     }
   ]
 }
