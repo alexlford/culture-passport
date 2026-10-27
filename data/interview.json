@@ -5389,7 +5389,7 @@
       "awardFamily": "context",
       "interviewCue": "Aspen Mediterranean brasserie: original dining room at 315 E Hyman Ave until 2023; newer restaurant at 305 S Mill St has black-and-white floor tiles and red booths.",
       "sourceUrl": "https://thewildfig.com/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "public_sources_checked_no_eligible_distinction_found",
       "addedOn": "2026-10-27",
       "priority": "user_suggested",
@@ -5410,7 +5410,11 @@
         "verifiedForPublication": false
       },
       "historicalLocationNote": "Original Aspen restaurant: 315 E Hyman Ave, opened 2003 and closed there spring 2023. Relocated to 305 S Mill St, reopening 2023. Willits/Basalt is a separate location; distinguish both from Aspen.",
-      "promptedByUser": "User asked 'What about the Wild Fig?' during Aspen restaurant interview on 2026-10-27. This is not a direct confirmation of visiting."
+      "promptedByUser": "User asked 'What about the Wild Fig?' during Aspen restaurant interview on 2026-10-27. This is not a direct confirmation of visiting.",
+      "visitPeriod": "Possibly visited in Aspen; exact period unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Aspen Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Possible memory of dining at The Wild Fig; original Aspen location and post-2023 location not distinguished. Do not count as confirmed until Alex verifies.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-aspen-j-bar-hotel-jerome",
@@ -5702,17 +5706,32 @@
         "Radicato"
       ],
       "note": "Breckenridge Distillery Restaurant confirmed on visits in 2021, 2022, 2023; Radicato remains possible, Rootstalk explicitly not visited. No new confirmed dining dates inferred."
+    },
+    "aspen": {
+      "state": "initial_candidate_screening_complete",
+      "updatedOn": "2026-10-27",
+      "scope": "Aspen restaurant and J-Bar interview",
+      "confirmedVisits": 1,
+      "confirmedBarVisits": 1,
+      "notVisited": 3,
+      "maybeVisited": 2,
+      "unreviewed": 0,
+      "uncertainLeadsPreserved": [
+        "Prospect at Hotel Jerome",
+        "The Wild Fig"
+      ],
+      "note": "Acquolina dining and J-Bar drinking directly confirmed. The Wild Fig and Prospect are only maybe visited. Bosq, Element 47, and Mawa's Kitchen not visited. Preserve uncertainties and distinguish The Wild Fig's pre/post 2023 addresses."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Aspen",
+      "area": "Vail / Beaver Creek",
       "category": "restaurants",
       "candidateNames": [
-        "The Wild Fig"
+        "Sweet Basil"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Wild Fig in Aspen, either the original 315 E Hyman Ave location or the current 305 S Mill St space? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Sweet Basil in Vail Village? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
