@@ -4607,7 +4607,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Refined Colorado cooking in a Victorian house on North Main Street.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4626,7 +4626,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Breckenridge Culture Passport interview on October 27, 2026.",
+      "visitNote": "Direct negative response. Maintain 2026 Michelin selection as independent venue research; do not count a personal meal, and do not infer visits from other Breckenridge trips.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-aspen-bosq",
@@ -5561,17 +5565,30 @@
         "Bésame Steamboat"
       ],
       "note": "Primrose newly confirmed but visit date unknown. Do not infer it was the same trip as confirmed January 2021 Sauvage dinner. The three maybe-visited venues remain unconfirmed. No qualifying Michelin/James Beard awards for these four venues verified."
+    },
+    "breckenridge": {
+      "state": "initial_candidate_screening_complete",
+      "updatedOn": "2026-10-27",
+      "scope": "Three Breckenridge dining candidates including previously confirmed Distillery visits",
+      "confirmedVisits": 1,
+      "notVisited": 1,
+      "maybeVisited": 1,
+      "unreviewed": 0,
+      "uncertainLeadsPreserved": [
+        "Radicato"
+      ],
+      "note": "Breckenridge Distillery Restaurant confirmed on visits in 2021, 2022, 2023; Radicato remains possible, Rootstalk explicitly not visited. No new confirmed dining dates inferred."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Breckenridge",
+      "area": "Aspen",
       "category": "restaurants",
       "candidateNames": [
-        "Rootstalk"
+        "Bosq"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Rootstalk in the Victorian house at 207 N Main Street in Breckenridge? Visited, Maybe, or Not visited? If visited, any approximate date or memory is welcome."
+      "question": "Have you eaten at Bosq, the contemporary tasting-menu restaurant on South Mill Street in Aspen? Visited, Maybe, or Not visited? If yes, share approximate year or memories; exact attendance date remains unknown until confirmed."
     },
     "pausedBatches": [
       {
