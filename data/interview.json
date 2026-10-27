@@ -1626,7 +1626,7 @@
       "recognition": "Historical restaurant memory check; no Michelin star or James Beard award asserted",
       "recognitionYear": null,
       "awardFamily": "context",
-      "interviewCue": "Steamboat restaurant listed by the resort among 2020–21 openings; ask whether visited on same ski trip.",
+      "interviewCue": "Downtown Yampa Street steak-and-seafood restaurant with open-kitchen chef counter, dark booths and floral wall art; reported opening February 2021, after the user's January 2021 Sauvage visit.",
       "sourceUrl": "https://www.steamboat.com/-/media/steamboat/pdfs/w202122-press-kit.pdf",
       "visitStatus": "unreviewed",
       "screening": {
@@ -1643,7 +1643,8 @@
         "reason": "No Michelin Guide or James Beard honor established for the named venue.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "historicalTimingNote": "Contemporary report dates Primrose opening to February 2021. Do not suggest it was visited on the user's January 2021 Sauvage trip. https://www.steamboat.net/new-restaurants-to-try-in-steamboat-springs"
     },
     {
       "id": "baltimore-gunther-co",
@@ -5546,7 +5547,7 @@
         "Primrose"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you dined at Primrose in downtown Steamboat Springs? Visited, Maybe, or Not visited? If you recall, share a date or detail; no date will be inferred from your 2021 Sauvage meal."
+      "question": "Have you dined at Primrose at 1110 Yampa St in downtown Steamboat? Visited, Maybe, or Not visited? It opened around February 2021, after your January 2021 Sauvage visit, so a Primrose meal would have been on a later visit."
     },
     "pausedBatches": [
       {
