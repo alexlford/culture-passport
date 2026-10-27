@@ -4877,7 +4877,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Fine dining in a historic-style farmhouse setting in Avon.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4896,7 +4896,10 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitSource": "Alex explicitly answered 'Did not visit' during the Culture Passport Beaver Creek interview on October 27, 2026.",
+      "visitNote": "Negative confirmation as of 2026-10-27. Do not count as a personal dining experience or add to the restaurant award watchlist.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-telluride-the-national",
@@ -5733,31 +5736,33 @@
       "note": "Acquolina dining and J-Bar drinking directly confirmed. The Wild Fig and Prospect are only maybe visited. Bosq, Element 47, and Mawa's Kitchen not visited. Preserve uncertainties and distinguish The Wild Fig's pre/post 2023 addresses."
     },
     "vailBeaverCreek": {
-      "state": "in_progress",
+      "state": "initial_candidate_screening_complete",
       "updatedOn": "2026-10-27",
+      "scope": "Four Michelin-recognized restaurant candidates in the Vail / Beaver Creek region",
       "confirmedVisits": 0,
-      "notVisited": 2,
+      "notVisited": 3,
       "maybeVisited": 1,
-      "unreviewed": 1,
+      "unreviewed": 0,
       "uncertainLeadsPreserved": [
         "Sweet Basil"
       ],
       "explicitlyNotVisited": [
         "Osaki's",
-        "Splendido at the Chateau"
+        "Splendido at the Chateau",
+        "Mirabelle"
       ],
-      "note": "Sweet Basil maybe visited; Osaki's and Splendido at the Chateau explicitly not visited. Mirabelle pending."
+      "note": "All four first-pass restaurant candidates interviewed. Sweet Basil remains possibly visited only. Additional non-award restaurant visits can be added later."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Vail / Beaver Creek",
+      "area": "Telluride",
       "category": "restaurants",
       "candidateNames": [
-        "Mirabelle"
+        "The National"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Mirabelle in Avon near the Beaver Creek entrance? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at The National in Telluride? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
