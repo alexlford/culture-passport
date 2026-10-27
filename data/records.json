@@ -1051,6 +1051,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "jack-stack-barbecue-overland-park"
+    },
+    {
+      "id": "venue-the-breadery-crested-butte",
+      "name": "The Breadery",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "209 Elk Avenue, Crested Butte, CO 81224",
+      "neighborhood": "Downtown / Elk Avenue",
+      "location": {
+        "lat": 38.8697,
+        "lng": -106.9878,
+        "precision": "city-centroid"
+      },
+      "sourceId": "the-breadery-crested-butte"
     }
   ],
   "records": [
@@ -2746,7 +2761,18 @@
         "period": "Denver years",
         "source": "User-confirmed visit; Michelin/James Beard historical context sourced separately"
       },
-      "recognitions": [],
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "result": "nominee",
+          "category": "Outstanding Professional in Beverage Service",
+          "recipient": "Ryan Fletter",
+          "relationship": "Barolo Grill, Denver",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "timingRelativeToVisit": "unknown_visit_date"
+        }
+      ],
       "guide": {
         "edition": 2026,
         "distinction": "selected",
@@ -2761,16 +2787,17 @@
         "featuredException": false,
         "collection": "recognized_dining",
         "basis": "michelin",
-        "note": "Michelin/James Beard qualification is about the restaurant, not proof an award had already been received at an undated meal."
+        "note": "Michelin Selected 2026. Ryan Fletter was a 2026 JBF Outstanding Professional in Beverage Service nominee at Barolo Grill, not winner. Neither designation is assumed to coincide with Alex's undated dining visit."
       },
       "curation": {
         "status": "qualifies",
         "basis": "michelin",
-        "reason": "Documented qualifying recognition directly associated with this restaurant.",
+        "reason": "Michelin Guide Selected recognition plus James Beard Foundation 2026 Outstanding Professional in Beverage Service nominee Ryan Fletter at this exact restaurant. Nominee, not winner; actual meal date unknown.",
         "evidenceUrls": [
-          "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill"
+          "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill",
+          "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
         ],
-        "reviewedOn": "2026-10-25",
+        "reviewedOn": "2026-10-27",
         "confidence": "documented",
         "awardAtVisit": "Visit date unspecified; no claim recognition was held during the meal."
       },
@@ -5333,6 +5360,64 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "confirmed_repeated_dining_with_official_primary_source_program_connection"
+      }
+    },
+    {
+      "id": "dining-the-breadery-crested-butte-date-unknown",
+      "type": "dining",
+      "title": "The Breadery",
+      "venueId": "venue-the-breadery-crested-butte",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Crested Butte visit; actual dining year unknown",
+        "precision": "unknown",
+        "source": "Alex directly confirmed a dining visit to The Breadery in the Crested Butte Culture Passport interview on October 27, 2026. No exact meal year/date supplied.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed dining experience at The Breadery, the sourdough-focused full-service restaurant and bakehouse at 209 Elk Avenue in Crested Butte. The current restaurant opened in April 2021 following earlier bakery operations, including its origins as Sunflower Bakery & Brunch. The actual meal year, companions and menu choices have not been established.",
+      "memory": {
+        "headline": "Sourdough and mountain-town dining at The Breadery",
+        "teaser": "A confirmed Crested Butte restaurant memory at the sourdough-focused Elk Avenue bakehouse.",
+        "story": "I ate at The Breadery in Crested Butte, one of several places I remember enjoying around town. The restaurant is known for its handmade sourdough pizza, bread, seasonal salads and pasta. I haven't reconstructed which trip it was, who was at the table or what I ordered. The Breadery's roots at the Sunflower Communal Kitchen are part of its history, but I remember visiting The Breadery as a restaurant, and its visit is distinct from my confirmed Sunflower dining experience.",
+        "period": "Crested Butte trips; date unknown",
+        "source": "Direct visit confirmation 2026-10-27; present restaurant and 2018–2021 history sourced from official Breadery pages. No dishes or companions attributed to user."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/restaurants",
+        "note": "Not listed in Michelin's official 2026 statewide restaurant guide. Historical status and possible future inclusion are not exhaustively assessed."
+      },
+      "sourceUrl": "https://www.breaderycb.com/about-us",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed visit. No official Michelin/JBF formal honor, program/chef-team connection or editorial feature identified by the limited October 2026 screen; preserve on private quarterly award watchlist. Don't conflate with Sunflower."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Not in official Michelin Colorado 2026 restaurant selection, and not named in James Beard Foundation's 2026 semifinalist/nominee/winner lists or in the searched named official program/event entries. 5280's January 2026 historical winners summary also yields no named honor for this venue. Absence in these sources isn't evidence of no past/future distinction.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/restaurants",
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "https://www.jamesbeard.org/stories/james-beard-award-winners-2026",
+          "https://5280.com/complete-list-of-colorado-james-beard-award-winners/",
+          "https://www.breaderycb.com/about-us"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_no_qualifying_evidence_in_targeted_screen"
       }
     }
   ],
