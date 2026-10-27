@@ -1105,7 +1105,7 @@
         "dining-butchers-daughter-los-angeles-date-unknown"
       ],
       "visitPeriods": [
-        "Los Angeles-area visit, exact dining date unknown; separate July 29, 2023 West Hollywood booking"
+        "User-confirmed West Hollywood restaurant visit, actual meal date unknown; separate July 29, 2023 Resy booking"
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
@@ -1116,7 +1116,7 @@
         "data/reservation-evidence.json",
         "data/interview.json"
       ],
-      "sourceNotes": "User explicitly confirmed eating at The Butcher's Daughter in Los Angeles on 2026-10-27. The West Hollywood branch is provisionally assigned on the strength of a venue-specific Resy booking for 3 on 2023-07-29, which must not be reported as exact visit date. 2026 Michelin California guide and targeted JBF checks found no directly documented venue-specific qualification. Current restaurant press is independent editorial, not Foundation or Guide recognition.",
+      "sourceNotes": "Alex directly confirmed dining at the West Hollywood branch on October 27, 2026, superseding prior provisional branch attribution. A separate Resy booking on July 29, 2023 for three remains reservation evidence, not an exact meal date or attendee list. No directly qualifying Michelin Guide or James Beard Foundation recognition verified; quarterly monitoring continues.",
       "reviewHistory": [
         {
           "date": "2026-10-27",
@@ -1126,6 +1126,15 @@
             "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
             "https://thebutchersdaughter.com/location-all/west-hollywood",
             "https://la.eater.com/2022/9/20/23363171/butchers-daughter-melrose-west-hollywood-opening-plant-forward-vegetarian-restaurant"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "user_confirmed_branch_no_change_to_award_screen",
+          "note": "User independently identified the West Hollywood branch as the visited restaurant. Restaurant visit and branch are now confirmed, but booking date remains unverified for the meal. Award-recognition tier unchanged; no new award evidence asserted.",
+          "evidenceRefs": [
+            "data/records.json",
+            "data/reservation-evidence.json"
           ]
         }
       ],
