@@ -5587,12 +5587,12 @@
       "awardFamily": "context",
       "interviewCue": "French-inspired fine dining in a historic cabin; long local history.",
       "sourceUrl": "https://www.soupconcb.com/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "127 Elk Ave",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Possible visit only. Do not mark as a confirmed meal, award-qualified personal experience, or restaurant award-watchlist entry until attendance is confirmed. An image or other recollection may later resolve uncertainty.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -5607,7 +5607,10 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possible Crested Butte visit; year and date unknown",
+      "visitSource": "Alex directly answered 'Maybe visited' during the Culture Passport Crested Butte interview on October 27, 2026.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-the-secret-stash",
@@ -6153,13 +6156,16 @@
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
       "confirmedNamedVisits": 1,
-      "note": "Alex directly confirmed The Sunflower at 214 Elk Ave. Visit date unknown. Keep award-watchlist research separate and distinguish from Wildflower (Denver). Soupçon next; do not infer individual visits from general 'almost every place' recollection.",
+      "note": "The Sunflower confirmed. Soupçon maybe visited; no attendance inferred. Move next to The Secret Stash. Award watchlist only contains confirmed dining memories that lack qualifying awards.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 0,
-      "unreviewed": 9,
+      "maybeVisited": 1,
+      "unreviewed": 8,
       "confirmedNames": [
         "The Sunflower"
+      ],
+      "uncertainLeadsPreserved": [
+        "Soupçon"
       ]
     }
   },
@@ -6168,10 +6174,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Soupçon"
+        "The Secret Stash"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Soupçon, the tiny French-inspired restaurant in a historic cabin at 127 Elk Ave, Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at The Secret Stash, the eclectic pizza restaurant at 303 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
