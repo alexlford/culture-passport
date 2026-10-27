@@ -699,7 +699,7 @@
         "dining-butchers-daughter-los-angeles-date-unknown"
       ],
       "rememberedPeriods": [
-        "LA visit date unconfirmed; West Hollywood reservation July 29, 2023 only"
+        "Confirmed dining at West Hollywood branch; exact meal date unknown. Separate July 29, 2023 Resy booking for three."
       ],
       "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
       "sourceUrls": [
@@ -707,8 +707,8 @@
         "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026"
       ],
       "recognitionSummary": [],
-      "editorialNote": "Direct user confirmation of restaurant visit, October 27, 2026; Resy screenshot corroborates West Hollywood as probable venue but does not prove date or exact branch of attended meal. No directly qualifying Michelin/James Beard recognition verified.",
-      "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown_branch_provisional",
+      "editorialNote": "Alex directly confirmed The Butcher's Daughter West Hollywood visit on October 27, 2026; historical July 2023 reservation is corroborating evidence of this branch only, not the verified meal date or companions. No directly qualifying Michelin/JBF recognition verified.",
+      "visitConfidence": "user_confirmed_west_hollywood_branch_date_unknown",
       "publicationStatus": "archived_private_not_curated"
     }
   ],
