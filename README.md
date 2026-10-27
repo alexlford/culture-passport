@@ -12,7 +12,7 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - **Approximate years are sufficient.** Store an exact date only when it is meaningful to the memory and actually known; never promote a reservation date to an unquestioned meal date.
 - **Distinguish evidence.** `status=confirmed` means an actual experience was recalled, while `reservation_only` denotes a research lead and must not appear in confirmed totals.
 - **Michelin and James Beard are inclusion guides, not the entire story.** Maintain award year, category, and recipient, and do not borrow honors between locations. Explicit favorites such as Sauvage, Gunther & Co., The Majestic, and Death & Co Denver remain included even without award recognition.
-- **Interviews are research, not attendance assertions.** Possible, negative, and unreviewed responses remain separate from confirmed experiences. Never add Le Fou Frog to the published collection: the user explicitly excluded it unless qualifying recognition is verified.
+- **Keep an award watchlist.** Every confirmed restaurant that lacks verified venue-specific qualifying recognition remains in the private restaurant award watchlist, even if it is featured as a favorite. Re-audit quarterly, preserve each screening, and retain promoted restaurants with their old memories. Do not treat absence of verified recognition as proof that a venue has never won any award.\n- **Interviews are research, not attendance assertions.** Possible, negative, and unreviewed responses remain separate from confirmed experiences. Never add Le Fou Frog to the published collection: the user explicitly excluded it unless qualifying recognition is verified.
 - **Privacy by default.** Include only memories explicitly shared for this website. Avoid conflating bookers, diners, artists, and people in photos.
 
 ## Files
@@ -21,10 +21,10 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - `interview.html`, `performance-interview.html` — restaurant and performing-arts reconstruction.
 - `data/records.json` — canonical experience and venue records (including archived research-only entries).
 - `data/interview.json`, `data/performance-interview.json`, `data/performance-leads.json` — research queues.
-- `data/dining-awards-audit.json`, `data/reservation-evidence.json` — source ledgers, not competing databases.
+- `data/dining-awards-audit.json`, `data/reservation-evidence.json` — source ledgers, not competing databases.\n- `data/restaurant-award-watchlist.json` — **private, permanent, quarterly re-audit ledger** for confirmed restaurants not currently award-qualified. It includes archive-only barbecue and St. Louis memories, and keeps award promotion history. No additional public page is created from this file.
 - `assets/` — independent stylesheet and JavaScript, with no runtime dependency on the Life Map application.
 
-## Development
+## Quarterly restaurant award review\n\nReview the **private** `data/restaurant-award-watchlist.json` against the official Michelin Guide (including locality and historical editions) and James Beard Foundation winner, finalist and semifinalist announcements. Preserve the separate evidence of each visit, the original visit period, recognition year, precise award recipient/location, a source link, the date audited, and the full review history. A restaurant may have post-visit recognition, but must not be described as award-winning *at the time of the meal* without evidence. If it newly qualifies, update its canonical `data/records.json` editorial and curation metadata, append the primary award evidence to `data/dining-awards-audit.json`, and mark its watchlist entry `promoted` without deleting it. Interview `maybe`, `not_visited`, and reservation-only venues do not enter the watchlist. Bars (including J-Bar) stay in their own bar/research evidence.\n\n## Development
 
 ```bash
 python scripts/validate.py
