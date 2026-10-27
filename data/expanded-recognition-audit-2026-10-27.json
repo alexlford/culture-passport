@@ -5,8 +5,8 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 43,
-    "canonicalDistinctVenues": 38,
+    "restaurantEntriesReviewed": 44,
+    "canonicalDistinctVenues": 39,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas."
@@ -63,7 +63,7 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 17,
+    "archived_pending_recognition": 18,
     "formal_michelin_jbf_recognition": 19,
     "personal_featured_exception": 5,
     "official_program_or_editorial_connection": 2
@@ -1388,6 +1388,44 @@
       "officialFeatures": [],
       "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
       "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-butchers-daughter-west-hollywood",
+      "restaurantName": "The Butcher's Daughter",
+      "city": "West Hollywood",
+      "region": "California",
+      "venueScope": "specific_branch_provisionally_identified_from_historical_reservation",
+      "personalVisitStatus": "confirmed_restaurant_attendance_branch_provisional",
+      "experienceIds": [
+        "dining-butchers-daughter-los-angeles-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
+        "https://thebutchersdaughter.com/location-all/west-hollywood"
+      ],
+      "historicalGuide": "not_recognized_not_exhaustively_audited",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "independentEditorialSources": [
+        {
+          "publisher": "Eater Los Angeles",
+          "url": "https://la.eater.com/2022/9/20/23363171/butchers-daughter-melrose-west-hollywood-opening-plant-forward-vegetarian-restaurant",
+          "year": 2022
+        },
+        {
+          "publisher": "Los Angeles Magazine",
+          "url": "https://lamag.com/dining/the-butchers-daughter-west-hollywood-breakfast-club-sunday-sauce/",
+          "year": 2023
+        }
+      ],
+      "reviewResult": "Alex directly confirmed eating at the restaurant; archived 2023 Resy reservation links to West Hollywood branch but not verified attendance date or branch identity. No qualifying official Michelin/JBF venue recognition verified in targeted October 2026 search, including branch-specific and organization searches. Maintain private award watchlist.",
+      "watchlistId": "venue-butchers-daughter-west-hollywood",
       "reviewedOn": "2026-10-27"
     }
   ],
