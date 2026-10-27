@@ -5791,32 +5791,36 @@
       "id": "candidate-crested-butte-public-house",
       "area": "Crested Butte",
       "name": "Public House",
-      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognition": "No specific Michelin Guide or James Beard Foundation formal recognition or official named Foundation/Guide program/editorial connection verified in the targeted search as of 2026-10-27.",
       "recognitionYear": null,
       "awardFamily": "context",
       "interviewCue": "Downtown gastropub, restaurant and live music.",
-      "sourceUrl": "https://atplaycrestedbutte.com/experience-crested-butte/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "sourceUrl": "https://publichousecb.com/pub/",
+      "visitStatus": "confirmed",
+      "researchStatus": "user_confirmed_expanded_award_screen_no_direct_qualification_verified",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "addressHint": "202 Elk Ave",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "addressHint": "202 Elk Avenue, Crested Butte, CO 81224",
+      "visitNote": "Confirmed restaurant dining at Public House, 202 Elk Avenue, Crested Butte. The establishment also hosts concerts and drinks; do not infer participation in a specific concert. Exact dining date, companions and dishes unknown. Historic building, pub and brewery link are background context only.",
       "screening": {
-        "status": "not_yet_audited",
+        "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://atplaycrestedbutte.com/experience-crested-butte/",
-        "sourceTier": "local_or_primary",
-        "verifiedAt": null,
-        "note": "Venue existence cited, not award eligibility verified."
+        "evidenceUrl": "https://guide.michelin.com/us/en/colorado/restaurants",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "Targeted review of official Michelin Colorado guide and JBF named awards/events/editorial indexes returned no verified Public House Crested Butte recognition. Irwin Brewing independent beer competition prizes are not Michelin/JBF honors of the visited restaurant."
       },
       "eligibility": {
-        "status": "unreviewed",
+        "status": "outside_scope",
         "basis": "context",
-        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
-        "screenedOn": null,
+        "reason": "Confirmed dinner, without verified venue-specific Michelin/JBF distinction or official program/editorial connection in limited source screen. Retain in permanent award watchlist.",
+        "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Crested Butte dining visit, exact year unknown",
+      "visitSource": "Alex explicitly answered 'Visited' for Public House during the Crested Butte Culture Passport interview on October 27, 2026.",
+      "confirmedVisitId": "dining-public-house-crested-butte-date-unknown",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-pitas-in-paradise",
@@ -5825,13 +5829,13 @@
       "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "interviewCue": "Longtime casual Crested Butte restaurant.",
-      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "interviewCue": "Long-running casual Mediterranean wraps, gyros, falafel, soups and fries, with a full bar and sports TVs. Colorful wall murals and casual wooden tables. Crested Butte location at 302 Elk Ave, distinct from the Gunnison location.",
+      "sourceUrl": "https://www.pitasinparadise.co/",
       "visitStatus": "unreviewed",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "addressHint": "302 Elk Ave",
+      "addressHint": "302 Elk Avenue, Crested Butte, CO 81224",
       "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
       "screening": {
         "status": "not_yet_audited",
@@ -6213,16 +6217,17 @@
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
-      "confirmedNamedVisits": 3,
-      "note": "The Sunflower, The Wooden Nickel and The Breadery confirmed. Soupçon, The Secret Stash, Elk Ave Prime and Slogar remain maybe, and must not be counted. Continue with Public House; preserve distinctions and award watchlist separately.",
+      "confirmedNamedVisits": 4,
+      "note": "Confirmed: The Sunflower, The Wooden Nickel, The Breadery, Public House. Possible only: Soupçon, The Secret Stash, Elk Ave Prime, Slogar. Next interview Pitas in Paradise. Maintain source-based Michelin/JBF review and private watchlist for confirmed nonqualifying venues.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 4,
-      "unreviewed": 3,
+      "unreviewed": 2,
       "confirmedNames": [
         "The Sunflower",
         "The Wooden Nickel",
-        "The Breadery"
+        "The Breadery",
+        "Public House"
       ],
       "uncertainLeadsPreserved": [
         "Soupçon",
@@ -6246,10 +6251,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Public House"
+        "Pitas in Paradise"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Public House on Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Pitas in Paradise, 302 Elk Ave in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
