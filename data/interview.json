@@ -5517,30 +5517,31 @@
       "awardFamily": "context",
       "interviewCue": "Fine dining reached via Telluride gondola's San Sophia midstation; huge windows, mountain panorama, exposed timber beams and antler chandeliers. User has confirmed eating at a gondola-top restaurant, likely Allred's, but identity not yet confirmed.",
       "sourceUrl": "https://tellurideskiresort.com/dine/",
-      "visitStatus": "maybe",
-      "researchStatus": "venue_identity_pending_user_confirmation",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_visit_featured_personal_exception",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "San Sophia Station, gondola midstation above Telluride",
-      "visitPeriod": "Telluride visit, exact date unknown",
-      "visitSource": "Alex said on 2026-10-27: 'I remember eating at a restaurant at the top of the gondola in telluride.'",
-      "visitNote": "User explicitly confirms a dining experience at the top of the gondola, not the name Allred's. The ski resort identifies Allred's at that location. Keep venue identification uncertain until confirmed.",
+      "visitPeriod": "Anniversary dinner in Telluride; exact year unknown",
+      "visitSource": "Alex explicitly confirmed on October 27, 2026 that Allred's was the gondola-top restaurant where he ate; he further identified the occasion as a scenic and memorable anniversary dinner.",
+      "visitNote": "Directly confirmed Allred's dinner and anniversary occasion. The scenery and dramatic mountaintop gondola setting are user-remembered reasons for inclusion. Exact visit date, companion names, and food unknown. Explicit personal feature exemption; not an award assertion.",
       "reviewedOn": "2026-10-27",
       "screening": {
         "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://tellurideskiresort.com/dine/",
+        "evidenceUrl": "https://allredstelluride.com/visit/",
         "sourceTier": "primary",
         "verifiedAt": "2026-10-27",
-        "note": "Resort confirms restaurant matches physical location, not that user ate there. Award qualification unverified."
+        "note": "Location corroborated by the official restaurant; no directly qualifying Michelin or James Beard distinction verified. Recognition is separate from personal-exception status."
       },
       "eligibility": {
-        "status": "requires_award_verification",
-        "basis": "context",
-        "reason": "Venue identity and qualifying Michelin/JBF recognition unconfirmed.",
+        "status": "featured_personal_exception",
+        "basis": "direct_user_selection",
+        "reason": "Memorable, scenic anniversary dinner; user expressly requested a featured exemption regardless of unverified qualifying awards.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "confirmedVisitId": "dining-allreds-telluride-date-unknown"
     },
     {
       "id": "candidate-crested-butte-the-sunflower",
@@ -5991,27 +5992,29 @@
     {
       "id": "telluride-gondola-top-restaurant",
       "category": "dining",
-      "name": "Telluride restaurant at the top of the gondola",
-      "status": "location_confirmed_venue_identity_pending",
-      "venueIdentityConfirmed": false,
-      "visitStatus": "confirmed_location_only",
+      "name": "Allred's Restaurant — Telluride gondola anniversary dinner",
+      "status": "resolved_venue_confirmed",
+      "venueIdentityConfirmed": true,
+      "visitStatus": "confirmed",
       "visitDate": null,
-      "visitPeriod": "Telluride visit; year unknown",
+      "visitPeriod": "Anniversary dinner; year unknown",
       "possibleRegions": [
         "San Sophia Station, Telluride, Colorado"
       ],
-      "source": "Direct user recollection on 2026-10-27",
-      "note": "Alex recalls actually eating at a restaurant reached by the Telluride gondola and located at its upper/mid station. Official resort identifies Allred's as the restaurant at San Sophia. Await user recognition of photographs before assigning to Allred's. Do not count a named-venue visit or put it on the restaurant award watchlist until identity confirmed.",
+      "source": "Direct user recollection and explicit Allred's identification and anniversary-occasion confirmation, October 27, 2026",
+      "note": "Confirmed anniversary dinner at Allred's; the view and gondola-top setting made the meal memorable. Site of San Sophia Station corroborated independently. Exact year and guest identities unknown. Canonical experience stored in data/records.json; do not double-count this lead.",
       "identificationCandidates": [
         {
           "name": "Allred's Restaurant",
           "area": "Telluride",
-          "status": "likely_unconfirmed",
-          "evidenceUrl": "https://tellurideskiresort.com/dine/"
+          "status": "confirmed_by_user",
+          "evidenceUrl": "https://allredstelluride.com/visit/"
         }
       ],
       "publishAsExperience": false,
-      "updatedOn": "2026-10-27"
+      "updatedOn": "2026-10-27",
+      "confirmedVenueId": "venue-allreds-restaurant-telluride",
+      "confirmedVisitId": "dining-allreds-telluride-date-unknown"
     }
   ],
   "interviewChapters": {
@@ -6126,19 +6129,19 @@
       "note": "All four first-pass restaurant candidates interviewed. Sweet Basil remains possibly visited only. Additional non-award restaurant visits can be added later."
     },
     "telluride": {
-      "state": "in_progress",
+      "state": "initial_candidate_screening_complete",
       "updatedOn": "2026-10-27",
-      "confirmedNamedVenueVisits": 0,
+      "confirmedNamedVenueVisits": 1,
       "notVisited": 1,
-      "possibleNamedVenueVisits": 1,
-      "confirmedPlaceOnlyDiningMemories": 1,
+      "possibleNamedVenueVisits": 0,
+      "confirmedPlaceOnlyDiningMemories": 0,
+      "confirmedNames": [
+        "Allred's Restaurant"
+      ],
       "notVisitedNames": [
         "The National"
       ],
-      "possibleNames": [
-        "Allred's Restaurant"
-      ],
-      "note": "The National explicitly not visited. Alex confirms having eaten at the gondola-top restaurant, likely Allred's according to resort information. Do not name a confirmed venue until user recognizes it."
+      "note": "Allred's confirmed as a memorable scenic anniversary dinner at San Sophia Station. Featured personal exception, with no award claim. Exact anniversary year unspecified. The National explicitly not visited."
     },
     "crestedButte": {
       "state": "queued_for_venue_by_venue_interview",
@@ -6152,13 +6155,13 @@
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Telluride",
+      "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Allred's Restaurant"
+        "The Sunflower"
       ],
-      "status": "awaiting_venue_identity_confirmation",
-      "question": "Is Allred's the restaurant you remember eating at by the San Sophia gondola station? Yes, Maybe, or No? If yes, can you recall roughly when?"
+      "status": "awaiting_user_response",
+      "question": "Have you eaten at The Sunflower on Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
