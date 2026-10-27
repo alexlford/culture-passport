@@ -132,6 +132,21 @@ active_south_bay = interview_data["interviewChapters"]["spaceParkSouthBay"]
 assert active_la["state"] == "active_research_parallel"
 assert active_south_bay["state"] == "active_research_parallel"
 assert active_la["confirmedNamedVisits"] == 2
+# User's strong visual recollection of Liu's Cafe is a probable identity,
+# not a license to add a confirmed restaurant visit or borrow its Bib Gourmand.
+lius = next(c for c in candidates if c["id"] == "candidate-la-lius-cafe-ktown")
+assert lius["visitStatus"] == "maybe"
+assert lius["researchStatus"] == "user_strongly_suspects_identity_not_yet_confirmed"
+assert lius["eligibility"]["verifiedForPublication"] is False
+taiwanese_with_jay = next(m for m in interview_data["memoryLeads"]
+    if m["id"] == "la-west-hollywood-jay-taiwanese-unidentified")
+assert taiwanese_with_jay["venueIdentityConfirmed"] is False
+assert taiwanese_with_jay["probableCandidateId"] == lius["id"]
+assert taiwanese_with_jay["temporalConstraint"]["earliestPossibleVisit"] == "2023-08-31"
+assert not any(r["status"] == "confirmed" and "Liu's Cafe" in r["title"] for r in records)
+assert active_la["strongestUnconfirmedTaiwaneseLead"] == "Liu's Cafe (Koreatown)"
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["state"] == "active_research_parallel"
+
 assert set(active_la["confirmedNames"]) == {"République", "The Butcher's Daughter"}
 parallel = interview_data["interviewProgress"]["parallelActiveChapters"]
 assert {x["area"] for x in parallel} == {"Los Angeles / West Hollywood", "South Bay / Space Park"}
