@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -4215,7 +4215,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Wood-fired contemporary cooking near Arapahoe, with seasonal ingredients.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4234,7 +4234,11 @@
         "reason": "Michelin Bib Gourmand (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Possible Boulder visit; date and meal unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Boulder Culture Passport interview on 2026-10-27.",
+      "visitNote": "Keep as unconfirmed memory lead only, separate from verified Michelin Bib Gourmand recognition. Do not count as a confirmed personal dining experience or promote to public archive.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-boulder-cozobi-fonda-fina",
@@ -5476,10 +5480,10 @@
       "area": "Boulder",
       "category": "restaurants",
       "candidateNames": [
-        "Basta"
+        "Cozobi Fonda Fina"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Basta in Boulder? Visited, Maybe, or Not visited? If visited, share approximate year or a memory."
+      "question": "Have you eaten at Cozobi Fonda Fina at 909 Walnut Street in Boulder? Visited, Maybe, or Not visited? If visited, share approximate date and memories."
     },
     "pausedBatches": [
       {
