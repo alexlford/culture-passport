@@ -229,20 +229,40 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-25",
+      "lastReviewedOn": "2026-10-27",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json"
       ],
-      "sourceNotes": "No directly applicable Michelin or James Beard honor for Uchi Denver established; founder's honor was awarded for another location.",
+      "sourceNotes": "No venue-specific Michelin/JBF award established. A verified James Beard Foundation benefit took place at this exact Denver restaurant in 2019; that is an official program connection rather than an award. The user's dining year remains unknown.",
       "reviewHistory": [
         {
           "date": "2026-10-25",
           "result": "no_qualifying_award_verified",
           "note": "Historical baseline from existing venue-specific Culture Passport screening, not a new independent award review."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "foundation_program_connection_found",
+          "note": "Identified primary-source official James Beard Foundation 2019 fundraising event hosted at Uchi Denver. Public 'On the Radar' curation is allowed; never imply an award or nomination.",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/index.php/events/denver-5"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "officialConnections": [
+        {
+          "organization": "James Beard Foundation",
+          "connectionType": "program_event_host",
+          "year": 2019,
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/denver-5",
+          "venueScope": "same_visited_restaurant",
+          "awardClaim": false,
+          "description": "Friends of James Beard Benefit hosted at Uchi Denver with Denver chefs; event supported the Foundation's Women's Leadership Programs."
+        }
+      ],
+      "officialFeatureStatus": "direct_program_connection"
     },
     {
       "id": "watch-arthur-bryants-barbeque-kansas-city",
@@ -288,15 +308,35 @@
       "evidenceRefs": [
         "data/dining-awards-audit.json"
       ],
-      "sourceNotes": "Visit to Jack Stack confirmed; particular branch not confirmed.",
+      "sourceNotes": "User-confirmed visit to Jack Stack Barbecue; branch not independently confirmed in this watchlist. A 2012 official JBF Beard House dinner involved Jack Stack's Overland Park chef team. This is a restaurant-group association, not a Michelin/JBF award or verified event at the user's visited location.",
       "reviewHistory": [
         {
           "date": "2026-10-27",
           "result": "no_qualifying_award_verified",
           "note": "Carried forward from the existing confirmed-visit audit; no independent re-audit performed during watchlist creation."
+        },
+        {
+          "date": "2026-10-27",
+          "result": "foundation_brand_connection_found",
+          "note": "Official James Beard House event identifies a Jack Stack team from Overland Park. Retain as secondary brand context only; do not promote the unverified visited branch to a venue-level distinction.",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
+          ]
         }
       ],
-      "recognitionEvents": []
+      "recognitionEvents": [],
+      "officialConnections": [
+        {
+          "organization": "James Beard Foundation",
+          "connectionType": "chef_team_beard_house_event",
+          "year": 2012,
+          "sourceUrl": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner",
+          "venueScope": "restaurant_group_different_location",
+          "awardClaim": false,
+          "description": "Jack Stack culinary team served a James Beard House dinner in 2012; official Foundation program specifies the Overland Park location, not a confirmed exact branch from the user's visit."
+        }
+      ],
+      "officialFeatureStatus": "brand_context_only"
     },
     {
       "id": "watch-joes-kansas-city-bar-b-que-kansas-city",
