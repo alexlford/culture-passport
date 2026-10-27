@@ -11,7 +11,7 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - **Start with the memory.** Atmosphere, companions, venue history, chefs/artists, and what made an evening memorable matter most.
 - **Approximate years are sufficient.** Store an exact date only when it is meaningful to the memory and actually known; never promote a reservation date to an unquestioned meal date.
 - **Distinguish evidence.** `status=confirmed` means an actual experience was recalled, while `reservation_only` denotes a research lead and must not appear in confirmed totals.
-- **Michelin and James Beard are inclusion guides, not the entire story.** Maintain award year, category, and recipient, and do not borrow honors between locations. Explicit favorites such as Sauvage, Gunther & Co., The Majestic, and Death & Co Denver remain included even without award recognition.
+- **Michelin and James Beard are inclusion guides, not the entire story.** Maintain distinction, year, category, recipient, precise venue and an official source; never borrow honors across branches. In addition to recognized venues and explicit personal exceptions, a separate **Official Foundation / Guide Connection** tier permits directly documented Michelin/JBF editorial coverage, awards-watch profiles, TasteTwenty selections and actual JBF event/program participation, with its relationship clearly labeled. These connections are never called award wins or nominations.
 - **Keep an award watchlist.** Every confirmed restaurant that lacks verified venue-specific qualifying recognition remains in the private restaurant award watchlist, even if it is featured as a favorite. Re-audit quarterly, preserve each screening, and retain promoted restaurants with their old memories. Do not treat absence of verified recognition as proof that a venue has never won any award.
 - **Interviews are research, not attendance assertions.** Possible, negative, and unreviewed responses remain separate from confirmed experiences. Never add Le Fou Frog to the published collection: the user explicitly excluded it unless qualifying recognition is verified.
 - **Privacy by default.** Include only memories explicitly shared for this website. Avoid conflating bookers, diners, artists, and people in photos.
@@ -25,6 +25,21 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - `data/dining-awards-audit.json`, `data/reservation-evidence.json` — source ledgers, not competing databases.
 - `data/restaurant-award-watchlist.json` — **private, permanent, quarterly re-audit ledger** for confirmed restaurants not currently award-qualified. It includes archive-only barbecue and St. Louis memories, and keeps award promotion history. No additional public page is created from this file.
 - `assets/` — independent stylesheet and JavaScript, with no runtime dependency on the Life Map application.
+
+## Broader Michelin / James Beard curation (October 2026)
+
+**Always lead with a direct, confirmed visit.** A restaurant can appear in one of four distinctly named tiers. The stored claims must link to official Michelin Guide or James Beard Foundation resources, not only third-party lists:
+
+1. **Award winners / Michelin distinctions:** Stars, Bib Gourmand, Michelin Green Star and applicable special awards, or James Beard winners. Display the exact category and recipient; a chef award only applies to the restaurant where the chef earned it.
+2. **Official recognition, including historical:** Michelin Selected/Recommended or the historical Plate, and James Beard semifinalists and finalists for the named restaurant or chef at that restaurant. Do not imply a Selected listing is a Star.
+3. **Official Foundation / Guide Connection:** Direct venue/chef ties to Michelin editorial guides, profiles and 'ones to watch' coverage, James Beard TasteTwenty cohorts, Foundation features, and Foundation-associated events (e.g., a hosted benefit or a team featured at the Beard House). Always say *program/event/editorial connection* and give year, named chef, event location and source. **An event, a feature, or participation is not an award, endorsement, nomination or Michelin distinction**. The public UI must display this category separately from award badges and recognized-visit statistics.
+4. **Personal highlights:** Explicit favorites and exceptional memories, e.g., the Allred's anniversary dinner, eligible to display without external honors and clearly marked as personal exceptions.
+
+**Strict attribution:** If the user has visited one franchise location but an official feature concerns another, retain it as *restaurant-group context* in the private watchlist only; never imply the visited branch was featured. A guest chef from the same named location at an offsite Beard House dinner is a legitimate documented **chef-team connection**, not an event *held at* the restaurant, and never a Beard Award. Repeated visits may be stored as a single experience with unknown dates rather than fabricated individual calendar dates.
+
+**Award watchlist remains permanent:** Every confirmed restaurant without directly verified qualifying award/Guide recognition stays in the quarterly private watchlist even when included via a Foundation program or personal exception. Record newly discovered official links in its historical review ledger. Michelin editorial recognition and JBF program participation are tracked in `officialFeatures` on canonical records, independently of `recognitions` and `guide`. Only elevate `editorial.awardQualified` after confirming an actual Guide inclusion or qualifying Beard award stage.
+
+**Public release remains unapproved.** The visitor-preview exporter may select directly confirmed `officialFeature` restaurants, but publication-review entries must stay `pending` until explicitly approved. Do not expose private interview notes or complete watchlists on the public website.
 
 ## Quarterly restaurant award review
 
