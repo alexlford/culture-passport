@@ -5863,13 +5863,13 @@
       "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "interviewCue": "Long-running quick-service Mexican restaurant.",
-      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "interviewCue": "Established 1997. Small colorful, red-fronted Elk Avenue burrito bar known for fresh, giant burritos, tacos, pork and green chile tamales, a variety of salsas and margaritas; often a fast meal after skiing or outdoor adventure. Locally called 'The Taco Palace'.",
+      "sourceUrl": "https://www.teocallitamale.com/",
       "visitStatus": "unreviewed",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "addressHint": "311 Elk Ave",
+      "addressHint": "311 Elk Avenue (311½ in some historical records), Crested Butte, CO 81224",
       "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
       "screening": {
         "status": "not_yet_audited",
@@ -5885,7 +5885,8 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "historicalLocationNote": "The restaurant's own site lists 311 Elk Ave; official Crested Butte liquor-license records and tourism references use 311½ Elk Ave for Unit 1E. These refer to the same Teocalli Tamale restaurant, not different branches."
     },
     {
       "id": "candidate-kansas-city-metro-jack-stack-barbecue-overland-park",
