@@ -76,7 +76,7 @@ assert north_pond["userMemoryLead"]["identityConfirmed"] is True
 assert north_pond["screening"]["basis"] == "both"
 assert any(r["title"] == "North Pond" and r["guide"]["stars"] == 1 for r in records)
 assert len([r for r in records if r["type"] == "dining" and r["status"] == "confirmed"]) >= 25
-assert len([r for r in records if r["type"] == "bar" and r["status"] == "confirmed"]) == 2
+assert len([r for r in records if r["type"] == "bar" and r["status"] == "confirmed"]) == 3  # J-Bar added as archive-only
 breck = [r for r in records if r["venueId"] == "venue-breckenridge-distillery"]
 assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
