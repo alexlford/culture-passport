@@ -5549,17 +5549,17 @@
       "id": "candidate-crested-butte-the-sunflower",
       "area": "Crested Butte",
       "name": "The Sunflower",
-      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognition": "Independently featured in Colorado.com, Axios and Fodor's; former executive chefs John Leonardi (later Soupçon chef-owner) and Christoph Peherstorfer (2026 Crested Butte Wine + Food Festival participant). No directly attributable Michelin or James Beard award verified.",
       "recognitionYear": null,
       "awardFamily": "context",
       "interviewCue": "Farm-to-table Crested Butte eatery; distinct from Wildflower Denver.",
       "sourceUrl": "https://www.sunflowercb.com/",
       "visitStatus": "confirmed",
-      "researchStatus": "user_confirmed_2026_awards_screened_none_verified",
+      "researchStatus": "confirmed_visit_industry_alumni_network_investigated_no_direct_michelin_jbf_award",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "214 Elk Ave",
-      "visitNote": "Confirmed personal dining visit. Year, date, companions, specific dishes, and other details still unknown. Keep separate from Wildflower in Denver. No qualifying Michelin/James Beard recognition found in screened 2026 official lists; monitor future editions.",
+      "visitNote": "Visit confirmed. Historical newspaper/festival sources document Sunflower's chef alumni and independent press features. A user-shared screenshot falsely attributes Michelin 2025 and JBF 2026 honors; official award lists identify Restaurant Olivia. Keep genuine alumni/festival relationships in researched context, not direct awards.",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -5578,7 +5578,30 @@
       "visitPeriod": "Crested Butte visits; year not established",
       "visitSource": "Alex directly confirmed dining at The Sunflower in the Crested Butte Culture Passport interview on 2026-10-27.",
       "confirmedVisitId": "dining-the-sunflower-crested-butte-date-unknown",
-      "reviewedOn": "2026-10-27"
+      "reviewedOn": "2026-10-27",
+      "recognitionLeads": [
+        {
+          "name": "Christoph Peherstorfer",
+          "role": "Former Sunflower executive chef; 2026 Crested Butte Wine + Food Festival participant",
+          "relation": "verified_former_chef_and_regional_event",
+          "sourceUrl": "https://www.cbwineandfood.org/whos-coming",
+          "note": "Co-listed with Michelin-starred and JBF-nominated chefs at same festival, but not himself awarded a Michelin star/JBF nomination; no direct Sunflower recognition."
+        },
+        {
+          "name": "John Leonardi",
+          "role": "Former Sunflower executive chef; later Soupçon chef-owner",
+          "relation": "verified_former_chef",
+          "sourceUrl": "https://www.theadventuristmagazine.com/chef-profiles/the-west/colorado/john-leonardi-of-soupcon-in-crested-butte",
+          "note": "Soupçon appears in historical JBF Smart Catch Committed list; membership belongs to Soupçon, not Sunflower. Do not transfer the later program participation."
+        },
+        {
+          "name": "Ty Leon / Restaurant Olivia",
+          "role": "Separate 2026 festival participant",
+          "relation": "false_attribution_source",
+          "sourceUrl": "https://www.cbwineandfood.org/whos-coming",
+          "note": "Screenshot misread neighboring festival biography: 2026 James Beard Hospitality semifinalist was Restaurant Olivia; 2025 Michelin Outstanding Service Award winner was Olivia's Heather Morrison. Neither belongs to Sunflower."
+        }
+      ]
     },
     {
       "id": "candidate-crested-butte-soup-on",
@@ -5860,33 +5883,37 @@
       "id": "candidate-crested-butte-teocalli-tamale",
       "area": "Crested Butte",
       "name": "Teocalli Tamale",
-      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognition": "Local 'Best in the Butte' recognition; no specific Michelin Guide or James Beard Foundation qualifying award/nomination/editorial/program link verified in targeted source search.",
       "recognitionYear": null,
       "awardFamily": "context",
       "interviewCue": "Established 1997. Small colorful, red-fronted Elk Avenue burrito bar known for fresh, giant burritos, tacos, pork and green chile tamales, a variety of salsas and margaritas; often a fast meal after skiing or outdoor adventure. Locally called 'The Taco Palace'.",
       "sourceUrl": "https://www.teocallitamale.com/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "visitStatus": "confirmed",
+      "researchStatus": "direct_user_confirmed_2026_michelin_jbf_not_verified",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "311 Elk Avenue (311½ in some historical records), Crested Butte, CO 81224",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Confirmed meal at 311/311½ Elk Avenue, Crested Butte location. Dishes, dates, people and occasions unrecorded. Local 'Best in the Butte' recognition is separate from Michelin/JBF awards.",
       "screening": {
-        "status": "not_yet_audited",
+        "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
-        "sourceTier": "local_or_primary",
-        "verifiedAt": null,
-        "note": "Venue existence cited, not award eligibility verified."
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "Not named in Michelin's 2026 statewide Colorado list or the 2026 Foundation award announcements. Local award is unrelated; named official JBF program link not verified."
       },
       "eligibility": {
-        "status": "unreviewed",
+        "status": "outside_scope",
         "basis": "context",
-        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
-        "screenedOn": null,
+        "reason": "Confirmed local restaurant visit with no verified direct Michelin/JBF link. Place on permanent watchlist.",
+        "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
-      "historicalLocationNote": "The restaurant's own site lists 311 Elk Ave; official Crested Butte liquor-license records and tourism references use 311½ Elk Ave for Unit 1E. These refer to the same Teocalli Tamale restaurant, not different branches."
+      "historicalLocationNote": "The restaurant's own site lists 311 Elk Ave; official Crested Butte liquor-license records and tourism references use 311½ Elk Ave for Unit 1E. These refer to the same Teocalli Tamale restaurant, not different branches.",
+      "visitPeriod": "Crested Butte trips; dining year/date unknown",
+      "visitSource": "Alex explicitly confirmed eating at Teocalli Tamale in Crested Butte on October 27, 2026.",
+      "confirmedVisitId": "dining-teocalli-tamale-crested-butte-date-unknown",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-kansas-city-metro-jack-stack-barbecue-overland-park",
@@ -5923,6 +5950,37 @@
         "basis": "foundation_program",
         "reason": "Exact-branch chefs documented as participants in a JBF Beard House dinner. Qualified for separate On the Radar tier, not award-winning.",
         "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-bonez",
+      "area": "Crested Butte",
+      "name": "Bonez",
+      "recognition": "No verified Michelin/JBF formal recognition as of initial screening; outside the 2026 Colorado Guide list.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Colorful Mexican restaurant and tequila bar from the owner of The Secret Stash and Two Twelve. House margaritas, tacos, guacamole, eclectic décor. Venue at 130 Elk Avenue, Crested Butte.",
+      "sourceUrl": "https://www.boneztequilabar.com/",
+      "addressHint": "130 Elk Avenue, Crested Butte, CO 81224",
+      "visitStatus": "unreviewed",
+      "researchStatus": "additional_crested_butte_candidate",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User says they've visited almost every restaurant in Crested Butte, but Bonez specifically not yet confirmed. No attendance inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.boneztequilabar.com/",
+        "sourceTier": "operator",
+        "verifiedAt": null,
+        "note": "Venue background only."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Requires direct user confirmation and Michelin/JBF audit.",
+        "screenedOn": null,
         "verifiedForPublication": false
       }
     }
@@ -6217,21 +6275,22 @@
       "note": "Allred's confirmed as a memorable scenic anniversary dinner at San Sophia Station. Featured personal exception, with no award claim. Exact anniversary year unspecified. The National explicitly not visited."
     },
     "crestedButte": {
-      "state": "in_progress",
+      "state": "initial_candidate_screening_complete",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
-      "confirmedNamedVisits": 4,
-      "note": "Confirmed: The Sunflower, The Wooden Nickel, The Breadery, Public House. Maybe: Soupçon, The Secret Stash, Elk Ave Prime, Slogar, Pitas in Paradise. Final initial candidate Teocalli Tamale remains unanswered. Possible visits do not enter confirmed dining or the permanent award watchlist.",
+      "confirmedNamedVisits": 5,
+      "note": "First batch of ten is complete. Confirmed: Sunflower, Wooden Nickel, Breadery, Public House, Teocalli Tamale. Maybe: Soupçon, Secret Stash, Elk Ave Prime, Slogar, Pitas in Paradise. Sunflower chef alumni & festival network investigated; Michelin/JBF 2026 hospitality claims belong to Olivia, not Sunflower. More Crested Butte venues may be interviewed in subsequent batches.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 5,
-      "unreviewed": 1,
+      "unreviewed": 0,
       "confirmedNames": [
         "The Sunflower",
         "The Wooden Nickel",
         "The Breadery",
-        "Public House"
+        "Public House",
+        "Teocalli Tamale"
       ],
       "uncertainLeadsPreserved": [
         "Soupçon",
@@ -6239,6 +6298,9 @@
         "Elk Ave Prime",
         "Slogar",
         "Pitas in Paradise"
+      ],
+      "additionalCandidatesQueued": [
+        "Bonez"
       ]
     },
     "kansasCityMetro": {
@@ -6256,10 +6318,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Teocalli Tamale"
+        "Bonez"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Teocalli Tamale at 311 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Bonez, the Mexican restaurant and tequila bar at 130 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
