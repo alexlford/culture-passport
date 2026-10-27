@@ -5,11 +5,11 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 39,
-    "canonicalDistinctVenues": 34,
+    "restaurantEntriesReviewed": 40,
+    "canonicalDistinctVenues": 35,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
-    "coverageLimitation": "Targeted official-source recognition sweep, not an exhaustive search of every historical year or archival event. 'Not verified' never means 'never honored.' The 2026 Colorado Michelin selection is state-specific; do not use its omission to rule out awards in other regions."
+    "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas."
   },
   "rules": {
     "formal_michelin_jbf_recognition": "Actual Michelin Star, Bib Gourmand, Selected/Recommended, historical Plate or Michelin restaurant-linked special award, or James Beard semifinalist/finalist/winner tied to named restaurant/chef at that venue, with year, tier and primary source. Only this sets editorial.awardQualified=true.",
@@ -28,7 +28,8 @@
     "uchiDenverFoundationBenefit2019": "https://archive.jamesbeard.org/index.php/events/denver-5",
     "jackStackOverlandParkBeardHouse2012": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner",
     "beckonOneStar2023": "https://michelinmedia.com/c0/introducing-first-stars-michelin-guide-colorado/",
-    "minettaOneStar2017": "https://michelinmedia.com/michelin-guide-nyc-2017/"
+    "minettaOneStar2017": "https://michelinmedia.com/michelin-guide-nyc-2017/",
+    "jamesBeard2026Nominees": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
   },
   "confirmedSweep": {
     "newlyIdentifiedDirectVenueProgramConnections": [
@@ -42,10 +43,14 @@
     "uncertainVisitLeadNotCounted": "Soupçon in Crested Butte appears on JBF Smart Catch Committed list, but user has only answered MAYBE visited.",
     "noAutomaticAwardPromotions": "Official event and sustainability-program participation do not automatically constitute Michelin or James Beard Awards.",
     "recognizedVenuesWithoutLinkInCurrentCanonicalRecord": [],
-    "note": "Reviewed official 2026 statewide Michelin Colorado selection, official JBF awards announcements, historical Smart Catch listing and Foundation event archive, and historical Michelin press releases for Beckon (2023) and Minetta Tavern (2017). No claim of exhaustive historical search for every venue."
+    "note": "Reviewed 2026 statewide Michelin Guide, JBF official 2026 semifinalists/nominees/winners and historical Foundation events/Smart Catch, plus a user-supplied 5280 January 2026 retrospective as secondary discovery. Historical Michelin verification for Beckon and Minetta. Do not treat 5280 as authority or infer awards from mere group/chef histories. No claim of exhaustive search.",
+    "further2026OfficialNominations": [
+      "Barolo Grill — Ryan Fletter, JBF Outstanding Professional in Beverage Service nominee 2026, official foundation list"
+    ],
+    "noNewBreaderyDirectRecognition": "Confirmed restaurant visit archived. Breadery absent from the official Colorado Michelin guide and 2026 JBF announcements; no positive direct Foundation program association found in targeted archive search. Re-audit later."
   },
   "countsByTier": {
-    "archived_pending_recognition": 13,
+    "archived_pending_recognition": 14,
     "formal_michelin_jbf_recognition": 19,
     "personal_featured_exception": 5,
     "official_program_or_editorial_connection": 2
@@ -383,6 +388,34 @@
       "reviewedOn": "2026-10-27"
     },
     {
+      "venueId": "venue-the-breadery-crested-butte",
+      "restaurantName": "The Breadery",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-the-breadery-crested-butte-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/restaurants",
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+        "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No directly verifiable Michelin selection, James Beard award/nomination or named official chef/program/editorial link found in this targeted check; 5280 historical 2026-and-earlier list used for leads, not authority. Continue watchlist; nonmatch is not proof of never-recognized status.",
+      "watchlistId": "venue-the-breadery-crested-butte",
+      "reviewedOn": "2026-10-27"
+    },
+    {
       "venueId": "venue-the-sunflower-crested-butte",
       "restaurantName": "The Sunflower",
       "city": "Crested Butte",
@@ -450,10 +483,20 @@
       "officialProgramConnection": false,
       "officialSourceUrls": [
         "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill",
-        "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page"
+        "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page",
+        "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
       ],
       "historicalGuide": "selected",
-      "formalRecognitions": [],
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Outstanding Professional in Beverage Service",
+          "year": 2026,
+          "result": "nominee",
+          "recipient": "Ryan Fletter",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+        }
+      ],
       "officialFeatures": [
         {
           "organization": "James Beard Foundation",
@@ -464,7 +507,7 @@
           "claimedAward": false
         }
       ],
-      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "reviewResult": "Michelin Selected (2026) plus official 2026 JBF Outstanding Professional in Beverage Service nominee Ryan Fletter of Barolo Grill. Nominee, not winner; dining date unknown. Separate 2020 Smart Catch listing is nonaward context.",
       "watchlistId": null,
       "reviewedOn": "2026-10-27"
     },
@@ -1183,5 +1226,14 @@
     "nextReviewTarget": "2027-01",
     "priority": "For archived and featured-exception restaurants first, search official Michelin Guide history, special awards, inspector articles, official James Beard awards archives, Taste America/TasteTwenty, Beard House events, Smart Catch and named chef-program rosters; distinguish current vs historical, award vs participation, exact venue vs group."
   },
-  "barLeadSeparate": "J-Bar at Hotel Jerome is confirmed as a bar experience but excluded from these restaurant totals."
+  "barLeadSeparate": "J-Bar at Hotel Jerome is confirmed as a bar experience but excluded from these restaurant totals.",
+  "secondaryDiscoverySources": [
+    {
+      "title": "A Complete List of Every Colorado James Beard Award — 5280",
+      "url": "https://5280.com/complete-list-of-colorado-james-beard-award-winners/",
+      "publishedOn": "2026-01-22",
+      "purpose": "Historical Colorado winners since 2008 and 2026 semifinalists as of January 2026. Leads and cross-check only; verify status and exact venue via official JBF archive. Does not include June 2026 winners because published before awards.",
+      "userProvidedOn": "2026-10-27"
+    }
+  ]
 }
