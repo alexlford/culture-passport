@@ -6094,11 +6094,11 @@
       "recognition": "Historical local polls named its burger and Bloody Mary best in Crested Butte. These are community awards, NOT Michelin/JBF qualification; Michelin/JBF status not separately audited.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_second_round_historical_venue",
+      "visitStatus": "maybe",
+      "researchStatus": "possible_visit_user_direct_response",
       "addedOn": "2026-10-27",
       "priority": "standard",
-      "visitNote": "Historical named-venue lead only. The Last Steep era and successor The Hideout at same address must remain separate and not imply that any visit to Two Twelve at 212 Elk Avenue was at The Last Steep. Identity, former restaurant and change verified from 2023 Colorado Sun reporting and 2023 Town of Crested Butte liquor-license transfer; no user attendance asserted.",
+      "visitNote": "On October 27, 2026 Alex explicitly responded 'Maybe visited' regarding The Last Steep Bar & Grill. Venue attendance and meal date remain unconfirmed. The restaurant was the predecessor to The Hideout at the same address, but a potential Last Steep experience is not proof of a visit to The Hideout, and vice versa. Do not count as confirmed dining or add to Michelin/JBF watchlist.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -6109,8 +6109,8 @@
       },
       "eligibility": {
         "status": "unreviewed",
-        "basis": "context",
-        "reason": "Requires direct user recall of a meal in Last Steep era and later, separate recognition check.",
+        "basis": "attendance_unconfirmed",
+        "reason": "User only possibly recalls a meal in the historical Last Steep era; no verified visit or venue-specific Michelin/JBF award connection. No watchlist/published restaurant record until visit confirmation.",
         "screenedOn": null,
         "verifiedForPublication": false
       },
@@ -6124,6 +6124,37 @@
           "https://coloradosun.com/2023/08/03/crested-butte-restaurants-closed-grocery-store/",
           "https://www.crestedbutte-co.gov/vertical/sites/%7B6058FFBB-CB06-4864-B42F-B476F794BE07%7D/uploads/Executive_Summary_E-Packet_11.6.2023.pdf"
         ]
+      }
+    },
+    {
+      "id": "candidate-crested-butte-mcgills",
+      "name": "McGill's at Crested Butte",
+      "area": "Crested Butte",
+      "sourceUrl": "https://www.mcgillscrestedbutte.com/",
+      "addressHint": "228 Elk Avenue, Crested Butte, CO 81224",
+      "interviewCue": "Cozy morning breakfast and lunch nook on Elk Avenue, green-and-yellow storefront visible in historic winter street photographs; warm wood-paneled dining room. All-day breakfast with biscuits and gravy, pancakes and burritos, and malts/shakes. Current owner/head chef Jamie Timmons purchased the restaurant in 2010; the restaurant's About page reports opening in 2006. Do not infer when or whether Alex ate here.",
+      "recognition": "No Michelin or James Beard award claimed; qualification screening deferred until a confirmed visit.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_second_round",
+      "addedOn": "2026-10-27",
+      "priority": "standard",
+      "visitNote": "Next unreviewed Crested Butte breakfast restaurant candidate. Restaurant website and local dining guide verify address and menu; no attendance or visit date asserted.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.mcgillscrestedbutte.com/about",
+        "sourceTier": "restaurant_primary",
+        "verifiedAt": null,
+        "note": "Venue existence, 228 Elk address and owner history only; no Michelin/JBF award statement."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Requires a direct visit response then venue-specific recognition research before adding to award watchlist.",
+        "screenedOn": null,
+        "verifiedForPublication": false
       }
     }
   ],
@@ -6420,12 +6451,12 @@
       "state": "second_round_in_progress",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
-      "candidateCount": 15,
+      "candidateCount": 16,
       "confirmedNamedVisits": 6,
-      "note": "First ten CB restaurants answered; expanded: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe, Marchitelli’s Gourmet Noodle/The Gourmet Noodle maybe; next The Last Steep (pre-2023 historical identity). Its successor The Hideout is separate; confirmed dining totals remain 6.",
+      "note": "First 10 CB venues answered; expanded round: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe, Marchitelli's/The Gourmet Noodle maybe, historical Last Steep maybe. McGill's at Crested Butte is next. Six confirmed dining visits remain unchanged; successor restaurants and award qualifications never inferred from possible visits.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 8,
+      "maybeVisited": 9,
       "unreviewed": 1,
       "confirmedNames": [
         "The Sunflower",
@@ -6443,13 +6474,15 @@
         "Pitas in Paradise",
         "Bonez",
         "Izakaya Cabin",
-        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle"
+        "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
+        "The Last Steep Bar & Grill"
       ],
       "additionalCandidatesQueued": [
         "Two Twelve",
         "Izakaya Cabin",
         "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
-        "The Last Steep Bar & Grill"
+        "The Last Steep Bar & Grill",
+        "McGill's at Crested Butte"
       ]
     },
     "kansasCityMetro": {
@@ -6467,10 +6500,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "The Last Steep Bar & Grill"
+        "McGill's at Crested Butte"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you eat at The Last Steep Bar & Grill at 208 Elk Avenue, before it became The Hideout in 2023? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten breakfast or lunch at McGill's, the diner at 228 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
@@ -6554,7 +6587,8 @@
       "Two Twelve",
       "Izakaya Cabin",
       "Marchitelli’s Gourmet Noodle / The Gourmet Noodle",
-      "The Last Steep Bar & Grill"
+      "The Last Steep Bar & Grill",
+      "McGill's at Crested Butte"
     ]
   }
 }
