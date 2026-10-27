@@ -5,8 +5,8 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 42,
-    "canonicalDistinctVenues": 37,
+    "restaurantEntriesReviewed": 43,
+    "canonicalDistinctVenues": 38,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas."
@@ -63,7 +63,7 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 16,
+    "archived_pending_recognition": 17,
     "formal_michelin_jbf_recognition": 19,
     "personal_featured_exception": 5,
     "official_program_or_editorial_connection": 2
@@ -587,6 +587,53 @@
       "officialFeatures": [],
       "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
       "watchlistId": "venue-the-wooden-nickel-crested-butte",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-two-twelve-crested-butte",
+      "restaurantName": "Two Twelve",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-two-twelve-crested-butte-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://guide.michelin.com/us/en/colorado/restaurants"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "independentEditorialSources": [
+        {
+          "publisher": "Axios Denver",
+          "url": "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining",
+          "year": 2025
+        },
+        {
+          "publisher": "5280",
+          "url": "https://5280.com/road-trip-dining-crested-buttes-two-twelve-offers-smoke-tinged-colorado-cuisine/",
+          "year": 2025
+        },
+        {
+          "publisher": "Mountain Town Magazine",
+          "url": "https://mtntownmagazine.com/two-twelve-in-crested-butte-catching-fire/",
+          "year": 2025
+        }
+      ],
+      "relatedVenues": [
+        "Bonez (same operator, user's visit still maybe)",
+        "The Secret Stash (same operator, user's visit still maybe)"
+      ],
+      "reviewResult": "Confirmed user meal, independent 2025–26 press calls chef Anthony Nelson an emerging talent with James Beard ambitions; as of 2026-10-27 no official venue-level Michelin/JBF formal award, editorial feature or named program link verified. Press aspirations do not equal nomination.",
+      "watchlistId": "venue-two-twelve-crested-butte",
       "reviewedOn": "2026-10-27"
     },
     {
