@@ -105,6 +105,7 @@ try{
     const selectedCity=new URL(cityHref,BASE).searchParams.get("city");
     await cityCards.first().click();
     await page.waitForFunction(expected=>document.querySelector("#city-filter")?.value===expected,selectedCity);
+    await page.locator("#explore-results a.record-card").first().waitFor();
     assert(await page.locator("#explore-results a.record-card").count()>0,
       "City-edition deep link did not select its city");
     await page.locator("#city-filter").selectOption("");
