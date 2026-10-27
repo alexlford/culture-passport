@@ -96,6 +96,20 @@ try{
       ["dining","bar"].includes(r.type)&&r.editorial?.awardQualified).length;
     assert((await page.locator("#total-records").innerText())===String(verifiedCount),
       "Home awards counter must exclude unconfirmed shared memories");
+    // City edition links must remain usable and show only that city's stories.
+    const cityCards=page.locator("#city-editions a.city-edition");
+    await cityCards.first().waitFor();
+    assert(await cityCards.count()===6,"Home city editions should show six city destinations");
+    const cityHref=await cityCards.first().getAttribute("href");
+    assert(cityHref?.startsWith("./explore.html?city="),"City edition link is missing its destination");
+    const selectedCity=new URL(cityHref,BASE).searchParams.get("city");
+    await cityCards.first().click();
+    await page.waitForFunction(expected=>document.querySelector("#city-filter")?.value===expected,selectedCity);
+    assert(await page.locator("#explore-results a.record-card").count()>0,
+      "City-edition deep link did not select its city");
+    await page.locator("#city-filter").selectOption("");
+    assert(!new URL(page.url()).searchParams.has("city"),
+      "Clearing city filter did not remove its shareable query parameter");
     await page.goto(BASE+"explore.html",{waitUntil:"domcontentloaded"});
     await page.locator("#explore-results a.record-card").first().waitFor();
     await page.locator("#search").fill("Sauvage");
