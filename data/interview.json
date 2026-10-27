@@ -5831,12 +5831,12 @@
       "awardFamily": "context",
       "interviewCue": "Long-running casual Mediterranean wraps, gyros, falafel, soups and fries, with a full bar and sports TVs. Colorful wall murals and casual wooden tables. Crested Butte location at 302 Elk Ave, distinct from the Gunnison location.",
       "sourceUrl": "https://www.pitasinparadise.co/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "302 Elk Avenue, Crested Butte, CO 81224",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Uncertain possible visit only. Do not infer attendance from broad Crested Butte dining experience. Keep distinct from the Gunnison location and out of confirmed dining records, award-watchlist entries and recognition-audit confirmed totals unless later independently confirmed.",
       "screening": {
         "status": "not_yet_audited",
         "basis": null,
@@ -5851,7 +5851,10 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possible Crested Butte location visit; exact year/date unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' for Pitas in Paradise (Crested Butte) in the Culture Passport interview on October 27, 2026.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-teocalli-tamale",
@@ -6218,11 +6221,11 @@
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
       "confirmedNamedVisits": 4,
-      "note": "Confirmed: The Sunflower, The Wooden Nickel, The Breadery, Public House. Possible only: Soupçon, The Secret Stash, Elk Ave Prime, Slogar. Next interview Pitas in Paradise. Maintain source-based Michelin/JBF review and private watchlist for confirmed nonqualifying venues.",
+      "note": "Confirmed: The Sunflower, The Wooden Nickel, The Breadery, Public House. Maybe: Soupçon, The Secret Stash, Elk Ave Prime, Slogar, Pitas in Paradise. Final initial candidate Teocalli Tamale remains unanswered. Possible visits do not enter confirmed dining or the permanent award watchlist.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
-      "maybeVisited": 4,
-      "unreviewed": 2,
+      "maybeVisited": 5,
+      "unreviewed": 1,
       "confirmedNames": [
         "The Sunflower",
         "The Wooden Nickel",
@@ -6233,7 +6236,8 @@
         "Soupçon",
         "The Secret Stash",
         "Elk Ave Prime",
-        "Slogar"
+        "Slogar",
+        "Pitas in Paradise"
       ]
     },
     "kansasCityMetro": {
@@ -6251,10 +6255,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Pitas in Paradise"
+        "Teocalli Tamale"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Pitas in Paradise, 302 Elk Ave in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Teocalli Tamale at 311 Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
