@@ -4743,7 +4743,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Dining at the historic Hotel Jerome.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4762,7 +4762,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Possibly visited; exact date and meal unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Aspen Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Unconfirmed venue memory lead. Michelin Guide 2026 research recognition remains separate; do not count as a confirmed hotel restaurant meal.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-vail-beaver-creek-osaki-s",
@@ -5632,16 +5636,7 @@
         "The Wild Fig"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Wild Fig in Aspen? Visited, Maybe, or Not visited? If visited, was it in the older brasserie room or the newer space, and roughly when?",
-      "resumeAfter": {
-        "area": "Aspen",
-        "category": "restaurants",
-        "candidateNames": [
-          "Prospect"
-        ],
-        "status": "awaiting_user_response",
-        "question": "Have you eaten at Prospect, the restaurant inside the historic Hotel Jerome in downtown Aspen? Visited, Maybe, or Not visited? If visited, an approximate year and memories are welcome."
-      }
+      "question": "Have you eaten at The Wild Fig in Aspen? Visited, Maybe, or Not visited? If visited, was it in the older brasserie room or the newer space, and roughly when?"
     },
     "pausedBatches": [
       {
