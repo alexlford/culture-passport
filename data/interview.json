@@ -4675,7 +4675,7 @@
       "awardFamily": "michelin",
       "interviewCue": "The Little Nell's signature fine dining near Aspen Mountain.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4694,7 +4694,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' for Element 47 in the Aspen Culture Passport interview on October 27, 2026.",
+      "visitNote": "Explicit negative visit response. Preserve 2026 Michelin recognition as venue research only; do not count as personal visit.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-aspen-mawa-s-kitchen",
@@ -4705,7 +4709,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Global cooking near Aspen Airport.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4724,7 +4728,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' for Mawa's Kitchen in the Aspen Culture Passport interview on October 27, 2026.",
+      "visitNote": "Explicit negative visit response. Preserve 2026 Michelin recognition as venue research only; do not count as personal visit.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-aspen-prospect",
@@ -5589,10 +5597,10 @@
       "area": "Aspen",
       "category": "restaurants",
       "candidateNames": [
-        "Element 47"
+        "Prospect"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Element 47 in The Little Nell hotel near the base of Aspen Mountain? Visited, Maybe, or Not visited? If visited, roughly when and what do you remember?"
+      "question": "Have you eaten at Prospect, the restaurant inside the historic Hotel Jerome in downtown Aspen? Visited, Maybe, or Not visited? If visited, an approximate year and memories are welcome."
     },
     "pausedBatches": [
       {
