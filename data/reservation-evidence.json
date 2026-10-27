@@ -554,10 +554,11 @@
       "platform": "Resy",
       "occasion": "Dining",
       "publicationEligibility": "requires_independent_michelin_james_beard_review",
-      "attendanceInference": "historical_booking_date_unproven_as_dining_date_separate_restaurant_confirmation",
+      "attendanceInference": "restaurant_and_west_hollywood_branch_confirmed_independently_of_booking_date",
       "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026",
-      "confirmationNote": "On 2026-10-27 user independently confirmed eating at The Butcher's Daughter in Los Angeles. The existing West Hollywood booking supports identification but does not establish this as the meal date or prove companions.",
-      "confirmedRestaurantVisitId": "dining-butchers-daughter-los-angeles-date-unknown"
+      "confirmationNote": "User separately confirmed The Butcher's Daughter West Hollywood was the restaurant visited on October 27, 2026. This proves branch identity for an otherwise undated meal, but does NOT prove attendance on this specific July 29, 2023 booking, number of diners at actual meal, or companions.",
+      "confirmedRestaurantVisitId": "dining-butchers-daughter-los-angeles-date-unknown",
+      "confirmedVenueId": "venue-butchers-daughter-west-hollywood"
     },
     {
       "name": "Safta",
