@@ -1021,6 +1021,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "the-sunflower-crested-butte"
+    },
+    {
+      "id": "venue-the-wooden-nickel-crested-butte",
+      "name": "The Wooden Nickel",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "222 Elk Ave, Crested Butte, CO 81224",
+      "neighborhood": "Downtown / Elk Avenue",
+      "location": {
+        "lat": 38.8697,
+        "lng": -106.9878,
+        "precision": "city-centroid"
+      },
+      "sourceId": "wooden-nickel-crested-butte"
     }
   ],
   "records": [
@@ -5124,6 +5139,61 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_2026_primary_source_screening"
+      }
+    },
+    {
+      "id": "dining-the-wooden-nickel-crested-butte-date-unknown",
+      "type": "dining",
+      "title": "The Wooden Nickel",
+      "venueId": "venue-the-wooden-nickel-crested-butte",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Crested Butte trip; dining date unknown",
+        "precision": "unknown",
+        "source": "Alex directly confirmed a dining visit to The Wooden Nickel in Crested Butte during the Culture Passport interview on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed dining visit to The Wooden Nickel, Crested Butte's historic Elk Avenue saloon and steakhouse. The date and specific dinner details are unknown; the restaurant's history reaches back to the 1880s and its building has seen subsequent updates.",
+      "memory": {
+        "headline": "Dining at Crested Butte's Wooden Nickel",
+        "teaser": "A remembered stop at one of the mountain town's historic saloons and steakhouses.",
+        "story": "I ate at The Wooden Nickel in Crested Butte, one of the longtime establishments on Elk Avenue. Its historic saloon identity is part of the town's story, but I have not yet recorded which trip this meal belongs to or what we ordered. I can revisit the occasion and details as they come back to me.",
+        "period": "Crested Butte trips; year unknown",
+        "source": "User-confirmed visit on October 27, 2026. Historical venue background is from the operator's official Wooden Nickel site; specific meal circumstances not inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "note": "The 2026 Colorado Michelin statewide selection does not list The Wooden Nickel. Historical recognition and future developments remain subject to audit; no award status inferred for the visit date."
+      },
+      "sourceUrl": "https://www.elkavehospitality.com/wooden-nickel",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed historical Crested Butte dining memory, with no Michelin or James Beard recognition verified in checked 2026 lists. Preserve in private archive and recurring award watchlist."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "No venue-specific qualifying Michelin or James Beard distinction found in official Colorado Michelin 2026 selection or James Beard Foundation's 2026 semifinalist/winner announcements.",
+        "evidenceUrls": [
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://www.jamesbeard.org/stories/james-beard-award-winners-2026",
+          "https://www.elkavehospitality.com/wooden-nickel"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_2026_primary_source_screening_no_eligible_award_verified"
       }
     }
   ],
