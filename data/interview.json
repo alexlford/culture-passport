@@ -6541,27 +6541,27 @@
       "area": "Los Angeles / West Hollywood",
       "sourceUrl": "https://www.joyonyork.com/",
       "addressHint": "5100 York Blvd, Los Angeles, CA 90042",
-      "interviewCue": "Taiwanese casual counter service with exposed brick, woven pendant lights and distinctive RED floral-upholstered bench seating, clamshell buns and sesame bread; opened 2018. Farther east from West Hollywood; connected to Pine & Crane through chef/ownership but is a separate restaurant.",
+      "interviewCue": "Joy on York, 5100 York Blvd in Highland Park, opened March 6 2018. Signature red floral-upholstered booth running beside exposed brick wall, woven wicker pendant lamps, wooden two-person tables, counter-ordering Taiwanese comfort food: thousand-layer pancake with egg/cheese/basil, clamshell buns, pork on rice and tea. On Oct 27 Alex said it 'could've been Joy', not a definite identification. Distinguish from Liu's Cafe's white walls, long dark-wood communal table, vintage framed posters and green-tiled water station; Liu's opened Aug 31 2023.",
       "recognition": "No direct venue-specific Michelin or James Beard award, Guide distinction or Foundation program link positively verified in this review. Do not borrow Pine & Crane's Michelin Bib Gourmand for Joy.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_recalled_jay_taiwanese_venue_identity_lead",
+      "visitStatus": "maybe",
+      "researchStatus": "user_tentative_possible_identity_for_jay_taiwanese_meal",
       "addedOn": "2026-10-27",
-      "priority": "secondary_geo_outside_west_hollywood",
-      "visitNote": "Candidate only: Alex has not identified this venue as a place he ate with Jay. Do not publish or include in confirmed totals.",
+      "priority": "co_leading_identity_candidate_not_venue_confirmation",
+      "visitNote": "On October 27, 2026 Alex responded 'It could've been Joy' after seeing Joy on York photographed alongside seven Taiwanese restaurant alternatives for the Taiwanese meal remembered with Jay. This establishes possible identity only, NOT a confirmed meal at Joy. He previously strongly favored Liu's Cafe, and both remain MAYBE. No specific visit year, dish, companion attendance at other restaurants, or venue identification conclusively established.",
       "screening": {
         "status": "not_yet_audited_for_official_recognition",
         "basis": null,
-        "evidenceUrl": "https://www.joyonyork.com/",
+        "evidenceUrl": "https://la.eater.com/2018/3/8/17096558/pine-crane-vivian-ku-joy-york-taiwanese-photos-inside",
         "sourceTier": "restaurant_primary_and_editorial",
         "verifiedAt": "2026-10-27",
-        "note": "No direct venue-specific Michelin or James Beard award, Guide distinction or Foundation program link positively verified in this review. Do not borrow Pine & Crane's Michelin Bib Gourmand for Joy."
+        "note": "User has a tentative identification of Joy; this does NOT establish restaurant attendance. Restaurant opened 2018-03-06 per March 26 2018 Occidental report and Mar 8 2018 Eater LA. Independent LA Tourism feature is not an official Michelin/JBF recognition. Do not borrow Pine & Crane's Michelin Bib Gourmand."
       },
       "eligibility": {
         "status": "unreviewed",
-        "basis": "none_verified",
-        "reason": "Confirmed attendance at this named venue has not been supplied. Award status does not prove a visit.",
+        "basis": "no_official_recognition_verified",
+        "reason": "User has only tentatively identified Joy, not confirmed dining at this named venue; no location-specific qualifying Michelin/JBF recognition positively verified. Preserve potential visit but do not create canonical entry or watchlist entry until attendance confirmed.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -7156,7 +7156,7 @@
       "id": "la-west-hollywood-jay-taiwanese-unidentified",
       "category": "dining",
       "name": "Taiwanese restaurant with Jay — Los Angeles/West Hollywood area",
-      "status": "probable_identity_pending_confirmation",
+      "status": "competing_probable_identities_pending_confirmation",
       "venueIdentityConfirmed": false,
       "visitDate": null,
       "visitPeriod": null,
@@ -7170,9 +7170,9 @@
         "ROW DTLA"
       ],
       "source": "Direct user recollection October 27, 2026",
-      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. No evidence links the 2023-07-29 Butcher's Daughter reservation to this meal; that booking predates Liu's opening. West Hollywood and South Bay research both remain active. After user's continued strong preference for Liu's, researched all seven previously logged alternative candidates using current operator photos, dated opening announcements and Michelin 2026 California data. All alternative attendance statuses remain unreviewed; no false negative votes or named confirmed meals entered. See comparativeReview.",
+      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. No evidence links the 2023-07-29 Butcher's Daughter reservation to this meal; that booking predates Liu's opening. West Hollywood and South Bay research both remain active. After user's continued strong preference for Liu's, researched all seven previously logged alternative candidates using current operator photos, dated opening announcements and Michelin 2026 California data. All alternative attendance statuses remain unreviewed; no false negative votes or named confirmed meals entered. See comparativeReview. User then said 'It could've been Joy', explicitly promoting Joy on York (Highland Park) to a second possible identity. This is not confirmation; Liu's original strong-feeling lead remains possible. Distinguishing features: Joy's red floral banquette and exposed brick vs Liu's white walls and long dark communal table/vintage posters. Joy opened March 6 2018; Liu's opened August 31 2023. Restaurant-specific award status is distinct: Liu's current Michelin Bib, no direct Michelin/JBF qualification established for Joy. Keep both out of canonical and watchlist until user specifically confirms actual visit.",
       "publishAsExperience": false,
-      "visitStatus": "unidentified_probable_venue",
+      "visitStatus": "unidentified_two_possible_venues",
       "confirmedVisitId": null,
       "identificationCandidates": [
         {
@@ -7184,9 +7184,9 @@
         {
           "candidateId": "candidate-la-lius-cafe-ktown",
           "name": "Liu's Cafe (Koreatown)",
-          "status": "leading_probable_identity_pending_confirmation",
-          "note": "User strongly feels Liu's Cafe was the Taiwanese restaurant Jay took him to, but has not definitely confirmed it. Opened 2023-08-31 at Koreatown 6th Street address; current 2026 Bib Gourmand. No exact visit date established.",
-          "confidence": "strong_user_suspicion"
+          "status": "competing_probable_identity_initially_strongly_favored",
+          "note": "User initially strongly favored Liu's Cafe, then said it could have been Joy; both remain unconfirmed possibilities. Liu's Koreatown site opened Aug 31 2023 and has 2026 Michelin Bib Gourmand.",
+          "confidence": "strong_initial_user_feeling_with_competing_joy_alternative"
         },
         {
           "candidateId": "candidate-la-kato",
@@ -7215,8 +7215,9 @@
         {
           "candidateId": "candidate-la-joy-highland-park",
           "name": "Joy (Highland Park)",
-          "status": "unreviewed",
-          "note": "Taiwanese casual counter service with exposed brick, woven pendant lights and distinctive RED floral-upholstered bench seating, clamshell buns and sesame bread; opened 2018. Farther east from West Hollywood; connected to Pine & Crane through chef/ownership but is a separate restaurant."
+          "status": "competing_probable_identity_pending_confirmation",
+          "note": "User said 'It could've been Joy' on Oct 27 2026. This is a second possible identity, NOT confirmed attendance. Opened Mar 6 2018 at 5100 York Blvd. Red floral-upholstered bench, exposed brick, wicker pendant lights.",
+          "confidence": "user_tentative_possibility"
         },
         {
           "candidateId": "candidate-la-pine-crane-dtla",
@@ -7225,10 +7226,10 @@
           "note": "Modern Taiwanese restaurant in South Park, Downtown LA, at 1120 S Grand Ave. Its breakfast/all-day menu and cocktails distinguish it from Silver Lake, at 1521 Griffith Park Blvd. Current Michelin Bib Gourmand applies to the original SILVER LAKE branch only unless a separate official DTLA listing is verified."
         }
       ],
-      "nextQuestion": "Does the Liu's Cafe dining room with long wood table, vintage poster wall and brass lamps look familiar, and would your visit with Jay have been after August 31, 2023? The exact year or food ordered would be enough to narrow the evidence.",
+      "nextQuestion": "Which looks more familiar from your meal with Jay: Joy's red floral booth against exposed brick, or Liu's long communal table with framed posters? Or can you date the meal before vs after August 2023? Either restaurant can remain tentative.",
       "probableCandidateId": "candidate-la-lius-cafe-ktown",
-      "identificationConfidence": "user_strong_feeling_not_definitive_confirmation",
-      "lastInterviewResponse": "I have a strong feeling it is Liu's Cafe; please look through all other potential candidates, but I really think this is the one.",
+      "identificationConfidence": "user_strong_initial_feeling_for_liu_then_explicit_joy_possibility_neither_confirmed",
+      "lastInterviewResponse": "It could've been Joy (after previously saying 'I have a strong feeling it is Liu's Cafe').",
       "updatedOn": "2026-10-27",
       "temporalConstraint": {
         "earliestPossibleVisit": "2023-08-31",
@@ -7411,7 +7412,34 @@
         ],
         "noNewVisitConfirmations": true,
         "followUp": "Look through visual montage of seven alternatives. Ask whether an unmistakable interior, dish or West Hollywood vs Koreatown geography supplants Liu's. If none, keep Liu probable until user can independently confirm date/menu/venue."
-      }
+      },
+      "alternativeProbableCandidateId": "candidate-la-joy-highland-park",
+      "competingCandidateIds": [
+        "candidate-la-lius-cafe-ktown",
+        "candidate-la-joy-highland-park"
+      ],
+      "distinguishingClues": [
+        {
+          "type": "decor",
+          "joy": "Red floral-upholstered bench against exposed brick with woven pendant lamps; separate 2-person tables",
+          "lius": "Long dark communal wooden table, dark bentwood chairs, vintage wall frames and white walls"
+        },
+        {
+          "type": "time",
+          "joy": "Opened March 6, 2018; possible for older LA visits",
+          "lius": "Opened August 31, 2023; cannot match a meal earlier than then"
+        },
+        {
+          "type": "food",
+          "joy": "Thousand-layer pancakes, clamshell buns, pork rice, cold appetizers",
+          "lius": "Pineapple buns, egg tarts, chile-oil wontons, Chiayi chicken rice, pork rice"
+        },
+        {
+          "type": "geo",
+          "joy": "Highland Park, northeast LA, farther from West Hollywood",
+          "lius": "Koreatown, closer to West Hollywood"
+        }
+      ]
     },
     {
       "id": "redondo-space-park-dining-unidentified",
@@ -7694,9 +7722,9 @@
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 17,
-      "unreviewed": 15,
+      "unreviewed": 14,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -7708,9 +7736,10 @@
         "Angelini Osteria",
         "Ardor (West Hollywood EDITION)"
       ],
-      "strongestUnconfirmedTaiwaneseLead": "Liu's Cafe (Koreatown)",
+      "strongestUnconfirmedTaiwaneseLead": "Liu's Cafe (Koreatown), with Joy (Highland Park) now a serious alternative; neither confirmed",
       "liusCafeCandidateStatus": "maybe_user_strong_feeling_not_confirmed_venue",
-      "maybeVisited": 1
+      "maybeVisited": 2,
+      "taiwaneseIdentityStatus": "two_competing_possibilities_liu_and_joy_no_confirmed_named_visit"
     },
     "spaceParkSouthBay": {
       "state": "active_research_parallel",
@@ -7885,7 +7914,7 @@
       {
         "area": "Los Angeles / West Hollywood",
         "status": "actively_researching",
-        "priority": "Test Liu's Cafe 2023-or-later chronology and photo recognition, then continue the rest of West Hollywood Michelin shortlist and parallel Space Park screen",
+        "priority": "Disambiguate Joy vs Liu's via decor and 2018 vs 2023 opening, while keeping independent West Hollywood Michelin and Space Park tracks open",
         "confirmedNamedVisits": 2,
         "confirmedNames": [
           "République",
@@ -7904,9 +7933,9 @@
           "Angelini Osteria",
           "Ardor (West Hollywood EDITION)"
         ],
-        "visitEvidenceRule": "Liu's Cafe is a MAYBE visit with strong user suspicion only. Confirm specific meal before moving to canonical records; no invented date or cross-branch award; Butcher's Daughter booking July 2023 predates Liu's opening.",
-        "leadIdentificationCandidate": "Liu's Cafe (Koreatown)",
-        "leadConfidence": "User still strongly favors Liu's, without definitive confirmation",
+        "visitEvidenceRule": "Both Joy and Liu's are MAYBE identification leads, never confirmed attendance. No award borrowing between venues. Liu has 2026 Bib; Joy no official Michelin/JBF award verified.",
+        "leadIdentificationCandidate": "Liu's Cafe (Koreatown) OR Joy (Highland Park)",
+        "leadConfidence": "Liu initially strongly felt; Joy now also possible; neither named venue confirmed",
         "lastComparison": "Liu's Cafe vs 7 Taiwanese/Chinese candidates; no other positive photo recognition yet",
         "followUpPrompt": "Review other candidate photos before marking any additional visit. Current two active LA chapters preserved."
       },
