@@ -4641,7 +4641,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Modern seasonal tasting menus on South Mill Street.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4660,7 +4660,11 @@
         "reason": "One Michelin star (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in Aspen Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Direct negative answer; retain 2026 Michelin star as research-only venue recognition; no personal attendance inferred.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-aspen-element-47",
@@ -5585,10 +5589,10 @@
       "area": "Aspen",
       "category": "restaurants",
       "candidateNames": [
-        "Bosq"
+        "Element 47"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Bosq, the contemporary tasting-menu restaurant on South Mill Street in Aspen? Visited, Maybe, or Not visited? If yes, share approximate year or memories; exact attendance date remains unknown until confirmed."
+      "question": "Have you eaten at Element 47 in The Little Nell hotel near the base of Aspen Mountain? Visited, Maybe, or Not visited? If visited, roughly when and what do you remember?"
     },
     "pausedBatches": [
       {
