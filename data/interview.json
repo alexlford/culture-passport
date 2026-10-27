@@ -4777,7 +4777,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Japanese seafood and sushi in Vail.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4796,7 +4796,10 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitSource": "Alex explicitly answered 'Did not visit' during the Vail Culture Passport interview on October 27, 2026.",
+      "visitNote": "Negative visit confirmation as of 2026-10-27. Do not display as personal dining experience or include in award watchlist.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-vail-beaver-creek-sweet-basil",
@@ -5730,13 +5733,16 @@
       "state": "in_progress",
       "updatedOn": "2026-10-27",
       "confirmedVisits": 0,
-      "notVisited": 0,
+      "notVisited": 1,
       "maybeVisited": 1,
-      "unreviewed": 3,
+      "unreviewed": 2,
       "uncertainLeadsPreserved": [
         "Sweet Basil"
       ],
-      "note": "Sweet Basil explicitly maybe visited; do not count as confirmed. Continuing one venue at a time."
+      "explicitlyNotVisited": [
+        "Osaki's"
+      ],
+      "note": "Sweet Basil remains maybe visited; Osaki's explicitly not visited. Continue interview one venue at a time."
     }
   },
   "interviewProgress": {
@@ -5744,10 +5750,10 @@
       "area": "Vail / Beaver Creek",
       "category": "restaurants",
       "candidateNames": [
-        "Osaki's"
+        "Splendido at the Chateau"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Osaki's, a sushi/Japanese restaurant in Vail? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Splendido at the Chateau in Beaver Creek? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
