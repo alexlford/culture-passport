@@ -1538,7 +1538,7 @@
       "awardFamily": "context",
       "interviewCue": "Fine dining at the base of Steamboat resort, known for seasonal tasting-inspired menus, extensive wines and romantic dinners.",
       "sourceUrl": "https://www.cafediva.com/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -1553,7 +1553,11 @@
         "reason": "No Michelin Guide or James Beard honor established for the named venue.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Possibly visited; date and meal unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Steamboat Springs Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Unconfirmed memory lead. Do not count as attended or infer this happened on the January 2021 Sauvage trip. No qualifying Michelin/James Beard distinction established for Café Diva.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-steamboat-springs-laundry-kitchen-cocktails",
@@ -5531,10 +5535,10 @@
       "area": "Steamboat Springs",
       "category": "restaurants",
       "candidateNames": [
-        "Café Diva"
+        "Laundry Kitchen & Cocktails"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Café Diva at the base of Steamboat Ski Resort? Visited, Maybe, or Not visited? Did you go around the January 2021 visit when you ate at Sauvage?"
+      "question": "Have you eaten at Laundry Kitchen & Cocktails in Old Town Steamboat Springs, in the historic laundry building? Visited, Maybe, or Not visited? If visited, share memories or approximate date."
     },
     "pausedBatches": [
       {
