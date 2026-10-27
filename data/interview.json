@@ -5552,27 +5552,31 @@
       "awardFamily": "context",
       "interviewCue": "Farm-to-table Crested Butte eatery; distinct from Wildflower Denver.",
       "sourceUrl": "https://www.sunflowercb.com/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "visitStatus": "confirmed",
+      "researchStatus": "user_confirmed_2026_awards_screened_none_verified",
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "214 Elk Ave",
-      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "visitNote": "Confirmed personal dining visit. Year, date, companions, specific dishes, and other details still unknown. Keep separate from Wildflower in Denver. No qualifying Michelin/James Beard recognition found in screened 2026 official lists; monitor future editions.",
       "screening": {
-        "status": "not_yet_audited",
+        "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://www.sunflowercb.com/",
-        "sourceTier": "local_or_primary",
-        "verifiedAt": null,
-        "note": "Venue existence cited, not award eligibility verified."
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "Not named in the official Colorado Michelin 2026 statewide selection or 2026 James Beard Award semifinalist announcement. No assertion about other years or other awards."
       },
       "eligibility": {
-        "status": "unreviewed",
+        "status": "outside_scope",
         "basis": "context",
-        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
-        "screenedOn": null,
+        "reason": "Confirmed user visit, but no venue-specific Michelin or James Beard distinction verified as of October 2026. Track in permanent award watchlist.",
+        "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "visitPeriod": "Crested Butte visits; year not established",
+      "visitSource": "Alex directly confirmed dining at The Sunflower in the Crested Butte Culture Passport interview on 2026-10-27.",
+      "confirmedVisitId": "dining-the-sunflower-crested-butte-date-unknown",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-crested-butte-soup-on",
@@ -6144,13 +6148,19 @@
       "note": "Allred's confirmed as a memorable scenic anniversary dinner at San Sophia Station. Featured personal exception, with no award claim. Exact anniversary year unspecified. The National explicitly not visited."
     },
     "crestedButte": {
-      "state": "queued_for_venue_by_venue_interview",
+      "state": "in_progress",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 10,
-      "confirmedNamedVisits": 0,
-      "note": "Broad user-reported dining in town supports prioritizing a major city interview, NOT confirming every named restaurant. Wildflower (Denver) is already award-qualified Michelin Recommended 2026 and Michelin Young Chef 2025; The Sunflower on Elk Ave is an entirely different Crested Butte venue, visit unverified. Begin with The Sunflower to resolve whether user meant it.",
-      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/"
+      "confirmedNamedVisits": 1,
+      "note": "Alex directly confirmed The Sunflower at 214 Elk Ave. Visit date unknown. Keep award-watchlist research separate and distinguish from Wildflower (Denver). Soupçon next; do not infer individual visits from general 'almost every place' recollection.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "notVisited": 0,
+      "maybeVisited": 0,
+      "unreviewed": 9,
+      "confirmedNames": [
+        "The Sunflower"
+      ]
     }
   },
   "interviewProgress": {
@@ -6158,10 +6168,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "The Sunflower"
+        "Soupçon"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Sunflower on Elk Avenue in Crested Butte? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Soupçon, the tiny French-inspired restaurant in a historic cabin at 127 Elk Ave, Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
