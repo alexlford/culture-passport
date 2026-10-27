@@ -136,14 +136,15 @@ assert active_la["confirmedNamedVisits"] == 2
 # not a license to add a confirmed restaurant visit or borrow its Bib Gourmand.
 lius = next(c for c in candidates if c["id"] == "candidate-la-lius-cafe-ktown")
 assert lius["visitStatus"] == "maybe"
-assert lius["researchStatus"] == "user_strongly_suspects_identity_not_yet_confirmed"
+assert lius["researchStatus"] == "previous_strong_liu_lead_now_secondary_to_joy_not_confirmed"
 assert lius["eligibility"]["verifiedForPublication"] is False
 taiwanese_with_jay = next(m for m in interview_data["memoryLeads"]
     if m["id"] == "la-west-hollywood-jay-taiwanese-unidentified")
 assert taiwanese_with_jay["venueIdentityConfirmed"] is False
-assert taiwanese_with_jay["probableCandidateId"] == lius["id"]
+assert taiwanese_with_jay["probableCandidateId"] == "candidate-la-joy-highland-park"
 assert next(c for c in candidates if c["id"] == "candidate-la-joy-highland-park")["visitStatus"] == "maybe"
-assert taiwanese_with_jay["alternativeProbableCandidateId"] == "candidate-la-joy-highland-park"
+assert next(c for c in candidates if c["id"] == "candidate-la-joy-highland-park")["researchStatus"] == "user_leans_toward_joy_top_unconfirmed_identity"
+assert taiwanese_with_jay["alternativeProbableCandidateId"] == lius["id"]
 assert active_la["maybeVisited"] == 2
 assert taiwanese_with_jay["comparativeReview"]["comparisonCount"] == 8
 assert len(taiwanese_with_jay["comparativeReview"]["candidates"]) == 8
