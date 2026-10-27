@@ -1066,6 +1066,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "the-breadery-crested-butte"
+    },
+    {
+      "id": "venue-public-house-crested-butte",
+      "name": "Public House",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "202 Elk Ave, Crested Butte, CO 81224",
+      "neighborhood": "Downtown / Elk Avenue",
+      "location": {
+        "lat": 38.8697,
+        "lng": -106.9878,
+        "precision": "city-centroid"
+      },
+      "sourceId": "public-house-crested-butte"
     }
   ],
   "records": [
@@ -5418,6 +5433,61 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_no_qualifying_evidence_in_targeted_screen"
+      }
+    },
+    {
+      "id": "dining-public-house-crested-butte-date-unknown",
+      "type": "dining",
+      "title": "Public House",
+      "venueId": "venue-public-house-crested-butte",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Crested Butte dining visit; year unknown",
+        "precision": "unknown",
+        "source": "Alex directly confirmed dining at Public House in the October 27, 2026 Culture Passport Crested Butte interview. No exact visit date established.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed restaurant meal at Public House at 202 Elk Avenue, Crested Butte, a restored historic saloon that is also the Irwin Brewing Company taproom and a live-music venue. The dining date, dishes and companions are not known.",
+      "memory": {
+        "headline": "A meal at Public House on Elk Avenue",
+        "teaser": "A restaurant memory in Crested Butte's restored saloon, with its pub and music-room atmosphere.",
+        "story": "I ate at Public House on Elk Avenue in Crested Butte, in the restored saloon that also serves as Irwin Brewing's taproom and a live music destination. I haven't established the exact trip, company or meal yet. Having eaten there is confirmed, but that doesn't tell us whether I attended a show in the downstairs venue.",
+        "period": "Crested Butte visit; year unknown",
+        "source": "Confirmed personal dining visit from Alex on October 27, 2026; architectural and commercial context from official Public House website. Music attendance and personal food/drink choices not inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_date",
+        "sourceUrl": "https://guide.michelin.com/us/en/colorado/restaurants",
+        "note": "No named 2026 Michelin Colorado selection or other venue-specific Guide distinction verified in limited source audit. Do not infer status for undated visit."
+      },
+      "sourceUrl": "https://publichousecb.com/pub/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed Public House dining, no directly verified Michelin/JBF formal recognition or named official editorial/program link. Beer awards for co-located Irwin Brewing are not eligible Michelin/JBF distinctions. Keep in permanent private watchlist."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Name-matched official Michelin/JBF recognition and program searches found no positive venue-specific qualifying evidence as of October 27, 2026; this is not an exhaustive historical negative.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/restaurants",
+          "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "https://publichousecb.com/pub/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_no_direct_michelin_jbf_evidence_in_targeted_screen"
       }
     }
   ],
