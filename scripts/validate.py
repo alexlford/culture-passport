@@ -293,6 +293,20 @@ assert len([r for r in evidence["rows"] if r["name"] == "Sauvage"]) == 2
 assert len([r for r in evidence["rows"] if r["name"] == "Michelob Ultra Mountain House"]) == 3
 assert not any(r["title"] in {"Michelob Ultra Mountain House", "The Butcher's Daughter - West Hollywood", "Willow Creek Restaurant", "Q39 South"} for r in records)
 
+# The 2023 West Hollywood Resy booking was explicitly confirmed as a restaurant
+# visit in the October 27, 2026 LA interview, NOT as an exact attended date.
+butchers = next(r for r in records if r["id"] == "dining-butchers-daughter-los-angeles-date-unknown")
+assert butchers["status"] == "confirmed" and butchers["type"] == "dining"
+assert butchers["title"] == "The Butcher's Daughter"
+assert butchers["visit"]["date"] is None and butchers["visit"]["precision"] == "unknown"
+assert butchers["reservations"][0]["date"] == "2023-07-29"
+assert butchers["reservations"][0]["partySize"] == 3
+assert butchers["editorial"]["awardQualified"] is False
+assert butchers["venueId"] == "venue-butchers-daughter-west-hollywood"
+assert "provisional" in butchers["visit"]["attendanceCertainty"]
+assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngeles"]["confirmedNames"]
+
+
 
 # Venue-level audit: do not inflate stats with repeat visits or unverified awards.
 aud = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))
