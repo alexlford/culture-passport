@@ -4283,7 +4283,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Boulder butcher-driven restaurant by chef Hosea Rosenberg.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4302,7 +4302,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Boulder Culture Passport restaurant interview on 2026-10-27.",
+      "visitNote": "Negative answer about attendance; preserve Michelin Guide recognition solely as candidate research, never count as a personally visited restaurant.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-boulder-boulder-dushanbe-tea-house",
@@ -5484,10 +5488,10 @@
       "area": "Boulder",
       "category": "restaurants",
       "candidateNames": [
-        "Blackbelly Market & Restaurant"
+        "Boulder Dushanbe Tea House"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Blackbelly Market & Restaurant, 1606 Conestoga Street in Boulder? Visited, Maybe, or Not visited? If yes, when approximately and any memories?"
+      "question": "Have you eaten or had tea at the Boulder Dushanbe Tea House near Boulder Creek on 13th Street? Visited, Maybe, or Not visited? If yes, approximate year and memories welcome."
     },
     "pausedBatches": [
       {
