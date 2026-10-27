@@ -4521,7 +4521,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Boulder noodle and dumpling spot on Pearl Street.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4540,7 +4540,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' during the Boulder Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Negative for either Boulder location (original 10th Street or newer Pearl Street); retain Michelin selection as research context, not a personal experience.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-breckenridge-radicato",
@@ -5505,17 +5509,32 @@
         "Williams & Graham"
       ],
       "note": "Finished first-pass Denver screening. Uncertain visits remain unconfirmed; additional places and memories may be added in future rounds."
+    },
+    "boulder": {
+      "state": "initial_candidate_screening_complete",
+      "updatedOn": "2026-10-27",
+      "scope": "12 Boulder restaurant candidates",
+      "confirmedVisits": 1,
+      "notVisited": 8,
+      "maybeVisited": 3,
+      "unreviewed": 0,
+      "uncertainLeadsPreserved": [
+        "Basta",
+        "Oak at Fourteenth",
+        "Santo"
+      ],
+      "note": "Boulder screening closed. Do not count tentative venue memories as actual visits. Additional experiences may be added later."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Boulder",
+      "area": "Steamboat Springs",
       "category": "restaurants",
       "candidateNames": [
-        "Zoe Ma Ma"
+        "Café Diva"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Zoe Ma Ma on Pearl Street, Boulder? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Café Diva at the base of Steamboat Ski Resort? Visited, Maybe, or Not visited? Did you go around the January 2021 visit when you ate at Sauvage?"
     },
     "pausedBatches": [
       {
