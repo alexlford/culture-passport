@@ -19,7 +19,8 @@
     "Boston": "Period not yet established; user remembers visits in Boston, Massachusetts.",
     "Cape Cod": "Period not yet established; user remembers a great fish/seafood restaurant in Boston or on Cape Cod.",
     "Cambridge, UK": "Cambridge, England — visits mentioned; years and restaurants to be reconstructed.",
-    "Los Angeles / West Hollywood": "Confirmed République meal October 24, 2026. Other trips with friend Jay near/around West Hollywood; dates and venue names not yet established. An unidentified Taiwanese meal is explicitly remembered, but no precise venue is confirmed."
+    "Los Angeles / West Hollywood": "Confirmed République meal October 24, 2026. Other trips with friend Jay near/around West Hollywood; dates and venue names not yet established. An unidentified Taiwanese meal is explicitly remembered, but no precise venue is confirmed.",
+    "South Bay / Space Park": "Visits to restaurants near Northrop Grumman's Space Park campus, 1 Space Park Blvd, Redondo Beach, CA. Exact periods are unknown. Candidate geography: Redondo/Manhattan/Hermosa/Torrance/Gardena, with Palos Verdes as extended scope."
   },
   "statuses": [
     "unreviewed",
@@ -6595,6 +6596,270 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-space-park-manhattan-beach-post",
+      "name": "Manhattan Beach Post",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/manhattan-beach/restaurant/manhattan-beach-post",
+      "addressHint": "1142 Manhattan Avenue, Manhattan Beach, CA 90266",
+      "interviewCue": "Buzzing former post-office restaurant, large warm room and communal tables; bacon-cheddar biscuits, small plates and cocktails. Open since 2011. A strong candidate for dinners with NG coworkers.",
+      "recognition": "Current Michelin Guide restaurant listing (Selected; NOT Michelin Star); chef David LeFevre's James Beard archive has historical semifinalist entries but these are not assigned to this restaurant without year-specific verification.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/manhattan-beach/restaurant/manhattan-beach-post",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide restaurant listing (Selected; NOT Michelin Star); chef David LeFevre's James Beard archive has historical semifinalist entries but these are not assigned to this restaurant without year-specific verification."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Manhattan Beach",
+      "openedYear": 2011
+    },
+    {
+      "id": "candidate-space-park-fishing-with-dynamite",
+      "name": "Fishing with Dynamite",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/manhattan-beach/restaurant/fishing-with-dynamite",
+      "addressHint": "1148 Manhattan Avenue, Manhattan Beach, CA 90266",
+      "interviewCue": "Tiny bright coastal oyster/raw bar with white plank walls, striped tiles, blue accents and shellfish towers; two doors from M.B. Post. Opened April 2013.",
+      "recognition": "Current Michelin Guide listing (Selected); not a Michelin Star. Chef David LeFevre's unrelated historical chef accolades are not imputed to the venue.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/manhattan-beach/restaurant/fishing-with-dynamite",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide listing (Selected); not a Michelin Star. Chef David LeFevre's unrelated historical chef accolades are not imputed to the venue."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Manhattan Beach",
+      "openedYear": 2013
+    },
+    {
+      "id": "candidate-space-park-ryla",
+      "name": "RYLA",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/hermosa-beach/restaurant/ryla",
+      "addressHint": "1220 Hermosa Avenue, Hermosa Beach, CA 90254",
+      "interviewCue": "Modern Japanese/Asian-Californian dining room and lively cocktail bar; ramen, sushi and Hokkaido milk bread. Opened 2022, so not a candidate for earlier Space Park trips.",
+      "recognition": "Current Michelin Guide Selected restaurant; no Star claimed. Chef Ray Hayashi and Cynthia Hetlinger.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/hermosa-beach/restaurant/ryla",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide Selected restaurant; no Star claimed. Chef Ray Hayashi and Cynthia Hetlinger."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Hermosa Beach",
+      "openedYear": 2022
+    },
+    {
+      "id": "candidate-space-park-sushi-inaba-torrance",
+      "name": "Sushi Inaba (Torrance)",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/torrance/restaurant/sushi-i-naba",
+      "addressHint": "20918 Hawthorne Boulevard, Torrance, CA 90503",
+      "interviewCue": "Very intimate chef's omakase counter, concealed within sister restaurant I-naba in a commercial plaza. The current address is Torrance; the older operation was in Manhattan Beach.",
+      "recognition": "One Michelin Star in 2026 at Torrance location; historical earlier Manhattan Beach Sushi Inaba operation is a distinct location era. Do not infer same award status at prior address or meal year.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "secondary",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/torrance/restaurant/sushi-i-naba",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. One Michelin Star in 2026 at Torrance location; historical earlier Manhattan Beach Sushi Inaba operation is a distinct location era. Do not infer same award status at prior address or meal year."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Torrance",
+      "openedYear": null
+    },
+    {
+      "id": "candidate-space-park-vin-folk",
+      "name": "Vin Folk",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/hermosa-beach/restaurant/vin-folk",
+      "addressHint": "1501 Hermosa Avenue, Hermosa Beach, CA 90254",
+      "interviewCue": "Small warmly lit contemporary Californian chef-led bistro, open kitchen, tasting menu and veranda; opened 2025, so only possible for recent visits.",
+      "recognition": "Current Michelin Guide Selected restaurant, not a Star; new Hermosa Beach restaurant covered in 2025 LA Times review. Do not propose as an actual place visited on earlier trips.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/hermosa-beach/restaurant/vin-folk",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide Selected restaurant, not a Star; new Hermosa Beach restaurant covered in 2025 LA Times review. Do not propose as an actual place visited on earlier trips."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Hermosa Beach",
+      "openedYear": 2025
+    },
+    {
+      "id": "candidate-space-park-sushi-sonagi",
+      "name": "Sushi Sonagi",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sushi-sonagi",
+      "addressHint": "1425 W Artesia Boulevard, Unit 27, Gardena, CA 90248",
+      "interviewCue": "Unassuming shopping-center entrance leading to an eight-seat omakase counter; Korean-influenced sushi by chef Daniel Son. Not open before July 2023.",
+      "recognition": "Current Michelin Guide Selected restaurant, not a Star. Opened in July 2023 according to LA Times.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "secondary",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sushi-sonagi",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide Selected restaurant, not a Star. Opened in July 2023 according to LA Times."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Gardena",
+      "openedYear": 2023
+    },
+    {
+      "id": "candidate-space-park-sweet-rice",
+      "name": "Sweet Rice",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sweet-rice",
+      "addressHint": "1630 W Redondo Beach Boulevard, Gardena, CA 90247",
+      "interviewCue": "Casual colorful Thai eatery in Pacific Square, paper lanterns, jok/congee, noodle soups, mango sticky rice. Possible lunch stop, not necessarily a special dinner.",
+      "recognition": "Current Michelin Guide restaurant listing (Selected); casual Thai breakfast, noodle and dessert venue. No Star attributed.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "secondary",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sweet-rice",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide restaurant listing (Selected); casual Thai breakfast, noodle and dessert venue. No Star attributed."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Gardena",
+      "openedYear": null
+    },
+    {
+      "id": "candidate-space-park-marsel",
+      "name": "Mar'sel",
+      "area": "South Bay / Space Park",
+      "sourceUrl": "https://guide.michelin.com/en/california/rancho-palos-verdes/restaurant/mar-sel",
+      "addressHint": "100 Terranea Way, Rancho Palos Verdes, CA 90275",
+      "interviewCue": "Terranea resort fine dining overlooking Pacific Ocean, large sunset windows, elegant fireplace, fireplace and sweeping coastal cliffs. Check special-occasion dinners or business entertaining.",
+      "recognition": "Current Michelin Guide Selected; no Star claimed. Outlying Palos Verdes Peninsula resort location, less likely a quick Space Park work lunch.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "addedOn": "2026-10-27",
+      "priority": "secondary",
+      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/en/california/rancho-palos-verdes/restaurant/mar-sel",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide Selected; no Star claimed. Outlying Palos Verdes Peninsula resort location, less likely a quick Space Park work lunch."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_listing",
+        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "venueCity": "Rancho Palos Verdes",
+      "openedYear": null
     }
   ],
   "source": {
@@ -6832,6 +7097,95 @@
         }
       ],
       "nextQuestion": "Which interior resembles your Taiwanese meal with Jay: Pine & Crane's pale wood and communal tables, Liu's Cafe's vintage posters and long wood table (only if September 2023 or later), Din Tai Fung's glass dumpling kitchen, Little Fatty's bright mural/bar, Joy's red-patterned banquette, Kato's tasting-menu room, or Formosa's preserved red trolley? If unsure, recall a dish or neighborhood."
+    },
+    {
+      "id": "redondo-space-park-dining-unidentified",
+      "category": "dining",
+      "name": "Several restaurant meals near Northrop Grumman Space Park in the Los Angeles South Bay",
+      "status": "confirmed_general_dining_memory_venues_unidentified",
+      "venueIdentityConfirmed": false,
+      "visitDate": null,
+      "visitPeriod": null,
+      "possibleRegions": [
+        "Redondo Beach",
+        "Manhattan Beach",
+        "Hermosa Beach",
+        "Torrance",
+        "Gardena",
+        "El Segundo",
+        "Rancho Palos Verdes"
+      ],
+      "source": "User directly stated October 27, 2026 that he has eaten at many restaurants around the Northrop Grumman Space Park campus in LA.",
+      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation.",
+      "publishAsExperience": false,
+      "visitStatus": "unidentified",
+      "identificationCandidates": [
+        {
+          "candidateId": "candidate-space-park-manhattan-beach-post",
+          "name": "Manhattan Beach Post",
+          "city": "Manhattan Beach",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": 2011
+        },
+        {
+          "candidateId": "candidate-space-park-fishing-with-dynamite",
+          "name": "Fishing with Dynamite",
+          "city": "Manhattan Beach",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": 2013
+        },
+        {
+          "candidateId": "candidate-space-park-ryla",
+          "name": "RYLA",
+          "city": "Hermosa Beach",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": 2022
+        },
+        {
+          "candidateId": "candidate-space-park-sushi-inaba-torrance",
+          "name": "Sushi Inaba (Torrance)",
+          "city": "Torrance",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": null
+        },
+        {
+          "candidateId": "candidate-space-park-vin-folk",
+          "name": "Vin Folk",
+          "city": "Hermosa Beach",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": 2025
+        },
+        {
+          "candidateId": "candidate-space-park-sushi-sonagi",
+          "name": "Sushi Sonagi",
+          "city": "Gardena",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": 2023
+        },
+        {
+          "candidateId": "candidate-space-park-sweet-rice",
+          "name": "Sweet Rice",
+          "city": "Gardena",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": null
+        },
+        {
+          "candidateId": "candidate-space-park-marsel",
+          "name": "Mar'sel",
+          "city": "Rancho Palos Verdes",
+          "status": "unreviewed",
+          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
+          "openingYear": null
+        }
+      ],
+      "nextQuestion": "Which of these named Michelin-listed South Bay restaurants did you actually eat at? Start with M.B. Post, Fishing with Dynamite, RYLA, and Sushi Inaba. You can confirm several at once or mark maybe/no."
     }
   ],
   "interviewChapters": {
@@ -7028,23 +7382,45 @@
       "unreviewed": 12,
       "confirmedNamedRecordsRemainUnchanged": true,
       "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date."
+    },
+    "spaceParkSouthBay": {
+      "state": "first_visual_batch_awaiting_response",
+      "updatedOn": "2026-10-27",
+      "area": "South Bay / Space Park",
+      "anchor": "Northrop Grumman Space Park, 1 Space Park Blvd, Redondo Beach",
+      "establishedPeriod": null,
+      "userMemory": "I’ve also went to a lot of restaurants around the NG Space Park campus in LA.",
+      "namedConfirmedVisits": 0,
+      "possibleVisitCandidates": 8,
+      "confirmedNames": [],
+      "firstBatch": [
+        "Manhattan Beach Post",
+        "Fishing with Dynamite",
+        "RYLA",
+        "Sushi Inaba (Torrance)"
+      ],
+      "secondaryBatch": [
+        "Vin Folk",
+        "Sushi Sonagi",
+        "Sweet Rice",
+        "Mar'sel"
+      ],
+      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Los Angeles / West Hollywood",
+      "area": "South Bay / Space Park",
       "category": "restaurants",
       "candidateNames": [
-        "Pine & Crane (Silver Lake)",
-        "Liu's Cafe (Koreatown)",
-        "Din Tai Fung (Century City)",
-        "Little Fatty (Mar Vista)",
-        "Joy (Highland Park)",
-        "Kato"
+        "Manhattan Beach Post",
+        "Fishing with Dynamite",
+        "RYLA",
+        "Sushi Inaba (Torrance)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Which Taiwanese restaurant looks familiar from your visit with Jay? All names are identification candidates, not confirmations.",
-      "note": "The Formosa Cafe is a separate Chinese-American red-trolley alternative exactly in West Hollywood, not specifically Taiwanese. Reserve as geographic outlier rather than a high-confidence Taiwanese identity."
+      "question": "Which of these four Michelin-recognized South Bay restaurants did you eat at during your Space Park visits? Confirmed, maybe, or not visited; multiple answers welcome.",
+      "continuation": "After first four, proceed to other qualified South Bay locations and preserve exact restaurant/address distinction."
     },
     "pausedBatches": [
       {
@@ -7126,6 +7502,21 @@
           "Rye (Plaza)"
         ],
         "reason": "User opted to finish potential cities beginning with Los Angeles; preserve existing unreviewed Kansas City candidates and tentative negative answers."
+      },
+      {
+        "area": "Los Angeles / West Hollywood",
+        "category": "restaurants",
+        "status": "paused_for_space_park_chapter",
+        "pausedOn": "2026-10-27",
+        "candidateNames": [
+          "Pine & Crane (Silver Lake)",
+          "Liu's Cafe (Koreatown)",
+          "Din Tai Fung (Century City)",
+          "Little Fatty (Mar Vista)",
+          "Joy (Highland Park)",
+          "Kato"
+        ],
+        "reason": "User requested focusing on qualifying restaurants near Northrop Grumman Space Park in South Bay, separately from the Taiwanese restaurant with Jay. Preserve unresolved Taiwanese identity and previously confirmed République / Butcher's Daughter."
       }
     ],
     "interviewMode": "one_venue_at_a_time",
