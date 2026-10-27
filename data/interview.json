@@ -6479,12 +6479,12 @@
       "note": "Allred's confirmed as a memorable scenic anniversary dinner at San Sophia Station. Featured personal exception, with no award claim. Exact anniversary year unspecified. The National explicitly not visited."
     },
     "crestedButte": {
-      "state": "second_round_in_progress",
+      "state": "paused_at_user_request",
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 17,
       "confirmedNamedVisits": 6,
-      "note": "First 10 CB candidates answered; expanded: Bonez maybe, Two Twelve confirmed, Izakaya Cabin maybe, Marchitelli's/The Gourmet Noodle maybe, The Last Steep maybe, McGill's maybe. Next Paradise Cafe (435 6th St), distinct from resort Paradise Warming House. No additional confirmed meal inferred; six direct confirmations preserved.",
+      "note": "Crested Butte interview paused October 27, 2026 at the user's direct request to move past the town and make website progress. Six confirmed, ten maybe, Paradise Cafe unreviewed. Keep historic successor-venue distinctions and do not count maybe answers as visits.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 10,
@@ -6530,13 +6530,20 @@
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Crested Butte",
+      "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Paradise Cafe"
+        "The Restaurant at 1900",
+        "Room 39",
+        "Affäre",
+        "Chewology",
+        "Yoli Tortilleria",
+        "Rye (Plaza)"
       ],
-      "status": "awaiting_user_response",
-      "question": "Have you eaten at Paradise Cafe, the breakfast-and-lunch café at 435 6th Street in Crested Butte (green-and-yellow rooster sign)? Visited, Maybe, or Not visited?"
+      "status": "ready_for_visual_screening",
+      "question": "When returning to interviews, review historic Kansas City photographs for these six unanswered candidates. Preserve tentative negatives from the other eight KC venues; do not re-ask already confirmed visits.",
+      "reason": "User requested moving beyond Crested Butte; next chapter prioritizes the broader Culture Passport collection and familiar Kansas City restaurant memories.",
+      "resumeAfter": "editorial_site_build"
     },
     "pausedBatches": [
       {
@@ -6590,6 +6597,18 @@
         "status": "paused_for_denver_interview",
         "question": "Do you recognize any of these six Kansas City places from interior or food photographs? Only name ones you have been to.",
         "reason": "User chose to switch to Denver restaurant interview on 2026-10-25; no answers inferred",
+        "resumeOnlyOnUserRequest": true
+      },
+      {
+        "area": "Crested Butte",
+        "category": "restaurants",
+        "status": "paused_at_user_request",
+        "pausedOn": "2026-10-27",
+        "confirmedNamedVisits": 6,
+        "maybeVisited": 10,
+        "notVisited": 0,
+        "nextUnansweredCandidate": "Paradise Cafe",
+        "reason": "User explicitly requested to move past Crested Butte and make tangible website/cross-city progress. Preserve the 6 direct confirmations and 10 possible visits; Paradise Cafe was proposed but never answered.",
         "resumeOnlyOnUserRequest": true
       }
     ],
