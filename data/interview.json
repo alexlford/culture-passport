@@ -4385,7 +4385,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Spanish restaurant on Pearl Street, added to Michelin in 2026.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4404,7 +4404,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Did not visit as of October 27, 2026",
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Boulder Culture Passport interview on October 27, 2026.",
+      "visitNote": "Direct negative response; 2026 Michelin Selected/Recommended status remains venue research context only; no personal attendance should be inferred.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-boulder-oak-at-fourteenth",
@@ -5496,10 +5500,10 @@
       "area": "Boulder",
       "category": "restaurants",
       "candidateNames": [
-        "Casa Juani"
+        "Oak at Fourteenth"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Casa Juani in Boulder? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Oak at Fourteenth, 1400 Pearl Street in Boulder? Visited, Maybe, or Not visited? If yes, approximately when or what do you remember?"
     },
     "pausedBatches": [
       {
