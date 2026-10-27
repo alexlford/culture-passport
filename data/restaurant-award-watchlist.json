@@ -299,7 +299,7 @@
       "region": null,
       "experienceIds": [],
       "visitPeriods": [
-        "Kansas City years"
+        "Kansas City-area visits, years unspecified; Overland Park location visited many times"
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
@@ -308,7 +308,7 @@
       "evidenceRefs": [
         "data/dining-awards-audit.json"
       ],
-      "sourceNotes": "User-confirmed visit to Jack Stack Barbecue; branch not independently confirmed in this watchlist. A 2012 official JBF Beard House dinner involved Jack Stack's Overland Park chef team. This is a restaurant-group association, not a Michelin/JBF award or verified event at the user's visited location.",
+      "sourceNotes": "User confirmed multiple Jack Stack branches and repeated visits to Overland Park. Other branch identities remain unknown. An official 2012 Beard House dinner identified chefs from the Overland Park branch; record the exact-location visit separately instead of attributing this history to unidentified branches.",
       "reviewHistory": [
         {
           "date": "2026-10-27",
@@ -320,6 +320,15 @@
           "result": "foundation_brand_connection_found",
           "note": "Official James Beard House event identifies a Jack Stack team from Overland Park. Retain as secondary brand context only; do not promote the unverified visited branch to a venue-level distinction.",
           "evidenceUrls": [
+            "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "overland_park_branch_attendance_confirmed",
+          "note": "The user specifically confirmed many Overland Park visits, allowing a separate exact-branch record. The other Jack Stack locations remain unidentified.",
+          "evidenceUrls": [
+            "https://www.jackstackbbq.com/locations/overland-park",
             "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
           ]
         }
@@ -336,7 +345,7 @@
           "description": "Jack Stack culinary team served a James Beard House dinner in 2012; official Foundation program specifies the Overland Park location, not a confirmed exact branch from the user's visit."
         }
       ],
-      "officialFeatureStatus": "brand_context_only"
+      "officialFeatureStatus": "brand_context_plus_confirmed_specific_branch"
     },
     {
       "id": "watch-joes-kansas-city-bar-b-que-kansas-city",
@@ -600,6 +609,51 @@
             "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
             "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
             "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+          ]
+        }
+      ],
+      "recognitionEvents": []
+    },
+    {
+      "id": "venue-jack-stack-barbecue-overland-park",
+      "venueId": "venue-jack-stack-barbecue-overland-park",
+      "venueName": "Jack Stack Barbecue (Overland Park)",
+      "city": "Overland Park",
+      "region": "Kansas",
+      "experienceIds": [
+        "dining-jack-stack-overland-park-multiple-visits"
+      ],
+      "visitPeriods": [
+        "Many separate visits, years unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "officialFeatureStatus": "named_venue_chef_team_program",
+      "officialConnections": [
+        {
+          "organization": "James Beard Foundation",
+          "connectionType": "beard_house_guest_chefs",
+          "year": 2012,
+          "sourceUrl": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner",
+          "venueScope": "named_visited_branch_chef_team_offsite_event",
+          "awardClaim": false,
+          "description": "Todd Hulse, Tim Keegan and Jeff Rousselo named as Jack Stack Barbecue Overland Park chefs at the JBF Beard House Sizzling Summer Barbecue, held in New York on July 26, 2012."
+        }
+      ],
+      "sourceNotes": "Multiple confirmed personal visits to 9520 Metcalf Ave. Chefs affiliated with this exact branch were featured in official JBF Beard House dinner (New York, 2012). No Michelin or JBF Award status established; maintain quarterly award screening and preserve the distinction from a Foundation program event.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "no_qualifying_award_verified",
+          "note": "Exact-branch 2012 James Beard Foundation Beard House chef event established, not a prize, nomination or award. Other awards remain subject to periodic audit.",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
           ]
         }
       ],
