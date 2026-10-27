@@ -5758,13 +5758,13 @@
       "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "interviewCue": "Special-occasion local dining.",
-      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "interviewCue": "Sourdough-focused restaurant and bakehouse at 209 Elk Ave since April 2021: tall navy-blue interior wall, vintage wooden bar with string bulbs, large front windows; house-made sourdough pizza, bread and pasta. Earlier Sunflower Bakery & Brunch operated at the Sunflower Communal Kitchen in 2018, then Sixth Street 2019; avoid confusing a Sunflower dining memory with this 2021 Elk Ave restaurant.",
+      "sourceUrl": "https://www.breaderycb.com/about-us",
       "visitStatus": "unreviewed",
       "researchStatus": "candidate_for_future_user_interview_award_audit",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "addressHint": "Crested Butte",
+      "addressHint": "209 Elk Ave, Crested Butte, CO",
       "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
       "screening": {
         "status": "not_yet_audited",
@@ -5780,7 +5780,8 @@
         "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
         "screenedOn": null,
         "verifiedForPublication": false
-      }
+      },
+      "historicalLocationNote": "Breadery's early bakery roots date to Sunflower Communal Kitchen in 2018, then Off Elk Bakery on Sixth Street in 2019. The full-service restaurant opened at 209 Elk Ave in April 2021. A pre-2021 recollection must be disambiguated; do not count as the current dining venue without confirmation."
     },
     {
       "id": "candidate-crested-butte-public-house",
