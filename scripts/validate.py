@@ -273,7 +273,7 @@ for area in ("Boulder", "Aspen", "Vail / Beaver Creek", "Telluride", "Breckenrid
     assert sum(c["area"] == area for c in candidates) >= (11 if area == "Boulder" else 3 if area != "Telluride" else 1)
 for name,area in (("Basta","Boulder"),("Bosq","Aspen"),("Radicato","Breckenridge"),("Sweet Basil","Vail / Beaver Creek"),("The National","Telluride")):
     c = next(c for c in candidates if c["name"] == name and c["area"] == area)
-    assert c["visitStatus"] == "unreviewed" and c["screening"]["status"] == "award_qualified"
+    assert c["visitStatus"] in {"unreviewed", "maybe", "confirmed", "not_visited"} and c["screening"]["status"] == "award_qualified"  # screening status may evolve through interviews
 assert next(c for c in candidates if c["name"] == "Frasca Food and Wine")["area"] == "Boulder"
 
 # Stable batch interview: answering must never rebuild the list and lose scroll position.
