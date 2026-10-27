@@ -991,6 +991,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "acquolina-trattoria-aspen"
+    },
+    {
+      "id": "venue-allreds-restaurant-telluride",
+      "name": "Allred's Restaurant",
+      "city": "Telluride",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "San Sophia Station, Telluride, CO 81435",
+      "neighborhood": "Gondola midstation / San Sophia Station",
+      "location": {
+        "lat": 37.9375,
+        "lng": -107.8123,
+        "precision": "city-centroid"
+      },
+      "sourceId": "allreds-restaurant-telluride"
     }
   ],
   "records": [
@@ -4986,6 +5001,60 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_no_eligible_award_found"
+      }
+    },
+    {
+      "id": "dining-allreds-telluride-date-unknown",
+      "type": "dining",
+      "title": "Allred's Restaurant",
+      "venueId": "venue-allreds-restaurant-telluride",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Anniversary dinner · Telluride, year unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation October 27, 2026: Allred's is the restaurant where he ate by the Telluride gondola; later identified as a memorable anniversary dinner.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_anniversary_date_unknown"
+      },
+      "summary": "A scenic, memorable anniversary dinner at Allred's, accessed by gondola at Telluride's San Sophia Station, around 10,551 feet elevation. Personally featured for the setting and occasion regardless of restaurant-award status.",
+      "memory": {
+        "headline": "An anniversary above Telluride",
+        "teaser": "A memorable anniversary dinner high above Telluride, where the mountains and gondola-top setting were part of the occasion.",
+        "story": "I remember an anniversary dinner at Allred's, the restaurant perched above Telluride at the San Sophia gondola station. What stayed with me was the scenery and how remarkable it felt to celebrate an anniversary at that mountain setting. I have not yet pinned down the year, company by name, or dishes, but the anniversary and the views are reason enough to keep this evening in the Culture Passport.",
+        "period": "Telluride anniversary; year unknown",
+        "source": "Personal memory confirmed by Alex on October 27, 2026. Elevation and venue location from Allred's official website. Exact dining details not inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No directly qualifying Michelin or James Beard restaurant recognition established; independently record wine-program honors if needed, without treating those as Michelin/James Beard awards."
+      },
+      "sourceUrl": "https://allredstelluride.com/visit/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": true,
+        "exceptionPriority": "permanent",
+        "collection": "featured_personal_dining",
+        "basis": null,
+        "note": "User explicitly requested a special featured exemption for this scenic, memorable anniversary dinner. Inclusion is personal, not based on Michelin or James Beard recognition."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Featured personal-exception restaurant: memorable anniversary dinner and exceptional setting, no qualifying Michelin/James Beard recognition verified.",
+        "evidenceUrls": [
+          "https://allredstelluride.com/visit/",
+          "https://tellurideskiresort.com/dine/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_anniversary_dinner_no_qualifying_award_claim"
       }
     }
   ],
