@@ -7170,7 +7170,7 @@
         "ROW DTLA"
       ],
       "source": "Direct user recollection October 27, 2026",
-      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. No evidence links the 2023-07-29 Butcher's Daughter reservation to this meal; that booking predates Liu's opening. West Hollywood and South Bay research both remain active.",
+      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. No evidence links the 2023-07-29 Butcher's Daughter reservation to this meal; that booking predates Liu's opening. West Hollywood and South Bay research both remain active. After user's continued strong preference for Liu's, researched all seven previously logged alternative candidates using current operator photos, dated opening announcements and Michelin 2026 California data. All alternative attendance statuses remain unreviewed; no false negative votes or named confirmed meals entered. See comparativeReview.",
       "publishAsExperience": false,
       "visitStatus": "unidentified_probable_venue",
       "confirmedVisitId": null,
@@ -7228,7 +7228,7 @@
       "nextQuestion": "Does the Liu's Cafe dining room with long wood table, vintage poster wall and brass lamps look familiar, and would your visit with Jay have been after August 31, 2023? The exact year or food ordered would be enough to narrow the evidence.",
       "probableCandidateId": "candidate-la-lius-cafe-ktown",
       "identificationConfidence": "user_strong_feeling_not_definitive_confirmation",
-      "lastInterviewResponse": "I have a strong feeling it is Liu's Cafe.",
+      "lastInterviewResponse": "I have a strong feeling it is Liu's Cafe; please look through all other potential candidates, but I really think this is the one.",
       "updatedOn": "2026-10-27",
       "temporalConstraint": {
         "earliestPossibleVisit": "2023-08-31",
@@ -7251,7 +7251,167 @@
           "role": "2023_original_restaurant_coverage",
           "url": "https://la.eater.com/2023/9/26/23889744/lius-cafe-koreatown-hong-kong-taiwanese-opening"
         }
-      ]
+      ],
+      "comparativeReview": {
+        "reviewedOn": "2026-10-27",
+        "purpose": "Check all seven other private Taiwanese/Chinese restaurant identification leads against the user-favored Liu's Cafe; venue attendance remains unconfirmed for every alternative.",
+        "outcome": "Liu's Cafe retained as dominant user-favored lead without asserting confirmed named visit. Its August 31 2023 opening is the main chronological gate; geography West Hollywood described loosely by user and cannot rule in/out other LA neighborhoods.",
+        "confidence": "strong_user_feeling_not_confirmed",
+        "comparisonCount": 8,
+        "candidates": [
+          {
+            "id": "candidate-la-lius-cafe-ktown",
+            "match": "user's leading strong recollection",
+            "location": "Koreatown",
+            "open": "2023-08-31",
+            "recognition": "Michelin Bib Gourmand in 2026; brand also claims 2024 and 2025",
+            "distinct": "Compact, light Taiwanese/Hong Kong cafe; long dark-wood communal tables, bentwood chairs, green-tiled water station, vintage poster wall; pastries in display case; order at counter",
+            "dishes": [
+              "Chiayi chicken rice",
+              "braised pork belly rice",
+              "chili-oil wontons",
+              "egg tarts",
+              "pineapple buns",
+              "Hong Kong milk tea"
+            ],
+            "sources": [
+              "https://visitkoreatown.org/lius-cafe/",
+              "https://la.eater.com/2023/9/26/23889744/lius-cafe-koreatown-hong-kong-taiwanese-opening",
+              "https://www.theinfatuation.com/los-angeles/reviews/lius-cafe-koreatown",
+              "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026"
+            ]
+          },
+          {
+            "id": "candidate-la-pine-crane-silver-lake",
+            "match": "plausible casual Taiwanese counter-service alternative, but not user-preferred",
+            "location": "Silver Lake",
+            "open": "before 2018",
+            "recognition": "2026 Michelin Bib Gourmand at original Silver Lake address ONLY",
+            "distinct": "Large pale-wood communal tables and benches, concrete walls, black pendant lamps, light casual counter service",
+            "dishes": [
+              "Dan Dan noodles",
+              "beef roll",
+              "smashed cucumber",
+              "three-cup chicken"
+            ],
+            "sources": [
+              "https://www.pineandcrane.com/silverlake",
+              "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
+              "https://www.timeout.com/los-angeles/restaurants/pine-crane"
+            ]
+          },
+          {
+            "id": "candidate-la-pine-crane-dtla",
+            "match": "plausible casual Taiwanese alternative; Downtown rather than West Hollywood",
+            "location": "South Park, Downtown LA",
+            "open": "exact opening unverified",
+            "recognition": "No separate Bib Gourmand status verified for DTLA; Silver Lake listing must not be transferred",
+            "distinct": "Tall windows with green outdoor patio; oversized tan pendant shades, communal picnic-style wooden tables; breakfast menu",
+            "dishes": [
+              "Fan tuan breakfast rice roll",
+              "Dan Dan noodles",
+              "beef noodle soup",
+              "shaved ice"
+            ],
+            "sources": [
+              "https://www.pineandcrane.com/dtla"
+            ]
+          },
+          {
+            "id": "candidate-la-joy-highland-park",
+            "match": "possible but geographically farther east",
+            "location": "Highland Park",
+            "open": "2018-03-06",
+            "recognition": "No venue-specific Michelin/JBF recognition positively verified; do not borrow Pine & Crane awards",
+            "distinct": "Exposed brick, warm woven lamps, long RED floral-upholstered bench and wood tables",
+            "dishes": [
+              "thousand-layer pancakes",
+              "clamshell buns",
+              "minced pork rice",
+              "Hakka mochi"
+            ],
+            "sources": [
+              "https://www.joyonyork.com/",
+              "https://www.theoccidentalnews.com/community/2018/03/26/taiwanese-restaurant-joy-opens-york-boulevard/2892361"
+            ]
+          },
+          {
+            "id": "candidate-la-little-fatty-mar-vista",
+            "match": "possible if memorable bar/cocktails; Westside not West Hollywood",
+            "location": "Mar Vista",
+            "open": "2016-11-18",
+            "recognition": "No location-specific Michelin/JBF award verified",
+            "distinct": "Dark, intimate bar-forward dining room, long whiskey/cocktail bar and globe pendants; adjacent Accomplice bar",
+            "dishes": [
+              "XO noodles",
+              "orange chicken",
+              "chili wontons",
+              "pork belly"
+            ],
+            "sources": [
+              "https://www.littlefattyla.com/our-story/",
+              "https://la.eater.com/2016/11/18/13645720/morning-briefing-restaurant-news-los-angeles-mar-vista-little-fatty",
+              "https://blog.resy.com/2023/09/the-solo-dining-and-adventuring-guide-to-l-a-by-neighborhood/"
+            ]
+          },
+          {
+            "id": "candidate-la-din-tai-fung-century-city",
+            "match": "possible only if a polished shopping-mall soup-dumpling restaurant is familiar",
+            "location": "Westfield Century City",
+            "open": "original exact store opening not established in this audit",
+            "recognition": "No location-specific Michelin/JBF award verified; Michelin honors for overseas branches do not transfer",
+            "distinct": "Full-service upscale modern mall dining room and visible dumpling-production kitchen behind glass, wicker lamps and bamboo steamers",
+            "dishes": [
+              "xiao long bao",
+              "spicy wontons",
+              "garlic string beans",
+              "chocolate dumplings"
+            ],
+            "sources": [
+              "https://dtf.com/en-us/locations/los-angeles",
+              "https://www.westfield.com/en/united-states/centurycity/restaurants/din-tai-fung/62121"
+            ]
+          },
+          {
+            "id": "candidate-la-kato",
+            "match": "unlikely if user remembers relaxed Taiwanese cafe; possible only for expensive tasting menu",
+            "location": "ROW DTLA (current), formerly Sawtelle/West LA",
+            "open": "current ROW DTLA opened 2022-02-08",
+            "recognition": "2026 Michelin TWO Stars (current ROW DTLA location); do not claim two stars at earlier Sawtelle meal",
+            "distinct": "Highly structured fine-dining tasting-menu restaurant with modern oak tables, glowing lamps, open kitchen, many precise plated seafood/duck courses",
+            "dishes": [
+              "multi-course chef tasting menu",
+              "seafood and broths",
+              "duck"
+            ],
+            "sources": [
+              "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
+              "https://www.latimes.com/food/story/2022-02-09/kato-reopens-in-its-new-location",
+              "https://www.timeout.com/los-angeles/restaurants/kato"
+            ]
+          },
+          {
+            "id": "candidate-la-formosa-cafe",
+            "match": "geographically close to West Hollywood, but Chinese-American rather than specifically Taiwanese; weaker cuisine fit",
+            "location": "West Hollywood",
+            "open": "historic venue reopened June 2019 (2016-2019 closure)",
+            "recognition": "City historical designation and LA Conservancy preservation award (2020) do not qualify as Michelin/James Beard restaurant awards",
+            "distinct": "Unique red Pacific Electric trolley marked 913, dark-red leather booths, vintage Hollywood photos and polished old-wood bar",
+            "dishes": [
+              "walnut shrimp",
+              "crispy pork hock bao",
+              "peppered beef",
+              "Chinese-American dishes"
+            ],
+            "sources": [
+              "https://theformosacafe.com/location",
+              "https://www.laconservancy.org/learn/historic-places/formosa-cafe/"
+            ]
+          }
+        ],
+        "noNewVisitConfirmations": true,
+        "followUp": "Look through visual montage of seven alternatives. Ask whether an unmistakable interior, dish or West Hollywood vs Koreatown geography supplants Liu's. If none, keep Liu probable until user can independently confirm date/menu/venue."
+      }
     },
     {
       "id": "redondo-space-park-dining-unidentified",
@@ -7536,7 +7696,7 @@
       "candidateCount": 17,
       "unreviewed": 15,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -7746,7 +7906,9 @@
         ],
         "visitEvidenceRule": "Liu's Cafe is a MAYBE visit with strong user suspicion only. Confirm specific meal before moving to canonical records; no invented date or cross-branch award; Butcher's Daughter booking July 2023 predates Liu's opening.",
         "leadIdentificationCandidate": "Liu's Cafe (Koreatown)",
-        "leadConfidence": "strong_user_feeling_not_confirmed"
+        "leadConfidence": "User still strongly favors Liu's, without definitive confirmation",
+        "lastComparison": "Liu's Cafe vs 7 Taiwanese/Chinese candidates; no other positive photo recognition yet",
+        "followUpPrompt": "Review other candidate photos before marking any additional visit. Current two active LA chapters preserved."
       },
       {
         "area": "South Bay / Space Park",
