@@ -1,0 +1,1174 @@
+{
+  "schemaVersion": 1,
+  "auditedOn": "2026-10-27",
+  "classification": "private_research",
+  "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
+  "scope": {
+    "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
+    "restaurantEntriesReviewed": 39,
+    "canonicalDistinctVenues": 34,
+    "archiveOnlyAdditionalEntries": 5,
+    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
+    "coverageLimitation": "Targeted official-source recognition sweep, not an exhaustive search of every historical year or archival event. 'Not verified' never means 'never honored.' The 2026 Colorado Michelin selection is state-specific; do not use its omission to rule out awards in other regions."
+  },
+  "rules": {
+    "formal_michelin_jbf_recognition": "Actual Michelin Star, Bib Gourmand, Selected/Recommended, historical Plate or Michelin restaurant-linked special award, or James Beard semifinalist/finalist/winner tied to named restaurant/chef at that venue, with year, tier and primary source. Only this sets editorial.awardQualified=true.",
+    "official_program_or_editorial_connection": "Named restaurant or team at the visited location appears in an official JBF program/event or Michelin/JBF authored editorial, or a chef at that venue receives an official nonaward feature. Show 'Official Foundation connection', 'Featured by Michelin', or 'JBF program participant' as applicable; never 'award-winner'.",
+    "personal_featured_exception": "Explicitly user-selected meaningful experiences included without a recognition claim; continue quarterly award watchlist.",
+    "archived_pending_recognition": "Confirmed personal dining memories with no verified qualifying award or direct official program. Remain private, retained, revisited quarterly.",
+    "location": "Do not transfer a chef's prior award to their new restaurant, an honor from one branch to another, or a hotel's Michelin listing to a bar inside it.",
+    "time": "A later recognition or Foundation event is not evidence the restaurant was recognized on the user's meal date.",
+    "interview": "Maybe/not-visited/reservation-only candidates are excluded from all confirmed totals and curated collection, even if they have official distinctions."
+  },
+  "officialSourceIndex": {
+    "michelinColorado2026": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
+    "jamesBeard2026Semifinalists": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "jamesBeard2026Winners": "https://www.jamesbeard.org/stories/james-beard-award-winners-2026",
+    "historicalSmartCatch": "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page",
+    "uchiDenverFoundationBenefit2019": "https://archive.jamesbeard.org/index.php/events/denver-5",
+    "jackStackOverlandParkBeardHouse2012": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
+  },
+  "confirmedSweep": {
+    "newlyIdentifiedDirectVenueProgramConnections": [
+      "Uchi Denver (2019 Foundation benefit at location)",
+      "Jack Stack Barbecue (Overland Park) (2012 team members represented branch at a Foundation Beard House event held in New York)"
+    ],
+    "additionalHistoricalOfficialProgramEvidenceForAlreadyAwardQualified": [
+      "Barolo Grill (JBF Smart Catch Committed list, March 2020)",
+      "Mercantile Dining & Provision (JBF Smart Catch Committed list, March 2020)"
+    ],
+    "uncertainVisitLeadNotCounted": "Soupçon in Crested Butte appears on JBF Smart Catch Committed list, but user has only answered MAYBE visited.",
+    "noAutomaticAwardPromotions": "Official event and sustainability-program participation do not automatically constitute Michelin or James Beard Awards.",
+    "recognizedVenuesWithoutLinkInCurrentCanonicalRecord": [
+      "Beckon",
+      "Minetta Tavern"
+    ],
+    "note": "Cross-checked 2026 statewide Michelin selection, Foundation awards announcements, the Foundation's historical Smart Catch list and named Beard House/benefit events. Archived venues without primary positive evidence remain pending."
+  },
+  "countsByTier": {
+    "archived_pending_recognition": 13,
+    "formal_michelin_jbf_recognition": 19,
+    "personal_featured_exception": 5,
+    "official_program_or_editorial_connection": 2
+  },
+  "confirmedRestaurants": [
+    {
+      "venueId": "venue-acquolina-aspen",
+      "restaurantName": "Acquolina Trattoria & Pizzeria",
+      "city": "Aspen",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-acquolina-aspen-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/aspen_1262302/restaurants"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-acquolina-aspen",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-annette-aurora",
+      "restaurantName": "Annette",
+      "city": "Aurora",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-annette-aurora"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurants/bib-gourmand",
+        "https://www.jamesbeard.org/stories/the-2022-james-beard-award-winners"
+      ],
+      "historicalGuide": "bib",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Mountain",
+          "year": 2022,
+          "result": "winner",
+          "recipient": "Caroline Glover",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-winners"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-charleston-baltimore-2018-2021",
+      "restaurantName": "Charleston",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-charleston-baltimore-2018-2021"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/chef/cindy-wolf"
+      ],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Mid-Atlantic",
+          "year": 2018,
+          "result": "finalist",
+          "recipient": "Cindy Wolf",
+          "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Mid-Atlantic",
+          "year": 2019,
+          "result": "finalist",
+          "recipient": "Cindy Wolf",
+          "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Mid-Atlantic",
+          "year": 2020,
+          "result": "finalist",
+          "recipient": "Cindy Wolf",
+          "sourceUrl": "https://archive.jamesbeard.org/chef/cindy-wolf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "category": "Outstanding Wine and Other Beverages Program",
+          "year": 2025,
+          "result": "winner",
+          "recipient": "Charleston",
+          "sourceUrl": "https://web.jamesbeard.org/stories/the-2025-james-beard-award-winners"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-gunther-and-co-baltimore-2020-02-14",
+      "restaurantName": "Gunther & Co.",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-gunther-and-co-baltimore-2020-02-14"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "personal_featured_exception",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": true,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Retained by explicit personal selection. No new qualifying official recognition verified",
+      "watchlistId": "venue-gunther-and-co-baltimore-2020-02-14",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-rec-pier-chop-house-baltimore",
+      "restaurantName": "Rec Pier Chop House",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-rec-pier-chop-house-baltimore"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-rec-pier-chop-house-baltimore",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-thames-street-oyster-house-baltimore",
+      "restaurantName": "Thames Street Oyster House",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-thames-street-oyster-house-baltimore"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-thames-street-oyster-house-baltimore",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-woodberry-kitchen-baltimore-2018-2021",
+      "restaurantName": "Woodberry Kitchen",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-woodberry-kitchen-baltimore-2018-2021"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/index.php/blog/2015-james-beard-award-winners"
+      ],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Mid-Atlantic",
+          "year": 2015,
+          "result": "winner",
+          "recipient": "Spike Gjerde",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/blog/2015-james-beard-award-winners"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-the-kitchen-american-bistro-boulder",
+      "restaurantName": "The Kitchen American Bistro",
+      "city": "Boulder",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-the-kitchen-american-bistro-boulder"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/boulder_1261512/restaurants"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-the-kitchen-american-bistro-boulder",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-breckenridge-distillery",
+      "restaurantName": "Breckenridge Distillery Restaurant",
+      "city": "Breckenridge",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-breckenridge-distillery-2021",
+        "dining-breckenridge-distillery-2022",
+        "dining-breckenridge-distillery-2023"
+      ],
+      "repeatCountRecords": 3,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-breckenridge-distillery",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-north-pond-chicago",
+      "restaurantName": "North Pond",
+      "city": "Chicago",
+      "region": "Illinois",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-north-pond-chicago-2021"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/blog/best-chef-great-lakes-bruce-sherman"
+      ],
+      "historicalGuide": "starred",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Great Lakes",
+          "year": 2012,
+          "result": "winner",
+          "recipient": "Bruce Sherman",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/best-chef-great-lakes-bruce-sherman"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-untitled-supper-club-chicago",
+      "restaurantName": "Untitled Supper Club",
+      "city": "Chicago",
+      "region": "Illinois",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-untitled-supper-club-chicago-year-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/en/article/news-and-views/bib-gourmands-chicago-2019-restaurants",
+        "https://guide.michelin.com/en/article/news-and-views/michelin-guide-chicago-2020-bib-gourmand-results"
+      ],
+      "historicalGuide": "bib",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-the-sunflower-crested-butte",
+      "restaurantName": "The Sunflower",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-the-sunflower-crested-butte-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-the-sunflower-crested-butte",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-the-wooden-nickel-crested-butte",
+      "restaurantName": "The Wooden Nickel",
+      "city": "Crested Butte",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-the-wooden-nickel-crested-butte-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-the-wooden-nickel-crested-butte",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-barolo-grill-denver",
+      "restaurantName": "Barolo Grill",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-barolo-grill-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill",
+        "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "type": "sustainability_program_list",
+          "year": 2020,
+          "venueScope": "same_restaurant",
+          "sourceUrl": "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page",
+          "claimedAward": false
+        }
+      ],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-beckon-denver-2023",
+      "restaurantName": "Beckon",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-beckon-denver-2023"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "starred",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-fino-denver",
+      "restaurantName": "FiNO",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-fino-denver-2026"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "personal_featured_exception",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": true,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Retained by explicit personal selection. No new qualifying official recognition verified",
+      "watchlistId": "venue-fino-denver",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-mercantile-denver",
+      "restaurantName": "Mercantile Dining & Provision",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-mercantile-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/en/colorado/denver_1261491/restaurants",
+        "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+        "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Southwest",
+          "year": 2018,
+          "result": "winner",
+          "recipient": "Alex Seidel",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+        }
+      ],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "type": "sustainability_program_list",
+          "year": 2020,
+          "venueScope": "same_restaurant",
+          "sourceUrl": "https://archive.jamesbeard.org/smart-catch-committed-restaurant-page",
+          "claimedAward": false
+        }
+      ],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-mister-oso-denver",
+      "restaurantName": "Mister Oso",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-mister-oso-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/mister-oso"
+      ],
+      "historicalGuide": "bib",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-q-house-denver-2021-10-21",
+      "restaurantName": "Q House",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-q-house-denver-2021-10-21"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best New Restaurant",
+          "year": 2019,
+          "result": "semifinalist",
+          "recipient": "Q House, Denver",
+          "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-safta-denver",
+      "restaurantName": "Safta",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-safta-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/safta"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-sap-sua-denver",
+      "restaurantName": "Sap Sua",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-sap-sua-denver-2024"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best New Restaurant",
+          "year": 2024,
+          "result": "semifinalist",
+          "recipient": "Sắp Sửa",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-smok-denver",
+      "restaurantName": "Smok",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-smok-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/smok"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-sushi-den-denver",
+      "restaurantName": "Sushi Den",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-sushi-den-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Outstanding Restaurant",
+          "year": 2020,
+          "result": "semifinalist",
+          "recipient": "Sushi Den",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-uchi-denver",
+      "restaurantName": "Uchi Denver",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-uchi-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "official_program_or_editorial_connection",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": true,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/denver-5"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "type": "program_event",
+          "year": 2019,
+          "venueScope": "exact_visited_venue",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/denver-5",
+          "claimedAward": false
+        }
+      ],
+      "reviewResult": "Newly confirmed official connection to Foundation activity. Not award-winning by virtue of event participation",
+      "watchlistId": "venue-uchi-denver",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-wildflower-denver-2022-03-21",
+      "restaurantName": "Wildflower",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-wildflower-denver-2022-03-21"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
+        "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "category": "Young Chef Award",
+          "year": 2025,
+          "result": "winner",
+          "recipient": "Aiden Tibbetts",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/aiden-tibbetts-wildflower-young-chef-award-winner-michelin-star-guide-ceremony-colorado"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-yuan-wonton-denver",
+      "restaurantName": "Yuan Wonton",
+      "city": "Denver",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-yuan-wonton-denver"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+      ],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Mountain (CO, ID, MT, UT, WY)",
+          "year": 2026,
+          "result": "winner",
+          "recipient": "Penelope Wong",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-winners-2026"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": null,
+      "restaurantName": "Arthur Bryant's Barbeque",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "confirmed_venue_visit_exact_branch_or_location_may_need_disambiguation",
+      "personalVisitStatus": "confirmed_brand_or_restaurant_memory",
+      "experienceIds": [],
+      "repeatCountRecords": 0,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": null,
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying venue-specific official Michelin/JBF recognition established in this round. Preserve user-confirmed meal history; do not assume other branches or award programs.",
+      "watchlistId": "watch-arthur-bryants-barbeque-kansas-city",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": null,
+      "restaurantName": "Jack Stack Barbecue",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "multiple_branches_other_than_confirmed_overland_park_unresolved",
+      "personalVisitStatus": "confirmed_brand_or_restaurant_memory",
+      "experienceIds": [],
+      "repeatCountRecords": 0,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": null,
+      "formalRecognitions": [],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "type": "offsite_team_event",
+          "year": 2012,
+          "venueScope": "separate_confirmed_overland_park_branch_only",
+          "sourceUrl": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner",
+          "claimedAward": false
+        }
+      ],
+      "reviewResult": "Multiple Jack Stack branches visited but not individually named. JBF event links to separately confirmed Overland Park location only, not the unidentified branches.",
+      "watchlistId": "watch-jack-stack-barbecue-kansas-city",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": null,
+      "restaurantName": "Joe's Kansas City Bar-B-Que",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "confirmed_venue_visit_exact_branch_or_location_may_need_disambiguation",
+      "personalVisitStatus": "confirmed_brand_or_restaurant_memory",
+      "experienceIds": [],
+      "repeatCountRecords": 0,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": null,
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying venue-specific official Michelin/JBF recognition established in this round. Preserve user-confirmed meal history; do not assume other branches or award programs.",
+      "watchlistId": "watch-joes-kansas-city-bar-b-que-kansas-city",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": null,
+      "restaurantName": "Q39",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "confirmed_venue_visit_exact_branch_or_location_may_need_disambiguation",
+      "personalVisitStatus": "confirmed_brand_or_restaurant_memory",
+      "experienceIds": [],
+      "repeatCountRecords": 0,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": null,
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying venue-specific official Michelin/JBF recognition established in this round. Preserve user-confirmed meal history; do not assume other branches or award programs.",
+      "watchlistId": "watch-q39-kansas-city",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-majestic-kansas-city",
+      "restaurantName": "The Majestic Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-majestic-kansas-city"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "personal_featured_exception",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": true,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Retained by explicit personal selection. No new qualifying official recognition verified",
+      "watchlistId": "venue-majestic-kansas-city",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-republique-los-angeles",
+      "restaurantName": "République",
+      "city": "Los Angeles",
+      "region": "California",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-republique-los-angeles"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/en/california/hollywood/restaurant/republique",
+        "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
+      ],
+      "historicalGuide": "selected",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Outstanding Pastry Chef or Baker",
+          "year": 2023,
+          "result": "winner",
+          "recipient": "Margarita Manzke",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-minetta-tavern-nyc-2016-2017",
+      "restaurantName": "Minetta Tavern",
+      "city": "New York City",
+      "region": "New York",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-minetta-tavern-nyc-2016-2017"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "starred",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-jack-stack-barbecue-overland-park",
+      "restaurantName": "Jack Stack Barbecue (Overland Park)",
+      "city": "Overland Park",
+      "region": "Kansas",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-jack-stack-overland-park-multiple-visits"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "official_program_or_editorial_connection",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": true,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
+      ],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "type": "program_event",
+          "year": 2012,
+          "venueScope": "named_branch_chef_team_offsite_event",
+          "sourceUrl": "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner",
+          "claimedAward": false
+        }
+      ],
+      "reviewResult": "Newly confirmed official connection to Foundation activity. Not award-winning by virtue of event participation",
+      "watchlistId": "venue-jack-stack-barbecue-overland-park",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": null,
+      "restaurantName": "Dominic's on the Hill",
+      "city": "St. Louis",
+      "region": "Missouri",
+      "venueScope": "confirmed_venue_visit_exact_branch_or_location_may_need_disambiguation",
+      "personalVisitStatus": "confirmed_brand_or_restaurant_memory",
+      "experienceIds": [],
+      "repeatCountRecords": 0,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": null,
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying venue-specific official Michelin/JBF recognition established in this round. Preserve user-confirmed meal history; do not assume other branches or award programs.",
+      "watchlistId": "watch-dominics-on-the-hill-st-louis",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-primrose-steamboat",
+      "restaurantName": "Primrose",
+      "city": "Steamboat Springs",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-primrose-steamboat-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "No qualifying direct official feature verified in this round; retain archived visit and re-audit. This does not establish that no historical honor exists.",
+      "watchlistId": "venue-primrose-steamboat",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-sauvage-steamboat-2021-01",
+      "restaurantName": "Sauvage",
+      "city": "Steamboat Springs",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-sauvage-steamboat-2021-01"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "personal_featured_exception",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": true,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Retained by explicit personal selection. No new qualifying official recognition verified",
+      "watchlistId": "venue-sauvage-steamboat-2021-01",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-allreds-restaurant-telluride",
+      "restaurantName": "Allred's Restaurant",
+      "city": "Telluride",
+      "region": "Colorado",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-allreds-telluride-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "personal_featured_exception",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": true,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [],
+      "historicalGuide": "not_recognized",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Retained by explicit personal selection. No new qualifying official recognition verified",
+      "watchlistId": "venue-allreds-restaurant-telluride",
+      "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-momofuku-ccdc-washington-dc",
+      "restaurantName": "Momofuku CCDC",
+      "city": "Washington, DC",
+      "region": "District of Columbia",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-momofuku-ccdc-washington-dc"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/en/article/dining-out/washington-dc-restaurant-week",
+        "https://archive.jamesbeard.org/blog/winner-recap-4"
+      ],
+      "historicalGuide": "plate",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Previously recognized, retain original primary evidence and award year; no claims about the visit date",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-27"
+    }
+  ],
+  "futureAudit": {
+    "cadence": "quarterly",
+    "nextReviewTarget": "2027-01",
+    "priority": "For archived and featured-exception restaurants first, search official Michelin Guide history, special awards, inspector articles, official James Beard awards archives, Taste America/TasteTwenty, Beard House events, Smart Catch and named chef-program rosters; distinguish current vs historical, award vs participation, exact venue vs group."
+  },
+  "barLeadSeparate": "J-Bar at Hotel Jerome is confirmed as a bar experience but excluded from these restaurant totals."
+}
