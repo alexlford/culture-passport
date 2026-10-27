@@ -1628,7 +1628,7 @@
       "awardFamily": "context",
       "interviewCue": "Downtown Yampa Street steak-and-seafood restaurant with open-kitchen chef counter, dark booths and floral wall art; reported opening February 2021, after the user's January 2021 Sauvage visit.",
       "sourceUrl": "https://www.steamboat.com/-/media/steamboat/pdfs/w202122-press-kit.pdf",
-      "visitStatus": "unreviewed",
+      "visitStatus": "confirmed",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -1644,7 +1644,12 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "historicalTimingNote": "Contemporary report dates Primrose opening to February 2021. Do not suggest it was visited on the user's January 2021 Sauvage trip. https://www.steamboat.net/new-restaurants-to-try-in-steamboat-springs"
+      "historicalTimingNote": "Contemporary report dates Primrose opening to February 2021. Do not suggest it was visited on the user's January 2021 Sauvage trip. https://www.steamboat.net/new-restaurants-to-try-in-steamboat-springs",
+      "confirmedVisitId": "dining-primrose-steamboat-date-unknown",
+      "visitPeriod": "After the restaurant's opening; exact date and year not established",
+      "visitSource": "Alex directly confirmed dining at Primrose in Steamboat Springs during the Culture Passport interview on October 27, 2026. No date, dishes, or companions supplied.",
+      "visitNote": "Confirmed venue visit. Keep exact date unknown, and do not link to the January 2021 Sauvage dinner. No qualifying Michelin/James Beard venue award established.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "baltimore-gunther-co",
@@ -5537,17 +5542,32 @@
         "Santo"
       ],
       "note": "Boulder screening closed. Do not count tentative venue memories as actual visits. Additional experiences may be added later."
+    },
+    "steamboatSprings": {
+      "state": "initial_candidate_screening_complete",
+      "updatedOn": "2026-10-27",
+      "scope": "Four restaurant candidates in Steamboat Springs, in addition to confirmed Sauvage memory",
+      "confirmedVisits": 1,
+      "notVisited": 0,
+      "maybeVisited": 3,
+      "unreviewed": 0,
+      "uncertainLeadsPreserved": [
+        "Café Diva",
+        "Laundry Kitchen & Cocktails",
+        "Bésame Steamboat"
+      ],
+      "note": "Primrose newly confirmed but visit date unknown. Do not infer it was the same trip as confirmed January 2021 Sauvage dinner. The three maybe-visited venues remain unconfirmed. No qualifying Michelin/James Beard awards for these four venues verified."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Steamboat Springs",
+      "area": "Breckenridge",
       "category": "restaurants",
       "candidateNames": [
-        "Primrose"
+        "Radicato"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you dined at Primrose at 1110 Yampa St in downtown Steamboat? Visited, Maybe, or Not visited? It opened around February 2021, after your January 2021 Sauvage visit, so a Primrose meal would have been on a later visit."
+      "question": "Have you eaten at Radicato, the Mountain Italian restaurant upstairs at 137 S Main Street in Breckenridge? Visited, Maybe, or Not visited? If yes, approximate year or memory is welcome; do not assume this followed the 2021–2023 Distillery visits."
     },
     "pausedBatches": [
       {
