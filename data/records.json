@@ -961,6 +961,36 @@
         "precision": "city-centroid"
       },
       "sourceId": "primrose-steamboat"
+    },
+    {
+      "id": "venue-j-bar-hotel-jerome-aspen",
+      "name": "J-Bar (Hotel Jerome)",
+      "city": "Aspen",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "330 E Main St, Aspen, CO 81611",
+      "neighborhood": "Hotel Jerome / Downtown",
+      "location": {
+        "lat": 39.1911,
+        "lng": -106.8175,
+        "precision": "city-centroid"
+      },
+      "sourceId": "j-bar-hotel-jerome-aspen"
+    },
+    {
+      "id": "venue-acquolina-aspen",
+      "name": "Acquolina Trattoria & Pizzeria",
+      "city": "Aspen",
+      "region": "Colorado",
+      "country": "USA",
+      "address": "415 E Main St, Aspen, CO 81611",
+      "neighborhood": "Downtown / East Main Street",
+      "location": {
+        "lat": 39.1911,
+        "lng": -106.8175,
+        "precision": "city-centroid"
+      },
+      "sourceId": "acquolina-trattoria-aspen"
     }
   ],
   "records": [
@@ -4850,6 +4880,112 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_no_venue_award_claim"
+      }
+    },
+    {
+      "id": "bar-j-bar-hotel-jerome-aspen",
+      "type": "bar",
+      "title": "J-Bar (Hotel Jerome)",
+      "venueId": "venue-j-bar-hotel-jerome-aspen",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Visit date unknown",
+        "precision": "unknown",
+        "source": "User directly confirmed visiting J-Bar at Hotel Jerome during the Aspen Culture Passport interview on 2026-10-27; no visit date, companions, or drinks specified.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed visit to J-Bar, the historic saloon at Aspen's Hotel Jerome. The specific occasion, date, companions, and drink order are not established.",
+      "memory": {
+        "headline": "The historic J-Bar at Hotel Jerome",
+        "teaser": "A confirmed stop at Aspen's storied saloon, with the details of the evening still to recall.",
+        "story": "I visited J-Bar inside Hotel Jerome in Aspen. The polished wooden saloon is known for its Old West history, including tales of cowboys, miners, and Hunter S. Thompson. The precise date, the people with me, and what I ordered are still open memories to recover.",
+        "period": "Aspen visit; date unknown",
+        "source": "Direct user confirmation on October 27, 2026. Historic bar atmosphere from Hotel Jerome's official account; no personal details inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "J-Bar itself not among Michelin's Aspen-selected restaurants for 2026. Prospect's Michelin listing at the same hotel cannot be transferred to J-Bar. No venue-specific qualifying James Beard distinction verified."
+      },
+      "sourceUrl": "https://aubergeresorts.com/hoteljerome/dine/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Historical bar visited by user; no qualifying venue-specific Michelin or James Beard award established. Private memory, not eligible for award-curated list."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Historic and memorable bar, but its recognition and reputation are not a Michelin/JBF qualifying venue distinction; Prospect is a different venue.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/aspen_1262302/restaurants",
+          "https://aubergeresorts.com/hoteljerome/dine/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_no_eligible_award_found"
+      }
+    },
+    {
+      "id": "dining-acquolina-aspen-date-unknown",
+      "type": "dining",
+      "title": "Acquolina Trattoria & Pizzeria",
+      "venueId": "venue-acquolina-aspen",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Visit date unknown",
+        "precision": "unknown",
+        "source": "User directly confirmed Acquolina Trattoria & Pizzeria on 2026-10-27 during Aspen Culture Passport interview. Exact date, companions, dishes and occasion not supplied.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
+      },
+      "summary": "A confirmed visit to Acquolina, a trattoria and pizzeria at 415 E Main Street in Aspen. The date and specific meal details have not yet been recalled.",
+      "memory": {
+        "headline": "Italian dining at Acquolina in Aspen",
+        "teaser": "A confirmed stop at the lively Main Street trattoria and pizzeria.",
+        "story": "I visited Acquolina Trattoria & Pizzeria on East Main Street in Aspen. The restaurant is known for Italian pasta, pizza, a well-stocked bar and a lively dining room. I have not yet recorded the date, my companions or what I ordered.",
+        "period": "Aspen visit; date unknown",
+        "source": "Direct user confirmation October 27, 2026; cuisine and address grounded in Acquolina's and Aspen Hospitality Group's websites. No specific dishes or memories invented."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_recognized",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "Not in Michelin Guide's four Aspen restaurants for 2026. No venue-specific qualifying James Beard distinction verified."
+      },
+      "sourceUrl": "https://www.acquolinaaspen.com/about",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed personal visit, no independently verified venue-specific Michelin or James Beard honor. Retained privately for personal memoir."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Not listed among Aspen's four 2026 Michelin restaurants and no qualifying James Beard award found for this location.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/colorado/aspen_1262302/restaurants",
+          "https://www.acquolinaaspen.com/about"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_no_eligible_award_found"
       }
     }
   ],
