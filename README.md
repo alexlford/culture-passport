@@ -189,3 +189,11 @@ Cindy's Rooftop and The Library at Gilt Bar now have memory-first visitor storie
 - American Fiction at the 46th Denver Film Festival opening night, Friday, November 3, 2023, is a confirmed attended screening. The official program establishes an 8 p.m. scheduled start at Ellie Caulkins Opera House, not the visitor's arrival time. Original calendar: https://www.denverfilm.org/wp-content/uploads/2023/10/DFS-DFF2023-8.25x10.75-Web-Single-Pages-compressed.pdf
 - Film & Festivals is the sixth experience chapter across Home, Explore, Timeline, Map, and record pages. The prospective visitor story remains `pending` under the explicit privacy/publication gate.
 - The other unidentified Denver stage outing is awaiting a friend's response; move the stage interview to the unidentified 2017 Second City revue in the meantime. No attendance is inferred from matching a candidate show's season.
+
+## City editions and interview pivot — October 27, 2026
+
+The homepage now includes a six-city editorial browse section built at runtime from **confirmed, curated experiences**. Cities are ranked by distinct confirmed venues and feature a named experience; uncertain interview answers and friend-recalled unconfirmed evenings never enter city counts. Each card opens a city-filtered Explore view. Changing the Explore city filter synchronizes the `?city=` URL parameter so the view can be shared and cleared. City links remain deliberately distinct from map coordinates, which are only city-level.
+
+The new city edition is responsive at tablet/phone widths and keyboard navigable. Static route tests and private Playwright browser smoke coverage now check city links, user-facing filters, shareable URLs and mobile overflow. No external service, new private research fields, or public release was added; staging `noindex`, the explicit story-approval manifest, and the manual deployment gate remain in force.
+
+The Crested Butte dining interview has been **paused by user request**. Preserve six confirmed dining venues, ten possible venues, and unanswered Paradise Cafe; the latter is not a negative answer. The next historical visual-recall batch is Kansas City Metro (six unreviewed restaurants). Focus future work on cross-city memories, source attribution, design quality and publication review before extending any single-town checklist.
