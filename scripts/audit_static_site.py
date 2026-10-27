@@ -148,6 +148,17 @@ def audit_editorial_and_city_links(records):
     assert "storyPeriod(r)" in script
     assert "new URLSearchParams(location.search).get(\"city\")" in script
     assert 'const initialCity=params.get("city")' in script
+    # City editions are browseable from the home page and shareable via URL.
+    home = (ROOT / "index.html").read_text(encoding="utf-8")
+    styles = (ROOT / "assets/site.css").read_text(encoding="utf-8")
+    assert 'id="city-editions"' in home
+    assert 'aria-labelledby="city-editions-title"' in home
+    assert '.city-editions{display:grid' in styles
+    assert 'const cityHost=byId("city-editions")' in script
+    assert 'r.status==="confirmed"' in script
+    assert '"./explore.html?city="+encodeURIComponent(entry.city)' in script
+    assert 'url.searchParams.set("city",city.value)' in script
+    assert 'url.searchParams.delete("city")' in script
     assert 'details.open=true' in script
     assert 'maxZoom:9' in script or 'maxZoom: 9' in script
     assert any(r.get("story", {}).get("paragraphs") for r in records)
