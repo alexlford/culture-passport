@@ -955,7 +955,11 @@
       "country": "USA",
       "address": "1110 Yampa St #100, Steamboat Springs, CO 80487",
       "neighborhood": "Downtown / Yampa Street",
-      "location": null,
+      "location": {
+        "lat": 40.4848,
+        "lng": -106.8317,
+        "precision": "city-centroid"
+      },
       "sourceId": "primrose-steamboat"
     }
   ],
