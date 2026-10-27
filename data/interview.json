@@ -4453,7 +4453,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Northern New Mexican cooking in North Boulder.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4472,7 +4472,11 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitPeriod": "Possibly visited; date and meal unknown",
+      "visitSource": "Alex explicitly answered 'Maybe visited' in the Boulder Culture Passport restaurant interview on October 27, 2026.",
+      "visitNote": "Unconfirmed memory lead; keep Michelin Guide Selected/Recommended recognition as venue research, but do not count or publish as a confirmed personal visit.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-boulder-stella-s-cucina",
@@ -5504,10 +5508,10 @@
       "area": "Boulder",
       "category": "restaurants",
       "candidateNames": [
-        "Santo"
+        "Stella's Cucina"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Santo, the Northern New Mexican restaurant at 1265 Alpine Avenue in Boulder? Visited, Maybe, or Not visited? If visited, what do you remember?"
+      "question": "Have you eaten at Stella's Cucina on Walnut Street in downtown Boulder? Visited, Maybe, or Not visited? If visited, share an approximate year or memorable details."
     },
     "pausedBatches": [
       {
