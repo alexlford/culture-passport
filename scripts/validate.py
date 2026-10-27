@@ -303,7 +303,8 @@ assert aud["summary"] == {
     "distinctPublishedVenues": len({r["venueId"] for r in published_experiences}),
     "recognized": sum(r.get("editorial", {}).get("awardQualified", False) for r in published_experiences),
     "featuredPersonal": sum(r.get("editorial", {}).get("featuredException", False) for r in published_experiences),
-    "unfeaturedOther": len({r["venueId"] for r in published_experiences if not r.get("editorial", {}).get("awardQualified", False) and not r.get("editorial", {}).get("featuredException", False)}),
+    "officiallyFeatured": sum(r.get("editorial", {}).get("officialFeature", False) for r in published_experiences),
+    "unfeaturedOther": len({r["venueId"] for r in published_experiences if not r.get("editorial", {}).get("awardQualified", False) and not r.get("editorial", {}).get("featuredException", False) and not r.get("editorial", {}).get("officialFeature", False)}),
     "additionalConfirmedArchiveOnly": len(aud["confirmedArchiveOnly"]),
     "possibleVisitLeads": len(aud["possiblyVisited"]),
     "reviewedButNotConfirmedReservations": len(aud["bookingLeads"]),
@@ -325,13 +326,26 @@ for name in ("Annette", "Mercantile Dining & Provision", "Barolo Grill"):
     row = next(r for r in records if r["title"] == name)
     assert row["status"] == "confirmed" and row["editorial"]["awardQualified"] is True
     assert row["visit"]["date"] is None and row["memory"]["headline"]
-for name in ("Q39", "Joe's Kansas City Bar-B-Que", "Arthur Bryant's Barbeque", "Jack Stack Barbecue (Freight House)"):
+for name in ("Q39", "Joe's Kansas City Bar-B-Que", "Arthur Bryant's Barbeque"):
     candidate = next(q for q in candidates if q["name"] == name)
     assert candidate["visitStatus"] == "confirmed" and candidate["screening"]["status"] == "memory_only"
     assert not any(r["title"] == name for r in records)
 assert next(q for q in candidates if q["name"] == "Lucina Eatery & Bar")["visitStatus"] == "maybe"
 assert len([r for r in records if r.get("guide", {}).get("distinction") == "starred"]) == 3
 assert len([r for r in records if r["status"] == "confirmed" and r.get("editorial", {}).get("awardQualified")]) == aud["summary"]["recognized"]
+# Broader source-linked JBF participation is not an award, nomination or win.
+for name in ("Uchi Denver", "Jack Stack Barbecue (Overland Park)"):
+    rec = next(r for r in records if r["title"] == name)
+    assert rec["status"] == "confirmed" and rec["editorial"]["officialFeature"]
+    assert not rec["editorial"]["awardQualified"]
+    assert rec["officialFeatures"] and all(f["organization"] == "James Beard Foundation" and
+        f["sourceUrl"].startswith("https://") for f in rec["officialFeatures"])
+jack_op = next(r for r in records if r["title"] == "Jack Stack Barbecue (Overland Park)")
+assert jack_op["visit"]["date"] is None
+assert next(c for c in candidates if c["name"] == "Jack Stack Barbecue (Overland Park)")["confirmedVisitId"] == jack_op["id"]
+assert next(c for c in candidates if c["name"] == "Jack Stack Barbecue (Freight House)")["visitStatus"] == "unreviewed"
+assert aud["summary"]["officiallyFeatured"] >= 2
+
 
 # Theater memories: preserve uncertainty in titles, not in the fact an outing occurred.
 stage=[r for r in records if r["id"] in {"theater-book-of-mormon-kansas-city-2016", "theater-second-city-chicago-2017", "theater-six-denver-2023", "theater-denver-holiday-theater-2024"}]
