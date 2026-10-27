@@ -4910,7 +4910,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Intimate Telluride restaurant on Colorado Avenue, new Michelin selection 2026.",
       "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "guide_verified_candidate",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -4929,7 +4929,10 @@
         "reason": "Michelin Selected / Recommended (2026) in official guide",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
-      }
+      },
+      "visitSource": "Alex explicitly answered 'Did not visit' in the Telluride Culture Passport interview on 2026-10-27.",
+      "visitNote": "Explicit non-visit. Subsequent gondola-top restaurant recollection is a distinct dining memory and must not be attributed to The National.",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-denver-metro-a5-steakhouse",
@@ -5504,6 +5507,350 @@
       "confirmedVisitId": "dining-acquolina-aspen-date-unknown",
       "reviewedOn": "2026-10-27",
       "confirmedVisitSource": "direct_user_confirmation_2026-10-27"
+    },
+    {
+      "id": "candidate-telluride-allreds-restaurant",
+      "area": "Telluride",
+      "name": "Allred's Restaurant",
+      "recognition": "No verified venue-specific qualifying Michelin or James Beard recognition established. The restaurant has other honors, including wine program recognition; do not conflate these.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Fine dining reached via Telluride gondola's San Sophia midstation; huge windows, mountain panorama, exposed timber beams and antler chandeliers. User has confirmed eating at a gondola-top restaurant, likely Allred's, but identity not yet confirmed.",
+      "sourceUrl": "https://tellurideskiresort.com/dine/",
+      "visitStatus": "maybe",
+      "researchStatus": "venue_identity_pending_user_confirmation",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "San Sophia Station, gondola midstation above Telluride",
+      "visitPeriod": "Telluride visit, exact date unknown",
+      "visitSource": "Alex said on 2026-10-27: 'I remember eating at a restaurant at the top of the gondola in telluride.'",
+      "visitNote": "User explicitly confirms a dining experience at the top of the gondola, not the name Allred's. The ski resort identifies Allred's at that location. Keep venue identification uncertain until confirmed.",
+      "reviewedOn": "2026-10-27",
+      "screening": {
+        "status": "memory_only",
+        "basis": null,
+        "evidenceUrl": "https://tellurideskiresort.com/dine/",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-27",
+        "note": "Resort confirms restaurant matches physical location, not that user ate there. Award qualification unverified."
+      },
+      "eligibility": {
+        "status": "requires_award_verification",
+        "basis": "context",
+        "reason": "Venue identity and qualifying Michelin/JBF recognition unconfirmed.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-the-sunflower",
+      "area": "Crested Butte",
+      "name": "The Sunflower",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Farm-to-table Crested Butte eatery; distinct from Wildflower Denver.",
+      "sourceUrl": "https://www.sunflowercb.com/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "214 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.sunflowercb.com/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-soup-on",
+      "area": "Crested Butte",
+      "name": "Soupçon",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "French-inspired fine dining in a historic cabin; long local history.",
+      "sourceUrl": "https://www.soupconcb.com/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "127 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://www.soupconcb.com/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-the-secret-stash",
+      "area": "Crested Butte",
+      "name": "The Secret Stash",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Longtime eclectic pizza and wings restaurant.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "303 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-elk-ave-prime",
+      "area": "Crested Butte",
+      "name": "Elk Ave Prime",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Steakhouse and seafood on Elk Avenue.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "226 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-the-wooden-nickel",
+      "area": "Crested Butte",
+      "name": "The Wooden Nickel",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Historic Crested Butte steakhouse.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/visit/trip-planning/restaurants/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "222 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/visit/trip-planning/restaurants/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-slogar",
+      "area": "Crested Butte",
+      "name": "Slogar",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Long-running family-style Southern restaurant.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "517 2nd St",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-the-breadery",
+      "area": "Crested Butte",
+      "name": "The Breadery",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Special-occasion local dining.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "Crested Butte",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-public-house",
+      "area": "Crested Butte",
+      "name": "Public House",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Downtown gastropub, restaurant and live music.",
+      "sourceUrl": "https://atplaycrestedbutte.com/experience-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "202 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://atplaycrestedbutte.com/experience-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-pitas-in-paradise",
+      "area": "Crested Butte",
+      "name": "Pitas in Paradise",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Longtime casual Crested Butte restaurant.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "302 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-crested-butte-teocalli-tamale",
+      "area": "Crested Butte",
+      "name": "Teocalli Tamale",
+      "recognition": "Michelin/James Beard venue-specific qualifying recognition not yet verified. Research lead, not an assertion of no awards.",
+      "recognitionYear": null,
+      "awardFamily": "context",
+      "interviewCue": "Long-running quick-service Mexican restaurant.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "candidate_for_future_user_interview_award_audit",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "addressHint": "311 Elk Ave",
+      "visitNote": "User reported dining at almost every restaurant in Crested Butte, but did not individually confirm this named venue. Interview required; no personal visit should be inferred.",
+      "screening": {
+        "status": "not_yet_audited",
+        "basis": null,
+        "evidenceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+        "sourceTier": "local_or_primary",
+        "verifiedAt": null,
+        "note": "Venue existence cited, not award eligibility verified."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "context",
+        "reason": "Do not classify as award-qualified or nonqualifying until research is complete.",
+        "screenedOn": null,
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -5640,6 +5987,31 @@
         "bar-cindys-rooftop-chicago-friend-recalled",
         "bar-the-library-gilt-bar-chicago-friend-recalled"
       ]
+    },
+    {
+      "id": "telluride-gondola-top-restaurant",
+      "category": "dining",
+      "name": "Telluride restaurant at the top of the gondola",
+      "status": "location_confirmed_venue_identity_pending",
+      "venueIdentityConfirmed": false,
+      "visitStatus": "confirmed_location_only",
+      "visitDate": null,
+      "visitPeriod": "Telluride visit; year unknown",
+      "possibleRegions": [
+        "San Sophia Station, Telluride, Colorado"
+      ],
+      "source": "Direct user recollection on 2026-10-27",
+      "note": "Alex recalls actually eating at a restaurant reached by the Telluride gondola and located at its upper/mid station. Official resort identifies Allred's as the restaurant at San Sophia. Await user recognition of photographs before assigning to Allred's. Do not count a named-venue visit or put it on the restaurant award watchlist until identity confirmed.",
+      "identificationCandidates": [
+        {
+          "name": "Allred's Restaurant",
+          "area": "Telluride",
+          "status": "likely_unconfirmed",
+          "evidenceUrl": "https://tellurideskiresort.com/dine/"
+        }
+      ],
+      "publishAsExperience": false,
+      "updatedOn": "2026-10-27"
     }
   ],
   "interviewChapters": {
@@ -5752,6 +6124,30 @@
         "Mirabelle"
       ],
       "note": "All four first-pass restaurant candidates interviewed. Sweet Basil remains possibly visited only. Additional non-award restaurant visits can be added later."
+    },
+    "telluride": {
+      "state": "in_progress",
+      "updatedOn": "2026-10-27",
+      "confirmedNamedVenueVisits": 0,
+      "notVisited": 1,
+      "possibleNamedVenueVisits": 1,
+      "confirmedPlaceOnlyDiningMemories": 1,
+      "notVisitedNames": [
+        "The National"
+      ],
+      "possibleNames": [
+        "Allred's Restaurant"
+      ],
+      "note": "The National explicitly not visited. Alex confirms having eaten at the gondola-top restaurant, likely Allred's according to resort information. Do not name a confirmed venue until user recognizes it."
+    },
+    "crestedButte": {
+      "state": "queued_for_venue_by_venue_interview",
+      "updatedOn": "2026-10-27",
+      "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
+      "candidateCount": 10,
+      "confirmedNamedVisits": 0,
+      "note": "Broad user-reported dining in town supports prioritizing a major city interview, NOT confirming every named restaurant. Wildflower (Denver) is already award-qualified Michelin Recommended 2026 and Michelin Young Chef 2025; The Sunflower on Elk Ave is an entirely different Crested Butte venue, visit unverified. Begin with The Sunflower to resolve whether user meant it.",
+      "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/"
     }
   },
   "interviewProgress": {
@@ -5759,10 +6155,10 @@
       "area": "Telluride",
       "category": "restaurants",
       "candidateNames": [
-        "The National"
+        "Allred's Restaurant"
       ],
-      "status": "awaiting_user_response",
-      "question": "Have you eaten at The National in Telluride? Visited, Maybe, or Not visited?"
+      "status": "awaiting_venue_identity_confirmation",
+      "question": "Is Allred's the restaurant you remember eating at by the San Sophia gondola station? Yes, Maybe, or No? If yes, can you recall roughly when?"
     },
     "pausedBatches": [
       {
@@ -5830,6 +6226,18 @@
         "name": "Acquolina Trattoria & Pizzeria",
         "category": "restaurants"
       }
+    ],
+    "queuedCrestedButteMemoryChecks": [
+      "The Sunflower",
+      "Soupçon",
+      "The Secret Stash",
+      "Elk Ave Prime",
+      "The Wooden Nickel",
+      "Slogar",
+      "The Breadery",
+      "Public House",
+      "Pitas in Paradise",
+      "Teocalli Tamale"
     ]
   }
 }
