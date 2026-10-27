@@ -18,7 +18,8 @@
     "Telluride": "Historical restaurant interview; visits not yet established",
     "Boston": "Period not yet established; user remembers visits in Boston, Massachusetts.",
     "Cape Cod": "Period not yet established; user remembers a great fish/seafood restaurant in Boston or on Cape Cod.",
-    "Cambridge, UK": "Cambridge, England — visits mentioned; years and restaurants to be reconstructed."
+    "Cambridge, UK": "Cambridge, England — visits mentioned; years and restaurants to be reconstructed.",
+    "Los Angeles / West Hollywood": "Confirmed République meal October 24, 2026. Other trips with friend Jay near/around West Hollywood; dates and venue names not yet established. An unidentified Taiwanese meal is explicitly remembered, but no precise venue is confirmed."
   },
   "statuses": [
     "unreviewed",
@@ -6187,6 +6188,316 @@
         "screenedOn": null,
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-la-pine-crane-silver-lake",
+      "name": "Pine & Crane (Silver Lake)",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/pine-crane",
+      "addressHint": "1521 Griffith Park Boulevard, Los Angeles, CA 90026",
+      "interviewCue": "Bright casual Taiwanese counter-service café, pale-wood communal tables and dark pendant lights; Taiwanese noodles, beef rolls, mapo tofu and dumplings. East of West Hollywood, not in WeHo proper.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "2026 Michelin Bib Gourmand at original Silver Lake address. This recognition does not automatically apply to other Pine & Crane branches.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_bib_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/pine-crane",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Michelin Bib Gourmand at original Silver Lake address. This recognition does not automatically apply to other Pine & Crane branches."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-lius-cafe-ktown",
+      "name": "Liu's Cafe (Koreatown)",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/liu-s-cafe",
+      "addressHint": "3915 1/2 W 6th Street, Los Angeles, CA 90020",
+      "interviewCue": "Minimalist wood-table Taiwanese/Hong Kong-style café with pastries, chili-oil wontons, Chiayi chicken rice and braised pork rice. More plausible if meal took place from September 2023 onward.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "2026 Michelin Bib Gourmand at 6th Street Koreatown location. Opened August 2023; exclude as an identity for earlier trips.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_bib_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/liu-s-cafe",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Michelin Bib Gourmand at 6th Street Koreatown location. Opened August 2023; exclude as an identity for earlier trips."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-kato",
+      "name": "Kato",
+      "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
+      "addressHint": "777 S Alameda Street, Building 1, Suite 114, Los Angeles, CA 90021 (current ROW DTLA; former Sawtelle location before 2022)",
+      "interviewCue": "Expensive, refined Taiwanese-influenced tasting menu from chef Jon Yao, plated courses and minimalist fine dining, not a casual dumpling spot. Former West LA/Sawtelle location before the move to ROW DTLA in 2022.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Two Michelin Stars in June 2026 for the ROW DTLA restaurant; historically one Michelin Star in an earlier location/era. Do not ascribe the later two-star status to the earlier meal.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_two_stars_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Two Michelin Stars in June 2026 for the ROW DTLA restaurant; historically one Michelin Star in an earlier location/era. Do not ascribe the later two-star status to the earlier meal."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-formosa-cafe",
+      "name": "The Formosa Cafe",
+      "sourceUrl": "https://theformosacafe.com/location",
+      "addressHint": "7156 Santa Monica Boulevard, West Hollywood, CA 90046",
+      "interviewCue": "Exactly in West Hollywood; striking deep-red booths, Hollywood photographs and a restored vintage Pacific Electric red trolley car. More likely if Jay brought Alex to a distinctly atmospheric red-lit restaurant. Restaurant historically closed 2016–2019.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Restored historic West Hollywood landmark (reopened 2019) with Chinese-American and Taiwanese-influenced food. Landmark status is not itself a Michelin/JBF qualifying restaurant honor. No qualifying direct Michelin/JBF award verified this pass.",
+      "recognitionYear": 2026,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "no_qualifying_michelin_jbf_verified",
+        "basis": null,
+        "evidenceUrl": "https://theformosacafe.com/location",
+        "sourceTier": "venue_operator_or_local_reporting",
+        "verifiedAt": "2026-10-27",
+        "note": "Restored historic West Hollywood landmark (reopened 2019) with Chinese-American and Taiwanese-influenced food. Landmark status is not itself a Michelin/JBF qualifying restaurant honor. No qualifying direct Michelin/JBF award verified this pass."
+      },
+      "eligibility": {
+        "status": "unverified",
+        "basis": "none_verified",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-din-tai-fung-century-city",
+      "name": "Din Tai Fung (Century City)",
+      "sourceUrl": "https://dtf.com/en-us/locations/los-angeles",
+      "addressHint": "10250 Santa Monica Boulevard, Westfield Century City, Los Angeles, CA 90067",
+      "interviewCue": "Contemporary polished restaurant inside Westfield Century City mall; soup dumplings, open dumpling preparation, bamboo steamers, broad family-style menu. West of West Hollywood.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Taiwanese international chain famous for xiao long bao. Michelin recognition associated with other overseas branches must not be attributed to Century City. No location-specific Michelin/JBF award verified this pass.",
+      "recognitionYear": 2026,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "no_qualifying_local_michelin_jbf_verified",
+        "basis": null,
+        "evidenceUrl": "https://dtf.com/en-us/locations/los-angeles",
+        "sourceTier": "venue_operator_or_local_reporting",
+        "verifiedAt": "2026-10-27",
+        "note": "Taiwanese international chain famous for xiao long bao. Michelin recognition associated with other overseas branches must not be attributed to Century City. No location-specific Michelin/JBF award verified this pass."
+      },
+      "eligibility": {
+        "status": "unverified",
+        "basis": "none_verified",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-little-fatty-mar-vista",
+      "name": "Little Fatty (Mar Vista)",
+      "sourceUrl": "https://www.littlefattyla.com/info",
+      "addressHint": "3809 Grand View Boulevard, Los Angeles, CA 90066",
+      "interviewCue": "Lively Taiwanese-American comfort food and cocktails next to Accomplice bar; bright street-side logo and dramatic mural inside. Mar Vista Westside, well outside West Hollywood proper.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "No direct location-specific Michelin/JBF qualifying recognition verified. Michelin recognition of other restaurants run by an alumnus or associated chef does not transfer.",
+      "recognitionYear": 2026,
+      "awardFamily": "context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "no_qualifying_michelin_jbf_verified",
+        "basis": null,
+        "evidenceUrl": "https://www.littlefattyla.com/info",
+        "sourceTier": "venue_operator_or_local_reporting",
+        "verifiedAt": "2026-10-27",
+        "note": "No direct location-specific Michelin/JBF qualifying recognition verified. Michelin recognition of other restaurants run by an alumnus or associated chef does not transfer."
+      },
+      "eligibility": {
+        "status": "unverified",
+        "basis": "none_verified",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-osteria-mozza",
+      "name": "Osteria Mozza",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/osteria-mozza",
+      "addressHint": "6602 Melrose Avenue, Los Angeles, CA 90038",
+      "interviewCue": "Elegant Italian restaurant near Hollywood with a white marble mozzarella bar, dark wood finishes and handmade pasta; distinct from adjacent Pizzeria Mozza.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "2026 Michelin One Star at its Melrose address; qualifies if venue visit confirmed. Chef Nancy Silverton has independent James Beard history, but no award borrowed across locations.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_one_star_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/osteria-mozza",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Michelin One Star at its Melrose address; qualifies if venue visit confirmed. Chef Nancy Silverton has independent James Beard history, but no award borrowed across locations."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-pizzeria-mozza",
+      "name": "Pizzeria Mozza",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/bib-gourmand",
+      "addressHint": "641 N Highland Avenue, Los Angeles, CA 90036",
+      "interviewCue": "Lively upscale pizza room around a wood-fired oven, artisanal pizzas and butterscotch budino. Not the adjacent pasta-focused Osteria Mozza.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "2026 Michelin Bib Gourmand at the Highland Avenue address. Distinct from Osteria Mozza and not awarded its Michelin star.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_bib_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/bib-gourmand",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Michelin Bib Gourmand at the Highland Avenue address. Distinct from Osteria Mozza and not awarded its Michelin star."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-jon-vinnys-fairfax",
+      "name": "Jon & Vinny's (Fairfax)",
+      "sourceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/bib-gourmand",
+      "addressHint": "412 N Fairfax Avenue, Los Angeles, CA 90036",
+      "interviewCue": "Buzzy casual Italian-American storefront and dining room on Fairfax, pizzas and pasta, daytime or evening neighborhood atmosphere.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "2026 Michelin Bib Gourmand for the 412 N Fairfax branch. Do not transfer to other branches without source.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_bib_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/bib-gourmand",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "2026 Michelin Bib Gourmand for the 412 N Fairfax branch. Do not transfer to other branches without source."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "candidate-la-somni-west-hollywood",
+      "name": "Somni (West Hollywood)",
+      "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
+      "addressHint": "9045 Nemo Street, West Hollywood, CA 90069",
+      "interviewCue": "Intimate, highly theatrical avant-garde tasting-menu experience, chef Aitor Zabala. Consider if Jay arranged an exceptionally elaborate Michelin-level meal; current West Hollywood restaurant reopened November 2024.",
+      "area": "Los Angeles / West Hollywood",
+      "recognition": "Three Michelin Stars in the 2026 California Guide. Current Nemo Street incarnation is distinct from earlier SLS Beverly Hills iteration (closed 2020, reopened 2024).",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "screening": {
+        "status": "verified_michelin_three_stars_2026",
+        "basis": "michelin",
+        "evidenceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Three Michelin Stars in the 2026 California Guide. Current Nemo Street incarnation is distinct from earlier SLS Beverly Hills iteration (closed 2020, reopened 2024)."
+      },
+      "eligibility": {
+        "status": "award_qualified",
+        "basis": "michelin",
+        "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -6350,6 +6661,68 @@
       "updatedOn": "2026-10-27",
       "confirmedVenueId": "venue-allreds-restaurant-telluride",
       "confirmedVisitId": "dining-allreds-telluride-date-unknown"
+    },
+    {
+      "id": "la-west-hollywood-jay-taiwanese-unidentified",
+      "category": "dining",
+      "name": "Taiwanese restaurant with Jay — Los Angeles/West Hollywood area",
+      "status": "confirmed_dining_memory_venue_unidentified",
+      "venueIdentityConfirmed": false,
+      "visitDate": null,
+      "visitPeriod": null,
+      "possibleRegions": [
+        "West Hollywood",
+        "Hollywood/Melrose/Fairfax",
+        "Koreatown",
+        "Silver Lake",
+        "Century City/West LA",
+        "Mar Vista",
+        "ROW DTLA"
+      ],
+      "source": "Direct user recollection October 27, 2026",
+      "note": "Alex recalls buddy Jay taking him to several restaurants in or around West Hollywood, including one Taiwanese restaurant. This confirms a general dining recollection, NOT identity/venue attendance of any proposed name. Preserve the companion Jay as explicitly volunteered for the Culture Passport story. Do not count as an additional confirmed named restaurant, award-eligible experience, or public visitor record.",
+      "publishAsExperience": false,
+      "visitStatus": "unidentified",
+      "confirmedVisitId": null,
+      "identificationCandidates": [
+        {
+          "candidateId": "candidate-la-pine-crane-silver-lake",
+          "name": "Pine & Crane (Silver Lake)",
+          "status": "unreviewed",
+          "note": "Bright casual Taiwanese counter-service café, pale-wood communal tables and dark pendant lights; Taiwanese noodles, beef rolls, mapo tofu and dumplings. East of West Hollywood, not in WeHo proper."
+        },
+        {
+          "candidateId": "candidate-la-lius-cafe-ktown",
+          "name": "Liu's Cafe (Koreatown)",
+          "status": "unreviewed",
+          "note": "Minimalist wood-table Taiwanese/Hong Kong-style café with pastries, chili-oil wontons, Chiayi chicken rice and braised pork rice. More plausible if meal took place from September 2023 onward."
+        },
+        {
+          "candidateId": "candidate-la-kato",
+          "name": "Kato",
+          "status": "unreviewed",
+          "note": "Expensive, refined Taiwanese-influenced tasting menu from chef Jon Yao, plated courses and minimalist fine dining, not a casual dumpling spot. Former West LA/Sawtelle location before the move to ROW DTLA in 2022."
+        },
+        {
+          "candidateId": "candidate-la-formosa-cafe",
+          "name": "The Formosa Cafe",
+          "status": "unreviewed",
+          "note": "Exactly in West Hollywood; striking deep-red booths, Hollywood photographs and a restored vintage Pacific Electric red trolley car. More likely if Jay brought Alex to a distinctly atmospheric red-lit restaurant. Restaurant historically closed 2016–2019."
+        },
+        {
+          "candidateId": "candidate-la-din-tai-fung-century-city",
+          "name": "Din Tai Fung (Century City)",
+          "status": "unreviewed",
+          "note": "Contemporary polished restaurant inside Westfield Century City mall; soup dumplings, open dumpling preparation, bamboo steamers, broad family-style menu. West of West Hollywood."
+        },
+        {
+          "candidateId": "candidate-la-little-fatty-mar-vista",
+          "name": "Little Fatty (Mar Vista)",
+          "status": "unreviewed",
+          "note": "Lively Taiwanese-American comfort food and cocktails next to Accomplice bar; bright street-side logo and dramatic mural inside. Mar Vista Westside, well outside West Hollywood proper."
+        }
+      ],
+      "nextQuestion": "Which Taiwanese restaurant interior or signature meal looks familiar from a trip with Jay? Was it a casual counter, red Hollywood booths, a dumpling mall restaurant, or a polished tasting menu?"
     }
   ],
   "interviewChapters": {
@@ -6526,24 +6899,41 @@
       "otherBranchVisitsConfirmed": true,
       "otherBranchNamesStillUnknown": true,
       "notes": "User confirmed multiple Jack Stack locations and many visits to Overland Park on 2026-10-27. Freight House explicitly NOT identified as confirmed. Official 2012 JBF Beard House dinner was served by chefs from the Overland Park location, in New York. This is program participation, not an award."
+    },
+    "losAngeles": {
+      "state": "visual_identification_in_progress",
+      "updatedOn": "2026-10-27",
+      "confirmedNamedVisits": 1,
+      "confirmedNames": [
+        "République"
+      ],
+      "confirmedVenueIds": [
+        "venue-republique-los-angeles"
+      ],
+      "unidentifiedDiningMemories": 1,
+      "companion": "Jay (user-supplied)",
+      "confirmedContext": "One or more restaurant trips near/around West Hollywood; one Taiwanese restaurant among them. Venue identities unconfirmed. No date tied to Jay meals.",
+      "candidateCount": 10,
+      "unreviewed": 10,
+      "confirmedNamedRecordsRemainUnchanged": true,
+      "notes": "The user explicitly confirms République on October 24 2026, separately from the new unnamed meals with Jay. Research candidates are not assertions of visits; awards apply only to named location and year. Current Michelin awards are not proof of historical award status at an unknown meal date."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Kansas City Metro",
+      "area": "Los Angeles / West Hollywood",
       "category": "restaurants",
       "candidateNames": [
-        "The Restaurant at 1900",
-        "Room 39",
-        "Affäre",
-        "Chewology",
-        "Yoli Tortilleria",
-        "Rye (Plaza)"
+        "Pine & Crane (Silver Lake)",
+        "Liu's Cafe (Koreatown)",
+        "Kato",
+        "The Formosa Cafe",
+        "Din Tai Fung (Century City)",
+        "Little Fatty (Mar Vista)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "When returning to interviews, review historic Kansas City photographs for these six unanswered candidates. Preserve tentative negatives from the other eight KC venues; do not re-ask already confirmed visits.",
-      "reason": "User requested moving beyond Crested Butte; next chapter prioritizes the broader Culture Passport collection and familiar Kansas City restaurant memories.",
-      "resumeAfter": "editorial_site_build"
+      "question": "Which Taiwanese restaurant from the photo shortlist looks like the place you visited with Jay? It is okay to keep all named candidates unreviewed.",
+      "nextStep": "Confirm one named venue first, then run a separate follow-up to identify other West Hollywood restaurants."
     },
     "pausedBatches": [
       {
@@ -6610,6 +7000,21 @@
         "nextUnansweredCandidate": "Paradise Cafe",
         "reason": "User explicitly requested to move past Crested Butte and make tangible website/cross-city progress. Preserve the 6 direct confirmations and 10 possible visits; Paradise Cafe was proposed but never answered.",
         "resumeOnlyOnUserRequest": true
+      },
+      {
+        "area": "Kansas City Metro",
+        "category": "restaurants",
+        "status": "paused_at_user_request",
+        "pausedOn": "2026-10-27",
+        "candidateNames": [
+          "The Restaurant at 1900",
+          "Room 39",
+          "Affäre",
+          "Chewology",
+          "Yoli Tortilleria",
+          "Rye (Plaza)"
+        ],
+        "reason": "User opted to finish potential cities beginning with Los Angeles; preserve existing unreviewed Kansas City candidates and tentative negative answers."
       }
     ],
     "interviewMode": "one_venue_at_a_time",
