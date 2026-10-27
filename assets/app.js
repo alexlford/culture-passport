@@ -17,6 +17,8 @@
   const inCollection=(r)=>r.status==="confirmed"||
     (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
   const isRecalled=(r)=>r.status==="recollected";
+  // JBF program participation is not a James Beard Award.
+  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature);
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
@@ -67,7 +69,8 @@
   function card(r,v){
     const a=link(" ",href(r),"record-card");
     a.textContent="";
-    const top=el("p","eyebrow",(isRecalled(r)?"FRIEND-RECALLED MEMORY":r.type.toUpperCase())+" / "+(v?.city||"LOCATION UNKNOWN"));
+    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
+    const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
     bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record ↗"));
@@ -89,7 +92,7 @@
       const target=byId(key); // counts use their own id rather than a category placeholder
       const badge=byId(key+"-count");
       if(!badge)continue;
-      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&(r.editorial?.awardQualified||r.editorial?.featuredException)).length+" included";
+      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&(includedDining(r)).length+" included";
       else if(key==="bar"){
         const visits=confirmed.filter(r=>r.type==="bar").length,shared=selected.filter(r=>r.type==="bar"&&isRecalled(r)).length;
         badge.textContent=visits+" visits · "+shared+" shared memories";
@@ -100,7 +103,7 @@
     siteStats(db);
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const host=byId("featured-records");
-    const records=db.records.filter(r=>inCollection(r)&&(r.editorial?.awardQualified||r.editorial?.featuredException||r.type!=="dining"&&r.type!=="bar")).sort((a,b)=>Number(isRecalled(a))-Number(isRecalled(b))||Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||Number(!!b.favorite)-Number(!!a.favorite)||byDate(a,b)).slice(0,6);
+    const records=db.records.filter(r=>inCollection(r)&&(includedDining(r)||r.type!=="dining"&&r.type!=="bar")).sort((a,b)=>Number(isRecalled(a))-Number(isRecalled(b))||Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||Number(!!b.favorite)-Number(!!a.favorite)||byDate(a,b)).slice(0,6);
     host.replaceChildren();
     records.forEach(r=>{
       const v=venues.get(r.venueId);
@@ -139,7 +142,7 @@
       const rows=db.records.filter(r=>{
         const v=venues.get(r.venueId);
         const content=[r.title,r.summary,r.memory?.headline,r.memory?.teaser,r.memory?.story,v?.city,v?.region,v?.name].join(" ").toLocaleLowerCase();
-        return inCollection(r)&&(!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
+        return inCollection(r)&&(!["dining","bar"].includes(r.type)||includedDining(r)||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
       }).sort(byDate);
       count.textContent=rows.length+" places & experiences";
       host.replaceChildren();
@@ -156,7 +159,7 @@
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     function render(){
       const grouped=new Map();
-      const results=db.records.filter(r=>inCollection(r)&&(includeMemories.checked||!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException)&&(select.value==="all"||r.type===select.value)).sort(byDate);
+      const results=db.records.filter(r=>inCollection(r)&&(includeMemories.checked||!["dining","bar"].includes(r.type)||includedDining(r))&&(select.value==="all"||r.type===select.value)).sort(byDate);
       for(const r of results){const label=timelineChapter(r);if(!grouped.has(label))grouped.set(label,[]);grouped.get(label).push(r);}
       count.textContent=results.length+" recorded experience"+(results.length===1?"":"s");
       host.replaceChildren();
@@ -176,7 +179,7 @@
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const available=db.records.filter(r=>inCollection(r)&&
-      (!["dining","bar"].includes(r.type)||r.editorial?.awardQualified||r.editorial?.featuredException));
+      (!["dining","bar"].includes(r.type)||includedDining(r)));
     // Map points are city-centroid *representations* until independently
     // verified venue coordinates become available. Do not place pins at
     // address approximations or imply the GPS belongs to the venue.
@@ -314,7 +317,8 @@
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
       host.append(el("p","memory-disclosure",r.editorial?.featuredException?
-        "A personal favorite, kept for the experience rather than an award.":
+        "A personal favorite, kept for the experience rather than an award.":r.editorial?.officialFeature?
+        "Official James Beard Foundation program connection, NOT an award or nomination.":
         "A remembered place, with no verified Michelin or James Beard qualification."));
     }
     if(r.story?.paragraphs?.length){
@@ -366,6 +370,16 @@
     }else if(g?.distinction==="bib"){const b=el("div","award-card");b.append(el("strong","","Michelin Bib Gourmand"),el("p","",g.note||"Michelin recognition for great food at good value, not a Michelin star."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);}
     else if(g?.distinction==="plate"||g?.distinction==="selected"){
       const b=el("div","award-card");b.append(el("strong","",g.distinction==="plate"?"Michelin · The Plate (historical)":"Michelin Selected"),el("p","","Guide recognition, not a Michelin star. The listing year may differ from the dining year."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
+    }
+    for(const feature of r.officialFeatures||[]){
+      // Program links must be labeled with the exact relationship and scope.
+      const b=el("div","award-card");
+      b.append(el("strong","",feature.organization+" · Program connection · "+feature.year));
+      b.append(el("p","",feature.category+" — not an award or nomination."));
+      if(feature.relationship)b.append(el("p","",feature.relationship));
+      if(feature.venueScope==="named_branch_chef_team_offsite_event")b.append(el("p","","Chefs from this branch took part in an event held elsewhere; the restaurant did not host it."));
+      if(feature.sourceUrl)b.append(link("Official program source ↗",feature.sourceUrl));
+      badges.append(b);
     }
     for(const a of r.recognitions||[]){
       if(a.recognitionAtDifferentVenue)continue;
