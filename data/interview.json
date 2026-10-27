@@ -5387,13 +5387,13 @@
       "recognition": "Long-running Aspen Mediterranean restaurant; no verified Michelin Guide Colorado (2026) listing or venue-specific James Beard honor",
       "recognitionYear": null,
       "awardFamily": "context",
-      "interviewCue": "Original cozy brasserie with white tablecloths and warm lighting, moved next door in 2023 to larger room with black-and-white tile and red banquettes; across from Wheeler Opera House.",
+      "interviewCue": "Aspen Mediterranean brasserie: original dining room at 315 E Hyman Ave until 2023; newer restaurant at 305 S Mill St has black-and-white floor tiles and red booths.",
       "sourceUrl": "https://thewildfig.com/",
       "visitStatus": "unreviewed",
       "researchStatus": "public_sources_checked_no_eligible_distinction_found",
       "addedOn": "2026-10-27",
       "priority": "user_suggested",
-      "addressHint": "315 E Hyman Ave (newer location; formerly near 305 S Mill St)",
+      "addressHint": "305 S Mill St (new location); previously 315 E Hyman Ave",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -5409,7 +5409,7 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
-      "historicalLocationNote": "Aspen Sojourner reported opening in 2003 and move next door in 2023; photos of prior and new rooms differ. Separate Willits/Basalt sister location exists; ask which location if user confirms a meal.",
+      "historicalLocationNote": "Original Aspen restaurant: 315 E Hyman Ave, opened 2003 and closed there spring 2023. Relocated to 305 S Mill St, reopening 2023. Willits/Basalt is a separate location; distinguish both from Aspen.",
       "promptedByUser": "User asked 'What about the Wild Fig?' during Aspen restaurant interview on 2026-10-27. This is not a direct confirmation of visiting."
     },
     {
@@ -5712,7 +5712,7 @@
         "The Wild Fig"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at The Wild Fig in Aspen? Visited, Maybe, or Not visited? If visited, was it in the older brasserie room or the newer space, and roughly when?"
+      "question": "Have you eaten at The Wild Fig in Aspen, either the original 315 E Hyman Ave location or the current 305 S Mill St space? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
