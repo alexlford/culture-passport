@@ -5231,19 +5231,85 @@
         "featuredException": false,
         "collection": "archived_personal_memory",
         "basis": null,
-        "note": "Confirmed dining visit; no directly qualifying Michelin/James Beard distinction found in checked 2026 primary sources. Preserve in private archive and quarterly restaurant award watchlist."
+        "note": "Confirmed user visit to Sunflower in Crested Butte. It has documented favorable coverage from Axios, Fodor's and local tourism, but these are NOT Michelin/James Beard awards. A supplied 2026 screenshot misattributes hospitality recognition to Sunflower; official awards identify Olivia in Denver. No direct Michelin/JBF award or program recognition verified. Preserve on private watchlist."
       },
       "curation": {
         "status": "outside_scope",
         "basis": "none_verified",
-        "reason": "No verified venue-specific qualifying Michelin/James Beard honor. 2026 Michelin statewide selection and 2026 JBF semifinalist lists did not name The Sunflower.",
+        "reason": "No venue-specific official Michelin/JBF recognition verified for Sunflower Crested Butte. Screenshot claims of a 2026 Beard Outstanding Hospitality nomination and 2025 Michelin service award are contradicted or misattributed by official records; unrelated favorable editorial features do not qualify for the official Foundation/Guide tier.",
         "evidenceUrls": [
           "https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-first-statewide-selection-for-colorado",
           "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
-          "https://www.sunflowercb.com/"
+          "https://www.sunflowercb.com/",
+          "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "https://www.michelin.com/en/publications/products-and-services/michelin-guide-colorado-2025",
+          "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining",
+          "https://www.fodors.com/world/north-america/usa/colorado/southwest-colorado/places/crested-butte/restaurants",
+          "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/"
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_2026_primary_source_screening"
+      },
+      "editorialMentions": [
+        {
+          "type": "independent_editorial",
+          "outlet": "Axios Denver",
+          "title": "Two Twelve restaurant in Crested Butte is not ordinary fine dining",
+          "date": "2025-09-18",
+          "url": "https://www.axios.com/local/denver/2025/09/18/two-twelve-restaurant-crested-butte-fine-dining",
+          "venueContext": "Sunflower is cited alongside The Breadery and Two Twelve as contributing to Crested Butte's elevated dining scene. Independent press mention, not a Michelin or James Beard recognition."
+        },
+        {
+          "type": "independent_travel_guide",
+          "outlet": "Fodor's Travel",
+          "title": "Sunflower — Crested Butte restaurant listing",
+          "date": null,
+          "url": "https://www.fodors.com/world/north-america/usa/colorado/southwest-colorado/places/crested-butte/restaurants",
+          "venueContext": "Fodor's guide praises Sunflower's farm-to-table food and locally sourced ingredients. Travel-guide editorial, not Michelin Selected, star or JBF nomination."
+        },
+        {
+          "type": "local_tourism_editorial",
+          "outlet": "Gunnison & Crested Butte Tourism",
+          "title": "Best Restaurants in Crested Butte, Colorado",
+          "date": "2026",
+          "url": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
+          "venueContext": "Listed as a recommended special-occasion restaurant. Local editorial recognition, not an award."
+        }
+      ],
+      "recognitionClaimReview": {
+        "auditedOn": "2026-10-27",
+        "source": "User-provided screenshot of a generated response claiming 2026 JBF Outstanding Hospitality nomination, 2025 Michelin Outstanding Hospitality winner, and USA Today 2026 Restaurant of the Year.",
+        "claims": [
+          {
+            "claim": "2026 James Beard Outstanding Hospitality nominee",
+            "status": "contradicted_by_official_lists",
+            "attributionFinding": "Not on 2026 JBF semifinalist or nominee lists. Restaurant Olivia (Denver) was an Outstanding Hospitality semifinalist, and was not among the five formal nominees.",
+            "evidenceUrls": [
+              "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+              "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+            ]
+          },
+          {
+            "claim": "2025 Michelin Outstanding Hospitality Award winner",
+            "status": "misattributed",
+            "attributionFinding": "Michelin's 2025 Colorado Outstanding Service Award went to Heather Morrison of Restaurant Olivia, Denver. No official 2025 Michelin hospitality/service award for Sunflower verified.",
+            "evidenceUrls": [
+              "https://www.michelin.com/en/publications/products-and-services/michelin-guide-colorado-2025",
+              "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/olivia-denver-service-award-michelin-guide"
+            ]
+          },
+          {
+            "claim": "USA Today Restaurants of the Year 2026",
+            "status": "unverified",
+            "attributionFinding": "No reliable USA Today 2026 award/list entry for the Crested Butte Sunflower established by name-specific searches. Do not attribute.",
+            "evidenceUrls": []
+          }
+        ],
+        "sourcesToAvoidConflating": [
+          "Restaurant Olivia, Denver",
+          "Wildflower, Denver"
+        ],
+        "note": "Screenshot text is a research lead, not verified recognition. Do not copy unsupported award or nominee claims to public Culture Passport."
       }
     },
     {
