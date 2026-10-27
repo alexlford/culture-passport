@@ -16,7 +16,7 @@
     "featuredPersonal": 6,
     "officiallyFeatured": 2,
     "unfeaturedOther": 3,
-    "additionalConfirmedArchiveOnly": 11,
+    "additionalConfirmedArchiveOnly": 12,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -460,12 +460,14 @@
       ],
       "recognitionStatus": "qualifies",
       "sourceUrls": [
-        "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill"
+        "https://guide.michelin.com/en/colorado/denver_1261491/restaurant/barolo-grill",
+        "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
       ],
       "recognitionSummary": [
-        "Michelin Selected (2026)"
+        "Michelin Selected (2026)",
+        "2026 James Beard Outstanding Professional in Beverage Service nominee: Ryan Fletter (Barolo Grill, Denver)"
       ],
-      "editorialNote": "Michelin/James Beard qualification is about the restaurant, not proof an award had already been received at an undated meal.",
+      "editorialNote": "Michelin Selected (2026) and 2026 James Beard Foundation beverage-service nominee Ryan Fletter. Nominee is not winner; undated user dining visit does not establish award timing.",
       "visitConfidence": "user_confirmed_or_recorded_reservation"
     },
     {
@@ -766,6 +768,13 @@
       "period": "Crested Butte visit; date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex directly confirmed eating at The Wooden Nickel (222 Elk Ave) on 2026-10-27. No qualifying distinction found in the 2026 Michelin statewide Colorado selection or 2026 James Beard semifinalist/winner lists. Previous years not exhaustively screened. Preserved in private restaurant archive and award watchlist."
+    },
+    {
+      "name": "The Breadery",
+      "city": "Crested Butte",
+      "period": "Crested Butte trip; restaurant date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Alex confirmed dining at The Breadery in the 2026-10-27 interview. No verified formal Michelin/JBF recognition or direct official Foundation program/editorial connection in the targeted 2026 and historical-index source review. Roots in Sunflower Communal Kitchen are historic business context, not proof same meal. Private watchlist, no invented meal date."
     }
   ],
   "possiblyVisited": [
