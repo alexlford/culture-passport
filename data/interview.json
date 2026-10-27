@@ -5422,7 +5422,7 @@
       "awardFamily": "context",
       "interviewCue": "Historic polished-wood saloon inside Hotel Jerome, ornate carved back bar, tin ceiling and leather seating; associated with the Aspen Crud bourbon milkshake and Hunter S. Thompson.",
       "sourceUrl": "https://auberge.com/hotel-jerome/dine/j-bar/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "confirmed",
       "researchStatus": "public_sources_checked_no_eligible_distinction_found",
       "addedOn": "2026-10-27",
       "priority": "user_suggested",
@@ -5442,7 +5442,13 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
-      "promptedByUser": "User asked whether J-Bar had been checked on 2026-10-27; no attendance status supplied."
+      "promptedByUser": "User asked whether J-Bar had been checked on 2026-10-27; no attendance status supplied.",
+      "visitPeriod": "Confirmed bar visit; exact date and drinks unknown",
+      "visitSource": "User explicitly confirmed visiting J-Bar at Hotel Jerome in Aspen on 2026-10-27; no specific visit date or drinks supplied.",
+      "visitNote": "Confirmed bar visit. This is J-Bar, distinct from Michelin-selected Prospect restaurant in the same hotel. No verified qualifying venue-specific Michelin or James Beard distinction; private personal culture archive only.",
+      "confirmedVisitId": "bar-j-bar-hotel-jerome-aspen",
+      "reviewedOn": "2026-10-27",
+      "confirmedVisitSource": "direct_user_confirmation_2026-10-27"
     },
     {
       "id": "candidate-aspen-acquolina-trattoria-pizzeria",
@@ -5454,7 +5460,7 @@
       "awardFamily": "context",
       "interviewCue": "Lively Aspen Italian dining room on East Main Street: wooden tables, black-and-white photography, red geometric ceiling lamps, wine-lined shelves, bar and pizza oven.",
       "sourceUrl": "https://www.acquolinaaspen.com/visit",
-      "visitStatus": "unreviewed",
+      "visitStatus": "confirmed",
       "researchStatus": "public_sources_checked_no_eligible_distinction_found",
       "addedOn": "2026-10-27",
       "priority": "user_suggested",
@@ -5474,7 +5480,13 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
-      "promptedByUser": "User shared an Apple Maps link for Acquolina at 415 E Main St, Aspen, on 2026-10-27; that does not confirm dining there."
+      "promptedByUser": "User shared an Apple Maps link for Acquolina at 415 E Main St, Aspen, on 2026-10-27; that does not confirm dining there.",
+      "visitPeriod": "Confirmed restaurant visit; exact meal date unknown",
+      "visitSource": "User explicitly confirmed visiting Acquolina Trattoria & Pizzeria at 415 E Main Street in Aspen on 2026-10-27; exact attendance date and meal details unknown.",
+      "visitNote": "Confirmed restaurant visit at the Aspen Main Street location. 2026 Michelin Aspen guide does not include the restaurant and no verified venue-specific James Beard distinction; personal memory archive only.",
+      "confirmedVisitId": "dining-acquolina-aspen-date-unknown",
+      "reviewedOn": "2026-10-27",
+      "confirmedVisitSource": "direct_user_confirmation_2026-10-27"
     }
   ],
   "source": {
