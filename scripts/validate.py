@@ -583,3 +583,28 @@ assert lost_lake["visitStatus"] == "not_visited"
 assert "did not visit" in lost_lake["reviewSource"]
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "not_visited"
 assert not any(r["title"] == "Lost Lake" for r in records)
+
+# Watchlist is a durable, private audit trail for confirmed restaurants without
+# verified qualifying awards. New memory-only dining entries must be added to it.
+watch = json.loads((ROOT / "data/restaurant-award-watchlist.json").read_text(encoding="utf-8"))
+assert watch["version"] == 1 and watch["classification"] == "private_research"
+watch_entries = watch["entries"]
+assert len(watch_entries) >= 16
+assert len({w["id"] for w in watch_entries}) == len(watch_entries)
+assert all(w["status"] in {"monitoring", "promoted"} for w in watch_entries)
+assert all(w["reviewHistory"] and w["lastReviewedOn"] for w in watch_entries)
+assert all(w["recognitionEvents"] for w in watch_entries if w["status"] == "promoted")
+# Never accidentally drop a confirmed, non-qualified restaurant when curating the site.
+nonqualified_venue_ids = {r["venueId"] for r in records
+    if r["type"] == "dining" and r["status"] == "confirmed"
+    and not r.get("editorial", {}).get("awardQualified", False)
+    and r.get("curation", {}).get("status") != "qualifies"}
+active_watch_ids = {w["venueId"] for w in watch_entries
+    if w["status"] == "monitoring" and w["venueId"]}
+assert nonqualified_venue_ids == active_watch_ids, (
+    "Keep restaurant award watchlist synchronized with confirmed non-qualified dining records",
+    sorted(nonqualified_venue_ids ^ active_watch_ids))
+# Preserve separately confirmed archive-only restaurant visits from the historical audit.
+audit_confirmed = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))["confirmedArchiveOnly"]
+archive_only_names = {v["name"] for v in audit_confirmed if v["name"] != "J-Bar (Hotel Jerome)"}
+assert archive_only_names.issubset({w["venueName"] for w in watch_entries})
