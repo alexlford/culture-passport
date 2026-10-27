@@ -10,11 +10,11 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 32,
-    "distinctPublishedVenues": 30,
+    "canonExperienceRecords": 33,
+    "distinctPublishedVenues": 31,
     "recognized": 20,
     "featuredPersonal": 6,
-    "officiallyFeatured": 1,
+    "officiallyFeatured": 2,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 11,
     "possibleVisitLeads": 3,
@@ -666,6 +666,27 @@
       ],
       "editorialNote": "Public On the Radar tier: direct official James Beard Foundation program-host link from 2019. Date belongs to Foundation event, not to the undated personal meal. Tyson Cole's awards for Austin are not attributed to this Denver venue.",
       "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown"
+    },
+    {
+      "venueId": "venue-jack-stack-barbecue-overland-park",
+      "name": "Jack Stack Barbecue (Overland Park)",
+      "city": "Overland Park",
+      "region": "Kansas",
+      "experienceIds": [
+        "dining-jack-stack-overland-park-multiple-visits"
+      ],
+      "rememberedPeriods": [
+        "Multiple visits; precise dates unknown"
+      ],
+      "recognitionStatus": "official_foundation_program_connection",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/events/sizzling-summer-barbecue?category=Dinner"
+      ],
+      "recognitionSummary": [
+        "2012 JBF Beard House dinner in NYC featured named chefs from Jack Stack Barbecue, Overland Park; not an award"
+      ],
+      "editorialNote": "Exact branch visited many times; JBF event in New York was by its identified chefs and is not the user's personal dining date, not an award, and not an event hosted at the Overland Park restaurant.",
+      "visitConfidence": "direct_user_confirmation_multiple_meals_no_dates"
     }
   ],
   "confirmedArchiveOnly": [
@@ -695,7 +716,7 @@
       "city": "Kansas City",
       "period": "Kansas City years",
       "status": "confirmed_memory_no_eligible_award_verified",
-      "note": "Visit to Jack Stack confirmed; particular branch not confirmed."
+      "note": "Several Jack Stack branches visited, with repeated Overland Park meals explicitly confirmed October 27, 2026; other branches not named. Specific Overland Park venue has its own confirmed canonical experience and official JBF chef-team connection. Do not infer a Freight House visit."
     },
     {
       "name": "Dominic's on the Hill",
