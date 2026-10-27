@@ -10,10 +10,10 @@
     "visit": "User confirmations and completed reservation records remain distinct. A reservation alone does not establish arrival."
   },
   "summary": {
-    "canonExperienceRecords": 30,
-    "distinctPublishedVenues": 28,
+    "canonExperienceRecords": 31,
+    "distinctPublishedVenues": 29,
     "recognized": 20,
-    "featuredPersonal": 5,
+    "featuredPersonal": 6,
     "unfeaturedOther": 3,
     "additionalConfirmedArchiveOnly": 10,
     "possibleVisitLeads": 3,
@@ -624,6 +624,26 @@
       "editorialNote": "Wildflower visit directly confirmed October 26, 2026; the date of the meal is unknown. March 21, 2022 is a historical reservation for seven, not a verified meal date. Michelin distinctions may postdate the meal.",
       "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown",
       "publicationStatus": "pending_explicit_privacy_review"
+    },
+    {
+      "venueId": "venue-allreds-restaurant-telluride",
+      "name": "Allred's Restaurant",
+      "city": "Telluride",
+      "region": "Colorado",
+      "experienceIds": [
+        "dining-allreds-telluride-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Anniversary dinner; year unknown"
+      ],
+      "recognitionStatus": "featured_personal_exception",
+      "sourceUrls": [
+        "https://allredstelluride.com/visit/",
+        "https://tellurideskiresort.com/dine/"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Special user-requested inclusion for a scenic and memorable anniversary dinner above Telluride, without claiming Michelin/James Beard qualification.",
+      "visitConfidence": "direct_user_confirmation_anniversary_dinner"
     }
   ],
   "confirmedArchiveOnly": [
