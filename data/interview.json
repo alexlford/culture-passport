@@ -5992,38 +5992,42 @@
       "name": "Two Twelve",
       "sourceUrl": "https://www.twotwelvecb.com/",
       "addressHint": "212 Elk Avenue, Crested Butte, CO 81224",
-      "interviewCue": "Modern American/live-fire restaurant at 212 Elk Ave, opened around 2024. Curved gray booths, copper-faced bar, open wood-burning hearth behind visible kitchen, modern steel-and-glass staircase and wine area; outdoor patio beneath trees and string lights. Chef Anthony Nelson; associated with Bonez and Secret Stash through partner Kyleena Falzone. Restaurant chef/ownership connections are contextual, not personal visit evidence.",
+      "interviewCue": "212 Elk Avenue, opened July 2024, open live-fire hearth; curved cream-colored booths, copper-colored bar, glass-front wine cellar; chef Anthony Nelson, partners Kyleena Falzone and Jeff Hermanson. Modern seasonal cuisine sourced from Colorado farms. Owner also operates Bonez and Secret Stash, but user visit to those remains unconfirmed.",
       "area": "Crested Butte",
-      "recognition": "Michelin/JBF status not yet researched; restaurant lead only.",
+      "recognition": "No verified Michelin Guide listing or James Beard semifinalist/nominee/winner recognition as of October 27, 2026. Chef Anthony Nelson is identified in substantial national/state editorial coverage as a prospective Beard-caliber chef, not a past semifinalist or nominee.",
       "recognitionYear": null,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "candidate_for_second_round",
+      "visitStatus": "confirmed",
+      "researchStatus": "direct_user_confirmed_official_awards_screen_no_nomination_verified",
       "addedOn": "2026-10-27",
       "priority": "standard",
-      "visitNote": "Named venue unreviewed, no attendance inferred from general Crested Butte dining memory.",
+      "visitNote": "Directly confirmed a restaurant meal at Two Twelve, 212 Elk Avenue. No date, dishes, companions, or occasion claimed. Two Twelve opened July 2024; do not infer meal year. Chef Anthony Nelson, owner/partner Kyleena Falzone also connected to Bonez and Secret Stash (those remain POSSIBLE visits only).",
       "screening": {
-        "status": "not_yet_audited",
+        "status": "memory_only",
         "basis": null,
-        "evidenceUrl": "https://www.twotwelvecb.com/",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
         "sourceTier": "primary",
         "verifiedAt": "2026-10-27",
-        "note": "Official restaurant confirms location, dining room and cuisine; 2025 Axios reporting says chef hoped for a James Beard nomination. Aspirational nomination is not a verified award or finalist/semifinalist."
+        "note": "No direct Two Twelve or Anthony Nelson mention in official 2026 JBF award semifinalists; Michelin Guide currently has no named Two Twelve listing. 2025 Axios, 5280 and Mountain Town Magazine coverage discusses the aspiration of Beard recognition; aspiration and third-party praise are not official nomination."
       },
       "eligibility": {
-        "status": "unreviewed",
-        "basis": "context",
-        "reason": "Requires a direct user visit response and subsequent award/program verification.",
-        "screenedOn": null,
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed dining, but no venue-specific Michelin/JBF award, Guide designation, official editorial feature or Foundation program participation positively verified. Preserve in permanent nonqualified award watchlist and record independent up-and-comer press coverage separately.",
+        "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "confirmedVisitId": "dining-two-twelve-crested-butte-date-unknown",
+      "reviewedOn": "2026-10-27",
+      "visitPeriod": "Crested Butte restaurant visit; year unknown, restaurant opened July 2024",
+      "visitSource": "Alex explicitly answered 'Visited' for Two Twelve in the Crested Butte Culture Passport interview on October 27, 2026."
     },
     {
       "id": "candidate-crested-butte-izakaya-cabin",
       "name": "Izakaya Cabin",
-      "sourceUrl": "https://www.ironhorsecb.com/dining-guide/",
+      "sourceUrl": "https://www.izakayacabin.com/",
       "addressHint": "321 Elk Ave, Crested Butte, CO 81224",
-      "interviewCue": "Japanese restaurant and sushi spot on Elk Avenue, noted in regional lodging/dining guides. User visit not confirmed.",
+      "interviewCue": "Japanese izakaya and sushi bar at 321 Elk Avenue. Downstairs: lively shared tables, bar and sushi counter; upstairs Loft: more intimate, traditional Japanese-inspired dining. Ask about the actual dining experience; do not infer attendance from repeated Crested Butte trips.",
       "area": "Crested Butte",
       "recognition": "Michelin/JBF status not yet researched; restaurant lead only.",
       "recognitionYear": null,
@@ -6344,18 +6348,19 @@
       "updatedOn": "2026-10-27",
       "generalVisitRecollection": "Alex said: 'I’ve also eaten at almost every place in Crested Butte.'",
       "candidateCount": 13,
-      "confirmedNamedVisits": 5,
-      "note": "First ten candidates closed (five confirmed, five maybe). Second round Bonez possibly visited, never count as confirmed; Two Twelve next, followed by Izakaya Cabin. Continue qualifying-award research independently from visit confirmation.",
+      "confirmedNamedVisits": 6,
+      "note": "All 10 first-round cases recorded; expanded round: Bonez maybe only, Two Twelve confirmed direct meal, next Izakaya Cabin. Keep separate status of every restaurant. Chef/owner relations never establish attendance.",
       "sourceUrl": "https://gunnisoncrestedbutte.com/blog/best-restaurants-in-crested-butte/",
       "notVisited": 0,
       "maybeVisited": 6,
-      "unreviewed": 2,
+      "unreviewed": 1,
       "confirmedNames": [
         "The Sunflower",
         "The Wooden Nickel",
         "The Breadery",
         "Public House",
-        "Teocalli Tamale"
+        "Teocalli Tamale",
+        "Two Twelve"
       ],
       "uncertainLeadsPreserved": [
         "Soupçon",
@@ -6385,10 +6390,10 @@
       "area": "Crested Butte",
       "category": "restaurants",
       "candidateNames": [
-        "Two Twelve"
+        "Izakaya Cabin"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Two Twelve at 212 Elk Avenue in Crested Butte, the modern live-fire restaurant with curved booths, open hearth and patio? Visited, Maybe, or Not visited?"
+      "question": "Have you eaten at Izakaya Cabin, the Japanese sushi and izakaya restaurant at 321 Elk Avenue, Crested Butte? Visited, Maybe, or Not visited?"
     },
     "pausedBatches": [
       {
