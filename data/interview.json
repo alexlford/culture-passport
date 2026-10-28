@@ -7026,6 +7026,91 @@
         "verifiedForPublication": false
       },
       "openedYear": 2019
+    },
+    {
+      "id": "candidate-kc-pierponts-union-station",
+      "name": "Pierpont's at Union Station",
+      "area": "Kansas City Metro",
+      "sourceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+      "addressHint": "30 W Pershing Road, inside Union Station, Kansas City, MO",
+      "interviewCue": "Upscale steak-and-seafood restaurant inside the historic station's former women's and children's waiting rooms, with ornate restored architecture and a dramatic bar. A 2015 Visit KC / Downtown Council directory lists it specifically at Union Station. Ask for venue identification and actual dining confirmation; no attendance is inferred.",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_requested_union_station_identification_not_confirmed",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "possibleVisitPeriod": "2012–2017; user supplied search window, not a confirmed visit date",
+      "recognition": "Direct James Beard Foundation editorial mention, May 4, 2011: Stephen Fried's Tour de Fred Harvey names and links Pierponts at Kansas City Union Station. Qualifies for the Passport's Official Foundation / Guide Connection tier if a dining visit is confirmed. No JBF award or nomination claimed.",
+      "recognitionYear": 2011,
+      "awardFamily": "jbf_editorial_connection",
+      "screening": {
+        "status": "official_foundation_editorial_connection",
+        "basis": "jbf_editorial",
+        "evidenceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-27",
+        "note": "Exact venue is explicitly named and linked in a Foundation-published historical dining article. This is editorial coverage, not an award, nomination or program-participation claim."
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2011,
+          "publishedDate": "2011-05-04",
+          "category": "editorial_coverage",
+          "relationship": "named_venue_in_foundation_published_article",
+          "venueScope": "Pierpont's at Union Station, Kansas City",
+          "recognitionType": "editorial_mention",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+          "title": "The Bookshelf: Stephen Fried's Delicious Southwest \"Tour de Fred Harvey\""
+        }
+      ],
+      "eligibility": {
+        "status": "connection_tier_if_visit_confirmed",
+        "formalAwardOrGuideQualified": false,
+        "officialFeatureVerified": true,
+        "requiresUserAttendanceConfirmation": true,
+        "verifiedForPublication": false,
+        "screenedOn": "2026-10-27"
+      },
+      "historicalPresenceSources": [
+        "https://www.downtownkc.org/wp-content/uploads/2015/12/dinekc2015.pdf",
+        "https://unionstation.org/2023/02/21/our-favorite-historic-restaurants-in-kansas-city/"
+      ],
+      "visitNote": "User asked which restaurant was inside Union Station during 2012–2017. This question alone does not confirm attendance at Pierpont's. Do not confuse it with Nancy Longo's separate Pierpoint restaurant in Baltimore."
+    },
+    {
+      "id": "candidate-kc-harveys-union-station",
+      "name": "Harvey's at Union Station",
+      "area": "Kansas City Metro",
+      "sourceUrl": "https://harveyskc.com/",
+      "addressHint": "30 W Pershing Road, Grand Hall, Union Station, Kansas City, MO",
+      "interviewCue": "Casual open-air breakfast, lunch and brunch restaurant in the middle of the station's Grand Hall, including an upper dining area overlooking the hall. Listed at Union Station in the 2015 Visit KC / Downtown Council dining directory. Distinct from Pierpont's and the historical Fred Harvey restaurants.",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_requested_union_station_identification_not_confirmed",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "possibleVisitPeriod": "2012–2017; user supplied search window, not a confirmed visit date",
+      "recognition": "No direct qualifying Michelin or James Beard award, venue-specific editorial feature, or program connection verified in the October 27, 2026 review. Historical Fred Harvey company coverage does not automatically qualify this modern venue.",
+      "recognitionYear": null,
+      "awardFamily": null,
+      "screening": {
+        "status": "no_qualifying_recognition_verified",
+        "basis": null,
+        "evidenceUrl": "https://harveyskc.com/",
+        "sourceTier": "official_operator",
+        "verifiedAt": "2026-10-27",
+        "note": "Official venue and historical presence verified; absence of a found recognition is not proof the restaurant was never recognized. Keep modern Harvey's distinct from older Harvey House history."
+      },
+      "eligibility": {
+        "status": "recognition_not_yet_verified",
+        "requiresUserAttendanceConfirmation": true,
+        "verifiedForPublication": false,
+        "screenedOn": "2026-10-27"
+      },
+      "historicalPresenceSources": [
+        "https://www.downtownkc.org/wp-content/uploads/2015/12/dinekc2015.pdf",
+        "https://unionstation.org/2023/02/21/our-favorite-historic-restaurants-in-kansas-city/"
+      ],
+      "visitNote": "Unanswered candidate for the user's Union Station question. No visit, companions, meal or date asserted."
     }
   ],
   "source": {
@@ -7585,6 +7670,42 @@
       ],
       "nextQuestion": "Initial South Bay shortlist screened; broader research remains open. Current Los Angeles / West Hollywood photo prompt is Chi Spacca at 6610 Melrose Avenue.",
       "lastInterviewResponse": "Mar'sel (Terranea Resort) — Did not visit."
+    },
+    {
+      "id": "kc-union-station-restaurant-2012-2017-identification",
+      "category": "dining",
+      "name": "Restaurant inside Kansas City Union Station, 2012–2017",
+      "status": "venue_identification_question_attendance_unconfirmed",
+      "venueIdentityConfirmed": false,
+      "visitStatus": "unreviewed",
+      "visitDate": null,
+      "possibleVisitPeriod": "2012–2017",
+      "source": "User asked: 'What was the restaurant in Kansas City union station in the 2012-2017 time frame? Do any of them qualify?'",
+      "updatedOn": "2026-10-27",
+      "publishAsExperience": false,
+      "identificationCandidates": [
+        {
+          "candidateId": "candidate-kc-pierponts-union-station",
+          "name": "Pierpont's at Union Station",
+          "status": "unreviewed",
+          "memoryCue": "Formal historic steak-and-seafood restaurant; ornate interior and striking bar",
+          "qualification": "Direct Foundation editorial connection, 2011; requires visit confirmation"
+        },
+        {
+          "candidateId": "candidate-kc-harveys-union-station",
+          "name": "Harvey's at Union Station",
+          "status": "unreviewed",
+          "memoryCue": "Open-air casual breakfast/brunch/lunch restaurant in Grand Hall",
+          "qualification": "No direct qualifying Michelin/JBF connection verified"
+        }
+      ],
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+        "https://www.downtownkc.org/wp-content/uploads/2015/12/dinekc2015.pdf",
+        "https://unionstation.org/2023/02/21/our-favorite-historic-restaurants-in-kansas-city/"
+      ],
+      "nextQuestion": "Which setting matches your memory: Pierpont's ornate steakhouse dining room/bar, or Harvey's open-air tables in the Grand Hall? Confirm whether you actually ate there before adding a dining experience.",
+      "note": "Both restaurants are present in the period's 2015 directory. The Foundation's 2011 article names Pierponts itself; it does not establish a Beard Award, a Harvey's modern-restaurant feature, or the user's attendance. Preserve the pending Chi Spacca interview and both LA research tracks."
     }
   ],
   "interviewChapters": {
@@ -8186,6 +8307,27 @@
         "notVisitedCandidates": 3,
         "unreviewedCandidates": 0
       }
-    ]
+    ],
+    "activeIdentificationFollowUp": {
+      "leadId": "kc-union-station-restaurant-2012-2017-identification",
+      "area": "Kansas City Metro",
+      "candidateNames": [
+        "Pierpont's at Union Station",
+        "Harvey's at Union Station"
+      ],
+      "status": "awaiting_user_response",
+      "question": "Which of these two Union Station settings do you recognize, and did you eat there?",
+      "resumeBatch": {
+        "area": "Los Angeles / West Hollywood",
+        "category": "restaurants",
+        "candidateNames": [
+          "Chi Spacca"
+        ],
+        "status": "ready_for_visual_screening",
+        "question": "Have you eaten at Chi Spacca, 6610 Melrose Avenue, Los Angeles? Memory cues: intimate candlelit Italian dining room with wine-lined walls, wood-fired steaks and meats, salumi and focaccia di recco. Answer visited / maybe / did not visit. This is a separate venue from Osteria Mozza and Pizzeria Mozza.",
+        "continuation": "Continue the unreviewed West Hollywood-area restaurants one venue at a time with photographs. Preserve five South Bay MAYBE and three NOT VISITED; broader South Bay research and the Taiwanese meal with Jay remain active.",
+        "note": "Joy remains the leading possible Taiwanese identity, Liu's Cafe secondary; neither confirmed. No assumed new dining records."
+      }
+    }
   }
 }
