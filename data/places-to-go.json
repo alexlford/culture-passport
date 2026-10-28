@@ -444,6 +444,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only. Past attendance unreviewed; do not create a confirmed dining or drinking record, infer a meal, beverages, reservation, or visit date."
+    },
+    {
+      "id": "want-to-visit-free-press-cambridge",
+      "candidateId": "candidate-cambridge-free-press",
+      "name": "The Free Press",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "7 Prospect Row, Cambridge CB1 1DU",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.freepresscambridge.com/",
+      "userNote": "Add The Free Press to my private future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Free Press to my private future-visit wishlist without assuming past attendance. Continue with the next venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only. Historic personal attendance has not been answered. No food or drinks experience, reservation or visit date inferred."
     }
   ]
 }
