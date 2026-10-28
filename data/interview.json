@@ -6386,11 +6386,11 @@
       "recognition": "2026 Michelin One Star at its Melrose address; qualifies if venue visit confirmed. Chef Nancy Silverton has independent James Beard history, but no award borrowed across locations.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "visitStatus": "not_visited",
+      "researchStatus": "user_explicitly_not_visited",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "visitNote": "Osteria Mozza at 6602 Melrose Avenue was explicitly not visited. Preserve this negative answer separately from neighboring Pizzeria Mozza, whose attendance remains unanswered.",
       "screening": {
         "status": "verified_michelin_one_star_2026",
         "basis": "michelin",
@@ -6405,7 +6405,10 @@
         "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "lastInterviewResponse": "Did not visit.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Alex directly answered 'Nope' to the Osteria Mozza (Los Angeles) interview prompt on October 27, 2026."
     },
     {
       "id": "candidate-la-pizzeria-mozza",
@@ -7021,7 +7024,7 @@
     "rule": "Research additional real restaurants and historically dated Michelin/James Beard recognition; never infer the user attended.",
     "newCandidateStatus": "unreviewed",
     "confirmOnlyFrom": "explicit direct user answer",
-    "interviewOrder": "Continue Los Angeles / West Hollywood restaurant photographs one venue at a time, starting with Osteria Mozza after completing the first eight South Bay candidates. Keep both LA research chapters active and preserve all uncertain and negative responses.",
+    "interviewOrder": "Continue Los Angeles / West Hollywood restaurant photographs one venue at a time, next Pizzeria Mozza after the explicit Osteria Mozza negative. Keep both LA research chapters active and preserve all uncertain and negative responses.",
     "sourceRequirement": "Each candidate has a cited real-world source URL and an era-specific memory cue."
   },
   "screeningMethodology": {
@@ -7562,7 +7565,7 @@
           "note": "Direct user answer 'Nope' for Mar'sel, October 27, 2026. No named South Bay restaurant is confirmed as visited."
         }
       ],
-      "nextQuestion": "Initial South Bay shortlist screened. Keep broader research open; next restaurant interview is Osteria Mozza (6602 Melrose Avenue) in the Los Angeles / West Hollywood chapter.",
+      "nextQuestion": "Initial South Bay shortlist screened. Keep broader research open; current restaurant interview is Pizzeria Mozza (641 N Highland Avenue) in the Los Angeles / West Hollywood chapter.",
       "lastInterviewResponse": "Mar'sel (Terranea Resort) — Did not visit."
     }
   ],
@@ -7757,9 +7760,9 @@
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 17,
-      "unreviewed": 14,
+      "unreviewed": 13,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -7775,7 +7778,11 @@
       "liusCafeCandidateStatus": "maybe_user_strong_feeling_not_confirmed_venue",
       "maybeVisited": 2,
       "taiwaneseIdentityStatus": "joy_leading_liu_secondary_both_unconfirmed",
-      "nextCandidate": "Osteria Mozza"
+      "nextCandidate": "Pizzeria Mozza",
+      "notVisited": 1,
+      "notVisitedNames": [
+        "Osteria Mozza"
+      ]
     },
     "spaceParkSouthBay": {
       "state": "active_research_parallel",
@@ -7884,10 +7891,10 @@
       "area": "Los Angeles / West Hollywood",
       "category": "restaurants",
       "candidateNames": [
-        "Osteria Mozza"
+        "Pizzeria Mozza"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Osteria Mozza, 6602 Melrose Avenue in Los Angeles, with its white marble mozzarella bar, dark-wood dining room and handmade pasta? Answer visited / maybe / did not visit. Distinguish adjacent Pizzeria Mozza.",
+      "question": "Have you eaten at Pizzeria Mozza, 641 N Highland Avenue in Los Angeles? Memory cues: yellow exterior with orange awning, lively pizza room and wood-fired oven. Answer visited / maybe / did not visit; distinguish neighboring Osteria Mozza.",
       "continuation": "Continue the unreviewed West Hollywood-area restaurants one venue at a time with photographs. Preserve five South Bay MAYBE and three NOT VISITED; broader South Bay research and the Taiwanese meal with Jay remain active.",
       "note": "Joy remains the leading possible Taiwanese identity, Liu's Cafe secondary; neither confirmed. No assumed new dining records."
     },
@@ -8042,14 +8049,19 @@
           "Chi Spacca",
           "Angelini Osteria",
           "Ardor (West Hollywood EDITION)",
-          "Osteria Mozza"
+          "Osteria Mozza",
+          "Pizzeria Mozza"
         ],
         "visitEvidenceRule": "Joy and Liu's both remain MAYBE and cannot enter confirmed record/watchlist without specific attendance verification; no transfer of Liu's Michelin Bib Gourmand to Joy.",
         "leadIdentificationCandidate": "Joy (Highland Park) — user-favored; Liu's Cafe (Koreatown) secondary",
         "leadConfidence": "Joy is user's current leaning, not a confirmed venue visit",
         "lastComparison": "Liu's Cafe vs 7 Taiwanese/Chinese candidates; no other positive photo recognition yet",
-        "followUpPrompt": "Have you eaten at Osteria Mozza, 6602 Melrose Avenue in Los Angeles, with its white marble mozzarella bar, dark-wood dining room and handmade pasta? Answer visited / maybe / did not visit. Distinguish adjacent Pizzeria Mozza.",
-        "nextCandidate": "Osteria Mozza"
+        "followUpPrompt": "Have you eaten at Pizzeria Mozza, 641 N Highland Avenue in Los Angeles? Memory cues: yellow exterior with orange awning, lively pizza room and wood-fired oven. Answer visited / maybe / did not visit; distinguish neighboring Osteria Mozza.",
+        "nextCandidate": "Pizzeria Mozza",
+        "lastReviewedCandidate": "Osteria Mozza",
+        "notVisitedNames": [
+          "Osteria Mozza"
+        ]
       },
       {
         "area": "South Bay / Space Park",
