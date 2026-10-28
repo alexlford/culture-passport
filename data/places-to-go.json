@@ -659,6 +659,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future visit interest only. Past attendance is unreviewed, not visited or not-visited. CAMRA pub-sector awards do not indicate this user attended; no food/drinks memory or award-qualified personal experience inferred."
+    },
+    {
+      "id": "want-to-visit-portland-arms-cambridge",
+      "candidateId": "candidate-cambridge-portland-arms-chesterton-road",
+      "name": "The Portland Arms",
+      "category": "pub_and_live_music",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "129 Chesterton Road, Cambridge CB4 3BA",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.theportlandarms.co.uk/",
+      "userNote": "Would like to visit The Portland Arms at 129 Chesterton Road, without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Portland Arms at 129 Chesterton Road to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. Past attendance for drinks, meals, or concerts is unreviewed; do not infer a past visit or a prior non-visit. No experience or reservation created."
     }
   ]
 }
