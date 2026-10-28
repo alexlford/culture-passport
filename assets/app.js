@@ -18,7 +18,7 @@
     (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
   const isRecalled=(r)=>r.status==="recollected";
   // JBF program participation is not a James Beard Award.
-  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature);
+  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.pubRecognized||r.editorial?.barRecognized||r.editorial?.breweryRecognized||r.editorial?.heritageFeatured||r.editorial?.featuredException||r.editorial?.officialFeature);
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
@@ -54,7 +54,7 @@
   const dateMonth=(r)=>r.visit?.month||Number(r.visit?.date?.slice(5,7))||0;
   const dateDay=(r)=>Number(r.visit?.date?.slice(8,10))||0;
   const byDate=(a,b)=>yearForSorting(b)-yearForSorting(a)||dateMonth(b)-dateMonth(a)||dateDay(b)-dateDay(a)||a.title.localeCompare(b.title);
-  const titleFor={dining:"Restaurants",bar:"Cocktail Bars",concert:"Concerts",opera:"Opera",theater:"Theater",film:"Film & Festivals"};
+  const titleFor={dining:"Restaurants",bar:"Pubs & Cocktail Bars",concert:"Concerts",opera:"Opera",theater:"Theater",film:"Film & Festivals"};
   function empty(parent,title,description,url,label){
     parent.replaceChildren();
     const block=el("div","empty");
@@ -69,7 +69,7 @@
   function card(r,v){
     const a=link(" ",href(r),"record-card");
     a.textContent="";
-    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
+    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.pubRecognized?"CAMRA-RECOGNIZED PUB":r.editorial?.barRecognized?"SPIRITED AWARDS BAR":r.editorial?.breweryRecognized?"BREWERY RECOGNITION":r.editorial?.heritageFeatured?"HISTORIC CULTURAL VENUE":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
@@ -349,7 +349,11 @@
       host.append(el("p","eyebrow memory-favorite","✳ KEPT FOR THE MEMORY"));
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
-      host.append(el("p","memory-disclosure",r.editorial?.featuredException?
+      host.append(el("p","memory-disclosure",r.editorial?.pubRecognized?
+        "CAMRA-recognized pub; pub and beer-culture distinction, not a Michelin or James Beard culinary honor.":r.editorial?.barRecognized?
+        "Independent bar-industry recognition; the exact award and stage are listed below.":r.editorial?.breweryRecognized?
+        "Producer-level brewery recognition, not an award for an individual beer or unrelated taproom.":r.editorial?.heritageFeatured?
+        "Independently documented historic venue; cultural heritage recognition is not a beverage award.":r.editorial?.featuredException?
         "A personally selected cultural memory.":r.editorial?.officialFeature?
         (r.editorial.officialFeatureType==="jbf_editorial_mention"?
           "Official James Beard Foundation editorial coverage; no award or nomination claimed.":
