@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-kingston-arms-kingston-street",
+    "name": "The Kingston Arms",
+    "address": "33 Kingston Street, Cambridge CB1 2NU",
+    "visitStatus": "visited",
+    "experienceType": "bar",
+    "confirmedPurpose": "drinks",
+    "diningConfirmed": false,
+    "date": null,
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Cambridge: I visited The Kingston Arms at 33 Kingston Street for drinks. Save my confirmed pub experience to private GitHub and continue with photographs.",
+    "recordId": "bar-kingston-arms-cambridge-visit-date-unknown",
+    "venueId": "venue-kingston-arms-cambridge",
+    "recognition": {
+      "issuer": "Campaign for Real Ale (CAMRA)",
+      "categories": [
+        "Cambridge & District Most Improved Pub 2024",
+        "Cambridge & District Dark Beer Pub 2024",
+        "Cambridge & District Pub of the Year 2025",
+        "Cambridgeshire CAMRA Pub of the Year 2025",
+        "Cambridge & District Dark Beer Pub 2026"
+      ],
+      "awardPeriodRelativeToVisit": "unknown_visit_date",
+      "evidence": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
+      "disambiguation": "CAMRA pub awards distinct from Michelin/JBF."
+    }
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-empress-thoday-street",
+    "name": "The Empress",
+    "address": "72 Thoday Street, Cambridge CB1 3AX",
+    "status": "unreviewed",
+    "type": "Romsey_Town_neighbourhood_pub",
+    "camraSource": "https://camra.org.uk/pubs/empress-cambridge-131478",
+    "historicalSource": "https://capturingcambridge.org/romsey/thoday-street/72-74-thoday-street-the-empress/",
+    "cues": [
+      "Red two-storey corner pub and green-trimmed doors",
+      "U-shaped interior bar around three drinking areas",
+      "Beer garden, games, and pizza"
+    ],
+    "question": "Did you visit The Empress at 72 Thoday Street during your Cambridge travels, for drinks, food, both, maybe, or not at all?"
+  },
+  "queuedAudits": [
+    "Complete Cambridge photographed interview",
+    "Kansas City metro including Weston, Missouri (2010–present)",
+    "Baltimore retrospective"
+  ],
+  "preservation": "Preserve The Eagle, The Anchor, The Mill, MillWorks GMI colleague dinner, Parker's Tavern food/drinks, University Arms hotel stay and Los Angeles history; do not convert future wishes or maybes into confirmed visits.",
+  "integrationStatus": "Supplemental handoff for future reconciliation into main data/interview.json; new confirmed drinks visit has already been saved in canonical data/records.json."
+}
