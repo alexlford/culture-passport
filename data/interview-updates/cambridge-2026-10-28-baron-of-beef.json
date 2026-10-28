@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-baron-of-beef-bridge-street",
+    "venue": "The Baron of Beef",
+    "address": "19 Bridge Street, Cambridge CB2 1UF",
+    "wishlistEntryId": "want-to-visit-baron-of-beef-cambridge",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "sourceQuote": "Culture Passport Cambridge: Add The Baron of Beef at 19 Bridge Street to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs.",
+    "evidenceType": "direct_user_request",
+    "guardrails": "Wishlist only. No confirmed previous food or drink, no negative attendance finding, and no invented dining record."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-elm-tree-orchard-street",
+    "venue": "The Elm Tree",
+    "address": "16A Orchard Street, Cambridge CB1 1JT",
+    "category": "traditional_pub",
+    "visitStatus": "unreviewed",
+    "primarySource": "https://www.elmtreecambridge.co.uk/",
+    "camraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1728",
+    "officialGallery": "https://www.elmtreecambridge.co.uk/gallery",
+    "photoCues": [
+      "Sage-green and white two-story corner pub exterior",
+      "Wooden bar with taps, mugs and Belgian beer glassware",
+      "Cosy pub room with patterned carpet and vintage memorabilia"
+    ],
+    "awardContext": [
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "name": "City Community Pub",
+        "year": 2022
+      },
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "name": "City Locale Pub",
+        "year": 2023
+      }
+    ],
+    "question": "Did you visit The Elm Tree at 16A Orchard Street, Cambridge, for drinks? Or maybe, not visited, or add to your future-visit wishlist?",
+    "caution": "CAMRA awards are pub-sector recognitions, not Michelin or James Beard restaurant distinctions; ensure any inclusion in Culture Passport follows the applicable award eligibility rules."
+  },
+  "plannedSequence": [
+    "Continue Cambridge with one photographed venue each turn",
+    "Historical Kansas City and Weston, Missouri (2010-present)",
+    "Historical Baltimore audit"
+  ],
+  "preservation": "Keep existing confirmed Cambridge pub records, MillWorks GMI dinner, Parker's Tavern meal/drinks, University Arms hotel stay, LA research, and all prior wishlisted venues. Keep original visit-status uncertainty.",
+  "integrationStatus": "Append-only interview handoff awaiting eventual reconciliation with canonical data/interview.json; no wholesale rewrite."
+}
