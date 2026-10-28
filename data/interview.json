@@ -7443,8 +7443,8 @@
       "restaurantUrl": "https://www.marriott.com/en-gb/hotels/cbgak-university-arms-hotel-autograph-collection/dining/",
       "interviewCue": "Classic British brasserie overlooking Parker's Piece inside University Arms Hotel. Red leather banquettes, stained-glass windows, dark wood, framed historic artwork; reopened with the hotel in July 2018. Has both restaurant and bar, so ask whether the user dined, drank, both, or cannot recall.",
       "recognition": "No independent Michelin restaurant listing or James Beard award verified. Michelin Guide lists the University Arms as a selected hotel and mentions Parker's Tavern as its restaurant/bar; this is a hotel-level guide reference, not a Michelin restaurant distinction or awarded star.",
-      "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "visitStatus": "visited",
+      "researchStatus": "user_confirmed_dining_drinks_and_hotel_stay",
       "addedOn": "2026-10-27",
       "priority": "high",
       "screening": {
@@ -7456,9 +7456,64 @@
         "note": "Michelin hotel's editorial listing refers to Parker's Tavern but is not restaurant Selected/Star/Bib recognition. Do not describe the restaurant as Michelin awarded."
       },
       "eligibility": {
+        "status": "confirmed_pending_venue_recognition_review",
+        "basis": "confirmed_dining_visit",
+        "reason": "Restaurant-level Michelin/JBF award not verified. The hotel's Michelin entry must not be attributed as restaurant recognition.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "reviewedOn": "2026-10-27",
+      "lastInterviewResponse": "Visited Parker's Tavern for both dining and drinks. Stayed at University Arms Hotel.",
+      "reviewSource": "Direct user answers 2026-10-27: 'I've visited Parker's Tavern at the University Arms'; 'I also stayed there at the hotel'; 'Both' (answering dining or drinks).",
+      "visitNote": "Both restaurant meal and bar drinks confirmed; user also stayed at the University Arms Hotel. Date(s), number of visits, food, drink orders, hotel room and number of nights not specified. Lodge hotel stay as separate context, not additional restaurant experience.",
+      "confirmedExperienceIds": [
+        "dining-parkers-tavern-cambridge-date-unknown",
+        "bar-parkers-tavern-cambridge-date-unknown"
+      ],
+      "confirmedExperienceTypes": [
+        "dining",
+        "drinks"
+      ],
+      "lodgingContext": {
+        "hotelName": "University Arms Hotel, Autograph Collection",
+        "location": "Regent Street, Cambridge, England",
+        "status": "confirmed_hotel_stay",
+        "stayDate": null,
+        "stayNights": null,
+        "source": "User: 'I also stayed there at the hotel' on 2026-10-27",
+        "linkedRestaurantName": "Parker's Tavern",
+        "experienceIds": [
+          "dining-parkers-tavern-cambridge-date-unknown",
+          "bar-parkers-tavern-cambridge-date-unknown"
+        ],
+        "lodgingIsDistinctFromCultureExperience": true
+      }
+    },
+    {
+      "id": "candidate-cambridge-chop-house",
+      "name": "The Cambridge Chop House",
+      "area": "Cambridge, UK",
+      "addressHint": "1 King's Parade, Cambridge CB2 1SJ",
+      "sourceUrl": "https://cambridgechophouse.co.uk/",
+      "interviewCue": "British steakhouse on King's Parade opposite King's College Chapel; large glass corner windows, warm restaurant and cellars, steak and traditional cuts. Opened in 2008 in a former wine bar. Same Cambscuisine restaurant group as MillWorks, a separately confirmed Cambridge GMI dinner.",
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "openedYear": 2008,
+      "recognition": "No venue-specific Michelin or James Beard qualifying recognition verified as of this interview. Distinguish restaurant's history from any current guide inclusion; do not imply recognition.",
+      "screening": {
+        "status": "pending_official_recognition_review",
+        "basis": "none_verified",
+        "evidenceUrl": "https://cambridgechophouse.co.uk/",
+        "sourceTier": "official_restaurant",
+        "verifiedAt": "2026-10-27",
+        "note": "Confirmed restaurant existence and location; no qualifying Michelin/JBF recognition verified."
+      },
+      "eligibility": {
         "status": "unreviewed",
-        "basis": "none_verified_at_restaurant_level",
-        "reason": "Interview only. Confirm actual dining vs drink first; then review historical recognition and editorial connections without conflating with hotel award.",
+        "basis": "not_verified",
+        "reason": "Attendance unreviewed. If confirmed, preserve dining memory and monitor for venue-specific recognition; don't assume award qualification.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8415,7 +8470,8 @@
         "The Eagle",
         "The Anchor",
         "The Mill (pub)",
-        "MillWorks"
+        "MillWorks",
+        "Parker's Tavern"
       ],
       "confirmedPubNames": [
         "The Eagle",
@@ -8423,7 +8479,8 @@
         "The Mill (pub)"
       ],
       "confirmedDiningNames": [
-        "MillWorks"
+        "MillWorks",
+        "Parker's Tavern"
       ],
       "confirmedDinnerMemory": "MillWorks was a GMI-program-colleague dinner with great food and time spent getting to know colleagues; no dishes, exact date or individual colleagues known.",
       "wishlistNames": [
@@ -8441,23 +8498,46 @@
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Margaret's",
-      "nextCandidate": "Parker's Tavern",
+      "lastReviewedCandidate": "Parker's Tavern",
+      "nextCandidate": "The Cambridge Chop House",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Margaret's added to future wishlist; prior attendance remains unreviewed. Continue at Parker's Tavern (University Arms) with visual venue check. All prior confirmed Cambridge and Los Angeles records preserved."
+      "note": "Parker's Tavern directly confirmed as BOTH dining and bar drinks. University Arms Hotel stay independently confirmed. The hotel stay is separate context, not a restaurant visit. Cambridge pubs and MillWorks GMI dinner and all LA records preserved. Next Cambridge Chop House, a historic restaurant open since 2008.",
+      "confirmedBarNames": [
+        "Parker's Tavern Bar"
+      ],
+      "hotelStays": [
+        {
+          "id": "university-arms-cambridge-confirmed-stay",
+          "name": "University Arms Hotel, Autograph Collection",
+          "city": "Cambridge",
+          "country": "United Kingdom",
+          "address": "Regent Street, Cambridge CB2 1AD",
+          "status": "confirmed",
+          "checkInDate": null,
+          "checkOutDate": null,
+          "nights": null,
+          "source": "User directly confirmed staying there on 2026-10-27.",
+          "relatedVenue": "Parker's Tavern",
+          "recordPolicy": "Lodging fact only, not a dining/bar experience or separate Culture Passport count; do not infer meal dates."
+        }
+      ],
+      "confirmedExperienceIds": [
+        "dining-parkers-tavern-cambridge-date-unknown",
+        "bar-parkers-tavern-cambridge-date-unknown"
+      ]
     }
   },
   "interviewProgress": {
     "currentBatch": {
       "area": "Cambridge, UK",
-      "category": "restaurants and bars",
+      "category": "restaurants",
       "candidateNames": [
-        "Parker's Tavern"
+        "The Cambridge Chop House"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Did you visit Parker's Tavern at the University Arms Hotel on Regent Street in Cambridge, and if so was it for a meal, drinks, or both? Answer confirmed, maybe, no, or future wishlist.",
-      "continuation": "Continue one venue with photographs per turn, then Kansas City 2010–present including Weston, Missouri, followed by Baltimore.",
-      "note": "Margaret's joins the future wishlist without past attendance assumption. Existing confirmed Cambridge pubs and MillWorks GMI dinner preserved. Current 2026 Michelin restaurant selection does not list Parker's Tavern; hotel entry is not restaurant award evidence."
+      "question": "Have you eaten at The Cambridge Chop House, 1 King's Parade, Cambridge, opposite King's College Chapel? Answer visited, maybe, not visited or add to wishlist.",
+      "continuation": "Continue one Cambridge venue with actual photos per turn, then Kansas City (2010–present, including Weston, Missouri), then Baltimore.",
+      "note": "Parker's Tavern meal and drinks confirmed, University Arms hotel stay separately confirmed with unknown dates. Keep MillWorks GMI dinner and 3 Cambridge pub records. All previously saved Los Angeles research intact."
     },
     "pausedBatches": [
       {
