@@ -6782,37 +6782,39 @@
       "recognition": "Official Michelin Guide-selected Sushi Sonagi restaurant in Gardena (added to the California Guide March 12, 2024), not Michelin Star or Bib Gourmand. If a meal is confirmed, preserve whether it occurred before/after the Guide listing.",
       "recognitionYear": 2024,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "visitStatus": "not_visited",
+      "researchStatus": "user_direct_negative_did_not_visit_2026_10_27",
       "addedOn": "2026-10-27",
       "priority": "secondary",
-      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "visitNote": "User directly stated on 2026-10-27: 'Sushi Sonagi (Gardena) — Did not visit.' This is a negative answer. Do not treat this restaurant as a personal visit, possible visit, booking or published dining memory; independent Michelin Guide selection is retained solely as restaurant recognition research.",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
         "evidenceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sushi-sonagi",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "Listed in Michelin Guide, added March 2024. Opened July 2023; 8-seat counter, chef Daniel Son, Korean-influenced omakase. No star stated. Personal attendance unreviewed. Source: https://www.latimes.com/food/story/2024-03-12/michelin-just-added-10-restaurants-to-its-california-guide-and-nine-are-in-l-a"
+        "note": "Listed in Michelin Guide, added March 2024. Opened July 2023; 8-seat counter, chef Daniel Son, Korean-influenced omakase. No star stated. Personal attendance unreviewed. Source: https://www.latimes.com/food/story/2024-03-12/michelin-just-added-10-restaurants-to-its-california-guide-and-nine-are-in-l-a Named venue's Michelin listing is independently verifiable but user explicitly DID NOT VISIT; do not infer personal attendance."
       },
       "eligibility": {
-        "status": "unreviewed",
+        "status": "excluded_not_visited",
         "basis": "michelin_guide_listing",
-        "reason": "Official Michelin-selected Gardena sushi restaurant. User has not yet answered if he ate there. Never assume visitation or Michelin status during a hypothetical pre-2024 meal.",
+        "reason": "Direct user negative answer Oct 27, 2026: did not visit Sushi Sonagi. Do not create any canonical dining experience or award watchlist entry for it.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "venueCity": "Gardena",
-      "openedYear": 2023
+      "openedYear": 2023,
+      "lastInterviewResponse": "Did not visit.",
+      "lastReviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-space-park-sweet-rice",
       "name": "Sweet Rice",
       "area": "South Bay / Space Park",
       "sourceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sweet-rice",
-      "addressHint": "1630 W Redondo Beach Boulevard, Gardena, CA 90247",
-      "interviewCue": "Casual colorful Thai eatery in Pacific Square, paper lanterns, jok/congee, noodle soups, mango sticky rice. Possible lunch stop, not necessarily a special dinner.",
-      "recognition": "Current Michelin Guide restaurant listing (Selected); casual Thai breakfast, noodle and dessert venue. No Star attributed.",
+      "addressHint": "1630 W Redondo Beach Blvd, Suite 4, Gardena, CA 90247",
+      "interviewCue": "Counter-service Thai breakfast and dessert shop tucked into the back of Pacific Square Shopping Center (Gardena), opened June 2019. White walls, colorful RED metal chairs, woven lantern-like pendants, checkered/polished floors and display of colorful drinks/snacks at the front counter. Known for jok (Thai rice congee with pork meatballs, ginger and egg), khao soi, tom yum noodle soup, Thai boat noodles, and mango sticky rice with coconut cream. Not a formal tasting restaurant. Distinct from neighboring sister restaurant Bowl Thai (and Bowl Thai Grill). Ask whether the casual red-chair café and mango sticky rice/congee bowls look familiar from time near Space Park.",
+      "recognition": "Listed as a Michelin Guide restaurant (Selected / Recommended, no Star or Bib Gourmand independently verified at this exact branch) in current California Guide; Guide's restaurant description explicitly highlights Thai breakfast, jok, mango sticky rice and casual counter service. Do not treat it as starred or Bib without official evidence.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
       "visitStatus": "unreviewed",
@@ -6826,17 +6828,17 @@
         "evidenceUrl": "https://guide.michelin.com/us/en/california/gardena/restaurant/sweet-rice",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide restaurant listing (Selected); casual Thai breakfast, noodle and dessert venue. No Star attributed."
+        "note": "Sweet Rice at 1630 W Redondo Beach Blvd Suite 4 is currently in Michelin Guide, Selected/Recommended without verified Star or Bib. Per LA Times Nov 13 2019 opened June 2019. Michelin selected is an eligible venue recognition if actual dining later confirmed, never proof of user visit."
       },
       "eligibility": {
         "status": "unreviewed",
         "basis": "michelin_guide_listing",
-        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "reason": "Sweet Rice Michelin Guide-listed and could qualify upon direct user confirmation, but has not yet been reviewed for personal attendance. Do not create canonical dining record or watchlist entry.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "venueCity": "Gardena",
-      "openedYear": null
+      "openedYear": 2019
     },
     {
       "id": "candidate-space-park-marsel",
@@ -7470,7 +7472,7 @@
         "Rancho Palos Verdes"
       ],
       "source": "User directly stated October 27, 2026 that he has eaten at many restaurants around the Northrop Grumman Space Park campus in LA.",
-      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit. On October 27, 2026 Alex also marked Fishing with Dynamite maybe visited. Manhattan Beach Post and Fishing with Dynamite are now both uncertain visit candidates, with no actual dining record for either. Next is RYLA in Hermosa Beach, opened in 2022. Its chefs' work histories at M.B. Post and Fishing with Dynamite are not evidence the user ate at any of them. RYLA: user responded MAYBE on Oct 27 2026; Manhattan Beach Post, Fishing with Dynamite and RYLA are all uncertain named visit leads. Sushi Inaba (Torrance) is next, still unreviewed. Sushi Inaba starred omakase counter within I-naba is distinct from sister restaurant's regular service; first site in Manhattan Beach before move to Torrance in 2022. Sushi Inaba (Torrance): maybe, not a confirmed meal; original Manhattan Beach Sushi Inaba and larger I-naba sister restaurant not assumed. Vin Folk now next: officially 2025/2026 Michelin Bib Gourmand; quietly opened Nov 2024 (Time Out 2025-03-17). No venue-specific dining proof for Vin Folk yet. 2026-10-27: Vin Folk marked MAYBE, joining Manhattan Beach Post, Fishing with Dynamite, RYLA and Sushi Inaba. None is a confirmed restaurant visit. Its November 2024 opening excludes earlier work trips. Next review Sushi Sonagi in Gardena, opened July 2023, added to Michelin Guide March 2024; distinguish from Sushi Inaba and generic sushi spots.",
+      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit. On October 27, 2026 Alex also marked Fishing with Dynamite maybe visited. Manhattan Beach Post and Fishing with Dynamite are now both uncertain visit candidates, with no actual dining record for either. Next is RYLA in Hermosa Beach, opened in 2022. Its chefs' work histories at M.B. Post and Fishing with Dynamite are not evidence the user ate at any of them. RYLA: user responded MAYBE on Oct 27 2026; Manhattan Beach Post, Fishing with Dynamite and RYLA are all uncertain named visit leads. Sushi Inaba (Torrance) is next, still unreviewed. Sushi Inaba starred omakase counter within I-naba is distinct from sister restaurant's regular service; first site in Manhattan Beach before move to Torrance in 2022. Sushi Inaba (Torrance): maybe, not a confirmed meal; original Manhattan Beach Sushi Inaba and larger I-naba sister restaurant not assumed. Vin Folk now next: officially 2025/2026 Michelin Bib Gourmand; quietly opened Nov 2024 (Time Out 2025-03-17). No venue-specific dining proof for Vin Folk yet. 2026-10-27: Vin Folk marked MAYBE, joining Manhattan Beach Post, Fishing with Dynamite, RYLA and Sushi Inaba. None is a confirmed restaurant visit. Its November 2024 opening excludes earlier work trips. Next review Sushi Sonagi in Gardena, opened July 2023, added to Michelin Guide March 2024; distinguish from Sushi Inaba and generic sushi spots. October 27, 2026: user explicitly denied eating at Sushi Sonagi, so visitStatus=not_visited. This follows five MAYBE visit responses for Manhattan Beach Post, Fishing with Dynamite, RYLA, Sushi Inaba Torrance and Vin Folk. No South Bay restaurant has been confirmed; next Sweet Rice, the casual Thai café in Gardena, Michelin Guide-listed. West Hollywood Joy-leading and Liu-secondary identity investigation stays active.",
       "publishAsExperience": false,
       "visitStatus": "unidentified",
       "identificationCandidates": [
@@ -7528,9 +7530,11 @@
           "candidateId": "candidate-space-park-sushi-sonagi",
           "name": "Sushi Sonagi",
           "city": "Gardena",
-          "status": "unreviewed",
+          "status": "not_visited",
           "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
-          "openingYear": 2023
+          "openingYear": 2023,
+          "lastInterviewResponse": "Did not visit.",
+          "note": "Alex directly answered did not visit Sushi Sonagi (Gardena), Oct 27 2026. Do not infer a meal from its Michelin listing."
         },
         {
           "candidateId": "candidate-space-park-sweet-rice",
@@ -7538,7 +7542,8 @@
           "city": "Gardena",
           "status": "unreviewed",
           "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
-          "openingYear": null
+          "openingYear": null,
+          "note": "Up next for photo-based recall: Sweet Rice, Gardena; casual Thai breakfast/dessert counter with red chairs, lantern pendants, jok/congee, mango sticky rice; opened June 2019; Michelin Guide listed without a star. Not to be confused with Bowl Thai nearby."
         },
         {
           "candidateId": "candidate-space-park-marsel",
@@ -7549,8 +7554,8 @@
           "openingYear": null
         }
       ],
-      "nextQuestion": "Sushi Sonagi at 1425 W Artesia Blvd Unit 27, Gardena: did you attend an intimate, reservation-only chef-led omakase by Daniel Son at a minimalist eight-seat pale wood sushi counter with Korean-influenced courses such as ankimo tart, uni chawanmushi, and stone-pot crab rice? Confirmed, maybe, or did not visit.",
-      "lastInterviewResponse": "Vin Folk — Maybe visited."
+      "nextQuestion": "Sweet Rice at Pacific Square, 1630 W Redondo Beach Boulevard Suite 4, Gardena: did you eat at this casual Thai counter-service café with red chairs, lanterns, jok rice porridge and mango sticky rice? Answer visited, maybe, or did not visit.",
+      "lastInterviewResponse": "Sushi Sonagi (Gardena) — Did not visit."
     }
   ],
   "interviewChapters": {
@@ -7785,7 +7790,7 @@
         "Sweet Rice",
         "Mar'sel"
       ],
-      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved.Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved. October 27: user answered MAYBE to Sushi Inaba as well; all first four South Bay venues are uncertain rather than confirmed. Vin Folk is now next with Michelin BIB Gourmand (2025–26) from original 1501 Hermosa Ave branch, not just Selected; opened November 2024. Joy remains primary and Liu's secondary unknown Taiwanese venue; West Hollywood search continues parallel. 2026-10-27: Vin Folk explicitly MAYBE, not confirmed; now five possible South Bay dining leads and no venue-level confirmed visits. Next is Sushi Sonagi (Gardena), established July 2023 and Michelin Guide-listed since March 2024. West Hollywood remains an active parallel track with Joy user-favored and Liu's secondary, both tentative.",
+      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved.Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved. October 27: user answered MAYBE to Sushi Inaba as well; all first four South Bay venues are uncertain rather than confirmed. Vin Folk is now next with Michelin BIB Gourmand (2025–26) from original 1501 Hermosa Ave branch, not just Selected; opened November 2024. Joy remains primary and Liu's secondary unknown Taiwanese venue; West Hollywood search continues parallel. 2026-10-27: Vin Folk explicitly MAYBE, not confirmed; now five possible South Bay dining leads and no venue-level confirmed visits. Next is Sushi Sonagi (Gardena), established July 2023 and Michelin Guide-listed since March 2024. West Hollywood remains an active parallel track with Joy user-favored and Liu's secondary, both tentative. Sushi Sonagi marked NOT VISITED by explicit user response Oct 27. Five maybes unchanged, two unreviewed (Sweet Rice and Mar'sel), zero confirmed South Bay dining records. Sweet Rice opened June 2019 and is Michelin Guide-listed (no star verified); venue comparison must not use separate Bowl Thai's dining area. West Hollywood research still active with Joy leading, Liu's secondary.",
       "maybeVisitedNames": [
         "Manhattan Beach Post",
         "Fishing with Dynamite",
@@ -7794,9 +7799,9 @@
         "Vin Folk"
       ],
       "maybeVisitedCandidates": 5,
-      "unreviewedCandidates": 3,
-      "lastReviewedCandidate": "Vin Folk",
-      "nextCandidate": "Sushi Sonagi",
+      "unreviewedCandidates": 2,
+      "lastReviewedCandidate": "Sushi Sonagi",
+      "nextCandidate": "Sweet Rice",
       "firstBatchProgress": {
         "answered": [
           {
@@ -7832,15 +7837,24 @@
             "name": "Vin Folk",
             "status": "maybe",
             "date": "2026-10-27",
-            "source": "Direct user response, not confirmed attendance; opening November 2024 and Michelin Bib 2025 are venue recognition facts only"
+            "source": "Direct user answer; visit not verified"
+          },
+          {
+            "name": "Sushi Sonagi",
+            "status": "not_visited",
+            "date": "2026-10-27",
+            "source": "Direct user negative answer; no venue attendance"
           }
         ],
         "remaining": [
-          "Sushi Sonagi",
           "Sweet Rice",
           "Mar'sel"
         ]
-      }
+      },
+      "notVisitedNames": [
+        "Sushi Sonagi"
+      ],
+      "notVisitedCandidates": 1
     }
   },
   "interviewProgress": {
@@ -7848,14 +7862,13 @@
       "area": "South Bay / Space Park",
       "category": "restaurants",
       "candidateNames": [
-        "Sushi Sonagi",
         "Sweet Rice",
         "Mar'sel"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Sushi Sonagi in Gardena: did you dine at Daniel Son's eight-seat sushi omakase counter with light wood paneling, ankimo caviar tart, uni chawanmushi and Korean-influenced crab rice? Visited, maybe or no.",
-      "continuation": "After Sushi Sonagi continue Sweet Rice then Mar'sel. Preserve all five earlier South Bay maybes and both West Hollywood/Taiwanese identification leads.",
-      "note": "Vin Folk marked maybe; Michelin Bib 2025/26 documented but user attendance not. Sushi Sonagi Michelin Selected (no stars), opened 2023. Joy favored over Liu's remains parallel."
+      "question": "Sweet Rice, Gardena: have you eaten at the Thai breakfast/dessert cafe at Pacific Square, with red metal chairs, jok/congee and mango sticky rice? Visited, Maybe or Did not visit.",
+      "continuation": "After Sweet Rice, review Mar'sel (Terranea). Preserve five South Bay maybes and Sushi Sonagi not-visited. Continue West Hollywood Michelin shortlist with Joy leading over Liu's Taiwanese identity.",
+      "note": "No confirmed South Bay dining experiences. Joy and Liu's remain MAYBE named venues; Joy is the stronger recollection."
     },
     "pausedBatches": [
       {
@@ -8069,22 +8082,30 @@
           "Sushi Inaba (Torrance)",
           "Vin Folk"
         ],
-        "nextCandidate": "Sushi Sonagi",
+        "nextCandidate": "Sweet Rice",
         "secondBatchProgress": {
           "answered": [
             {
               "name": "Vin Folk",
               "status": "maybe",
               "date": "2026-10-27",
-              "source": "Direct user response, not confirmed attendance; opening November 2024 and Michelin Bib 2025 are venue recognition facts only"
+              "source": "Direct user answer; visit not verified"
+            },
+            {
+              "name": "Sushi Sonagi",
+              "status": "not_visited",
+              "date": "2026-10-27",
+              "source": "Direct user negative answer; no venue attendance"
             }
           ],
           "remaining": [
-            "Sushi Sonagi",
             "Sweet Rice",
             "Mar'sel"
           ]
-        }
+        },
+        "notVisitedNames": [
+          "Sushi Sonagi"
+        ]
       }
     ]
   }
