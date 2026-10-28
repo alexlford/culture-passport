@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-the-mitre-bridge-street",
+    "name": "The Mitre",
+    "address": "17–18 Bridge Street, Cambridge CB2 1UF",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-the-mitre-cambridge",
+    "userResponse": "Add The Mitre on Bridge Street to my private future-visit wishlist without assuming past attendance.",
+    "guardrail": "Future interest only. No prior food/drinks attendance or negative past answer. No personal experience or awards attributed."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-castle-inn-castle-street",
+    "name": "The Castle Inn",
+    "address": "38 Castle Street, Cambridge CB3 0AJ",
+    "visitStatus": "unreviewed",
+    "openingHistory": "Pub on site dates to the 1740s; building and later pub modifications are separate facts.",
+    "officialSite": "https://www.thecastleinn.pub/",
+    "historicalSource": "https://camra.org.uk/pubs/castle-inn-cambridge-131448",
+    "cues": [
+      "Pale brick two-story facade with Castle Inn sign",
+      "Wood-panelled cask-ale bar",
+      "Downstairs snug and upstairs room",
+      "Sunny garden near former castle mound"
+    ],
+    "question": "Did you visit The Castle Inn at 38 Castle Street while in Cambridge, for drinks, food, both, maybe, or not at all?"
+  },
+  "queuedAudits": [
+    {
+      "area": "Kansas City metro including Weston, Missouri",
+      "period": "2010-present"
+    },
+    {
+      "area": "Baltimore",
+      "period": "historical retrospective"
+    }
+  ],
+  "preserved": {
+    "CambridgeConfirmed": [
+      "The Eagle",
+      "The Anchor",
+      "The Mill (pub)",
+      "MillWorks GMI colleague dinner",
+      "Parker's Tavern dining and drinks",
+      "University Arms hotel stay"
+    ],
+    "LosAngeles": "retain all confirmed/maybe/not-visited records, unresolved Taiwanese restaurant and Space Park leads",
+    "recordsPolicy": "Distinguish user-confirmed visits, wishlist, and historical attendance unknown.",
+    "sourceStatus": "This append-only interview handoff is stored separately from the large main interview.json and is not yet folded into it."
+  }
+}
