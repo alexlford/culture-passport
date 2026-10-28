@@ -611,6 +611,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future intent only. Historical attendance unreviewed; do not add a bar, drink or dining visit or infer no past visit. CAMRA venue recognition is not a personal attendance claim."
+    },
+    {
+      "id": "want-to-visit-wrestlers-cambridge",
+      "candidateId": "candidate-cambridge-wrestlers-newmarket-road",
+      "name": "The Wrestlers",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "337 Newmarket Road, Cambridge CB5 8JE",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://thewrestlerspub.com/",
+      "userNote": "Future visit requested at The Wrestlers, 337 Newmarket Road; no assertion about earlier attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Wrestlers at 337 Newmarket Road to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. Historical attendance unreviewed, neither confirmed nor denied; do not infer food, beverages, a booking, a date, or award eligibility from this wish."
     }
   ]
 }
