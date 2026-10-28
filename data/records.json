@@ -1208,6 +1208,17 @@
       "location": null,
       "sourceId": "parkers-tavern-cambridge",
       "locationAttribution": "User confirmed Parker's Tavern and a separate stay at its host hotel, University Arms. Precise date, hotel room, guest list, and visit count unrecorded."
+    },
+    {
+      "id": "venue-fitzbillies-original-trumpington-cambridge",
+      "name": "Fitzbillies (original Trumpington Street)",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "51–53 Trumpington Street, Cambridge CB2 1RG",
+      "location": null,
+      "sourceId": "fitzbillies-original-trumpington-cambridge",
+      "locationAttribution": "User identified original Trumpington Street venue; no exact date or coordinates for personal visit inferred."
     }
   ],
   "records": [
@@ -6434,6 +6445,64 @@
         "story": "I had drinks at Parker's Tavern while staying at University Arms. This is the bar side of a visit that also included dining; the date, drink orders, and company are still open.",
         "period": "Cambridge visit; date unknown",
         "source": "Direct user confirmation on 2026-10-27. This bar entry is linked to the dining entry and hotel stay to avoid treating the common venue as unrelated visits."
+      }
+    },
+    {
+      "id": "dining-fitzbillies-trumpington-cambridge-date-unknown",
+      "type": "dining",
+      "title": "Fitzbillies (original Trumpington Street)",
+      "venueId": "venue-fitzbillies-original-trumpington-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Café dining or afternoon tea · Cambridge visit; exact date unknown",
+        "source": "User directly confirmed the original Fitzbillies location and a café dining or afternoon-tea experience on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_visit_service_type_not_disambiguated",
+        "experienceTypeCandidates": [
+          "cafe_dining",
+          "afternoon_tea"
+        ],
+        "requiresFollowUp": true
+      },
+      "summary": "Confirmed visit to Fitzbillies' original Trumpington Street location for café dining or afternoon tea. The exact service and visit date remain unknown.",
+      "memory": {
+        "headline": "A café visit to the original Fitzbillies",
+        "teaser": "A confirmed Cambridge dining or afternoon-tea experience at Fitzbillies on Trumpington Street.",
+        "story": "I visited the original Fitzbillies on Trumpington Street in Cambridge for café dining or afternoon tea. I haven't yet distinguished which it was, or pinned down the date or order.",
+        "period": "Cambridge visit; exact date unknown",
+        "source": "Direct user statement October 27, 2026; no assumptions about Chelsea bun purchases, companions or meal."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No verified exact-venue Michelin or James Beard award/guide distinction established from this interview. Future research pending."
+      },
+      "sourceUrl": "https://www.fitzbillies.com/pages/trumpington-street",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Confirmed original Fitzbillies café dining or afternoon tea, with separate permanent recognition watchlist. No awards inferred."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Retain confirmed historical café memory; exact venue historical Michelin/JBF award, program or editorial connection remains to be audited.",
+        "evidenceUrls": [
+          "https://www.fitzbillies.com/pages/trumpington-street"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
       }
     }
   ],
