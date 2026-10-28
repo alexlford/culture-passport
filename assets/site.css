@@ -185,3 +185,15 @@ main:focus{outline:none}
 @media(max-width:880px){.city-editions{grid-template-columns:repeat(2,minmax(0,1fr))}.city-edition:nth-child(n){background:var(--cream)}.city-edition:nth-child(4n+2),.city-edition:nth-child(4n+3){background:#eee5db}}
 @media(max-width:520px){.home-cities{padding-top:57px;padding-bottom:59px}.city-editions{grid-template-columns:minmax(0,1fr)}.city-edition:nth-child(n){background:var(--cream)}.city-edition:nth-child(even){background:#eee5db}.city-edition{min-height:211px;padding:23px 22px}.city-edition-name{font-size:35px;margin:17px 0 7px}.city-edition-memory{margin:12px 0 17px}.city-editions-footer{align-items:flex-start;flex-direction:column;gap:12px}.city-editions-footer .text-link{white-space:normal}}
 @media(prefers-reduced-motion:reduce){.city-edition{transition:none}}
+
+
+/* Independent Passport navigation: static links remain usable without scripts. */
+.passport-navigation{min-width:0}
+.passport-label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin:0 0 13px}
+.passport-links{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.passport-links>a,.passport-links>span{display:inline-flex;align-items:center;flex-wrap:wrap;gap:7px;max-width:100%;min-height:44px;border:1px solid var(--line);border-radius:4px;padding:9px 12px;font-size:12px;line-height:1.4;letter-spacing:0;text-decoration:none}
+.passport-links small{font-size:9px;grid-column:auto;letter-spacing:.02em}
+.passport-links>a:hover{text-decoration:underline;text-underline-offset:3px}
+.passport-links>a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.passport-pending{border-style:dashed!important}
+.passport-label{color:var(--wine)}.passport-links>[aria-current="true"]{background:var(--wine);border-color:var(--wine);color:var(--cream)}.passport-pending{color:var(--muted)}@media(min-width:721px){.footer{grid-template-columns:1fr 1.5fr}}

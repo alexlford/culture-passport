@@ -14,6 +14,7 @@ import tempfile
 from pathlib import Path
 from urllib.parse import urlsplit
 from html.parser import HTMLParser
+from audit_passport_navigation import audit as audit_passport_navigation
 
 ROOT = Path(__file__).resolve().parents[1]
 VISITOR_PAGES = (
@@ -156,6 +157,7 @@ def assert_no_private_fields(value, path="visitor"):
 
 
 def validate_export(output, count):
+    audit_passport_navigation(output, VISITOR_PAGES, "culture")
     files = {str(p.relative_to(output)) for p in output.rglob("*") if p.is_file()}
     required = set(VISITOR_PAGES) | DIST_FILES | {
         JS_FILE, CSS_FILE, "data/records.json"
@@ -238,3 +240,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
