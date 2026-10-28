@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-bath-house-benets-street",
+    "venue": "The Bath House",
+    "address": "3 Bene't Street, Cambridge CB2 3QN",
+    "visitStatus": "maybe_visited",
+    "certainty": "uncertain",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Cambridge: I may have visited The Bath House. Preserve uncertainty in private GitHub and continue with photographs.",
+    "wantsToVisit": null,
+    "guardrails": "Do not infer confirmed food or drink, a definite non-visit, a date, or an award-qualified personal experience; do not place on wishlist unless separately requested.",
+    "possibleConnection": "Near The Eagle, separately confirmed, but physical proximity is not evidence of attendance."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-portland-arms-chesterton-road",
+    "venue": "The Portland Arms",
+    "address": "129 Chesterton Road, Cambridge CB4 3BA",
+    "visitStatus": "unreviewed",
+    "category": "historic_pub_and_live_music_venue",
+    "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1763",
+    "otherSourceUrl": "https://camra.org.uk/pubs/portland-arms-cambridge-131242",
+    "venueHistory": "Rebuilt in 1930, retaining original pub fittings and a dedicated 200-capacity live music room.",
+    "recognition": "Cambridge and District CAMRA Young Members Pub of the Year 2024; Greene King Entertainment Pub of the Year 2022. These are pub/music recognitions, not restaurant Michelin/JBF distinctions.",
+    "photoCues": [
+      "Red brick Portland Arms facade",
+      "Historic wood-panelled pub lounge",
+      "Live music stage in rear room"
+    ],
+    "question": "Did you visit The Portland Arms on Chesterton Road in Cambridge, whether for drinks, pizza/pub food or a live music show?"
+  },
+  "upcomingAudits": [
+    "Kansas City metro including Weston, Missouri, 2010–present",
+    "Baltimore historical audit"
+  ],
+  "preserve": "All confirmed Cambridge pub, dining, and University Arms hotel records, all Los Angeles records, prior unreviewed wishlist venues. This supplementary interview update remains separate from data/interview.json."
+}
