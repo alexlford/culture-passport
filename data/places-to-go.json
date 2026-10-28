@@ -154,6 +154,31 @@
       },
       "desiredVisitDate": null,
       "notes": "User explicitly ruled out a previous visit; no past pub experience, date or reservation inferred. Grade II listing is heritage recognition, not a culinary award."
+    },
+    {
+      "id": "want-to-visit-granta-cambridge",
+      "candidateId": "candidate-cambridge-granta-newnham-terrace",
+      "name": "The Granta (Cambridge)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "14 Newnham Terrace",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.greeneking.co.uk/pubs/cambridgeshire/granta",
+      "guideUrl": null,
+      "userNote": "I'd like to visit The Granta.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "The Granta (Newnham Terrace) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only; no actual visit, booking, meal or drink. CAMRA Most Improved City Pub 2026 is a pub accolade, not Michelin/JBF recognition. Distinct from The Mill, confirmed separately."
     }
   ]
 }
