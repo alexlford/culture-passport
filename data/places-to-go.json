@@ -204,6 +204,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only. CAMRA 2026 Young Members' Pub of the Year is a pub award, not Michelin/JBF; no previous attendance is implied."
+    },
+    {
+      "id": "want-to-visit-champion-of-the-thames-cambridge",
+      "candidateId": "candidate-cambridge-champion-of-the-thames-king-street",
+      "name": "Champion of the Thames (King Street)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "68 King Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1714",
+      "guideUrl": null,
+      "userNote": "I'd like to visit this historic CAMRA-recognized Cambridge pub.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Champion of the Thames (King Street) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Cambridge & District and Cambridgeshire CAMRA 2024 Pub of the Year awards; unvisited at time of request. Pub-specific and not Michelin/JBF culinary recognition."
     }
   ]
 }
