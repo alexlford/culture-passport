@@ -7408,7 +7408,7 @@
       "recognitionYear": 2026,
       "awardFamily": "michelin",
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "addedOn": "2026-10-27",
       "priority": "high",
       "screening": {
@@ -7423,6 +7423,42 @@
         "status": "unreviewed",
         "basis": "michelin_guide_selected_current",
         "reason": "Requires direct attendance confirmation. Restaurant 22 star is not a Margaret's star.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-margarets-cambridge",
+      "wishlistAddedOn": "2026-10-27",
+      "lastInterviewResponse": "Added to want-to-go list without answering past attendance.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct user request on October 27 2026 to add Margaret's at 18 Chesterton Road to future wishlist without assuming prior attendance.",
+      "visitNote": "Future interest confirmed; prior dining attendance remains unanswered. No confirmed experience, no award-watchlist addition."
+    },
+    {
+      "id": "candidate-cambridge-parkers-tavern",
+      "name": "Parker's Tavern",
+      "area": "Cambridge, UK",
+      "addressHint": "University Arms Hotel, Regent Street, Cambridge CB2 1AD",
+      "sourceUrl": "https://www.visitcambridge.org/place/parkers-tavern/",
+      "restaurantUrl": "https://www.marriott.com/en-gb/hotels/cbgak-university-arms-hotel-autograph-collection/dining/",
+      "interviewCue": "Classic British brasserie overlooking Parker's Piece inside University Arms Hotel. Red leather banquettes, stained-glass windows, dark wood, framed historic artwork; reopened with the hotel in July 2018. Has both restaurant and bar, so ask whether the user dined, drank, both, or cannot recall.",
+      "recognition": "No independent Michelin restaurant listing or James Beard award verified. Michelin Guide lists the University Arms as a selected hotel and mentions Parker's Tavern as its restaurant/bar; this is a hotel-level guide reference, not a Michelin restaurant distinction or awarded star.",
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "screening": {
+        "status": "requires_venue_specific_recognition_review",
+        "basis": "michelin_guide_hotel_reference_only",
+        "evidenceUrl": "https://guide.michelin.com/ie/en/hotels-stays/cambridge/university-arms-hotel-10187?viamichelin=1",
+        "sourceTier": "official_michelin_hotel",
+        "verifiedAt": "2026-10-27",
+        "note": "Michelin hotel's editorial listing refers to Parker's Tavern but is not restaurant Selected/Star/Bib recognition. Do not describe the restaurant as Michelin awarded."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "none_verified_at_restaurant_level",
+        "reason": "Interview only. Confirm actual dining vs drink first; then review historical recognition and editorial connections without conflating with hotel award.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8399,28 +8435,29 @@
         "Midsummer House",
         "Fancett's",
         "Vanderlyle",
-        "Mercado Central"
+        "Mercado Central",
+        "Margaret's"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Mercado Central",
-      "nextCandidate": "Margaret's",
+      "lastReviewedCandidate": "Margaret's",
+      "nextCandidate": "Parker's Tavern",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Mercado Central added to future wishlist; prior attendance unreviewed. Next Margaret's, opened 2025 near Restaurant Twenty-Two. Preserve confirmed Cambridge pubs/MillWorks and earlier LA records."
+      "note": "Margaret's added to future wishlist; prior attendance remains unreviewed. Continue at Parker's Tavern (University Arms) with visual venue check. All prior confirmed Cambridge and Los Angeles records preserved."
     }
   },
   "interviewProgress": {
     "currentBatch": {
       "area": "Cambridge, UK",
-      "category": "restaurants",
+      "category": "restaurants and bars",
       "candidateNames": [
-        "Margaret's"
+        "Parker's Tavern"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Margaret's, 18 Chesterton Road, Cambridge (opened June 2025)? Answer visited, maybe, no or future wishlist.",
-      "continuation": "Continue one venue with authentic photographs per turn, then Kansas City 2010–present including Weston, Missouri, and then Baltimore.",
-      "note": "All Cambridge wishlist additions retain unanswered past attendance. Confirmed Eagle/Anchor/Mill pub visits and MillWorks GMI colleague dinner preserved. Prior LA parallel research unchanged."
+      "question": "Did you visit Parker's Tavern at the University Arms Hotel on Regent Street in Cambridge, and if so was it for a meal, drinks, or both? Answer confirmed, maybe, no, or future wishlist.",
+      "continuation": "Continue one venue with photographs per turn, then Kansas City 2010–present including Weston, Missouri, followed by Baltimore.",
+      "note": "Margaret's joins the future wishlist without past attendance assumption. Existing confirmed Cambridge pubs and MillWorks GMI dinner preserved. Current 2026 Michelin restaurant selection does not list Parker's Tavern; hotel entry is not restaurant award evidence."
     },
     "pausedBatches": [
       {
