@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "venue": "The Elm Tree",
+    "address": "16A Orchard Street, Cambridge CB1 1JT",
+    "status": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-elm-tree-cambridge",
+    "provenance": "User requested a future wishlist entry, without any claim about a past visit."
+  },
+  "nextInterview": {
+    "name": "The Wrestlers",
+    "address": "337 Newmarket Road, Cambridge CB5 8JE",
+    "pastAttendance": "unreviewed",
+    "officialSource": "https://thewrestlerspub.com/",
+    "source": "https://camra.org.uk/pubs/wrestlers-cambridge-131327",
+    "question": "Did you visit The Wrestlers for Thai food, drinks, both, maybe, or not at all?"
+  },
+  "futureAudits": [
+    "Kansas City metro and Weston MO (2010–present)",
+    "Baltimore"
+  ]
+}
