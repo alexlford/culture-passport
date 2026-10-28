@@ -563,6 +563,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future intent only; historical attendance unanswered. Do not count a pub, dining or drinks experience, assume the user did not visit previously, or infer a reservation/date."
+    },
+    {
+      "id": "want-to-visit-baron-of-beef-cambridge",
+      "candidateId": "candidate-cambridge-baron-of-beef-bridge-street",
+      "name": "The Baron of Beef",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "19 Bridge Street, Cambridge CB2 1UF",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.greeneking.co.uk/pubs/cambridgeshire/baron-of-beef",
+      "userNote": "Interested in visiting The Baron of Beef on Bridge Street; previous attendance not established.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Baron of Beef at 19 Bridge Street to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future-visit wish only. Past attendance unreviewed, neither confirmed nor denied. Do not create a dining or drinks experience or infer any visit date."
     }
   ]
 }
