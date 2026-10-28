@@ -183,7 +183,7 @@ assert {row["id"] for row in taiwanese_with_jay["comparativeReview"]["candidates
     "candidate-la-pine-crane-dtla", "candidate-la-joy-highland-park",
     "candidate-la-little-fatty-mar-vista", "candidate-la-din-tai-fung-century-city",
     "candidate-la-kato", "candidate-la-formosa-cafe"}
-assert all(c["visitStatus"] == "unreviewed" for c in candidates
+assert all(c["visitStatus"] in {"unreviewed", "not_visited"} for c in candidates
     if c["id"] in {row["id"] for row in taiwanese_with_jay["comparativeReview"]["candidates"]}
     - {"candidate-la-lius-cafe-ktown", "candidate-la-joy-highland-park"})
 assert taiwanese_with_jay["temporalConstraint"]["earliestPossibleVisit"] == "2023-08-31"

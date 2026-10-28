@@ -6266,11 +6266,11 @@
       "recognition": "Two Michelin Stars in June 2026 for the ROW DTLA restaurant; historically one Michelin Star in an earlier location/era. Do not ascribe the later two-star status to the earlier meal.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "visitStatus": "not_visited",
+      "researchStatus": "user_explicitly_not_visited",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "visitNote": "Direct negative answer to Kato prompt showing ROW DTLA and inviting identification of earlier Sawtelle location. No dining experience or future-visit interest inferred.",
       "screening": {
         "status": "verified_michelin_two_stars_2026",
         "basis": "michelin",
@@ -6285,7 +6285,10 @@
         "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "lastInterviewResponse": "Did not visit.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Alex answered 'Nope' to the Kato restaurant interview prompt on October 27, 2026."
     },
     {
       "id": "candidate-la-formosa-cafe",
@@ -7154,7 +7157,7 @@
     "rule": "Research additional real restaurants and historically dated Michelin/James Beard recognition; never infer the user attended.",
     "newCandidateStatus": "unreviewed",
     "confirmOnlyFrom": "explicit direct user answer",
-    "interviewOrder": "Continue remaining LA identity leads with Kato. Pine & Crane Silver Lake is on places-to-go but past attendance is unanswered. Keep both LA chapters active and preserve all tentative identities and visit answers.",
+    "interviewOrder": "Continue LA visual identity leads with The Formosa Cafe after Kato was explicitly ruled out. Keep Joy leading and Liu's secondary, Pine & Crane Silver Lake past attendance unanswered, four places-to-go entries, and both LA research chapters preserved.",
     "sourceRequirement": "Each candidate has a cited real-world source URL and an era-specific memory cue."
   },
   "screeningMethodology": {
@@ -7341,8 +7344,8 @@
         {
           "candidateId": "candidate-la-kato",
           "name": "Kato",
-          "status": "unreviewed",
-          "note": "Expensive, refined Taiwanese-influenced tasting menu from chef Jon Yao, plated courses and minimalist fine dining, not a casual dumpling spot. Former West LA/Sawtelle location before the move to ROW DTLA in 2022."
+          "status": "not_visited",
+          "note": "User explicitly answered Nope to Kato on October 27, 2026; remove as a viable identity for the recalled meal without altering the historical comparison."
         },
         {
           "candidateId": "candidate-la-formosa-cafe",
@@ -7695,7 +7698,7 @@
           "note": "Direct user answer 'Nope' for Mar'sel, October 27, 2026. No named South Bay restaurant is confirmed as visited."
         }
       ],
-      "nextQuestion": "Initial South Bay shortlist screened; research stays open. Current LA photo prompt is Kato, distinguishing ROW DTLA from earlier Sawtelle.",
+      "nextQuestion": "Initial South Bay shortlist screened; broader research stays open. Current LA photo prompt is The Formosa Cafe in West Hollywood.",
       "lastInterviewResponse": "Mar'sel (Terranea Resort) — Did not visit."
     },
     {
@@ -7946,9 +7949,9 @@
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 17,
-      "unreviewed": 6,
+      "unreviewed": 5,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -7964,9 +7967,10 @@
       "liusCafeCandidateStatus": "maybe_user_strong_feeling_not_confirmed_venue",
       "maybeVisited": 2,
       "taiwaneseIdentityStatus": "joy_leading_liu_secondary_both_unconfirmed",
-      "nextCandidate": "Kato",
-      "notVisited": 8,
+      "nextCandidate": "The Formosa Cafe",
+      "notVisited": 9,
       "notVisitedNames": [
+        "Kato",
         "Osteria Mozza",
         "Pizzeria Mozza",
         "Jon & Vinny's (Fairfax)",
@@ -8089,10 +8093,10 @@
       "area": "Los Angeles / West Hollywood",
       "category": "restaurants",
       "candidateNames": [
-        "Kato"
+        "The Formosa Cafe"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Kato, the Taiwanese-influenced tasting-menu restaurant from chef Jon Yao? Current ROW DTLA location: 777 S Alameda Street, Suite 114, with a polished-concrete and wood dining room and elaborate plated courses. Answer visited / maybe / did not visit; if you recall its earlier Sawtelle location, specify that separately.",
+      "question": "Have you eaten at The Formosa Cafe, 7156 Santa Monica Boulevard, West Hollywood? Memory cues: red leather booths, Hollywood photographs, vintage bar and a restored red Pacific Electric trolley car. Answer visited / maybe / did not visit. This is an identification lead; no direct qualifying Michelin/JBF recognition has been verified.",
       "continuation": "Continue the unreviewed West Hollywood-area restaurants one venue at a time with photographs. Preserve five South Bay MAYBE and three NOT VISITED; broader South Bay research and the Taiwanese meal with Jay remain active.",
       "note": "Joy remains the leading possible Taiwanese identity, Liu's Cafe secondary; neither confirmed. No assumed new dining records."
     },
@@ -8250,16 +8254,18 @@
           "Osteria Mozza",
           "Pizzeria Mozza",
           "Jon & Vinny's (Fairfax)",
-          "Somni (West Hollywood)"
+          "Somni (West Hollywood)",
+          "The Formosa Cafe"
         ],
         "visitEvidenceRule": "Joy and Liu's both remain MAYBE and cannot enter confirmed record/watchlist without specific attendance verification; no transfer of Liu's Michelin Bib Gourmand to Joy.",
         "leadIdentificationCandidate": "Joy (Highland Park) — user-favored; Liu's Cafe (Koreatown) secondary",
         "leadConfidence": "Joy is user's current leaning, not a confirmed venue visit",
         "lastComparison": "Liu's Cafe vs 7 Taiwanese/Chinese candidates; no other positive photo recognition yet",
-        "followUpPrompt": "Have you eaten at Kato, the Taiwanese-influenced tasting-menu restaurant from chef Jon Yao? Current ROW DTLA location: 777 S Alameda Street, Suite 114, with a polished-concrete and wood dining room and elaborate plated courses. Answer visited / maybe / did not visit; if you recall its earlier Sawtelle location, specify that separately.",
-        "nextCandidate": "Kato",
-        "lastReviewedCandidate": "Pine & Crane (Silver Lake)",
+        "followUpPrompt": "Have you eaten at The Formosa Cafe, 7156 Santa Monica Boulevard, West Hollywood? Memory cues: red leather booths, Hollywood photographs, vintage bar and a restored red Pacific Electric trolley car. Answer visited / maybe / did not visit. This is an identification lead; no direct qualifying Michelin/JBF recognition has been verified.",
+        "nextCandidate": "The Formosa Cafe",
+        "lastReviewedCandidate": "Kato",
         "notVisitedNames": [
+          "Kato",
           "Osteria Mozza",
           "Pizzeria Mozza",
           "Jon & Vinny's (Fairfax)",
