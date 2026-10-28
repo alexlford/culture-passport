@@ -179,6 +179,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only; no actual visit, booking, meal or drink. CAMRA Most Improved City Pub 2026 is a pub accolade, not Michelin/JBF recognition. Distinct from The Mill, confirmed separately."
+    },
+    {
+      "id": "want-to-visit-cambridge-blue-gwydir-street",
+      "candidateId": "candidate-cambridge-cambridge-blue-gwydir-street",
+      "name": "The Cambridge Blue (Gwydir Street)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "85–87 Gwydir Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://cambridge.pub/the-blue/",
+      "guideUrl": null,
+      "userNote": "I'd like to visit The Cambridge Blue.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "The Cambridge Blue (Gwydir Street) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. CAMRA 2026 Young Members' Pub of the Year is a pub award, not Michelin/JBF; no previous attendance is implied."
     }
   ]
 }
