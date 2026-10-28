@@ -7503,6 +7503,46 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-cambridge-millworks-newnham-road",
+      "name": "MillWorks (The Watermill, Newnham Road)",
+      "area": "Cambridge, UK",
+      "sourceUrl": "https://themillworks.co.uk/",
+      "addressHint": "The Watermill, Newnham Road, Cambridge CB3 9EY, United Kingdom",
+      "interviewCue": "Brick historic watermill restaurant overlooking Cambridge's Mill Pond; restored turning waterwheel visible behind glass, industrial-style dining room, exposed brick, charcoal-oven dishes and riverside terrace. Distinct venue from The Mill pub at 14 Mill Lane.",
+      "recognition": "Cambridge Sustainable Food 2023 Silver Sourcing Award verified from awarding organization's April 21, 2023 announcement. This is local sustainable food sourcing recognition; not a Michelin/JBF culinary award, CAMRA pub award or CAMRA Good Beer Guide selection. No current Michelin Guide listing verified for MillWorks.",
+      "recognitionYear": 2023,
+      "awardFamily": "independent_local_sustainable_food_sourcing",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_direct_user_dining_location",
+      "addedOn": "2026-10-27",
+      "reviewedOn": "2026-10-27",
+      "priority": "confirmed",
+      "lastInterviewResponse": "Visited; ate here.",
+      "reviewSource": "User directly confirmed meal with supplied Apple Maps place link, 2026-10-27.",
+      "confirmedVisitId": "dining-millworks-cambridge-date-unknown",
+      "visitNote": "User says 'I did eat here' at MillWorks, The Watermill, Newnham Road, Cambridge. Distinct from previously confirmed pub The Mill (Mill Lane). Exact meal year, occasion, company and dishes unknown. Award verified separately without asserting award held at time of visit.",
+      "screening": {
+        "status": "confirmed_visit_with_nonqualifying_sustainability_award",
+        "basis": "Cambridge Sustainable Food Silver Sourcing Award 2023; no Michelin/JBF listing verified this pass",
+        "evidenceUrl": "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+        "additionalEvidenceUrls": [
+          "https://themillworks.co.uk/",
+          "https://camra.org.uk/pubs/millworks-cambridge-131366",
+          "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants"
+        ],
+        "sourceTier": "direct_user_plus_awarding_organization_primary",
+        "verifiedAt": "2026-10-27",
+        "note": "CAMRA's standard venue directory does not equal a CAMRA award or Good Beer Guide listing. The Silver Sourcing Award is venue-specific local sustainability recognition, not food-guide selection."
+      },
+      "eligibility": {
+        "status": "archived_pending_qualifying_culinary_recognition",
+        "basis": "sustainable_sourcing_award_not_michelin_jbf",
+        "reason": "Publish only under independent memory/heritage exception after explicit editorial approval; preserve in confirmed dining archive and permanent award watchlist.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -8462,7 +8502,7 @@
       "purpose": "Historical restaurant, historic pub, cocktail bar and other culturally notable venue interview; user previously enjoyed several pubs during a visit to Cambridge while working at RAF Molesworth, but no named venue attendance is established.",
       "period": "To be reconstructed with user, including approximate year(s).",
       "venueDiscovery": "Research operating and closed venues from user's actual travel window, not just current award shortlists. Give photos and one venue at a time; verify any Michelin/JBF historic credentials at the correct venue and period.",
-      "visitEvidenceRule": "The Eagle, The Anchor and The Mill are confirmed direct user visits. The Pickerel Inn and The Granta are not visited with existing future-visit entries. The Maypole is not visited, with NO wishlist request. CAMRA awards are pub awards, distinct from Michelin/JBF.",
+      "visitEvidenceRule": "Three separate Cambridge historic-pub visits (The Eagle, The Anchor and The Mill) and a dining experience at MillWorks, The Watermill, Newnham Road, are directly confirmed. Never conflate MillWorks with The Mill pub or infer a common date, companion, dish, or punting itinerary. Unreviewed Champion of the Thames remains the next scheduled interview.",
       "followUpQuestions": [
         "Approximate year(s) of Cambridge stay or visits?",
         "Which pubs, restaurants, or bars do you recognize in photos?",
@@ -8471,21 +8511,24 @@
       "firstCandidate": "The Eagle (Cambridge, Bene't Street)",
       "nextCandidate": "Champion of the Thames (King Street)",
       "lastUpdatedOn": "2026-10-27",
-      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards. October 27 2026: Pickerel Inn on Magdalene Street definitely NOT VISITED, added to private places-to-go, not a confirmed experience. The Eagle and The Anchor remain confirmed Cambridge historic pub visits; The Mill on Mill Lane queued next with photos and separately attributed CAMRA awards (2018/2019/2020). October 27 2026: Alex directly confirmed visiting The Mill on Mill Lane, independent of The Eagle and Anchor. Save as a historic pub/cultural visit, with CAMRA awards assigned specifically to the pub in 2018, 2019, and 2020, not claimed to be Michelin/JBF recognition or held at time of his undated visit. Next photo interview: The Granta on the other side of Mill Pond, whose 2026 CAMRA recognition is separate. On October 27 2026 The Granta was explicitly marked NOT VISITED and added to future-visit list. The Mill remains independently confirmed, as do The Eagle and The Anchor. Next candidate: The Maypole at Portugal Place, CAMRA 2025/2026 pub awards and historical 2018 Pub of the Year mentioned by pub. No Michelin/JBF qualification inferred. October 27, 2026: The Maypole (Portugal Place) directly screened NOT VISITED, without a future-visit-list request. Preserve confirmed visits to Eagle, Anchor, Mill; keep only Pickerel and Granta on Cambridge wishlists. Next The Cambridge Blue (85–87 Gwydir Street) for photo recognition; 2026 CAMRA Young Members Pub of the Year is pub-specific, not Michelin/JBF. October 27 2026: The Cambridge Blue on Gwydir Street is NOT VISITED and was explicitly added to places-to-go, preserving The Eagle, The Anchor, The Mill as confirmed Cambridge visits, Pickerel and Granta future lists, and all LA statuses. Next historical Cambridge pub is Champion of the Thames at 68 King Street, a CAMRA 2024 branch and county Pub of the Year winner, not a Michelin/JBF venue.",
+      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards. October 27 2026: Pickerel Inn on Magdalene Street definitely NOT VISITED, added to private places-to-go, not a confirmed experience. The Eagle and The Anchor remain confirmed Cambridge historic pub visits; The Mill on Mill Lane queued next with photos and separately attributed CAMRA awards (2018/2019/2020). October 27 2026: Alex directly confirmed visiting The Mill on Mill Lane, independent of The Eagle and Anchor. Save as a historic pub/cultural visit, with CAMRA awards assigned specifically to the pub in 2018, 2019, and 2020, not claimed to be Michelin/JBF recognition or held at time of his undated visit. Next photo interview: The Granta on the other side of Mill Pond, whose 2026 CAMRA recognition is separate. On October 27 2026 The Granta was explicitly marked NOT VISITED and added to future-visit list. The Mill remains independently confirmed, as do The Eagle and The Anchor. Next candidate: The Maypole at Portugal Place, CAMRA 2025/2026 pub awards and historical 2018 Pub of the Year mentioned by pub. No Michelin/JBF qualification inferred. October 27, 2026: The Maypole (Portugal Place) directly screened NOT VISITED, without a future-visit-list request. Preserve confirmed visits to Eagle, Anchor, Mill; keep only Pickerel and Granta on Cambridge wishlists. Next The Cambridge Blue (85–87 Gwydir Street) for photo recognition; 2026 CAMRA Young Members Pub of the Year is pub-specific, not Michelin/JBF. October 27 2026: The Cambridge Blue on Gwydir Street is NOT VISITED and was explicitly added to places-to-go, preserving The Eagle, The Anchor, The Mill as confirmed Cambridge visits, Pickerel and Granta future lists, and all LA statuses. Next historical Cambridge pub is Champion of the Thames at 68 King Street, a CAMRA 2024 branch and county Pub of the Year winner, not a Michelin/JBF venue. October 27 2026: User supplied Apple Maps link to MillWorks at The Watermill, Newnham Road, Cambridge, and directly confirmed 'I did eat here.' Add confirmed restaurant record and private award-watchlist. Distinguish from The Mill pub on Mill Lane, a separately confirmed visit. Independent Cambridge Sustainable Food 2023 Silver Sourcing Award confirmed, not Michelin/JBF or CAMRA. No exact dining date/menu or link to punting established. Preserve Champion of the Thames as next unreviewed Cambridge interview.",
       "confirmedVenueNames": [
         "The Eagle (Cambridge, Bene't Street)",
         "The Anchor (Silver Street, Cambridge)",
-        "The Mill (Mill Lane, Cambridge)"
+        "The Mill (Mill Lane, Cambridge)",
+        "MillWorks (Newnham Road)"
       ],
       "confirmedVenueIds": [
         "venue-eagle-cambridge",
         "venue-anchor-cambridge",
-        "venue-mill-cambridge"
+        "venue-mill-cambridge",
+        "venue-millworks-cambridge-newnham-road"
       ],
       "confirmedExperienceIds": [
         "bar-eagle-cambridge-date-unknown",
         "bar-anchor-cambridge-date-unknown",
-        "bar-mill-cambridge-date-unknown"
+        "bar-mill-cambridge-date-unknown",
+        "dining-millworks-cambridge-date-unknown"
       ],
       "lastReviewedCandidate": "The Cambridge Blue (Gwydir Street)",
       "notVisitedNames": [
@@ -8494,7 +8537,15 @@
         "The Maypole (Portugal Place, Cambridge)",
         "The Cambridge Blue (Gwydir Street)"
       ],
-      "nextCandidateSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1714"
+      "nextCandidateSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1714",
+      "confirmedRestaurantNames": [
+        "MillWorks (The Watermill, Newnham Road)"
+      ],
+      "confirmedPubNames": [
+        "The Eagle (Cambridge, Bene't Street)",
+        "The Anchor (Silver Street, Cambridge)",
+        "The Mill (Mill Lane, Cambridge)"
+      ]
     }
   },
   "interviewProgress": {
@@ -8507,7 +8558,7 @@
       "status": "ready_for_visual_screening",
       "question": "Did you visit the Champion of the Thames at 68 King Street, a small cream-and-wood-trim pub with green door, etched rowing windows, two wood-panelled Victorian bars? Answer visited / maybe / did not visit / future-visit list.",
       "continuation": "Continue Cambridge historic pubs and restaurants one at a time with photographs; after Cambridge revisit Kansas City 2010–present, then Baltimore. Preserve every confirmed, maybe, negative and wishlist response.",
-      "note": "Cambridge Blue definitely not visited, added to wishlist; Eagle, Anchor and Mill remain confirmed, Pickerel and Granta remain future only. CAMRA awards distinct from Michelin/JBF."
+      "note": "Cambridge Blue definitely not visited, added to wishlist; Eagle, Anchor and Mill remain confirmed, Pickerel and Granta remain future only. CAMRA awards distinct from Michelin/JBF. User-initiated MillWorks restaurant meal confirmed and archived separately from The Mill pub; next question still Champion of the Thames."
     },
     "pausedBatches": [
       {
