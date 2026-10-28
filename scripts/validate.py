@@ -775,7 +775,10 @@ assert archive_only_names.issubset({w["venueName"] for w in watch_entries})
 expanded = json.loads((ROOT / "data/expanded-recognition-audit-2026-10-27.json").read_text(encoding="utf-8"))
 assert expanded["schemaVersion"] == 1 and expanded["classification"] == "private_research"
 expanded_rows = expanded["confirmedRestaurants"]
-assert len(expanded_rows) == expanded["scope"]["restaurantEntriesReviewed"]
+assert len(expanded_rows) == expanded["scope"]["restaurantEntriesTracked"]
+pending_recognition_reviews = sum(r.get("recognitionReviewStatus") == "pending" for r in expanded_rows)
+assert pending_recognition_reviews == expanded["scope"]["restaurantEntriesPendingRecognitionReview"]
+assert len(expanded_rows) == expanded["scope"]["restaurantEntriesReviewed"] + pending_recognition_reviews
 assert len({(r["venueId"] or "archive:"+r["restaurantName"]) for r in expanded_rows}) == len(expanded_rows)
 confirmed_dining_venue_ids = {r["venueId"] for r in records if r["type"] == "dining" and r["status"] == "confirmed"}
 assert confirmed_dining_venue_ids == {r["venueId"] for r in expanded_rows if r["venueId"]}

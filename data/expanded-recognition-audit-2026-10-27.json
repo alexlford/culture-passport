@@ -5,11 +5,13 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 49,
+    "restaurantEntriesReviewed": 46,
     "canonicalDistinctVenues": 44,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
-    "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews."
+    "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
+    "restaurantEntriesTracked": 49,
+    "restaurantEntriesPendingRecognitionReview": 3
   },
   "rules": {
     "formal_michelin_jbf_recognition": "Actual Michelin Star, Bib Gourmand, Selected/Recommended, historical Plate or Michelin restaurant-linked special award, or James Beard semifinalist/finalist/winner tied to named restaurant/chef at that venue, with year, tier and primary source. Only this sets editorial.awardQualified=true.",
