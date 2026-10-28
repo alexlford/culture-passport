@@ -346,6 +346,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only. Past attendance unreviewed; not marked visited or not visited. Opened June 2025, and no trip date or confirmed meal is inferred."
+    },
+    {
+      "id": "want-to-visit-cambridge-chop-house",
+      "candidateId": "candidate-cambridge-chop-house",
+      "name": "The Cambridge Chop House",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "1 King's Parade, Cambridge CB2 1SJ",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://cambridgechophouse.co.uk/",
+      "userNote": "Add The Cambridge Chop House to my private future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Culture Passport Cambridge: Add The Cambridge Chop House to my private future-visit wishlist without assuming past attendance. Continue with the next venue and photos."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. Prior attendance is unreviewed; no confirmed dining experience or award-watchlist entry, reservation, or planned date implied. Venue is distinct from MillWorks although they share a restaurant group."
     }
   ]
 }
