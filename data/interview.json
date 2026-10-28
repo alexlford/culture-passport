@@ -6712,28 +6712,30 @@
       "recognition": "Michelin-starred Sushi Inaba. Michelin Star originally awarded in 2021 during earlier Manhattan Beach era; independently listed at 20918 Hawthorne Blvd Torrance in the current Michelin Guide (2026). Compare recognition to actual venue/date; do not assume a prior Manhattan Beach meal took place at the Torrance branch.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "visitStatus": "maybe",
+      "researchStatus": "user_maybe_visited_specific_omakase_identity_and_branch_not_confirmed",
       "addedOn": "2026-10-27",
       "priority": "secondary",
-      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "visitNote": "October 27, 2026: Alex answered Sushi Inaba — Maybe visited. Preserve as uncertain, not a verified personal meal. No proof of dining at the private Torrance omakase counter, the original Manhattan Beach location, or the larger I-naba sister restaurant; do not conflate those identities or infer meal date. Michelin star belongs to the named Sushi Inaba establishment in the relevant edition and is independent of user's attendance.",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
         "evidenceUrl": "https://guide.michelin.com/us/en/california/torrance/restaurant/sushi-i-naba",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "Michelin Guide identifies Sushi Inaba by name at 20918 Hawthorne Blvd Torrance; original site was in Manhattan Beach, moved to Torrance in 2022. The starred tasting counter is inside sister I-naba (distinct from regular I-naba). User attendance is not established. Source: https://guide.michelin.com/us/en/california/torrance/restaurant/sushi-i-naba ; https://www.latimes.com/food/list/the-best-sushi-bars-in-los-angeles ; https://www.sushiinabamanhattanbeach.com/contact"
+        "note": "Michelin Guide identifies Sushi Inaba by name at 20918 Hawthorne Blvd Torrance; original site was in Manhattan Beach, moved to Torrance in 2022. The starred tasting counter is inside sister I-naba (distinct from regular I-naba). User attendance is not established. Source: https://guide.michelin.com/us/en/california/torrance/restaurant/sushi-i-naba ; https://www.latimes.com/food/list/the-best-sushi-bars-in-los-angeles ; https://www.sushiinabamanhattanbeach.com/contact User said MAYBE visited, October 27 2026. Do not borrow this establishment's Michelin star as user-visit proof or assume which branch/restaurant he ate at."
       },
       "eligibility": {
         "status": "unreviewed",
         "basis": "michelin_guide_listing",
-        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "reason": "Michelin-starred Sushi Inaba is independently recognized, but Alex says MAYBE visited. The specific Torrance branch and starred omakase counter remain unconfirmed as personally attended; no canonical record, award-watchlist entry, or public experience should be created.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "venueCity": "Torrance",
-      "openedYear": null
+      "openedYear": null,
+      "lastInterviewResponse": "Maybe visited.",
+      "lastReviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-space-park-vin-folk",
@@ -6741,32 +6743,32 @@
       "area": "South Bay / Space Park",
       "sourceUrl": "https://guide.michelin.com/us/en/california/hermosa-beach/restaurant/vin-folk",
       "addressHint": "1501 Hermosa Avenue, Hermosa Beach, CA 90254",
-      "interviewCue": "Small warmly lit contemporary Californian chef-led bistro, open kitchen, tasting menu and veranda; opened 2025, so only possible for recent visits.",
-      "recognition": "Current Michelin Guide Selected restaurant, not a Star; new Hermosa Beach restaurant covered in 2025 LA Times review. Do not propose as an actual place visited on earlier trips.",
-      "recognitionYear": 2026,
+      "interviewCue": "Vin Folk opened November 2024 at 1501 Hermosa Ave in Hermosa Beach, occupying former Chef Melba's Bistro. Tiny approximately 45-seat warm wood dining room, bentwood café chairs, open kitchen with counter and pendant lighting, red/terracotta ceiling, sidewalk veranda seating. Chef-led modern Californian bistro from Kevin De Los Santos and Katya Shastova. Signature mussels tart in puff pastry, chili crab with risotto, half Jidori chicken, creative tasting courses, low-intervention wine. Crucial: no visit before November 2024 is possible; currently Michelin Bib Gourmand since 2025.",
+      "recognition": "2025 and 2026 Michelin Bib Gourmand (not just Guide Selected) for 1501 Hermosa Ave, Hermosa Beach. The restaurant quietly opened November 2024; its chef-owners Kevin De Los Santos and Katya Shastova are former Somni/Vespertine/Maude staff but those prior venues' Michelin Stars do not transfer.",
+      "recognitionYear": 2025,
       "awardFamily": "michelin",
       "visitStatus": "unreviewed",
       "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "visitNote": "Michelin Bib Gourmand 2025 and 2026. Opened November 2024, so relevant only to more recent visits around Space Park. User has not yet reviewed the restaurant and no dining attendance is inferred from its Michelin recognition, operator history or campus proximity.",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
-        "evidenceUrl": "https://guide.michelin.com/us/en/california/hermosa-beach/restaurant/vin-folk",
+        "evidenceUrl": "https://guide.michelin.com/ca/en/article/michelin-guide-ceremony/michelin-guide-california-bib-gourmand-2025",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide Selected restaurant, not a Star; new Hermosa Beach restaurant covered in 2025 LA Times review. Do not propose as an actual place visited on earlier trips."
+        "note": "Official 2025 Michelin Bib Gourmand announcement explicitly identifies Vin Folk in Hermosa Beach. Official 2026 Michelin full Bib list retains the address. Current Guide recognition must not be assumed at any unknown user meal year; opened November 2024 (Time Out 2025-03-17). No personal attendance established."
       },
       "eligibility": {
         "status": "unreviewed",
-        "basis": "michelin_guide_listing",
-        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "basis": "michelin_bib_gourmand_2025_2026",
+        "reason": "2025 and 2026 Michelin Bib Gourmand verified for this branch, but the user has not yet answered whether he ate here. Don't publish a named visit without an explicit confirmation, and do not infer dates before opening.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "venueCity": "Hermosa Beach",
-      "openedYear": 2025
+      "openedYear": 2024
     },
     {
       "id": "candidate-space-park-sushi-sonagi",
@@ -7466,7 +7468,7 @@
         "Rancho Palos Verdes"
       ],
       "source": "User directly stated October 27, 2026 that he has eaten at many restaurants around the Northrop Grumman Space Park campus in LA.",
-      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit. On October 27, 2026 Alex also marked Fishing with Dynamite maybe visited. Manhattan Beach Post and Fishing with Dynamite are now both uncertain visit candidates, with no actual dining record for either. Next is RYLA in Hermosa Beach, opened in 2022. Its chefs' work histories at M.B. Post and Fishing with Dynamite are not evidence the user ate at any of them. RYLA: user responded MAYBE on Oct 27 2026; Manhattan Beach Post, Fishing with Dynamite and RYLA are all uncertain named visit leads. Sushi Inaba (Torrance) is next, still unreviewed. Sushi Inaba starred omakase counter within I-naba is distinct from sister restaurant's regular service; first site in Manhattan Beach before move to Torrance in 2022.",
+      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit. On October 27, 2026 Alex also marked Fishing with Dynamite maybe visited. Manhattan Beach Post and Fishing with Dynamite are now both uncertain visit candidates, with no actual dining record for either. Next is RYLA in Hermosa Beach, opened in 2022. Its chefs' work histories at M.B. Post and Fishing with Dynamite are not evidence the user ate at any of them. RYLA: user responded MAYBE on Oct 27 2026; Manhattan Beach Post, Fishing with Dynamite and RYLA are all uncertain named visit leads. Sushi Inaba (Torrance) is next, still unreviewed. Sushi Inaba starred omakase counter within I-naba is distinct from sister restaurant's regular service; first site in Manhattan Beach before move to Torrance in 2022. Sushi Inaba (Torrance): maybe, not a confirmed meal; original Manhattan Beach Sushi Inaba and larger I-naba sister restaurant not assumed. Vin Folk now next: officially 2025/2026 Michelin Bib Gourmand; quietly opened Nov 2024 (Time Out 2025-03-17). No venue-specific dining proof for Vin Folk yet.",
       "publishAsExperience": false,
       "visitStatus": "unidentified",
       "identificationCandidates": [
@@ -7504,17 +7506,20 @@
           "candidateId": "candidate-space-park-sushi-inaba-torrance",
           "name": "Sushi Inaba (Torrance)",
           "city": "Torrance",
-          "status": "unreviewed",
+          "status": "maybe",
           "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
-          "openingYear": null
+          "openingYear": null,
+          "lastInterviewResponse": "Maybe visited.",
+          "note": "Direct user response October 27 2026: Sushi Inaba maybe visited; exact branch and whether the user ate at the starred omakase counter vs larger I-naba remain unverified. No confirmed meal."
         },
         {
           "candidateId": "candidate-space-park-vin-folk",
           "name": "Vin Folk",
           "city": "Hermosa Beach",
           "status": "unreviewed",
-          "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
-          "openingYear": 2025
+          "recognitionStatus": "Michelin Bib Gourmand 2025 and 2026, official Michelin sources",
+          "openingYear": 2024,
+          "note": "Only possible after Vin Folk's November 2024 opening; no user attendance response yet."
         },
         {
           "candidateId": "candidate-space-park-sushi-sonagi",
@@ -7541,8 +7546,8 @@
           "openingYear": null
         }
       ],
-      "nextQuestion": "Sushi Inaba (Torrance), 20918 Hawthorne Boulevard: did you eat at Chef Yasuhiro Hirano's tiny private sushi omakase counter tucked behind a door inside I-naba, with a lengthy prix-fixe sequence? Answer Yes, Maybe, or No. If you recall Sushi Inaba in Manhattan Beach before the 2022 move, identify that older location instead.",
-      "lastInterviewResponse": "RYLA in Hermosa Beach — Maybe visited."
+      "nextQuestion": "Vin Folk at 1501 Hermosa Ave opened November 2024. Did you dine there after opening? Its compact open-kitchen room has warm wood tables, red ceiling and bentwood chairs. Mussels puff pastry tart and chili-crab risotto are distinctive food clues; indoor tasting versus veranda à la carte. Visited, Maybe, or No?",
+      "lastInterviewResponse": "Sushi Inaba — Maybe visited."
     }
   ],
   "interviewChapters": {
@@ -7777,39 +7782,53 @@
         "Sweet Rice",
         "Mar'sel"
       ],
-      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved.",
+      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved.Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active. RYLA marked MAYBE (not confirmed) 2026-10-27. Three South Bay maybe leads remain outside canonical personal experiences; Sushi Inaba Torrance is next and unreviewed. Original Sushi Inaba operated in Manhattan Beach, moved to Torrance 2022; distinguish private omakase from regular I-naba. Parallel West Hollywood and Joy-leading / Liu-secondary research preserved. October 27: user answered MAYBE to Sushi Inaba as well; all first four South Bay venues are uncertain rather than confirmed. Vin Folk is now next with Michelin BIB Gourmand (2025–26) from original 1501 Hermosa Ave branch, not just Selected; opened November 2024. Joy remains primary and Liu's secondary unknown Taiwanese venue; West Hollywood search continues parallel.",
       "maybeVisitedNames": [
         "Manhattan Beach Post",
         "Fishing with Dynamite",
-        "RYLA"
+        "RYLA",
+        "Sushi Inaba (Torrance)"
       ],
-      "maybeVisitedCandidates": 3,
-      "unreviewedCandidates": 5,
-      "lastReviewedCandidate": "RYLA",
-      "nextCandidate": "Sushi Inaba (Torrance)",
+      "maybeVisitedCandidates": 4,
+      "unreviewedCandidates": 4,
+      "lastReviewedCandidate": "Sushi Inaba (Torrance)",
+      "nextCandidate": "Vin Folk",
       "firstBatchProgress": {
         "answered": [
           {
             "name": "Manhattan Beach Post",
             "status": "maybe",
             "date": "2026-10-27",
-            "source": "Direct user reply; dining visit not confirmed"
+            "source": "Explicit user answer: tentative visit, not confirmed attendance"
           },
           {
             "name": "Fishing with Dynamite",
             "status": "maybe",
             "date": "2026-10-27",
-            "source": "Direct user reply; dining visit not confirmed"
+            "source": "Explicit user answer: tentative visit, not confirmed attendance"
           },
           {
             "name": "RYLA",
             "status": "maybe",
             "date": "2026-10-27",
-            "source": "Direct user reply; dining visit not confirmed"
+            "source": "Explicit user answer: tentative visit, not confirmed attendance"
+          },
+          {
+            "name": "Sushi Inaba (Torrance)",
+            "status": "maybe",
+            "date": "2026-10-27",
+            "source": "Explicit user answer: tentative visit, not confirmed attendance"
           }
         ],
+        "remaining": []
+      },
+      "secondBatchProgress": {
+        "answered": [],
         "remaining": [
-          "Sushi Inaba (Torrance)"
+          "Vin Folk",
+          "Sushi Sonagi",
+          "Sweet Rice",
+          "Mar'sel"
         ]
       }
     }
@@ -7819,12 +7838,15 @@
       "area": "South Bay / Space Park",
       "category": "restaurants",
       "candidateNames": [
-        "Sushi Inaba (Torrance)"
+        "Vin Folk",
+        "Sushi Sonagi",
+        "Sweet Rice",
+        "Mar'sel"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Sushi Inaba (Torrance): did you actually dine at the secluded chef-led omakase counter inside I-naba, 20918 Hawthorne Blvd? Visited, Maybe, or No. Did you instead visit the original Manhattan Beach location before 2022?",
-      "continuation": "After Sushi Inaba, continue Vin Folk (2025+), Sushi Sonagi, Sweet Rice, and Mar'sel. Preserve first three maybe responses.",
-      "note": "RYLA, Fishing with Dynamite, and Manhattan Beach Post are maybe only. West Hollywood research remains active, Joy probable before Liu's, neither confirmed."
+      "question": "Vin Folk (1501 Hermosa Avenue) opened November 2024. Do you recall dining in its small chef-led open-kitchen bistro with a warm red ceiling, or on the Veranda? Answer yes/maybe/no; only later Space Park trips could match.",
+      "continuation": "Continue Sushi Sonagi, Sweet Rice, then Mar'sel. Keep all four previous South Bay candidates as MAYBE and none as confirmed.",
+      "note": "Michelin Bib Gourmand recognition independently verified for Vin Folk in 2025 and 2026. User has not answered Vin Folk. West Hollywood remains parallel-active; Joy favoured over Liu's, neither confirmed."
     },
     "pausedBatches": [
       {
@@ -8008,31 +8030,45 @@
               "name": "Manhattan Beach Post",
               "status": "maybe",
               "date": "2026-10-27",
-              "source": "Direct user reply; dining visit not confirmed"
+              "source": "Explicit user answer: tentative visit, not confirmed attendance"
             },
             {
               "name": "Fishing with Dynamite",
               "status": "maybe",
               "date": "2026-10-27",
-              "source": "Direct user reply; dining visit not confirmed"
+              "source": "Explicit user answer: tentative visit, not confirmed attendance"
             },
             {
               "name": "RYLA",
               "status": "maybe",
               "date": "2026-10-27",
-              "source": "Direct user reply; dining visit not confirmed"
+              "source": "Explicit user answer: tentative visit, not confirmed attendance"
+            },
+            {
+              "name": "Sushi Inaba (Torrance)",
+              "status": "maybe",
+              "date": "2026-10-27",
+              "source": "Explicit user answer: tentative visit, not confirmed attendance"
             }
           ],
-          "remaining": [
-            "Sushi Inaba (Torrance)"
-          ]
+          "remaining": []
         },
         "maybeVisitedNames": [
           "Manhattan Beach Post",
           "Fishing with Dynamite",
-          "RYLA"
+          "RYLA",
+          "Sushi Inaba (Torrance)"
         ],
-        "nextCandidate": "Sushi Inaba (Torrance)"
+        "nextCandidate": "Vin Folk",
+        "secondBatchProgress": {
+          "answered": [],
+          "remaining": [
+            "Vin Folk",
+            "Sushi Sonagi",
+            "Sweet Rice",
+            "Mar'sel"
+          ]
+        }
       }
     ]
   }
