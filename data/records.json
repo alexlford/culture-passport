@@ -1197,6 +1197,17 @@
       "location": null,
       "sourceId": "millworks-cambridge",
       "locationAttribution": "Exact venue confirmed by user; venue address independently verified, no GPS visit track or exact date inferred."
+    },
+    {
+      "id": "venue-parkers-tavern-cambridge",
+      "name": "Parker's Tavern",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "University Arms Hotel, Regent Street, Cambridge CB2 1AD",
+      "location": null,
+      "sourceId": "parkers-tavern-cambridge",
+      "locationAttribution": "User confirmed Parker's Tavern and a separate stay at its host hotel, University Arms. Precise date, hotel room, guest list, and visit count unrecorded."
     }
   ],
   "records": [
@@ -6297,6 +6308,132 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation"
+      }
+    },
+    {
+      "id": "dining-parkers-tavern-cambridge-date-unknown",
+      "type": "dining",
+      "title": "Parker's Tavern",
+      "venueId": "venue-parkers-tavern-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "Michelin's hotel listing for University Arms is not evidence that Parker's Tavern holds a Michelin restaurant selection, star, or Bib Gourmand. Formal venue-specific restaurant recognition remains unverified."
+      },
+      "sourceUrl": "https://parkerstavern.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Record confirmed dining and drinks at this venue. Do not infer venue-specific Michelin/JBF recognition from hotel's listing."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Visit directly confirmed; restaurant-level award or guide recognition not verified. Keep in permanent watchlist.",
+        "evidenceUrls": [
+          "https://parkerstavern.com/",
+          "https://universityarms.com/eat-and-drink/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
+      },
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Cambridge stay at University Arms · date unknown",
+        "source": "User directly confirmed visiting Parker's Tavern for both dining and drinks and staying at University Arms on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_dining_and_drinks_same_venue",
+        "stayContextId": "cambridge-parkers-tavern-university-arms-stay-undated",
+        "stayHotel": "University Arms Hotel",
+        "stayHotelAddress": "University Arms Hotel, Regent Street, Cambridge CB2 1AD",
+        "hotelStayConfirmed": true,
+        "hotelStayDate": null,
+        "hotelNights": null,
+        "visitPurpose": "dining",
+        "relatedExperienceId": "bar-parkers-tavern-cambridge-date-unknown",
+        "sharedVisitContext": "cambridge-parkers-tavern-university-arms-stay-undated"
+      },
+      "summary": "Confirmed meal at Parker's Tavern at University Arms in Cambridge, with drinks also confirmed at the venue. User additionally stayed at the hotel; dates, companions, courses and stay length remain unknown.",
+      "memory": {
+        "headline": "Dinner and drinks while staying at University Arms",
+        "teaser": "A confirmed visit for both dining and drinks at Parker's Tavern during a stay at University Arms.",
+        "story": "I stayed at the University Arms in Cambridge and visited Parker's Tavern for both food and drinks. I haven't yet pinned down the visit date or specific dishes, cocktails, or companions.",
+        "period": "Cambridge visit; date unknown",
+        "source": "Direct user confirmation on 2026-10-27. The hotel stay is a separately confirmed lodging fact, not a second dining visit."
+      }
+    },
+    {
+      "id": "bar-parkers-tavern-cambridge-date-unknown",
+      "type": "bar",
+      "title": "Parker's Tavern Bar",
+      "venueId": "venue-parkers-tavern-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "Michelin's hotel listing for University Arms is not evidence that Parker's Tavern holds a Michelin restaurant selection, star, or Bib Gourmand. Formal venue-specific restaurant recognition remains unverified."
+      },
+      "sourceUrl": "https://parkerstavern.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Record confirmed dining and drinks at this venue. Do not infer venue-specific Michelin/JBF recognition from hotel's listing."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Visit directly confirmed; restaurant-level award or guide recognition not verified. Keep in permanent watchlist.",
+        "evidenceUrls": [
+          "https://parkerstavern.com/",
+          "https://universityarms.com/eat-and-drink/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
+      },
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Cambridge stay at University Arms · date unknown",
+        "source": "User directly confirmed visiting Parker's Tavern for both dining and drinks and staying at University Arms on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_dining_and_drinks_same_venue",
+        "stayContextId": "cambridge-parkers-tavern-university-arms-stay-undated",
+        "stayHotel": "University Arms Hotel",
+        "stayHotelAddress": "University Arms Hotel, Regent Street, Cambridge CB2 1AD",
+        "hotelStayConfirmed": true,
+        "hotelStayDate": null,
+        "hotelNights": null,
+        "visitPurpose": "drinks",
+        "relatedExperienceId": "dining-parkers-tavern-cambridge-date-unknown",
+        "sharedVisitContext": "cambridge-parkers-tavern-university-arms-stay-undated"
+      },
+      "summary": "Confirmed drinks at the Parker's Tavern bar at University Arms, Cambridge, alongside a separately categorized meal at the same venue. No drink orders or exact date stated.",
+      "memory": {
+        "headline": "Drinks at Parker's Tavern",
+        "teaser": "Drinks at the University Arms hotel bar in Cambridge.",
+        "story": "I had drinks at Parker's Tavern while staying at University Arms. This is the bar side of a visit that also included dining; the date, drink orders, and company are still open.",
+        "period": "Cambridge visit; date unknown",
+        "source": "Direct user confirmation on 2026-10-27. This bar entry is linked to the dining entry and hotel stay to avoid treating the common venue as unrelated visits."
       }
     }
   ],
