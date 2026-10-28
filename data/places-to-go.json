@@ -229,6 +229,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Cambridge & District and Cambridgeshire CAMRA 2024 Pub of the Year awards; unvisited at time of request. Pub-specific and not Michelin/JBF culinary recognition."
+    },
+    {
+      "id": "want-to-visit-restaurant-twenty-two-cambridge",
+      "candidateId": "candidate-cambridge-restaurant-twenty-two-chesterton-road",
+      "name": "Restaurant Twenty-Two (Cambridge)",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "22 Chesterton Road",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.restaurant22.co.uk/",
+      "guideUrl": "https://guide.michelin.com/us/en/cambridgeshire/cambridge/restaurant/restaurant-22",
+      "userNote": "I'd like to visit Restaurant Twenty-Two.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Restaurant Twenty-Two (22 Chesterton Road) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only, not confirmed attendance. Michelin starred since 2023; award date is not user's visit date. Distinct from The Mill pub and MillWorks restaurant."
     }
   ]
 }
