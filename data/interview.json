@@ -7332,7 +7332,7 @@
       "recognitionYear": 2026,
       "awardFamily": "michelin",
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "addedOn": "2026-10-27",
       "priority": "high",
       "screening": {
@@ -7347,6 +7347,44 @@
         "status": "unreviewed",
         "basis": "michelin_guide_selected_current",
         "reason": "Direct diner confirmation required before creating canonical dining record or publishing an experience.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-vanderlyle-cambridge",
+      "wishlistAddedOn": "2026-10-27",
+      "lastInterviewResponse": "Requested addition to future-visit wishlist; did not answer past attendance.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct 2026-10-27 user request to add to want-to-go list without assuming past attendance.",
+      "visitNote": "Explicit future wish, past attendance unknown. No confirmed visit or restaurant-award-watchlist entry."
+    },
+    {
+      "id": "candidate-cambridge-mercado-central",
+      "name": "Mercado Central",
+      "area": "Cambridge, UK",
+      "addressHint": "24 Green Street, Cambridge CB2 3JX, United Kingdom",
+      "sourceUrl": "https://guide.michelin.com/en/cambridgeshire/cambridge/restaurant/mercado-central",
+      "restaurantUrl": "https://mercadocentral.co.uk/",
+      "interviewCue": "Spanish/Galician/Basque restaurant in a historic townhouse on Green Street near Trinity College; busy ground-floor open-flame kitchen and quieter upstairs dining room, Iberian pork and seafood, Spanish wines. Open during 2020s. Visual visit identification prompt.",
+      "recognition": "Michelin Guide Selected / recommended restaurant as verified from current official Cambridge list, not Michelin-starred.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "screening": {
+        "status": "award_qualified_if_confirmed",
+        "basis": "michelin_guide_selected",
+        "evidenceUrl": "https://guide.michelin.com/en/cambridgeshire/cambridge/restaurant/mercado-central",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Current official Guide restaurant entry as selected/recommended. Not a Star or evidence of the user's dining. Historic restaurant distinction at date of any meal not assumed."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_selected_current",
+        "reason": "Requires direct attendance confirmation before experience, publication, or personal awards entry.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8321,15 +8359,16 @@
         "The Cambridge Blue",
         "Restaurant Twenty-Two",
         "Midsummer House",
-        "Fancett's"
+        "Fancett's",
+        "Vanderlyle"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Fancett's",
-      "nextCandidate": "Vanderlyle",
+      "lastReviewedCandidate": "Vanderlyle",
+      "nextCandidate": "Mercado Central",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Fancett's added to future wishlist without assuming prior attendance. Cambridge interview continues with one venue and real photographs at a time. Prior confirms and LA records preserved."
+      "note": "Vanderlyle added as a future wish; past attendance explicitly remains unreviewed. Cambridge one-by-one venue interview continuing; LA, Kansas City and Baltimore progress retained."
     }
   },
   "interviewProgress": {
@@ -8337,12 +8376,12 @@
       "area": "Cambridge, UK",
       "category": "restaurants",
       "candidateNames": [
-        "Vanderlyle"
+        "Mercado Central"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Vanderlyle, 38–40 Mill Road, Cambridge? Answer visited, maybe, did not visit, or add to future wishlist.",
-      "continuation": "Continue Cambridge one venue per photographed question. Then historical Kansas City 2010–present including Weston, Missouri; then Baltimore.",
-      "note": "Fancett's and Midsummer House are on future wishlists, with past attendance unreviewed. Confirmed Cambridge pubs, MillWorks GMI colleague meal, and all Los Angeles research stay intact."
+      "question": "Have you eaten at Mercado Central, 24 Green Street, Cambridge? Answer yes, maybe, no, or future wishlist.",
+      "continuation": "One Cambridge venue with photos per turn. Then historical Kansas City audit 2010–present including Weston, Missouri, followed by Baltimore.",
+      "note": "Preserve confirmed Eagle/Anchor/Mill pub visits and MillWorks GMI colleague dinner; keep Restaurant Twenty-Two, Midsummer House, Fancett's and Vanderlyle wishlist entries distinct from actual past visits. Preserve full Los Angeles prior records."
     },
     "pausedBatches": [
       {
