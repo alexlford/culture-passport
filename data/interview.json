@@ -7308,11 +7308,11 @@
       "recognition": "CAMRA Cambridge & District Young Members' Pub of the Year 2018 and Dog Friendly Pub of the Year 2019 and 2020, per CAMRA branch. Grade II listed riverside pub. These are real ale/public house or heritage distinctions; not Michelin Guide or James Beard culinary awards.",
       "recognitionYear": 2018,
       "awardFamily": "camra_historic_pub",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historic_riverside_pub_visual_interview_lead",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_direct_user_visit_historic_pub",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "Unconfirmed Cambridge pub lead. User recalls punting on River Cam during trip and other named pub visits, but none establishes attendance at The Mill. Ask one venue at a time.",
+      "visitNote": "User directly confirmed visiting The Mill at 14 Mill Lane, Cambridge. Exact date, visit year, order of visits, drinks, food, companions and use of the riverside area remain unknown. Historic Grade II building and Cambridge CAMRA branch awards (Young Members Pub of the Year 2018, Dog Friendly 2019 and 2020) are *pub* and heritage distinctions, not Michelin Guide or James Beard awards. Recognition years do not establish a visit year.",
       "screening": {
         "status": "camra_pub_recognition_verified_not_michelin_jbf",
         "basis": "historic_riverside_pub_and_CAMRA_awards",
@@ -7325,6 +7325,41 @@
         "status": "unverified_awaits_attendance",
         "basis": "camra_pub_awards_separate_from_culinary_awards",
         "reason": "Only promote to confirmed cultural pub record after direct user venue identification. Keep historically appropriate award years and categories.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "lastInterviewResponse": "Visited",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct user statement: Culture Passport Cambridge UK interview: The Mill (Mill Lane) — Visited.",
+      "confirmedVisitId": "bar-mill-cambridge-date-unknown"
+    },
+    {
+      "id": "candidate-cambridge-granta-newnham-terrace",
+      "name": "The Granta (Newnham Terrace, Cambridge)",
+      "area": "Cambridge, UK",
+      "sourceUrl": "https://www.greeneking.co.uk/pubs/cambridgeshire/granta",
+      "addressHint": "14 Newnham Terrace, Cambridge CB3 9EX, United Kingdom",
+      "interviewCue": "Riverside two-story stone and brick pub on Newnham Terrace across from Mill Pond, with a raised waterfront verandah, green umbrellas, and wooden punts moored at the water just below. Dining room has blue-green upholstery, framed art and timber flooring. This is a separate pub from The Mill across the water.",
+      "recognition": "Cambridge & District CAMRA branch awarded The Granta 'Most Improved City Pub' in 2026. This is a CAMRA pub distinction, NOT a Michelin or James Beard restaurant award. User's visit date, if any, would have to be assessed separately from 2026 award date.",
+      "recognitionYear": 2026,
+      "awardFamily": "camra_pub_award",
+      "visitStatus": "unreviewed",
+      "researchStatus": "cambridge_historic_riverside_pub_candidate",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User confirmed The Mill and The Anchor in Cambridge and previously steered a punt, but has not confirmed visiting The Granta. Nearby punting facilities are a location clue, not evidence of attendance.",
+      "screening": {
+        "status": "official_CAMRA_pub_award_separate_from_michelin_jbf",
+        "basis": "Cambridge District Most Improved City Pub 2026",
+        "evidenceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1741",
+        "sourceTier": "CAMRA_branch_primary",
+        "verifiedAt": "2026-10-27",
+        "note": "CAMRA awards are recorded as pub recognition only. Official operator identifies 14 Newnham Terrace, CB3 9EX. No Michelin/JBF culinary recognition asserted."
+      },
+      "eligibility": {
+        "status": "unverified_awaiting_attendance",
+        "basis": "CAMRA_pub_award_not_culinary",
+        "reason": "Ask direct user to verify attendance; retain award as historical pub accolade, not a culinary Michelin/JBF distinction.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8287,29 +8322,32 @@
       "purpose": "Historical restaurant, historic pub, cocktail bar and other culturally notable venue interview; user previously enjoyed several pubs during a visit to Cambridge while working at RAF Molesworth, but no named venue attendance is established.",
       "period": "To be reconstructed with user, including approximate year(s).",
       "venueDiscovery": "Research operating and closed venues from user's actual travel window, not just current award shortlists. Give photos and one venue at a time; verify any Michelin/JBF historic credentials at the correct venue and period.",
-      "visitEvidenceRule": "The Eagle and The Anchor are independently confirmed visits through direct user statements; no other Cambridge pub is confirmed. Never infer activities, companions, meals, or exact visit dates or venue-specific Michelin/JBF recognition from attendance.",
+      "visitEvidenceRule": "The Eagle, The Anchor, and The Mill are independently confirmed by direct statements. Other Cambridge venues remain unreviewed unless explicitly answered. Exact activities, companions and dates are not assumed.",
       "followUpQuestions": [
         "Approximate year(s) of Cambridge stay or visits?",
         "Which pubs, restaurants, or bars do you recognize in photos?",
         "Were any memorable meals in Cambridge itself versus near RAF Molesworth?"
       ],
       "firstCandidate": "The Eagle (Cambridge, Bene't Street)",
-      "nextCandidate": "The Mill (Mill Lane, Cambridge)",
+      "nextCandidate": "The Granta (Newnham Terrace, Cambridge)",
       "lastUpdatedOn": "2026-10-27",
-      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards. October 27 2026: Pickerel Inn on Magdalene Street definitely NOT VISITED, added to private places-to-go, not a confirmed experience. The Eagle and The Anchor remain confirmed Cambridge historic pub visits; The Mill on Mill Lane queued next with photos and separately attributed CAMRA awards (2018/2019/2020).",
+      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards. October 27 2026: Pickerel Inn on Magdalene Street definitely NOT VISITED, added to private places-to-go, not a confirmed experience. The Eagle and The Anchor remain confirmed Cambridge historic pub visits; The Mill on Mill Lane queued next with photos and separately attributed CAMRA awards (2018/2019/2020). October 27 2026: Alex directly confirmed visiting The Mill on Mill Lane, independent of The Eagle and Anchor. Save as a historic pub/cultural visit, with CAMRA awards assigned specifically to the pub in 2018, 2019, and 2020, not claimed to be Michelin/JBF recognition or held at time of his undated visit. Next photo interview: The Granta on the other side of Mill Pond, whose 2026 CAMRA recognition is separate.",
       "confirmedVenueNames": [
         "The Eagle (Cambridge, Bene't Street)",
-        "The Anchor (Silver Street, Cambridge)"
+        "The Anchor (Silver Street, Cambridge)",
+        "The Mill (Mill Lane, Cambridge)"
       ],
       "confirmedVenueIds": [
         "venue-eagle-cambridge",
-        "venue-anchor-cambridge"
+        "venue-anchor-cambridge",
+        "venue-mill-cambridge"
       ],
       "confirmedExperienceIds": [
         "bar-eagle-cambridge-date-unknown",
-        "bar-anchor-cambridge-date-unknown"
+        "bar-anchor-cambridge-date-unknown",
+        "bar-mill-cambridge-date-unknown"
       ],
-      "lastReviewedCandidate": "The Pickerel Inn (Magdalene Street, Cambridge)",
+      "lastReviewedCandidate": "The Mill (Mill Lane, Cambridge)",
       "notVisitedNames": [
         "The Pickerel Inn (Magdalene Street, Cambridge)"
       ],
@@ -8321,12 +8359,12 @@
       "area": "Cambridge, UK",
       "category": "historic pubs",
       "candidateNames": [
-        "The Mill (Mill Lane, Cambridge)"
+        "The Granta (Newnham Terrace, Cambridge)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you been inside The Mill at 14 Mill Lane or stopped there by the Millpond/Laundress Green? Whitewashed riverside pub, blue-painted bar and warm wood interior. Answer visited / maybe / did not visit / future-visit list.",
-      "continuation": "Cambridge pub and restaurant interviews continue one venue at a time with photos; next Kansas City 2010–present retrospective and Baltimore.",
-      "note": "Pickerel not visited and on wishlist, Eagle and Anchor confirmed, LA records unchanged. CAMRA awards are pub awards, not Michelin/JBF distinctions."
+      "question": "Did you visit The Granta across Mill Pond from The Mill, with its large raised waterside verandah, green umbrellas, and wooden punts at the moorings? Answer visited / maybe / did not visit / add to wishlist.",
+      "continuation": "Continue Cambridge pubs/restaurants with photos, then Kansas City 2010–present full audit, then Baltimore. Preserve all LA and prior Cambridge confirmations, negatives and wishlists.",
+      "note": "Three confirmed Cambridge pub visits: The Eagle, The Anchor, The Mill. Pickerel on future-visit list only. CAMRA awards are not Michelin/JBF."
     },
     "pausedBatches": [
       {
