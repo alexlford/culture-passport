@@ -111,22 +111,25 @@ chicago_six = {"Kumiko", "Best Intentions", "Bisous", "Hopleaf Bar", "Truce", "C
 assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "not_visited" for name in chicago_six)
 assert interview_data["interviewProgress"]["pausedBatches"][0]["status"] == "closed_for_now_at_user_request"
 assert set(interview_data["interviewProgress"]["pausedBatches"][0]["explicitlyNotVisitedAsOfDate"]) == chicago_six
-# Space Park/South Bay candidates are independent Michelin research leads.
-# "Maybe visited" at M.B. Post is a direct uncertainty, never a confirmed meal.
+# South Bay research: direct uncertainty is not attendance proof.
+# Keep separately listed Michelin venues unconfirmed until the user confirms dining.
 space_park = [c for c in candidates if c["area"] == "South Bay / Space Park"]
 assert len(space_park) == 8
 assert all(c["screening"]["status"] == "award_qualified" for c in space_park)
-mb_post = next(c for c in space_park if c["id"] == "candidate-space-park-manhattan-beach-post")
-assert mb_post["visitStatus"] == "maybe"
-assert mb_post["lastInterviewResponse"] == "Maybe visited."
-assert all(c["visitStatus"] == "unreviewed" for c in space_park if c["id"] != mb_post["id"])
+maybe_names = {"Manhattan Beach Post", "Fishing with Dynamite"}
+assert {c["name"] for c in space_park if c["visitStatus"] == "maybe"} == maybe_names
+assert all(c["visitStatus"] == "unreviewed" for c in space_park if c["name"] not in maybe_names)
+assert all(next(c for c in space_park if c["name"] == n)["lastInterviewResponse"] == "Maybe visited."
+    for n in maybe_names)
 assert all(not any(r["title"] == c["name"] and r["status"] == "confirmed" for r in records)
     for c in space_park)
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["namedConfirmedVisits"] == 0
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedNames"] == ["Manhattan Beach Post"]
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] == "Fishing with Dynamite"
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedCandidates"] == 2
+assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedNames"]) == maybe_names
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] == "RYLA"
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "South Bay / Space Park"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Fishing with Dynamite"
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "RYLA"
+assert next(c for c in space_park if c["name"] == "RYLA")["visitStatus"] == "unreviewed"
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
     x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
 
