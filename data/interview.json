@@ -6200,11 +6200,11 @@
       "recognition": "2026 Michelin Bib Gourmand at original Silver Lake address. This recognition does not automatically apply to other Pine & Crane branches.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "future_visit_interest_past_attendance_unanswered",
+      "visitStatus": "not_visited",
+      "researchStatus": "screened_direct_user_negative",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established. October 27: Alex requested adding the original Silver Lake branch to places-to-go without explicitly answering past attendance. Preserve visitStatus=unreviewed and do not infer either a confirmed visit or a negative.",
+      "visitNote": "User explicitly ruled out having visited the original Silver Lake branch, while retaining it on the future-visit list. Keep separate from DTLA, also explicitly not visited. No confirmed dining record.",
       "screening": {
         "status": "verified_michelin_bib_2026",
         "basis": "michelin",
@@ -6223,7 +6223,9 @@
       "wantsToVisit": true,
       "wishlistEntryId": "want-to-visit-pine-crane-silver-lake",
       "wishlistAddedOn": "2026-10-27",
-      "lastInterviewResponse": "Add it to the list"
+      "lastInterviewResponse": "Did not visit (Silver Lake); retain future visit interest.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Explicit direct user answer to Pine & Crane Silver Lake interview."
     },
     {
       "id": "candidate-la-lius-cafe-ktown",
@@ -7188,6 +7190,37 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-cambridge-eagle-benet-street",
+      "name": "The Eagle (Cambridge, Bene't Street)",
+      "sourceUrl": "https://historicengland.org.uk/listing/missing-pieces/historic-pub-walks/cambridge/",
+      "addressHint": "8 Bene't Street, Cambridge CB2 3QN, England",
+      "interviewCue": "Old wooden pub with RAF Bar and a ceiling covered with World War II airmen's signatures, an enclosed/galleried courtyard, and plaque on Francis Crick and James Watson's 1953 DNA announcement.",
+      "area": "Cambridge, UK",
+      "recognition": "Historic England documents this as an important historic pub; Cambridge & District CAMRA describes the RAF ceiling. Heritage recognition is not a Michelin or James Beard culinary award.",
+      "recognitionYear": null,
+      "awardFamily": "heritage_context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "historical_venue_photo_recognition_candidate",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User remembers visiting multiple pubs during a Cambridge stay associated with RAF Molesworth but has not named The Eagle or confirmed visiting it. One venue at a time.",
+      "screening": {
+        "status": "heritage_documented_no_michelin_jbf_verified",
+        "basis": "historic_pub_interest",
+        "evidenceUrl": "https://historicengland.org.uk/listing/missing-pieces/historic-pub-walks/cambridge/",
+        "sourceTier": "official_heritage_body",
+        "verifiedAt": "2026-10-27",
+        "note": "Historic venue context, not a restaurant award or actual user attendance."
+      },
+      "eligibility": {
+        "status": "unverified",
+        "basis": "historic_context_only",
+        "reason": "Ask user for venue-specific attendance. Preserve personal historical-pub memory separately from any food-award qualification.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -7981,7 +8014,7 @@
       ]
     },
     "losAngeles": {
-      "state": "active_research_parallel",
+      "state": "initial_named_venue_screening_complete_pending_uncertain_leads",
       "updatedOn": "2026-10-27",
       "confirmedNamedVisits": 2,
       "confirmedNames": [
@@ -7996,9 +8029,9 @@
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 18,
-      "unreviewed": 2,
+      "unreviewed": 0,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed. October 27, 2026: The Formosa Cafe explicitly NOT VISITED. Save only the negative screening answer, not a dining record. Next ask Din Tai Fung (Century City), which opened March 2018. Preserve Joy as the leading possible Taiwanese meal identity with Jay, Liu's Cafe as secondary, and all five South Bay MAYBE statuses; Cambridge UK, Kansas City 2010–present, then Baltimore remain queued. October 27, 2026: Din Tai Fung (Century City) definitively NOT VISITED, but user explicitly requests it on places-to-go (ID want-to-visit-din-tai-fung-century-city). The overseas franchise's Michelin associations do not establish any Century City distinction. Next screen Little Fatty (Mar Vista), maintaining Joy then Liu's Cafe as unconfirmed Taiwanese memories and the five South Bay MAYBEs. October 27, 2026: Little Fatty (Mar Vista) explicitly NOT VISITED, with no request to add it to places-to-go. Saved as a negative interview result only. Next Pine & Crane (DTLA) as a separate branch from Silver Lake; preserve Silver Lake's wishlist without assuming past visit. The Taiwanese meal with Jay remains unidentified (Joy leading, Liu's Cafe secondary). Pine & Crane DTLA explicitly not visited; Silver Lake separate, wishlist-only and past attendance unreviewed. Historical LA completeness lead added 2026-10-27: Night + Market WeHo at 9043 Sunset Blvd (open since 2010), associated with Night + Market's group-wide 2019 James Beard Outstanding Wine Program finalist status, not a win. User has not answered attendance. Keep Pine & Crane Silver Lake as next past-attendance clarification because the wishlist did not answer it; ask Night + Market subsequently.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed. October 27, 2026: The Formosa Cafe explicitly NOT VISITED. Save only the negative screening answer, not a dining record. Next ask Din Tai Fung (Century City), which opened March 2018. Preserve Joy as the leading possible Taiwanese meal identity with Jay, Liu's Cafe as secondary, and all five South Bay MAYBE statuses; Cambridge UK, Kansas City 2010–present, then Baltimore remain queued. October 27, 2026: Din Tai Fung (Century City) definitively NOT VISITED, but user explicitly requests it on places-to-go (ID want-to-visit-din-tai-fung-century-city). The overseas franchise's Michelin associations do not establish any Century City distinction. Next screen Little Fatty (Mar Vista), maintaining Joy then Liu's Cafe as unconfirmed Taiwanese memories and the five South Bay MAYBEs. October 27, 2026: Little Fatty (Mar Vista) explicitly NOT VISITED, with no request to add it to places-to-go. Saved as a negative interview result only. Next Pine & Crane (DTLA) as a separate branch from Silver Lake; preserve Silver Lake's wishlist without assuming past visit. The Taiwanese meal with Jay remains unidentified (Joy leading, Liu's Cafe secondary). Pine & Crane DTLA explicitly not visited; Silver Lake separate, wishlist-only and past attendance unreviewed. Historical LA completeness lead added 2026-10-27: Night + Market WeHo at 9043 Sunset Blvd (open since 2010), associated with Night + Market's group-wide 2019 James Beard Outstanding Wine Program finalist status, not a win. User has not answered attendance. Keep Pine & Crane Silver Lake as next past-attendance clarification because the wishlist did not answer it; ask Night + Market subsequently. October 27, 2026: Pine & Crane original Silver Lake explicitly NOT VISITED. Keep existing wishlist entry, separate from downtown branch also NOT VISITED. All LA named initial-screening candidates now answered except preexisting MAYBE identities (Joy, Liu's Cafe and five South Bay candidates), which remain unconfirmed. Move to Cambridge historical pub/restaurants interview without promoting uncertain attendance.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -8014,8 +8047,8 @@
       "liusCafeCandidateStatus": "maybe_user_strong_feeling_not_confirmed_venue",
       "maybeVisited": 2,
       "taiwaneseIdentityStatus": "joy_leading_liu_secondary_both_unconfirmed",
-      "nextCandidate": "Pine & Crane (Silver Lake)",
-      "notVisited": 13,
+      "nextCandidate": null,
+      "notVisited": 14,
       "notVisitedNames": [
         "Kato",
         "Osteria Mozza",
@@ -8029,14 +8062,15 @@
         "The Formosa Cafe",
         "Din Tai Fung (Century City)",
         "Little Fatty (Mar Vista)",
-        "Pine & Crane (DTLA)"
+        "Pine & Crane (DTLA)",
+        "Pine & Crane (Silver Lake)"
       ],
       "tentativeNegativeNames": [
         "Angelini Osteria"
       ],
       "nearWeHoShortlistScreening": "complete_eight_venues",
       "nearWeHoShortlistCompletedOn": "2026-10-27",
-      "lastReviewedCandidate": "Pine & Crane (DTLA)"
+      "lastReviewedCandidate": "Pine & Crane (Silver Lake)"
     },
     "spaceParkSouthBay": {
       "state": "active_research_parallel",
@@ -8140,7 +8174,7 @@
       "initialScreeningCompletedOn": "2026-10-27"
     },
     "cambridgeUK": {
-      "state": "queued_after_los_angeles",
+      "state": "active_historical_venue_screening",
       "updatedOn": "2026-10-27",
       "area": "Cambridge, UK",
       "purpose": "Historical restaurant, historic pub, cocktail bar and other culturally notable venue interview; user previously enjoyed several pubs during a visit to Cambridge while working at RAF Molesworth, but no named venue attendance is established.",
@@ -8151,20 +8185,24 @@
         "Approximate year(s) of Cambridge stay or visits?",
         "Which pubs, restaurants, or bars do you recognize in photos?",
         "Were any memorable meals in Cambridge itself versus near RAF Molesworth?"
-      ]
+      ],
+      "firstCandidate": "The Eagle (Cambridge, Bene't Street)",
+      "nextCandidate": "The Eagle (Cambridge, Bene't Street)",
+      "lastUpdatedOn": "2026-10-27",
+      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Los Angeles / West Hollywood",
-      "category": "restaurants",
+      "area": "Cambridge, UK",
+      "category": "historic pubs",
       "candidateNames": [
-        "Pine & Crane (Silver Lake)"
+        "The Eagle (Cambridge, Bene't Street)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you previously eaten at Pine & Crane original Silver Lake location? Already on wishlist, but past attendance has not been answered.",
-      "continuation": "Finish LA then Cambridge UK, Kansas City 2010–present, Baltimore.",
-      "note": "DTLA explicitly not visited. Silver Lake wishlist remains unchanged; no assumed visit. Joy and Liu's remain maybe."
+      "question": "During your Cambridge stay, did you visit The Eagle on Bene't Street? The RAF Bar has wartime signatures on its ceiling and a DNA discovery plaque; answer visited, maybe, did not visit or add to future visit list.",
+      "continuation": "Interview Cambridge historic pubs and restaurants one at a time; next Kansas City 2010–present and Baltimore. Preserve LA unresolved MAYBEs for later follow-up.",
+      "note": "Pine & Crane Silver Lake definitively not visited, wishlist retained. Pine & Crane DTLA separately not visited. LA initial named shortlist screened; Joy/Liu and South Bay maybes unresolved."
     },
     "pausedBatches": [
       {
@@ -8298,7 +8336,7 @@
     "parallelActiveChapters": [
       {
         "area": "Los Angeles / West Hollywood",
-        "status": "actively_researching",
+        "status": "initial_screening_complete_uncertain_leads_preserved",
         "priority": "Continue West Hollywood and South Bay identification; Joy currently favored for Taiwanese meal with Jay",
         "confirmedNamedVisits": 2,
         "confirmedNames": [
@@ -8328,9 +8366,9 @@
         "leadIdentificationCandidate": "Joy (Highland Park) — user-favored; Liu's Cafe (Koreatown) secondary",
         "leadConfidence": "Joy is user's current leaning, not a confirmed venue visit",
         "lastComparison": "Liu's Cafe vs 7 Taiwanese/Chinese candidates; no other positive photo recognition yet",
-        "followUpPrompt": "Have you previously eaten at Pine & Crane original Silver Lake location? Already on wishlist, but past attendance has not been answered.",
-        "nextCandidate": "Pine & Crane (Silver Lake)",
-        "lastReviewedCandidate": "Pine & Crane (DTLA)",
+        "followUpPrompt": "Unresolved: Joy (leading) vs Liu's Cafe (secondary) as possible Taiwanese meal with Jay; return when better evidence arises.",
+        "nextCandidate": null,
+        "lastReviewedCandidate": "Pine & Crane (Silver Lake)",
         "notVisitedNames": [
           "Kato",
           "Osteria Mozza",
@@ -8344,7 +8382,8 @@
           "The Formosa Cafe",
           "Din Tai Fung (Century City)",
           "Little Fatty (Mar Vista)",
-          "Pine & Crane (DTLA)"
+          "Pine & Crane (DTLA)",
+          "Pine & Crane (Silver Lake)"
         ],
         "tentativeNegativeNames": [
           "Angelini Osteria"
@@ -8353,7 +8392,7 @@
       },
       {
         "area": "South Bay / Space Park",
-        "status": "actively_researching",
+        "status": "initial_screening_complete_five_maybes_preserved",
         "priority": "Recognize previously visited Michelin-listed venues near Northrop Grumman Space Park",
         "firstBatch": [
           "Manhattan Beach Post",
@@ -8493,7 +8532,7 @@
         "Kansas City Metro (retrospective completeness audit)",
         "Baltimore, MD (retrospective completeness audit)"
       ],
-      "currentArea": "Los Angeles / West Hollywood + South Bay / Space Park",
+      "currentArea": "Cambridge, UK",
       "nextAfterLA": "Cambridge, UK",
       "auditFocus": "Find missed venues caused by present-day Michelin/JBF-only search; use actual historical timeframe, location, closures/renames, and venue-specific awards or official foundation/guide links.",
       "preserveStates": "Keep confirmed, maybe, tentative-negative, not_visited and unreviewed separate. Never infer attendance from a reservation or recognition.",
@@ -8546,7 +8585,9 @@
           "documentationRule": "Use visited-venue and period-specific source attribution, keep reservation evidence separate from a confirmed date, and keep uncertain venues out of confirmed totals."
         }
       ],
-      "editorialPolicy": "Completeness and memory first, recognition second. Screening qualified venues is useful but cannot be the only historical discovery channel."
+      "editorialPolicy": "Completeness and memory first, recognition second. Screening qualified venues is useful but cannot be the only historical discovery channel.",
+      "losAngelesInitialScreening": "completed_all_direct_cue_venues; unresolved_maybes_retained_without_re-questioning",
+      "nextAfterCambridge": "Kansas City Metro (2010–present)"
     }
   }
 }
