@@ -707,6 +707,33 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only; prior attendance unreviewed, not confirmed or denied. No visit, meal, drinks, companions, awards tied to personal attendance, or booking inferred."
+    },
+    {
+      "id": "want-to-visit-live-and-let-live-cambridge",
+      "candidateId": "candidate-cambridge-live-and-let-live-mawson-road",
+      "name": "The Live & Let Live",
+      "category": "pub_and_bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "40 Mawson Road, Cambridge CB1 2EA",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "guideUrl": "https://camra.org.uk/pubs/live-let-live-cambridge-131213",
+      "userNote": "I have not visited The Live & Let Live, but would like to go in the future.",
+      "source": {
+        "type": "direct_user_requests",
+        "date": "2026-10-28",
+        "quotes": [
+          "Culture Passport Cambridge: I haven't visited The Live & Let Live. Record that in private GitHub and continue with photographs.",
+          "Culture Passport Cambridge: Add The Live & Let Live at 40 Mawson Road to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+        ]
+      },
+      "desiredVisitDate": null,
+      "notes": "Two direct user answers in sequence: explicitly has not visited, then requested future wishlist. Prior nonattendance is directly reported, not inferred from wishlist. No pub/dining experience, reservation or planned visit date."
     }
   ]
 }
