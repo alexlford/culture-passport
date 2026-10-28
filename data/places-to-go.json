@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Places I'd like to go",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "purpose": "Places Alex explicitly wants to visit, with future intent recorded separately from experience and award-watchlist ledgers.",
   "entries": [
     {
@@ -396,6 +396,30 @@
       "notes": "Past dining visit explicitly confirmed on 2026-10-27. Whether it was café dining versus afternoon tea is unresolved. Retain prior future-interest request as a wish to return, not as a first-visit destination; no return booking or date inferred.",
       "pastVisitConfirmedOn": "2026-10-27",
       "confirmedExperienceId": "dining-fitzbillies-trumpington-cambridge-date-unknown"
+    },
+    {
+      "id": "want-to-visit-old-bicycle-shop-cambridge",
+      "candidateId": "candidate-cambridge-old-bicycle-shop",
+      "name": "The Old Bicycle Shop",
+      "category": "dining_and_drinks",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "104 Regent Street, Cambridge CB2 1DP",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.oldbicycleshop.com/",
+      "userNote": "Future visit requested; do not assume prior attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Add The Old Bicycle Shop to my private future-visit wishlist without assuming past attendance"
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. Past attendance is unreviewed. No meal, drinks, reservation, or visit date inferred."
     }
   ]
 }
