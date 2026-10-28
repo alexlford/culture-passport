@@ -7370,7 +7370,7 @@
       "recognitionYear": 2026,
       "awardFamily": "michelin",
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "addedOn": "2026-10-27",
       "priority": "high",
       "screening": {
@@ -7385,6 +7385,44 @@
         "status": "unreviewed",
         "basis": "michelin_guide_selected_current",
         "reason": "Requires direct attendance confirmation before experience, publication, or personal awards entry.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-mercado-central-cambridge",
+      "wishlistAddedOn": "2026-10-27",
+      "reviewedOn": "2026-10-27",
+      "lastInterviewResponse": "Added to want-to-go list; past attendance not answered.",
+      "reviewSource": "User explicitly requested addition to future visits without assuming past attendance on 2026-10-27.",
+      "visitNote": "Future intent confirmed, past visit uncertain/unreviewed. Do not create canonical visit or award-watchlist entry."
+    },
+    {
+      "id": "candidate-cambridge-margarets",
+      "name": "Margaret's",
+      "area": "Cambridge, UK",
+      "addressHint": "18 Chesterton Road, Cambridge CB4 3AX",
+      "sourceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/margaret-s",
+      "restaurantUrl": "https://margaretscambridge.co.uk/",
+      "interviewCue": "Modern British bistro at 18 Chesterton Road, two doors from Michelin-starred Restaurant Twenty-Two; light oak, soft neutral walls, deep brown banquettes, seasonal produce-led sharing plates. Opened June 2025, so attendance is possible only if the Cambridge trip was June 2025 or later.",
+      "recognition": "2026 Michelin Guide listing, recommended/Selected, not a Michelin Star; owners also own Michelin-starred Restaurant Twenty-Two, but that star cannot transfer.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "screening": {
+        "status": "award_qualified_if_confirmed",
+        "basis": "michelin_guide_selected",
+        "evidenceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/margaret-s",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Guide Recommended / Selected rather than starred. Venue opened June 2025; do not infer it existed during an earlier trip."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_selected_current",
+        "reason": "Requires direct attendance confirmation. Restaurant 22 star is not a Margaret's star.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8360,15 +8398,16 @@
         "Restaurant Twenty-Two",
         "Midsummer House",
         "Fancett's",
-        "Vanderlyle"
+        "Vanderlyle",
+        "Mercado Central"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Vanderlyle",
-      "nextCandidate": "Mercado Central",
+      "lastReviewedCandidate": "Mercado Central",
+      "nextCandidate": "Margaret's",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Vanderlyle added as a future wish; past attendance explicitly remains unreviewed. Cambridge one-by-one venue interview continuing; LA, Kansas City and Baltimore progress retained."
+      "note": "Mercado Central added to future wishlist; prior attendance unreviewed. Next Margaret's, opened 2025 near Restaurant Twenty-Two. Preserve confirmed Cambridge pubs/MillWorks and earlier LA records."
     }
   },
   "interviewProgress": {
@@ -8376,12 +8415,12 @@
       "area": "Cambridge, UK",
       "category": "restaurants",
       "candidateNames": [
-        "Mercado Central"
+        "Margaret's"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Mercado Central, 24 Green Street, Cambridge? Answer yes, maybe, no, or future wishlist.",
-      "continuation": "One Cambridge venue with photos per turn. Then historical Kansas City audit 2010–present including Weston, Missouri, followed by Baltimore.",
-      "note": "Preserve confirmed Eagle/Anchor/Mill pub visits and MillWorks GMI colleague dinner; keep Restaurant Twenty-Two, Midsummer House, Fancett's and Vanderlyle wishlist entries distinct from actual past visits. Preserve full Los Angeles prior records."
+      "question": "Have you eaten at Margaret's, 18 Chesterton Road, Cambridge (opened June 2025)? Answer visited, maybe, no or future wishlist.",
+      "continuation": "Continue one venue with authentic photographs per turn, then Kansas City 2010–present including Weston, Missouri, and then Baltimore.",
+      "note": "All Cambridge wishlist additions retain unanswered past attendance. Confirmed Eagle/Anchor/Mill pub visits and MillWorks GMI colleague dinner preserved. Prior LA parallel research unchanged."
     },
     "pausedBatches": [
       {
