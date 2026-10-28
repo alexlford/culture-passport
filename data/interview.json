@@ -7452,11 +7452,11 @@
       "recognition": "Cambridge & District CAMRA Pub of the Year 2024 and Cambridgeshire CAMRA Pub of the Year 2024; Grade II building, historically important Victorian pub interior; CAMRA Dog Friendly Pub of the Year 2026 is supporting category context. None of these are Michelin or James Beard culinary recognition.",
       "recognitionYear": 2024,
       "awardFamily": "camra_branch_and_county_pub_awards",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_camra_pub_of_the_year_historic_pub_visual_lead",
+      "visitStatus": "not_visited",
+      "researchStatus": "screened_direct_user_negative",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "No visit at Champion of the Thames confirmed; user remembers other Cambridge pubs but has not identified this specific venue. Historic and CAMRA awards do not establish attendance.",
+      "visitNote": "Alex explicitly confirmed Champion of the Thames (68 King Street, Cambridge) NOT visited, and asked to add to private future-visit wishlist. Do not create past experience. The exact-pub Cambridge & District and Cambridgeshire CAMRA Pub of the Year 2024 awards remain independent pub recognition, not a Michelin/JBF restaurant award.",
       "screening": {
         "status": "verified_exact_pub_CAMRA_2024_awards_no_michelin_jbf_claim",
         "basis": "CAMRA Cambridge & District and Cambridgeshire 2024 Pub of the Year wins",
@@ -7471,7 +7471,13 @@
         "reason": "Would qualify under distinct CAMRA pub-recognition track only if user directly confirms visit. Do not claim user visited because site says 'you have visited this venue' as generic UI label.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "lastInterviewResponse": "Did not visit; add to future-visit list.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct user response in Culture Passport Cambridge interview on 2026-10-27.",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-champion-of-the-thames-cambridge",
+      "wishlistAddedOn": "2026-10-27"
     },
     {
       "id": "candidate-kansas-city-omalleys-1842-pub-weston",
@@ -7544,6 +7550,41 @@
         "verifiedForPublication": false
       },
       "lastInterviewMemoryResponse": "Great food and a good time getting to know people working the GMI program."
+    },
+    {
+      "id": "candidate-cambridge-restaurant-twenty-two-chesterton-road",
+      "name": "Restaurant Twenty-Two (22 Chesterton Road)",
+      "area": "Cambridge, UK",
+      "sourceUrl": "https://www.restaurant22.co.uk/",
+      "addressHint": "22 Chesterton Road, Cambridge CB4 3AX, United Kingdom",
+      "interviewCue": "Intimate fine-dining restaurant in a white-painted Victorian townhouse close to Jesus Green, black front door with number 22, wrought-iron railings, original 1892 stained-glass windows and softly lit dining rooms. Owners Sam Carter and Alex Olivier reopened the site in 2018. Small tasting menus with seasonal modern British food; distinguish this specific modern restaurant from historic earlier occupants of the same address.",
+      "recognition": "One Michelin star first awarded March 2023, verified on official restaurant history; official Michelin Guide lists Restaurant Twenty-Two on Chesterton Road. Three AA Rosettes awarded September 2022. Venue-specific Michelin star qualifies under culinary recognition criteria, but recognition dates do not establish user's dining date.",
+      "recognitionYear": 2023,
+      "awardFamily": "michelin_star_aa_rosettes",
+      "visitStatus": "unreviewed",
+      "researchStatus": "verified_michelin_venue_visual_interview_lead",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User has not identified this Cambridge restaurant as visited. It has venue-level Michelin recognition and an identifiable historic Victorian townhouse, making it suitable for the next Cambridge photo interview. Exact Cambridge trip dates remain unknown. Do not create a confirmed meal from the venue's award.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "Michelin star awarded March 2023, AA Three Rosettes September 2022",
+        "evidenceUrl": "https://guide.michelin.com/us/en/cambridgeshire/cambridge/restaurant/restaurant-22",
+        "additionalEvidenceUrls": [
+          "https://www.restaurant22.co.uk/about-us/",
+          "https://www.nationalrestaurantawards.co.uk/profile/restaurant-22/"
+        ],
+        "sourceTier": "Michelin_official_guide_and_restaurant_owner",
+        "verifiedAt": "2026-10-27",
+        "note": "Current restaurant identity dates to 2018 under Sam Carter and Alex Olivier; Michelin star from 2023. Award timing separate from unknown visit."
+      },
+      "eligibility": {
+        "status": "qualified_recognition_unconfirmed_visit",
+        "basis": "venue_specific_michelin_star",
+        "reason": "Do not publish or count a visit until user confirms attendance. Historical venue occupants at 22 Chesterton Road do not transfer today's restaurant awards.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -8510,9 +8551,9 @@
         "Were any memorable meals in Cambridge itself versus near RAF Molesworth?"
       ],
       "firstCandidate": "The Eagle (Cambridge, Bene't Street)",
-      "nextCandidate": "Champion of the Thames (King Street)",
+      "nextCandidate": "Restaurant Twenty-Two (22 Chesterton Road)",
       "lastUpdatedOn": "2026-10-27",
-      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards. October 27 2026: Pickerel Inn on Magdalene Street definitely NOT VISITED, added to private places-to-go, not a confirmed experience. The Eagle and The Anchor remain confirmed Cambridge historic pub visits; The Mill on Mill Lane queued next with photos and separately attributed CAMRA awards (2018/2019/2020). October 27 2026: Alex directly confirmed visiting The Mill on Mill Lane, independent of The Eagle and Anchor. Save as a historic pub/cultural visit, with CAMRA awards assigned specifically to the pub in 2018, 2019, and 2020, not claimed to be Michelin/JBF recognition or held at time of his undated visit. Next photo interview: The Granta on the other side of Mill Pond, whose 2026 CAMRA recognition is separate. On October 27 2026 The Granta was explicitly marked NOT VISITED and added to future-visit list. The Mill remains independently confirmed, as do The Eagle and The Anchor. Next candidate: The Maypole at Portugal Place, CAMRA 2025/2026 pub awards and historical 2018 Pub of the Year mentioned by pub. No Michelin/JBF qualification inferred. October 27, 2026: The Maypole (Portugal Place) directly screened NOT VISITED, without a future-visit-list request. Preserve confirmed visits to Eagle, Anchor, Mill; keep only Pickerel and Granta on Cambridge wishlists. Next The Cambridge Blue (85–87 Gwydir Street) for photo recognition; 2026 CAMRA Young Members Pub of the Year is pub-specific, not Michelin/JBF. October 27 2026: The Cambridge Blue on Gwydir Street is NOT VISITED and was explicitly added to places-to-go, preserving The Eagle, The Anchor, The Mill as confirmed Cambridge visits, Pickerel and Granta future lists, and all LA statuses. Next historical Cambridge pub is Champion of the Thames at 68 King Street, a CAMRA 2024 branch and county Pub of the Year winner, not a Michelin/JBF venue. October 27 2026: User supplied Apple Maps link to MillWorks at The Watermill, Newnham Road, Cambridge, and directly confirmed 'I did eat here.' Add confirmed restaurant record and private award-watchlist. Distinguish from The Mill pub on Mill Lane, a separately confirmed visit. Independent Cambridge Sustainable Food 2023 Silver Sourcing Award confirmed, not Michelin/JBF or CAMRA. No exact dining date/menu or link to punting established. Preserve Champion of the Thames as next unreviewed Cambridge interview.",
+      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards. October 27 2026: Pickerel Inn on Magdalene Street definitely NOT VISITED, added to private places-to-go, not a confirmed experience. The Eagle and The Anchor remain confirmed Cambridge historic pub visits; The Mill on Mill Lane queued next with photos and separately attributed CAMRA awards (2018/2019/2020). October 27 2026: Alex directly confirmed visiting The Mill on Mill Lane, independent of The Eagle and Anchor. Save as a historic pub/cultural visit, with CAMRA awards assigned specifically to the pub in 2018, 2019, and 2020, not claimed to be Michelin/JBF recognition or held at time of his undated visit. Next photo interview: The Granta on the other side of Mill Pond, whose 2026 CAMRA recognition is separate. On October 27 2026 The Granta was explicitly marked NOT VISITED and added to future-visit list. The Mill remains independently confirmed, as do The Eagle and The Anchor. Next candidate: The Maypole at Portugal Place, CAMRA 2025/2026 pub awards and historical 2018 Pub of the Year mentioned by pub. No Michelin/JBF qualification inferred. October 27, 2026: The Maypole (Portugal Place) directly screened NOT VISITED, without a future-visit-list request. Preserve confirmed visits to Eagle, Anchor, Mill; keep only Pickerel and Granta on Cambridge wishlists. Next The Cambridge Blue (85–87 Gwydir Street) for photo recognition; 2026 CAMRA Young Members Pub of the Year is pub-specific, not Michelin/JBF. October 27 2026: The Cambridge Blue on Gwydir Street is NOT VISITED and was explicitly added to places-to-go, preserving The Eagle, The Anchor, The Mill as confirmed Cambridge visits, Pickerel and Granta future lists, and all LA statuses. Next historical Cambridge pub is Champion of the Thames at 68 King Street, a CAMRA 2024 branch and county Pub of the Year winner, not a Michelin/JBF venue. October 27 2026: User supplied Apple Maps link to MillWorks at The Watermill, Newnham Road, Cambridge, and directly confirmed 'I did eat here.' Add confirmed restaurant record and private award-watchlist. Distinguish from The Mill pub on Mill Lane, a separately confirmed visit. Independent Cambridge Sustainable Food 2023 Silver Sourcing Award confirmed, not Michelin/JBF or CAMRA. No exact dining date/menu or link to punting established. Preserve Champion of the Thames as next unreviewed Cambridge interview. October 27 2026: Champion of the Thames (King Street) explicitly NOT VISITED and added at user request to private places-to-go. CAMRA 2024 branch and county Pub of the Year honors verified, but no personal experience exists. Preserve the confirmed GMI-colleague dining memory at MillWorks (Newnham Road), three separate Cambridge pub confirmations, existing Cambridge future visits and LA history. Next ask about Restaurant Twenty-Two at 22 Chesterton Road, Michelin starred since March 2023; the restaurant operators have run this incarnation since 2018.",
       "confirmedVenueNames": [
         "The Eagle (Cambridge, Bene't Street)",
         "The Anchor (Silver Street, Cambridge)",
@@ -8531,14 +8572,15 @@
         "bar-mill-cambridge-date-unknown",
         "dining-millworks-cambridge-date-unknown"
       ],
-      "lastReviewedCandidate": "The Cambridge Blue (Gwydir Street)",
+      "lastReviewedCandidate": "Champion of the Thames (King Street)",
       "notVisitedNames": [
         "The Pickerel Inn (Magdalene Street, Cambridge)",
         "The Granta (Newnham Terrace, Cambridge)",
         "The Maypole (Portugal Place, Cambridge)",
-        "The Cambridge Blue (Gwydir Street)"
+        "The Cambridge Blue (Gwydir Street)",
+        "Champion of the Thames (King Street)"
       ],
-      "nextCandidateSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1714",
+      "nextCandidateSource": "https://guide.michelin.com/us/en/cambridgeshire/cambridge/restaurant/restaurant-22 ; https://www.restaurant22.co.uk/about-us/",
       "confirmedRestaurantNames": [
         "MillWorks (The Watermill, Newnham Road)"
       ],
@@ -8552,14 +8594,14 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Cambridge, UK",
-      "category": "historic pubs",
+      "category": "restaurants",
       "candidateNames": [
-        "Champion of the Thames (King Street)"
+        "Restaurant Twenty-Two (22 Chesterton Road)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Did you visit the Champion of the Thames at 68 King Street, a small cream-and-wood-trim pub with green door, etched rowing windows, two wood-panelled Victorian bars? Answer visited / maybe / did not visit / future-visit list.",
-      "continuation": "Continue Cambridge historic pubs and restaurants one at a time with photographs; after Cambridge revisit Kansas City 2010–present, then Baltimore. Preserve every confirmed, maybe, negative and wishlist response.",
-      "note": "Cambridge Blue definitely not visited, added to wishlist; Eagle, Anchor and Mill remain confirmed, Pickerel and Granta remain future only. CAMRA awards distinct from Michelin/JBF. User-initiated MillWorks restaurant meal confirmed and archived separately from The Mill pub; next question still Champion of the Thames."
+      "question": "Did you eat at Restaurant Twenty-Two at 22 Chesterton Road, an intimate Victorian townhouse restaurant with black door 22 and stained glass, Michelin star since 2023? Answer visited / maybe / did not visit / add to future-visit list.",
+      "continuation": "Continue Cambridge historical pubs and restaurants one venue at a time with photographs; then Kansas City 2010–present including Weston, Missouri, then Baltimore. Preserve existing states.",
+      "note": "Champion of the Thames explicitly NOT visited and added to private wishlist. The Eagle, The Anchor, The Mill and the distinct MillWorks dining visit remain confirmed. MillWorks GMI-colleague meal recollection preserved. Existing LA results, CAMRA distinction handling and all other wishlists unchanged."
     },
     "pausedBatches": [
       {
