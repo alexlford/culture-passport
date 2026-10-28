@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-the-punter",
+    "venue": "The Punter",
+    "address": "3 Pound Hill, Cambridge CB3 0AE",
+    "visitStatus": "unreviewed",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-the-punter-cambridge",
+    "sourceType": "direct_user_request",
+    "userAnswer": "Add The Punter at 3 Pound Hill to my private future-visit wishlist without assuming past attendance.",
+    "distinction": "Future interest is not proof or denial of a past visit.",
+    "noConfirmedExperienceCreated": true,
+    "noReservationInferred": true
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-the-mitre-bridge-street",
+    "venue": "The Mitre",
+    "address": "17–18 Bridge Street, Cambridge CB2 1UF",
+    "visitStatus": "unreviewed",
+    "category": "historic_pub_and_dining",
+    "sources": [
+      "https://historicengland.org.uk/listing/the-list/list-entry/1126261",
+      "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1634"
+    ],
+    "historicalContext": "Grade II listed, named The Mitre since 1881; building facade carries 'Founded in 1754' referencing earlier pub history on the site.",
+    "visualCues": [
+      "Black frontage with gold THE MITRE lettering, floral baskets and bicycles on Bridge Street",
+      "Traditional pub dining rooms with wooden tables and green panelling",
+      "Carriage archway next to pub"
+    ],
+    "question": "Did you visit The Mitre on Bridge Street, Cambridge, for drinks, food, both, maybe, or not at all?"
+  },
+  "chapterPlan": [
+    "Finish Cambridge, one photographed venue at a time",
+    "Historical Kansas City metro including Weston, Missouri (2010–present)",
+    "Historical Baltimore audit"
+  ],
+  "preservation": {
+    "retainConfirmed": [
+      "The Eagle",
+      "The Anchor",
+      "The Mill (pub)",
+      "MillWorks colleague dinner with GMI team",
+      "Parker's Tavern dining and drinks",
+      "University Arms hotel stay"
+    ],
+    "retainPastUncertaintyForWishlist": true,
+    "retainLosAngelesRecords": true,
+    "note": "Keep Culture Passport separate from Work Passport and Life Map; no added personal attendance records in this handoff."
+  },
+  "integrationNote": "Source-of-truth handoff pending reconciliation into the large interview.json. Do not overwrite existing interview entries or retroactively infer attendance."
+}
