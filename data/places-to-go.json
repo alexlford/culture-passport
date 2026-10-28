@@ -79,6 +79,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Ardor inside The West Hollywood EDITION. No booking, visit date, party or budget established."
+    },
+    {
+      "id": "want-to-visit-pine-crane-silver-lake",
+      "candidateId": "candidate-la-pine-crane-silver-lake",
+      "name": "Pine & Crane (Silver Lake)",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "1521 Griffith Park Boulevard",
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "USA"
+      },
+      "website": "https://www.pineandcrane.com/silverlake",
+      "guideUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/pine-crane",
+      "userNote": "I'd like to go.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Add it to the list"
+      },
+      "desiredVisitDate": null,
+      "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date."
     }
   ]
 }
