@@ -1229,6 +1229,41 @@
       "officialFeatureStatus": "none_verified",
       "expandedReviewTier": "personal_featured_exception",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-millworks-cambridge",
+      "venueId": "venue-millworks-cambridge",
+      "venueName": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "dining-millworks-cambridge-visit-date-unknown"
+      ],
+      "visitPeriods": [
+        "GMI program colleague dinner; exact year unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Confirmed meal and work-colleague memory. The restaurant's own site establishes the exact venue, but no venue-specific Michelin/JBF distinction is claimed. Further historical and official-source review needed.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "pending_formal_historical_screening",
+          "note": "Confirmed meal added to the permanent restaurant award watchlist without assuming venue-specific Michelin or James Beard recognition. Formal expanded audit remains open.",
+          "evidenceUrls": [
+            "https://themillworks.co.uk/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition"
     }
   ]
 }
