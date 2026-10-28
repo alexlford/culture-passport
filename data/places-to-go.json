@@ -271,6 +271,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit future-visit interest only. Prior attendance has not been answered; do not classify it as visited or not visited. No personal dining record, award-watchlist entry, reservation, or planned visit date."
+    },
+    {
+      "id": "want-to-visit-vanderlyle-cambridge",
+      "candidateId": "candidate-cambridge-vanderlyle",
+      "name": "Vanderlyle",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "38–40 Mill Road, Cambridge CB1 2AD",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.vanderlyle-restaurant.com/",
+      "guideUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/vanderlyle",
+      "userNote": "Add Vanderlyle to my future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Culture Passport Cambridge: Add Vanderlyle to my future-visit wishlist without assuming past attendance, save to private GitHub, and continue with the next venue and photos."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only: prior attendance is unanswered, not 'not visited'. No date, booking or personal dining/award record implied."
     }
   ]
 }
