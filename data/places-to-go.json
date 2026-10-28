@@ -587,6 +587,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future-visit wish only. Past attendance unreviewed, neither confirmed nor denied. Do not create a dining or drinks experience or infer any visit date."
+    },
+    {
+      "id": "want-to-visit-elm-tree-cambridge",
+      "candidateId": "candidate-cambridge-elm-tree-orchard-street",
+      "name": "The Elm Tree",
+      "category": "pub_and_bar",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "16A Orchard Street, Cambridge CB1 1JT",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.elmtreecambridge.co.uk/",
+      "userNote": "The Elm Tree is a future-visit interest; past attendance has not been answered.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Elm Tree at 16A Orchard Street to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only. Historical attendance unreviewed; do not add a bar, drink or dining visit or infer no past visit. CAMRA venue recognition is not a personal attendance claim."
     }
   ]
 }
