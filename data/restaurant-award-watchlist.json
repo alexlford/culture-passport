@@ -1264,6 +1264,42 @@
       "recognitionEvents": [],
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition"
+    },
+    {
+      "id": "venue-parkers-tavern-cambridge",
+      "venueId": "venue-parkers-tavern-cambridge",
+      "venueName": "Parker's Tavern",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "dining-parkers-tavern-cambridge-date-unknown"
+      ],
+      "visitPeriods": [
+        "Dined and had drinks at Parker's Tavern; University Arms hotel stay independently confirmed; date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Directly confirmed dining (and drinks) at the venue inside University Arms. The Michelin Guide features University Arms as a hotel, which does NOT establish Michelin restaurant recognition for Parker's Tavern. Do not transfer hotel distinctions to restaurant. No direct JBF/Michelin venue-specific award verified; further historic primary-source search pending.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "pending_formal_historical_screening",
+          "note": "Confirmed restaurant visit is on permanent watchlist. Official University Arms Michelin hotel listing is not evidence of restaurant selection or award. Await historically scoped restaurant-level screen.",
+          "evidenceUrls": [
+            "https://guide.michelin.com/ie/en/hotels-stays/cambridge/university-arms-hotel-10187?viamichelin=1",
+            "https://parkerstavern.com/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition"
     }
   ]
 }
