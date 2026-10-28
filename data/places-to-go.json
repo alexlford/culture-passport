@@ -129,6 +129,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Century City branch only; not a confirmed past visit or a reservation. Recognition of overseas Din Tai Fung branches does not establish a Michelin/JBF honor for this branch."
+    },
+    {
+      "id": "want-to-visit-pickerel-inn-cambridge",
+      "candidateId": "candidate-cambridge-pickerel-inn-magdalene-street",
+      "name": "The Pickerel Inn (Cambridge)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "30 Magdalene Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.greeneking.co.uk/pubs/cambridgeshire/pickerel-inn",
+      "guideUrl": null,
+      "userNote": "I'd like to visit this historic Cambridge pub.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "The Pickerel Inn (Magdalene Street) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "User explicitly ruled out a previous visit; no past pub experience, date or reservation inferred. Grade II listing is heritage recognition, not a culinary award."
     }
   ]
 }
