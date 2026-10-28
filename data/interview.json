@@ -6642,28 +6642,30 @@
       "recognition": "Current Michelin Guide listing (Selected); not a Michelin Star. Chef David LeFevre's unrelated historical chef accolades are not imputed to the venue.",
       "recognitionYear": 2026,
       "awardFamily": "michelin",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_michelin_south_bay_discovery_candidate_not_personal_attendance",
+      "visitStatus": "maybe",
+      "researchStatus": "user_maybe_visited_during_space_park_trips",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User says he ate at many restaurants near Northrop Grumman Space Park in Redondo Beach. This does NOT establish attendance at this named restaurant. Keep unreviewed until directly answered. Opening years are establishment context, not implied personal visit dates.",
+      "visitNote": "On October 27, 2026 Alex explicitly answered 'Fishing with Dynamite — Maybe visited' for the South Bay / Space Park interview. Preserve as tentative rather than confirmed or not visited. No exact dining date, companions, menu items, attendance proof or other personally remembered facts established. Michelin Guide listing is restaurant recognition independent of the user's attendance.",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
         "evidenceUrl": "https://guide.michelin.com/us/en/california/manhattan-beach/restaurant/fishing-with-dynamite",
         "sourceTier": "official_michelin",
         "verifiedAt": "2026-10-27",
-        "note": "2026 Guide listing is eligible for a confirmed visit but is not evidence this venue was visited or that it had the same distinction at a past unknown meal date. Current Michelin Guide listing (Selected); not a Michelin Star. Chef David LeFevre's unrelated historical chef accolades are not imputed to the venue."
+        "note": "Guide-listed and potentially eligible if user confirms attending the exact establishment; user presently only maybe visited (2026-10-27). No personal award-qualified visit claim."
       },
       "eligibility": {
         "status": "unreviewed",
         "basis": "michelin_guide_listing",
-        "reason": "Venue qualifies via official Michelin Guide listing as of October 2026; no personal attendance at this named location has yet been confirmed.",
+        "reason": "Restaurant is independently Michelin Guide-listed, but Alex only reported 'Maybe visited' on 2026-10-27. Do not create a canonical dining visit, permanent confirmed-restaurant award watchlist entry or public experience until user directly confirms eating at this specific venue.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       },
       "venueCity": "Manhattan Beach",
-      "openedYear": 2013
+      "openedYear": 2013,
+      "lastInterviewResponse": "Maybe visited.",
+      "lastReviewedOn": "2026-10-27"
     },
     {
       "id": "candidate-space-park-ryla",
@@ -7462,7 +7464,7 @@
         "Rancho Palos Verdes"
       ],
       "source": "User directly stated October 27, 2026 that he has eaten at many restaurants around the Northrop Grumman Space Park campus in LA.",
-      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit.",
+      "note": "General nearby-dining recollection is user-confirmed. Specific restaurant identities in the shortlist are hypotheses only. Do not use corporate employment as attendance proof, infer exact business-meal years or companions, or create public records before a specific direct venue visit confirmation. Manhattan Beach Post: user said MAYBE visited on 2026-10-27. Current questioning proceeds to Fishing with Dynamite at 1148 Manhattan Avenue, a distinct seafood-and-oyster bar operated by the same restaurant family just down the street. Both are Michelin Guide-listed; only a direct user confirmation can establish an actual dining visit. On October 27, 2026 Alex also marked Fishing with Dynamite maybe visited. Manhattan Beach Post and Fishing with Dynamite are now both uncertain visit candidates, with no actual dining record for either. Next is RYLA in Hermosa Beach, opened in 2022. Its chefs' work histories at M.B. Post and Fishing with Dynamite are not evidence the user ate at any of them.",
       "publishAsExperience": false,
       "visitStatus": "unidentified",
       "identificationCandidates": [
@@ -7480,9 +7482,11 @@
           "candidateId": "candidate-space-park-fishing-with-dynamite",
           "name": "Fishing with Dynamite",
           "city": "Manhattan Beach",
-          "status": "unreviewed",
+          "status": "maybe",
           "recognitionStatus": "Michelin Guide listed October 2026; star only for Sushi Inaba at Torrance address",
-          "openingYear": 2013
+          "openingYear": 2013,
+          "lastInterviewResponse": "Maybe visited.",
+          "note": "User expressly answered maybe visited on Oct 27. A restaurant Guide listing does not imply personal attendance. Kept outside confirmed records."
         },
         {
           "candidateId": "candidate-space-park-ryla",
@@ -7533,8 +7537,8 @@
           "openingYear": null
         }
       ],
-      "nextQuestion": "Fishing with Dynamite, 1148 Manhattan Avenue, Manhattan Beach: did you actually eat at the tiny 32-seat seafood/oyster bar near the pier? Confirmed, maybe, or did not visit.",
-      "lastInterviewResponse": "Manhattan Beach Post — Maybe visited."
+      "nextQuestion": "RYLA at 1220 Hermosa Avenue, Hermosa Beach: did you eat at the Japanese- and Taiwanese-influenced restaurant with the crane-wall mural, dark polished-wood cocktail bar, and signature Hokkaido milk bread? Answer visited, maybe, or no.",
+      "lastInterviewResponse": "Fishing with Dynamite — Maybe visited."
     }
   ],
   "interviewChapters": {
@@ -7769,25 +7773,31 @@
         "Sweet Rice",
         "Mar'sel"
       ],
-      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel.",
+      "note": "Eight names are independently Michelin-listed but currently ALL unreviewed for user attendance. Earlier Manhattan Beach Sushi Inaba must not be conflated with Michelin-starred Torrance location. Vin Folk only recent 2025 onward; RYLA 2022 onward, Sonagi 2023 onward. Current Guide selected is not a Michelin Star. Updated October 27: M.B. Post is MAYBE (not a confirmed meal). Fishing with Dynamite is the next UNREVIEWED candidate, with current Michelin Guide listing and historical 2019 Michelin Plate noted by the restaurant; these awards do not prove attendance. West Hollywood and Joy/Liu's uncertainty are active in parallel. October 27: Fishing with Dynamite marked MAYBE by user; it does not add a confirmed dining record. M.B. Post remains MAYBE, RYLA still unreviewed and next. Joy remains user's leading possible Taiwanese spot with Jay, Liu's alternative, and West Hollywood research is still parallel-active.",
       "maybeVisitedNames": [
-        "Manhattan Beach Post"
+        "Manhattan Beach Post",
+        "Fishing with Dynamite"
       ],
-      "maybeVisitedCandidates": 1,
-      "unreviewedCandidates": 7,
-      "lastReviewedCandidate": "Manhattan Beach Post",
-      "nextCandidate": "Fishing with Dynamite",
+      "maybeVisitedCandidates": 2,
+      "unreviewedCandidates": 6,
+      "lastReviewedCandidate": "Fishing with Dynamite",
+      "nextCandidate": "RYLA",
       "firstBatchProgress": {
         "answered": [
           {
             "name": "Manhattan Beach Post",
             "status": "maybe",
             "date": "2026-10-27",
-            "source": "Direct user answer; no date or dining proof inferred"
+            "source": "Direct user answer; no dining visit date or proof inferred"
+          },
+          {
+            "name": "Fishing with Dynamite",
+            "status": "maybe",
+            "date": "2026-10-27",
+            "source": "Direct user answer; no dining visit date or proof inferred"
           }
         ],
         "remaining": [
-          "Fishing with Dynamite",
           "RYLA",
           "Sushi Inaba (Torrance)"
         ]
@@ -7799,14 +7809,13 @@
       "area": "South Bay / Space Park",
       "category": "restaurants",
       "candidateNames": [
-        "Fishing with Dynamite",
         "RYLA",
         "Sushi Inaba (Torrance)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Fishing with Dynamite, Manhattan Beach — did you actually dine at this compact 32-seat oyster bar by the pier? Respond visited, maybe, or did not visit.",
-      "continuation": "After Fishing with Dynamite, continue with RYLA, then Sushi Inaba Torrance. Manhattan Beach Post remains MAYBE with its exact date unverified.",
-      "note": "West Hollywood/Joy-Liu's still parallel active. Manhattan Beach Post maybe; do not publish. Fishing with Dynamite remains unreviewed."
+      "question": "RYLA, Hermosa Beach: do you recall eating at the Japanese/Taiwanese-influenced restaurant with a crane mural, dark wood cocktail bar and Hokkaido milk bread? Respond visited, maybe, or did not visit.",
+      "continuation": "After RYLA, review Sushi Inaba (Torrance). Manhattan Beach Post and Fishing with Dynamite both remain MAYBE; neither is in confirmed dining records.",
+      "note": "Parallel West Hollywood research remains active. Joy leads over Liu's for Jay's Taiwanese restaurant but neither is confirmed. RYLA opened in 2022 and cannot match an earlier trip."
     },
     "pausedBatches": [
       {
@@ -7990,19 +7999,25 @@
               "name": "Manhattan Beach Post",
               "status": "maybe",
               "date": "2026-10-27",
-              "source": "Direct user answer; no date or dining proof inferred"
+              "source": "Direct user answer; no dining visit date or proof inferred"
+            },
+            {
+              "name": "Fishing with Dynamite",
+              "status": "maybe",
+              "date": "2026-10-27",
+              "source": "Direct user answer; no dining visit date or proof inferred"
             }
           ],
           "remaining": [
-            "Fishing with Dynamite",
             "RYLA",
             "Sushi Inaba (Torrance)"
           ]
         },
         "maybeVisitedNames": [
-          "Manhattan Beach Post"
+          "Manhattan Beach Post",
+          "Fishing with Dynamite"
         ],
-        "nextCandidate": "Fishing with Dynamite"
+        "nextCandidate": "RYLA"
       }
     ]
   }
