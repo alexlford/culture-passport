@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-free-press",
+    "venue": "The Free Press",
+    "address": "7 Prospect Row, Cambridge CB1 1DU",
+    "status": "future_wishlist",
+    "pastAttendance": "unreviewed",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-free-press-cambridge",
+    "sourceType": "direct_user_response",
+    "sourceQuote": "Culture Passport Cambridge: Add The Free Press to my private future-visit wishlist without assuming past attendance. Continue with the next venue and photographs.",
+    "guardrails": "No confirmed visit, no negative past-attendance claim, no dining, drink or date inferred."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-the-punter",
+    "venue": "The Punter",
+    "address": "3 Pound Hill, Cambridge CB3 0AE",
+    "visitStatus": "unreviewed",
+    "type": "historic_coaching_inn_pub_with_dining",
+    "sourceUrl": "https://www.thepuntercambridge.com/",
+    "camraUrl": "https://camra.org.uk/pubs/punter-cambridge-131244",
+    "visualCue": "White-and-blue exterior, old coaching-inn nooks, rustic dining area, and leafy courtyard.",
+    "question": "Did you visit The Punter at 3 Pound Hill, Cambridge for food, drinks, both, maybe or not at all?"
+  },
+  "nextGeographicSequence": [
+    "Complete Cambridge venue-by-venue photo interview",
+    "Kansas City metro including Weston Missouri, 2010-present",
+    "Baltimore historic retrospective"
+  ],
+  "preserveExisting": [
+    "Confirmed Cambridge pubs",
+    "MillWorks GMI colleague dinner",
+    "Parker's Tavern food and drinks",
+    "University Arms hotel stay",
+    "Los Angeles records",
+    "Other Cambridge wishlist and interview answers"
+  ],
+  "integrationNote": "Standalone interview update; main large interview JSON remains unchanged until reconciled against all handoff records."
+}
