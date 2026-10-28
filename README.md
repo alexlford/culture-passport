@@ -236,3 +236,13 @@ Key sources: [Michelin California 2026](https://www.michelin.com/en/publications
 Alex explicitly confirmed several visits to **Pierpont's at Union Station** and identified **Harvey's at Union Station** as the venue for the after-wedding goodbye brunch. Both are now confirmed collection entries. Individual Pierpont's meal dates and the Harvey's wedding/brunch year remain unspecified; the earlier 2012–2017 search window does not establish an exact wedding date.
 
 Pierpont's has a direct **James Beard Foundation editorial connection**: the Foundation's May 4, 2011 Stephen Fried [Tour de Fred Harvey](https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey) explicitly names and links this Kansas City restaurant. It is curated as an official editorial connection, without a Beard Award or nomination claim. Harvey's is included as an explicitly requested, permanent personal wedding-memory exception. Both remain in the quarterly award watchlist, and their prospective visitor stories are added to the publication manifest as pending. The confirmed-restaurant audit now covers **46 entries**, including **41 canonical distinct dining venues** and five separate archive-only memories. No public deployment was performed.
+
+
+## Independent Passport navigation
+
+The footer names the current Passport and preserves the existing Sports,
+Adventures, and Personal Atlas destinations. The unpublished sibling Passport
+is labeled **In development**, without a speculative public URL. Activating it
+requires a separately verified launch change and an updated navigation contract.
+The component is static HTML and has no cross-repository JavaScript or data
+dependency. Each Passport retains its own content, styling, and release process.

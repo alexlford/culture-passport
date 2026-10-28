@@ -57,6 +57,15 @@ async function pageCheck(page,url,ready,viewportName){
   assert(metrics.navCount===4,viewportName+" "+url+": clean visitor preview must have four navigation links (private Interview excluded)");
   assert(metrics.documentWidth<=metrics.width+3&&metrics.bodyWidth<=metrics.width+3,
     viewportName+" "+url+": horizontal overflow "+JSON.stringify(metrics));
+  const passportItems=await page.locator('nav[aria-label="Passports"] [data-passport]').evaluateAll(nodes=>nodes.map(node=>({
+    id:node.dataset.passport,current:node.getAttribute('aria-current'),href:node.getAttribute('href'),
+    text:node.textContent,height:node.getBoundingClientRect().height
+  })));
+  assert(passportItems.length===5,viewportName+" "+url+": expected five Passport destinations");
+  assert(passportItems.filter(item=>item.current==="true").map(item=>item.id).join() === "culture","Wrong current Passport");
+  const work=passportItems.find(item=>item.id==="work");
+  assert(work.href===null&&work.text.includes("In development"),"Unpublished Work destination became a link");
+  assert(passportItems.every(item=>item.height>=44),"Passport touch targets must be at least 44px high");
   const safe=url.split("?")[0].replace(".html","");
   await page.screenshot({path:path.join(screenshots,viewportName+"-"+safe+".png"),fullPage:true,animations:"disabled"});
   assert(!failures.length,viewportName+" "+url+" script errors: "+failures.join("; "));
@@ -187,3 +196,4 @@ try{
   await browser.close();
 }
 if(problems.length)throw Error(problems.join("\n"));
+

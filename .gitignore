@@ -3,3 +3,5 @@ dist/
 
 # Private editorial text packets and ephemeral QA assets.
 test-results/
+__pycache__/
+*.pyc

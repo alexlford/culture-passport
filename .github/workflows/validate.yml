@@ -31,6 +31,8 @@ jobs:
           path: test-results/publication-review.md
           retention-days: 7
           if-no-files-found: error
+      - name: Audit independent Passport navigation
+        run: python scripts/audit_passport_navigation.py culture
       - name: Check interactive JavaScript syntax
         run: |
           node --check assets/app.js
@@ -63,3 +65,4 @@ jobs:
           path: test-results/screenshots/
           if-no-files-found: ignore
           retention-days: 7
+
