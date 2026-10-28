@@ -104,6 +104,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date."
+    },
+    {
+      "id": "want-to-visit-din-tai-fung-century-city",
+      "candidateId": "candidate-la-din-tai-fung-century-city",
+      "name": "Din Tai Fung (Century City)",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "10250 Santa Monica Boulevard, Westfield Century City",
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "USA"
+      },
+      "website": "https://dtf.com/en-us/locations/los-angeles",
+      "guideUrl": null,
+      "userNote": "I'd like to visit.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Did not visit; add to my future visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Century City branch only; not a confirmed past visit or a reservation. Recognition of overseas Din Tai Fung branches does not establish a Michelin/JBF honor for this branch."
     }
   ]
 }
