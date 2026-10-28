@@ -539,6 +539,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Interest in a future visit only; neither a previous visit nor a previous non-visit is asserted. No dining, drinks, reservation, date, or favorite status inferred."
+    },
+    {
+      "id": "want-to-visit-fort-st-george-cambridge",
+      "candidateId": "candidate-cambridge-fort-st-george-midsummer-common",
+      "name": "Fort St George",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "Midsummer Common, Cambridge CB4 1HA",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.greeneking.co.uk/pubs/cambridgeshire/fort-st-george",
+      "userNote": "Interested in visiting Fort St George in Cambridge.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add Fort St George to my private future-visit wishlist without assuming past attendance."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only; historical attendance unanswered. Do not count a pub, dining or drinks experience, assume the user did not visit previously, or infer a reservation/date."
     }
   ]
 }
