@@ -7497,7 +7497,7 @@
       "sourceUrl": "https://cambridgechophouse.co.uk/",
       "interviewCue": "British steakhouse on King's Parade opposite King's College Chapel; large glass corner windows, warm restaurant and cellars, steak and traditional cuts. Opened in 2008 in a former wine bar. Same Cambscuisine restaurant group as MillWorks, a separately confirmed Cambridge GMI dinner.",
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "addedOn": "2026-10-27",
       "priority": "high",
       "openedYear": 2008,
@@ -7514,6 +7514,42 @@
         "status": "unreviewed",
         "basis": "not_verified",
         "reason": "Attendance unreviewed. If confirmed, preserve dining memory and monitor for venue-specific recognition; don't assume award qualification.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-cambridge-chop-house",
+      "wishlistAddedOn": "2026-10-27",
+      "reviewedOn": "2026-10-27",
+      "lastInterviewResponse": "Requested future-visit list, expressly without past attendance assumption.",
+      "reviewSource": "Direct user request on 2026-10-27: 'Add The Cambridge Chop House to my private future-visit wishlist without assuming past attendance.'",
+      "visitNote": "User would like to go. Past dining attendance is unreviewed; no visit or restaurant-award-watchlist entry."
+    },
+    {
+      "id": "candidate-cambridge-fitzbillies-trumpington",
+      "name": "Fitzbillies (original Trumpington Street)",
+      "area": "Cambridge, UK",
+      "addressHint": "51–53 Trumpington Street, Cambridge CB2 1RG; table-service café/tearoom at No. 52",
+      "sourceUrl": "https://www.fitzbillies.com/pages/trumpington-street",
+      "interviewCue": "Historic Cambridge bakery/café established in 1920. Ornate dark timber shopfront with gold Fitzbillies lettering and original Mason initials; famed sticky Chelsea buns. No. 52 table-service tearoom for brunch and afternoon tea; adjacent bakery and coffee shop at 51/53. Distinguish this original branch from Bridge Street (later) and King's Parade (2023).",
+      "openedYear": 1920,
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "recognition": "No venue-specific Michelin/James Beard recognition verified in this initial pass. Long-standing Cambridge cultural and culinary landmark; visit confirmation is independent of any awards.",
+      "screening": {
+        "status": "pending_historical_award_audit",
+        "basis": "none_verified",
+        "evidenceUrl": "https://www.fitzbillies.com/pages/our-story",
+        "sourceTier": "official_venue_history",
+        "verifiedAt": "2026-10-27",
+        "note": "Official venue reports 1920 founding, original Trumpington location, and Chelsea buns. Historical and current Michelin/JBF program/award connections not yet verified; no awards claimed."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "no_venue_specific_qualifying_award_verified",
+        "reason": "Ask separately about bakery purchase, café meal, or afternoon tea before creating a confirmed personal experience.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8493,15 +8529,16 @@
         "Fancett's",
         "Vanderlyle",
         "Mercado Central",
-        "Margaret's"
+        "Margaret's",
+        "The Cambridge Chop House"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Parker's Tavern",
-      "nextCandidate": "The Cambridge Chop House",
+      "lastReviewedCandidate": "The Cambridge Chop House",
+      "nextCandidate": "Fitzbillies (original Trumpington Street)",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Parker's Tavern directly confirmed as BOTH dining and bar drinks. University Arms Hotel stay independently confirmed. The hotel stay is separate context, not a restaurant visit. Cambridge pubs and MillWorks GMI dinner and all LA records preserved. Next Cambridge Chop House, a historic restaurant open since 2008.",
+      "note": "Cambridge Chop House future wish confirmed; past attendance expressly unanswered. Parker's Tavern dining/drinks and University Arms lodging stay remain confirmed separately. All earlier Cambridge confirmations and LA records intact.",
       "confirmedBarNames": [
         "Parker's Tavern Bar"
       ],
@@ -8530,14 +8567,14 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Cambridge, UK",
-      "category": "restaurants",
+      "category": "cafés and dining",
       "candidateNames": [
-        "The Cambridge Chop House"
+        "Fitzbillies (original Trumpington Street)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at The Cambridge Chop House, 1 King's Parade, Cambridge, opposite King's College Chapel? Answer visited, maybe, not visited or add to wishlist.",
-      "continuation": "Continue one Cambridge venue with actual photos per turn, then Kansas City (2010–present, including Weston, Missouri), then Baltimore.",
-      "note": "Parker's Tavern meal and drinks confirmed, University Arms hotel stay separately confirmed with unknown dates. Keep MillWorks GMI dinner and 3 Cambridge pub records. All previously saved Los Angeles research intact."
+      "question": "Have you been to the original Fitzbillies on Trumpington Street, Cambridge? If so, did you have a meal/afternoon tea, just coffee/a Chelsea bun, or both? Otherwise maybe, not visited, or add to future wish list.",
+      "continuation": "One photographed Cambridge venue at a time. Next audit Kansas City metro and Weston, Missouri, 2010–present; then Baltimore.",
+      "note": "Preserve user confirmed Cambridge pubs, MillWorks GMI colleague dinner, Parker's Tavern dining/drinks and University Arms stay; retain all LA findings and multiple wishlist entries without inferring past attendance."
     },
     "pausedBatches": [
       {
