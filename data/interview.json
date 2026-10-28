@@ -7236,11 +7236,11 @@
       "recognition": "Historic riverside Cambridge pub with a musical history linked to early Pink Floyd members; historical/pub context, not verified direct Michelin or James Beard recognition.",
       "recognitionYear": null,
       "awardFamily": "heritage_context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_venue_photo_recognition_candidate",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_direct_user_visit_historic_pub",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User independently recalled enjoying Cambridge pubs and steering a punt himself during the trip, but has NOT identified this pub or said they stopped here. The pub location beside a punting area is a memory cue only.",
+      "visitNote": "Alex explicitly confirmed visiting The Anchor (Silver Street, Cambridge) on 2026-10-27. His earlier personal recollection of punting the River Cam is separately confirmed, but this does not establish that he visited the pub directly before or after punting or sat on the riverside terrace. Exact pub visit year, date, whether drinks/food were consumed, companions and specific experiences remain unknown. Preserve independently from The Eagle. Musical history is not a Michelin/JBF award.",
       "screening": {
         "status": "no_specific_michelin_jbf_verified",
         "basis": "historic_pub_and_riverside_memory_lead",
@@ -7253,6 +7253,41 @@
         "status": "unverified",
         "basis": "no_qualifying_award_verified",
         "reason": "Ask Alex for direct attendance before any confirmed record. Preserve this venue separate from The Eagle.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "lastInterviewResponse": "Visited",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct user statement: Culture Passport Cambridge UK interview: The Anchor (Silver Street) — Visited.",
+      "confirmedVisitId": "bar-anchor-cambridge-date-unknown"
+    },
+    {
+      "id": "candidate-cambridge-pickerel-inn-magdalene-street",
+      "name": "The Pickerel Inn (Magdalene Street, Cambridge)",
+      "area": "Cambridge, UK",
+      "sourceUrl": "https://www.greeneking.co.uk/pubs/cambridgeshire/pickerel-inn",
+      "addressHint": "30 Magdalene Street, Cambridge CB3 0AF, UK",
+      "interviewCue": "Traditional blue-painted street façade on Magdalene Street, close to Magdalene Bridge and College; small rooms with old exposed wooden beams, wood-burning stove/brick fireplace, polished dark wooden bar and quiet ivy-covered courtyard. The current facade and interior may have changed following autumn 2026 refurbishment; photo recognition can rely on older and newer images.",
+      "recognition": "Grade II listed historic pub with fabric documented by Historic England dating from the 16th/17th centuries and older fittings. The pub is reputed to have operated since 1608. This is architectural and cultural heritage, not Michelin or James Beard culinary recognition.",
+      "recognitionYear": null,
+      "awardFamily": "heritage_context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "historical_venue_photo_recognition_candidate",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User has not yet indicated whether he visited The Pickerel. The Anchor and The Eagle are independently confirmed; this place is a separate Cambridge interview lead. Do not infer visits to other historic pubs from shared proximity to river or universities.",
+      "screening": {
+        "status": "heritage_verified_no_location_specific_michelin_jbf_claim",
+        "basis": "grade_ii_listing",
+        "evidenceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1101465",
+        "sourceTier": "official_heritage_listing",
+        "verifiedAt": "2026-10-27",
+        "note": "Historic England's official listing records Grade II, with 16th/17th-century rear wing, 17th-century panelling and 18th-century features. Pub's operator supplies current photos. Heritage significance does not equal Michelin or JBF award."
+      },
+      "eligibility": {
+        "status": "unverified",
+        "basis": "historic_context_only",
+        "reason": "Venue-specific actual visit unconfirmed; no Michelin/JBF culinary award is claimed.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8215,26 +8250,29 @@
       "purpose": "Historical restaurant, historic pub, cocktail bar and other culturally notable venue interview; user previously enjoyed several pubs during a visit to Cambridge while working at RAF Molesworth, but no named venue attendance is established.",
       "period": "To be reconstructed with user, including approximate year(s).",
       "venueDiscovery": "Research operating and closed venues from user's actual travel window, not just current award shortlists. Give photos and one venue at a time; verify any Michelin/JBF historic credentials at the correct venue and period.",
-      "visitEvidenceRule": "No Cambridge restaurant or pub is confirmed by this queue. Ask about venue identity before creating a visited record.",
+      "visitEvidenceRule": "The Eagle and The Anchor are independently confirmed visits through direct user statements; no other Cambridge pub is confirmed. Never infer activities, companions, meals, or exact visit dates or venue-specific Michelin/JBF recognition from attendance.",
       "followUpQuestions": [
         "Approximate year(s) of Cambridge stay or visits?",
         "Which pubs, restaurants, or bars do you recognize in photos?",
         "Were any memorable meals in Cambridge itself versus near RAF Molesworth?"
       ],
       "firstCandidate": "The Eagle (Cambridge, Bene't Street)",
-      "nextCandidate": "The Anchor (Silver Street, Cambridge)",
+      "nextCandidate": "The Pickerel Inn (Magdalene Street, Cambridge)",
       "lastUpdatedOn": "2026-10-27",
-      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved.",
+      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved. On 2026-10-27, Alex explicitly confirmed The Anchor (Silver Street) as a separate historic pub visit. The Eagle and The Anchor are confirmed; both dates and activities inside remain unspecified. The River Cam punting memory is independent, not claimed to be part of the Anchor stop. Proceed to The Pickerel Inn with photos; distinguish building/heritage recognition from culinary awards.",
       "confirmedVenueNames": [
-        "The Eagle (Cambridge, Bene't Street)"
+        "The Eagle (Cambridge, Bene't Street)",
+        "The Anchor (Silver Street, Cambridge)"
       ],
       "confirmedVenueIds": [
-        "venue-eagle-cambridge"
+        "venue-eagle-cambridge",
+        "venue-anchor-cambridge"
       ],
       "confirmedExperienceIds": [
-        "bar-eagle-cambridge-date-unknown"
+        "bar-eagle-cambridge-date-unknown",
+        "bar-anchor-cambridge-date-unknown"
       ],
-      "lastReviewedCandidate": "The Eagle (Cambridge, Bene't Street)"
+      "lastReviewedCandidate": "The Anchor (Silver Street, Cambridge)"
     }
   },
   "interviewProgress": {
@@ -8242,12 +8280,12 @@
       "area": "Cambridge, UK",
       "category": "historic pubs",
       "candidateNames": [
-        "The Anchor (Silver Street, Cambridge)"
+        "The Pickerel Inn (Magdalene Street, Cambridge)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Did you visit The Anchor pub on Silver Street beside the River Cam and punts, overlooking the Mathematical Bridge? Answer visited, maybe, did not visit or add to future list.",
-      "continuation": "Continue Cambridge historic pubs and restaurants one venue at a time with photos; then Kansas City 2010–present, then Baltimore. Preserve LA confirmed, maybe and negative states.",
-      "note": "The Eagle directly confirmed; exact visit date and whether drinks or food consumed are unknown. Pub's scientific/RAF history is not a Michelin/JBF award."
+      "question": "Did you visit The Pickerel Inn on Magdalene Street, known for a painted blue facade, dark wooden pub interior, and old timber beams? Answer visited / maybe / did not visit / add to future visit list.",
+      "continuation": "Continue Cambridge one venue at a time with historic and current photos; after Cambridge, Kansas City 2010–present followed by Baltimore. Preserve initial LA screened venues and all unresolved maybes.",
+      "note": "The Anchor and The Eagle are both confirmed independent Cambridge visits. Do not infer a meal, pint or date; historic listing is not a Michelin/JBF accolade. Preserve all previous records."
     },
     "pausedBatches": [
       {
