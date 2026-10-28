@@ -29,6 +29,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Current West Hollywood / Nemo Street location. No reservation, planned date, party, budget or former SLS attendance is implied."
+    },
+    {
+      "id": "want-to-visit-petit-trois-original",
+      "candidateId": "candidate-la-petit-trois-original",
+      "name": "Petit Trois L'Original",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "718 N Highland Avenue",
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "USA"
+      },
+      "website": "https://www.petittrois.com/loriginal",
+      "guideUrl": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/petit-trois",
+      "userNote": "I'd like to go.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Nope, but add it to the list"
+      },
+      "desiredVisitDate": null,
+      "notes": "Hollywood original on Highland Avenue. No reservation, planned date, party, budget or visit to Le Valley or another location is implied."
     }
   ]
 }
