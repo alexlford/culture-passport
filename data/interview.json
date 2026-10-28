@@ -8086,6 +8086,20 @@
       "notVisitedCandidates": 3,
       "initialScreeningStatus": "complete",
       "initialScreeningCompletedOn": "2026-10-27"
+    },
+    "cambridgeUK": {
+      "state": "queued_after_los_angeles",
+      "updatedOn": "2026-10-27",
+      "area": "Cambridge, UK",
+      "purpose": "Historical restaurant, historic pub, cocktail bar and other culturally notable venue interview; user previously enjoyed several pubs during a visit to Cambridge while working at RAF Molesworth, but no named venue attendance is established.",
+      "period": "To be reconstructed with user, including approximate year(s).",
+      "venueDiscovery": "Research operating and closed venues from user's actual travel window, not just current award shortlists. Give photos and one venue at a time; verify any Michelin/JBF historic credentials at the correct venue and period.",
+      "visitEvidenceRule": "No Cambridge restaurant or pub is confirmed by this queue. Ask about venue identity before creating a visited record.",
+      "followUpQuestions": [
+        "Approximate year(s) of Cambridge stay or visits?",
+        "Which pubs, restaurants, or bars do you recognize in photos?",
+        "Were any memorable meals in Cambridge itself versus near RAF Molesworth?"
+      ]
     }
   },
   "interviewProgress": {
@@ -8411,6 +8425,70 @@
         "reason": "Requested future visit list only; past attendance unanswered.",
         "deferredOn": "2026-10-27"
       }
-    ]
+    ],
+    "nextCitySequence": {
+      "updatedOn": "2026-10-27",
+      "requestedByUser": true,
+      "order": [
+        "Los Angeles / West Hollywood + South Bay / Space Park (complete active interview)",
+        "Cambridge, UK (new historical chapter)",
+        "Kansas City Metro (retrospective completeness audit)",
+        "Baltimore, MD (retrospective completeness audit)"
+      ],
+      "currentArea": "Los Angeles / West Hollywood + South Bay / Space Park",
+      "nextAfterLA": "Cambridge, UK",
+      "auditFocus": "Find missed venues caused by present-day Michelin/JBF-only search; use actual historical timeframe, location, closures/renames, and venue-specific awards or official foundation/guide links.",
+      "preserveStates": "Keep confirmed, maybe, tentative-negative, not_visited and unreviewed separate. Never infer attendance from a reservation or recognition.",
+      "retrospectiveAudits": [
+        {
+          "area": "Kansas City Metro",
+          "priorityPeriod": "2012–2017",
+          "broaderPeriod": "2010–present",
+          "status": "queued_after_cambridge",
+          "anchor": "Union Station discovery revealed historical omissions.",
+          "alreadyConfirmed": [
+            "Pierpont's at Union Station (multiple visits)",
+            "Harvey's at Union Station (post-wedding goodbye brunch)"
+          ],
+          "existingUnreviewedToRevisit": [
+            "The Restaurant at 1900",
+            "Room 39",
+            "Affäre",
+            "Chewology",
+            "Yoli Tortilleria",
+            "Rye (Plaza)"
+          ],
+          "additionalReview": "Discover period-correct historic dining rooms, hotel/Union Station restaurants, and cocktail bars (including venues closed or renamed). Cross-check existing canonical records first. Preserve tentative negatives and avoid duplicate records.",
+          "documentationRule": "Keep Pierpont's documented 2011 JBF editorial mention distinct from an award; Harvey's is a user-confirmed personal wedding-memory highlight. Do not add invented exact dates."
+        },
+        {
+          "area": "Baltimore, MD",
+          "priorityPeriod": "2018–2021",
+          "status": "queued_after_kansas_city_retro",
+          "alreadyConfirmed": [
+            "Charleston",
+            "Woodberry Kitchen",
+            "Gunther & Co.",
+            "Thames Street Oyster House",
+            "Rec Pier Chop House"
+          ],
+          "existingMaybe": [
+            "Alma Cocina Latina"
+          ],
+          "existingUnreviewedToRevisit": [
+            "Magdalena",
+            "La Cuchara",
+            "Le Comptoir du Vin",
+            "The Food Market",
+            "Cosima",
+            "Café Dear Leon",
+            "NiHao"
+          ],
+          "additionalReview": "Research historical restaurant, historic bars and speakeasies, chef/James Beard connections, renamed/closed venues and neighborhoods/areas user frequented. Reconcile previously screened negatives without overwriting them. Confirm with photos and one venue at a time.",
+          "documentationRule": "Use visited-venue and period-specific source attribution, keep reservation evidence separate from a confirmed date, and keep uncertain venues out of confirmed totals."
+        }
+      ],
+      "editorialPolicy": "Completeness and memory first, recognition second. Screening qualified venues is useful but cannot be the only historical discovery channel."
+    }
   }
 }
