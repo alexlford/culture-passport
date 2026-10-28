@@ -246,6 +246,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Future visit interest established. The user did not explicitly answer whether they have ever visited, so historical attendance remains unreviewed. No reservation, planned date, party, or confirmed dining experience implied."
+    },
+    {
+      "id": "want-to-visit-fancetts-cambridge",
+      "candidateId": "candidate-cambridge-fancetts",
+      "name": "Fancett's",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "96a Mill Road, Cambridge CB1 2BD",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://fancetts.com/",
+      "guideUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/fancett-s",
+      "userNote": "Add Fancett's at 96a Mill Road to my private future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Culture Passport Cambridge: Add Fancett's at 96a Mill Road to my private future-visit wishlist without assuming past attendance. Continue the interview with the next venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit future-visit interest only. Prior attendance has not been answered; do not classify it as visited or not visited. No personal dining record, award-watchlist entry, reservation, or planned visit date."
     }
   ]
 }
