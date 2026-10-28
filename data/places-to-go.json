@@ -221,6 +221,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Wishlist is future intent only; no visit, booking, attendance, menu or date inferred."
+    },
+    {
+      "id": "want-to-visit-midsummer-house-cambridge",
+      "candidateId": "candidate-cambridge-midsummer-house",
+      "name": "Midsummer House",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "Midsummer Common, Cambridge CB4 1HA",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.midsummerhouse.co.uk/",
+      "guideUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/midsummer-house",
+      "userNote": "Let's add it to the list of want to go and continue the interview.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Let’s add it to the list of want to go and continue the interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future visit interest established. The user did not explicitly answer whether they have ever visited, so historical attendance remains unreviewed. No reservation, planned date, party, or confirmed dining experience implied."
     }
   ]
 }
