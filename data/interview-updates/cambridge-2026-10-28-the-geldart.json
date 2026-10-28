@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-geldart-ainsworth-street",
+    "venue": "The Geldart",
+    "address": "1 Ainsworth Street, Cambridge CB1 2PF",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-geldart-cambridge",
+    "userResponse": "Add The Geldart at 1 Ainsworth Street to my private future-visit wishlist without assuming past attendance.",
+    "evidenceType": "direct_user_request",
+    "guardrails": "Future interest only; do not infer a confirmed or negative personal visit, meal, drinks, companions, dates or award-based attendance."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-bath-house-benets-street",
+    "name": "The Bath House",
+    "address": "3 Bene't Street, Cambridge CB2 3QN",
+    "category": "historic_pub_and_dining",
+    "pastAttendance": "unreviewed",
+    "officialSite": "https://www.greeneking.co.uk/pubs/cambridgeshire/bath-house",
+    "camraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1630",
+    "historicEnglandSource": "https://historicengland.org.uk/listing/missing-pieces/historic-pub-walks/cambridge/",
+    "cues": [
+      "Muted dark blue pub frontage and gold BATH HOUSE sign on Bene't Street",
+      "Exposed beams, wood panelling and open brickwork",
+      "Tables and bar inside a Grade II listed 17th-century former inn",
+      "Same street as user's confirmed The Eagle visit, but a different pub"
+    ],
+    "question": "Did you visit The Bath House at 3 Bene't Street in Cambridge, for drinks, food, both, maybe, or not at all?"
+  },
+  "futureAuditSequence": [
+    "Cambridge interview, one photographed venue at a time",
+    "Kansas City metro including Weston, Missouri, 2010-present",
+    "Baltimore historical audit"
+  ],
+  "preservation": "Keep prior confirmed Cambridge pubs (The Eagle, The Anchor, The Mill), MillWorks GMI dinner, Parker's Tavern food/drinks, University Arms hotel stay, all LA records, and separate wishlist and attendance statuses. Do not alter Work Passport or Life Map.",
+  "integrationStatus": "Supplemental append-only handoff; large canonical data/interview.json awaits reconciliation with interview-updates files."
+}
