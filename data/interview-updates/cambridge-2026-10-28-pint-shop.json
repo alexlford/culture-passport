@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "source": "Direct user interview response",
+  "answer": {
+    "candidateId": "candidate-cambridge-pint-shop-peas-hill",
+    "venue": "Pint Shop",
+    "address": "10 Peas Hill, Cambridge, CB2 3PN",
+    "visitStatus": "unreviewed",
+    "futureVisitStatus": "want_to_visit",
+    "wishlistEntryId": "want-to-visit-pint-shop-cambridge-peas-hill",
+    "evidence": "User asked to add Pint Shop to future wishlist without assuming past attendance.",
+    "constraints": "No inferred restaurant or pub visit, alcohol order, meal, or reservation."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-king-street-brewhouse",
+    "venue": "King Street Brewhouse (formerly Cambridge Brew House)",
+    "address": "1 King Street, Cambridge CB1 1LH",
+    "aliases": [
+      "Cambridge Brew House",
+      "King Street Brew House"
+    ],
+    "venueCategory": "pub_and_restaurant",
+    "visitStatus": "unreviewed",
+    "sources": [
+      "https://www.kingstbrewhousecambridge.co.uk/",
+      "https://camra.org.uk/pubs/king-street-brew-house-cambridge-131202"
+    ],
+    "question": "Did you visit the Cambridge Brew House, now called King Street Brewhouse, at 1 King Street, for food, drinks or both?",
+    "photoCue": "Blue storefront, upstairs rooms, on-site brewery visible through the pub."
+  },
+  "deferredAuditSequence": [
+    {
+      "place": "Kansas City metro and Weston, Missouri",
+      "period": "2010-present"
+    },
+    {
+      "place": "Baltimore",
+      "period": "historic retrospective"
+    }
+  ],
+  "preservation": "Do not modify or reinterpret confirmed Cambridge pubs, MillWorks GMI dinner, Parker's Tavern meal and drinks, University Arms hotel stay, Fitzbillies source data, existing Los Angeles records or prior Kansas City entries.",
+  "integrationNote": "Supplemental handoff to preserve interview progression without rewriting the large canonical interview file."
+}
