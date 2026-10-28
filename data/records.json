@@ -10,8 +10,8 @@
     },
     {
       "id": "bar",
-      "label": "Cocktail Bars",
-      "description": "Cocktail bars, speakeasies and beverage experiences"
+      "label": "Pubs & Cocktail Bars",
+      "description": "Historic pubs, cocktail bars, speakeasies, and beverage experiences"
     },
     {
       "id": "concert",
@@ -44,7 +44,7 @@
     "awardFocusedCollection": "Default Culture Passport Dining chapter shows only venues with verified historical Michelin inclusion or James Beard recognition of restaurant itself or chef at that restaurant. Memory-only confirmed visits are preserved but hidden by default, discoverable with a separate toggle. Recognition year may differ from dinner year.",
     "curated": "Default Culture Passport dining views show confirmed restaurants with documented Michelin Guide recognition (star, Bib, Selected, historic Plate) or directly associated James Beard awards, finalists or semifinalists. Those awards retain their recipient and year. Chef awards at unrelated restaurants or historical awards dated after a dinner may be context, not proof of qualification at the meal date. Unverified and outside-scope visits stay in archive but are hidden from curated browsing by default.",
     "featuredExceptions": "Venue-specific Michelin/JBF honors are the default inclusion criteria, but the user's express favorites Sauvage, Gunther & Co., Death & Co Denver and provisional favorite The Majestic are displayed in the primary collection despite no established qualifying award. FiNO was added as a user-selected confirmed 2026 visit without award recognition; this does not imply it is a personal favorite.",
-    "beverages": "Stand-alone cocktail bars are type=bar, never counted as restaurants. James Beard Outstanding Bar Program includes bar semifinalists. Never borrow recognition from another location within a chain.",
+    "beverages": "Cocktail bars and historic pubs use type=bar, distinct from dining. Michelin/JBF, CAMRA pubs, Tales of the Cocktail bar honors, Brewers Association producer-level awards and heritage features are separate recognition tracks. Do not transfer awards across sites or between a beer product and the venue.",
     "repeatVisits": "A venue may be visited in multiple years. Each confirmed year is represented as a separate experience record with a stable unique ID, sharing one venue ID; do not manufacture precise calendar dates or collapse years into one event.",
     "reservationEvidence": "Date and party size from completed reservation screenshots are documentary evidence, not independent proof of check-in or dining. Only directly restaurant-level Michelin/JBF recognition enters the curated collection automatically. The user explicitly excluded Le Fou Frog: it must not enter any deployed venue/experience ledger, even though its date appears in private conversation uploads.",
     "storyFirst": "Each published entry leads with a grounded personal memory, atmosphere, or occasion. Dates are retained in provenance but the public timeline emphasizes approximate years, seasons, and meaningful events. Never fabricate meals, companion details, specific actions, or feelings not supplied by the user.",
@@ -53,7 +53,10 @@
     "criterionAudit": "Keep separate: verified Michelin Guide inclusion (stars, Bib, Selected/historical Plate), James Beard semifinalist/finalist/winner at the specific venue or chef while working there, explicitly featured personal memories, user-confirmed history without award, uncertain leads, and reservation-only evidence. Never count unverified founders' awards from unrelated restaurants or award years as the historical dining year.",
     "stageMemories": "Confirmed live outings can be recorded with a provisional production title. Verify the tour period and venue independently but do not infer exact performance dates; labels are about the memory.",
     "culturalExperiences": "Concert, festival, theatrical, live television, magic and opera entries can be supported by user recollections or personal event archive screenshots without Michelin/James Beard recognition. Show exact performance dates only when supported; a run's date window never proves a particular night.",
-    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date."
+    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date.",
+    "camraPubRecognition": "For directly confirmed British pub visits, CAMRA Pub of the Year awards at national, regional, branch or explicitly named branch/category level, and verified edition-specific Good Beer Guide listings, can qualify a separate pub-recognition track. Ordinary CAMRA directory listings, Dog Friendly/Most Improved, and listed historic architecture are supporting information only. Record exact venue, distinction, source and year; leave visit year unknown until supplied.",
+    "usBeverageAndHeritageRecognition": "U.S. candidates: venue-specific Tales of the Cocktail Spirited Awards stages for bars; Great American Beer Festival Brewery/Brewer of the Year or verified World Beer Cup producer championships for site-matched brewing producers; independently documented heritage venues are discretionary personal-history features, not beer awards. Single-beer medals and awards at unrelated locations are supporting context, never automatic venue qualification. Require direct attendance before promoting.",
+    "recognitionTracks": "Retain editorial.awardQualified exclusively for Michelin/James Beard. Use editorial.pubRecognized, editorial.barRecognized, editorial.breweryRecognized, and explicitly reviewed editorial.heritageFeatured as non-JBF tracks. These must never increment Michelin/JBF metrics. Publication remains under independent explicit review and approval."
   },
   "venues": [
     {
@@ -6215,7 +6218,7 @@
         "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
         "source": "Direct user response on 2026-10-27: 'Culture Passport Cambridge UK interview: The Mill (Mill Lane) — Visited.' This does not establish a date, meal, drink or companion."
       },
-      "summary": "Confirmed visit to the historic Mill Lane riverside pub overlooking the Millpond. Its CAMRA branch recognition is retained as pub-specific context, not Michelin or James Beard culinary distinction. Visit date and activity unknown.",
+      "summary": "Confirmed visit to The Mill on Cambridge's riverside Mill Lane. Its 2018 Cambridge & District CAMRA Young Members' Pub of the Year award qualifies for the independent pub-recognition track, separate from Michelin and James Beard. The 2019–2020 dog-friendly awards are supporting context. The visit date and details remain unknown.",
       "memory": {
         "headline": "The Mill beside Cambridge's Millpond",
         "teaser": "A confirmed visit to a historic Cambridge riverside pub, with the River Cam and its punts nearby.",
@@ -6267,14 +6270,17 @@
         "awardQualified": false,
         "featuredException": false,
         "officialFeature": false,
-        "collection": "archived_historic_pub",
-        "basis": "confirmed_visit_with_camra_pub_awards",
-        "note": "Cultural pub archive; CAMRA-specific recognition retained by organization/year. No visitor-facing publication authorized by this branch."
+        "collection": "camra_recognized_pub",
+        "basis": "camra_2018_young_members_pub_of_the_year",
+        "note": "Confirmed Cambridge pub visit and venue-specific 2018 Cambridge & District CAMRA Young Members' Pub of the Year award. Supporting 2019/2020 Dog Friendly awards are not independently qualifying. CAMRA pub recognition is distinct from Michelin/JBF; visit date and activities unknown; publication approval remains separate.",
+        "pubRecognized": true,
+        "recognitionTrack": "camra_pub",
+        "pubRecognitionTier": "camra_branch_category_pub_of_the_year"
       },
       "curation": {
-        "status": "outside_scope",
-        "basis": "camra_pub_awards_not_michelin_jbf",
-        "reason": "Confirmed visit plus official CAMRA recognition, but not Michelin/JBF qualification. Preserve cultural history separately from culinary award collection.",
+        "status": "qualifies_pub",
+        "basis": "camra_branch_category_pub_of_the_year",
+        "reason": "The Mill's 2018 CAMRA Young Members' Pub of the Year branch/category win qualifies for the separate British pub tier; CAMRA is not Michelin/JBF. Exact visit time unknown.",
         "evidenceUrls": [
           "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
           "https://www.themillpubcambridge.com/"
