@@ -7472,6 +7472,37 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-kansas-city-omalleys-1842-pub-weston",
+      "name": "O'Malley's 1842 Pub (Weston, Missouri)",
+      "area": "Kansas City Metro",
+      "sourceUrl": "https://westonirish.com/omalleys-1842-pub-weston-mo/",
+      "addressHint": "500 Welt Street, Weston, MO 64098, United States",
+      "interviewCue": "Underground Irish pub in former Weston Brewing Company limestone beer cellars, with vaulted stone ceilings, low-lit cavern stages and live traditional Irish music. Multiple cellar levels below ground; site connected to the original brewery established in 1842, but current O'Malley's pub opened in the 1980s, not 1842.",
+      "recognition": "National Trust for Historic Preservation featured the exact venue in January 2016 for its historic underground brewery-cellar pub setting. This is editorial heritage recognition, NOT a Michelin or James Beard prize, a brewing-industry win, or evidence of a past visit. Independent historic-site feature may qualify under separate heritage cultural track only after a direct confirmed visit and editorial review.",
+      "recognitionYear": 2016,
+      "awardFamily": "national_trust_historic_editorial_feature",
+      "visitStatus": "unreviewed",
+      "researchStatus": "user_weston_famous_pub_identification_lead",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User asked whether Weston, Missouri has a famous pub and seemed to recall a notable place. O'Malley's is the probable intended venue but user has NOT confirmed that they visited. Queue for Kansas City 2010-present interview with photos, after Cambridge. Exact date, companions and activities unknown.",
+      "screening": {
+        "status": "official_heritage_editorial_documented_not_pub_award",
+        "basis": "National Trust for Historic Preservation January 21 2016 venue-specific feature",
+        "evidenceUrl": "https://savingplaces.org/stories/omalleys-pub-historic-bar",
+        "sourceTier": "national_heritage_nonprofit_and_venue_operator",
+        "verifiedAt": "2026-10-27",
+        "note": "Historic brewery began in 1842; modern O'Malley's opened in 1980s. National Trust feature is editorial, not a designation/competition award. Direct visited status remains unreviewed."
+      },
+      "eligibility": {
+        "status": "unverified_awaits_attendance",
+        "basis": "historic_heritage_editorial_not_competitive_pub_award",
+        "reason": "Wait for explicit user attendance confirmation, then evaluate under personal heritage tier; do not count in Michelin/JBF or CAMRA or U.S. bar awards.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -8827,9 +8858,10 @@
             "Affäre",
             "Chewology",
             "Yoli Tortilleria",
-            "Rye (Plaza)"
+            "Rye (Plaza)",
+            "O'Malley's 1842 Pub (Weston, Missouri)"
           ],
-          "additionalReview": "Discover period-correct historic dining rooms, hotel/Union Station restaurants, and cocktail bars (including venues closed or renamed). Cross-check existing canonical records first. Preserve tentative negatives and avoid duplicate records.",
+          "additionalReview": "Discover period-correct historic dining rooms, hotel/Union Station restaurants, and cocktail bars (including venues closed or renamed). Cross-check existing canonical records first. Preserve tentative negatives and avoid duplicate records. Add Weston, MO 1842 underground brewery-cellar pub O'Malley's as a high-priority historic-pub photo-identification lead. Verify modern bar timing separate from 1842 brewery origins. Re-audit local brewery producer awards, Tales of the Cocktail Spirited bar honors and official historical venue features under newly distinct tracks.",
           "documentationRule": "Keep Pierpont's documented 2011 JBF editorial mention distinct from an award; Harvey's is a user-confirmed personal wedding-memory highlight. Do not add invented exact dates."
         },
         {
@@ -8861,7 +8893,20 @@
       ],
       "editorialPolicy": "Completeness and memory first, recognition second. Screening qualified venues is useful but cannot be the only historical discovery channel.",
       "losAngelesInitialScreening": "completed_all_direct_cue_venues; unresolved_maybes_retained_without_re-questioning",
-      "nextAfterCambridge": "Kansas City Metro (2010–present)"
+      "nextAfterCambridge": "Kansas City Metro (2010–present)",
+      "usExpandedRecognitionAudit": {
+        "status": "queued",
+        "methodology": "Separate U.S. Spirited Awards bar recognition, verified producer-level Great American Beer Festival / World Beer Cup honors, and independently documented historic-venue features from Michelin/JBF and CAMRA awards. Screen past attendance before promoting.",
+        "priorityAreas": [
+          "Kansas City Metro and Weston, Missouri (2010–present)",
+          "Denver/Boulder and Colorado mountain towns",
+          "Chicago",
+          "Baltimore / Washington DC",
+          "St. Louis",
+          "Los Angeles and New York City"
+        ],
+        "userIntent": "User requested reevaluation of American cities, breweries and famous pubs after CAMRA criteria expansion."
+      }
     }
   }
 }
