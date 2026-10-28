@@ -420,6 +420,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only. Past attendance is unreviewed. No meal, drinks, reservation, or visit date inferred."
+    },
+    {
+      "id": "want-to-visit-pint-shop-cambridge-peas-hill",
+      "candidateId": "candidate-cambridge-pint-shop-peas-hill",
+      "name": "Pint Shop (Cambridge)",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "10 Peas Hill, Cambridge CB2 3PN",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://pintshop.co.uk/locations/cambridge/",
+      "userNote": "I want to visit Pint Shop at 10 Peas Hill.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add Pint Shop at 10 Peas Hill to my private future-visit wishlist without assuming past attendance. Continue with the next venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. Past attendance unreviewed; do not create a confirmed dining or drinking record, infer a meal, beverages, reservation, or visit date."
     }
   ]
 }
