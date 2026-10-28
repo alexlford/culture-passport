@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-wrestlers-newmarket-road",
+    "venue": "The Wrestlers",
+    "address": "337 Newmarket Road, Cambridge CB5 8JE",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-wrestlers-cambridge",
+    "sourceType": "direct_user_request",
+    "sourceQuote": "Culture Passport Cambridge: Add The Wrestlers at 337 Newmarket Road to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs.",
+    "guardrails": "Future-visit wish only. Never infer a former pub visit, restaurant meal, drink order, nonvisit, or visit date from this response."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-geldart-ainsworth-street",
+    "venue": "The Geldart",
+    "address": "1 Ainsworth Street, Cambridge CB1 2PF",
+    "venueType": "traditional_pub_and_dining",
+    "visitStatus": "unreviewed",
+    "officialSite": "https://www.the-geldart.co.uk/",
+    "officialCamraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1736",
+    "distinctCues": [
+      "Cream and black corner facade, THE GELDART sign",
+      "Glass piano with illumination",
+      "Decorative musical-instrument beer handpumps",
+      "Menus printed on vinyl LP records",
+      "Food cooked at the table on hot rocks"
+    ],
+    "verifiedNonMichelinAwards": [
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "distinction": "Branch Pub of the Year",
+        "year": 2023
+      },
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "distinction": "City LocAle Pub",
+        "year": 2025
+      }
+    ],
+    "awardsNote": "CAMRA awards are genuine pub-sector awards but should not be represented as Michelin or James Beard recognition.",
+    "question": "Did you visit The Geldart at 1 Ainsworth Street for food, drinks, both, maybe, or not at all?"
+  },
+  "nextRegionalAudits": [
+    "Kansas City metro including Weston, Missouri: 2010–present",
+    "Baltimore: historic retrospective"
+  ],
+  "preservation": "Keep confirmed Cambridge Eagle, Anchor, Mill, MillWorks GMI colleague dinner, Parker's Tavern restaurant/bar, University Arms hotel stay and earlier Los Angeles records. Do not change historic attendance for wishlisted venues.",
+  "integrationStatus": "Supplemental source-of-truth interview handoff. Canonical data/interview.json still requires reconciliation with the interview-updates folder."
+}
