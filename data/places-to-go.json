@@ -492,6 +492,29 @@
       },
       "desiredVisitDate": null,
       "notes": "Future-visit interest only. Historical attendance remains unreviewed; do not create dining, drink, or bar experience or infer a visit date."
+    },
+    {
+      "id": "want-to-visit-the-mitre-cambridge",
+      "candidateId": "candidate-cambridge-the-mitre-bridge-street",
+      "name": "The Mitre",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "17–18 Bridge Street, Cambridge CB2 1UF",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Would like to visit The Mitre on Bridge Street; past attendance has not been established.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Mitre on Bridge Street to my private future-visit wishlist without assuming past attendance."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future visit interest only. Do not infer prior drinks, dining, or a negative past-attendance answer. No visit or reservation date established."
     }
   ]
 }
