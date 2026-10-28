@@ -377,7 +377,7 @@
       "name": "Fitzbillies (original Trumpington Street)",
       "category": "cafe",
       "status": "want_to_visit",
-      "visitStatus": "unreviewed",
+      "visitStatus": "visited",
       "addedOn": "2026-10-27",
       "location": {
         "address": "51–53 Trumpington Street, Cambridge CB2 1RG",
@@ -386,14 +386,16 @@
         "country": "United Kingdom"
       },
       "website": "https://www.fitzbillies.com/pages/trumpington-street",
-      "userNote": "Add the original Fitzbillies on Trumpington Street to my private future-visit wishlist without assuming past attendance.",
+      "userNote": "Previously visited the original Fitzbillies for café dining or afternoon tea; also expressed interest in a future return.",
       "source": {
         "type": "direct_user_request",
         "date": "2026-10-27",
         "quote": "Culture Passport Cambridge: Add the original Fitzbillies on Trumpington Street to my private future-visit wishlist without assuming past attendance. Continue with the next venue and photos."
       },
       "desiredVisitDate": null,
-      "notes": "Future intent only for original Trumpington Street bakery/tearoom. Historical attendance remains unreviewed. Do not assume the user visited any branch, bought Chelsea buns, or ate a meal. Separate this branch from other Fitzbillies locations."
+      "notes": "Past dining visit explicitly confirmed on 2026-10-27. Whether it was café dining versus afternoon tea is unresolved. Retain prior future-interest request as a wish to return, not as a first-visit destination; no return booking or date inferred.",
+      "pastVisitConfirmedOn": "2026-10-27",
+      "confirmedExperienceId": "dining-fitzbillies-trumpington-cambridge-date-unknown"
     }
   ]
 }
