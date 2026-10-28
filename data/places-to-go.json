@@ -515,6 +515,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future visit interest only. Do not infer prior drinks, dining, or a negative past-attendance answer. No visit or reservation date established."
+    },
+    {
+      "id": "want-to-visit-castle-inn-cambridge",
+      "candidateId": "candidate-cambridge-castle-inn-castle-street",
+      "name": "The Castle Inn",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "38 Castle Street, Cambridge CB3 0AJ",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.thecastleinn.pub/",
+      "userNote": "Add The Castle Inn at 38 Castle Street to future visits; past attendance not established.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Castle Inn at 38 Castle Street to my private future-visit wishlist without assuming past attendance."
+      },
+      "desiredVisitDate": null,
+      "notes": "Interest in a future visit only; neither a previous visit nor a previous non-visit is asserted. No dining, drinks, reservation, date, or favorite status inferred."
     }
   ]
 }
