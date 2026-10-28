@@ -7534,7 +7534,7 @@
       "interviewCue": "Historic Cambridge bakery/café established in 1920. Ornate dark timber shopfront with gold Fitzbillies lettering and original Mason initials; famed sticky Chelsea buns. No. 52 table-service tearoom for brunch and afternoon tea; adjacent bakery and coffee shop at 51/53. Distinguish this original branch from Bridge Street (later) and King's Parade (2023).",
       "openedYear": 1920,
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "addedOn": "2026-10-27",
       "priority": "high",
       "recognition": "No venue-specific Michelin/James Beard recognition verified in this initial pass. Long-standing Cambridge cultural and culinary landmark; visit confirmation is independent of any awards.",
@@ -7550,6 +7550,42 @@
         "status": "unreviewed",
         "basis": "no_venue_specific_qualifying_award_verified",
         "reason": "Ask separately about bakery purchase, café meal, or afternoon tea before creating a confirmed personal experience.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-fitzbillies-trumpington-cambridge",
+      "wishlistAddedOn": "2026-10-27",
+      "reviewedOn": "2026-10-27",
+      "lastInterviewResponse": "Future visit requested for original Trumpington Street shop; past attendance not answered.",
+      "reviewSource": "Direct user's 2026-10-27 request to add original Fitzbillies to private future wishlist without assuming past attendance.",
+      "visitNote": "Original Trumpington Street Fitzbillies is wanted for a future visit. Whether Alex previously visited, purchased pastries, or dined there is unreviewed. No confirmed experience or award watchlist record."
+    },
+    {
+      "id": "candidate-cambridge-old-bicycle-shop",
+      "name": "The Old Bicycle Shop",
+      "area": "Cambridge, UK",
+      "addressHint": "104 Regent Street, Cambridge CB2 1DP, England",
+      "sourceUrl": "https://www.oldbicycleshop.com/",
+      "interviewCue": "Restaurant and bar in the former Howe's bicycle shop, 104 Regent Street; opened as a dining/drinks venue May 2016. Dark storefront with bicycle above sign; industrial/rustic interior, exposed brick, old cycling memorabilia, sky-lit communal tables and leather seating. Ask whether diner came for food, drinks, both, or not sure. Distinct from original cycle retailer, which had closed.",
+      "openedYear": 2016,
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "recognition": "No Michelin Guide restaurant distinction or James Beard restaurant award verified in this pass. Historical bicycle shop status is cultural context, not an award claim.",
+      "screening": {
+        "status": "pending_historical_award_audit",
+        "basis": "none_verified",
+        "evidenceUrl": "https://www.oldbicycleshop.com/",
+        "sourceTier": "official_venue",
+        "verifiedAt": "2026-10-27",
+        "note": "Official venue verifies Regent Street address and current operations; CAMRA documents May 2016 conversion from cycle shop. No qualifying Michelin/JBF restaurant award established."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "none_verified",
+        "reason": "Await user response and whether visit was a meal, drinks or both. Attendance and award eligibility are independent.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8530,15 +8566,16 @@
         "Vanderlyle",
         "Mercado Central",
         "Margaret's",
-        "The Cambridge Chop House"
+        "The Cambridge Chop House",
+        "Fitzbillies (original Trumpington Street)"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "The Cambridge Chop House",
-      "nextCandidate": "Fitzbillies (original Trumpington Street)",
+      "lastReviewedCandidate": "Fitzbillies (original Trumpington Street)",
+      "nextCandidate": "The Old Bicycle Shop",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Cambridge Chop House future wish confirmed; past attendance expressly unanswered. Parker's Tavern dining/drinks and University Arms lodging stay remain confirmed separately. All earlier Cambridge confirmations and LA records intact.",
+      "note": "Original Trumpington Street Fitzbillies added to future wishlist; prior attendance unreviewed. Next: Old Bicycle Shop, Regent Street (restaurant/bar opened 2016). Confirmed pubs, MillWorks colleague dinner, Parker's Tavern dining/drinks, University Arms lodging stay and LA records retained.",
       "confirmedBarNames": [
         "Parker's Tavern Bar"
       ],
@@ -8567,14 +8604,14 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Cambridge, UK",
-      "category": "cafés and dining",
+      "category": "restaurants and bars",
       "candidateNames": [
-        "Fitzbillies (original Trumpington Street)"
+        "The Old Bicycle Shop"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you been to the original Fitzbillies on Trumpington Street, Cambridge? If so, did you have a meal/afternoon tea, just coffee/a Chelsea bun, or both? Otherwise maybe, not visited, or add to future wish list.",
-      "continuation": "One photographed Cambridge venue at a time. Next audit Kansas City metro and Weston, Missouri, 2010–present; then Baltimore.",
-      "note": "Preserve user confirmed Cambridge pubs, MillWorks GMI colleague dinner, Parker's Tavern dining/drinks and University Arms stay; retain all LA findings and multiple wishlist entries without inferring past attendance."
+      "question": "Did you visit The Old Bicycle Shop, 104 Regent Street, Cambridge? If so was it for food, drinks or both? Otherwise maybe/not visited/future wishlist.",
+      "continuation": "Show photos and interview Cambridge venues one at a time. Then audit Kansas City 2010–present including Weston Missouri, followed by Baltimore.",
+      "note": "Fitzbillies original Cambridge Trumpington Street is on future wishlist, prior attendance unresolved. All previous confirmed Cambridge, LA and Kansas City records preserved."
     },
     "pausedBatches": [
       {
