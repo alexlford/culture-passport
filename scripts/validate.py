@@ -798,6 +798,6 @@ assert camra_mill["status"]=="confirmed" and camra_mill["type"]=="bar"
 assert camra_mill["editorial"]["pubRecognized"] is True
 assert camra_mill["editorial"]["awardQualified"] is False
 assert any(a["organization"].startswith("CAMRA") and a["year"]==2018 and a["category"]=="Young Members' Pub of the Year" for a in camra_mill["recognitions"])
-assert all(not r["editorial"].get("pubRecognized") or r["type"]=="bar" for r in records)
+assert all(not r.get("editorial", {}).get("pubRecognized") or r["type"]=="bar" for r in records)
 assert next(c for c in candidates if c["id"]=="candidate-cambridge-cambridge-blue-gwydir-street")["visitStatus"]=="not_visited"
 assert next(c for c in candidates if c["id"]=="candidate-cambridge-champion-of-the-thames-king-street")["visitStatus"]=="unreviewed"
