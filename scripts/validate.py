@@ -405,7 +405,8 @@ assert any(x["name"] == "The Butcher's Daughter (West Hollywood)" and x["visitSt
 assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["date"] == "2023-07-29"
 assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["attendanceInference"] == "restaurant_and_west_hollywood_branch_confirmed_independently_of_booking_date"
 assert next(x for x in candidates if x["id"] == "candidate-la-joy-highland-park")["visitStatus"] == "maybe"
-assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-dtla")["visitStatus"] == "unreviewed"
+assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-dtla")["visitStatus"] == "not_visited"  # directly answered during completed LA screen
+assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-silver-lake")["visitStatus"] == "not_visited"
 assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngeles"]["confirmedNames"]
 
 
@@ -413,7 +414,11 @@ assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngel
 # Venue-level audit: do not inflate stats with repeat visits or unverified awards.
 aud = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))
 archive_only_names = {x["name"] for x in aud["confirmedArchiveOnly"]}
-published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names]
+# The October 2026 dining-awards audit is a historical snapshot that predates the
+# separate Cambridge CAMRA pub track; newly confirmed pubs are validated below,
+# not silently added to historical dining-awards-audit.json totals.
+new_cambridge_pub_ids={"bar-eagle-cambridge-date-unknown", "bar-anchor-cambridge-date-unknown", "bar-mill-cambridge-date-unknown"}
+published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names and r["id"] not in new_cambridge_pub_ids]
 assert aud["summary"] == {
     "canonExperienceRecords": len(published_experiences),
     "distinctPublishedVenues": len({r["venueId"] for r in published_experiences}),
