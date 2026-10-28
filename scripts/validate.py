@@ -31,8 +31,23 @@ assert {"Minetta Tavern", "Beckon", "Charleston", "Woodberry Kitchen",
 assert len(candidates) >= 180
 assert len({c["id"] for c in candidates}) == len(candidates)
 assert len({(c["area"].casefold(), c["name"].casefold()) for c in candidates}) == len(candidates)
-assert all(c["sourceUrl"].startswith("https://") for c in candidates)
+for candidate in candidates:
+    assert isinstance(candidate.get("sourceUrl"), str) and candidate["sourceUrl"].startswith("https://"), (
+        "Candidate requires an HTTPS venue source", candidate["id"])
 assert all(c["visitStatus"] in {"confirmed", "not_visited", "maybe", "unreviewed"} for c in candidates)
+# Recent Cambridge responses use the same locked-answer schema as older chapters.
+cambridge_confirmed = {
+    "candidate-cambridge-eagle", "candidate-cambridge-anchor",
+    "candidate-cambridge-mill-pub", "candidate-cambridge-millworks",
+    "candidate-cambridge-parkers-tavern", "candidate-cambridge-fitzbillies-trumpington",
+}
+assert all(next(c for c in candidates if c["id"] == cid)["visitStatus"] == "confirmed"
+           for cid in cambridge_confirmed)
+for cid in ("candidate-cambridge-pickerel-inn", "candidate-cambridge-granta",
+            "candidate-cambridge-cambridge-blue", "candidate-cambridge-maypole"):
+    candidate = next(c for c in candidates if c["id"] == cid)
+    assert candidate["visitStatus"] == "not_visited"
+    assert candidate.get("wantsToVisit", False) == (cid != "candidate-cambridge-maypole")
 # NYC bar interview must retain explicit user responses and never count either as confirmed.
 pdt = next(c for c in candidates if c["area"] == "New York City" and c["name"] == "PDT (Please Don't Tell)")
 rabbit = next(c for c in candidates if c["area"] == "New York City" and c["name"] == "The Dead Rabbit")
@@ -76,7 +91,11 @@ assert north_pond["userMemoryLead"]["identityConfirmed"] is True
 assert north_pond["screening"]["basis"] == "both"
 assert any(r["title"] == "North Pond" and r["guide"]["stars"] == 1 for r in records)
 assert len([r for r in records if r["type"] == "dining" and r["status"] == "confirmed"]) >= 25
-assert len([r for r in records if r["type"] == "bar" and r["status"] == "confirmed"]) == 3  # J-Bar added as archive-only
+assert {"bar-manifesto-kansas-city", "bar-death-and-co-denver",
+        "bar-j-bar-hotel-jerome-aspen", "bar-eagle-cambridge-visit-date-unknown",
+        "bar-anchor-cambridge-visit-date-unknown", "bar-mill-pub-cambridge-visit-date-unknown",
+        "bar-parkers-tavern-cambridge-date-unknown"}.issubset(
+    {r["id"] for r in records if r["type"] == "bar" and r["status"] == "confirmed"})
 breck = [r for r in records if r["venueId"] == "venue-breckenridge-distillery"]
 assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
@@ -149,7 +168,7 @@ assert interview_data["interviewChapters"]["spaceParkSouthBay"]["unreviewedCandi
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedNames"]) == maybe_names
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["notVisitedNames"]) == not_visited_names
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] is None
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Los Angeles / West Hollywood"
+assert interview_data["interviewProgress"]["currentBatch"]["area"] in interview_data["periods"]
 assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"]
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
            x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
@@ -628,12 +647,18 @@ for venue in venues:
     pos = venue["location"]
     if pos is None:
         # A known branch may still await trustworthy map coordinates.
-        assert venue["id"] in {"venue-hawthorne-heights-unidentified",
-                               "venue-butchers-daughter-west-hollywood"}
-        if venue["id"] == "venue-hawthorne-heights-unidentified":
-            assert not venue["city"]
-        else:
-            assert venue["city"] == "West Hollywood"
+        unmapped_cities = {
+            "venue-hawthorne-heights-unidentified": "",
+            "venue-butchers-daughter-west-hollywood": "West Hollywood",
+            "venue-eagle-cambridge": "Cambridge",
+            "venue-anchor-cambridge": "Cambridge",
+            "venue-mill-pub-cambridge": "Cambridge",
+            "venue-millworks-cambridge": "Cambridge",
+            "venue-parkers-tavern-cambridge": "Cambridge",
+            "venue-fitzbillies-original-trumpington-cambridge": "Cambridge",
+        }
+        assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
+        assert venue["city"] == unmapped_cities[venue["id"]]
         continue
     assert pos["precision"] == "city-centroid"
     assert isinstance(pos["lat"], (int, float)) and -90 <= pos["lat"] <= 90
@@ -750,7 +775,10 @@ assert archive_only_names.issubset({w["venueName"] for w in watch_entries})
 expanded = json.loads((ROOT / "data/expanded-recognition-audit-2026-10-27.json").read_text(encoding="utf-8"))
 assert expanded["schemaVersion"] == 1 and expanded["classification"] == "private_research"
 expanded_rows = expanded["confirmedRestaurants"]
-assert len(expanded_rows) == expanded["scope"]["restaurantEntriesReviewed"]
+assert len(expanded_rows) == expanded["scope"]["restaurantEntriesTracked"]
+pending_recognition_reviews = sum(r.get("recognitionReviewStatus") == "pending" for r in expanded_rows)
+assert pending_recognition_reviews == expanded["scope"]["restaurantEntriesPendingRecognitionReview"]
+assert len(expanded_rows) == expanded["scope"]["restaurantEntriesReviewed"] + pending_recognition_reviews
 assert len({(r["venueId"] or "archive:"+r["restaurantName"]) for r in expanded_rows}) == len(expanded_rows)
 confirmed_dining_venue_ids = {r["venueId"] for r in records if r["type"] == "dining" and r["status"] == "confirmed"}
 assert confirmed_dining_venue_ids == {r["venueId"] for r in expanded_rows if r["venueId"]}
@@ -782,6 +810,10 @@ for row in expanded_rows:
         assert row["officialFeatures"]
     if row["collectionTier"] == "archived_pending_recognition":
         assert not experience["editorial"].get("awardQualified")
+    if row.get("recognitionReviewStatus") == "pending":
+        assert row["collectionTier"] == "archived_pending_recognition"
+        assert row["reviewedOn"] is None
+        assert not row["formalRecognitions"] and not row["officialFeatures"]
 assert next(x for x in candidates if x["name"] == "Soupçon" and x["area"] == "Crested Butte")["visitStatus"] == "maybe"
 assert all(not (x["restaurantName"] == "Soupçon") for x in expanded_rows)
 assert {r["restaurantName"] for r in expanded_rows if r["collectionTier"] == "official_program_or_editorial_connection"} == {

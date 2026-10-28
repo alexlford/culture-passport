@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 36,
-    "distinctPublishedVenues": 34,
+    "canonExperienceRecords": 43,
+    "distinctPublishedVenues": 40,
     "recognized": 20,
     "featuredPersonal": 7,
     "officiallyFeatured": 3,
-    "unfeaturedOther": 4,
+    "unfeaturedOther": 10,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -752,6 +752,127 @@
       "recognitionSummary": [],
       "editorialNote": "Explicit personal inclusion for the after-wedding goodbye brunch, independent of restaurant-award status. Not declared a favorite.",
       "visitConfidence": "venue_and_wedding_brunch_confirmed_date_unknown"
+    },
+    {
+      "venueId": "venue-eagle-cambridge",
+      "name": "The Eagle",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "bar-eagle-cambridge-visit-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Cambridge visit · year unspecified"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
+      "visitConfidence": "confirmed_location_date_unknown",
+      "publicationStatus": "archived_private_not_curated"
+    },
+    {
+      "venueId": "venue-anchor-cambridge",
+      "name": "The Anchor",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "bar-anchor-cambridge-visit-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Cambridge visit · year unspecified"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://www.anchorcambridge.com/"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
+      "visitConfidence": "confirmed_location_date_unknown",
+      "publicationStatus": "archived_private_not_curated"
+    },
+    {
+      "venueId": "venue-mill-pub-cambridge",
+      "name": "The Mill (pub)",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "bar-mill-pub-cambridge-visit-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Cambridge visit · year unspecified"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://www.themillpubcambridge.com/"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
+      "visitConfidence": "confirmed_location_date_unknown",
+      "publicationStatus": "archived_private_not_curated"
+    },
+    {
+      "venueId": "venue-millworks-cambridge",
+      "name": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "dining-millworks-cambridge-visit-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "GMI colleague dinner · year unspecified"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://themillworks.co.uk/"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
+      "visitConfidence": "confirmed_location_date_unknown",
+      "publicationStatus": "archived_private_not_curated"
+    },
+    {
+      "venueId": "venue-parkers-tavern-cambridge",
+      "name": "Parker's Tavern",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "dining-parkers-tavern-cambridge-date-unknown",
+        "bar-parkers-tavern-cambridge-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Cambridge stay at University Arms · date unknown"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://parkerstavern.com/"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Record confirmed dining and drinks at this venue. Do not infer venue-specific Michelin/JBF recognition from hotel's listing.",
+      "visitConfidence": "confirmed_dining_and_drinks_same_venue",
+      "publicationStatus": "archived_private_not_curated"
+    },
+    {
+      "venueId": "venue-fitzbillies-original-trumpington-cambridge",
+      "name": "Fitzbillies (original Trumpington Street)",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "dining-fitzbillies-trumpington-cambridge-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Café dining or afternoon tea · Cambridge visit; exact date unknown"
+      ],
+      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "sourceUrls": [
+        "https://www.fitzbillies.com/pages/trumpington-street"
+      ],
+      "recognitionSummary": [],
+      "editorialNote": "Confirmed original Fitzbillies café dining or afternoon tea, with separate permanent recognition watchlist. No awards inferred.",
+      "visitConfidence": "confirmed_visit_service_type_not_disambiguated",
+      "publicationStatus": "archived_private_not_curated"
     }
   ],
   "confirmedArchiveOnly": [

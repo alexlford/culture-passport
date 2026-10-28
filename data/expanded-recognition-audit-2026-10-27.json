@@ -6,10 +6,12 @@
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
     "restaurantEntriesReviewed": 46,
-    "canonicalDistinctVenues": 41,
+    "canonicalDistinctVenues": 44,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
-    "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas."
+    "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
+    "restaurantEntriesTracked": 49,
+    "restaurantEntriesPendingRecognitionReview": 3
   },
   "rules": {
     "formal_michelin_jbf_recognition": "Actual Michelin Star, Bib Gourmand, Selected/Recommended, historical Plate or Michelin restaurant-linked special award, or James Beard semifinalist/finalist/winner tied to named restaurant/chef at that venue, with year, tier and primary source. Only this sets editorial.awardQualified=true.",
@@ -73,7 +75,7 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 18,
+    "archived_pending_recognition": 21,
     "formal_michelin_jbf_recognition": 19,
     "personal_featured_exception": 6,
     "official_program_or_editorial_connection": 3
@@ -1495,6 +1497,88 @@
       "reviewResult": "Personally featured wedding-related memory directly confirmed and explicitly selected by the user. Continue monitoring for qualifying recognition without claiming an award.",
       "watchlistId": "venue-harveys-union-station-kansas-city",
       "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-millworks-cambridge",
+      "restaurantName": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-millworks-cambridge-visit-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://themillworks.co.uk/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Canonical confirmed memory added after the original audit. Venue-specific recognition research remains pending; no award, guide distinction or publication approval inferred.",
+      "watchlistId": "venue-millworks-cambridge",
+      "reviewedOn": null,
+      "integrationOn": "2026-10-28",
+      "recognitionReviewStatus": "pending"
+    },
+    {
+      "venueId": "venue-parkers-tavern-cambridge",
+      "restaurantName": "Parker's Tavern",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-parkers-tavern-cambridge-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://parkerstavern.com/",
+        "https://universityarms.com/eat-and-drink/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Canonical confirmed memory added after the original audit. Venue-specific recognition research remains pending; no award, guide distinction or publication approval inferred.",
+      "watchlistId": "venue-parkers-tavern-cambridge",
+      "reviewedOn": null,
+      "integrationOn": "2026-10-28",
+      "recognitionReviewStatus": "pending"
+    },
+    {
+      "venueId": "venue-fitzbillies-original-trumpington-cambridge",
+      "restaurantName": "Fitzbillies (original Trumpington Street)",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-fitzbillies-trumpington-cambridge-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.fitzbillies.com/pages/trumpington-street"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Canonical confirmed memory added after the original audit. Venue-specific recognition research remains pending; no award, guide distinction or publication approval inferred.",
+      "watchlistId": "venue-fitzbillies-original-trumpington-cambridge",
+      "reviewedOn": null,
+      "integrationOn": "2026-10-28",
+      "recognitionReviewStatus": "pending"
     }
   ],
   "futureAudit": {
