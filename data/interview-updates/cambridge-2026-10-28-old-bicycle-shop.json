@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-old-bicycle-shop",
+    "name": "The Old Bicycle Shop",
+    "visitStatus": "unreviewed",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-old-bicycle-shop-cambridge",
+    "evidence": "Direct user request to add to future-visit wishlist without assuming past attendance.",
+    "guardrail": "Do not create any dining or drinks attendance record from this response."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-pint-shop-peas-hill",
+    "venue": "Pint Shop",
+    "address": "10 Peas Hill, Cambridge CB2 3PP",
+    "source": "https://pintshop.co.uk/locations/cambridge/",
+    "question": "Did you visit Pint Shop in Cambridge for food, drinks, both, or neither?",
+    "visitStatus": "unreviewed"
+  },
+  "chapterOrder": [
+    "Cambridge, UK",
+    "Kansas City metro + Weston, Missouri (2010-present)",
+    "Baltimore"
+  ],
+  "preservation": "Do not alter confirmed Cambridge pubs, MillWorks GMI colleague dinner, Parker's Tavern dining and drinks, University Arms hotel stay, Los Angeles records, or unrelated data.",
+  "integrationNote": "This supplemental interview handoff is stored separately because updating the large data/interview.json was unavailable in this turn."
+}
