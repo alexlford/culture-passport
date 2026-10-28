@@ -635,6 +635,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only. Historical attendance unreviewed, neither confirmed nor denied; do not infer food, beverages, a booking, a date, or award eligibility from this wish."
+    },
+    {
+      "id": "want-to-visit-geldart-cambridge",
+      "candidateId": "candidate-cambridge-geldart-ainsworth-street",
+      "name": "The Geldart",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "1 Ainsworth Street, Cambridge CB1 2PF",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.the-geldart.co.uk/",
+      "userNote": "Interested in a future visit to The Geldart; previous attendance is not answered.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Geldart at 1 Ainsworth Street to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future visit interest only. Past attendance is unreviewed, not visited or not-visited. CAMRA pub-sector awards do not indicate this user attended; no food/drinks memory or award-qualified personal experience inferred."
     }
   ]
 }
