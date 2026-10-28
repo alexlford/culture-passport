@@ -104,6 +104,123 @@
       },
       "desiredVisitDate": null,
       "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date."
+    },
+    {
+      "id": "want-to-visit-restaurant-twenty-two-cambridge",
+      "candidateId": "candidate-cambridge-restaurant-twenty-two",
+      "name": "Restaurant Twenty-Two",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "22 Chesterton Road",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Did not visit; add to future-visit list.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-27",
+        "quote": "Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Wishlist is future intent only; no visit, booking, attendance, menu or date inferred.",
+      "website": "https://www.restaurant22.co.uk/",
+      "guideUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/restaurant-22"
+    },
+    {
+      "id": "want-to-visit-champion-of-the-thames-cambridge",
+      "candidateId": "candidate-cambridge-champion-of-the-thames",
+      "name": "Champion of the Thames",
+      "category": "pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "68 King Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Not visited; would like to visit.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-27",
+        "quote": "Not visited; would like to visit."
+      },
+      "desiredVisitDate": null,
+      "notes": "Wishlist is future intent only; no visit, booking, attendance, menu or date inferred."
+    },
+    {
+      "id": "want-to-visit-pickerel-inn-cambridge",
+      "candidateId": "candidate-cambridge-pickerel-inn",
+      "name": "The Pickerel Inn",
+      "category": "pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "30 Magdalene Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Not visited; would like to visit.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-27",
+        "quote": "Not visited; would like to visit."
+      },
+      "desiredVisitDate": null,
+      "notes": "Wishlist is future intent only; no visit, booking, attendance, menu or date inferred."
+    },
+    {
+      "id": "want-to-visit-granta-cambridge",
+      "candidateId": "candidate-cambridge-granta",
+      "name": "The Granta",
+      "category": "pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "14 Newnham Terrace",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Not visited; would like to visit.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-27",
+        "quote": "Not visited; would like to visit."
+      },
+      "desiredVisitDate": null,
+      "notes": "Wishlist is future intent only; no visit, booking, attendance, menu or date inferred."
+    },
+    {
+      "id": "want-to-visit-cambridge-blue-cambridge",
+      "candidateId": "candidate-cambridge-cambridge-blue",
+      "name": "The Cambridge Blue",
+      "category": "pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": null,
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Not visited; would like to visit.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-27",
+        "quote": "Not visited; would like to visit."
+      },
+      "desiredVisitDate": null,
+      "notes": "Wishlist is future intent only; no visit, booking, attendance, menu or date inferred."
     }
   ]
 }
