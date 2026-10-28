@@ -7533,8 +7533,8 @@
       "sourceUrl": "https://www.fitzbillies.com/pages/trumpington-street",
       "interviewCue": "Historic Cambridge bakery/café established in 1920. Ornate dark timber shopfront with gold Fitzbillies lettering and original Mason initials; famed sticky Chelsea buns. No. 52 table-service tearoom for brunch and afternoon tea; adjacent bakery and coffee shop at 51/53. Distinguish this original branch from Bridge Street (later) and King's Parade (2023).",
       "openedYear": 1920,
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
+      "visitStatus": "visited",
+      "researchStatus": "confirmed_cafe_dining_or_afternoon_tea_past_and_future_return_interest",
       "addedOn": "2026-10-27",
       "priority": "high",
       "recognition": "No venue-specific Michelin/James Beard recognition verified in this initial pass. Long-standing Cambridge cultural and culinary landmark; visit confirmation is independent of any awards.",
@@ -7557,9 +7557,14 @@
       "wishlistEntryId": "want-to-visit-fitzbillies-trumpington-cambridge",
       "wishlistAddedOn": "2026-10-27",
       "reviewedOn": "2026-10-27",
-      "lastInterviewResponse": "Future visit requested for original Trumpington Street shop; past attendance not answered.",
-      "reviewSource": "Direct user's 2026-10-27 request to add original Fitzbillies to private future wishlist without assuming past attendance.",
-      "visitNote": "Original Trumpington Street Fitzbillies is wanted for a future visit. Whether Alex previously visited, purchased pastries, or dined there is unreviewed. No confirmed experience or award watchlist record."
+      "lastInterviewResponse": "Visited the original Fitzbillies for café dining or afternoon tea; precise service undecided.",
+      "reviewSource": "User direct confirmation October 27 2026: 'I visited the original Fitzbillies on Trumpington Street for café dining or afternoon tea.'",
+      "visitNote": "Past dining/afternoon-tea visit confirmed, date and exact service open. Future wishlist from earlier explicit request retained as interest in returning.",
+      "confirmedExperienceId": "dining-fitzbillies-trumpington-cambridge-date-unknown",
+      "visitTypeUnresolvedBetween": [
+        "cafe_dining",
+        "afternoon_tea"
+      ]
     },
     {
       "id": "candidate-cambridge-old-bicycle-shop",
@@ -8543,7 +8548,8 @@
         "The Anchor",
         "The Mill (pub)",
         "MillWorks",
-        "Parker's Tavern"
+        "Parker's Tavern",
+        "Fitzbillies (original Trumpington Street)"
       ],
       "confirmedPubNames": [
         "The Eagle",
@@ -8552,7 +8558,8 @@
       ],
       "confirmedDiningNames": [
         "MillWorks",
-        "Parker's Tavern"
+        "Parker's Tavern",
+        "Fitzbillies (original Trumpington Street)"
       ],
       "confirmedDinnerMemory": "MillWorks was a GMI-program-colleague dinner with great food and time spent getting to know colleagues; no dishes, exact date or individual colleagues known.",
       "wishlistNames": [
@@ -8575,7 +8582,7 @@
       "lastReviewedCandidate": "Fitzbillies (original Trumpington Street)",
       "nextCandidate": "The Old Bicycle Shop",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Original Trumpington Street Fitzbillies added to future wishlist; prior attendance unreviewed. Next: Old Bicycle Shop, Regent Street (restaurant/bar opened 2016). Confirmed pubs, MillWorks colleague dinner, Parker's Tavern dining/drinks, University Arms lodging stay and LA records retained.",
+      "note": "Original Fitzbillies past café dining or afternoon tea confirmed, exact service/date unknown. Also interested in a future return. Preserve three Cambridge pubs, GMI MillWorks dinner, Parker's Tavern food/drinks, University Arms hotel stay and LA research.",
       "confirmedBarNames": [
         "Parker's Tavern Bar"
       ],
@@ -8597,7 +8604,8 @@
       ],
       "confirmedExperienceIds": [
         "dining-parkers-tavern-cambridge-date-unknown",
-        "bar-parkers-tavern-cambridge-date-unknown"
+        "bar-parkers-tavern-cambridge-date-unknown",
+        "dining-fitzbillies-trumpington-cambridge-date-unknown"
       ]
     }
   },
@@ -8609,9 +8617,9 @@
         "The Old Bicycle Shop"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Did you visit The Old Bicycle Shop, 104 Regent Street, Cambridge? If so was it for food, drinks or both? Otherwise maybe/not visited/future wishlist.",
-      "continuation": "Show photos and interview Cambridge venues one at a time. Then audit Kansas City 2010–present including Weston Missouri, followed by Baltimore.",
-      "note": "Fitzbillies original Cambridge Trumpington Street is on future wishlist, prior attendance unresolved. All previous confirmed Cambridge, LA and Kansas City records preserved."
+      "question": "Have you visited The Old Bicycle Shop, 104 Regent Street, Cambridge, for a meal, drinks or both?",
+      "continuation": "Continue Cambridge with one photographed venue per turn, then audit Kansas City and Weston, Missouri (2010–present), then Baltimore.",
+      "note": "Fitzbillies confirmed historical café dining/afternoon tea; previous wish is a return interest, not first visit. Previous Cambridge and LA records preserved."
     },
     "pausedBatches": [
       {
