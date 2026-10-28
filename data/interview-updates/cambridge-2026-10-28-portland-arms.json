@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-portland-arms-chesterton-road",
+    "venue": "The Portland Arms",
+    "address": "129 Chesterton Road, Cambridge CB4 3BA",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-portland-arms-cambridge",
+    "evidenceType": "direct_user_request",
+    "quote": "Culture Passport Cambridge: Add The Portland Arms at 129 Chesterton Road to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs.",
+    "guardrails": "Future interest only. Do not create or infer a past pub visit, restaurant meal, live music attendance, a confirmed nonvisit, or any date."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-kingston-arms-kingston-street",
+    "venue": "The Kingston Arms",
+    "address": "33 Kingston Street, Cambridge CB1 2NU",
+    "visitStatus": "unreviewed",
+    "category": "traditional_real_ale_pub",
+    "officialSite": "https://thekingstonarms.co.uk/",
+    "camraSource": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
+    "cues": [
+      "Black-painted facade with white arched windows, gold Kingston Arms lettering and hanging flowers",
+      "Long wooden bar with beer labels and pumpclips",
+      "Brick-walled garden with covered picnic tables"
+    ],
+    "verifiedPubRecognition": [
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "award": "Most Improved Pub",
+        "year": 2024
+      },
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "award": "Pub of the Year",
+        "year": 2025
+      },
+      {
+        "issuer": "Cambridgeshire CAMRA",
+        "award": "Pub of the Year",
+        "year": 2025
+      },
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "award": "Dark Beer Pub",
+        "year": 2026
+      }
+    ],
+    "awardNote": "These are CAMRA pub-specific recognitions, not Michelin stars or James Beard restaurant honors.",
+    "question": "Did you visit The Kingston Arms at 33 Kingston Street, Cambridge for drinks, snacks, maybe, or not at all?"
+  },
+  "futureAuditSequence": [
+    "Finish Cambridge, one venue and photographs at a time",
+    "Audit Kansas City metropolitan area including Weston, Missouri, 2010–present",
+    "Audit Baltimore historical restaurant and pub gaps"
+  ],
+  "preservation": "Do not change confirmed Cambridge Eagle, Anchor, Mill, MillWorks GMI dinner, Parker's Tavern restaurant/bar, University Arms hotel stay, prior LA records, or the uncertain Bath House interview. No automatic historical attendance inference for wishlist venues.",
+  "integrationStatus": "Incremental interview handoff stored separately pending reconciliation into data/interview.json."
+}
