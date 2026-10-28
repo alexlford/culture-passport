@@ -150,7 +150,7 @@ assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisite
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["notVisitedNames"]) == not_visited_names
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] is None
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Los Angeles / West Hollywood"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Jon & Vinny's (Fairfax)"
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Somni (West Hollywood)"
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
            x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
 
