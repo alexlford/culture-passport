@@ -54,6 +54,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Hollywood original on Highland Avenue. No reservation, planned date, party, budget or visit to Le Valley or another location is implied."
+    },
+    {
+      "id": "want-to-visit-ardor-west-hollywood",
+      "candidateId": "candidate-la-ardor-west-hollywood",
+      "name": "Ardor (West Hollywood EDITION)",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "9040 W Sunset Boulevard",
+        "city": "West Hollywood",
+        "region": "California",
+        "country": "USA"
+      },
+      "website": "https://www.ardorweho.com/",
+      "guideUrl": "https://guide.michelin.com/us/en/california/west-hollywood/restaurant/ardor",
+      "userNote": "I'd like to go.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "No, but add it to the list"
+      },
+      "desiredVisitDate": null,
+      "notes": "Ardor inside The West Hollywood EDITION. No booking, visit date, party or budget established."
     }
   ]
 }
