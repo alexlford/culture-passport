@@ -296,6 +296,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Future intent only: prior attendance is unanswered, not 'not visited'. No date, booking or personal dining/award record implied."
+    },
+    {
+      "id": "want-to-visit-mercado-central-cambridge",
+      "candidateId": "candidate-cambridge-mercado-central",
+      "name": "Mercado Central",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "24 Green Street, Cambridge CB2 3JX",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://mercadocentral.co.uk/",
+      "guideUrl": "https://guide.michelin.com/au/en/cambridgeshire/cambridge/restaurant/mercado-central",
+      "userNote": "Add Mercado Central to my private future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Culture Passport Cambridge: Add Mercado Central to my private future-visit wishlist without assuming past attendance and continue the interview with photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only. User did not answer whether a past meal occurred; past attendance remains unreviewed. Not a confirmed dining visit, no booking date or attendance claim."
     }
   ]
 }
