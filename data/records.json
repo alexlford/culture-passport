@@ -1168,6 +1168,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "eagle-cambridge-benet-street"
+    },
+    {
+      "id": "venue-anchor-cambridge",
+      "name": "The Anchor",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "Silver Street, Cambridge CB3 9EL",
+      "neighborhood": "Silver Street / River Cam",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "anchor-silver-street-cambridge"
     }
   ],
   "records": [
@@ -6111,6 +6126,60 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "user_confirmed_location_date_unknown"
+      }
+    },
+    {
+      "id": "bar-anchor-cambridge-date-unknown",
+      "type": "bar",
+      "subtype": "historic_pub",
+      "title": "The Anchor (Cambridge)",
+      "venueId": "venue-anchor-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge trip · exact date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
+        "source": "Direct user confirmation on October 27, 2026: 'Culture Passport Cambridge UK interview: The Anchor (Silver Street) — Visited.' Punting memories are separately confirmed, but no chronological link to the pub visit is asserted."
+      },
+      "summary": "Confirmed visit to The Anchor on Silver Street beside the River Cam, close to the punt landing and Mathematical Bridge in Cambridge. Exact date and experiences at the pub unspecified. The riverfront setting and early music history are cultural context, not qualifying culinary awards.",
+      "memory": {
+        "headline": "The Anchor beside the River Cam",
+        "teaser": "A confirmed visit to the riverside Cambridge pub on Silver Street, close to the punts and the Mathematical Bridge.",
+        "story": "I visited The Anchor on Silver Street in Cambridge. Its setting by the River Cam is close to where punts travel through the city. Punting was a memorable part of my Cambridge trip, although I haven't yet specified whether the pub visit took place before or after that outing, or what I ordered there.",
+        "period": "Cambridge UK trip · year unspecified",
+        "source": "Direct user confirmation of venue visit and separate user-supplied recollection of steering a punt in Cambridge. Independent geographical setting from the pub's public descriptions."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No qualifying Michelin Guide or James Beard recognition is claimed for The Anchor. Riverfront location and historic music association are not culinary distinctions."
+      },
+      "sourceUrl": "https://www.anchorcambridge.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_historic_pub",
+        "basis": "direct_visit_plus_independently_documented_heritage",
+        "note": "Archive as directly confirmed historic Cambridge pub visit. Do not auto-publish or claim Michelin/JBF award. No specific food, drink, seating or visit date is established."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "heritage_significance_not_culinary_award",
+        "reason": "The user directly confirmed this pub; no Michelin/JBF venue award is established. Preserve in culture archive independently of culinary recognition.",
+        "evidenceUrls": [
+          "https://www.anchorcambridge.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmed_pub_date_unknown"
       }
     }
   ],
