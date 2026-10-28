@@ -86,7 +86,7 @@
       "name": "Pine & Crane (Silver Lake)",
       "category": "dining",
       "status": "want_to_visit",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "addedOn": "2026-10-27",
       "location": {
         "address": "1521 Griffith Park Boulevard",
@@ -103,7 +103,7 @@
         "quote": "Add it to the list"
       },
       "desiredVisitDate": null,
-      "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date."
+      "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date. Past attendance definitively ruled out by direct answer on 2026-10-27; future visit interest retained."
     },
     {
       "id": "want-to-visit-din-tai-fung-century-city",
