@@ -1153,6 +1153,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "harveys-union-station-kansas-city"
+    },
+    {
+      "id": "venue-eagle-cambridge",
+      "name": "The Eagle",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "8 Bene't Street, Cambridge CB2 3QN",
+      "neighborhood": "Bene't Street / City Centre",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "eagle-cambridge-benet-street"
     }
   ],
   "records": [
@@ -6041,6 +6056,61 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_of_venue_and_occasion"
+      }
+    },
+    {
+      "id": "bar-eagle-cambridge-date-unknown",
+      "type": "bar",
+      "subtype": "historic_pub",
+      "title": "The Eagle (Cambridge)",
+      "venueId": "venue-eagle-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge trip · exact date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
+        "source": "On October 27, 2026, Alex explicitly confirmed: 'Culture Passport Cambridge UK interview: The Eagle (Bene't Street) — Visited.' This is personal visit proof only; no purchase, meal, drink, or date is assumed."
+      },
+      "summary": "Confirmed historic-pub visit in central Cambridge during an undated UK trip. The Eagle is known for World War II RAF airmen's ceiling inscriptions and its role in the history of DNA research. Historic significance, not a Michelin or James Beard honor.",
+      "memory": {
+        "headline": "The Eagle, Cambridge",
+        "teaser": "A confirmed visit to the Cambridge pub associated with wartime airmen and the discovery of DNA's structure.",
+        "story": "I visited The Eagle on Bene't Street in Cambridge. The pub is historically linked to the airmen who left their marks on its RAF Bar ceiling and to the 1953 announcement of the structure of DNA. I haven't yet placed the exact date or described what I did during the visit.",
+        "period": "Cambridge UK trip · date unknown",
+        "source": "Direct user confirmation on 2026-10-27; historical setting independently sourced from Cambridge & District CAMRA."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard venue award or inclusion is claimed; heritage and historical significance are separate."
+      },
+      "sourceUrl": "https://camra.org.uk/pubs/eagle-cambridge-131472",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_historic_pub",
+        "basis": "direct_visit_plus_independently_documented_history",
+        "note": "Preserve as confirmed cultural history/heritage pub visit in private archive, not award-qualified dining or cocktail-bar winner. No visitor-facing publication is authorized by this research branch."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "heritage_significance_not_culinary_award",
+        "reason": "The venue's historical military and scientific significance warrants preservation as a personal cultural visit, but does not satisfy Michelin/JBF qualification.",
+        "evidenceUrls": [
+          "https://camra.org.uk/pubs/eagle-cambridge-131472",
+          "https://www.cisl.cam.ac.uk/system/files/documents/venues.pdf"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "user_confirmed_location_date_unknown"
       }
     }
   ],
