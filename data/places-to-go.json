@@ -468,6 +468,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future intent only. Historic personal attendance has not been answered. No food or drinks experience, reservation or visit date inferred."
+    },
+    {
+      "id": "want-to-visit-the-punter-cambridge",
+      "candidateId": "candidate-cambridge-the-punter",
+      "name": "The Punter",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "3 Pound Hill, Cambridge CB3 0AE",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.thepuntercambridge.com/",
+      "userNote": "Add The Punter at 3 Pound Hill to my private future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Punter at 3 Pound Hill to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future-visit interest only. Historical attendance remains unreviewed; do not create dining, drink, or bar experience or infer a visit date."
     }
   ]
 }
