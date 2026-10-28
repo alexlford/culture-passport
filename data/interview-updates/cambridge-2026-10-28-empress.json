@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-empress-thoday-street",
+    "venue": "The Empress",
+    "address": "72 Thoday Street, Cambridge CB1 3AX",
+    "wishlistEntryId": "want-to-visit-empress-cambridge-thoday",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "evidenceType": "direct_user_request",
+    "quote": "Culture Passport Cambridge: Add The Empress at 72 Thoday Street to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs.",
+    "guardrails": "Future interest alone is not past attendance. Do not create a pub visit, meal, drinks, confirmed non-visit, or fabricated visit details."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-live-and-let-live-mawson-road",
+    "venue": "The Live & Let Live",
+    "address": "40 Mawson Road, Cambridge CB1 2EA",
+    "type": "traditional_backstreet_real_ale_pub",
+    "visitStatus": "unreviewed",
+    "camraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1628",
+    "nationalCamraSource": "https://camra.org.uk/pubs/live-let-live-cambridge-131213",
+    "visualCues": [
+      "Pale blue corner pub with hanging flower baskets",
+      "Black and gold LIVE & LET LIVE sign",
+      "Cosy wooden snug with ornate C&C stained-glass window",
+      "Wood burner and traditional handpumps"
+    ],
+    "pubAwards": [
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "year": 2025,
+        "award": "Most Improved City Pub"
+      },
+      {
+        "issuer": "Cambridge & District CAMRA",
+        "year": 2026,
+        "award": "City Community Pub"
+      }
+    ],
+    "recognitionScope": "CAMRA pub recognition only; not Michelin or James Beard and not proof of user's attendance.",
+    "question": "Did you visit The Live & Let Live at 40 Mawson Road, Cambridge for drinks, maybe, or not at all?"
+  },
+  "nextAudits": [
+    "Kansas City metro and Weston, Missouri (2010–present)",
+    "Baltimore historical retrospective"
+  ],
+  "preservation": "Keep all confirmed Cambridge experiences including Kingston Arms drinks, Parker's Tavern food/drinks, University Arms hotel stay and MillWorks GMI colleague dinner; keep the uncertain Bath House status, other wishlists and Los Angeles records. Culture/Work/Life Passports remain separate.",
+  "integrationStatus": "Append-only interview handoff, pending reconciliation with canonical data/interview.json."
+}
