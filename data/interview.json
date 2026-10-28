@@ -7294,7 +7294,7 @@
       "recognitionYear": 2026,
       "awardFamily": "michelin",
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "addedOn": "2026-10-27",
       "priority": "high",
       "screening": {
@@ -7309,6 +7309,44 @@
         "status": "unreviewed",
         "basis": "michelin_guide_selected_2026",
         "reason": "Direct diner confirmation required before creating dining experience.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-fancetts-cambridge",
+      "wishlistAddedOn": "2026-10-27",
+      "lastInterviewResponse": "Requested future-visit wishlist addition; no answer about past attendance.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct user message dated 2026-10-27: Add Fancett's to wishlist without assuming past attendance.",
+      "visitNote": "Future interest confirmed. No earlier meal confirmed or denied. Keep visitor status unreviewed pending direct response."
+    },
+    {
+      "id": "candidate-cambridge-vanderlyle",
+      "name": "Vanderlyle",
+      "area": "Cambridge, UK",
+      "addressHint": "38–40 Mill Road, Cambridge CB1 2AD",
+      "sourceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/vanderlyle",
+      "restaurantUrl": "https://www.vanderlyle-restaurant.com/about",
+      "interviewCue": "Contemporary vegetable-led tasting-menu restaurant on Mill Road, open kitchen and minimalist industrial room. Chef Alex Rushmer. Recollection prompt: seasonal plant-focused multi-course dinner, produce-forward dishes, and kitchen counter seating.",
+      "recognition": "Current Michelin Guide Selected / recommended listing (not a Michelin star), independently verifiable for Vanderlyle at 38–40 Mill Road.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "screening": {
+        "status": "award_qualified_if_confirmed",
+        "basis": "michelin_guide_selected",
+        "evidenceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/vanderlyle",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Official Michelin Guide lists Vanderlyle as recommended/Selected, not starred. Recognition does not prove user's attendance or earlier historical award status."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_selected_current",
+        "reason": "Direct diner confirmation required before creating canonical dining record or publishing an experience.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8282,15 +8320,16 @@
         "The Granta",
         "The Cambridge Blue",
         "Restaurant Twenty-Two",
-        "Midsummer House"
+        "Midsummer House",
+        "Fancett's"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Midsummer House",
-      "nextCandidate": "Fancett's",
+      "lastReviewedCandidate": "Fancett's",
+      "nextCandidate": "Vanderlyle",
       "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
-      "note": "Midsummer House added to future list; previous attendance remains unreviewed. Continue Cambridge single-venue visual questions."
+      "note": "Fancett's added to future wishlist without assuming prior attendance. Cambridge interview continues with one venue and real photographs at a time. Prior confirms and LA records preserved."
     }
   },
   "interviewProgress": {
@@ -8298,12 +8337,12 @@
       "area": "Cambridge, UK",
       "category": "restaurants",
       "candidateNames": [
-        "Fancett's"
+        "Vanderlyle"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Fancett's, 96a Mill Road, Cambridge? Answer visited, maybe, did not visit, or add to future wishlist.",
-      "continuation": "Continue Cambridge one venue at a time with photographs, then Kansas City 2010–present including Weston, Missouri, and then Baltimore.",
-      "note": "Midsummer House is on future-visit list, but its historical attendance status is unresolved. All Cambridge pub visits and MillWorks colleague dinner are preserved; prior Los Angeles records and uncertainties unchanged."
+      "question": "Have you eaten at Vanderlyle, 38–40 Mill Road, Cambridge? Answer visited, maybe, did not visit, or add to future wishlist.",
+      "continuation": "Continue Cambridge one venue per photographed question. Then historical Kansas City 2010–present including Weston, Missouri; then Baltimore.",
+      "note": "Fancett's and Midsummer House are on future wishlists, with past attendance unreviewed. Confirmed Cambridge pubs, MillWorks GMI colleague meal, and all Los Angeles research stay intact."
     },
     "pausedBatches": [
       {
