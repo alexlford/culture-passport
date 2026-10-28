@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-live-and-let-live-mawson-road",
+    "venue": "The Live & Let Live",
+    "address": "40 Mawson Road, Cambridge CB1 2EA",
+    "visitStatus": "not_visited",
+    "visitStatusSource": "direct_user_explicit_negative",
+    "futureVisitStatus": "want_to_visit",
+    "wishlistEntryId": "want-to-visit-live-and-let-live-cambridge",
+    "sourceStatements": [
+      "I haven't visited The Live & Let Live. Record that in private GitHub and continue with photographs.",
+      "Add The Live & Let Live at 40 Mawson Road to my private future-visit wishlist without assuming past attendance."
+    ],
+    "interpretation": "Explicitly not visited in earlier answer, then separately wants to visit. Wishlist alone never implies past attendance or nonattendance; negative derives only from user's explicit earlier statement.",
+    "confirmedExperienceCreated": false,
+    "reservationCreated": false
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-alexandra-arms-gwydir-street",
+    "venue": "The Alexandra Arms (The Alex)",
+    "address": "22 Gwydir Street, Cambridge CB1 2LL",
+    "visitStatus": "unreviewed",
+    "category": "pub_and_restaurant",
+    "authoritativeSource": "https://camra.org.uk/pubs/alexandra-arms-cambridge-131303",
+    "distinguishingFacts": "White-painted corner pub with grey trim and The Alex lettering; enclosed rear garden, traditional real ales and homemade burgers. Managed by the same team as The Portland Arms since 2015.",
+    "question": "Did you visit The Alexandra Arms at 22 Gwydir Street in Cambridge, for drinks, food, both, maybe, not at all, or add to future wishlist?"
+  },
+  "geographicSequence": [
+    "Cambridge — one photographed venue per turn",
+    "Kansas City metro and Weston, Missouri (2010–present)",
+    "Baltimore retrospective audit"
+  ],
+  "preservation": "Preserve confirmed Kingston Arms drinks, Eagle, Anchor, Mill, MillWorks GMI dinner, Parker's Tavern meal and drinks, University Arms stay, Bath House maybe visited, other wishlists, and Los Angeles history. Do not create personal visit from wishlist.",
+  "integrationStatus": "Separate append-only interview handoff; canonical data/interview.json needs later reconciliation."
+}
