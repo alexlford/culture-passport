@@ -683,6 +683,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Future interest only. Past attendance for drinks, meals, or concerts is unreviewed; do not infer a past visit or a prior non-visit. No experience or reservation created."
+    },
+    {
+      "id": "want-to-visit-empress-cambridge-thoday",
+      "candidateId": "candidate-cambridge-empress-thoday-street",
+      "name": "The Empress",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "72 Thoday Street, Cambridge CB1 3AX",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "guideUrl": "https://camra.org.uk/pubs/empress-cambridge-131478",
+      "userNote": "Add The Empress at 72 Thoday Street to my private future-visit wishlist without assuming past attendance.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Culture Passport Cambridge: Add The Empress at 72 Thoday Street to my private future-visit wishlist without assuming past attendance. Continue with the next Cambridge venue and photographs."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only; prior attendance unreviewed, not confirmed or denied. No visit, meal, drinks, companions, awards tied to personal attendance, or booking inferred."
     }
   ]
 }
