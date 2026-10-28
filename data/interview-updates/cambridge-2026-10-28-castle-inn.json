@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-castle-inn-castle-street",
+    "name": "The Castle Inn",
+    "address": "38 Castle Street, Cambridge CB3 0AJ",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-castle-inn-cambridge",
+    "evidenceType": "direct_user_request",
+    "quote": "Culture Passport Cambridge: Add The Castle Inn at 38 Castle Street to my private future-visit wishlist without assuming past attendance.",
+    "guardrails": "Do not create a confirmed venue visit, bar visit, meal, booking, or date from future intent."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-fort-st-george-midsummer-common",
+    "name": "Fort St George",
+    "aliases": [
+      "Fort St George in England",
+      "The Fort"
+    ],
+    "address": "Midsummer Common, Cambridge CB4 1HA",
+    "historicalType": "riverside_pub_and_restaurant",
+    "visitStatus": "unreviewed",
+    "officialSite": "https://www.greeneking.co.uk/pubs/cambridgeshire/fort-st-george",
+    "camraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1761",
+    "heritageSource": "https://historicengland.org.uk/listing/the-list/list-entry/1126138",
+    "history": "Grade II listed pub with parts from the 16th century, situated on the River Cam beside Midsummer Common.",
+    "photoCues": [
+      "White timber-framed exterior with patio",
+      "Long traditional wooden bar",
+      "Riverside dining room with large windows"
+    ],
+    "question": "Did you visit Fort St George on Midsummer Common during your Cambridge trip—for drinks, food, both, maybe, or not at all?"
+  },
+  "afterCambridge": [
+    "Kansas City metro including Weston, Missouri, 2010-present",
+    "Baltimore historical audit"
+  ],
+  "preservation": "All confirmed Cambridge pubs, MillWorks GMI colleague dinner, Parker's Tavern food/drinks, University Arms hotel stay, Los Angeles records, and unreviewed wishlist venue statuses are unchanged. Do not merge Life Map and Culture Passport stories.",
+  "integrationStatus": "Supplemental interview handoff stored separately from main data/interview.json; retain for future reconciliation."
+}
