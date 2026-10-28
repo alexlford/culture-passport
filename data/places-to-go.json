@@ -86,7 +86,7 @@
       "name": "Pine & Crane (Silver Lake)",
       "category": "dining",
       "status": "want_to_visit",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "addedOn": "2026-10-27",
       "location": {
         "address": "1521 Griffith Park Boulevard",
@@ -103,7 +103,157 @@
         "quote": "Add it to the list"
       },
       "desiredVisitDate": null,
-      "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date."
+      "notes": "Original Silver Lake branch only. User requested future interest but did not explicitly answer past attendance; keep that unresolved. No reservation or planned date. Past attendance definitively ruled out by direct answer on 2026-10-27; future visit interest retained."
+    },
+    {
+      "id": "want-to-visit-din-tai-fung-century-city",
+      "candidateId": "candidate-la-din-tai-fung-century-city",
+      "name": "Din Tai Fung (Century City)",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "10250 Santa Monica Boulevard, Westfield Century City",
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "USA"
+      },
+      "website": "https://dtf.com/en-us/locations/los-angeles",
+      "guideUrl": null,
+      "userNote": "I'd like to visit.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Did not visit; add to my future visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Century City branch only; not a confirmed past visit or a reservation. Recognition of overseas Din Tai Fung branches does not establish a Michelin/JBF honor for this branch."
+    },
+    {
+      "id": "want-to-visit-pickerel-inn-cambridge",
+      "candidateId": "candidate-cambridge-pickerel-inn-magdalene-street",
+      "name": "The Pickerel Inn (Cambridge)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "30 Magdalene Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.greeneking.co.uk/pubs/cambridgeshire/pickerel-inn",
+      "guideUrl": null,
+      "userNote": "I'd like to visit this historic Cambridge pub.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "The Pickerel Inn (Magdalene Street) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "User explicitly ruled out a previous visit; no past pub experience, date or reservation inferred. Grade II listing is heritage recognition, not a culinary award."
+    },
+    {
+      "id": "want-to-visit-granta-cambridge",
+      "candidateId": "candidate-cambridge-granta-newnham-terrace",
+      "name": "The Granta (Cambridge)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "14 Newnham Terrace",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.greeneking.co.uk/pubs/cambridgeshire/granta",
+      "guideUrl": null,
+      "userNote": "I'd like to visit The Granta.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "The Granta (Newnham Terrace) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only; no actual visit, booking, meal or drink. CAMRA Most Improved City Pub 2026 is a pub accolade, not Michelin/JBF recognition. Distinct from The Mill, confirmed separately."
+    },
+    {
+      "id": "want-to-visit-cambridge-blue-gwydir-street",
+      "candidateId": "candidate-cambridge-cambridge-blue-gwydir-street",
+      "name": "The Cambridge Blue (Gwydir Street)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "85–87 Gwydir Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://cambridge.pub/the-blue/",
+      "guideUrl": null,
+      "userNote": "I'd like to visit The Cambridge Blue.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "The Cambridge Blue (Gwydir Street) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only. CAMRA 2026 Young Members' Pub of the Year is a pub award, not Michelin/JBF; no previous attendance is implied."
+    },
+    {
+      "id": "want-to-visit-champion-of-the-thames-cambridge",
+      "candidateId": "candidate-cambridge-champion-of-the-thames-king-street",
+      "name": "Champion of the Thames (King Street)",
+      "category": "historic_pub",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "68 King Street",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1714",
+      "guideUrl": null,
+      "userNote": "I'd like to visit this historic CAMRA-recognized Cambridge pub.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Champion of the Thames (King Street) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Cambridge & District and Cambridgeshire CAMRA 2024 Pub of the Year awards; unvisited at time of request. Pub-specific and not Michelin/JBF culinary recognition."
+    },
+    {
+      "id": "want-to-visit-restaurant-twenty-two-cambridge",
+      "candidateId": "candidate-cambridge-restaurant-twenty-two-chesterton-road",
+      "name": "Restaurant Twenty-Two (Cambridge)",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-27",
+      "location": {
+        "address": "22 Chesterton Road",
+        "city": "Cambridge",
+        "region": "Cambridgeshire",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.restaurant22.co.uk/",
+      "guideUrl": "https://guide.michelin.com/us/en/cambridgeshire/cambridge/restaurant/restaurant-22",
+      "userNote": "I'd like to visit Restaurant Twenty-Two.",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-27",
+        "quote": "Restaurant Twenty-Two (22 Chesterton Road) — Did not visit; add to future-visit list."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future interest only, not confirmed attendance. Michelin starred since 2023; award date is not user's visit date. Distinct from The Mill pub and MillWorks restaurant."
     }
   ]
 }

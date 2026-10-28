@@ -76,7 +76,7 @@ assert north_pond["userMemoryLead"]["identityConfirmed"] is True
 assert north_pond["screening"]["basis"] == "both"
 assert any(r["title"] == "North Pond" and r["guide"]["stars"] == 1 for r in records)
 assert len([r for r in records if r["type"] == "dining" and r["status"] == "confirmed"]) >= 25
-assert len([r for r in records if r["type"] == "bar" and r["status"] == "confirmed"]) == 3  # J-Bar added as archive-only
+assert len([r for r in records if r["type"] == "bar" and r["status"] == "confirmed"]) >= 6  # includes three confirmed Cambridge historic-pub visits
 breck = [r for r in records if r["venueId"] == "venue-breckenridge-distillery"]
 assert len(breck) == 3
 assert sorted(r["visit"]["year"] for r in breck) == [2021, 2022, 2023]
@@ -149,7 +149,7 @@ assert interview_data["interviewChapters"]["spaceParkSouthBay"]["unreviewedCandi
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedNames"]) == maybe_names
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["notVisitedNames"]) == not_visited_names
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] is None
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Los Angeles / West Hollywood"
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Cambridge, UK"
 assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"]
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
            x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
@@ -158,7 +158,7 @@ assert any(x["id"] == "redondo-space-park-dining-unidentified" and
 # the Taiwanese meal with Jay when the Space Park/South Bay interview resumes.
 active_la = interview_data["interviewChapters"]["losAngeles"]
 active_south_bay = interview_data["interviewChapters"]["spaceParkSouthBay"]
-assert active_la["state"] == "active_research_parallel"
+assert active_la["state"] in {"active_research_parallel", "initial_named_venue_screening_complete_pending_uncertain_leads"}
 assert active_south_bay["state"] == "active_research_parallel"
 assert active_la["confirmedNamedVisits"] == 2
 # User's strong visual recollection of Liu's Cafe is a probable identity,
@@ -405,7 +405,8 @@ assert any(x["name"] == "The Butcher's Daughter (West Hollywood)" and x["visitSt
 assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["date"] == "2023-07-29"
 assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["attendanceInference"] == "restaurant_and_west_hollywood_branch_confirmed_independently_of_booking_date"
 assert next(x for x in candidates if x["id"] == "candidate-la-joy-highland-park")["visitStatus"] == "maybe"
-assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-dtla")["visitStatus"] == "unreviewed"
+assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-dtla")["visitStatus"] == "not_visited"  # directly answered during completed LA screen
+assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-silver-lake")["visitStatus"] == "not_visited"
 assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngeles"]["confirmedNames"]
 
 
@@ -413,7 +414,11 @@ assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngel
 # Venue-level audit: do not inflate stats with repeat visits or unverified awards.
 aud = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))
 archive_only_names = {x["name"] for x in aud["confirmedArchiveOnly"]}
-published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names]
+# The October 2026 dining-awards audit is a historical snapshot that predates the
+# separate Cambridge CAMRA pub track; newly confirmed pubs are validated below,
+# not silently added to historical dining-awards-audit.json totals.
+new_cambridge_pub_ids={"bar-eagle-cambridge-date-unknown", "bar-anchor-cambridge-date-unknown", "bar-mill-cambridge-date-unknown"}
+published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names and r["id"] not in new_cambridge_pub_ids]
 assert aud["summary"] == {
     "canonExperienceRecords": len(published_experiences),
     "distinctPublishedVenues": len({r["venueId"] for r in published_experiences}),
@@ -786,3 +791,13 @@ assert next(x for x in candidates if x["name"] == "Soupçon" and x["area"] == "C
 assert all(not (x["restaurantName"] == "Soupçon") for x in expanded_rows)
 assert {r["restaurantName"] for r in expanded_rows if r["collectionTier"] == "official_program_or_editorial_connection"} == {
     "Uchi Denver", "Jack Stack Barbecue (Overland Park)", "Pierpont's at Union Station"}
+
+# British pub recognition must not be mislabeled Michelin/James Beard.
+camra_mill=next(r for r in records if r["id"]=="bar-mill-cambridge-date-unknown")
+assert camra_mill["status"]=="confirmed" and camra_mill["type"]=="bar"
+assert camra_mill["editorial"]["pubRecognized"] is True
+assert camra_mill["editorial"]["awardQualified"] is False
+assert any(a["organization"].startswith("CAMRA") and a["year"]==2018 and a["category"]=="Young Members' Pub of the Year" for a in camra_mill["recognitions"])
+assert all(not r.get("editorial", {}).get("pubRecognized") or r["type"]=="bar" for r in records)
+assert next(c for c in candidates if c["id"]=="candidate-cambridge-cambridge-blue-gwydir-street")["visitStatus"]=="not_visited"
+assert next(c for c in candidates if c["id"]=="candidate-cambridge-champion-of-the-thames-king-street")["visitStatus"]=="unreviewed"

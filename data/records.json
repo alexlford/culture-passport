@@ -10,8 +10,8 @@
     },
     {
       "id": "bar",
-      "label": "Cocktail Bars",
-      "description": "Cocktail bars, speakeasies and beverage experiences"
+      "label": "Pubs & Cocktail Bars",
+      "description": "Historic pubs, cocktail bars, speakeasies, and beverage experiences"
     },
     {
       "id": "concert",
@@ -44,7 +44,7 @@
     "awardFocusedCollection": "Default Culture Passport Dining chapter shows only venues with verified historical Michelin inclusion or James Beard recognition of restaurant itself or chef at that restaurant. Memory-only confirmed visits are preserved but hidden by default, discoverable with a separate toggle. Recognition year may differ from dinner year.",
     "curated": "Default Culture Passport dining views show confirmed restaurants with documented Michelin Guide recognition (star, Bib, Selected, historic Plate) or directly associated James Beard awards, finalists or semifinalists. Those awards retain their recipient and year. Chef awards at unrelated restaurants or historical awards dated after a dinner may be context, not proof of qualification at the meal date. Unverified and outside-scope visits stay in archive but are hidden from curated browsing by default.",
     "featuredExceptions": "Venue-specific Michelin/JBF honors are the default inclusion criteria, but the user's express favorites Sauvage, Gunther & Co., Death & Co Denver and provisional favorite The Majestic are displayed in the primary collection despite no established qualifying award. FiNO was added as a user-selected confirmed 2026 visit without award recognition; this does not imply it is a personal favorite.",
-    "beverages": "Stand-alone cocktail bars are type=bar, never counted as restaurants. James Beard Outstanding Bar Program includes bar semifinalists. Never borrow recognition from another location within a chain.",
+    "beverages": "Cocktail bars and historic pubs use type=bar, distinct from dining. Michelin/JBF, CAMRA pubs, Tales of the Cocktail bar honors, Brewers Association producer-level awards and heritage features are separate recognition tracks. Do not transfer awards across sites or between a beer product and the venue.",
     "repeatVisits": "A venue may be visited in multiple years. Each confirmed year is represented as a separate experience record with a stable unique ID, sharing one venue ID; do not manufacture precise calendar dates or collapse years into one event.",
     "reservationEvidence": "Date and party size from completed reservation screenshots are documentary evidence, not independent proof of check-in or dining. Only directly restaurant-level Michelin/JBF recognition enters the curated collection automatically. The user explicitly excluded Le Fou Frog: it must not enter any deployed venue/experience ledger, even though its date appears in private conversation uploads.",
     "storyFirst": "Each published entry leads with a grounded personal memory, atmosphere, or occasion. Dates are retained in provenance but the public timeline emphasizes approximate years, seasons, and meaningful events. Never fabricate meals, companion details, specific actions, or feelings not supplied by the user.",
@@ -53,7 +53,10 @@
     "criterionAudit": "Keep separate: verified Michelin Guide inclusion (stars, Bib, Selected/historical Plate), James Beard semifinalist/finalist/winner at the specific venue or chef while working there, explicitly featured personal memories, user-confirmed history without award, uncertain leads, and reservation-only evidence. Never count unverified founders' awards from unrelated restaurants or award years as the historical dining year.",
     "stageMemories": "Confirmed live outings can be recorded with a provisional production title. Verify the tour period and venue independently but do not infer exact performance dates; labels are about the memory.",
     "culturalExperiences": "Concert, festival, theatrical, live television, magic and opera entries can be supported by user recollections or personal event archive screenshots without Michelin/James Beard recognition. Show exact performance dates only when supported; a run's date window never proves a particular night.",
-    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date."
+    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date.",
+    "camraPubRecognition": "For directly confirmed British pub visits, CAMRA Pub of the Year awards at national, regional, branch or explicitly named branch/category level, and verified edition-specific Good Beer Guide listings, can qualify a separate pub-recognition track. Ordinary CAMRA directory listings, Dog Friendly/Most Improved, and listed historic architecture are supporting information only. Record exact venue, distinction, source and year; leave visit year unknown until supplied.",
+    "usBeverageAndHeritageRecognition": "U.S. candidates: venue-specific Tales of the Cocktail Spirited Awards stages for bars; Great American Beer Festival Brewery/Brewer of the Year or verified World Beer Cup producer championships for site-matched brewing producers; independently documented heritage venues are discretionary personal-history features, not beer awards. Single-beer medals and awards at unrelated locations are supporting context, never automatic venue qualification. Require direct attendance before promoting.",
+    "recognitionTracks": "Retain editorial.awardQualified exclusively for Michelin/James Beard. Use editorial.pubRecognized, editorial.barRecognized, editorial.breweryRecognized, and explicitly reviewed editorial.heritageFeatured as non-JBF tracks. These must never increment Michelin/JBF metrics. Publication remains under independent explicit review and approval."
   },
   "venues": [
     {
@@ -1153,6 +1156,77 @@
         "precision": "city-centroid"
       },
       "sourceId": "harveys-union-station-kansas-city"
+    },
+    {
+      "id": "venue-eagle-cambridge",
+      "name": "The Eagle",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "8 Bene't Street, Cambridge CB2 3QN",
+      "neighborhood": "Bene't Street / City Centre",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "eagle-cambridge-benet-street"
+    },
+    {
+      "id": "venue-anchor-cambridge",
+      "name": "The Anchor",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "Silver Street, Cambridge CB3 9EL",
+      "neighborhood": "Silver Street / River Cam",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "anchor-silver-street-cambridge"
+    },
+    {
+      "id": "venue-mill-cambridge",
+      "name": "The Mill",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "14 Mill Lane, Cambridge CB2 1RX",
+      "neighborhood": "Mill Lane / Millpond",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "the-mill-cambridge-mill-lane"
+    },
+    {
+      "id": "venue-millworks-cambridge-newnham-road",
+      "name": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "The Watermill, Newnham Road, Cambridge CB3 9EY",
+      "neighborhood": "Newnham / Mill Pond",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "millworks-watermill-cambridge",
+      "operator": "Cambscuisine",
+      "geoEvidence": {
+        "source": "user_supplied_apple_maps_place_link",
+        "address": "The Watermill, Newnham Road, Cambridge CB3 9EY",
+        "coordinates": {
+          "lat": 52.199055,
+          "lng": 0.114077
+        },
+        "url": "https://maps.apple.com/place?address=The%20Watermill,%20Newnham%20Road,%20Cambridge,%20CB3%209EY,%20England&coordinate=52.199055,0.114077&name=MillWorks&place-id=I56F372B737665060&map=explore",
+        "note": "Map link confirms the restaurant identity and supplied place coordinates. Shared Culture Passport map remains city-centroid until life-map location linking is implemented."
+      }
     }
   ],
   "records": [
@@ -6041,6 +6115,277 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_of_venue_and_occasion"
+      }
+    },
+    {
+      "id": "bar-eagle-cambridge-date-unknown",
+      "type": "bar",
+      "subtype": "historic_pub",
+      "title": "The Eagle (Cambridge)",
+      "venueId": "venue-eagle-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge trip · exact date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
+        "source": "On October 27, 2026, Alex explicitly confirmed: 'Culture Passport Cambridge UK interview: The Eagle (Bene't Street) — Visited.' This is personal visit proof only; no purchase, meal, drink, or date is assumed."
+      },
+      "summary": "Confirmed historic-pub visit in central Cambridge during an undated UK trip. The Eagle is known for World War II RAF airmen's ceiling inscriptions and its role in the history of DNA research. Historic significance, not a Michelin or James Beard honor.",
+      "memory": {
+        "headline": "The Eagle, Cambridge",
+        "teaser": "A confirmed visit to the Cambridge pub associated with wartime airmen and the discovery of DNA's structure.",
+        "story": "I visited The Eagle on Bene't Street in Cambridge. The pub is historically linked to the airmen who left their marks on its RAF Bar ceiling and to the 1953 announcement of the structure of DNA. I haven't yet placed the exact date or described what I did during the visit.",
+        "period": "Cambridge UK trip · date unknown",
+        "source": "Direct user confirmation on 2026-10-27; historical setting independently sourced from Cambridge & District CAMRA."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard venue award or inclusion is claimed; heritage and historical significance are separate."
+      },
+      "sourceUrl": "https://camra.org.uk/pubs/eagle-cambridge-131472",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_historic_pub",
+        "basis": "direct_visit_plus_independently_documented_history",
+        "note": "Preserve as confirmed cultural history/heritage pub visit in private archive, not award-qualified dining or cocktail-bar winner. No visitor-facing publication is authorized by this research branch."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "heritage_significance_not_culinary_award",
+        "reason": "The venue's historical military and scientific significance warrants preservation as a personal cultural visit, but does not satisfy Michelin/JBF qualification.",
+        "evidenceUrls": [
+          "https://camra.org.uk/pubs/eagle-cambridge-131472",
+          "https://www.cisl.cam.ac.uk/system/files/documents/venues.pdf"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "user_confirmed_location_date_unknown"
+      }
+    },
+    {
+      "id": "bar-anchor-cambridge-date-unknown",
+      "type": "bar",
+      "subtype": "historic_pub",
+      "title": "The Anchor (Cambridge)",
+      "venueId": "venue-anchor-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge trip · exact date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
+        "source": "Direct user confirmation on October 27, 2026: 'Culture Passport Cambridge UK interview: The Anchor (Silver Street) — Visited.' Punting memories are separately confirmed, but no chronological link to the pub visit is asserted."
+      },
+      "summary": "Confirmed visit to The Anchor on Silver Street beside the River Cam, close to the punt landing and Mathematical Bridge in Cambridge. Exact date and experiences at the pub unspecified. The riverfront setting and early music history are cultural context, not qualifying culinary awards.",
+      "memory": {
+        "headline": "The Anchor beside the River Cam",
+        "teaser": "A confirmed visit to the riverside Cambridge pub on Silver Street, close to the punts and the Mathematical Bridge.",
+        "story": "I visited The Anchor on Silver Street in Cambridge. Its setting by the River Cam is close to where punts travel through the city. Punting was a memorable part of my Cambridge trip, although I haven't yet specified whether the pub visit took place before or after that outing, or what I ordered there.",
+        "period": "Cambridge UK trip · year unspecified",
+        "source": "Direct user confirmation of venue visit and separate user-supplied recollection of steering a punt in Cambridge. Independent geographical setting from the pub's public descriptions."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No qualifying Michelin Guide or James Beard recognition is claimed for The Anchor. Riverfront location and historic music association are not culinary distinctions."
+      },
+      "sourceUrl": "https://www.anchorcambridge.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_historic_pub",
+        "basis": "direct_visit_plus_independently_documented_heritage",
+        "note": "Archive as directly confirmed historic Cambridge pub visit. Do not auto-publish or claim Michelin/JBF award. No specific food, drink, seating or visit date is established."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "heritage_significance_not_culinary_award",
+        "reason": "The user directly confirmed this pub; no Michelin/JBF venue award is established. Preserve in culture archive independently of culinary recognition.",
+        "evidenceUrls": [
+          "https://www.anchorcambridge.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmed_pub_date_unknown"
+      }
+    },
+    {
+      "id": "bar-mill-cambridge-date-unknown",
+      "type": "bar",
+      "subtype": "historic_pub",
+      "title": "The Mill (Cambridge)",
+      "venueId": "venue-mill-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge trip · date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
+        "source": "Direct user response on 2026-10-27: 'Culture Passport Cambridge UK interview: The Mill (Mill Lane) — Visited.' This does not establish a date, meal, drink or companion."
+      },
+      "summary": "Confirmed visit to The Mill on Cambridge's riverside Mill Lane. Its 2018 Cambridge & District CAMRA Young Members' Pub of the Year award qualifies for the independent pub-recognition track, separate from Michelin and James Beard. The 2019–2020 dog-friendly awards are supporting context. The visit date and details remain unknown.",
+      "memory": {
+        "headline": "The Mill beside Cambridge's Millpond",
+        "teaser": "A confirmed visit to a historic Cambridge riverside pub, with the River Cam and its punts nearby.",
+        "story": "I visited The Mill on Mill Lane in Cambridge. Its riverside setting sits close to the Millpond, where Cambridge's punting scene is part of the landscape. I remember spending time in Cambridge's pubs and independently remember punting, although I haven't specified what I did at The Mill or when exactly I went.",
+        "period": "Cambridge, year unknown",
+        "source": "User directly confirmed pub visit in interview on 2026-10-27. River and pub context independently sourced; no activities invented."
+      },
+      "recognitions": [
+        {
+          "organization": "CAMRA — Cambridge & District",
+          "year": 2018,
+          "result": "winner",
+          "category": "Young Members' Pub of the Year",
+          "recipient": "The Mill, Cambridge",
+          "relationship": "exact pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "timingRelativeToVisit": "unknown_visit_date"
+        },
+        {
+          "organization": "CAMRA — Cambridge & District",
+          "year": 2019,
+          "result": "winner",
+          "category": "Dog Friendly Pub of the Year",
+          "recipient": "The Mill, Cambridge",
+          "relationship": "exact pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "timingRelativeToVisit": "unknown_visit_date"
+        },
+        {
+          "organization": "CAMRA — Cambridge & District",
+          "year": 2020,
+          "result": "winner",
+          "category": "Dog Friendly Pub of the Year",
+          "recipient": "The Mill, Cambridge",
+          "relationship": "exact pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "timingRelativeToVisit": "unknown_visit_date"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "CAMRA pub accolades and historic building status do not constitute Michelin Guide or James Beard culinary awards. Timing relative to undated visit unknown."
+      },
+      "sourceUrl": "https://www.themillpubcambridge.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "camra_recognized_pub",
+        "basis": "camra_2018_young_members_pub_of_the_year",
+        "note": "Confirmed Cambridge pub visit and venue-specific 2018 Cambridge & District CAMRA Young Members' Pub of the Year award. Supporting 2019/2020 Dog Friendly awards are not independently qualifying. CAMRA pub recognition is distinct from Michelin/JBF; visit date and activities unknown; publication approval remains separate.",
+        "pubRecognized": true,
+        "recognitionTrack": "camra_pub",
+        "pubRecognitionTier": "camra_branch_category_pub_of_the_year"
+      },
+      "curation": {
+        "status": "qualifies_pub",
+        "basis": "camra_branch_category_pub_of_the_year",
+        "reason": "The Mill's 2018 CAMRA Young Members' Pub of the Year branch/category win qualifies for the separate British pub tier; CAMRA is not Michelin/JBF. Exact visit time unknown.",
+        "evidenceUrls": [
+          "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "https://www.themillpubcambridge.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "user_confirmed_visit_date_unknown"
+      }
+    },
+    {
+      "id": "dining-millworks-cambridge-date-unknown",
+      "type": "dining",
+      "title": "MillWorks",
+      "venueId": "venue-millworks-cambridge-newnham-road",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge restaurant meal · date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_restaurant_meal_date_and_companions_unknown",
+        "source": "Alex directly confirmed 'I did eat here' on October 27, 2026, identifying MillWorks by an Apple Maps place link to The Watermill on Newnham Road, Cambridge. This is a confirmed dining experience; meal date, menu, companions and any combined punt excursion are unknown."
+      },
+      "summary": "Confirmed meal at MillWorks in Cambridge, remembered for great food and getting to know people working on the GMI program. Exact date and dishes unknown. Separate from The Mill pub.",
+      "recognitions": [
+        {
+          "organization": "Cambridge Sustainable Food",
+          "year": 2023,
+          "result": "silver",
+          "category": "Sustainable Food Business Awards — Silver Sourcing Award",
+          "recipient": "MillWorks (Cambscuisine), Cambridge",
+          "relationship": "exact_restaurant_with_parent_company",
+          "sourceUrl": "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "recognitionTrack": "local_sustainability_context",
+          "qualifiesForCulinaryAwards": false
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants",
+        "note": "MillWorks is absent from Cambridge's current Michelin Guide restaurant selection checked on 2026-10-27. This is not an exhaustive historical negative, and no Michelin/JBF honor is claimed."
+      },
+      "sourceUrl": "https://themillworks.co.uk/",
+      "memory": {
+        "headline": "Good food and new connections at MillWorks",
+        "teaser": "Great food and a chance to get to know colleagues from the GMI program.",
+        "story": "I ate at MillWorks in Cambridge. I remember the great food and a good time getting to know people working on the GMI program. I haven't yet placed the date or recalled specific dishes. This restaurant is separate from The Mill pub on Mill Lane.",
+        "period": "Cambridge trip · exact meal date unknown",
+        "source": "Direct user recollection, October 27, 2026. User said: great food and a good time getting to know people working the GMI program."
+      },
+      "editorial": {
+        "awardQualified": false,
+        "pubRecognized": false,
+        "barRecognized": false,
+        "breweryRecognized": false,
+        "heritageFeatured": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_personal_memory",
+        "basis": "direct_user_confirmed_dining_with_local_sustainability_award",
+        "note": "Historical watermill restaurant and separately verified Silver Sourcing Award in 2023, but no qualifying Michelin/JBF honor identified. Preserve in permanent private dining watchlist. Sustainability sourcing accolade is distinct from CAMRA and Michelin/JBF. Public preview approval not granted."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "no_michelin_jbf_verified",
+        "reason": "Verified direct user restaurant attendance plus exact-venue 2023 sustainability award, but not a qualifying Michelin/JBF distinction under current culinary criteria. No Michelin/JBF or CAMRA award falsely inferred.",
+        "evidenceUrls": [
+          "https://themillworks.co.uk/",
+          "https://camra.org.uk/pubs/millworks-cambridge-131366",
+          "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+          "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmed_dining_exact_address_and_independent_2023_sustainability_award"
       }
     }
   ],

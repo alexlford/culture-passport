@@ -5,10 +5,10 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 46,
-    "canonicalDistinctVenues": 41,
+    "restaurantEntriesReviewed": 47,
+    "canonicalDistinctVenues": 42,
     "archiveOnlyAdditionalEntries": 5,
-    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
+    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. MillWorks in Cambridge was added as a distinct confirmed restaurant from The Mill pub, with a 2023 local sustainability award that is not a Michelin/JBF qualifying distinction.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas."
   },
   "rules": {
@@ -70,10 +70,13 @@
       "pierponts": "Repeated visits confirmed; direct 2011 Foundation editorial link; inclusion requested.",
       "harveys": "After-wedding goodbye brunch confirmed; personally featured; year unspecified.",
       "scopeNote": "Added two confirmed restaurants; no formal award promotions or wedding-date inference."
-    }
+    },
+    "additionalNonCulinaryRecognition": [
+      "MillWorks Cambridge — Cambridge Sustainable Food Silver Sourcing Award 2023; independently verified, not a Michelin/JBF culinary award."
+    ]
   },
   "countsByTier": {
-    "archived_pending_recognition": 18,
+    "archived_pending_recognition": 19,
     "formal_michelin_jbf_recognition": 19,
     "personal_featured_exception": 6,
     "official_program_or_editorial_connection": 3
@@ -1495,12 +1498,49 @@
       "reviewResult": "Personally featured wedding-related memory directly confirmed and explicitly selected by the user. Continue monitoring for qualifying recognition without claiming an award.",
       "watchlistId": "venue-harveys-union-station-kansas-city",
       "reviewedOn": "2026-10-27"
+    },
+    {
+      "venueId": "venue-millworks-cambridge-newnham-road",
+      "restaurantName": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "venueScope": "specific_newnham_road_watermill_restaurant_exact_location",
+      "personalVisitStatus": "confirmed_dining_visit_date_unknown",
+      "experienceIds": [
+        "dining-millworks-cambridge-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://themillworks.co.uk/",
+        "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+        "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants",
+        "https://camra.org.uk/pubs/millworks-cambridge-131366"
+      ],
+      "historicalGuide": "no_current_michelin_listing_historical_not_exhaustively_checked",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "independentOtherRecognition": [
+        {
+          "organization": "Cambridge Sustainable Food",
+          "year": 2023,
+          "category": "Silver Sourcing Award",
+          "sourceUrl": "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+          "qualifiesForMichelinJBF": false
+        }
+      ],
+      "reviewResult": "Direct user-confirmed meal at the Newnham Road Watermill restaurant; date unknown. The awarding body independently records a 2023 Silver Sourcing Award, which is not a Michelin or James Beard culinary distinction. Its CAMRA directory listing is not CAMRA pub recognition. Retain in permanent watchlist and separate from The Mill pub on Mill Lane.",
+      "watchlistId": "venue-millworks-cambridge-newnham-road",
+      "reviewedOn": "2026-10-27"
     }
   ],
   "futureAudit": {
     "cadence": "quarterly",
     "nextReviewTarget": "2027-01",
-    "priority": "For archived and featured-exception restaurants first, search official Michelin Guide history, special awards, inspector articles, official James Beard awards archives, Taste America/TasteTwenty, Beard House events, Smart Catch and named chef-program rosters; distinguish current vs historical, award vs participation, exact venue vs group."
+    "priority": "For archived and featured-exception restaurants first, search official Michelin Guide history, special awards, inspector articles, official James Beard awards archives, Taste America/TasteTwenty, Beard House events, Smart Catch and named chef-program rosters; distinguish current vs historical, award vs participation, exact venue vs group. Verify any additional Michelin/JBF venue-specific historical distinctions at MillWorks Newnham Road, without conflating the similarly named The Mill pub. Keep 2023 Silver Sourcing Award in a separate sustainability context tier."
   },
   "barLeadSeparate": "J-Bar at Hotel Jerome is confirmed as a bar experience but excluded from these restaurant totals.",
   "secondaryDiscoverySources": [

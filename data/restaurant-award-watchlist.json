@@ -1229,6 +1229,56 @@
       "officialFeatureStatus": "none_verified",
       "expandedReviewTier": "personal_featured_exception",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-millworks-cambridge-newnham-road",
+      "venueId": "venue-millworks-cambridge-newnham-road",
+      "venueName": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "experienceIds": [
+        "dining-millworks-cambridge-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed Cambridge restaurant meal; exact date and year unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_michelin_jbf_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json",
+        "data/expanded-recognition-audit-2026-10-27.json"
+      ],
+      "sourceNotes": "User directly confirmed eating at MillWorks, The Watermill, Newnham Road, separate from The Mill pub. Cambridge Sustainable Food independently confirms its 2023 Silver Sourcing Award. This is local sustainability recognition, not an independently documented Michelin/JBF culinary honor, CAMRA pub award or Good Beer Guide placement. No dinner year or specific dishes assumed.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "confirmed_dining_visit_and_verified_local_sustainability_award",
+          "note": "Primary-source venue operator and Cambridge Sustainable Food confirm restaurant location and award. No matching Michelin Guide 2026 Cambridge listing found in official current selection; James Beard relevance not evidenced. This targeted review is not an exhaustive historical negative.",
+          "evidenceUrls": [
+            "https://themillworks.co.uk/",
+            "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+            "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants",
+            "https://camra.org.uk/pubs/millworks-cambridge-131366"
+          ],
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json"
+        }
+      ],
+      "recognitionEvents": [
+        {
+          "organization": "Cambridge Sustainable Food",
+          "year": 2023,
+          "category": "Silver Sourcing Award",
+          "recipient": "MillWorks / Cambscuisine",
+          "result": "silver",
+          "status": "context_only_non_michelin_jbf",
+          "sourceUrl": "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98"
+        }
+      ],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }

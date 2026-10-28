@@ -44,7 +44,7 @@ def public_story(record):
     if record["status"] != "confirmed":
         return False
     if record["type"] in {"dining", "bar"}:
-        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature"))
+        return bool(editorial.get("awardQualified") or editorial.get("pubRecognized") or editorial.get("barRecognized") or editorial.get("breweryRecognized") or editorial.get("heritageFeatured") or editorial.get("featuredException") or editorial.get("officialFeature"))
     return True
 
 
@@ -86,7 +86,7 @@ def sanitize_record(record):
             if not a.get("recognitionAtDifferentVenue")
         ]
     selected["editorial"] = safe_fields(
-        record.get("editorial", {}), ("awardQualified", "featuredException", "officialFeature", "officialFeatureType", "userRequestedMemory")
+        record.get("editorial", {}), ("awardQualified", "pubRecognized", "barRecognized", "breweryRecognized", "heritageFeatured", "featuredException", "officialFeature", "officialFeatureType", "userRequestedMemory")
     )
     if record.get("officialFeatures"):
         selected["officialFeatures"] = [
