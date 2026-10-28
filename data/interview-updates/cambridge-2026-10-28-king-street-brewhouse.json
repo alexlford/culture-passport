@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "interviewAnswer": {
+    "candidateId": "candidate-cambridge-king-street-brewhouse",
+    "name": "King Street Brewhouse",
+    "historicalName": "Cambridge Brew House",
+    "aliases": [
+      "King Street Brew House",
+      "Cambridge Brew House"
+    ],
+    "address": "1 King Street, Cambridge, England",
+    "visitStatus": "not_visited",
+    "userAnswer": "I haven't visited King Street Brewhouse at 1 King Street.",
+    "reviewedOn": "2026-10-28",
+    "evidenceType": "direct_user_negative_confirmation",
+    "wishesToVisit": false,
+    "noWishlistInferred": true,
+    "noExperienceCreated": true,
+    "noAwardEligibilityInferred": true
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-free-press",
+    "venue": "The Free Press",
+    "address": "7 Prospect Row, Cambridge CB1 1DU, United Kingdom",
+    "visitStatus": "unreviewed",
+    "restaurantType": "historic_pub_and_dining",
+    "sourceLinks": [
+      "https://www.freepresscambridge.com/",
+      "https://camra.org.uk/pubs/free-press-cambridge-131487"
+    ],
+    "recognitionContext": "CAMRA notes a historic interior and restoration; pub-related recognition is not a Michelin or James Beard award.",
+    "question": "Did you visit The Free Press at 7 Prospect Row in Cambridge for drinks, food, both, or not at all?",
+    "photoCues": [
+      "Black and cream pub facade, gold FREE PRESS lettering",
+      "traditional dark wood interior",
+      "tiny historic snug",
+      "historic handpumps and walled garden"
+    ]
+  },
+  "nextGeographicSequence": [
+    "Finish Cambridge venues one at a time with photographs",
+    "Kansas City Metro including Weston, Missouri, 2010 to present historical audit",
+    "Baltimore historical audit"
+  ],
+  "preservation": {
+    "previousUserConfirmed": [
+      "The Eagle",
+      "The Anchor",
+      "The Mill (pub)",
+      "MillWorks GMI colleague dinner",
+      "Parker's Tavern dining and drinks",
+      "University Arms hotel stay"
+    ],
+    "preserveUncertainties": true,
+    "keepLosAngelesIntact": true,
+    "keepDifferentPassportsSeparate": true,
+    "note": "This supplemental source file records the user's direct answer without overwriting the large canonical interview file."
+  }
+}
