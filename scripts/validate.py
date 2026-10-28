@@ -111,13 +111,13 @@ chicago_six = {"Kumiko", "Best Intentions", "Bisous", "Hopleaf Bar", "Truce", "C
 assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "not_visited" for name in chicago_six)
 assert interview_data["interviewProgress"]["pausedBatches"][0]["status"] == "closed_for_now_at_user_request"
 assert set(interview_data["interviewProgress"]["pausedBatches"][0]["explicitlyNotVisitedAsOfDate"]) == chicago_six
-# South Bay interview: three MAYBE answers are not evidence of visits.
-# Sushi Inaba is the next question and remains unreviewed. Its hidden Torrance
-# omakase counter must not be conflated with regular I-naba or the older location.
+# South Bay interview: four MAYBE responses are not evidence of visits.
+# The Sushi Inaba uncertainty does not establish a specific location or a
+# meal at its private omakase counter, distinct from the larger I-naba.
 space_park = [c for c in candidates if c["area"] == "South Bay / Space Park"]
 assert len(space_park) == 8
 assert all(c["screening"]["status"] == "award_qualified" for c in space_park)
-maybe_names = {"Manhattan Beach Post", "Fishing with Dynamite", "RYLA"}
+maybe_names = {"Manhattan Beach Post", "Fishing with Dynamite", "RYLA", "Sushi Inaba (Torrance)"}
 assert {c["name"] for c in space_park if c["visitStatus"] == "maybe"} == maybe_names
 assert all(c["visitStatus"] == "unreviewed" for c in space_park if c["name"] not in maybe_names)
 assert all(next(c for c in space_park if c["name"] == n)["lastInterviewResponse"] == "Maybe visited."
@@ -125,15 +125,22 @@ assert all(next(c for c in space_park if c["name"] == n)["lastInterviewResponse"
 assert all(not any(r["title"] == c["name"] and r["status"] == "confirmed" for r in records)
     for c in space_park)
 sushi_inaba = next(c for c in space_park if c["id"] == "candidate-space-park-sushi-inaba-torrance")
-assert sushi_inaba["visitStatus"] == "unreviewed"
+assert sushi_inaba["visitStatus"] == "maybe"
 assert "I-naba" in sushi_inaba["interviewCue"]
 assert "Manhattan Beach" in sushi_inaba["interviewCue"]
+vin_folk = next(c for c in space_park if c["id"] == "candidate-space-park-vin-folk")
+assert vin_folk["visitStatus"] == "unreviewed"
+assert vin_folk["openedYear"] == 2024
+assert "Bib Gourmand" in vin_folk["recognition"]
+assert vin_folk["recognitionYear"] == 2025
+assert vin_folk["screening"]["basis"] == "michelin"
+assert "2025" in vin_folk["screening"]["evidenceUrl"]
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["namedConfirmedVisits"] == 0
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedCandidates"] == 3
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedCandidates"] == 4
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedNames"]) == maybe_names
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] == "Sushi Inaba (Torrance)"
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] == "Vin Folk"
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "South Bay / Space Park"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Sushi Inaba (Torrance)"
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Vin Folk"
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
     x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
 
