@@ -1183,6 +1183,21 @@
         "precision": "city-centroid"
       },
       "sourceId": "anchor-silver-street-cambridge"
+    },
+    {
+      "id": "venue-mill-cambridge",
+      "name": "The Mill",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "14 Mill Lane, Cambridge CB2 1RX",
+      "neighborhood": "Mill Lane / Millpond",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "the-mill-cambridge-mill-lane"
     }
   ],
   "records": [
@@ -6180,6 +6195,92 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmed_pub_date_unknown"
+      }
+    },
+    {
+      "id": "bar-mill-cambridge-date-unknown",
+      "type": "bar",
+      "subtype": "historic_pub",
+      "title": "The Mill (Cambridge)",
+      "venueId": "venue-mill-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge trip · date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "venue_confirmed_date_and_activity_unspecified",
+        "source": "Direct user response on 2026-10-27: 'Culture Passport Cambridge UK interview: The Mill (Mill Lane) — Visited.' This does not establish a date, meal, drink or companion."
+      },
+      "summary": "Confirmed visit to the historic Mill Lane riverside pub overlooking the Millpond. Its CAMRA branch recognition is retained as pub-specific context, not Michelin or James Beard culinary distinction. Visit date and activity unknown.",
+      "memory": {
+        "headline": "The Mill beside Cambridge's Millpond",
+        "teaser": "A confirmed visit to a historic Cambridge riverside pub, with the River Cam and its punts nearby.",
+        "story": "I visited The Mill on Mill Lane in Cambridge. Its riverside setting sits close to the Millpond, where Cambridge's punting scene is part of the landscape. I remember spending time in Cambridge's pubs and independently remember punting, although I haven't specified what I did at The Mill or when exactly I went.",
+        "period": "Cambridge, year unknown",
+        "source": "User directly confirmed pub visit in interview on 2026-10-27. River and pub context independently sourced; no activities invented."
+      },
+      "recognitions": [
+        {
+          "organization": "CAMRA — Cambridge & District",
+          "year": 2018,
+          "result": "winner",
+          "category": "Young Members' Pub of the Year",
+          "recipient": "The Mill, Cambridge",
+          "relationship": "exact pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "timingRelativeToVisit": "unknown_visit_date"
+        },
+        {
+          "organization": "CAMRA — Cambridge & District",
+          "year": 2019,
+          "result": "winner",
+          "category": "Dog Friendly Pub of the Year",
+          "recipient": "The Mill, Cambridge",
+          "relationship": "exact pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "timingRelativeToVisit": "unknown_visit_date"
+        },
+        {
+          "organization": "CAMRA — Cambridge & District",
+          "year": 2020,
+          "result": "winner",
+          "category": "Dog Friendly Pub of the Year",
+          "recipient": "The Mill, Cambridge",
+          "relationship": "exact pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "timingRelativeToVisit": "unknown_visit_date"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "CAMRA pub accolades and historic building status do not constitute Michelin Guide or James Beard culinary awards. Timing relative to undated visit unknown."
+      },
+      "sourceUrl": "https://www.themillpubcambridge.com/",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_historic_pub",
+        "basis": "confirmed_visit_with_camra_pub_awards",
+        "note": "Cultural pub archive; CAMRA-specific recognition retained by organization/year. No visitor-facing publication authorized by this branch."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "camra_pub_awards_not_michelin_jbf",
+        "reason": "Confirmed visit plus official CAMRA recognition, but not Michelin/JBF qualification. Preserve cultural history separately from culinary award collection.",
+        "evidenceUrls": [
+          "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1633",
+          "https://www.themillpubcambridge.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "user_confirmed_visit_date_unknown"
       }
     }
   ],
