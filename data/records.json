@@ -1153,6 +1153,50 @@
         "precision": "city-centroid"
       },
       "sourceId": "harveys-union-station-kansas-city"
+    },
+    {
+      "id": "venue-eagle-cambridge",
+      "name": "The Eagle",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "8 Bene't Street, Cambridge CB2 3QN",
+      "location": null,
+      "sourceId": "eagle-cambridge",
+      "locationAttribution": "Exact venue confirmed by user; venue address independently verified, no GPS visit track or exact date inferred."
+    },
+    {
+      "id": "venue-anchor-cambridge",
+      "name": "The Anchor",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "Silver Street, Cambridge CB3 9EL",
+      "location": null,
+      "sourceId": "anchor-cambridge",
+      "locationAttribution": "Exact venue confirmed by user; venue address independently verified, no GPS visit track or exact date inferred."
+    },
+    {
+      "id": "venue-mill-pub-cambridge",
+      "name": "The Mill (pub)",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "14 Mill Lane, Cambridge CB2 1RX",
+      "location": null,
+      "sourceId": "mill-pub-cambridge",
+      "locationAttribution": "Exact venue confirmed by user; venue address independently verified, no GPS visit track or exact date inferred."
+    },
+    {
+      "id": "venue-millworks-cambridge",
+      "name": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "The Watermill, Newnham Road, Cambridge CB3 9EY",
+      "location": null,
+      "sourceId": "millworks-cambridge",
+      "locationAttribution": "Exact venue confirmed by user; venue address independently verified, no GPS visit track or exact date inferred."
     }
   ],
   "records": [
@@ -6041,6 +6085,218 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation_of_venue_and_occasion"
+      }
+    },
+    {
+      "id": "bar-eagle-cambridge-visit-date-unknown",
+      "type": "bar",
+      "title": "The Eagle",
+      "venueId": "venue-eagle-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Cambridge visit · year unspecified",
+        "source": "Direct user's Cambridge Culture Passport interview answers on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_location_date_unknown"
+      },
+      "summary": "Confirmed Cambridge pub visit; no exact date, order or companions specified.",
+      "memory": {
+        "headline": "A Cambridge pub visit at The Eagle",
+        "teaser": "A confirmed Cambridge pub visit whose details can be revisited.",
+        "story": "I visited The Eagle while in Cambridge. I haven't yet pinned down the exact day or the details of the visit.",
+        "period": "Cambridge work visit; exact date unknown",
+        "source": "User-supplied Cambridge recollections on 2026-10-27; no fabricated date, dishes or individuals."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin or James Beard distinction claimed for this experience."
+      },
+      "sourceUrl": "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "evidenceUrls": [
+          "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
+      }
+    },
+    {
+      "id": "bar-anchor-cambridge-visit-date-unknown",
+      "type": "bar",
+      "title": "The Anchor",
+      "venueId": "venue-anchor-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Cambridge visit · year unspecified",
+        "source": "Direct user's Cambridge Culture Passport interview answers on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_location_date_unknown"
+      },
+      "summary": "Confirmed Cambridge pub visit; no exact date, order or companions specified.",
+      "memory": {
+        "headline": "At The Anchor beside the Cam",
+        "teaser": "A confirmed Cambridge pub visit whose details can be revisited.",
+        "story": "I visited The Anchor in Cambridge. The exact date and details are still to be reconstructed.",
+        "period": "Cambridge work visit; exact date unknown",
+        "source": "User-supplied Cambridge recollections on 2026-10-27; no fabricated date, dishes or individuals."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin or James Beard distinction claimed for this experience."
+      },
+      "sourceUrl": "https://www.anchorcambridge.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "evidenceUrls": [
+          "https://www.anchorcambridge.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
+      }
+    },
+    {
+      "id": "bar-mill-pub-cambridge-visit-date-unknown",
+      "type": "bar",
+      "title": "The Mill (pub)",
+      "venueId": "venue-mill-pub-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Cambridge visit · year unspecified",
+        "source": "Direct user's Cambridge Culture Passport interview answers on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_location_date_unknown"
+      },
+      "summary": "Confirmed Cambridge pub visit; no exact date, order or companions specified.",
+      "memory": {
+        "headline": "At The Mill in Cambridge",
+        "teaser": "A confirmed Cambridge pub visit whose details can be revisited.",
+        "story": "I visited The Mill pub in Cambridge, separate from my dinner at MillWorks. The date and details are still open.",
+        "period": "Cambridge work visit; exact date unknown",
+        "source": "User-supplied Cambridge recollections on 2026-10-27; no fabricated date, dishes or individuals."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin or James Beard distinction claimed for this experience."
+      },
+      "sourceUrl": "https://www.themillpubcambridge.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "evidenceUrls": [
+          "https://www.themillpubcambridge.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
+      }
+    },
+    {
+      "id": "dining-millworks-cambridge-visit-date-unknown",
+      "type": "dining",
+      "title": "MillWorks",
+      "venueId": "venue-millworks-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "GMI colleague dinner · year unspecified",
+        "source": "Direct user's Cambridge Culture Passport interview answers on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_location_date_unknown"
+      },
+      "summary": "Confirmed Cambridge dinner with GMI program colleagues; great food and a good time getting to know those coworkers. Exact date and dishes unspecified.",
+      "memory": {
+        "headline": "Getting to know the GMI team over dinner at MillWorks",
+        "teaser": "Great food and getting to know colleagues working on the GMI program.",
+        "story": "We had great food at MillWorks in Cambridge, and I had a good time getting to know the people working on the GMI program. The company and the chance to connect with colleagues made this dinner memorable.",
+        "period": "Cambridge work visit; exact date unknown",
+        "source": "User-supplied Cambridge recollections on 2026-10-27; no fabricated date, dishes or individuals."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin or James Beard distinction claimed for this experience."
+      },
+      "sourceUrl": "https://themillworks.co.uk/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "evidenceUrls": [
+          "https://themillworks.co.uk/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation"
       }
     }
   ],
