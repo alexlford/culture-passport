@@ -8442,8 +8442,8 @@
       "retrospectiveAudits": [
         {
           "area": "Kansas City Metro",
-          "priorityPeriod": "2012–2017",
-          "broaderPeriod": "2010–present",
+          "priorityPeriod": "2010–present",
+          "historicalAnchor": "2012–2017 Union Station and wedding-era discoveries are important anchors, not a restriction on the audit window.",
           "status": "queued_after_cambridge",
           "anchor": "Union Station discovery revealed historical omissions.",
           "alreadyConfirmed": [
