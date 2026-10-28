@@ -7522,7 +7522,7 @@
       "lastInterviewResponse": "Visited; ate here.",
       "reviewSource": "User directly confirmed meal with supplied Apple Maps place link, 2026-10-27.",
       "confirmedVisitId": "dining-millworks-cambridge-date-unknown",
-      "visitNote": "User says 'I did eat here' at MillWorks, The Watermill, Newnham Road, Cambridge. Distinct from previously confirmed pub The Mill (Mill Lane). Exact meal year, occasion, company and dishes unknown. Award verified separately without asserting award held at time of visit.",
+      "visitNote": "User says 'I did eat here' at MillWorks, The Watermill, Newnham Road, Cambridge. Distinct from previously confirmed pub The Mill (Mill Lane). Exact meal year, occasion, company and dishes unknown. Award verified separately without asserting award held at time of visit. Follow-up: great food and enjoyable time getting to know people working on the GMI program; no specific menu, individuals or date identified.",
       "screening": {
         "status": "confirmed_visit_with_nonqualifying_sustainability_award",
         "basis": "Cambridge Sustainable Food Silver Sourcing Award 2023; no Michelin/JBF listing verified this pass",
@@ -7542,7 +7542,8 @@
         "reason": "Publish only under independent memory/heritage exception after explicit editorial approval; preserve in confirmed dining archive and permanent award watchlist.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "lastInterviewMemoryResponse": "Great food and a good time getting to know people working the GMI program."
     }
   ],
   "source": {
