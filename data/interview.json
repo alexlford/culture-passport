@@ -7201,11 +7201,11 @@
       "recognition": "Historic England documents this as an important historic pub; Cambridge & District CAMRA describes the RAF ceiling. Heritage recognition is not a Michelin or James Beard culinary award.",
       "recognitionYear": null,
       "awardFamily": "heritage_context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_venue_photo_recognition_candidate",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_direct_user_visit_historic_pub",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User remembers visiting multiple pubs during a Cambridge stay associated with RAF Molesworth but has not named The Eagle or confirmed visiting it. One venue at a time.",
+      "visitNote": "Alex explicitly confirmed visiting The Eagle in Cambridge on October 27, 2026. Exact visit year, calendar date, whether food or drinks were purchased, companions, and whether he examined the RAF Bar ceiling or DNA plaque are not established. Cultural/scientific/military significance is documented independently and is NOT a Michelin or James Beard accolade.",
       "screening": {
         "status": "heritage_documented_no_michelin_jbf_verified",
         "basis": "historic_pub_interest",
@@ -7218,6 +7218,41 @@
         "status": "unverified",
         "basis": "historic_context_only",
         "reason": "Ask user for venue-specific attendance. Preserve personal historical-pub memory separately from any food-award qualification.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      },
+      "lastInterviewResponse": "Visited",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Direct user statement: Culture Passport Cambridge UK interview: The Eagle (Bene't Street) — Visited.",
+      "confirmedVisitId": "bar-eagle-cambridge-date-unknown"
+    },
+    {
+      "id": "candidate-cambridge-anchor-silver-street",
+      "name": "The Anchor (Silver Street, Cambridge)",
+      "sourceUrl": "https://www.anchorcambridge.com/",
+      "addressHint": "Silver Street, Cambridge CB3 9EL, England",
+      "interviewCue": "Riverside white-and-green pub beside Silver Street bridge, deck overlooking River Cam and punts near the Mathematical Bridge, view toward Queens' College. Multi-level interior and riverside patio. A strong visual memory candidate if the user went punting while in Cambridge.",
+      "area": "Cambridge, UK",
+      "recognition": "Historic riverside Cambridge pub with a musical history linked to early Pink Floyd members; historical/pub context, not verified direct Michelin or James Beard recognition.",
+      "recognitionYear": null,
+      "awardFamily": "heritage_context",
+      "visitStatus": "unreviewed",
+      "researchStatus": "historical_venue_photo_recognition_candidate",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "visitNote": "User independently recalled enjoying Cambridge pubs and steering a punt himself during the trip, but has NOT identified this pub or said they stopped here. The pub location beside a punting area is a memory cue only.",
+      "screening": {
+        "status": "no_specific_michelin_jbf_verified",
+        "basis": "historic_pub_and_riverside_memory_lead",
+        "evidenceUrl": "https://www.anchorcambridge.com/",
+        "sourceTier": "venue_operator_and_CAMRA",
+        "verifiedAt": "2026-10-27",
+        "note": "The Anchor's location overlooking the Cam and punts is confirmed by operator/CAMRA. Heritage/music context not a culinary award and does not establish attendance."
+      },
+      "eligibility": {
+        "status": "unverified",
+        "basis": "no_qualifying_award_verified",
+        "reason": "Ask Alex for direct attendance before any confirmed record. Preserve this venue separate from The Eagle.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
@@ -8187,9 +8222,19 @@
         "Were any memorable meals in Cambridge itself versus near RAF Molesworth?"
       ],
       "firstCandidate": "The Eagle (Cambridge, Bene't Street)",
-      "nextCandidate": "The Eagle (Cambridge, Bene't Street)",
+      "nextCandidate": "The Anchor (Silver Street, Cambridge)",
       "lastUpdatedOn": "2026-10-27",
-      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred."
+      "notes": "Cambridge interview is active now after completing initial LA named-venue screening. All seven uncertain LA/South Bay identifications remain pending, and no venue-specific Cambridge visit has been inferred. On 2026-10-27 Alex definitively confirmed visiting The Eagle; year and specific actions unknown. Preserve its historical RAF/DNA context separate from Michelin/JBF awards. Continue with The Anchor pub beside punting area. LA initial venue screening remains complete with Joy/Liu's and five South Bay maybes unresolved.",
+      "confirmedVenueNames": [
+        "The Eagle (Cambridge, Bene't Street)"
+      ],
+      "confirmedVenueIds": [
+        "venue-eagle-cambridge"
+      ],
+      "confirmedExperienceIds": [
+        "bar-eagle-cambridge-date-unknown"
+      ],
+      "lastReviewedCandidate": "The Eagle (Cambridge, Bene't Street)"
     }
   },
   "interviewProgress": {
@@ -8197,12 +8242,12 @@
       "area": "Cambridge, UK",
       "category": "historic pubs",
       "candidateNames": [
-        "The Eagle (Cambridge, Bene't Street)"
+        "The Anchor (Silver Street, Cambridge)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "During your Cambridge stay, did you visit The Eagle on Bene't Street? The RAF Bar has wartime signatures on its ceiling and a DNA discovery plaque; answer visited, maybe, did not visit or add to future visit list.",
-      "continuation": "Interview Cambridge historic pubs and restaurants one at a time; next Kansas City 2010–present and Baltimore. Preserve LA unresolved MAYBEs for later follow-up.",
-      "note": "Pine & Crane Silver Lake definitively not visited, wishlist retained. Pine & Crane DTLA separately not visited. LA initial named shortlist screened; Joy/Liu and South Bay maybes unresolved."
+      "question": "Did you visit The Anchor pub on Silver Street beside the River Cam and punts, overlooking the Mathematical Bridge? Answer visited, maybe, did not visit or add to future list.",
+      "continuation": "Continue Cambridge historic pubs and restaurants one venue at a time with photos; then Kansas City 2010–present, then Baltimore. Preserve LA confirmed, maybe and negative states.",
+      "note": "The Eagle directly confirmed; exact visit date and whether drinks or food consumed are unknown. Pub's scientific/RAF history is not a Michelin/JBF award."
     },
     "pausedBatches": [
       {
