@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "answer": {
+    "candidateId": "candidate-cambridge-fort-st-george-midsummer-common",
+    "venue": "Fort St George",
+    "address": "Midsummer Common, Cambridge CB4 1HA",
+    "futureVisitStatus": "want_to_visit",
+    "pastAttendance": "unreviewed",
+    "wishlistEntryId": "want-to-visit-fort-st-george-cambridge",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Cambridge: Add Fort St George to my private future-visit wishlist without assuming past attendance.",
+    "guardrails": "This is a future wish only. Do not assert visited or not visited, do not create dining or bar experience, do not invent dates or people."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-baron-of-beef-bridge-street",
+    "name": "The Baron of Beef",
+    "address": "19 Bridge Street, Cambridge CB2 1UF",
+    "historicType": "Grade II listed traditional pub and dining",
+    "visitStatus": "unreviewed",
+    "officialSource": "https://www.greeneking.co.uk/pubs/cambridgeshire/baron-of-beef",
+    "camraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1623",
+    "historicEnglandSource": "https://historicengland.org.uk/listing/the-list/list-entry/1338552",
+    "memoryCues": [
+      "Black-and-gold lettering over white-windowed frontage",
+      "Long bar and wooden-tabled pub rooms",
+      "Small garden behind pub",
+      "Adjacent to The Mitre at 17–18 Bridge Street"
+    ],
+    "question": "Did you visit The Baron of Beef at 19 Bridge Street, Cambridge, for food, drinks, both, maybe, or not at all?"
+  },
+  "sequence": [
+    "Cambridge, one photographed venue per question",
+    "Kansas City metro including Weston, Missouri, 2010-present",
+    "Baltimore historical audit"
+  ],
+  "preservation": "Preserve all previous Culture Passport Cambridge pub visits, MillWorks GMI colleague dinner, Parker's Tavern meal and drinks, University Arms hotel stay, LA work and cross-Passport data. Preserve unknown historic attendance for prior wishlist venues.",
+  "note": "Incremental handoff awaiting integration with canonical data/interview.json; do not overwrite earlier candidate answers."
+}
