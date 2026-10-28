@@ -111,17 +111,17 @@ chicago_six = {"Kumiko", "Best Intentions", "Bisous", "Hopleaf Bar", "Truce", "C
 assert all(next(c for c in candidates if c["area"] == "Chicago" and c["name"] == name)["visitStatus"] == "not_visited" for name in chicago_six)
 assert interview_data["interviewProgress"]["pausedBatches"][0]["status"] == "closed_for_now_at_user_request"
 assert set(interview_data["interviewProgress"]["pausedBatches"][0]["explicitlyNotVisitedAsOfDate"]) == chicago_six
-# South Bay / Space Park: preserve five MAYBE, two NOT VISITED and
-# one unanswered Mar'sel. No canonical personal dining records for these.
+# South Bay / Space Park: preserve five MAYBE and three NOT VISITED.
+# The initial eight are screened; no canonical personal dining records for these.
 space_park = [c for c in candidates if c["area"] == "South Bay / Space Park"]
 assert len(space_park) == 8
 assert all(c["screening"]["status"] == "award_qualified" for c in space_park)
 maybe_names = {"Manhattan Beach Post", "Fishing with Dynamite", "RYLA",
                "Sushi Inaba (Torrance)", "Vin Folk"}
-not_visited_names = {"Sushi Sonagi", "Sweet Rice"}
+not_visited_names = {"Sushi Sonagi", "Sweet Rice", "Mar'sel"}
 assert {c["name"] for c in space_park if c["visitStatus"] == "maybe"} == maybe_names
 assert {c["name"] for c in space_park if c["visitStatus"] == "not_visited"} == not_visited_names
-assert {c["name"] for c in space_park if c["visitStatus"] == "unreviewed"} == {"Mar'sel"}
+assert {c["name"] for c in space_park if c["visitStatus"] == "unreviewed"} == set()
 assert all(next(c for c in space_park if c["name"] == n)["lastInterviewResponse"] == "Maybe visited."
            for n in maybe_names)
 assert all(next(c for c in space_park if c["name"] == n)["lastInterviewResponse"] == "Did not visit."
@@ -140,17 +140,17 @@ assert sweet_rice["visitStatus"] == "not_visited"
 assert sweet_rice["eligibility"]["verifiedForPublication"] is False
 assert sweet_rice["openedYear"] == 2019
 marsel = next(c for c in space_park if c["id"] == "candidate-space-park-marsel")
-assert marsel["visitStatus"] == "unreviewed"
+assert marsel["visitStatus"] == "not_visited"
 assert "Terranea" in marsel["interviewCue"]
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["namedConfirmedVisits"] == 0
 assert interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedCandidates"] == 5
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["notVisitedCandidates"] == 2
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["unreviewedCandidates"] == 1
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["notVisitedCandidates"] == 3
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["unreviewedCandidates"] == 0
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["maybeVisitedNames"]) == maybe_names
 assert set(interview_data["interviewChapters"]["spaceParkSouthBay"]["notVisitedNames"]) == not_visited_names
-assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] == "Mar'sel"
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "South Bay / Space Park"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Mar'sel"
+assert interview_data["interviewChapters"]["spaceParkSouthBay"]["nextCandidate"] is None
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Los Angeles / West Hollywood"
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"][0] == "Osteria Mozza"
 assert any(x["id"] == "redondo-space-park-dining-unidentified" and
            x["publishAsExperience"] is False for x in interview_data["memoryLeads"])
 
@@ -403,9 +403,8 @@ assert any(x["name"] == "The Butcher's Daughter (West Hollywood)" and x["visitSt
     for x in candidates)
 assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["date"] == "2023-07-29"
 assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["attendanceInference"] == "restaurant_and_west_hollywood_branch_confirmed_independently_of_booking_date"
-assert all(x["visitStatus"] == "unreviewed" for x in candidates if x["id"] in {
-    "candidate-la-joy-highland-park", "candidate-la-pine-crane-dtla"
-})
+assert next(x for x in candidates if x["id"] == "candidate-la-joy-highland-park")["visitStatus"] == "maybe"
+assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-dtla")["visitStatus"] == "unreviewed"
 assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngeles"]["confirmedNames"]
 
 
@@ -627,7 +626,13 @@ cities = {}
 for venue in venues:
     pos = venue["location"]
     if pos is None:
-        assert venue["id"] == "venue-hawthorne-heights-unidentified" and not venue["city"]
+        # A known branch may still await trustworthy map coordinates.
+        assert venue["id"] in {"venue-hawthorne-heights-unidentified",
+                               "venue-butchers-daughter-west-hollywood"}
+        if venue["id"] == "venue-hawthorne-heights-unidentified":
+            assert not venue["city"]
+        else:
+            assert venue["city"] == "West Hollywood"
         continue
     assert pos["precision"] == "city-centroid"
     assert isinstance(pos["lat"], (int, float)) and -90 <= pos["lat"] <= 90
