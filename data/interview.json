@@ -6334,11 +6334,11 @@
       "recognition": "Taiwanese international chain famous for xiao long bao. Michelin recognition associated with other overseas branches must not be attributed to Century City. No location-specific Michelin/JBF award verified this pass.",
       "recognitionYear": 2026,
       "awardFamily": "context",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_recalled_la_with_jay_unidentified_venues",
+      "visitStatus": "not_visited",
+      "researchStatus": "screened_direct_user_negative",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "User recalls Jay took him to several unnamed spots in/around West Hollywood, including a Taiwanese place. This named venue is a research and image-recognition candidate ONLY: no actual attendance at this venue has been established.",
+      "visitNote": "On 2026-10-27, Alex directly ruled out a past visit to the Century City Din Tai Fung but explicitly requested adding this branch to places to go. No past dining experience or local Michelin/JBF distinction should be inferred. Taiwanese meal with Jay remains unidentified.",
       "screening": {
         "status": "no_qualifying_local_michelin_jbf_verified",
         "basis": null,
@@ -6353,7 +6353,13 @@
         "reason": "Only publish if Alex specifically confirms a meal at THIS establishment, and preserve distinction year/branch; no implied visits.",
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
-      }
+      },
+      "lastInterviewResponse": "Did not visit; add to my future visit list.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Explicit user response in Culture Passport Los Angeles interview (2026-10-27).",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-din-tai-fung-century-city",
+      "wishlistAddedOn": "2026-10-27"
     },
     {
       "id": "candidate-la-little-fatty-mar-vista",
@@ -7952,9 +7958,9 @@
       "companion": "Jay (user-supplied)",
       "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 17,
-      "unreviewed": 4,
+      "unreviewed": 3,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed. October 27, 2026: The Formosa Cafe explicitly NOT VISITED. Save only the negative screening answer, not a dining record. Next ask Din Tai Fung (Century City), which opened March 2018. Preserve Joy as the leading possible Taiwanese meal identity with Jay, Liu's Cafe as secondary, and all five South Bay MAYBE statuses; Cambridge UK, Kansas City 2010–present, then Baltimore remain queued.",
+      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed. October 27, 2026: The Formosa Cafe explicitly NOT VISITED. Save only the negative screening answer, not a dining record. Next ask Din Tai Fung (Century City), which opened March 2018. Preserve Joy as the leading possible Taiwanese meal identity with Jay, Liu's Cafe as secondary, and all five South Bay MAYBE statuses; Cambridge UK, Kansas City 2010–present, then Baltimore remain queued. October 27, 2026: Din Tai Fung (Century City) definitively NOT VISITED, but user explicitly requests it on places-to-go (ID want-to-visit-din-tai-fung-century-city). The overseas franchise's Michelin associations do not establish any Century City distinction. Next screen Little Fatty (Mar Vista), maintaining Joy then Liu's Cafe as unconfirmed Taiwanese memories and the five South Bay MAYBEs.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",
@@ -7970,8 +7976,8 @@
       "liusCafeCandidateStatus": "maybe_user_strong_feeling_not_confirmed_venue",
       "maybeVisited": 2,
       "taiwaneseIdentityStatus": "joy_leading_liu_secondary_both_unconfirmed",
-      "nextCandidate": "Din Tai Fung (Century City)",
-      "notVisited": 10,
+      "nextCandidate": "Little Fatty (Mar Vista)",
+      "notVisited": 11,
       "notVisitedNames": [
         "Kato",
         "Osteria Mozza",
@@ -7982,14 +7988,15 @@
         "Chi Spacca",
         "Angelini Osteria",
         "Ardor (West Hollywood EDITION)",
-        "The Formosa Cafe"
+        "The Formosa Cafe",
+        "Din Tai Fung (Century City)"
       ],
       "tentativeNegativeNames": [
         "Angelini Osteria"
       ],
       "nearWeHoShortlistScreening": "complete_eight_venues",
       "nearWeHoShortlistCompletedOn": "2026-10-27",
-      "lastReviewedCandidate": "The Formosa Cafe"
+      "lastReviewedCandidate": "Din Tai Fung (Century City)"
     },
     "spaceParkSouthBay": {
       "state": "active_research_parallel",
@@ -8112,12 +8119,12 @@
       "area": "Los Angeles / West Hollywood",
       "category": "restaurants",
       "candidateNames": [
-        "Din Tai Fung (Century City)"
+        "Little Fatty (Mar Vista)"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Din Tai Fung inside Westfield Century City (opened March 2018)? Memory cues: modern dining room, glass-enclosed dumpling prep, bamboo steamers of soup dumplings, shopping-center setting. Answer visited / maybe / did not visit.",
-      "continuation": "Continue one venue at a time with photographs. After completing Los Angeles and South Bay, Cambridge UK then Kansas City 2010–present then Baltimore; preserve all previous visit-status distinctions.",
-      "note": "Formosa negative saved. Joy remains leading possible Taiwanese identity, Liu's secondary; South Bay five maybes and three negatives unchanged."
+      "question": "Have you eaten at Little Fatty (3809 Grand View Blvd, Mar Vista), a Taiwanese-American restaurant with a colorful mural, cocktails, and Taiwanese comfort food? Answer visited / maybe / did not visit / wishlist.",
+      "continuation": "Continue one LA venue at a time with photographs. Then Cambridge, UK → Kansas City 2010–present → Baltimore historical audit.",
+      "note": "Din Tai Fung Century City definitively not visited and added to private future visit list. Joy remains leading Taiwanese identity, Liu's Cafe secondary, both unconfirmed. Preserve prior South Bay uncertainty."
     },
     "pausedBatches": [
       {
@@ -8280,9 +8287,9 @@
         "leadIdentificationCandidate": "Joy (Highland Park) — user-favored; Liu's Cafe (Koreatown) secondary",
         "leadConfidence": "Joy is user's current leaning, not a confirmed venue visit",
         "lastComparison": "Liu's Cafe vs 7 Taiwanese/Chinese candidates; no other positive photo recognition yet",
-        "followUpPrompt": "Have you eaten at Din Tai Fung inside Westfield Century City (opened March 2018)? Memory cues: modern dining room, glass-enclosed dumpling prep, bamboo steamers of soup dumplings, shopping-center setting. Answer visited / maybe / did not visit.",
-        "nextCandidate": "Din Tai Fung (Century City)",
-        "lastReviewedCandidate": "The Formosa Cafe",
+        "followUpPrompt": "Have you eaten at Little Fatty (3809 Grand View Blvd, Mar Vista), a Taiwanese-American restaurant with a colorful mural, cocktails, and Taiwanese comfort food? Answer visited / maybe / did not visit / wishlist.",
+        "nextCandidate": "Little Fatty (Mar Vista)",
+        "lastReviewedCandidate": "Din Tai Fung (Century City)",
         "notVisitedNames": [
           "Kato",
           "Osteria Mozza",
@@ -8293,7 +8300,8 @@
           "Chi Spacca",
           "Angelini Osteria",
           "Ardor (West Hollywood EDITION)",
-          "The Formosa Cafe"
+          "The Formosa Cafe",
+          "Din Tai Fung (Century City)"
         ],
         "tentativeNegativeNames": [
           "Angelini Osteria"
