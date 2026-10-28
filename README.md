@@ -23,6 +23,7 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - `data/records.json` — canonical experience and venue records (including archived research-only entries).
 - `data/interview.json`, `data/performance-interview.json`, `data/performance-leads.json` — research queues.
 - `data/dining-awards-audit.json`, `data/reservation-evidence.json` — source ledgers, not competing databases.
+- `data/places-to-go.json` — private list of places Alex explicitly wants to visit. Future intent stays separate from confirmed experiences and the award watchlist; Somni's current West Hollywood location is the first entry.
 - `data/restaurant-award-watchlist.json` — **private, permanent, quarterly re-audit ledger** for confirmed restaurants not currently award-qualified. It includes archive-only barbecue and St. Louis memories, and keeps award promotion history. No additional public page is created from this file.
 - `data/expanded-recognition-audit-2026-10-27.json` — source-linked, **full-scope recognition review** of every confirmed restaurant/location or brand-level dining memory, classifying awards, program connections, featured exceptions, and watchlisted archives without counting uncertain visits.
 - `assets/` — independent stylesheet and JavaScript, with no runtime dependency on the Life Map application.
