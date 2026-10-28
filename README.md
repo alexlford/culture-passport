@@ -246,3 +246,10 @@ is labeled **In development**, without a speculative public URL. Activating it
 requires a separately verified launch change and an updated navigation contract.
 The component is static HTML and has no cross-repository JavaScript or data
 dependency. Each Passport retains its own content, styling, and release process.
+
+
+## Loading and recovery
+
+Visitor pages load only the archive dataset; the private restaurant interview loads only its own interview dataset. Requests time out after 15 seconds and display an accessible Try again control. Recovery does not reload the page or clear locally saved interview responses. Controls remain disabled until the data is ready, and a keyboard retry returns focus to the restored content.
+
+The browser workflow exercises HTTP failures, malformed data, a stalled request, independent interview recovery, saved responses, and keyboard focus. Interview checks run only against a temporary localhost source server; they do not add private data or screenshots to the visitor artifact.

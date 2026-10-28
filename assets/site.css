@@ -195,5 +195,8 @@ main:focus{outline:none}
 .passport-links small{font-size:9px;grid-column:auto;letter-spacing:.02em}
 .passport-links>a:hover{text-decoration:underline;text-underline-offset:3px}
 .passport-links>a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.load-retry{min-height:44px;cursor:pointer}
+.load-retry:focus-visible{outline:3px solid var(--wine);outline-offset:3px}
+[aria-busy="false"][tabindex="-1"]:focus-visible{outline:3px solid var(--wine);outline-offset:3px}
 .passport-pending{border-style:dashed!important}
 .passport-label{color:var(--wine)}.passport-links>[aria-current="true"]{background:var(--wine);border-color:var(--wine);color:var(--cream)}.passport-pending{color:var(--muted)}@media(min-width:721px){.footer{grid-template-columns:1fr 1.5fr}}

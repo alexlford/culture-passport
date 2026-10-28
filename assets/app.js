@@ -567,25 +567,62 @@
     updateSummary();render();
   }
   setActiveNav();
+  const isInterview=page==="interview";
+  const loadHosts={home:["featured-records","city-editions","shared-memory-records"],
+    explore:["explore-results"],timeline:["timeline-results"],map:["culture-map","city-list"],
+    record:["record-detail"],interview:["interview-list"]};
+  const hosts=(loadHosts[page]||[]).map(byId).filter(Boolean);
+  const controls=all("main button, main input, main select");
+  const initiallyDisabled=new Map(controls.map(control=>[control,control.disabled]));
+  let loadState="idle";
   async function boot(){
+    if(loadState==="loading"||loadState==="loaded")return;
+    const focusHost=hosts.find(host=>host.contains(document.activeElement));
+    loadState="loading";
+    controls.forEach(control=>{control.disabled=true;});
+    hosts.forEach(host=>{
+      host.setAttribute("aria-busy","true");
+      const message=el("p","empty",isInterview?"Loading the interview…":"Loading the collection…");
+      message.setAttribute("role","status");host.replaceChildren(message);
+    });
+    const controller=new AbortController();
+    const timeout=setTimeout(()=>controller.abort(),15000);
     try{
-      const r=await fetch("./data/records.json",{cache:"no-cache"});if(!r.ok)throw Error("Records HTTP "+r.status);
+      const r=await fetch(isInterview?"./data/interview.json":"./data/records.json",
+        {cache:"no-cache",signal:controller.signal});
+      if(!r.ok)throw Error("Culture data HTTP "+r.status);
       const db=await r.json();
-      if(!Array.isArray(db.records)||!Array.isArray(db.venues))throw Error("Invalid culture data");
+      if(!db||typeof db!=="object"||
+        (isInterview?!Array.isArray(db.candidates):!Array.isArray(db.records)||!Array.isArray(db.venues)))throw Error("Invalid culture data");
+      controls.forEach(control=>{control.disabled=initiallyDisabled.get(control);});
       if(page==="home")home(db);
       if(page==="explore")explore(db);
       if(page==="timeline")timeline(db);
       if(page==="map")map(db);
       if(page==="record")detail(db);
-      if(page==="interview"){
-        const q=await fetch("./data/interview.json",{cache:"no-cache"});if(!q.ok)throw Error("Interview HTTP "+q.status);
-        const payload=await q.json();if(!Array.isArray(payload.candidates))throw Error("Invalid interview data");
-        interview(payload);
+      if(isInterview)interview(db);
+      loadState="loaded";
+      hosts.forEach(host=>host.setAttribute("aria-busy","false"));
+      if(focusHost){
+        focusHost.setAttribute("tabindex","-1");
+        focusHost.focus({preventScroll:true});
       }
     }catch(err){
-      const host=byId(page==="home"?"featured-records":page==="explore"?"explore-results":page==="timeline"?"timeline-results":page==="map"?"culture-map":page==="record"?"record-detail":"interview-list");
-      if(host)empty(host,"Unable to load the archive.","The records could not be loaded. Try refreshing the page or check the deployment.");
+      loadState="error";
+      controls.forEach(control=>{control.disabled=true;});
+      hosts.forEach(host=>{
+        empty(host,isInterview?"Unable to load the interview.":"Unable to load the archive.",
+          "Check your connection, then try again.");
+        host.setAttribute("aria-busy","false");
+        const block=host.firstElementChild;block.setAttribute("role","status");
+        const retry=el("button","button-main load-retry","Try again");
+        retry.type="button";retry.addEventListener("click",boot);block.append(retry);
+      });
+      const status=byId(isInterview?"interview-page-state":page==="map"?"map-summary":"result-count");
+      if(status)status.textContent=isInterview?"Interview unavailable.":"Collection unavailable.";
       if(window.console&&console.error)console.error("Culture Passport load error:",err);
+    }finally{
+      clearTimeout(timeout);
     }
   }
   boot();
