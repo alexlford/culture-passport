@@ -1300,6 +1300,41 @@
       "recognitionEvents": [],
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition"
+    },
+    {
+      "id": "venue-fitzbillies-original-trumpington-cambridge",
+      "venueId": "venue-fitzbillies-original-trumpington-cambridge",
+      "venueName": "Fitzbillies (original Trumpington Street)",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "dining-fitzbillies-trumpington-cambridge-date-unknown"
+      ],
+      "visitPeriods": [
+        "Cambridge visit, exact date unknown; café dining or afternoon tea"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "User confirmed café dining or afternoon tea at the original Cambridge Fitzbillies. Exact visit date and service are not yet specified. No Michelin or James Beard venue-specific recognition verified yet.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "pending_formal_historical_screening",
+          "note": "Preserve confirmed dining experience for a later official historical award/program/editorial audit; no award asserted.",
+          "evidenceUrls": [
+            "https://www.fitzbillies.com/pages/our-story"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition"
     }
   ]
 }
