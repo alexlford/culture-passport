@@ -1201,6 +1201,32 @@
         "precision": "city-centroid"
       },
       "sourceId": "the-mill-cambridge-mill-lane"
+    },
+    {
+      "id": "venue-millworks-cambridge-newnham-road",
+      "name": "MillWorks",
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "country": "United Kingdom",
+      "address": "The Watermill, Newnham Road, Cambridge CB3 9EY",
+      "neighborhood": "Newnham / Mill Pond",
+      "location": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "precision": "city-centroid"
+      },
+      "sourceId": "millworks-watermill-cambridge",
+      "operator": "Cambscuisine",
+      "geoEvidence": {
+        "source": "user_supplied_apple_maps_place_link",
+        "address": "The Watermill, Newnham Road, Cambridge CB3 9EY",
+        "coordinates": {
+          "lat": 52.199055,
+          "lng": 0.114077
+        },
+        "url": "https://maps.apple.com/place?address=The%20Watermill,%20Newnham%20Road,%20Cambridge,%20CB3%209EY,%20England&coordinate=52.199055,0.114077&name=MillWorks&place-id=I56F372B737665060&map=explore",
+        "note": "Map link confirms the restaurant identity and supplied place coordinates. Shared Culture Passport map remains city-centroid until life-map location linking is implemented."
+      }
     }
   ],
   "records": [
@@ -6287,6 +6313,79 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "user_confirmed_visit_date_unknown"
+      }
+    },
+    {
+      "id": "dining-millworks-cambridge-date-unknown",
+      "type": "dining",
+      "title": "MillWorks",
+      "venueId": "venue-millworks-cambridge-newnham-road",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Cambridge restaurant meal · date unknown",
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_restaurant_meal_date_and_companions_unknown",
+        "source": "Alex directly confirmed 'I did eat here' on October 27, 2026, identifying MillWorks by an Apple Maps place link to The Watermill on Newnham Road, Cambridge. This is a confirmed dining experience; meal date, menu, companions and any combined punt excursion are unknown."
+      },
+      "summary": "Confirmed meal at MillWorks in the restored Watermill on Newnham Road, a riverside Cambridge brasserie with a restored waterwheel and charcoal-oven cooking. The restaurant is distinct from the separately visited The Mill pub on Mill Lane. Its 2023 Cambridge Sustainable Food Silver Sourcing Award is independently verified, but is not a Michelin, James Beard or CAMRA pub award. Date and specific dishes unknown.",
+      "recognitions": [
+        {
+          "organization": "Cambridge Sustainable Food",
+          "year": 2023,
+          "result": "silver",
+          "category": "Sustainable Food Business Awards — Silver Sourcing Award",
+          "recipient": "MillWorks (Cambscuisine), Cambridge",
+          "relationship": "exact_restaurant_with_parent_company",
+          "sourceUrl": "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+          "timingRelativeToVisit": "unknown_visit_date",
+          "recognitionTrack": "local_sustainability_context",
+          "qualifiesForCulinaryAwards": false
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants",
+        "note": "MillWorks is absent from Cambridge's current Michelin Guide restaurant selection checked on 2026-10-27. This is not an exhaustive historical negative, and no Michelin/JBF honor is claimed."
+      },
+      "sourceUrl": "https://themillworks.co.uk/",
+      "memory": {
+        "headline": "Dining beside the old Cambridge watermill",
+        "teaser": "A confirmed meal at MillWorks, the Newnham Road restaurant in Cambridge's historic Watermill.",
+        "story": "I ate at MillWorks in The Watermill on Newnham Road in Cambridge. The restaurant is set beside the millpond in the old watermill building, with its restored turning wheel. This was a meal at MillWorks, distinct from my separately confirmed visit to The Mill pub on Mill Lane. I haven't yet placed the year, companions, dishes or whether I visited around the same time as punting.",
+        "period": "Cambridge trip · exact meal date unknown",
+        "source": "Direct user confirmation and shared Apple Maps place link (October 27, 2026); restored millwheel and setting independently sourced from restaurant operator. No meal details invented."
+      },
+      "editorial": {
+        "awardQualified": false,
+        "pubRecognized": false,
+        "barRecognized": false,
+        "breweryRecognized": false,
+        "heritageFeatured": false,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "archived_personal_memory",
+        "basis": "direct_user_confirmed_dining_with_local_sustainability_award",
+        "note": "Historical watermill restaurant and separately verified Silver Sourcing Award in 2023, but no qualifying Michelin/JBF honor identified. Preserve in permanent private dining watchlist. Sustainability sourcing accolade is distinct from CAMRA and Michelin/JBF. Public preview approval not granted."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "no_michelin_jbf_verified",
+        "reason": "Verified direct user restaurant attendance plus exact-venue 2023 sustainability award, but not a qualifying Michelin/JBF distinction under current culinary criteria. No Michelin/JBF or CAMRA award falsely inferred.",
+        "evidenceUrls": [
+          "https://themillworks.co.uk/",
+          "https://camra.org.uk/pubs/millworks-cambridge-131366",
+          "https://cambridgesustainablefood.org/news/2023/4/21/p6n6zkreuy4591rixnulpax0p6da98",
+          "https://guide.michelin.com/en/gb/cambridgeshire/cambridge/restaurants"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmed_dining_exact_address_and_independent_2023_sustainability_award"
       }
     }
   ],
