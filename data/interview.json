@@ -7272,10 +7272,46 @@
       "addressHint": "Midsummer Common, Cambridge CB4 1HA",
       "sourceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/midsummer-house",
       "visitStatus": "unreviewed",
-      "researchStatus": "next_visual_interview_prompt",
+      "researchStatus": "user_requested_future_visit_past_attendance_unanswered",
       "interviewCue": "Victorian villa on Midsummer Common, conservatory dining room, garden, chef Daniel Clifford; two Michelin stars reported by Visit Cambridge. Have you eaten here?",
       "addedOn": "2026-10-27",
-      "reviewedOn": null
+      "reviewedOn": "2026-10-27",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-midsummer-house-cambridge",
+      "wishlistAddedOn": "2026-10-27",
+      "lastInterviewResponse": "Added to places to go; past visit status not answered.",
+      "reviewSource": "User's October 27 2026 direct request to add Midsummer House to places to go. Do not infer negative past attendance.",
+      "visitNote": "Future interest confirmed. Prior dining attendance remains unreviewed; no experience record or award-watchlist entry generated."
+    },
+    {
+      "id": "candidate-cambridge-fancetts",
+      "name": "Fancett's",
+      "area": "Cambridge, UK",
+      "sourceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/fancett-s",
+      "addressHint": "96a Mill Road, Cambridge CB1 2BD, England",
+      "interviewCue": "Small, intimate French-inspired bistro on Mill Road with simple wood tables, seasonal cuisine, and bistro dishes such as twice-baked cheese soufflé and pear tarte Tatin. Recognized as Michelin Guide Selected in 2026, not a Michelin Star.",
+      "recognition": "Listed as a 2026 Michelin Guide recommended restaurant (Guide Selected; NOT starred). Actual user's visit and any earlier historical distinction unestablished.",
+      "recognitionYear": 2026,
+      "awardFamily": "michelin",
+      "visitStatus": "unreviewed",
+      "researchStatus": "next_visual_interview_prompt",
+      "addedOn": "2026-10-27",
+      "priority": "high",
+      "screening": {
+        "status": "award_qualified_if_confirmed",
+        "basis": "michelin_guide_selected_2026",
+        "evidenceUrl": "https://guide.michelin.com/gb/en/cambridgeshire/cambridge/restaurant/fancett-s",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-10-27",
+        "note": "Current 2026 Guide entry is Guide Recommended/Selected rather than Star. Does not imply user attendance."
+      },
+      "eligibility": {
+        "status": "unreviewed",
+        "basis": "michelin_guide_selected_2026",
+        "reason": "Direct diner confirmation required before creating dining experience.",
+        "screenedOn": "2026-10-27",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -8245,14 +8281,16 @@
         "The Pickerel Inn",
         "The Granta",
         "The Cambridge Blue",
-        "Restaurant Twenty-Two"
+        "Restaurant Twenty-Two",
+        "Midsummer House"
       ],
       "notVisitedNotWishlisted": [
         "The Maypole"
       ],
-      "lastReviewedCandidate": "Restaurant Twenty-Two",
-      "nextCandidate": "Midsummer House",
-      "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time."
+      "lastReviewedCandidate": "Midsummer House",
+      "nextCandidate": "Fancett's",
+      "policy": "Separate confirmed experience, uncertainty, not visited, wishlist. A public personal visit cannot be inferred from Michelin recognition. Interview with photographs one venue at a time.",
+      "note": "Midsummer House added to future list; previous attendance remains unreviewed. Continue Cambridge single-venue visual questions."
     }
   },
   "interviewProgress": {
@@ -8260,11 +8298,12 @@
       "area": "Cambridge, UK",
       "category": "restaurants",
       "candidateNames": [
-        "Midsummer House"
+        "Fancett's"
       ],
       "status": "ready_for_visual_screening",
-      "question": "Have you eaten at Midsummer House on Midsummer Common, Cambridge? Answer visited, maybe or did not visit.",
-      "continuation": "Photographs and one venue per question. Finish Cambridge, then Kansas City 2010–present including Weston, Missouri; then Baltimore."
+      "question": "Have you eaten at Fancett's, 96a Mill Road, Cambridge? Answer visited, maybe, did not visit, or add to future wishlist.",
+      "continuation": "Continue Cambridge one venue at a time with photographs, then Kansas City 2010–present including Weston, Missouri, and then Baltimore.",
+      "note": "Midsummer House is on future-visit list, but its historical attendance status is unresolved. All Cambridge pub visits and MillWorks colleague dinner are preserved; prior Los Angeles records and uncertainties unchanged."
     },
     "pausedBatches": [
       {
