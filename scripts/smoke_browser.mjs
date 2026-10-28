@@ -87,6 +87,27 @@ try{
       const metrics=await pageCheck(page,url,selector,name);
       console.log("PASS",name,url,metrics.width,metrics.documentWidth);
     }
+    // Union Station memories retain the user's occasion and exact Foundation relationship.
+    await page.goto(BASE+"record.html?id=dining-pierponts-union-station-multiple-visits",{waitUntil:"domcontentloaded"});
+    await page.locator("#record-detail h1").waitFor();
+    assert((await page.locator(".memory-quote").innerText()).includes("several times"),
+      "Pierpont's repeated visits missing from its story");
+    assert((await page.locator(".memory-disclosure").innerText()).includes("editorial"),
+      "Foundation editorial coverage must be distinct from program participation");
+    const connectionTitles=await page.locator(".award-card strong").allTextContents();
+    assert(connectionTitles.some(text=>text.includes("Editorial connection")&&text.includes("2011")),
+      "Pierpont's source needs its dated editorial-connection label");
+    const sourceLabels=await page.locator(".award-card a").allTextContents();
+    assert(sourceLabels.some(text=>text.includes("Official editorial source"))&&
+      !sourceLabels.some(text=>text.includes("Official program source")),
+      "Pierpont's editorial source must not be labeled as an event");
+    await page.goto(BASE+"record.html?id=dining-harveys-union-station-wedding-goodbye-brunch",{waitUntil:"domcontentloaded"});
+    await page.locator("#record-detail h1").waitFor();
+    assert((await page.locator(".memory-quote").innerText()).includes("after-wedding goodbye brunch"),
+      "Harvey's wedding goodbye-brunch memory missing");
+    const personalDisclosure=await page.locator(".memory-disclosure").innerText();
+    assert(personalDisclosure.includes("personally selected")&&!/favorite/i.test(personalDisclosure),
+      "A personally selected memory must not be presented as a declared favorite");
     await page.goto(BASE+"index.html",{waitUntil:"domcontentloaded"});
     await page.locator("#shared-memory-records a.feature-row").first().waitFor();
     assert((await page.locator("#shared-memory-records a.feature-row").count())===2,

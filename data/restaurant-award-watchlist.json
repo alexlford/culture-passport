@@ -1141,6 +1141,94 @@
       "recognitionEvents": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-pierponts-union-station-kansas-city",
+      "venueId": "venue-pierponts-union-station-kansas-city",
+      "venueName": "Pierpont's at Union Station",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-pierponts-union-station-multiple-visits"
+      ],
+      "visitPeriods": [
+        "Several visits · exact years unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Explicit user request for inclusion and directly confirmed repeated visits. Feature the exact-venue Foundation editorial connection from 2011 without describing it as an award or nomination.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "foundation_editorial_connection_found",
+          "note": "Curated through the Official Foundation / Guide Connection tier: the Foundation's May 4, 2011 article names this exact restaurant. No formal award promotion.",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+            "https://www.pierponts.com/"
+          ],
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json"
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [
+        {
+          "organization": "James Beard Foundation",
+          "connectionType": "editorial_mention",
+          "year": 2011,
+          "sourceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+          "venueScope": "exact_visited_venue",
+          "awardClaim": false,
+          "description": "The May 4, 2011 Foundation article explicitly names and links Pierponts at Kansas City Union Station as a steak-and-seafood restaurant in the former Harvey ladies' lounge. This is venue-specific editorial coverage; no award, nomination or event participation is claimed."
+        }
+      ],
+      "officialFeatureStatus": "direct_editorial_connection",
+      "expandedReviewTier": "official_program_or_editorial_connection",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-harveys-union-station-kansas-city",
+      "venueId": "venue-harveys-union-station-kansas-city",
+      "venueName": "Harvey's at Union Station",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-harveys-union-station-wedding-goodbye-brunch"
+      ],
+      "visitPeriods": [
+        "After-wedding goodbye brunch · year unspecified"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-27",
+      "featuredException": true,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Explicit personal inclusion for the after-wedding goodbye brunch, independent of restaurant-award status. Not declared a favorite.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "result": "confirmed_personal_wedding_memory",
+          "note": "Personally featured wedding-related memory directly confirmed and explicitly selected by the user. Continue monitoring for qualifying recognition without claiming an award.",
+          "evidenceUrls": [
+            "https://harveyskc.com/",
+            "https://unionstation.org/tenant/harveys-restaurant/"
+          ],
+          "auditRef": "data/expanded-recognition-audit-2026-10-27.json"
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "officialFeatureStatus": "none_verified",
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }

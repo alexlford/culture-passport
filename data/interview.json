@@ -7034,8 +7034,8 @@
       "sourceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
       "addressHint": "30 W Pershing Road, inside Union Station, Kansas City, MO",
       "interviewCue": "Upscale steak-and-seafood restaurant inside the historic station's former women's and children's waiting rooms, with ornate restored architecture and a dramatic bar. A 2015 Visit KC / Downtown Council directory lists it specifically at Union Station. Ask for venue identification and actual dining confirmation; no attendance is inferred.",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_requested_union_station_identification_not_confirmed",
+      "visitStatus": "confirmed",
+      "researchStatus": "user_confirmed_venue_and_requested_inclusion",
       "addedOn": "2026-10-27",
       "priority": "high",
       "possibleVisitPeriod": "2012–2017; user supplied search window, not a confirmed visit date",
@@ -7064,10 +7064,10 @@
         }
       ],
       "eligibility": {
-        "status": "connection_tier_if_visit_confirmed",
+        "status": "confirmed_official_editorial_connection",
         "formalAwardOrGuideQualified": false,
         "officialFeatureVerified": true,
-        "requiresUserAttendanceConfirmation": true,
+        "requiresUserAttendanceConfirmation": false,
         "verifiedForPublication": false,
         "screenedOn": "2026-10-27"
       },
@@ -7075,7 +7075,12 @@
         "https://www.downtownkc.org/wp-content/uploads/2015/12/dinekc2015.pdf",
         "https://unionstation.org/2023/02/21/our-favorite-historic-restaurants-in-kansas-city/"
       ],
-      "visitNote": "User asked which restaurant was inside Union Station during 2012–2017. This question alone does not confirm attendance at Pierpont's. Do not confuse it with Nancy Longo's separate Pierpoint restaurant in Baltimore."
+      "visitNote": "Alex directly confirmed on October 27, 2026: 'Let's absolutely include Pierpont's (been there several times)'. The earlier 2012–2017 identification window is retained as a private research clue, not an exact year for every meal.",
+      "confirmedVisitId": "dining-pierponts-union-station-multiple-visits",
+      "lastInterviewResponse": "Visited several times; explicitly requested inclusion.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Alex directly confirmed on October 27, 2026: 'Let's absolutely include Pierpont's (been there several times)'. The earlier 2012–2017 identification window is retained as a private research clue, not an exact year for every meal.",
+      "visitPeriod": "Several visits · exact years unknown"
     },
     {
       "id": "candidate-kc-harveys-union-station",
@@ -7084,8 +7089,8 @@
       "sourceUrl": "https://harveyskc.com/",
       "addressHint": "30 W Pershing Road, Grand Hall, Union Station, Kansas City, MO",
       "interviewCue": "Casual open-air breakfast, lunch and brunch restaurant in the middle of the station's Grand Hall, including an upper dining area overlooking the hall. Listed at Union Station in the 2015 Visit KC / Downtown Council dining directory. Distinct from Pierpont's and the historical Fred Harvey restaurants.",
-      "visitStatus": "unreviewed",
-      "researchStatus": "user_requested_union_station_identification_not_confirmed",
+      "visitStatus": "confirmed",
+      "researchStatus": "user_confirmed_venue_and_requested_inclusion",
       "addedOn": "2026-10-27",
       "priority": "high",
       "possibleVisitPeriod": "2012–2017; user supplied search window, not a confirmed visit date",
@@ -7101,8 +7106,8 @@
         "note": "Official venue and historical presence verified; absence of a found recognition is not proof the restaurant was never recognized. Keep modern Harvey's distinct from older Harvey House history."
       },
       "eligibility": {
-        "status": "recognition_not_yet_verified",
-        "requiresUserAttendanceConfirmation": true,
+        "status": "confirmed_personal_featured_exception",
+        "requiresUserAttendanceConfirmation": false,
         "verifiedForPublication": false,
         "screenedOn": "2026-10-27"
       },
@@ -7110,7 +7115,12 @@
         "https://www.downtownkc.org/wp-content/uploads/2015/12/dinekc2015.pdf",
         "https://unionstation.org/2023/02/21/our-favorite-historic-restaurants-in-kansas-city/"
       ],
-      "visitNote": "Unanswered candidate for the user's Union Station question. No visit, companions, meal or date asserted."
+      "visitNote": "Alex directly confirmed October 27, 2026: 'Harvey's is where we held our after wedding goodbye brunch.' The wedding year and brunch date have not been provided.",
+      "confirmedVisitId": "dining-harveys-union-station-wedding-goodbye-brunch",
+      "lastInterviewResponse": "Visited; held our after-wedding goodbye brunch here.",
+      "reviewedOn": "2026-10-27",
+      "reviewSource": "Alex directly confirmed October 27, 2026: 'Harvey's is where we held our after wedding goodbye brunch.' The wedding year and brunch date have not been provided.",
+      "visitPeriod": "After-wedding goodbye brunch · year unspecified"
     }
   ],
   "source": {
@@ -7675,9 +7685,9 @@
       "id": "kc-union-station-restaurant-2012-2017-identification",
       "category": "dining",
       "name": "Restaurant inside Kansas City Union Station, 2012–2017",
-      "status": "venue_identification_question_attendance_unconfirmed",
-      "venueIdentityConfirmed": false,
-      "visitStatus": "unreviewed",
+      "status": "resolved_both_venues_confirmed",
+      "venueIdentityConfirmed": true,
+      "visitStatus": "confirmed",
       "visitDate": null,
       "possibleVisitPeriod": "2012–2017",
       "source": "User asked: 'What was the restaurant in Kansas City union station in the 2012-2017 time frame? Do any of them qualify?'",
@@ -7687,16 +7697,18 @@
         {
           "candidateId": "candidate-kc-pierponts-union-station",
           "name": "Pierpont's at Union Station",
-          "status": "unreviewed",
+          "status": "confirmed",
           "memoryCue": "Formal historic steak-and-seafood restaurant; ornate interior and striking bar",
-          "qualification": "Direct Foundation editorial connection, 2011; requires visit confirmation"
+          "qualification": "Direct Foundation editorial connection, 2011; requires visit confirmation",
+          "confirmedVisitId": "dining-pierponts-union-station-multiple-visits"
         },
         {
           "candidateId": "candidate-kc-harveys-union-station",
           "name": "Harvey's at Union Station",
-          "status": "unreviewed",
+          "status": "confirmed",
           "memoryCue": "Open-air casual breakfast/brunch/lunch restaurant in Grand Hall",
-          "qualification": "No direct qualifying Michelin/JBF connection verified"
+          "qualification": "No direct qualifying Michelin/JBF connection verified",
+          "confirmedVisitId": "dining-harveys-union-station-wedding-goodbye-brunch"
         }
       ],
       "sourceUrls": [
@@ -7704,8 +7716,17 @@
         "https://www.downtownkc.org/wp-content/uploads/2015/12/dinekc2015.pdf",
         "https://unionstation.org/2023/02/21/our-favorite-historic-restaurants-in-kansas-city/"
       ],
-      "nextQuestion": "Which setting matches your memory: Pierpont's ornate steakhouse dining room/bar, or Harvey's open-air tables in the Grand Hall? Confirm whether you actually ate there before adding a dining experience.",
-      "note": "Both restaurants are present in the period's 2015 directory. The Foundation's 2011 article names Pierponts itself; it does not establish a Beard Award, a Harvey's modern-restaurant feature, or the user's attendance. Preserve the pending Chi Spacca interview and both LA research tracks."
+      "nextQuestion": "What year was the wedding goodbye brunch at Harvey's? Exact date is optional.",
+      "note": "Both restaurants are present in the period's 2015 directory. The Foundation's 2011 article names Pierponts itself; it does not establish a Beard Award, a Harvey's modern-restaurant feature, or the user's attendance. Preserve the pending Chi Spacca interview and both LA research tracks. October 27, 2026: Alex explicitly confirmed both venues and requested inclusion. Pierpont's records several visits with unknown dates; Harvey's records the after-wedding goodbye brunch with year and exact date unknown. The earlier 2012–2017 search interval is not a verified wedding year.",
+      "confirmedVenueIds": [
+        "venue-pierponts-union-station-kansas-city",
+        "venue-harveys-union-station-kansas-city"
+      ],
+      "confirmedExperienceIds": [
+        "dining-pierponts-union-station-multiple-visits",
+        "dining-harveys-union-station-wedding-goodbye-brunch"
+      ],
+      "lastInterviewResponse": "Pierpont's: been there several times; Harvey's: held our after-wedding goodbye brunch."
     }
   ],
   "interviewChapters": {
@@ -7877,11 +7898,20 @@
     "kansasCityMetro": {
       "updatedOn": "2026-10-27",
       "confirmedRepeatedVisits": [
-        "Jack Stack Barbecue (Overland Park)"
+        "Jack Stack Barbecue (Overland Park)",
+        "Pierpont's at Union Station"
       ],
       "otherBranchVisitsConfirmed": true,
       "otherBranchNamesStillUnknown": true,
-      "notes": "User confirmed multiple Jack Stack locations and many visits to Overland Park on 2026-10-27. Freight House explicitly NOT identified as confirmed. Official 2012 JBF Beard House dinner was served by chefs from the Overland Park location, in New York. This is program participation, not an award."
+      "notes": "User confirmed multiple Jack Stack locations and many visits to Overland Park on 2026-10-27. Freight House explicitly NOT identified as confirmed. Official 2012 JBF Beard House dinner was served by chefs from the Overland Park location, in New York. This is program participation, not an award. October 27: Pierpont's confirmed as several visits and Harvey's confirmed as the after-wedding goodbye-brunch venue. Both explicitly selected for the collection; dates unknown. Pierpont's has a direct Foundation editorial mention from May 4, 2011, while Harvey's is a personal wedding-memory exception.",
+      "unionStationConfirmedNames": [
+        "Pierpont's at Union Station",
+        "Harvey's at Union Station"
+      ],
+      "unionStationExperienceIds": [
+        "dining-pierponts-union-station-multiple-visits",
+        "dining-harveys-union-station-wedding-goodbye-brunch"
+      ]
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -8315,7 +8345,7 @@
         "Pierpont's at Union Station",
         "Harvey's at Union Station"
       ],
-      "status": "awaiting_user_response",
+      "status": "resolved_both_venues_confirmed",
       "question": "Which of these two Union Station settings do you recognize, and did you eat there?",
       "resumeBatch": {
         "area": "Los Angeles / West Hollywood",
@@ -8327,7 +8357,13 @@
         "question": "Have you eaten at Chi Spacca, 6610 Melrose Avenue, Los Angeles? Memory cues: intimate candlelit Italian dining room with wine-lined walls, wood-fired steaks and meats, salumi and focaccia di recco. Answer visited / maybe / did not visit. This is a separate venue from Osteria Mozza and Pizzeria Mozza.",
         "continuation": "Continue the unreviewed West Hollywood-area restaurants one venue at a time with photographs. Preserve five South Bay MAYBE and three NOT VISITED; broader South Bay research and the Taiwanese meal with Jay remain active.",
         "note": "Joy remains the leading possible Taiwanese identity, Liu's Cafe secondary; neither confirmed. No assumed new dining records."
-      }
+      },
+      "confirmedExperienceIds": [
+        "dining-pierponts-union-station-multiple-visits",
+        "dining-harveys-union-station-wedding-goodbye-brunch"
+      ],
+      "resolvedOn": "2026-10-27",
+      "nextMemoryQuestion": "What year was the wedding goodbye brunch at Harvey's? Exact date is optional."
     }
   }
 }

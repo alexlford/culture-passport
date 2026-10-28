@@ -489,6 +489,22 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-pierponts-union-station-multiple-visits",
+      "title": "Pierpont's at Union Station",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-harveys-union-station-wedding-goodbye-brunch",
+      "title": "Harvey's at Union Station",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }

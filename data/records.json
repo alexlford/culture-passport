@@ -1123,6 +1123,36 @@
       "location": null,
       "sourceId": "the-butchers-daughter-west-hollywood",
       "locationAttribution": "User explicitly confirmed dining at The Butcher's Daughter's West Hollywood location on 2026-10-27. The separately documented 2023 West Hollywood Resy reservation corroborates the location but does not establish the date of the meal."
+    },
+    {
+      "id": "venue-pierponts-union-station-kansas-city",
+      "name": "Pierpont's at Union Station",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Union Station / Crown Center",
+      "address": "30 W Pershing Road, Kansas City, MO 64108",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "pierponts-union-station-kansas-city"
+    },
+    {
+      "id": "venue-harveys-union-station-kansas-city",
+      "name": "Harvey's at Union Station",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Union Station / Crown Center",
+      "address": "30 W Pershing Road, Kansas City, MO 64108",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "harveys-union-station-kansas-city"
     }
   ],
   "records": [
@@ -5874,6 +5904,143 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "user_confirmed_west_hollywood_branch_exact_meal_date_unverified_no_award_claim"
+      }
+    },
+    {
+      "id": "dining-pierponts-union-station-multiple-visits",
+      "type": "dining",
+      "title": "Pierpont's at Union Station",
+      "venueId": "venue-pierponts-union-station-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "label": "Several visits · exact years unknown",
+        "source": "Alex directly confirmed on October 27, 2026: 'Let's absolutely include Pierpont's (been there several times)'. The earlier 2012–2017 identification window is retained as a private research clue, not an exact year for every meal.",
+        "attendanceCertainty": "multiple_visits_confirmed_dates_unknown",
+        "repeatVisits": true,
+        "exactVisitCount": null
+      },
+      "summary": "Several confirmed visits to Pierpont's at Kansas City's Union Station. The restaurant also has a direct James Beard Foundation editorial connection through a May 4, 2011 article naming this exact venue.",
+      "memory": {
+        "headline": "Returning to Pierpont's at Union Station",
+        "teaser": "Several visits to the historic station's steak-and-seafood restaurant.",
+        "story": "I've been to Pierpont's at Union Station several times. It is part of my Kansas City dining history.",
+        "period": "Several visits; years unspecified",
+        "source": "Direct user confirmation October 27, 2026. Venue context is independently sourced; specific meals, companions and dishes are not inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard Award is claimed. Inclusion is based on a direct James Beard Foundation editorial mention in 2011, kept separate from formal awards."
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Foundation editorial coverage",
+          "year": 2011,
+          "publishedDate": "2011-05-04",
+          "relationship": "Named and linked Kansas City Union Station restaurant in a Foundation-published article by Stephen Fried",
+          "recognitionType": "editorial_mention",
+          "venueScope": "exact_visited_venue",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+          "title": "The Bookshelf: Stephen Fried's Delicious Southwest \"Tour de Fred Harvey\"",
+          "description": "The May 4, 2011 Foundation article explicitly names and links Pierponts at Kansas City Union Station as a steak-and-seafood restaurant in the former Harvey ladies' lounge. This is venue-specific editorial coverage; no award, nomination or event participation is claimed."
+        }
+      ],
+      "sourceUrl": "https://www.pierponts.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": true,
+        "officialFeatureType": "jbf_editorial_mention",
+        "featuredException": false,
+        "collection": "official_foundation_featured_dining",
+        "basis": "jbf_official_editorial",
+        "userRequestedMemory": true,
+        "note": "Explicit user request for inclusion and directly confirmed repeated visits. Feature the exact-venue Foundation editorial connection from 2011 without describing it as an award or nomination."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "jbf_official_editorial",
+        "reason": "Curated through the Official Foundation / Guide Connection tier: the Foundation's May 4, 2011 article names this exact restaurant. No formal award promotion.",
+        "officialFeature": {
+          "organization": "James Beard Foundation",
+          "type": "editorial_mention",
+          "scope": "exact_visited_venue",
+          "year": 2011,
+          "sourceUrl": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+          "verifiedOn": "2026-10-27"
+        },
+        "evidenceUrls": [
+          "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+          "https://www.pierponts.com/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_repeated_visit_confirmation_and_primary_source_editorial_connection"
+      }
+    },
+    {
+      "id": "dining-harveys-union-station-wedding-goodbye-brunch",
+      "type": "dining",
+      "title": "Harvey's at Union Station",
+      "venueId": "venue-harveys-union-station-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "evidenceType": "direct_user_recollection",
+        "label": "After-wedding goodbye brunch · year unspecified",
+        "source": "Alex directly confirmed October 27, 2026: 'Harvey's is where we held our after wedding goodbye brunch.' The wedding year and brunch date have not been provided.",
+        "attendanceCertainty": "venue_and_wedding_brunch_confirmed_date_unknown",
+        "occasion": "after_wedding_goodbye_brunch"
+      },
+      "summary": "The setting for Alex's after-wedding goodbye brunch at Kansas City's Union Station. Included as an explicitly requested personal memory, with the wedding year and brunch date left open.",
+      "memory": {
+        "headline": "The goodbye brunch after our wedding",
+        "teaser": "Our after-wedding goodbye brunch at Harvey's in Union Station.",
+        "story": "We held our after-wedding goodbye brunch at Harvey's in Union Station.",
+        "period": "After-wedding goodbye brunch; year unspecified",
+        "source": "Direct user confirmation on October 27, 2026. No wedding date, guest list, menu or other event details inferred."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No qualifying venue-specific Michelin or James Beard recognition has been verified in this review. The modern restaurant is distinct from historical Fred Harvey company coverage."
+      },
+      "sourceUrl": "https://harveyskc.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": true,
+        "exceptionPriority": "permanent",
+        "collection": "featured_personal_dining",
+        "basis": "user_requested_wedding_memory",
+        "userRequestedMemory": true,
+        "note": "Explicit personal inclusion for the after-wedding goodbye brunch, independent of restaurant-award status. Not declared a favorite."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Personally featured wedding-related memory directly confirmed and explicitly selected by the user. Continue monitoring for qualifying recognition without claiming an award.",
+        "evidenceUrls": [
+          "https://harveyskc.com/",
+          "https://unionstation.org/tenant/harveys-restaurant/"
+        ],
+        "reviewedOn": "2026-10-27",
+        "confidence": "direct_user_confirmation_of_venue_and_occasion"
       }
     }
   ],

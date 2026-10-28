@@ -785,4 +785,4 @@ for row in expanded_rows:
 assert next(x for x in candidates if x["name"] == "Soupçon" and x["area"] == "Crested Butte")["visitStatus"] == "maybe"
 assert all(not (x["restaurantName"] == "Soupçon") for x in expanded_rows)
 assert {r["restaurantName"] for r in expanded_rows if r["collectionTier"] == "official_program_or_editorial_connection"} == {
-    "Uchi Denver", "Jack Stack Barbecue (Overland Park)"}
+    "Uchi Denver", "Jack Stack Barbecue (Overland Park)", "Pierpont's at Union Station"}

@@ -350,8 +350,10 @@
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
       host.append(el("p","memory-disclosure",r.editorial?.featuredException?
-        "A personal favorite, kept for the experience rather than an award.":r.editorial?.officialFeature?
-        "Official James Beard Foundation program connection, NOT an award or nomination.":
+        "A personally selected cultural memory.":r.editorial?.officialFeature?
+        (r.editorial.officialFeatureType==="jbf_editorial_mention"?
+          "Official James Beard Foundation editorial coverage; no award or nomination claimed.":
+          "Official James Beard Foundation program connection, not an award or nomination."):
         "A remembered place, with no verified Michelin or James Beard qualification."));
     }
     if(r.story?.paragraphs?.length){
@@ -405,13 +407,14 @@
       const b=el("div","award-card");b.append(el("strong","",g.distinction==="plate"?"Michelin · The Plate (historical)":"Michelin Selected"),el("p","","Guide recognition, not a Michelin star. The listing year may differ from the dining year."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
     }
     for(const feature of r.officialFeatures||[]){
-      // Program links must be labeled with the exact relationship and scope.
+      // Label editorial and program connections with their exact relationship.
+      const isEditorial=feature.recognitionType==="editorial_mention";
       const b=el("div","award-card");
-      b.append(el("strong","",feature.organization+" · Program connection · "+feature.year));
+      b.append(el("strong","",feature.organization+" · "+(isEditorial?"Editorial connection":"Program connection")+" · "+feature.year));
       b.append(el("p","",feature.category+" — not an award or nomination."));
       if(feature.relationship)b.append(el("p","",feature.relationship));
       if(feature.venueScope==="named_branch_chef_team_offsite_event")b.append(el("p","","Chefs from this branch took part in an event held elsewhere; the restaurant did not host it."));
-      if(feature.sourceUrl)b.append(link("Official program source ↗",feature.sourceUrl));
+      if(feature.sourceUrl)b.append(link(isEditorial?"Official editorial source ↗":"Official program source ↗",feature.sourceUrl));
       badges.append(b);
     }
     for(const a of r.recognitions||[]){
