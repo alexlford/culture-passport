@@ -3213,8 +3213,15 @@
         "verifiedForPublication": false
       },
       "reviewedOn": "2026-10-28",
-      "reviewSource": "Direct user response: Maybe — looks familiar",
-      "visitNote": "Possible visit only. Branch, date, meal and companions unresolved; not a confirmed dining experience."
+      "reviewSource": "Direct answers: 'Maybe — looks familiar'; location follow-up: 'Original West 39th Street'.",
+      "visitNote": "Possible visit at original West 39th Street location; user says that location looks familiar. Attendance remains maybe, not confirmed. Date, meal and companions unresolved.",
+      "possibleVisitLocation": {
+        "address": "1719 West 39th Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA",
+        "certainty": "familiarity_only"
+      }
     },
     {
       "id": "candidate-kansas-city-metro-affare",
@@ -8621,12 +8628,12 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Room 39"
+        "Affäre"
       ],
       "status": "awaiting_user_response",
-      "question": "Does the original West 39th Street location or former Mission Farms location look familiar?",
-      "continuation": "Kansas City metro and Weston 2010–present historical gap audit, then Baltimore; Cambridge closed for now with unanswered leads preserved.",
-      "note": "User explicitly said Maybe — looks familiar. Do not infer confirmed attendance."
+      "question": "Have you visited Affäre at 1911 Main Street, Kansas City?",
+      "continuation": "Continue Kansas City metro and Weston 2010–present historical audit, then Baltimore.",
+      "note": "Room 39 original West 39th Street location looks familiar, possible attendance only. Cambridge closed for now with unanswered leads retained."
     },
     "pausedBatches": [
       {
