@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "auditedOn": "2026-10-27",
+  "auditedOn": "2026-10-29",
   "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation. October 27, 2026 Union Station follow-up: repeated Pierpont's dining and Harvey's after-wedding goodbye brunch directly confirmed and explicitly selected. Pierpont's is linked by a 2011 Foundation editorial mention; Harvey's is a personal-memory exception. No new formal awards or exact visit dates.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 43,
-    "distinctPublishedVenues": 40,
-    "recognized": 20,
+    "canonExperienceRecords": 44,
+    "distinctPublishedVenues": 41,
+    "recognized": 21,
     "featuredPersonal": 7,
     "officiallyFeatured": 3,
     "unfeaturedOther": 10,
@@ -873,6 +873,29 @@
       "editorialNote": "Confirmed original Fitzbillies café dining or afternoon tea, with separate permanent recognition watchlist. No awards inferred.",
       "visitConfidence": "confirmed_visit_service_type_not_disambiguated",
       "publicationStatus": "archived_private_not_curated"
+    },
+    {
+      "venueId": "venue-rieger-hotel-grill-exchange-kansas-city",
+      "name": "The Rieger Hotel Grill & Exchange",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-rieger-hotel-grill-exchange-kansas-city"
+      ],
+      "rememberedPeriods": [
+        "Confirmed dining · exact visit date unknown; restaurant open approximately 2010–2020"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+      ],
+      "recognitionSummary": [
+        "James Beard Best Chef: Midwest semifinalist in 2014 and 2015 — chef Howard Hanna named at The Rieger Hotel Grill & Exchange"
+      ],
+      "editorialNote": "New confirmed restaurant visit via direct user testimony October 29, 2026; distinct from confirmed Manifesto cocktails downstairs, without assuming the experiences occurred together. Publication requires separate story-review approval.",
+      "visitConfidence": "direct_user_confirmation_dining_exact_date_unknown",
+      "publicationStatus": "private_pending_story_review"
     }
   ],
   "confirmedArchiveOnly": [
