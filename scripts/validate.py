@@ -44,7 +44,15 @@ justus_wish = next(x for x in wishlist["entries"] if x["candidateId"] == justus[
 assert justus_wish["visitStatus"] == "not_visited" and justus_wish["status"] == "want_to_visit"
 assert justus_wish["bookable"] is False
 assert not any(r["title"] == "Justus Drugstore" for r in records)
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The Monarch Bar"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Fern Bar"]
+monarch = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-the-monarch-bar")
+assert monarch["visitStatus"] == "not_visited" and monarch["wantsToVisit"] is True
+assert monarch["wishlistEntryId"] == "want-to-visit-the-monarch-bar-kansas-city"
+monarch_wish = next(e for e in wishlist["entries"] if e["candidateId"] == monarch["id"])
+assert monarch_wish["visitStatus"] == "not_visited" and monarch_wish["status"] == "want_to_visit"
+assert monarch_wish["category"] == "bar"
+assert not any(r["title"] == "The Monarch Bar" for r in records)
+assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-fern-bar")["visitStatus"] == "unreviewed"
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {

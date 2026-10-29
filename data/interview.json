@@ -3826,7 +3826,7 @@
       "awardFamily": "beard",
       "interviewCue": "Country Club Plaza, sophisticated cocktail lounge with butterfly motif and dramatic bar.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -3838,7 +3838,14 @@
         "verifiedAt": "2026-10-29",
         "note": "Exact Monarch Bar, Kansas City, listed in the 2019 Outstanding Bar Program semifinalists by James Beard Foundation."
       },
-      "addressHint": "4808 Roanoke Parkway, Kansas City, MO 64112"
+      "addressHint": "4808 Roanoke Parkway, Kansas City, MO 64112",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-the-monarch-bar-kansas-city",
+      "reviewedOn": "2026-10-29",
+      "reviewSource": "I haven't visited The Monarch Bar, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+      "researchStatus": "user_confirmed_unvisited_and_wishlisted",
+      "visitNote": "Never visited the specific Country Club Plaza cocktail bar. User expressly wants to go; no reservation or attendance inferred."
     },
     {
       "id": "candidate-denver-metro-williams-graham",
@@ -4102,10 +4109,10 @@
       "id": "candidate-kansas-city-metro-fern-bar",
       "area": "Kansas City Metro",
       "name": "Fern Bar",
-      "recognition": "2026 James Beard Outstanding Professional in Cocktail Service semifinalist — Diana Condori",
+      "recognition": "2026 James Beard Outstanding Professional in Cocktail Service semifinalist — Diana Condori of Fern Bar (individual award, not a bar-level win).",
       "recognitionYear": 2026,
       "awardFamily": "beard",
-      "interviewCue": "Kansas City cocktail bar associated with Diana Condori. A newer option; confirm its opening year before assigning any historical visit.",
+      "interviewCue": "2041 Broadway Boulevard, Crossroads District, Kansas City. Cocktails specializing in agave and sugarcane spirits, in a former bank building; opened early 2024. Bar manager Diana Condori was recognized in 2026.",
       "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
       "visitStatus": "unreviewed",
       "venueType": "cocktail_bar",
@@ -4113,12 +4120,13 @@
       "addedOn": "2026-10-25",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
+        "basis": "james_beard_individual_in_post",
         "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
-        "sourceTier": "primary",
-        "verifiedAt": "2026-10-25",
-        "note": "Named individual at this bar received JBF Outstanding Professional in Cocktail Service semifinalist recognition, not a bar-level award. No visit assumed."
-      }
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
+        "note": "2026 James Beard Foundation Outstanding Professional in Cocktail Service semifinalist Diana Condori explicitly listed at Fern Bar in Kansas City; do not call it a bar-level award."
+      },
+      "addressHint": "2041 Broadway Boulevard, Kansas City, Missouri 64108"
     },
     {
       "id": "candidate-kansas-city-metro-wild-child",
@@ -8756,12 +8764,12 @@
       "area": "Kansas City Metro",
       "category": "cocktail_bars",
       "candidateNames": [
-        "The Monarch Bar"
+        "Fern Bar"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you ever visited The Monarch Bar at 4808 Roanoke Parkway on the Country Club Plaza in Kansas City?",
-      "continuation": "Continue Kansas City 2010–present retrospective, then Baltimore historical audit.",
-      "note": "Drastic Measures confirmed visit in Shawnee; exact date and drinks unknown. Next The Monarch Bar qualifies by official 2019 James Beard Outstanding Bar Program semifinalist. Keep four-choice response including 'Haven't been — add to my list'."
+      "question": "Have you visited Fern Bar at 2041 Broadway Boulevard in the Kansas City Crossroads since it opened in early 2024?",
+      "continuation": "Continue Kansas City 2010–present historic/modern awards audit, then Baltimore 2018–2021 historical gap audit.",
+      "note": "The Monarch Bar explicitly not visited and wishlisted. Preserve both statuses separately. Fern Bar qualifies through manager Diana Condori's 2026 individual cocktail-service semifinalist recognition (not a venue award). Four answers including 'Haven't been — add to my list'."
     },
     "pausedBatches": [
       {
