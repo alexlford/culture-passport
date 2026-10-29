@@ -1219,17 +1219,6 @@
       "location": null,
       "sourceId": "fitzbillies-original-trumpington-cambridge",
       "locationAttribution": "User identified original Trumpington Street venue; no exact date or coordinates for personal visit inferred."
-    },
-    {
-      "id": "venue-kingston-arms-cambridge",
-      "name": "The Kingston Arms",
-      "city": "Cambridge",
-      "region": "Cambridgeshire, England",
-      "country": "United Kingdom",
-      "address": "33 Kingston Street, Cambridge CB1 2NU",
-      "location": null,
-      "sourceId": "kingston-arms-cambridge",
-      "locationAttribution": "Exact venue and drinks visit confirmed directly by user. No dated GPS evidence or precise visit timestamp provided."
     }
   ],
   "records": [
@@ -6513,120 +6502,6 @@
           "https://www.fitzbillies.com/pages/trumpington-street"
         ],
         "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
-      }
-    },
-    {
-      "id": "bar-kingston-arms-cambridge-visit-date-unknown",
-      "type": "bar",
-      "title": "The Kingston Arms",
-      "venueId": "venue-kingston-arms-cambridge",
-      "status": "confirmed",
-      "favorite": false,
-      "visit": {
-        "date": null,
-        "year": null,
-        "possibleYears": [],
-        "precision": "unknown",
-        "label": "Cambridge pub drinks · date unspecified",
-        "source": "Direct user confirmation in Culture Passport Cambridge interview on 2026-10-28: 'I visited The Kingston Arms at 33 Kingston Street for drinks.'",
-        "evidenceType": "direct_user_recollection",
-        "attendanceCertainty": "confirmed_location_and_drinks_date_unknown",
-        "visitPurpose": "drinks",
-        "mealConfirmed": false,
-        "numberOfVisits": null
-      },
-      "summary": "Confirmed drinks at The Kingston Arms, an independent pub at 33 Kingston Street, Cambridge. No meal, specific drink, companions or date has been established.",
-      "memory": {
-        "headline": "Drinks at The Kingston Arms",
-        "teaser": "A confirmed pub stop at The Kingston Arms on Kingston Street in Cambridge.",
-        "story": "I visited The Kingston Arms at 33 Kingston Street in Cambridge for drinks. I haven't yet recorded when I went, what I ordered, or who was with me.",
-        "period": "Cambridge visit; exact date unknown",
-        "source": "User-confirmed drinks visit, 2026-10-28. No invented recollection of menu, beverages, people or timing."
-      },
-      "recognitions": [
-        {
-          "organization": "CAMRA, Cambridge & District Branch",
-          "year": 2024,
-          "result": "winner",
-          "category": "Most Improved Pub",
-          "recipient": "Kingston Arms, Cambridge",
-          "relationship": "Recognition of the pub itself; independent of the user's un-dated visit",
-          "timingRelativeToVisit": "unknown_visit_date",
-          "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-          "recognitionType": "pub_sector_CAMRA_not_Michelin_or_James_Beard"
-        },
-        {
-          "organization": "CAMRA, Cambridge & District Branch",
-          "year": 2024,
-          "result": "winner",
-          "category": "Dark Beer Pub",
-          "recipient": "Kingston Arms, Cambridge",
-          "relationship": "Recognition of the pub itself; independent of the user's un-dated visit",
-          "timingRelativeToVisit": "unknown_visit_date",
-          "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-          "recognitionType": "pub_sector_CAMRA_not_Michelin_or_James_Beard"
-        },
-        {
-          "organization": "CAMRA, Cambridge & District Branch",
-          "year": 2025,
-          "result": "winner",
-          "category": "Pub of the Year",
-          "recipient": "Kingston Arms, Cambridge",
-          "relationship": "Recognition of the pub itself; independent of the user's un-dated visit",
-          "timingRelativeToVisit": "unknown_visit_date",
-          "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-          "recognitionType": "pub_sector_CAMRA_not_Michelin_or_James_Beard"
-        },
-        {
-          "organization": "CAMRA, Cambridgeshire",
-          "year": 2025,
-          "result": "winner",
-          "category": "Pub of the Year",
-          "recipient": "Kingston Arms, Cambridge",
-          "relationship": "Recognition of the pub itself; independent of the user's un-dated visit",
-          "timingRelativeToVisit": "unknown_visit_date",
-          "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-          "recognitionType": "pub_sector_CAMRA_not_Michelin_or_James_Beard"
-        },
-        {
-          "organization": "CAMRA, Cambridge & District Branch",
-          "year": 2026,
-          "result": "winner",
-          "category": "Dark Beer Pub",
-          "recipient": "Kingston Arms, Cambridge",
-          "relationship": "Recognition of the pub itself; independent of the user's un-dated visit",
-          "timingRelativeToVisit": "unknown_visit_date",
-          "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-          "recognitionType": "pub_sector_CAMRA_not_Michelin_or_James_Beard"
-        }
-      ],
-      "guide": {
-        "distinction": "not_verified",
-        "stars": 0,
-        "historicalVisitDistinction": "none_claimed",
-        "sourceUrl": null,
-        "note": "CAMRA awards document excellence as a pub, not Michelin restaurant recognition. No Michelin or James Beard distinction claimed."
-      },
-      "sourceUrl": "https://thekingstonarms.co.uk/",
-      "editorial": {
-        "awardQualified": false,
-        "officialFeature": false,
-        "featuredException": false,
-        "collection": "confirmed_pub_visit",
-        "basis": "confirmed_user_recollection_and_independently_verified_CAMRA_pub_awards",
-        "pubSectorAwardsVerified": true,
-        "note": "Five CAMRA awards verified; mark as pub-specific recognition, not Michelin or James Beard. Visit date unknown, so historical recognition at time of visit cannot be asserted."
-      },
-      "curation": {
-        "status": "recognized_pub_sector_outside_primary_Michelin_JBF",
-        "basis": "CAMRA_awards",
-        "reason": "Confirmed drinks-only visit, with documented 2024, 2025 and 2026 pub awards. Keep distinct from personal dining and Michelin/JBF award criteria.",
-        "evidenceUrls": [
-          "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-          "https://eastanglia.camra.org.uk/viewnode.php?id=242998"
-        ],
-        "reviewedOn": "2026-10-28",
         "confidence": "direct_user_confirmation"
       }
     }
