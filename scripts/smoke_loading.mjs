@@ -112,8 +112,12 @@ try{
     assert(summary.includes("Haven't been — add to my list")&&
       summary.includes("WISHLIST ENTRIES ABOVE ARE NOT VISITS.")&&
       summary.includes("Did not visit"),"Wishlist must be distinct from confirmation and included as a non-visit");
-    await page.reload();
-    const restored=page.locator(".interview-item").filter({has:page.getByRole("heading",{name:candidate.name,exact:true})});
+    // A new page shares localStorage but not the original page's addInitScript,
+    // which intentionally seeds the first page with a legacy "maybe" answer.
+    const restoredPage=await ctx.newPage();
+    await restoredPage.goto(source+"interview.html");
+    await recovered(restoredPage,"interview-list","#interview-list .interview-item");
+    const restored=restoredPage.locator(".interview-item").filter({has:restoredPage.getByRole("heading",{name:candidate.name,exact:true})});
     assert.equal(await restored.getByRole("button",{name:"Haven't been — add to my list",exact:true}).getAttribute("aria-pressed"),"true",
       "Wishlist selection must survive reload");
     await ctx.close();console.log("PASS independent interview retry and local wishlist choice");
