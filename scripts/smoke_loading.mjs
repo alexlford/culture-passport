@@ -103,7 +103,20 @@ try{
     const card=page.locator(".interview-item").filter({has:page.getByRole("heading",{name:candidate.name,exact:true})});
     assert.equal(await card.getByRole("button",{name:"Possibly visited",exact:true}).getAttribute("aria-pressed"),"true");
     assert((await page.locator("#interview-summary").inputValue()).includes(candidate.name+" (saved response)"));
-    await ctx.close();console.log("PASS independent interview retry preserves saved answers");
+    const wishButton=card.getByRole("button",{name:"Haven't been — add to my list",exact:true});
+    assert.equal(await wishButton.count(),1,"Interview must show a fourth wishlist answer");
+    await wishButton.click();
+    assert.equal(await wishButton.getAttribute("aria-pressed"),"true");
+    assert.equal(JSON.parse(await page.evaluate(key=>localStorage.getItem(key),key))[candidate.id],"want_to_visit");
+    const summary=(await page.locator("#interview-summary").inputValue());
+    assert(summary.includes("Haven't been — add to my list")&&
+      summary.includes("WISHLIST ENTRIES ABOVE ARE NOT VISITS.")&&
+      summary.includes("Did not visit"),"Wishlist must be distinct from confirmation and included as a non-visit");
+    await page.reload();
+    const restored=page.locator(".interview-item").filter({has:page.getByRole("heading",{name:candidate.name,exact:true})});
+    assert.equal(await restored.getByRole("button",{name:"Haven't been — add to my list",exact:true}).getAttribute("aria-pressed"),"true",
+      "Wishlist selection must survive reload");
+    await ctx.close();console.log("PASS independent interview retry and local wishlist choice");
   }
   console.log("PASS Culture loading recovery; no private screenshots or export changes");
 }finally{
