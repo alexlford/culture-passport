@@ -857,6 +857,50 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit nonattendance and future interest. No pub, dining, café or overnight experience, booking or date inferred."
+    },
+    {
+      "id": "want-to-visit-haymakers-cambridge",
+      "candidateId": "candidate-cambridge-haymakers-chesterton",
+      "name": "The Haymakers",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "54 High Street, Chesterton, Cambridge CB4 1NG",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.individualpubs.co.uk/haymakers/",
+      "userNote": "Haven't been, want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-28",
+        "quote": "Add it to the list — haven’t been, want to go"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future interest. CAMRA awards qualify under user's clarified scope; no personal experience or reservation inferred.",
+      "recognitions": [
+        {
+          "organization": "Cambridge & District CAMRA",
+          "year": 2021,
+          "award": "Branch Pub of the Year",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1748"
+        },
+        {
+          "organization": "Cambridge & District CAMRA",
+          "year": 2022,
+          "award": "LocAle City",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1748"
+        },
+        {
+          "organization": "Cambridge & District CAMRA",
+          "year": 2023,
+          "award": "Dark Beer Pub",
+          "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=1748"
+        }
+      ]
     }
   ],
   "interviewConvention": {
