@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 44,
-    "distinctPublishedVenues": 41,
-    "recognized": 21,
+    "canonExperienceRecords": 45,
+    "distinctPublishedVenues": 42,
+    "recognized": 22,
     "featuredPersonal": 7,
     "officiallyFeatured": 3,
     "unfeaturedOther": 10,
@@ -895,6 +895,30 @@
       ],
       "editorialNote": "New confirmed restaurant visit via direct user testimony October 29, 2026; distinct from confirmed Manifesto cocktails downstairs, without assuming the experiences occurred together. Publication requires separate story-review approval.",
       "visitConfidence": "direct_user_confirmation_dining_exact_date_unknown",
+      "publicationStatus": "private_pending_story_review"
+    },
+    {
+      "venueId": "venue-port-fonda-westport-kansas-city",
+      "name": "Port Fonda",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-port-fonda-westport-kansas-city-unknown-date"
+      ],
+      "rememberedPeriods": [
+        "Confirmed Westport restaurant dining, visit date unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+        "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+      ],
+      "recognitionSummary": [
+        "James Beard Best Chef: Midwest semifinalist 2015, 2016, 2017 — Patrick Ryan at Port Fonda"
+      ],
+      "editorialNote": "Confirmed directly by user on October 29, 2026; private pending story review. Do not infer exact year, menu or companions.",
+      "visitConfidence": "direct_user_confirmation_westport_dining_date_unknown",
       "publicationStatus": "private_pending_story_review"
     }
   ],
