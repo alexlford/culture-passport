@@ -4114,7 +4114,7 @@
       "awardFamily": "beard",
       "interviewCue": "2041 Broadway Boulevard, Crossroads District, Kansas City. Cocktails specializing in agave and sugarcane spirits, in a former bank building; opened early 2024. Bar manager Diana Condori was recognized in 2026.",
       "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -4126,16 +4126,21 @@
         "verifiedAt": "2026-10-29",
         "note": "2026 James Beard Foundation Outstanding Professional in Cocktail Service semifinalist Diana Condori explicitly listed at Fern Bar in Kansas City; do not call it a bar-level award."
       },
-      "addressHint": "2041 Broadway Boulevard, Kansas City, Missouri 64108"
+      "addressHint": "2041 Broadway Boulevard, Kansas City, Missouri 64108",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-fern-bar-kansas-city",
+      "reviewedOn": "2026-10-29",
+      "reviewSource": "I haven't visited Fern Bar, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent"
     },
     {
       "id": "candidate-kansas-city-metro-wild-child",
       "area": "Kansas City Metro",
       "name": "Wild Child",
-      "recognition": "2025 James Beard Outstanding Professional in Cocktail Service semifinalist — Jay Sanders",
+      "recognition": "2025 James Beard Outstanding Professional in Cocktail Service semifinalist — Jay Sanders at Wild Child; individual award.",
       "recognitionYear": 2025,
       "awardFamily": "beard",
-      "interviewCue": "Shawnee, Kansas, a cocktail-bar destination west of Kansas City associated with bartender Jay Sanders; 2025 nomination for the professional, not the whole bar.",
+      "interviewCue": "11022 Johnson Drive, Shawnee, Kansas. A plant-filled, colorful sister cocktail bar to Drastic Measures with an emphasis on low-ABV and nonalcoholic drinks. Opened 2023.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
       "visitStatus": "unreviewed",
       "venueType": "cocktail_bar",
@@ -4143,12 +4148,13 @@
       "addedOn": "2026-10-25",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
+        "basis": "james_beard_individual_in_post",
         "evidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
-        "sourceTier": "primary",
-        "verifiedAt": "2026-10-25",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
         "note": "Named individual at this bar received JBF Outstanding Professional in Cocktail Service semifinalist recognition, not a bar-level award. No visit assumed."
-      }
+      },
+      "addressHint": "11022 Johnson Drive, Shawnee, Kansas"
     },
     {
       "id": "candidate-denver-metro-traveling-mercies",
@@ -8764,12 +8770,12 @@
       "area": "Kansas City Metro",
       "category": "cocktail_bars",
       "candidateNames": [
-        "Fern Bar"
+        "Wild Child"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Fern Bar at 2041 Broadway Boulevard in the Kansas City Crossroads since it opened in early 2024?",
-      "continuation": "Continue Kansas City 2010–present historic/modern awards audit, then Baltimore 2018–2021 historical gap audit.",
-      "note": "The Monarch Bar explicitly not visited and wishlisted. Preserve both statuses separately. Fern Bar qualifies through manager Diana Condori's 2026 individual cocktail-service semifinalist recognition (not a venue award). Four answers including 'Haven't been — add to my list'."
+      "question": "Have you ever visited Wild Child at 11022 Johnson Drive in Shawnee, Kansas, since opening in 2023?",
+      "continuation": "Continue Kansas City Metro historical audit, then Baltimore 2018–2021.",
+      "note": "Fern Bar explicitly not visited and added to future wishlist. Wild Child qualifies via Jay Sanders 2025 James Beard individual cocktail-service semifinalist honor; distinct from previously confirmed Drastic Measures. Keep four interview choices."
     },
     "pausedBatches": [
       {
