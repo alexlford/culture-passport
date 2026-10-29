@@ -505,6 +505,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-rieger-hotel-grill-exchange-kansas-city",
+      "title": "The Rieger Hotel Grill & Exchange",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }

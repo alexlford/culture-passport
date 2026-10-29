@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kc-rieger-hotel-grill-exchange",
+    "venue": "The Rieger Hotel Grill & Exchange",
+    "visitStatus": "confirmed",
+    "experienceType": "restaurant_dining",
+    "sourceQuote": "I ate at The Rieger Hotel Grill",
+    "sourceType": "direct_user_statement",
+    "visitDate": null,
+    "notes": "Distinct from confirmed Manifesto downstairs bar, not necessarily same night",
+    "confirmedVisitId": "dining-rieger-hotel-grill-exchange-kansas-city"
+  },
+  "recognition": [
+    {
+      "year": 2014,
+      "category": "Best Chef: Midwest",
+      "result": "semifinalist",
+      "chef": "Howard Hanna",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists"
+    },
+    {
+      "year": 2015,
+      "category": "Best Chef: Midwest",
+      "result": "semifinalist",
+      "chef": "Howard Hanna",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+    }
+  ],
+  "nextInterview": {
+    "candidateId": "candidate-kc-port-fonda-westport",
+    "venue": "Port Fonda",
+    "address": "4141 Pennsylvania Avenue, Kansas City, MO",
+    "status": "unreviewed",
+    "recognition": "2015 James Beard Best Chef: Midwest semifinalist — Patrick Ryan",
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "question": "Did you ever eat at Port Fonda in Westport?"
+  },
+  "guardrails": "Preserve user privacy; confirmation does not authorize public story publication. No unknown visits, dates, menu items, companions or same-day linkage may be inferred."
+}

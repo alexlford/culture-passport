@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "auditedOn": "2026-10-27",
+  "auditedOn": "2026-10-29",
   "classification": "private_research",
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 46,
-    "canonicalDistinctVenues": 44,
+    "restaurantEntriesReviewed": 47,
+    "canonicalDistinctVenues": 45,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 49,
+    "restaurantEntriesTracked": 50,
     "restaurantEntriesPendingRecognitionReview": 3
   },
   "rules": {
@@ -32,7 +32,9 @@
     "beckonOneStar2023": "https://michelinmedia.com/c0/introducing-first-stars-michelin-guide-colorado/",
     "minettaOneStar2017": "https://michelinmedia.com/michelin-guide-nyc-2017/",
     "jamesBeard2026Nominees": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
-    "pierpontsFoundationEditorial2011": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey"
+    "pierpontsFoundationEditorial2011": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
+    "riegerHotelGrill2014": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
+    "riegerHotelGrill2015": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
   },
   "confirmedSweep": {
     "newlyIdentifiedDirectVenueProgramConnections": [
@@ -76,7 +78,7 @@
   },
   "countsByTier": {
     "archived_pending_recognition": 21,
-    "formal_michelin_jbf_recognition": 19,
+    "formal_michelin_jbf_recognition": 20,
     "personal_featured_exception": 6,
     "official_program_or_editorial_connection": 3
   },
@@ -1579,6 +1581,49 @@
       "reviewedOn": null,
       "integrationOn": "2026-10-28",
       "recognitionReviewStatus": "pending"
+    },
+    {
+      "venueId": "venue-rieger-hotel-grill-exchange-kansas-city",
+      "restaurantName": "The Rieger Hotel Grill & Exchange",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-rieger-hotel-grill-exchange-kansas-city"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+      ],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Midwest",
+          "year": 2014,
+          "result": "semifinalist",
+          "recipient": "Howard Hanna at The Rieger Hotel Grill & Exchange",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Midwest",
+          "year": 2015,
+          "result": "semifinalist",
+          "recipient": "Howard Hanna at The Rieger Hotel Grill & Exchange",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Confirmed dining October 29, 2026 with date unspecified; both 2014 and 2015 James Beard semifinalist recognitions are primary-sourced. Distinct upstairs Rieger visit from confirmed downstairs Manifesto bar.",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-29"
     }
   ],
   "futureAudit": {

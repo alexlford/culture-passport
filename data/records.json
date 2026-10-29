@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "categories": [
     {
       "id": "dining",
@@ -1219,6 +1219,27 @@
       "location": null,
       "sourceId": "fitzbillies-original-trumpington-cambridge",
       "locationAttribution": "User identified original Trumpington Street venue; no exact date or coordinates for personal visit inferred."
+    },
+    {
+      "id": "venue-rieger-hotel-grill-exchange-kansas-city",
+      "name": "The Rieger Hotel Grill & Exchange",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Crossroads Arts District",
+      "address": "1924 Main Street, Kansas City, MO 64108",
+      "location": {
+        "lat": 39.0997,
+        "lng": -94.5786,
+        "precision": "city-centroid"
+      },
+      "sourceId": "rieger-hotel-grill-exchange-kansas-city",
+      "sharedBuildingWith": [
+        "venue-manifesto-kansas-city"
+      ],
+      "venueStatus": "closed",
+      "operatingPeriod": "approximately 2010–2020",
+      "note": "Rieger restaurant upstairs is a distinct venue from the confirmed Manifesto cocktail bar downstairs; coordinates represent city centroid, not exact location."
     }
   ],
   "records": [
@@ -6503,6 +6524,105 @@
         ],
         "reviewedOn": "2026-10-27",
         "confidence": "direct_user_confirmation"
+      }
+    },
+    {
+      "id": "dining-rieger-hotel-grill-exchange-kansas-city",
+      "type": "dining",
+      "title": "The Rieger Hotel Grill & Exchange",
+      "venueId": "venue-rieger-hotel-grill-exchange-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed dining visit · exact date unknown",
+        "source": "Direct user statement on October 29, 2026: 'I ate at The Rieger Hotel Grill'. Confirmed restaurant dining distinct from prior Manifesto bar visit.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "dining_confirmed_date_unknown",
+        "timeWindowConstraint": "Within restaurant operation approximately 2010–2020; not a confirmed visit year"
+      },
+      "summary": "Confirmed dining experience at The Rieger Hotel Grill & Exchange in Kansas City's Crossroads. Its chef Howard Hanna was a James Beard Best Chef: Midwest semifinalist in 2014 and 2015. Distinct from user's previously confirmed drinks at Manifesto downstairs; visit date and meal details not yet known.",
+      "memory": {
+        "headline": "Dinner upstairs at the Rieger",
+        "teaser": "A confirmed dinner at the Rieger, distinct from drinks at Manifesto downstairs.",
+        "story": "I ate at The Rieger Hotel Grill in Kansas City. I also visited Manifesto downstairs, but those are separate experiences. I have not specified when I ate at the restaurant or what I ordered.",
+        "period": "Kansas City years; exact visit date unknown",
+        "source": "Direct user confirmation October 29, 2026; building and award context independently verified"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2014,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Howard Hanna",
+          "relationship": "chef at The Rieger Hotel Grill & Exchange",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2015,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Howard Hanna",
+          "relationship": "chef at The Rieger Hotel Grill & Exchange",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin star claimed; recognition is James Beard semifinalist chef in post, not a winner, and visit year remains unknown."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard_chef_in_post",
+        "note": "Historical confirmed restaurant visit with exact chef-and-venue James Beard Foundation semifinalist recognition. Date unknown; publication subject to review approval."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "james_beard_chef_in_post",
+        "reason": "Named restaurant and chef appear together in official James Beard Best Chef: Midwest semifinalists lists for 2014 and 2015.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
+          "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+        ],
+        "reviewedOn": "2026-10-29",
+        "confidence": "direct_dining_confirmation_plus_primary_award_sources",
+        "verifiedForPublication": false
+      },
+      "relatedExperienceIds": [
+        "bar-manifesto-kansas-city"
+      ],
+      "story": {
+        "headline": "Dinner at the Rieger, above Manifesto",
+        "paragraphs": [
+          "You have now confirmed eating at The Rieger Hotel Grill & Exchange, a restaurant in Kansas City's historic Rieger Hotel building at 1924 Main Street. The meal date and dishes remain unknown.",
+          "Chef Howard Hanna appeared as a Best Chef: Midwest semifinalist in the James Beard Foundation's 2014 and 2015 announcements. The restaurant closed in 2020, so this is a historical dining experience.",
+          "Your confirmed visit to Manifesto downstairs is a separate cocktail-bar experience. The two records share the building and can link to one another without implying they occurred on the same night."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2014 semifinals",
+            "url": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists"
+          },
+          {
+            "label": "James Beard Foundation — 2015 semifinals",
+            "url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+          },
+          {
+            "label": "Kansas City Business Journal — closure",
+            "url": "https://www.bizjournals.com/kansascity/news/2020/10/19/rieger-hotel-grill-and-exchange-restaurant-closing.html"
+          }
+        ]
       }
     }
   ],
