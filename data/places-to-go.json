@@ -1058,6 +1058,41 @@
         "https://www.kcur.org/arts-life/2025-06-08/parkville-parker-hollow-justus-drugstore",
         "https://www.kansascity.com/news/business/biz-columns-blogs/cityscape/article216586490.html"
       ]
+    },
+    {
+      "id": "want-to-visit-the-monarch-bar-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-the-monarch-bar",
+      "name": "The Monarch Bar",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "4808 Roanoke Parkway",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.themonarchbar.com/visit/",
+      "userNote": "Haven't visited; add to future-visit list.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "I haven't visited The Monarch Bar, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "User explicitly denied past visit and requested wishlist inclusion. Current cocktail lounge at the Country Club Plaza; no reservation or attendance implied.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2019,
+          "award": "Outstanding Bar Program",
+          "result": "semifinalist",
+          "recipient": "The Monarch Bar, Kansas City",
+          "relationship": "exact bar",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+        }
+      ]
     }
   ],
   "interviewConvention": {
