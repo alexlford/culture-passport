@@ -741,7 +741,7 @@
       "name": "The Alexandra Arms (The Alex)",
       "category": "pub_and_restaurant",
       "status": "want_to_visit",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "addedOn": "2026-10-28",
       "location": {
         "address": "22 Gwydir Street, Cambridge CB1 2LL",
@@ -750,15 +750,24 @@
         "country": "United Kingdom"
       },
       "guideUrl": "https://camra.org.uk/pubs/alexandra-arms-cambridge-131303",
-      "userNote": "Add it to the list",
+      "userNote": "I haven't been and would like to visit.",
       "source": {
         "type": "direct_user_request",
         "date": "2026-10-28",
-        "quote": "Add it to the list",
-        "context": "Response to The Alexandra Arms Cambridge interview."
+        "context": "Response to The Alexandra Arms Cambridge interview.",
+        "quotes": [
+          "Add it to the list",
+          "And make the add it to the list option also mean I haven’t been"
+        ]
       },
       "desiredVisitDate": null,
-      "notes": "Future visit interest only. Past attendance remains unanswered; no visit, non-visit, meal, drinks, date or reservation inferred."
+      "notes": "User clarified that 'add it to the list' means has not visited and wants to visit. No visit, meal, drinks, date or reservation inferred."
     }
-  ]
+  ],
+  "interviewConvention": {
+    "wishlistOptionMeaning": "Add it to the list means not visited and want to visit.",
+    "sourceQuote": "And make the add it to the list option also mean I haven’t been",
+    "establishedOn": "2026-10-28",
+    "scope": "Apply to this Alexandra Arms answer and subsequent interview answers. Do not override explicit prior attendance evidence."
+  }
 }
