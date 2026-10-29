@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-the-monarch-bar",
+    "venue": "The Monarch Bar",
+    "address": "4808 Roanoke Parkway, Kansas City, MO 64112",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-the-monarch-bar-kansas-city",
+    "sourceQuote": "I haven't visited The Monarch Bar, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+    "sourceType": "direct_user_statement",
+    "attendance": false,
+    "award": {
+      "organization": "James Beard Foundation",
+      "category": "Outstanding Bar Program",
+      "result": "semifinalist",
+      "year": 2019,
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+    }
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-fern-bar",
+    "venue": "Fern Bar",
+    "address": "2041 Broadway Boulevard, Kansas City, Missouri",
+    "category": "cocktail_bar",
+    "opened": "2024",
+    "recognition": {
+      "year": 2026,
+      "organization": "James Beard Foundation",
+      "category": "Outstanding Professional in Cocktail Service",
+      "recipient": "Diana Condori",
+      "result": "semifinalist",
+      "relationship": "bar manager at Fern Bar",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+    },
+    "question": "Have you visited Fern Bar in the Crossroads for drinks?"
+  },
+  "privacy": "Keep future wishlist separate from confirmed attendance; no automatic publication, no fictional date or booking. Preserve previous records."
+}
