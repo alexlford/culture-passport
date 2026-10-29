@@ -453,10 +453,15 @@
     const pageInfo=byId("interview-page-state"),previous=byId("interview-previous"),next=byId("interview-next");
     const batchSize=12,uiKey=key+":navigation";
     let active="Denver Metro",screen="awards",page=0,answers={},storageAvailable=true;
-    const labels={visited:"Visited",maybe:"Possibly visited",not_visited:"Did not visit"};
-    const statuses=["visited","maybe","not_visited"];
+    // Wishlist intent is separate from an actual visit. Keep the old browser-storage
+    // namespace and historical "not_visited" answers for backward compatibility.
+    const labels={visited:"Visited",maybe:"Possibly visited",not_visited:"Did not visit",
+      want_to_visit:"Haven't been — add to my list"};
+    const statuses=["visited","maybe","not_visited","want_to_visit"];
     const locked=(x)=>["confirmed","not_visited","maybe"].includes(x.visitStatus);
-    const answer=(x)=>x.visitStatus==="confirmed"?"visited":x.visitStatus==="not_visited"?"not_visited":x.visitStatus==="maybe"?"maybe":answers[x.id];
+    const answer=(x)=>x.visitStatus==="confirmed"?"visited":
+      x.visitStatus==="not_visited"?(x.wantsToVisit===true||answers[x.id]==="want_to_visit"?"want_to_visit":"not_visited"):
+      x.visitStatus==="maybe"?"maybe":answers[x.id]|| (x.wantsToVisit===true?"want_to_visit":undefined);
     const included=db.candidates.filter(x=>!x.excludedFromPublication);
     try{
       const saved=JSON.parse(localStorage.getItem(key)||"{}");
@@ -487,10 +492,22 @@
       screeningButtons.forEach(b=>{const on=b.dataset.screen===screen;b.classList.toggle("active",on);b.setAttribute("aria-pressed",String(on));});
     };
     const updateSummary=()=>{
-      const grouped={visited:[],maybe:[],not_visited:[]};
-      for(const x of included){const a=answer(x);if(statuses.includes(a))grouped[a].push(x.area+" — "+x.name+(locked(x)?" (confirmed interview answer)":" (saved response)"));}
+      const grouped={visited:[],maybe:[],not_visited:[],want_to_visit:[]};
+      for(const x of included){
+        const a=answer(x);
+        if(!statuses.includes(a))continue;
+        const marker=x.wantsToVisit===true?" (canonical future wishlist)":
+          locked(x)?" (confirmed interview answer)":" (saved response)";
+        const row=x.area+" — "+x.name+marker;
+        if(a==="want_to_visit"){grouped.not_visited.push(row);grouped.want_to_visit.push(row);}
+        else grouped[a].push(row);
+      }
       const pending=included.filter(x=>x.userMemoryLead&&!x.userMemoryLead.identityConfirmed);
-      summary.value="CULTURE PASSPORT — RESTAURANT AND BAR INTERVIEW\n\n"+statuses.map(s=>labels[s]+" ("+grouped[s].length+"):\n"+(grouped[s].map(n=>"• "+n).join("\n")||"None yet")).join("\n\n")+"\n\nVENUE IDENTITY TO CONFIRM:\n"+(pending.map(x=>"• "+x.name+" — "+x.userMemoryLead.recalled).join("\n")||"None")+"\n\nYour editable responses are saved locally and do not publish to the public passport automatically.";
+      summary.value="CULTURE PASSPORT — RESTAURANT AND BAR INTERVIEW\n\n"+
+        statuses.map(s=>labels[s]+" ("+grouped[s].length+"):\n"+(grouped[s].map(n=>"• "+n).join("\n")||"None yet")).join("\n\n")+
+        "\n\nWISHLIST ENTRIES ABOVE ARE NOT VISITS. Transfer them to the canonical private places-to-go list after review."+
+        "\n\nVENUE IDENTITY TO CONFIRM:\n"+(pending.map(x=>"• "+x.name+" — "+x.userMemoryLead.recalled).join("\n")||"None")+
+        "\n\nYour editable responses are saved locally and do not publish to the public passport automatically.";
       const completed=included.filter(x=>statuses.includes(answer(x))).length;
       const local=Object.keys(answers).filter(id=>included.some(c=>c.id===id)).length;
       progress.textContent=completed+" / "+included.length+" reviewed · "+local+" local answers";
@@ -526,13 +543,32 @@
         if(locked(x)){
           const style=x.visitStatus==="maybe"?"locked maybe":x.visitStatus==="not_visited"?"locked no":"locked";
           card.append(el("div",style,x.visitStatus==="confirmed"?"✓ Confirmed visit"+(x.visitPeriod?" · "+x.visitPeriod:""):x.visitStatus==="not_visited"?"✕ Confirmed not visited":"? Possibly visited, pending confirmation"));
+          // Already-confirmed non-visits may be added to the future wishlist locally
+          // without rewriting the canonical not-visited evidence or suggesting attendance.
+          if(x.visitStatus==="not_visited"){
+            if(x.wantsToVisit===true)card.append(el("p","locked wishlist","♥ Already on future-visit list"));
+            else{
+              const choices=el("div","choices");
+              const wishlistButton=el("button",answers[x.id]==="want_to_visit"?"active":"",labels.want_to_visit);
+              wishlistButton.type="button";
+              wishlistButton.setAttribute("aria-pressed",String(answers[x.id]==="want_to_visit"));
+              wishlistButton.addEventListener("click",()=>{
+                if(answers[x.id]==="want_to_visit")delete answers[x.id];else answers[x.id]="want_to_visit";
+                const selected=answers[x.id]==="want_to_visit";
+                wishlistButton.classList.toggle("active",selected);
+                wishlistButton.setAttribute("aria-pressed",String(selected));
+                output.textContent="";updateSummary();persist();
+              });
+              choices.append(wishlistButton);card.append(choices);
+            }
+          }
         }else{
           const choices=el("div","choices");
           choices.setAttribute("role","group");choices.setAttribute("aria-label","Have you visited "+x.name+"?");
           const buttons={};
           for(const status of statuses){
-            const b=el("button",answers[x.id]===status?"active":"",labels[status]);
-            b.type="button";b.setAttribute("aria-pressed",String(answers[x.id]===status));
+            const b=el("button",answer(x)===status?"active":"",labels[status]);
+            b.type="button";b.setAttribute("aria-pressed",String(answer(x)===status));
             buttons[status]=b;
             b.addEventListener("click",()=>{
               if(answers[x.id]===status)delete answers[x.id];else answers[x.id]=status;

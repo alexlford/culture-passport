@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "status": "proposal_only_not_adopted",
+  "researchedOn": "2026-10-29",
+  "subject": "Potential independent coffee-shop recognition framework for Culture Passport",
+  "summary": "Coffee shop interviews may use separate venue, roaster, product, design and barista-award evidence; proposal only, pending user approval. No new confirmed personal café visits implied.",
+  "coreRules": {
+    "visitEvidence": "Direct user confirmation of a café visit is required before adding to confirmed Passport experiences. The actual location must be identified. Never infer dates, drinks, or companions.",
+    "provenance": "Store award name, year, category, issuer, result (winner, honoree, finalist, selected/ranked), official URL, and recipient. Preserve historical awards and closed venues.",
+    "locationAccuracy": "An award to one café location does not automatically apply to every branch. A roaster or product award attaches to the company or coffee, never to unrelated cafés merely serving the product.",
+    "publication": "No automatic public publication, and no promotion of wishlisted/not-visited venues into confirmed visits.",
+    "review": "The following standards are suggestions; do not add to canonical eligibility policy or award stats without user approval."
+  },
+  "suggestedTiers": [
+    {
+      "tier": "direct_cafe_recognition",
+      "strength": "strong",
+      "examples": [
+        {
+          "issuer": "The World's 100 Best Coffee Shops",
+          "category": "Global ranked Top 100 café",
+          "outcome": "Named annual ranking selection",
+          "sourceUrl": "https://theworlds100bestcoffeeshops.com/",
+          "caveat": "Commercial ranking uses 70% expert plus 30% public voting; label as ranked selection, not a judged medal."
+        },
+        {
+          "issuer": "Sprudge",
+          "category": "Sprudgie Awards Best New Café",
+          "outcome": "Winner, honoree, or finalist",
+          "sourceUrl": "https://sprudge.com/sprudgies",
+          "caveat": "Industry/community-nominated recognition; distinguish winner from honoree and finalist."
+        },
+        {
+          "issuer": "Specialty Coffee Association",
+          "category": "Coffee Design Awards — Spaces",
+          "outcome": "Venue-specific winning café space",
+          "sourceUrl": "https://sca.coffee/coffee-design-awards",
+          "caveat": "Design distinction is about space and presentation, not necessarily coffee flavor or cup quality."
+        }
+      ]
+    },
+    {
+      "tier": "roaster_owned_cafe_connection",
+      "strength": "conditional",
+      "examples": [
+        {
+          "issuer": "Roast Magazine",
+          "category": "Roaster of the Year",
+          "outcome": "Winning coffee roaster operated the actual visited café",
+          "sourceUrl": "https://www.roastmagazine.com/roasteroftheyear/",
+          "caveat": "Award is to company, not individual coffee-shop branches."
+        },
+        {
+          "issuer": "Good Food Foundation",
+          "category": "Good Food Awards — Coffee",
+          "outcome": "Winning roasted coffee made by a roaster operating the visited café",
+          "sourceUrl": "https://goodfoodfdn.org/awards/winners/2026/coffee/",
+          "caveat": "Product award only. Product being served by a shop is insufficient unless the shop is actually operated by recipient."
+        }
+      ]
+    },
+    {
+      "tier": "related_individual_award",
+      "strength": "research_link_only_without_additional_evidence",
+      "examples": [
+        {
+          "issuer": "World Coffee Events",
+          "category": "World Barista Championship",
+          "outcome": "Barista or competitor associated with a venue at time of competition",
+          "sourceUrl": "https://wcc.coffee/",
+          "caveat": "Awards belong to individuals. Require verified employment/ownership and separate personal café visit before considering a contextual linkage."
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "Google star ratings, Yelp stars or social-media popularity alone do not qualify as formal awards.",
+    "An unverified 'best coffee shop' blog list does not automatically qualify.",
+    "Do not call award finalist a winner, or coffee product recognition a physical café award."
+  ],
+  "archivePolicy": "Retain confirmed café visits without qualifying awards privately, under recognition watch. Maintain separate confirmed, maybe, not visited and wishlist states.",
+  "transition": "Proposal: add a Coffee & Cafés chapter or category under Culture Passport only after user confirms criteria. The coffee proposal must not merge with food-restaurant Michelin/JBF or CAMRA pub category semantics."
+}
