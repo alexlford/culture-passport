@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-fern-bar",
+    "venue": "Fern Bar",
+    "address": "2041 Broadway Boulevard, Kansas City, Missouri",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-fern-bar-kansas-city",
+    "sourceQuote": "I haven't visited Fern Bar, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+    "sourceType": "direct_user_response",
+    "attendance": false,
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2026,
+      "category": "Outstanding Professional in Cocktail Service",
+      "result": "semifinalist",
+      "recipient": "Diana Condori",
+      "relationship": "bar manager at Fern Bar (individual recognition only)",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+    }
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-wild-child",
+    "venue": "Wild Child",
+    "address": "11022 Johnson Drive, Shawnee, Kansas",
+    "opened": "2023",
+    "recognition": "Jay Sanders, 2025 James Beard Outstanding Professional in Cocktail Service semifinalist at Wild Child",
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "question": "Have you visited Wild Child in Shawnee?"
+  },
+  "guardrails": "Preserve private wishlist separate from confirmed personal visits; do not count individual Beard honor as bar award. Maintain separate previously confirmed Drastic Measures bar visit."
+}

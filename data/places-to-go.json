@@ -1093,6 +1093,41 @@
           "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-fern-bar-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-fern-bar",
+      "name": "Fern Bar",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "2041 Broadway Boulevard",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.fernbarkc.com/",
+      "userNote": "Haven't visited Fern Bar; add to future-visit list.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "I haven't visited Fern Bar, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance with future-visit intent. The 2026 James Beard semifinalist recognition is for Diana Condori as an individual associated with Fern Bar; it is not a venue award or proof of attendance.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "award": "Outstanding Professional in Cocktail Service",
+          "result": "semifinalist",
+          "recipient": "Diana Condori",
+          "relationship": "bar manager at Fern Bar",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+        }
+      ]
     }
   ],
   "interviewConvention": {
