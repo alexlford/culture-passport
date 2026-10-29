@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -7617,6 +7617,60 @@
         "screenedOn": "2026-10-27",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-kc-rieger-hotel-grill-exchange",
+      "area": "Kansas City Metro",
+      "name": "The Rieger Hotel Grill & Exchange",
+      "recognition": "Howard Hanna, Best Chef: Midwest James Beard semifinalist in 2014 and 2015 (at The Rieger Hotel Grill & Exchange)",
+      "recognitionYear": 2014,
+      "awardFamily": "beard",
+      "interviewCue": "Crossroads New American restaurant upstairs at 1924 Main St, with the previously confirmed Manifesto cocktail bar downstairs. Closed October 2020.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-rieger-hotel-grill-exchange-kansas-city",
+      "visitPeriod": "During operation, approximately 2010–2020; exact year unconfirmed",
+      "researchStatus": "confirmed_user_restaurant_dining",
+      "addedOn": "2026-10-29",
+      "priority": "high",
+      "reviewedOn": "2026-10-29",
+      "reviewSource": "Direct response: 'I ate at The Rieger Hotel Grill'. Distinguish from Manifesto drinks.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_chef_in_post",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
+        "note": "Primary Foundation lists Howard Hanna with Rieger venue in both 2014 and 2015."
+      },
+      "eligibility": {
+        "status": "eligible_candidate",
+        "basis": "beard",
+        "verifiedForPublication": false,
+        "screenedOn": "2026-10-29"
+      }
+    },
+    {
+      "id": "candidate-kc-port-fonda-westport",
+      "area": "Kansas City Metro",
+      "name": "Port Fonda",
+      "recognition": "Chef Patrick Ryan, 2015 James Beard Best Chef: Midwest semifinalist while at Port Fonda; Westport venue later closed December 2022.",
+      "recognitionYear": 2015,
+      "awardFamily": "beard",
+      "interviewCue": "Westport Mexican restaurant at 4141 Pennsylvania Ave., originally known for its Airstream trailer and later for a yellow boar sign and bright PORT FONDA letters.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+      "visitStatus": "unreviewed",
+      "researchStatus": "award_screened",
+      "addedOn": "2026-10-29",
+      "priority": "high",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_chef_in_post",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
+        "note": "Chef and venue explicitly named together in official JBF 2015 Best Chef: Midwest semifinalist list."
+      }
     }
   ],
   "source": {
@@ -8392,7 +8446,7 @@
       ]
     },
     "kansasCityMetro": {
-      "updatedOn": "2026-10-27",
+      "updatedOn": "2026-10-29",
       "confirmedRepeatedVisits": [
         "Jack Stack Barbecue (Overland Park)",
         "Pierpont's at Union Station"
@@ -8407,7 +8461,11 @@
       "unionStationExperienceIds": [
         "dining-pierponts-union-station-multiple-visits",
         "dining-harveys-union-station-wedding-goodbye-brunch"
-      ]
+      ],
+      "newConfirmedDining": [
+        "The Rieger Hotel Grill & Exchange"
+      ],
+      "riegerManifestoRelation": "Two independently confirmed venue experiences in the same building: dining at The Rieger Hotel Grill & Exchange and cocktails at Manifesto downstairs; no evidence of same date."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -8637,12 +8695,12 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Chewology"
+        "Port Fonda"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Chewology at 900 Westport Road, Kansas City?",
-      "continuation": "Continue Kansas City metro and Weston 2010–present historical audit, then Baltimore.",
-      "note": "The Restaurant at 1900 explicitly not visited and added to future wishlist. Keep Room 39 original location maybe."
+      "question": "Did you eat at Port Fonda at 4141 Pennsylvania Avenue in Westport during its operation, approximately 2012–2022?",
+      "continuation": "Continue Kansas City metro 2010–present and Weston historic audit, then Baltimore.",
+      "note": "Port Fonda official JBF 2015 Patrick Ryan Best Chef: Midwest semifinalist. Do not infer exact attendance or date. The Rieger Hotel Grill & Exchange is confirmed dining separately from Manifesto downstairs. Do not change Chewology wishlist status."
     },
     "pausedBatches": [
       {
