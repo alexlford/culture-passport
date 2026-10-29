@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-drastic-measures",
+    "venue": "Drastic Measures",
+    "address": "5817 Nieman Road, Shawnee, KS 66203",
+    "visitStatus": "confirmed",
+    "experienceType": "cocktail_bar_visit",
+    "confirmedVisitId": "bar-drastic-measures-shawnee-kansas",
+    "sourceQuote": "I visited Drastic Measures in Shawnee. Record it as confirmed and continue the Culture Passport Kansas City interview.",
+    "sourceType": "direct_user_statement",
+    "visitDate": null,
+    "drinksOrdered": null,
+    "companions": null
+  },
+  "awardRecognition": [
+    {
+      "issuer": "James Beard Foundation",
+      "year": 2023,
+      "category": "Outstanding Bar",
+      "result": "nominee",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+    },
+    {
+      "issuer": "James Beard Foundation",
+      "year": 2024,
+      "category": "Outstanding Bar",
+      "result": "semifinalist",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+    },
+    {
+      "issuer": "James Beard Foundation",
+      "year": 2026,
+      "category": "Outstanding Bar",
+      "result": "semifinalist",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+    }
+  ],
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-the-monarch-bar",
+    "venue": "The Monarch Bar",
+    "address": "4808 Roanoke Parkway, Kansas City, MO",
+    "category": "cocktail_bar",
+    "recognition": "2019 James Beard Outstanding Bar Program semifinalist",
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "visitStatus": "unreviewed",
+    "question": "Did you visit The Monarch Bar on the Country Club Plaza?"
+  },
+  "guardrails": "Historical record private pending publication approval. No inference of cocktails, visit date, company, or other individual experiences. Preserve prior Kansas City records including Port Fonda, Justus Drugstore wishlist, Rieger and Manifesto."
+}
