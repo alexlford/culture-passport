@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kc-justus-drugstore-smithville",
+    "venue": "Justus Drugstore",
+    "address": "106 West Main Street, Smithville, Missouri",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "futureVisitStatus": "want_to_visit",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "I haven't visited Justus Drugstore in Smithville, but add it to my private Culture Passport future-visit wishlist. Preserve that I have not visited and continue the historical Kansas City interview.",
+    "originalVenuePermanentlyClosed": true,
+    "guardrails": "Historical wishlist only; not a confirmed experience and not currently bookable; new chef venues are separate entities."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-drastic-measures",
+    "venue": "Drastic Measures",
+    "address": "5817 Nieman Road, Shawnee, Kansas",
+    "category": "cocktail_bar",
+    "visitStatus": "unreviewed",
+    "recognition": "2023 James Beard Outstanding Bar finalist; 2024 and 2026 semifinalist",
+    "recognitionSources": [
+      "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+      "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+      "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+    ],
+    "question": "Did you ever visit Drastic Measures in Shawnee for cocktails?"
+  },
+  "preservation": "Preserve existing Port Fonda, Rieger, Manifesto confirmed records, Bluestem maybe, Room 39 maybe, and all other wishlists. No public release."
+}
