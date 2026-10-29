@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Kansas City Metro",
+  "historicalWindow": "2010–present",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-bluestem",
+    "venue": "Bluestem",
+    "address": "900 Westport Road, Kansas City, MO",
+    "visitStatus": "maybe",
+    "certainty": "uncertain",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Bluestem looks familiar, but I'm not certain I visited. Preserve the uncertainty and continue the Kansas City interview.",
+    "supersedes": "October 25, 2026 tentative group-level not_visited assessment of eight Kansas City candidates, for Bluestem only.",
+    "guardrails": "Do not claim a confirmed visit, infer meal/date or add to wishlist. Distinguish venue award recognition from user attendance."
+  },
+  "nextInterview": {
+    "venue": "The Rieger Hotel Grill & Exchange",
+    "address": "1924 Main Street, Kansas City, MO",
+    "operated": "approximately late 2010 to October 2020",
+    "status": "unreviewed",
+    "recognition": "Chef/co-owner Howard Hanna was nominated for James Beard Best Chef: Midwest in 2014 and was a semifinalist in 2015.",
+    "recognitionSource": "https://www.bizjournals.com/kansascity/news/2020/10/19/rieger-hotel-grill-and-exchange-restaurant-closing.html",
+    "venueSource": "https://www.riegerhotel.com/",
+    "question": "Did you eat in the upstairs Rieger restaurant between 2010 and 2020, or do you remember only visiting Manifesto downstairs?",
+    "memoryDisambiguation": "Manifesto drinks are confirmed, but do not imply dining at the separate upstairs restaurant."
+  },
+  "sequence": [
+    "Historical Kansas City metro 2010–present, including closed venues and Weston Missouri",
+    "Baltimore retrospective audit"
+  ],
+  "preservation": "Preserve other confirmed and uncertain visits, award research, all wishlist records; apply this correction to Bluestem only."
+}
