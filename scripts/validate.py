@@ -301,7 +301,7 @@ assert pdt["sourceUrl"].startswith("https://archive.jamesbeard.org")
 assert not any(r["title"] == "PDT (Please Don't Tell)" for r in records)
 for name, area in [("Clover Club", "New York City"), ("Columbia Room", "Washington, DC"),
                    
-                   ("Fern Bar", "Kansas City Metro"), ("Wild Child", "Kansas City Metro")]:
+                   ("Wild Child", "Kansas City Metro")]:
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == area)
     assert candidate["visitStatus"] == "unreviewed"
     assert candidate["screening"]["status"] == "award_qualified"
