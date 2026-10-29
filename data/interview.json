@@ -3347,29 +3347,35 @@
       "id": "candidate-kansas-city-metro-drastic-measures",
       "area": "Kansas City Metro",
       "name": "Drastic Measures",
-      "recognition": "2023 James Beard Outstanding Bar finalist; 2024 and 2026 Outstanding Bar semifinalist, exact Shawnee venue",
-      "recognitionYear": 2026,
+      "recognition": "James Beard Outstanding Bar 2023 finalist/nominee; 2024 and 2026 semifinalist",
+      "recognitionYear": 2023,
       "awardFamily": "beard",
       "interviewCue": "Shawnee, Kansas, just west of Kansas City; modern, low-lit cocktail bar with inventive drinks.",
-      "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
-      "visitStatus": "unreviewed",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+      "visitStatus": "confirmed",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
-        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+        "basis": "james_beard_exact_bar",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
         "sourceTier": "official_jbf",
         "verifiedAt": "2026-10-29",
-        "note": "Official JBF lists venue as 2023 semifinalist, progressed to nomination/finalist; also explicitly listed in 2024 and 2026 Outstanding Bar semifinalist lists."
+        "note": "Exact bar named as 2023 nominee and 2024 and 2026 semifinalist; none is a win."
       },
       "addressHint": "5817 Nieman Road, Shawnee, Kansas 66203",
       "recognitionSources": [
-        "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
         "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
         "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
-      ]
+      ],
+      "confirmedVisitId": "bar-drastic-measures-shawnee-kansas",
+      "reviewedOn": "2026-10-29",
+      "reviewSource": "I visited Drastic Measures in Shawnee. Record it as confirmed and continue the Culture Passport Kansas City interview.",
+      "visitNote": "User confirms visiting exact Shawnee bar. Do not infer date, cocktails ordered, or companions.",
+      "visitPeriod": "Since 2020; exact date unknown",
+      "researchStatus": "user_confirmed_award_eligible_cocktail_bar"
     },
     {
       "id": "candidate-denver-metro-lady-jane",
@@ -3819,7 +3825,7 @@
       "recognitionYear": 2019,
       "awardFamily": "beard",
       "interviewCue": "Country Club Plaza, sophisticated cocktail lounge with butterfly motif and dramatic bar.",
-      "sourceUrl": "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
       "visitStatus": "unreviewed",
       "venueType": "cocktail_bar",
       "priority": "high",
@@ -3827,11 +3833,12 @@
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard",
-        "evidenceUrl": "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
-        "sourceTier": "primary",
-        "verifiedAt": "2026-10-25",
-        "note": "Verified named restaurant or bar's James Beard recognition; does not establish user visit or visit date."
-      }
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
+        "note": "Exact Monarch Bar, Kansas City, listed in the 2019 Outstanding Bar Program semifinalists by James Beard Foundation."
+      },
+      "addressHint": "4808 Roanoke Parkway, Kansas City, MO 64112"
     },
     {
       "id": "candidate-denver-metro-williams-graham",
@@ -8516,7 +8523,10 @@
         "The Rieger Hotel Grill & Exchange",
         "Port Fonda"
       ],
-      "riegerManifestoRelation": "Two independently confirmed venue experiences in the same building: dining at The Rieger Hotel Grill & Exchange and cocktails at Manifesto downstairs; no evidence of same date."
+      "riegerManifestoRelation": "Two independently confirmed venue experiences in the same building: dining at The Rieger Hotel Grill & Exchange and cocktails at Manifesto downstairs; no evidence of same date.",
+      "newConfirmedBars": [
+        "Drastic Measures"
+      ]
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -8746,12 +8756,12 @@
       "area": "Kansas City Metro",
       "category": "cocktail_bars",
       "candidateNames": [
-        "Drastic Measures"
+        "The Monarch Bar"
       ],
       "status": "awaiting_user_response",
-      "question": "Do you remember visiting Drastic Measures at 5817 Nieman Road in Shawnee, Kansas, since it opened in 2020?",
-      "continuation": "Continue Kansas City metro 2010–present including historic closed venues, then Baltimore.",
-      "note": "Justus Drugstore original Smithville location explicitly not visited; historical closed wishlist entry created. No inference of visiting new Jonathan Justus ventures. Drastic Measures verified 2023 James Beard Outstanding Bar nominee plus 2024 and 2026 semifinalist."
+      "question": "Have you ever visited The Monarch Bar at 4808 Roanoke Parkway on the Country Club Plaza in Kansas City?",
+      "continuation": "Continue Kansas City 2010–present retrospective, then Baltimore historical audit.",
+      "note": "Drastic Measures confirmed visit in Shawnee; exact date and drinks unknown. Next The Monarch Bar qualifies by official 2019 James Beard Outstanding Bar Program semifinalist. Keep four-choice response including 'Haven't been — add to my list'."
     },
     "pausedBatches": [
       {
