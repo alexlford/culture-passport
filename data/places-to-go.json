@@ -734,6 +734,31 @@
       },
       "desiredVisitDate": null,
       "notes": "Two direct user answers in sequence: explicitly has not visited, then requested future wishlist. Prior nonattendance is directly reported, not inferred from wishlist. No pub/dining experience, reservation or planned visit date."
+    },
+    {
+      "id": "want-to-visit-alexandra-arms-cambridge",
+      "candidateId": "candidate-cambridge-alexandra-arms-gwydir-street",
+      "name": "The Alexandra Arms (The Alex)",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "unreviewed",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "22 Gwydir Street, Cambridge CB1 2LL",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "guideUrl": "https://camra.org.uk/pubs/alexandra-arms-cambridge-131303",
+      "userNote": "Add it to the list",
+      "source": {
+        "type": "direct_user_request",
+        "date": "2026-10-28",
+        "quote": "Add it to the list",
+        "context": "Response to The Alexandra Arms Cambridge interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "Future visit interest only. Past attendance remains unanswered; no visit, non-visit, meal, drinks, date or reservation inferred."
     }
   ]
 }
