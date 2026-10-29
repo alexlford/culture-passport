@@ -786,6 +786,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit nonattendance and future interest. No personal experience, booking or date inferred."
+    },
+    {
+      "id": "want-to-visit-devonshire-arms-cambridge",
+      "candidateId": "candidate-cambridge-devonshire-arms-devonshire-road",
+      "name": "The Devonshire Arms",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "1 Devonshire Road, Cambridge CB1 2BH",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.individualpubs.co.uk/devonshire/",
+      "userNote": "Haven't been, want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-28",
+        "quote": "Add it to the list — haven’t been, want to go"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future interest. No personal experience or reservation inferred."
     }
   ],
   "interviewConvention": {
