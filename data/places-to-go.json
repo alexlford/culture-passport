@@ -950,6 +950,39 @@
           "sourceUrl": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=32246"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-affare-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-affare",
+      "name": "Affäre",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "1911 Main Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.affarekc.com/",
+      "userNote": "Haven't been, want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-28",
+        "quote": "Add it to the list — haven’t been, want to go"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future interest. No dining experience, booking or date inferred.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "award": "Outstanding Wine and Other Beverages Program",
+          "result": "semifinalist",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        }
+      ]
     }
   ],
   "interviewConvention": {
