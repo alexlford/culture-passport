@@ -3118,7 +3118,7 @@
       "awardFamily": "beard",
       "interviewCue": "1900 Shawnee Mission Parkway, Mission Woods, Kansas; upscale modern American restaurant in a midcentury office building.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "documented_award_candidate",
       "addedOn": "2026-10-25",
       "screening": {
@@ -3135,7 +3135,11 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewedOn": "2026-10-28",
+      "reviewSource": "Direct user answer: Add it to the list — haven’t been, want to go",
+      "futureVisitStatus": "want_to_visit",
+      "wishlistEntryId": "want-to-visit-restaurant-at-1900"
     },
     {
       "id": "candidate-kansas-city-metro-waldo-thai",
@@ -8632,12 +8636,12 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "The Restaurant at 1900"
+        "Chewology"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited The Restaurant at 1900 in Mission Woods, open since 2018?",
-      "continuation": "Kansas City metro and Weston 2010–present historical audit, then Baltimore.",
-      "note": "Affäre explicitly not visited and added to future wishlist; Room 39 original location remains maybe."
+      "question": "Have you visited Chewology at 900 Westport Road, Kansas City?",
+      "continuation": "Continue Kansas City metro and Weston 2010–present historical audit, then Baltimore.",
+      "note": "The Restaurant at 1900 explicitly not visited and added to future wishlist. Keep Room 39 original location maybe."
     },
     "pausedBatches": [
       {
