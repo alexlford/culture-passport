@@ -1240,6 +1240,20 @@
       "venueStatus": "closed",
       "operatingPeriod": "approximately 2010–2020",
       "note": "Rieger restaurant upstairs is a distinct venue from the confirmed Manifesto cocktail bar downstairs; coordinates represent city centroid, not exact location."
+    },
+    {
+      "id": "venue-port-fonda-westport-kansas-city",
+      "name": "Port Fonda",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Westport",
+      "address": "4141 Pennsylvania Avenue, Kansas City, MO",
+      "location": null,
+      "sourceId": "port-fonda-westport-kansas-city",
+      "venueStatus": "closed",
+      "operatingPeriod": "Brick-and-mortar restaurant opened summer 2012; closed December 18, 2022 (with pandemic interruption)",
+      "note": "Original Airstream restaurant in 2010 is venue history, not evidence of visiting the trailer. Confirmation explicitly refers to the Westport restaurant."
     }
   ],
   "records": [
@@ -6621,6 +6635,121 @@
           {
             "label": "Kansas City Business Journal — closure",
             "url": "https://www.bizjournals.com/kansascity/news/2020/10/19/rieger-hotel-grill-and-exchange-restaurant-closing.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-port-fonda-westport-kansas-city-unknown-date",
+      "type": "dining",
+      "title": "Port Fonda",
+      "venueId": "venue-port-fonda-westport-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Westport dining visit · exact date unknown",
+        "source": "User directly stated on October 29, 2026: 'I ate at Port Fonda in Westport. Record it as a confirmed Culture Passport visit and continue the historical Kansas City interview.'",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "westport_dining_confirmed_date_unknown",
+        "restaurantOperatingWindow": "2012–2022, with interruptions; window is not a confirmed visit date",
+        "venueBranch": "Westport, 4141 Pennsylvania Avenue"
+      },
+      "summary": "Confirmed dining experience at Port Fonda's Westport restaurant. Chef Patrick Ryan was a James Beard Foundation Best Chef: Midwest semifinalist in 2015, 2016 and 2017. The exact date, meal, company and occasion remain unknown.",
+      "memory": {
+        "headline": "A meal at Port Fonda in Westport",
+        "teaser": "A confirmed visit to the Mexican restaurant in Kansas City's Westport neighborhood.",
+        "story": "I ate at Port Fonda in Westport, Kansas City. My exact visit date and what I ordered are not yet established.",
+        "period": "Kansas City years; date unknown",
+        "source": "Direct user answer October 29, 2026, with independently sourced venue context"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2015,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Patrick Ryan",
+          "relationship": "chef at Port Fonda, Kansas City, Missouri",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2016,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Patrick Ryan",
+          "relationship": "chef at Port Fonda, Kansas City, Missouri",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Patrick Ryan",
+          "relationship": "chef at Port Fonda, Kansas City, Missouri",
+          "sourceUrl": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin star claimed. Recognitions apply to chef Patrick Ryan in post, and do not imply visit during an award year."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard_chef_in_post",
+        "note": "Confirmed Westport restaurant dining and three independent official JBF semifinalist listings. Remains private pending story review; not a winner."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "james_beard_chef_in_post",
+        "reason": "Patrick Ryan is explicitly associated with Port Fonda in official JBF Best Chef: Midwest semifinalist announcements for 2015, 2016 and 2017.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+          "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+          "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+        ],
+        "reviewedOn": "2026-10-29",
+        "confidence": "direct_dining_confirmation_plus_primary_award_sources",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "Port Fonda in Westport",
+        "paragraphs": [
+          "You confirmed eating at Port Fonda in Kansas City's Westport neighborhood, at its 4141 Pennsylvania Avenue restaurant. The actual visit date, occasion, and dishes are still unknown.",
+          "Patrick Ryan launched the concept in an Airstream trailer in 2010 before opening the Westport brick-and-mortar restaurant in 2012. The original restaurant became known for its Mexican cooking and distinctive atmosphere.",
+          "Ryan was named a James Beard Best Chef: Midwest semifinalist in 2015, 2016 and 2017, while identified with Port Fonda. After an interruption during the pandemic and a later reopening, the Westport restaurant closed in December 2022."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2015 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+          },
+          {
+            "label": "James Beard Foundation — 2016 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+          },
+          {
+            "label": "James Beard Foundation — 2017 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+          },
+          {
+            "label": "Kansas City Star — December 2022 closing",
+            "url": "https://www.kansascity.com/news/local/article270109267.html"
+          },
+          {
+            "label": "No Kid Hungry — Patrick Ryan biography",
+            "url": "https://events.nokidhungry.org/chefs/patrick-ryan/"
           }
         ]
       }
