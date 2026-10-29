@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kc-port-fonda-westport",
+    "venue": "Port Fonda",
+    "address": "4141 Pennsylvania Avenue, Kansas City, Missouri",
+    "visitStatus": "confirmed",
+    "experienceType": "restaurant_dining",
+    "sourceQuote": "I ate at Port Fonda in Westport. Record it as a confirmed Culture Passport visit and continue the historical Kansas City interview.",
+    "sourceType": "direct_user_statement",
+    "visitDate": null,
+    "confirmedVisitId": "dining-port-fonda-westport-kansas-city-unknown-date"
+  },
+  "recognition": [
+    {
+      "year": 2015,
+      "category": "Best Chef: Midwest",
+      "result": "semifinalist",
+      "chef": "Patrick Ryan",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+    },
+    {
+      "year": 2016,
+      "category": "Best Chef: Midwest",
+      "result": "semifinalist",
+      "chef": "Patrick Ryan",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+    },
+    {
+      "year": 2017,
+      "category": "Best Chef: Midwest",
+      "result": "semifinalist",
+      "chef": "Patrick Ryan",
+      "sourceUrl": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+    }
+  ],
+  "nextInterview": {
+    "candidateId": "candidate-kc-justus-drugstore-smithville",
+    "venue": "Justus Drugstore",
+    "address": "106 West Main Street, Smithville, MO",
+    "history": "2007–2018 original Smithville restaurant",
+    "recognition": "Jonathan Justus was a 2016 JBF Best Chef Midwest semifinalist at Justus Drugstore",
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "question": "Did you ever eat at Justus Drugstore in Smithville?"
+  },
+  "guardrails": "No automatic public release; preserve unknown date, dishes, company. No inferred visit to Airstream before Westport restaurant; do not conflate similarly named restaurants."
+}
