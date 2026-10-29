@@ -3231,8 +3231,8 @@
       "recognitionYear": 2024,
       "awardFamily": "beard",
       "interviewCue": "Crossroads restaurant with contemporary German cooking and an extensive wine program.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+      "visitStatus": "not_visited",
       "researchStatus": "award_screened",
       "addedOn": "2026-10-25",
       "priority": "high",
@@ -3242,7 +3242,11 @@
         "reason": "James Beard recognition documented in Visit KC's honorees guide; original category/year should be rechecked if a visit is confirmed.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewedOn": "2026-10-28",
+      "reviewSource": "Direct user answer: Add it to the list — haven’t been, want to go",
+      "futureVisitStatus": "want_to_visit",
+      "wishlistEntryId": "want-to-visit-affare-kansas-city"
     },
     {
       "id": "candidate-kansas-city-metro-chewology",
@@ -8628,12 +8632,12 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Affäre"
+        "The Restaurant at 1900"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Affäre at 1911 Main Street, Kansas City?",
-      "continuation": "Continue Kansas City metro and Weston 2010–present historical audit, then Baltimore.",
-      "note": "Room 39 original West 39th Street location looks familiar, possible attendance only. Cambridge closed for now with unanswered leads retained."
+      "question": "Have you visited The Restaurant at 1900 in Mission Woods, open since 2018?",
+      "continuation": "Kansas City metro and Weston 2010–present historical audit, then Baltimore.",
+      "note": "Affäre explicitly not visited and added to future wishlist; Room 39 original location remains maybe."
     },
     "pausedBatches": [
       {
