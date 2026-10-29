@@ -5,12 +5,12 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 47,
-    "canonicalDistinctVenues": 45,
+    "restaurantEntriesReviewed": 48,
+    "canonicalDistinctVenues": 46,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 50,
+    "restaurantEntriesTracked": 51,
     "restaurantEntriesPendingRecognitionReview": 3
   },
   "rules": {
@@ -34,7 +34,10 @@
     "jamesBeard2026Nominees": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
     "pierpontsFoundationEditorial2011": "https://archive.jamesbeard.org/blog/bookshelf-stephen-frieds-delicious-southwest-tour-de-fred-harvey",
     "riegerHotelGrill2014": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
-    "riegerHotelGrill2015": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+    "riegerHotelGrill2015": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "portFonda2015": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "portFonda2016": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "portFonda2017": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
   },
   "confirmedSweep": {
     "newlyIdentifiedDirectVenueProgramConnections": [
@@ -78,7 +81,7 @@
   },
   "countsByTier": {
     "archived_pending_recognition": 21,
-    "formal_michelin_jbf_recognition": 20,
+    "formal_michelin_jbf_recognition": 21,
     "personal_featured_exception": 6,
     "official_program_or_editorial_connection": 3
   },
@@ -1622,6 +1625,58 @@
       ],
       "officialFeatures": [],
       "reviewResult": "Confirmed dining October 29, 2026 with date unspecified; both 2014 and 2015 James Beard semifinalist recognitions are primary-sourced. Distinct upstairs Rieger visit from confirmed downstairs Manifesto bar.",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-29"
+    },
+    {
+      "venueId": "venue-port-fonda-westport-kansas-city",
+      "restaurantName": "Port Fonda",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-port-fonda-westport-kansas-city-unknown-date"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+        "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+      ],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Midwest",
+          "year": 2015,
+          "result": "semifinalist",
+          "recipient": "Patrick Ryan at Port Fonda",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Midwest",
+          "year": 2016,
+          "result": "semifinalist",
+          "recipient": "Patrick Ryan at Port Fonda",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "category": "Best Chef: Midwest",
+          "year": 2017,
+          "result": "semifinalist",
+          "recipient": "Patrick Ryan at Port Fonda",
+          "sourceUrl": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Verified direct Westport restaurant dining. Official 2015/2016/2017 JBF nominations. Time and meal details unknown, visitor story pending human publication approval.",
       "watchlistId": null,
       "reviewedOn": "2026-10-29"
     }
