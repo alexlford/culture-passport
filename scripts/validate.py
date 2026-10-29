@@ -44,7 +44,15 @@ justus_wish = next(x for x in wishlist["entries"] if x["candidateId"] == justus[
 assert justus_wish["visitStatus"] == "not_visited" and justus_wish["status"] == "want_to_visit"
 assert justus_wish["bookable"] is False
 assert not any(r["title"] == "Justus Drugstore" for r in records)
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Fern Bar"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Wild Child"]
+fern = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-fern-bar")
+assert fern["visitStatus"] == "not_visited" and fern["wantsToVisit"] is True
+assert fern["wishlistEntryId"] == "want-to-visit-fern-bar-kansas-city"
+fern_wish = next(e for e in wishlist["entries"] if e["candidateId"] == fern["id"])
+assert fern_wish["visitStatus"] == "not_visited" and fern_wish["status"] == "want_to_visit"
+assert fern_wish["category"] == "bar"
+assert not any(r["title"] == "Fern Bar" for r in records)
+assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-wild-child")["visitStatus"] == "unreviewed"
 monarch = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-the-monarch-bar")
 assert monarch["visitStatus"] == "not_visited" and monarch["wantsToVisit"] is True
 assert monarch["wishlistEntryId"] == "want-to-visit-the-monarch-bar-kansas-city"
