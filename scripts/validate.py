@@ -229,7 +229,15 @@ assert all(any(c["area"] == active_batch["area"] and c["name"] == name for c in 
 kc_not_recalled = ["Corvino Supper Club & Tasting Room", "The Antler Room", "Bluestem", "Rye (Leawood)", "The Town Company", "Fox & Pearl", "Waldo Thai", "The American Restaurant"]
 kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c["name"] in kc_not_recalled or c["name"] == "Fox and Pearl")]
 assert len(kc_reviewed) == 9
-assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == "tentative_negative" for c in kc_reviewed)
+# The October 25 batch was only a tentative recollection. Preserve the seven
+# other venues' tentative status, while honoring the user's later direct correction.
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == "tentative_negative"
+           for c in kc_reviewed if c["name"] != "Bluestem")
+bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
+assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
+assert bluestem["reviewedOn"] == "2026-10-28"
+assert "I'm not certain I visited" in bluestem["reviewSource"]
+assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response"}
 
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
