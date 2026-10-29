@@ -664,6 +664,7 @@ for venue in venues:
             "venue-millworks-cambridge": "Cambridge",
             "venue-parkers-tavern-cambridge": "Cambridge",
             "venue-fitzbillies-original-trumpington-cambridge": "Cambridge",
+            "venue-port-fonda-westport-kansas-city": "Kansas City",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
