@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -2712,7 +2712,7 @@
       "awardFamily": "beard",
       "interviewCue": "Former acclaimed Westside tasting-menu restaurant by Colby and Megan Garrelts; closed in 2020.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "not_visited",
+      "visitStatus": "maybe",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2731,9 +2731,10 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewSource": "Direct user correction on October 28, 2026: 'Bluestem looks familiar, but I'm not certain I visited. Preserve the uncertainty and continue the Kansas City interview.' Supersedes the October 25 tentative group-level negative for Bluestem only.",
+      "reviewedOn": "2026-10-28",
+      "reviewCertainty": "explicit_uncertain",
+      "visitNote": "Possible past visit at Bluestem, 900 Westport Road, Kansas City. Familiarity only. No confirmed attendance, meal, companions, or visit date. Closed 2020; retain qualifying chef recognition independently of personal visit."
     },
     {
       "id": "candidate-kansas-city-metro-rye-leawood",
