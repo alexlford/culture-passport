@@ -833,6 +833,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit nonattendance and future interest in venue formerly Backstreet Bistro / White Hart. No experience or reservation inferred."
+    },
+    {
+      "id": "want-to-visit-waterman-cambridge",
+      "candidateId": "candidate-cambridge-waterman-chesterton-road",
+      "name": "The Waterman",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "32 Chesterton Road, Cambridge CB4 3AX",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "website": "https://www.thewatermancambridge.com/",
+      "userNote": "Haven't been, want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-28",
+        "quote": "Add it to the list — haven’t been, want to go"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future interest. No pub, dining, café or overnight experience, booking or date inferred."
     }
   ],
   "interviewConvention": {
