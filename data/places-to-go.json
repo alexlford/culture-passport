@@ -810,6 +810,29 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit nonattendance and future interest. No personal experience or reservation inferred."
+    },
+    {
+      "id": "want-to-visit-petersfield-cambridge",
+      "candidateId": "candidate-cambridge-petersfield-sturton-street",
+      "name": "The Petersfield",
+      "category": "pub_and_restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "2 Sturton Street, Cambridge CB1 2QA",
+        "city": "Cambridge",
+        "region": "Cambridgeshire, England",
+        "country": "United Kingdom"
+      },
+      "userNote": "Haven't been, want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-28",
+        "quote": "Add it to the list — haven’t been, want to go"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future interest in venue formerly Backstreet Bistro / White Hart. No experience or reservation inferred."
     }
   ],
   "interviewConvention": {
