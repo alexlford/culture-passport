@@ -3200,18 +3200,21 @@
       "recognitionYear": 2014,
       "awardFamily": "beard",
       "interviewCue": "Farm-driven American restaurant around West 39th Street, with casual lunch and refined dinner.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
+      "visitStatus": "maybe",
       "researchStatus": "award_screened",
       "addedOn": "2026-10-25",
       "priority": "high",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "james_beard",
-        "reason": "James Beard recognition documented in Visit KC's honorees guide; original category/year should be rechecked if a visit is confirmed.",
+        "reason": "Ted Habiger, Room 39, Kansas City MO — 2014 Best Chef: Midwest semifinalist, verified in official JBF announcement.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewedOn": "2026-10-28",
+      "reviewSource": "Direct user response: Maybe — looks familiar",
+      "visitNote": "Possible visit only. Branch, date, meal and companions unresolved; not a confirmed dining experience."
     },
     {
       "id": "candidate-kansas-city-metro-affare",
@@ -8615,15 +8618,15 @@
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Cambridge, UK",
-      "category": "restaurants and bars",
+      "area": "Kansas City Metro",
+      "category": "restaurants",
       "candidateNames": [
-        "The Old Bicycle Shop"
+        "Room 39"
       ],
-      "status": "ready_for_visual_screening",
-      "question": "Have you visited The Old Bicycle Shop, 104 Regent Street, Cambridge, for a meal, drinks or both?",
-      "continuation": "Continue Cambridge with one photographed venue per turn, then audit Kansas City and Weston, Missouri (2010–present), then Baltimore.",
-      "note": "Fitzbillies confirmed historical café dining/afternoon tea; previous wish is a return interest, not first visit. Previous Cambridge and LA records preserved."
+      "status": "awaiting_user_response",
+      "question": "Does the original West 39th Street location or former Mission Farms location look familiar?",
+      "continuation": "Kansas City metro and Weston 2010–present historical gap audit, then Baltimore; Cambridge closed for now with unanswered leads preserved.",
+      "note": "User explicitly said Maybe — looks familiar. Do not infer confirmed attendance."
     },
     "pausedBatches": [
       {
