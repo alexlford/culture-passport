@@ -35,6 +35,17 @@ for candidate in candidates:
     assert isinstance(candidate.get("sourceUrl"), str) and candidate["sourceUrl"].startswith("https://"), (
         "Candidate requires an HTTPS venue source", candidate["id"])
 assert all(c["visitStatus"] in {"confirmed", "not_visited", "maybe", "unreviewed"} for c in candidates)
+# Explicit historical wishlist does not establish attendance, even when venue closed.
+justus = next(c for c in candidates if c["id"] == "candidate-kc-justus-drugstore-smithville")
+assert justus["visitStatus"] == "not_visited" and justus["wantsToVisit"] is True
+assert justus["venueStatus"] == "permanently_closed_original"
+wishlist = json.loads((ROOT / "data/places-to-go.json").read_text(encoding="utf-8"))
+justus_wish = next(x for x in wishlist["entries"] if x["candidateId"] == justus["id"])
+assert justus_wish["visitStatus"] == "not_visited" and justus_wish["status"] == "want_to_visit"
+assert justus_wish["bookable"] is False
+assert not any(r["title"] == "Justus Drugstore" for r in records)
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Drastic Measures"]
+
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
     "candidate-cambridge-eagle", "candidate-cambridge-anchor",
