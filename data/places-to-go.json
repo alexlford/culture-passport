@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Places I'd like to go",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "purpose": "Places Alex explicitly wants to visit, with future intent recorded separately from experience and award-watchlist ledgers.",
   "entries": [
     {
@@ -1015,6 +1015,48 @@
           "result": "semifinalist",
           "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
         }
+      ]
+    },
+    {
+      "id": "want-to-visit-justus-drugstore-smithville",
+      "candidateId": "candidate-kc-justus-drugstore-smithville",
+      "name": "Justus Drugstore",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "106 West Main Street",
+        "city": "Smithville",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+      "userNote": "Haven't been — add it to my private list.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "I haven't visited Justus Drugstore in Smithville, but add it to my private Culture Passport future-visit wishlist. Preserve that I have not visited and continue the historical Kansas City interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "Historical, permanently closed original Smithville restaurant; future-visit interest is retained as aspirational historical wishlist, not currently bookable. Do not imply the chef's newer ventures are the same venue, and do not convert this to an attended experience.",
+      "operatingStatus": "permanently_closed",
+      "historicallyOpen": "May 2007–2018",
+      "bookable": false,
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2016,
+          "award": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Jonathan Justus",
+          "relationship": "chef at Justus Drugstore",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+        }
+      ],
+      "historicalStatusSources": [
+        "https://www.kcur.org/arts-life/2025-06-08/parkville-parker-hollow-justus-drugstore",
+        "https://www.kansascity.com/news/business/biz-columns-blogs/cityscape/article216586490.html"
       ]
     }
   ],
