@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-28",
+  "area": "Cambridge, UK",
+  "venue": {
+    "name": "The Kingston Arms",
+    "address": "33 Kingston Street, Cambridge CB1 2NU",
+    "candidateId": "candidate-cambridge-kingston-arms-kingston-street"
+  },
+  "correction": {
+    "effectiveVisitStatus": "not_visited",
+    "latestUserAnswer": "Culture Passport Cambridge: I haven't visited The Kingston Arms. Record that in private GitHub and continue with photographs.",
+    "supersedesPriorAnswer": "Culture Passport Cambridge: I visited The Kingston Arms at 33 Kingston Street for drinks. Save my confirmed pub experience to private GitHub and continue with photographs.",
+    "previousRecordId": "bar-kingston-arms-cambridge-visit-date-unknown",
+    "action": "Withdraw erroneous previously confirmed personal pub visit; remove from canonical confirmed experiences and preserve only latest unvisited interview status.",
+    "auditedReason": "Most recent explicit statement directly contradicts earlier statement and is treated as the correction.",
+    "guidance": "Do not count Kingston Arms as visited, drinks consumed, or award-qualified personal venue. Do not add to wishlist. Keep pub's published CAMRA awards as separate venue research, not user attendance."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-cambridge-petersfield-sturton-street",
+    "name": "The Petersfield",
+    "address": "2 Sturton Street, Cambridge CB1 2QA",
+    "venueHistory": "Former White Hart and Backstreet Bistro; reopened under Petersfield name in February 2017.",
+    "userVisitStatus": "unreviewed",
+    "camraSource": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=50194",
+    "historySource": "https://capturingcambridge.org/sturton-town/sturton-street/the-white-hart-2-sturton-street/",
+    "cues": [
+      "White-painted corner pub with flowers and crest",
+      "Blue-green bar and modern interior",
+      "Rear courtyard terrace with string lights"
+    ],
+    "question": "Did you visit The Petersfield at 2 Sturton Street for food, drinks, both, maybe or not at all?"
+  },
+  "preservation": "Preserve all other Cambridge confirmed experiences, University Arms lodging, Empress and other wishlist entries, plus Los Angeles, Kansas City and Baltimore audit queue."
+}
