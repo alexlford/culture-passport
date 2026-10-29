@@ -8623,7 +8623,7 @@
       "candidateNames": [
         "Room 39"
       ],
-      "status": "possible_visit_location_followup",
+      "status": "awaiting_user_response",
       "question": "Does the original West 39th Street location or former Mission Farms location look familiar?",
       "continuation": "Kansas City metro and Weston 2010–present historical gap audit, then Baltimore; Cambridge closed for now with unanswered leads preserved.",
       "note": "User explicitly said Maybe — looks familiar. Do not infer confirmed attendance."
