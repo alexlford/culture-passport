@@ -983,6 +983,39 @@
           "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-restaurant-at-1900",
+      "candidateId": "candidate-kansas-city-metro-the-restaurant-at-1900",
+      "name": "The Restaurant at 1900",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-28",
+      "location": {
+        "address": "1900 Shawnee Mission Parkway",
+        "city": "Mission Woods",
+        "region": "Kansas",
+        "country": "USA"
+      },
+      "website": "https://therestaurantat1900.com/",
+      "userNote": "Haven't been, want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-28",
+        "quote": "Add it to the list — haven’t been, want to go"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future interest. No visit or reservation inferred.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2023,
+          "award": "Outstanding Hospitality",
+          "result": "semifinalist",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+        }
+      ]
     }
   ],
   "interviewConvention": {
