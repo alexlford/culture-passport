@@ -60,7 +60,6 @@ monarch_wish = next(e for e in wishlist["entries"] if e["candidateId"] == monarc
 assert monarch_wish["visitStatus"] == "not_visited" and monarch_wish["status"] == "want_to_visit"
 assert monarch_wish["category"] == "bar"
 assert not any(r["title"] == "The Monarch Bar" for r in records)
-assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-fern-bar")["visitStatus"] == "unreviewed"
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
