@@ -6,15 +6,15 @@
     "candidateId": "candidate-cambridge-kingston-arms-kingston-street",
     "name": "The Kingston Arms",
     "address": "33 Kingston Street, Cambridge CB1 2NU",
-    "visitStatus": "visited",
-    "experienceType": "bar",
-    "confirmedPurpose": "drinks",
+    "visitStatus": "not_visited",
+    "experienceType": null,
+    "confirmedPurpose": null,
     "diningConfirmed": false,
     "date": null,
-    "sourceType": "direct_user_statement",
-    "sourceQuote": "Culture Passport Cambridge: I visited The Kingston Arms at 33 Kingston Street for drinks. Save my confirmed pub experience to private GitHub and continue with photographs.",
-    "recordId": "bar-kingston-arms-cambridge-visit-date-unknown",
-    "venueId": "venue-kingston-arms-cambridge",
+    "sourceType": "direct_user_correction",
+    "sourceQuote": "Culture Passport Cambridge: I haven't visited The Kingston Arms. Record that in private GitHub and continue with photographs.",
+    "recordId": null,
+    "venueId": null,
     "recognition": {
       "issuer": "Campaign for Real Ale (CAMRA)",
       "categories": [
@@ -26,23 +26,21 @@
       ],
       "awardPeriodRelativeToVisit": "unknown_visit_date",
       "evidence": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
-      "disambiguation": "CAMRA pub awards distinct from Michelin/JBF."
-    }
+      "disambiguation": "CAMRA pub awards distinct from Michelin/JBF.",
+      "awardsAreVenueOnly": true,
+      "noPersonalVisit": true
+    },
+    "correctionDate": "2026-10-28",
+    "supersededPriorSource": "Earlier direct user confirmation of a drinks visit was corrected by the user on 2026-10-28.",
+    "correctionRecord": "data/interview-updates/cambridge-2026-10-28-kingston-arms-correction.json"
   },
   "nextInterview": {
-    "candidateId": "candidate-cambridge-empress-thoday-street",
-    "name": "The Empress",
-    "address": "72 Thoday Street, Cambridge CB1 3AX",
-    "status": "unreviewed",
-    "type": "Romsey_Town_neighbourhood_pub",
-    "camraSource": "https://camra.org.uk/pubs/empress-cambridge-131478",
-    "historicalSource": "https://capturingcambridge.org/romsey/thoday-street/72-74-thoday-street-the-empress/",
-    "cues": [
-      "Red two-storey corner pub and green-trimmed doors",
-      "U-shaped interior bar around three drinking areas",
-      "Beer garden, games, and pizza"
-    ],
-    "question": "Did you visit The Empress at 72 Thoday Street during your Cambridge travels, for drinks, food, both, maybe, or not at all?"
+    "candidateId": "candidate-cambridge-petersfield-sturton-street",
+    "name": "The Petersfield",
+    "address": "2 Sturton Street, Cambridge CB1 2QA",
+    "visitStatus": "unreviewed",
+    "source": "https://pubs.cambridge-camra.org.uk/viewnode.php?id=50194",
+    "question": "Did you visit The Petersfield at 2 Sturton Street for food, drinks or both?"
   },
   "queuedAudits": [
     "Complete Cambridge photographed interview",
@@ -50,5 +48,5 @@
     "Baltimore retrospective"
   ],
   "preservation": "Preserve The Eagle, The Anchor, The Mill, MillWorks GMI colleague dinner, Parker's Tavern food/drinks, University Arms hotel stay and Los Angeles history; do not convert future wishes or maybes into confirmed visits.",
-  "integrationStatus": "Supplemental handoff for future reconciliation into main data/interview.json; new confirmed drinks visit has already been saved in canonical data/records.json."
+  "integrationStatus": "Most recent user correction is final for Kingston Arms; previous confirmed visit was deleted from data/records.json. See correction log."
 }
