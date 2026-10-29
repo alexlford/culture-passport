@@ -1254,6 +1254,18 @@
       "venueStatus": "closed",
       "operatingPeriod": "Brick-and-mortar restaurant opened summer 2012; closed December 18, 2022 (with pandemic interruption)",
       "note": "Original Airstream restaurant in 2010 is venue history, not evidence of visiting the trailer. Confirmation explicitly refers to the Westport restaurant."
+    },
+    {
+      "id": "venue-drastic-measures-shawnee-kansas",
+      "name": "Drastic Measures",
+      "city": "Shawnee",
+      "region": "Kansas",
+      "country": "USA",
+      "neighborhood": "Downtown Shawnee",
+      "address": "5817 Nieman Road, Shawnee, KS 66203",
+      "location": null,
+      "sourceId": "drastic-measures-shawnee-kansas",
+      "locationAttribution": "Address from published bar listing, coordinates not yet independently verified."
     }
   ],
   "records": [
@@ -6750,6 +6762,110 @@
           {
             "label": "No Kid Hungry — Patrick Ryan biography",
             "url": "https://events.nokidhungry.org/chefs/patrick-ryan/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bar-drastic-measures-shawnee-kansas",
+      "type": "bar",
+      "title": "Drastic Measures",
+      "venueId": "venue-drastic-measures-shawnee-kansas",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Visit to Shawnee bar, date unknown",
+        "source": "Direct user statement October 29, 2026: 'I visited Drastic Measures in Shawnee. Record it as confirmed and continue the Culture Passport Kansas City interview.'",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_bar_visit_unknown_date_and_drink_order"
+      },
+      "summary": "Confirmed visit to Drastic Measures in Shawnee, Kansas. James Beard Outstanding Bar nominee in 2023 and semifinalist in 2024 and 2026. Exact visit date and drink order remain unspecified.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2023,
+          "result": "nominee",
+          "category": "Outstanding Bar",
+          "recipient": "Drastic Measures, Shawnee, KS",
+          "relationship": "named bar",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "result": "semifinalist",
+          "category": "Outstanding Bar",
+          "recipient": "Drastic Measures, Shawnee, KS",
+          "relationship": "named bar",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "result": "semifinalist",
+          "category": "Outstanding Bar",
+          "recipient": "Drastic Measures, Shawnee, KS",
+          "relationship": "named bar",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "James Beard recognition for cocktail bar; no Michelin star claimed."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_cocktail_bar",
+        "basis": "james_beard_exact_bar",
+        "note": "Exact bar received James Beard 2023 Outstanding Bar nomination and semifinalist listings in 2024/2026; personal bar visit directly confirmed. Story not automatically approved."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "james_beard_exact_bar",
+        "reason": "Primary James Beard Foundation recognizes exact Shawnee bar.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+          "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+        ],
+        "reviewedOn": "2026-10-29",
+        "confidence": "direct_attendance_and_primary_awards",
+        "verifiedForPublication": false
+      },
+      "memory": {
+        "headline": "A visit to Drastic Measures",
+        "teaser": "A confirmed visit to the acclaimed Shawnee cocktail bar.",
+        "story": "I visited Drastic Measures in Shawnee, Kansas; the date, company, and drinks remain unspecified.",
+        "period": "Since the bar opened in 2020; exact date unknown",
+        "source": "Direct personal recollection October 29, 2026"
+      },
+      "story": {
+        "headline": "A Kansas City-area cocktail bar with national recognition",
+        "paragraphs": [
+          "You confirmed visiting Drastic Measures at 5817 Nieman Road in Shawnee, Kansas. You have not established the date or any specific cocktails ordered.",
+          "Drastic Measures became a James Beard Outstanding Bar nominee in 2023. Further semifinalist recognitions followed in 2024 and 2026.",
+          "This is a separate Shawnee venue experience in your Culture Passport. The story remains private pending approval for publication."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2023 nominee",
+            "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+          },
+          {
+            "label": "James Beard Foundation — 2024 semifinalist",
+            "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+          },
+          {
+            "label": "James Beard Foundation — 2026 semifinalist",
+            "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
           }
         ]
       }
