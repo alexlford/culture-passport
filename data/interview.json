@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -7789,6 +7789,39 @@
         "sourceTier": "official_jbf",
         "verifiedAt": "2026-10-29",
         "note": "Named 2026 Best New Restaurant nominee/finalist in the Foundation list. Did not win. This is an award to the specific venue, unrelated to The Antler Room's individual chef honors."
+      }
+    },
+    {
+      "id": "candidate-new-york-city-la-marchande",
+      "area": "New York City",
+      "name": "La Marchande",
+      "venueType": "restaurant",
+      "recognition": "2026 James Beard Outstanding Professional in Beverage Service semifinalist: Amy Racine, beverage director of La Marchande",
+      "recognitionYear": 2026,
+      "awardFamily": "beard",
+      "interviewCue": "French market bistro by John Fraser in the Wall Street Hotel at 88 Wall Street, Financial District.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-la-marchande-new-york-2026-10-30",
+      "visitPeriod": "2026-10-30 evening; attendance directly confirmed, dishes/companions unknown",
+      "researchStatus": "confirmed_direct_user_dining_visit",
+      "priority": "high",
+      "addedOn": "2026-10-30",
+      "reviewedOn": "2026-10-30",
+      "reviewSource": "User's direct statement 'I went tonight. Add it to the Culture Passport' in immediate La Marchande discussion on 2026-10-30.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_professional_at_named_restaurant",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-30",
+        "note": "Official JBF names Amy Racine, La Marchande as 2026 Outstanding Professional in Beverage Service semifinalist. John Fraser Restaurants identifies her as beverage director. Not a win or finalist."
+      },
+      "eligibility": {
+        "status": "confirmed_award_eligible_visit",
+        "basis": "james_beard_professional_at_named_restaurant",
+        "screenedOn": "2026-10-30",
+        "verifiedForPublication": false
       }
     }
   ],
