@@ -7794,6 +7794,30 @@
       "reviewCertainty": "explicit",
       "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
       "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-the-campground",
+      "area": "Kansas City Metro",
+      "name": "The Campground",
+      "recognition": "Jeff Workman — 2024 James Beard Emerging Chef semifinalist at The Campground.",
+      "recognitionYear": 2024,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_recognition_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "1531 Genessee Street, Kansas City, MO",
+      "interviewCue": "West Bottoms restaurant and cocktail bar, opened December 2018 in the former Genessee Royale Bistro.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Chef recognition at this specific venue; semifinalist, not winner."
+      }
     }
   ],
   "source": {
