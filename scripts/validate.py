@@ -334,6 +334,14 @@ assert booked_campbell["platform"] == "Resy" and booked_campbell["reservationSta
 assert booked_campbell["attendanceInference"] == "not_proven_by_reservation"
 assert booked_campbell["publicCuration"] == "research_only"
 assert booked_campbell["recognition"]["status"] == "not_verified_as_qualifying"
+assert booked_campbell["recognition"]["formalAwards"]["verified"] is False
+assert booked_campbell["recognition"]["classification"]["currentPolicy"] == "not_formally_qualified"
+assert booked_campbell["recognition"]["classification"]["publicationStatus"] == "private_research_only"
+assert booked_campbell["recognition"]["classification"]["possibleExpandedTier"] == "editorially_recognized_bar"
+assert len(booked_campbell["recognition"]["editorialSelections"]) == 3
+assert {(item["publisher"], item["publicationDate"]) for item in booked_campbell["recognition"]["editorialSelections"]} == {("Tasting Table", "2023-02-16"), ("Time Out New York", "2025-03-10"), ("Eater New York", "2017-12-29")}
+assert all(item["sourceUrl"].startswith("https://") and item["type"].endswith("not_award") for item in booked_campbell["recognition"]["editorialSelections"])
+assert booked_campbell["recognition"]["historicalUnverified"][0]["confidence"] == "secondary_reproduction_only_original_list_not_located"
 assert booked_campbell["childrenPolicy"]["sourceUrl"].startswith("https://www.thecampbellnyc.com/")
 assert not any(r["title"] == "The Campbell" for r in records)
 assert sum(1 for e in reservations if e["reservationStatus"] == "completed") >= 1
