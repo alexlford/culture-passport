@@ -1162,6 +1162,41 @@
           "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-yoli-tortilleria-westside-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-yoli-tortilleria",
+      "name": "Yoli Tortilleria — Westside retail shop",
+      "category": "bakery",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "1668 Jefferson Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.eatyoli.com/",
+      "userNote": "Have not visited the Westside retail shop but would like to.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "I haven't visited Yoli Tortilleria's Westside shop, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance at the physical Westside storefront. Buying Yoli products from another retailer, farmers market or stadium would not establish a Westside-store visit. Its 2023 Outstanding Bakery win is a company/venue recognition, not proof of a personal experience.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2023,
+          "award": "Outstanding Bakery",
+          "result": "winner",
+          "recipient": "Yoli Tortilleria, Kansas City, MO",
+          "relationship": "bakery itself, Westside retail shop",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
+        }
+      ]
     }
   ],
   "interviewConvention": {
