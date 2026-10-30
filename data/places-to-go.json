@@ -1269,6 +1269,30 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit nonattendance and future intent only; no booking or visit date."
+    },
+    {
+      "id": "want-to-visit-green-dirt-on-oak",
+      "candidateId": "candidate-kc-green-dirt-on-oak",
+      "name": "Green Dirt on Oak",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "1601 Oak Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://oak.greendirtfarm.com/",
+      "userNote": "Haven’t been — add to wishlist",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "Haven’t been — add to wishlist"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance at Crossroads restaurant; no inference about Weston farm or creamery."
     }
   ],
   "interviewConvention": {
