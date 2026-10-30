@@ -7802,7 +7802,7 @@
       "recognition": "Jeff Workman — 2024 James Beard Emerging Chef semifinalist at The Campground.",
       "recognitionYear": 2024,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_recognition_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -7817,6 +7817,34 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-29",
         "note": "Chef recognition at this specific venue; semifinalist, not winner."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-jjs-restaurant",
+      "area": "Kansas City Metro",
+      "name": "JJ's Restaurant",
+      "recognition": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_recognition_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "900 W. 48th Place, Suite 110, Kansas City, MO",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+      "interviewCue": "West Plaza restaurant known for wine, steaks and seafood. Current location only; historical location requires separate identification.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "2025 program semifinalist, not winner; no transfer to earlier premises."
       }
     }
   ],
@@ -8846,11 +8874,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "The Campground"
+        "JJ's Restaurant"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited The Campground at 1531 Genessee Street in the West Bottoms?",
-      "continuation": "Continue Kansas City 2010–present, then Baltimore."
+      "question": "Have you visited JJ’s Restaurant in the West Plaza?",
+      "continuation": "Kansas City 2010–present, then Baltimore. If visited, identify current versus original premises separately."
     },
     "pausedBatches": [
       {
