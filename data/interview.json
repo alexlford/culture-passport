@@ -2962,14 +2962,15 @@
       "reviewedOn": "2026-10-29",
       "reviewCertainty": "explicit",
       "reviewSource": "Direct user answer to Have you visited Lidia’s Kansas City in the Freight House?: Yes — visited",
-      "visitPeriod": null,
+      "visitPeriod": "2015–2019",
       "userMemoryLead": {
         "identityConfirmed": true,
         "confirmedOn": "2026-10-29",
         "source": "Direct user confirmation",
-        "recalled": "Confirmed visit to Lidia’s Kansas City in the Freight House. User remembers the occasion or company and classified it as 'Date or anniversary'. Specific occasion, companion identity, year and dishes remain unspecified.",
+        "recalled": "Confirmed dining at Lidia’s Kansas City in the Freight House, sometime in 2015–2019, for a date or anniversary outing. Specific occasion, companion identity, exact date and dishes unknown.",
         "occasionCategory": "date_or_anniversary",
-        "occasionUserQuote": "Date or anniversary"
+        "occasionUserQuote": "Date or anniversary",
+        "historicalWindow": "2015–2019, directly selected by user"
       }
     },
     {
@@ -7946,6 +7947,30 @@
       "reviewCertainty": "explicit",
       "reviewSource": "Direct user answer: Haven’t been — skip",
       "wishlistStatus": "not_requested"
+    },
+    {
+      "id": "candidate-kc-rozzelle-court",
+      "area": "Kansas City Metro",
+      "name": "Rozzelle Court Restaurant",
+      "recognition": "Official JBF program connection: Jonathan Pye of Rozzelle Court was host chef for Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. Program participation, not an award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "4525 Oak Street, Nelson–Atkins Museum of Art, Kansas City, MO",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "interviewCue": "Indoor Italian-style courtyard with fountain and two-story arcades; museum attendance alone is not dining attendance.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Named host chef and restaurant at museum-hosted event; no award claimed."
+      }
     }
   ],
   "source": {
@@ -8974,11 +8999,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Lidia’s Kansas City"
+        "Rozzelle Court Restaurant"
       ],
-      "status": "awaiting_memory_details",
-      "question": "Roughly when was your date or anniversary outing at Lidia’s Kansas City?",
-      "continuation": "Preserve confirmed attendance. Ask optional approximate year, occasion, food or atmosphere without inferring details. Then continue Kansas City 2010–present, then Baltimore."
+      "status": "awaiting_user_response",
+      "question": "Have you eaten at Rozzelle Court Restaurant inside the Nelson–Atkins Museum of Art?",
+      "continuation": "Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
