@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-yoli-tortilleria",
+    "venue": "Yoli Tortilleria — Westside retail shop",
+    "address": "1668 Jefferson Street, Kansas City, MO 64108",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-yoli-tortilleria-westside-kansas-city",
+    "sourceQuote": "I haven't visited Yoli Tortilleria's Westside shop, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+    "sourceType": "direct_user_response",
+    "attendance": false,
+    "productPurchaseElsewhere": "not_evidence_of_store_visit",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2023,
+      "category": "Outstanding Bakery",
+      "result": "winner",
+      "recipient": "Yoli Tortilleria, Kansas City",
+      "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
+    }
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kc-anjin-crossroads",
+    "venue": "Anjin",
+    "address": "1708 Oak Street, Kansas City, MO 64108",
+    "opened": "July 2025",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2026,
+      "category": "Best New Restaurant",
+      "result": "nominee/finalist",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+    },
+    "question": "Have you visited Anjin in the Crossroads?"
+  },
+  "guardrails": "Preserve Yoli nonattendance, no conflation with products purchased at other retailers, events, or HQ; future wishlist only. Anjin's finalist status not a winner claim. Keep Kansas City interviews private until publication approval."
+}
