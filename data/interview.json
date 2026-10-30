@@ -7980,6 +7980,32 @@
         "confirmedOn": "2026-10-29",
         "source": "Direct user confirmation",
         "recalled": "Ate at Rozzelle Court Restaurant inside the Nelson–Atkins Museum. Date, meal, companions and occasion remain unspecified."
+      },
+      "memoryDetailsDeferred": true,
+      "memoryFollowUpStatus": "deferred_at_user_request"
+    },
+    {
+      "id": "candidate-kc-novel-original-westside",
+      "area": "Kansas City Metro",
+      "name": "Novel (original Westside location)",
+      "recognition": "Official Foundation program connection: Ryan Brazeal represented Novel at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum. Not a restaurant award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "815 West 17th Street, Kansas City, MO (former location)",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "interviewCue": "Original small-house Westside location, before 2018 relocation to McGee Street. Preserve separate locations.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "2017 chef-team event participation during original-location period; not an award or an honor transferred to later premises."
       }
     }
   ],
@@ -9009,11 +9035,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Rozzelle Court Restaurant"
+        "Novel (original Westside location)"
       ],
-      "status": "awaiting_memory_details",
-      "question": "What do you remember most about eating at Rozzelle Court?",
-      "continuation": "Preserve confirmed dining separately from museum attendance. Continue Kansas City 2010–present, then Baltimore."
+      "status": "awaiting_user_response",
+      "question": "Did you eat at Novel’s original Westside location at 815 West 17th Street, before its 2018 move?",
+      "continuation": "List compilation only: attendance and wishlist choices with photos, no depth follow-ups. Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
@@ -9356,6 +9382,24 @@
         "status": "queued_historical_gap_audit",
         "review": "Include previously overlooked and closed historically qualifying venues and preserve recalled/uncertain visit statuses."
       }
-    ]
+    ],
+    "detailInterviewPolicy": {
+      "mode": "compile_list_first",
+      "userInstruction": "We can do in-depth interviews later. Let’s get the list compiled first",
+      "defer": [
+        "dates",
+        "companions",
+        "occasions",
+        "dishes",
+        "stories"
+      ],
+      "responseChoices": [
+        "confirmed",
+        "maybe",
+        "not_visited_wishlist",
+        "not_visited_skip"
+      ],
+      "photosAndButtons": true
+    }
   }
 }
