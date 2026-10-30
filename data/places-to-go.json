@@ -1197,6 +1197,30 @@
           "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-anjin-crossroads",
+      "candidateId": "candidate-kc-anjin-crossroads",
+      "name": "Anjin",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "1708 Oak Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.anjinkc.com/",
+      "userNote": "Haven’t been — add to wishlist",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "Haven’t been — add to wishlist"
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only. Explicitly not visited; no booking or date inferred."
     }
   ],
   "interviewConvention": {
