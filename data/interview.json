@@ -2940,7 +2940,7 @@
       "awardFamily": "beard",
       "interviewCue": "Italian restaurant in a historic rail yard building near Union Station; pasta and Italian specialties.",
       "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
-      "visitStatus": "unreviewed",
+      "visitStatus": "confirmed",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
@@ -2958,6 +2958,16 @@
         "reason": "No Michelin Guide or James Beard honor established for the named venue.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer to Have you visited Lidia’s Kansas City in the Freight House?: Yes — visited",
+      "visitPeriod": null,
+      "userMemoryLead": {
+        "identityConfirmed": true,
+        "confirmedOn": "2026-10-29",
+        "source": "Direct user confirmation",
+        "recalled": "Visited Lidia’s Kansas City in the Freight House; date, occasion, companions and dishes not yet provided."
       }
     },
     {
@@ -8964,9 +8974,9 @@
       "candidateNames": [
         "Lidia’s Kansas City"
       ],
-      "status": "awaiting_user_response",
-      "question": "Have you visited Lidia’s Kansas City at 101 West 22nd Street?",
-      "continuation": "Continue Kansas City 2010–present, then Baltimore."
+      "status": "awaiting_memory_details",
+      "question": "What do you remember most about your visit to Lidia’s Kansas City?",
+      "continuation": "Preserve confirmed attendance. Ask optional approximate year, occasion, food or atmosphere without inferring details. Then continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
