@@ -7775,7 +7775,7 @@
       "awardFamily": "beard",
       "interviewCue": "20-seat Japanese izakaya with a U-shaped wooden counter and open kitchen in the East Crossroads at 1708 Oak Street. Opened July 2025; owners Nick and Leslie Goellner also own The Antler Room, a separate restaurant.",
       "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "restaurant",
       "researchStatus": "official_2026_restaurant_finalist_verified",
       "addedOn": "2026-10-29",
@@ -7789,7 +7789,11 @@
         "sourceTier": "official_jbf",
         "verifiedAt": "2026-10-29",
         "note": "Named 2026 Best New Restaurant nominee/finalist in the Foundation list. Did not win. This is an award to the specific venue, unrelated to The Antler Room's individual chef honors."
-      }
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
     }
   ],
   "source": {
@@ -8818,12 +8822,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Anjin"
+        "The Campground"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Anjin, the 20-seat Japanese izakaya at 1708 Oak Street in the Crossroads, since it opened in July 2025?",
-      "continuation": "Continue Kansas City Metro historical 2010–present award audit and then Baltimore retrospective gap audit.",
-      "note": "Yoli Westside retail shop explicitly unvisited and wishlisted, with no inference from outside product purchases. Anjin is a 2026 James Beard Best New Restaurant finalist at the exact Crossroads restaurant; separate from The Antler Room and its owner Nick Goellner's individual recognitions. Four interview choices include 'Haven't been — add to my list'."
+      "question": "Have you visited The Campground at 1531 Genessee Street in the West Bottoms?",
+      "continuation": "Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
