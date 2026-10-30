@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-29",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-wild-child",
+    "venue": "Wild Child",
+    "address": "11022 Johnson Drive, Shawnee, Kansas",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-wild-child-shawnee",
+    "sourceQuote": "I haven't visited Wild Child in Shawnee, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+    "sourceType": "direct_user_response",
+    "attendance": false,
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2025,
+      "category": "Outstanding Professional in Cocktail Service",
+      "result": "semifinalist",
+      "recipient": "Jay Sanders",
+      "relationship": "individual at Wild Child, Shawnee",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+    }
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-yoli-tortilleria",
+    "venue": "Yoli Tortilleria",
+    "address": "1668 Jefferson Street, Kansas City, Missouri",
+    "type": "retail bakery / tortilleria",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2023,
+      "category": "Outstanding Bakery",
+      "result": "winner",
+      "recipient": "Yoli Tortilleria, Kansas City",
+      "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
+    },
+    "question": "Did you visit the Yoli Westside retail shop at 1668 Jefferson Street? Buying products elsewhere alone is not a shop visit."
+  },
+  "guardrails": "Nonattendance is explicit. Drastic Measures was confirmed separately, but does not establish Wild Child attendance. Keep all research private; no automatic publishing."
+}

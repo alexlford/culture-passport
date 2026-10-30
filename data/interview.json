@@ -3278,13 +3278,13 @@
       "id": "candidate-kansas-city-metro-yoli-tortilleria",
       "area": "Kansas City Metro",
       "name": "Yoli Tortilleria",
-      "recognition": "2023 James Beard Outstanding Bakery winner.",
+      "recognition": "2023 James Beard Outstanding Bakery winner (venue/company award, not merely a nomination).",
       "recognitionYear": 2023,
       "awardFamily": "beard",
-      "interviewCue": "Kansas City tortilla bakery specializing in stone-ground heirloom corn tortillas.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "interviewCue": "Westside retail shop at 1668 Jefferson Street in Kansas City, open since 2020, selling nixtamalized stone-ground heirloom corn tortillas, Sonoran-style flour tortillas and masa dishes. Distinguish visiting this shop from buying packaged products elsewhere.",
+      "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners",
       "visitStatus": "unreviewed",
-      "researchStatus": "award_screened",
+      "researchStatus": "official_award_verified_specific_shop_identified",
       "addedOn": "2026-10-25",
       "priority": "high",
       "eligibility": {
@@ -3293,7 +3293,17 @@
         "reason": "James Beard recognition documented in Visit KC's honorees guide; original category/year should be rechecked if a visit is confirmed.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "addressHint": "1668 Jefferson Street, Kansas City, MO 64108",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_outstanding_bakery_winner",
+        "evidenceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
+        "note": "Primary JBF winners list names Yoli Tortilleria, Kansas City, 2023 Outstanding Bakery. Shop address and public availability checked against official Yoli site, which separately lists a non-public manufacturing HQ."
+      },
+      "venueType": "bakery"
     },
     {
       "id": "candidate-bar-manifesto-kansas-city",
@@ -4142,7 +4152,7 @@
       "awardFamily": "beard",
       "interviewCue": "11022 Johnson Drive, Shawnee, Kansas. A plant-filled, colorful sister cocktail bar to Drastic Measures with an emphasis on low-ABV and nonalcoholic drinks. Opened 2023.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -4154,7 +4164,14 @@
         "verifiedAt": "2026-10-29",
         "note": "Named individual at this bar received JBF Outstanding Professional in Cocktail Service semifinalist recognition, not a bar-level award. No visit assumed."
       },
-      "addressHint": "11022 Johnson Drive, Shawnee, Kansas"
+      "addressHint": "11022 Johnson Drive, Shawnee, Kansas",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-wild-child-shawnee",
+      "reviewedOn": "2026-10-29",
+      "reviewSource": "I haven't visited Wild Child in Shawnee, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+      "researchStatus": "user_confirmed_unvisited_and_wishlisted",
+      "visitNote": "Never visited Wild Child. User confirmed different venue Drastic Measures; don't treat shared ownership and proximity as attendance."
     },
     {
       "id": "candidate-denver-metro-traveling-mercies",
@@ -8768,14 +8785,14 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "cocktail_bars",
+      "category": "bakeries",
       "candidateNames": [
-        "Wild Child"
+        "Yoli Tortilleria"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you ever visited Wild Child at 11022 Johnson Drive in Shawnee, Kansas, since opening in 2023?",
-      "continuation": "Continue Kansas City Metro historical audit, then Baltimore 2018–2021.",
-      "note": "Fern Bar explicitly not visited and added to future wishlist. Wild Child qualifies via Jay Sanders 2025 James Beard individual cocktail-service semifinalist honor; distinct from previously confirmed Drastic Measures. Keep four interview choices."
+      "question": "Have you ever visited the Yoli Tortilleria Westside retail shop at 1668 Jefferson Street in Kansas City? A product purchased elsewhere alone should not count as visiting the shop.",
+      "continuation": "Finish Kansas City Metro historic audit, then Baltimore retrospective.",
+      "note": "Wild Child explicitly not visited and wishlisted, separate from confirmed Drastic Measures. Yoli is a 2023 James Beard Outstanding Bakery WINNER, officially verified; ask specifically about visiting Westside shop since 2020, not the Bell Street wholesale HQ or buying products elsewhere."
     },
     "pausedBatches": [
       {
