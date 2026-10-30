@@ -1128,6 +1128,40 @@
           "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-wild-child-shawnee",
+      "candidateId": "candidate-kansas-city-metro-wild-child",
+      "name": "Wild Child",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "11022 Johnson Drive",
+        "city": "Shawnee",
+        "region": "Kansas",
+        "country": "USA"
+      },
+      "userNote": "Have not visited Wild Child; want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "I haven't visited Wild Child in Shawnee, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview."
+      },
+      "desiredVisitDate": null,
+      "notes": "User explicitly denied attendance at Wild Child. The separate, previously confirmed Drastic Measures visit does not establish Wild Child attendance. The individual 2025 James Beard cocktail-service semifinalist was Jay Sanders, connected to Wild Child; not a bar-level award or a win.",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "award": "Outstanding Professional in Cocktail Service",
+          "result": "semifinalist",
+          "recipient": "Jay Sanders",
+          "relationship": "individual at Wild Child, Shawnee, Kansas",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        }
+      ]
     }
   ],
   "interviewConvention": {
