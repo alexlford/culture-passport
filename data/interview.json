@@ -7886,7 +7886,7 @@
       "recognition": "Official Foundation event connection: Jeff Workman represented Green Dirt on Oak at the October 25, 2025 Friends of James Beard Benefit at The American. Not a venue award or nomination.",
       "recognitionYear": 2025,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_program_connection_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -7901,6 +7901,34 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-29",
         "note": "Offsite chef-team participation; Workman's 2024 Emerging Chef semifinalist recognition belongs to The Campground, not Green Dirt on Oak."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-the-belfry",
+      "area": "Kansas City Metro",
+      "name": "The Belfry",
+      "recognition": "Official Foundation program connection: Celina Tio represented The Belfry at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. Not a Belfry award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant_and_bar",
+      "addressHint": "1532 Grand Boulevard, 16th Street entrance, Kansas City, MO",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "interviewCue": "Crossroads bar and kitchen known for whiskey; separate from other Belfry Collective rooms.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Offsite named restaurant chef-team participation, not an award or a visit to the restaurant."
       }
     }
   ],
@@ -8928,12 +8956,12 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "restaurants",
+      "category": "restaurants_and_bars",
       "candidateNames": [
-        "Green Dirt on Oak"
+        "The Belfry"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Green Dirt on Oak at 1601 Oak Street in the Crossroads?",
+      "question": "Have you visited The Belfry at 1532 Grand Boulevard?",
       "continuation": "Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
