@@ -3283,8 +3283,8 @@
       "awardFamily": "beard",
       "interviewCue": "Westside retail shop at 1668 Jefferson Street in Kansas City, open since 2020, selling nixtamalized stone-ground heirloom corn tortillas, Sonoran-style flour tortillas and masa dishes. Distinguish visiting this shop from buying packaged products elsewhere.",
       "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_award_verified_specific_shop_identified",
+      "visitStatus": "not_visited",
+      "researchStatus": "user_confirmed_unvisited_and_wishlisted",
       "addedOn": "2026-10-25",
       "priority": "high",
       "eligibility": {
@@ -3303,7 +3303,13 @@
         "verifiedAt": "2026-10-29",
         "note": "Primary JBF winners list names Yoli Tortilleria, Kansas City, 2023 Outstanding Bakery. Shop address and public availability checked against official Yoli site, which separately lists a non-public manufacturing HQ."
       },
-      "venueType": "bakery"
+      "venueType": "bakery",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-yoli-tortilleria-westside-kansas-city",
+      "reviewedOn": "2026-10-29",
+      "reviewSource": "I haven't visited Yoli Tortilleria's Westside shop, but add it to my private Culture Passport future-visit wishlist. Preserve nonattendance and continue the Kansas City interview.",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+      "visitNote": "Never visited the specific Westside shop; wants to go. Product purchases outside the shop do not establish attendance."
     },
     {
       "id": "candidate-bar-manifesto-kansas-city",
@@ -7759,6 +7765,31 @@
       "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
       "visitNote": "Never visited the Smithville original; expressly added to future wishlist despite original closing in 2018. Not currently bookable. No visit date or meal.",
       "venueStatus": "permanently_closed_original"
+    },
+    {
+      "id": "candidate-kc-anjin-crossroads",
+      "area": "Kansas City Metro",
+      "name": "Anjin",
+      "recognition": "2026 James Beard Best New Restaurant nominee/finalist (not winner); exact Kansas City restaurant.",
+      "recognitionYear": 2026,
+      "awardFamily": "beard",
+      "interviewCue": "20-seat Japanese izakaya with a U-shaped wooden counter and open kitchen in the East Crossroads at 1708 Oak Street. Opened July 2025; owners Nick and Leslie Goellner also own The Antler Room, a separate restaurant.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+      "visitStatus": "unreviewed",
+      "venueType": "restaurant",
+      "researchStatus": "official_2026_restaurant_finalist_verified",
+      "addedOn": "2026-10-29",
+      "priority": "high",
+      "addressHint": "1708 Oak Street, Kansas City, MO 64108",
+      "officialVenueWebsite": "https://www.anjinkc.com/",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_best_new_restaurant_finalist",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-29",
+        "note": "Named 2026 Best New Restaurant nominee/finalist in the Foundation list. Did not win. This is an award to the specific venue, unrelated to The Antler Room's individual chef honors."
+      }
     }
   ],
   "source": {
@@ -8785,14 +8816,14 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "bakeries",
+      "category": "restaurants",
       "candidateNames": [
-        "Yoli Tortilleria"
+        "Anjin"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you ever visited the Yoli Tortilleria Westside retail shop at 1668 Jefferson Street in Kansas City? A product purchased elsewhere alone should not count as visiting the shop.",
-      "continuation": "Finish Kansas City Metro historic audit, then Baltimore retrospective.",
-      "note": "Wild Child explicitly not visited and wishlisted, separate from confirmed Drastic Measures. Yoli is a 2023 James Beard Outstanding Bakery WINNER, officially verified; ask specifically about visiting Westside shop since 2020, not the Bell Street wholesale HQ or buying products elsewhere."
+      "question": "Have you visited Anjin, the 20-seat Japanese izakaya at 1708 Oak Street in the Crossroads, since it opened in July 2025?",
+      "continuation": "Continue Kansas City Metro historical 2010–present award audit and then Baltimore retrospective gap audit.",
+      "note": "Yoli Westside retail shop explicitly unvisited and wishlisted, with no inference from outside product purchases. Anjin is a 2026 James Beard Best New Restaurant finalist at the exact Crossroads restaurant; separate from The Antler Room and its owner Nick Goellner's individual recognitions. Four interview choices include 'Haven't been — add to my list'."
     },
     "pausedBatches": [
       {
