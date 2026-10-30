@@ -7858,7 +7858,7 @@
       "recognition": "Official James Beard Foundation event connection: chef/owner Andrew Longres of Acre participated in the October 25, 2025 Friends of James Beard Benefit at The American, Kansas City. Not an Acre award or nomination.",
       "recognitionYear": 2025,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_program_connection_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -7873,6 +7873,34 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-29",
         "note": "Offsite chef-team participation at The American; no Acre award inferred."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — skip",
+      "wishlistStatus": "not_requested"
+    },
+    {
+      "id": "candidate-kc-green-dirt-on-oak",
+      "area": "Kansas City Metro",
+      "name": "Green Dirt on Oak",
+      "recognition": "Official Foundation event connection: Jeff Workman represented Green Dirt on Oak at the October 25, 2025 Friends of James Beard Benefit at The American. Not a venue award or nomination.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "1601 Oak Street, Kansas City, MO",
+      "sourceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+      "interviewCue": "East Crossroads restaurant and urban cheese kitchen; distinct from Green Dirt Farm and its Weston creamery.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Offsite chef-team participation; Workman's 2024 Emerging Chef semifinalist recognition belongs to The Campground, not Green Dirt on Oak."
       }
     }
   ],
@@ -8902,10 +8930,10 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Acre (Parkville)"
+        "Green Dirt on Oak"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Acre in Parkville?",
+      "question": "Have you visited Green Dirt on Oak at 1601 Oak Street in the Crossroads?",
       "continuation": "Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
