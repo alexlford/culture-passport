@@ -325,7 +325,17 @@ assert (ROOT / "assets/app.js").exists()
 assert (ROOT / "assets/site.css").exists()
 evidence_data = json.loads((ROOT / "data/reservation-evidence.json").read_text(encoding="utf-8"))
 reservations = evidence_data["entries"]
-assert len(reservations) == 21 and len({e["id"] for e in reservations}) == 21
+assert len(reservations) == 22 and len({e["id"] for e in reservations}) == 22
+booked_campbell = next(e for e in reservations if e["id"] == "the-campbell-new-york-2026-11-01")
+assert booked_campbell["name"] == "The Campbell"
+assert booked_campbell["reservationDate"] == "2026-11-01" and booked_campbell["reservationTime"] == "19:30"
+assert booked_campbell["timezone"] == "America/New_York" and booked_campbell["partySize"] == 3
+assert booked_campbell["platform"] == "Resy" and booked_campbell["reservationStatus"] == "booked_upcoming"
+assert booked_campbell["attendanceInference"] == "not_proven_by_reservation"
+assert booked_campbell["publicCuration"] == "research_only"
+assert booked_campbell["recognition"]["status"] == "not_verified_as_qualifying"
+assert booked_campbell["childrenPolicy"]["sourceUrl"].startswith("https://www.thecampbellnyc.com/")
+assert not any(r["title"] == "The Campbell" for r in records)
 assert sum(1 for e in reservations if e["reservationStatus"] == "completed") >= 1
 booked_tonchin = next(e for e in reservations if e["id"] == "tonchin-new-york-2026-11-01")
 assert booked_tonchin["name"] == "Tonchin New York"
@@ -385,7 +395,11 @@ print("Culture Passport OK: %d experiences, %d venues, %d interview prospects" %
 
 # Reservation provenance must be distinct from user-confirmed visits.
 evidence = json.loads((ROOT / "data/reservation-evidence.json").read_text(encoding="utf-8"))
-assert len(evidence["entries"]) == 21 and len(evidence["rows"]) == 53 and len({r["name"] for r in evidence["rows"]}) == 47
+assert len(evidence["entries"]) == 22 and len(evidence["rows"]) == 54 and len({r["name"] for r in evidence["rows"]}) == 48
+future_campbell = next(r for r in evidence["rows"] if r["name"] == "The Campbell" and r["date"] == "2026-11-01")
+assert future_campbell["time"] == "19:30" and future_campbell["partySize"] == 3
+assert future_campbell["platform"] == "Resy" and future_campbell["status"] == "upcoming_reservation"
+assert future_campbell["attendanceInference"] == "not_proven_by_reservation"
 future_tonchin = next(r for r in evidence["rows"] if r["name"] == "Tonchin New York")
 assert future_tonchin["date"] == "2026-11-01" and future_tonchin["time"] == "21:00"
 assert future_tonchin["status"] == "upcoming_reservation"
