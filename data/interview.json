@@ -2935,22 +2935,22 @@
       "id": "candidate-kansas-city-metro-lidia-s-kansas-city",
       "area": "Kansas City Metro",
       "name": "Lidia's Kansas City",
-      "recognition": "Historical dining candidate, no Michelin star or restaurant-level James Beard honor asserted",
-      "recognitionYear": null,
-      "awardFamily": "context",
+      "recognition": "Official JBF program connection: Dan Swinney represented Lidia’s Kansas City at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. Not a restaurant award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
       "interviewCue": "Italian restaurant in a historic rail yard building near Union Station; pasta and Italian specialties.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
       "visitStatus": "unreviewed",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Named chef representing exact restaurant at offsite JBF event; no award transferred from other venues."
       },
       "eligibility": {
         "status": "outside_scope",
@@ -7914,7 +7914,7 @@
       "recognition": "Official Foundation program connection: Celina Tio represented The Belfry at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. Not a Belfry award.",
       "recognitionYear": 2017,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_program_connection_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -7929,7 +7929,11 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-29",
         "note": "Offsite named restaurant chef-team participation, not an award or a visit to the restaurant."
-      }
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — skip",
+      "wishlistStatus": "not_requested"
     }
   ],
   "source": {
@@ -8956,12 +8960,12 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "restaurants_and_bars",
+      "category": "restaurants",
       "candidateNames": [
-        "The Belfry"
+        "Lidia’s Kansas City"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited The Belfry at 1532 Grand Boulevard?",
+      "question": "Have you visited Lidia’s Kansas City at 101 West 22nd Street?",
       "continuation": "Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
