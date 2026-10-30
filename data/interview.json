@@ -7830,7 +7830,7 @@
       "recognition": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist.",
       "recognitionYear": 2025,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_recognition_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -7845,6 +7845,34 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-29",
         "note": "2025 program semifinalist, not winner; no transfer to earlier premises."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-acre-parkville",
+      "area": "Kansas City Metro",
+      "name": "Acre (Parkville)",
+      "recognition": "Official James Beard Foundation event connection: chef/owner Andrew Longres of Acre participated in the October 25, 2025 Friends of James Beard Benefit at The American, Kansas City. Not an Acre award or nomination.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "6325 Lewis Street, Suite 119, Parkville, MO",
+      "sourceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+      "interviewCue": "Modern Midwestern restaurant in Parkville with a wood-burning hearth.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Offsite chef-team participation at The American; no Acre award inferred."
       }
     }
   ],
@@ -8874,11 +8902,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "JJ's Restaurant"
+        "Acre (Parkville)"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited JJ’s Restaurant in the West Plaza?",
-      "continuation": "Kansas City 2010–present, then Baltimore. If visited, identify current versus original premises separately."
+      "question": "Have you visited Acre in Parkville?",
+      "continuation": "Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
