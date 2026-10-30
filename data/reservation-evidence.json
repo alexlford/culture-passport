@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
-  "source": "User-provided screenshots of completed restaurant reservations in the OpenTable app.",
-  "policy": "A completed reservation is strong corroborating evidence but does not independently prove diner attendance. The screening of MICHELIN/James Beard status must use named-venue recognition, not simply a high rating or chef at another branch. One explicitly excluded unqualified venue is omitted from this public ledger at the user's request.",
+  "updated": "2026-10-29",
+  "source": "User-provided booking screenshots and related direct recollections, including historical and upcoming reservations.",
+  "policy": "A booked or completed reservation is evidence of a booking, not proof that anyone attended a meal. Confirmed experience requires direct recollection. MICHELIN/James Beard status must be verified for the exact named venue, not simply a high rating or a chef at another branch. An explicitly excluded unqualified venue is omitted from this private ledger at the user's request.",
   "entries": [
     {
       "id": "westward-social-2026-03-13",
@@ -227,9 +227,35 @@
       "screenshot": "IMG_3543.jpeg",
       "attendanceInference": "probable_not_independently_verified",
       "publicCuration": "research_only"
+    },
+    {
+      "id": "tonchin-new-york-2026-11-01",
+      "name": "Tonchin New York",
+      "venueAddress": "13 W 36th St, New York, NY 10018",
+      "reservationDate": "2026-11-01",
+      "reservationTime": "21:00",
+      "timezone": "America/New_York",
+      "partySize": 4,
+      "seating": "Dining Room",
+      "reservationStatus": "booked_upcoming",
+      "source": "user_provided_reservation_screenshot",
+      "screenshot": "EFFB8ED4-7ACF-4F1F-87A1-58B532ACEC0D.png",
+      "screenshotArchiveNote": "Screenshot supplied in the ChatGPT conversation on 2026-10-29; filename and contents observed, image bytes are not committed to this repository.",
+      "attendanceInference": "not_proven_by_reservation",
+      "publicCuration": "research_only",
+      "recordedOn": "2026-10-29",
+      "recognition": {
+        "organization": "MICHELIN Guide",
+        "distinction": "Bib Gourmand",
+        "venue": "Tonchin, 13 W 36th St, Manhattan",
+        "sourceUrl": "https://guide.michelin.com/en/new-york-state/new-york/restaurant/tonchin",
+        "bibGourmandListUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand",
+        "verifiedOn": "2026-10-29"
+      },
+      "note": "Confirmed future reservation. The four guests are reservation party size only, not confirmed attendees. No meal or visit has yet been independently confirmed. Do not publish as a completed Culture Passport experience."
     }
   ],
-  "semantics": "Existing 20 screenshot-corroborated entries are retained exactly; supplemental 39 screenshot-derived rows expand review. A completed reservation does not prove attendance. Explicitly excluded venues are omitted. Resy/Tock screenshots added October 25, 2026 are separate historical booking evidence. They do not establish that every reservation was attended; do not invent a dinner from a booking or copy guest counts into public narratives. Multiple dates for one venue are not duplicates.",
+  "semantics": "Historical reservation and waitlist evidence is preserved. Screenshot-derived rows expand private review. A reservation (including a confirmed upcoming booking) does not prove that a meal happened. Explicitly excluded venues remain omitted. Resy/Tock/OpenTable and other user-provided screenshots are private evidence, not public experience stories; do not copy guest counts or booking dates into visited narratives. Multiple bookings for one venue are not duplicates.",
   "rows": [
     {
       "name": "Westward Social",
@@ -703,6 +729,20 @@
       "publicationEligibility": "requires_independent_michelin_james_beard_review",
       "attendanceInference": "not_proven_by_reservation",
       "sourceBatch": "Resy and Tock screenshots added Oct 25, 2026"
+    },
+    {
+      "name": "Tonchin New York",
+      "date": "2026-11-01",
+      "time": "21:00",
+      "timezone": "America/New_York",
+      "partySize": 4,
+      "seating": "Dining Room",
+      "status": "upcoming_reservation",
+      "sourceType": "user_provided_screenshot",
+      "sourceFile": "EFFB8ED4-7ACF-4F1F-87A1-58B532ACEC0D.png",
+      "publicationEligibility": "michelin_bib_gourmand_requires_confirmed_attendance_and_publication_approval",
+      "attendanceInference": "not_proven_by_reservation",
+      "sourceBatch": "Upcoming reservation screenshot added Oct 29, 2026"
     }
   ]
 }
