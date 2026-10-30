@@ -272,14 +272,72 @@
       "recordedOn": "2026-10-29",
       "recognition": {
         "status": "not_verified_as_qualifying",
-        "note": "The historic setting and its prior role as John W. Campbell's private office do not establish a Michelin/James Beard/CAMRA qualifying honor. Do not count as award-qualified without venue-specific evidence.",
+        "formalAwards": {
+          "verified": false,
+          "auditStatus": "no_matching_michelin_james_beard_or_major_cocktail_industry_award_found_in_targeted_review",
+          "notAnAbsoluteNegative": true,
+          "screenedOn": "2026-10-29",
+          "note": "Targeted searches included MICHELIN Guide listings, James Beard Foundation, Tales of the Cocktail Spirited Awards, World's/North America's 50 Best Bars, venue and hospitality group. Lack of verifiable named-venue formal award is not proof no award has ever existed."
+        },
+        "editorialSelections": [
+          {
+            "publisher": "Tasting Table",
+            "publicationDate": "2023-02-16",
+            "title": "20 Best Cocktail Bars in New York City",
+            "scope": "citywide",
+            "placement": "included (unranked selection)",
+            "venueIdentity": "The Campbell, 15 Vanderbilt Ave",
+            "sourceUrl": "https://www.tastingtable.com/1202094/best-cocktail-bars-in-new-york-city/",
+            "type": "independent_editorial_selection_not_award",
+            "confidence": "verified_primary_publisher"
+          },
+          {
+            "publisher": "Time Out New York",
+            "publicationDate": "2025-03-10",
+            "title": "The 15 best bars in midtown",
+            "scope": "Midtown Manhattan",
+            "placement": "#2 on published list",
+            "venueIdentity": "The Campbell, 15 Vanderbilt Ave",
+            "sourceUrl": "https://www.timeout.com/newyork/bars/best-midtown-bars",
+            "type": "independent_editorial_selection_not_award",
+            "confidence": "verified_primary_publisher"
+          },
+          {
+            "publisher": "Eater New York",
+            "publicationDate": "2017-12-29",
+            "title": "The Most Beautiful New NYC Restaurants of 2017",
+            "scope": "New York City venue-design coverage",
+            "placement": "included (unranked)",
+            "venueIdentity": "The Campbell following 2017 re-opening",
+            "sourceUrl": "https://ny.eater.com/2017/12/29/16830236/best-design-nyc-restaurants-2017",
+            "type": "design_editorial_selection_not_award",
+            "confidence": "verified_primary_publisher"
+          }
+        ],
+        "historicalUnverified": [
+          {
+            "formerName": "The Campbell Apartment",
+            "period": "pre-2017",
+            "claim": "Playboy recognized the bar as one of the 20 best bars in America",
+            "sourceUrl": "https://culinarygourmet.wordpress.com/2008/01/24/campbell-apartment/",
+            "confidence": "secondary_reproduction_only_original_list_not_located",
+            "attributionCaution": "2008 item describes prior operator at same space; cannot treat as a 2026 award to Gerber Group's The Campbell."
+          }
+        ],
+        "classification": {
+          "currentPolicy": "not_formally_qualified",
+          "possibleExpandedTier": "editorially_recognized_bar",
+          "tierRecommendation": "Strong candidate for a distinct curated editorial-recognition tier if user approves a broader rule; never label as a Michelin/JBF award or Tales of the Cocktail honor.",
+          "visitRequirement": "User must confirm attendance; booked upcoming reservation is not an experience.",
+          "publicationStatus": "private_research_only"
+        },
         "reviewedOn": "2026-10-29"
       },
       "childrenPolicy": {
         "note": "Guests under 21 are welcomed until 9pm when accompanied by a legal parent or guardian. No child attendance is inferred from reservation party size.",
         "sourceUrl": "https://www.thecampbellnyc.com/location/the-campbell/"
       },
-      "note": "Confirmed future Resy booking; 3 is booking party size only, not a list of actual attendees. The same evening has a separate Tonchin reservation for 4 guests at 9:00 PM; do not conflate party sizes, visits, or venues. Do not promote to completed Culture Passport experience without confirmed attendance and qualification review."
+      "note": "Confirmed future Resy booking for 3 at 7:30 PM. Formal qualifying award not verified; three credible venue-specific editorial selections documented (Time Out 2025 #2 Midtown, Tasting Table 2023 NYC top-20, Eater 2017 design), which are not industry awards. Proposed editorial-recognition tier is not yet approved. Historical Playboy claim is unverified. The four-person 9:00 PM Tonchin reservation is separate. Do not assert attendance or publish this as a completed Culture Passport experience."
     }
   ],
   "semantics": "Historical reservation and waitlist evidence is preserved. Screenshot-derived rows expand private review. A reservation (including a confirmed upcoming booking) does not prove that a meal happened. Explicitly excluded venues remain omitted. Resy/Tock/OpenTable and other user-provided screenshots are private evidence, not public experience stories; do not copy guest counts or booking dates into visited narratives. Multiple bookings for one venue are not duplicates.",
