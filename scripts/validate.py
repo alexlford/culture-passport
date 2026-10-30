@@ -44,7 +44,15 @@ justus_wish = next(x for x in wishlist["entries"] if x["candidateId"] == justus[
 assert justus_wish["visitStatus"] == "not_visited" and justus_wish["status"] == "want_to_visit"
 assert justus_wish["bookable"] is False
 assert not any(r["title"] == "Justus Drugstore" for r in records)
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Yoli Tortilleria"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Anjin"]
+yoli = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-yoli-tortilleria")
+assert yoli["visitStatus"] == "not_visited" and yoli["wantsToVisit"] is True
+assert yoli["wishlistEntryId"] == "want-to-visit-yoli-tortilleria-westside-kansas-city"
+yoli_wish = next(e for e in wishlist["entries"] if e["candidateId"] == yoli["id"])
+assert yoli_wish["visitStatus"] == "not_visited" and yoli_wish["status"] == "want_to_visit"
+assert yoli_wish["category"] == "bakery"
+assert yoli_wish["location"]["address"] == "1668 Jefferson Street"
+assert not any(r["title"] == "Yoli Tortilleria" for r in records)
 wild = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-wild-child")
 assert wild["visitStatus"] == "not_visited" and wild["wantsToVisit"] is True
 assert wild["wishlistEntryId"] == "want-to-visit-wild-child-shawnee"
@@ -59,7 +67,7 @@ fern_wish = next(e for e in wishlist["entries"] if e["candidateId"] == fern["id"
 assert fern_wish["visitStatus"] == "not_visited" and fern_wish["status"] == "want_to_visit"
 assert fern_wish["category"] == "bar"
 assert not any(r["title"] == "Fern Bar" for r in records)
-assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-yoli-tortilleria")["visitStatus"] == "unreviewed"
+assert next(c for c in candidates if c["id"] == "candidate-kc-anjin-crossroads")["visitStatus"] == "unreviewed"
 monarch = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-the-monarch-bar")
 assert monarch["visitStatus"] == "not_visited" and monarch["wantsToVisit"] is True
 assert monarch["wishlistEntryId"] == "want-to-visit-the-monarch-bar-kansas-city"
@@ -308,7 +316,7 @@ assert pdt["sourceUrl"].startswith("https://archive.jamesbeard.org")
 assert not any(r["title"] == "PDT (Please Don't Tell)" for r in records)
 for name, area in [("Clover Club", "New York City"), ("Columbia Room", "Washington, DC"),
                    
-                   ("Yoli Tortilleria", "Kansas City Metro")]:
+                   ("Anjin", "Kansas City Metro")]:
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == area)
     assert candidate["visitStatus"] == "unreviewed"
     assert candidate["screening"]["status"] == "award_qualified"
