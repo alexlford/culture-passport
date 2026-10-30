@@ -325,7 +325,17 @@ assert (ROOT / "assets/app.js").exists()
 assert (ROOT / "assets/site.css").exists()
 evidence_data = json.loads((ROOT / "data/reservation-evidence.json").read_text(encoding="utf-8"))
 reservations = evidence_data["entries"]
-assert len(reservations) == 20 and len({e["id"] for e in reservations}) == 20
+assert len(reservations) == 21 and len({e["id"] for e in reservations}) == 21
+assert sum(1 for e in reservations if e["reservationStatus"] == "completed") >= 1
+booked_tonchin = next(e for e in reservations if e["id"] == "tonchin-new-york-2026-11-01")
+assert booked_tonchin["name"] == "Tonchin New York"
+assert booked_tonchin["reservationDate"] == "2026-11-01" and booked_tonchin["reservationTime"] == "21:00"
+assert booked_tonchin["partySize"] == 4 and booked_tonchin["seating"] == "Dining Room"
+assert booked_tonchin["reservationStatus"] == "booked_upcoming"
+assert booked_tonchin["attendanceInference"] == "not_proven_by_reservation"
+assert booked_tonchin["publicCuration"] == "research_only"
+assert booked_tonchin["recognition"]["distinction"] == "Bib Gourmand"
+assert not any(r["title"] == "Tonchin New York" for r in records)  # Future booking is not a completed experience
 assert all(e["reservationDate"] and e["partySize"] >= 1 and e["source"] == "user_provided_reservation_screenshot" for e in reservations)
 assert not any(e["name"] == "Le Fou Frog" for e in reservations)
 assert sum(1 for e in reservations if e["name"] == "Ritual Social House") == 2
@@ -375,7 +385,11 @@ print("Culture Passport OK: %d experiences, %d venues, %d interview prospects" %
 
 # Reservation provenance must be distinct from user-confirmed visits.
 evidence = json.loads((ROOT / "data/reservation-evidence.json").read_text(encoding="utf-8"))
-assert len(evidence["entries"]) == 20 and len(evidence["rows"]) == 52 and len({r["name"] for r in evidence["rows"]}) == 46
+assert len(evidence["entries"]) == 21 and len(evidence["rows"]) == 53 and len({r["name"] for r in evidence["rows"]}) == 47
+future_tonchin = next(r for r in evidence["rows"] if r["name"] == "Tonchin New York")
+assert future_tonchin["date"] == "2026-11-01" and future_tonchin["time"] == "21:00"
+assert future_tonchin["status"] == "upcoming_reservation"
+assert future_tonchin["attendanceInference"] == "not_proven_by_reservation"
 assert not any(r["name"] == "Le Fou Frog" for r in evidence["rows"])
 assert not any(r["title"] == "Le Fou Frog" for r in records)
 republique = next(r for r in records if r["title"] == "République")
