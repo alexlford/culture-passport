@@ -2967,7 +2967,9 @@
         "identityConfirmed": true,
         "confirmedOn": "2026-10-29",
         "source": "Direct user confirmation",
-        "recalled": "Visited Lidia’s Kansas City in the Freight House; date, occasion, companions and dishes not yet provided."
+        "recalled": "Confirmed visit to Lidia’s Kansas City in the Freight House. User remembers the occasion or company and classified it as 'Date or anniversary'. Specific occasion, companion identity, year and dishes remain unspecified.",
+        "occasionCategory": "date_or_anniversary",
+        "occasionUserQuote": "Date or anniversary"
       }
     },
     {
@@ -8975,7 +8977,7 @@
         "Lidia’s Kansas City"
       ],
       "status": "awaiting_memory_details",
-      "question": "What do you remember most about your visit to Lidia’s Kansas City?",
+      "question": "Roughly when was your date or anniversary outing at Lidia’s Kansas City?",
       "continuation": "Preserve confirmed attendance. Ask optional approximate year, occasion, food or atmosphere without inferring details. Then continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
