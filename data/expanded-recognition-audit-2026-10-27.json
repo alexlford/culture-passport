@@ -5,13 +5,13 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 49,
-    "canonicalDistinctVenues": 47,
+    "restaurantEntriesReviewed": 54,
+    "canonicalDistinctVenues": 49,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 52,
-    "restaurantEntriesPendingRecognitionReview": 3
+    "restaurantEntriesTracked": 54,
+    "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
     "formal_michelin_jbf_recognition": "Actual Michelin Star, Bib Gourmand, Selected/Recommended, historical Plate or Michelin restaurant-linked special award, or James Beard semifinalist/finalist/winner tied to named restaurant/chef at that venue, with year, tier and primary source. Only this sets editorial.awardQualified=true.",
@@ -80,10 +80,10 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 21,
+    "archived_pending_recognition": 18,
     "formal_michelin_jbf_recognition": 22,
-    "personal_featured_exception": 6,
-    "official_program_or_editorial_connection": 3
+    "personal_featured_exception": 9,
+    "official_program_or_editorial_connection": 5
   },
   "confirmedRestaurants": [
     {
@@ -1514,9 +1514,9 @@
         "dining-millworks-cambridge-visit-date-unknown"
       ],
       "repeatCountRecords": 1,
-      "collectionTier": "archived_pending_recognition",
+      "collectionTier": "personal_featured_exception",
       "formalAwardOrGuideQualified": false,
-      "personalFeaturedException": false,
+      "personalFeaturedException": true,
       "officialProgramConnection": false,
       "officialSourceUrls": [
         "https://themillworks.co.uk/"
@@ -1524,11 +1524,11 @@
       "historicalGuide": "not_verified",
       "formalRecognitions": [],
       "officialFeatures": [],
-      "reviewResult": "Canonical confirmed memory added after the original audit. Venue-specific recognition research remains pending; no award, guide distinction or publication approval inferred.",
+      "reviewResult": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
       "watchlistId": "venue-millworks-cambridge",
-      "reviewedOn": null,
+      "reviewedOn": "2026-10-31",
       "integrationOn": "2026-10-28",
-      "recognitionReviewStatus": "pending"
+      "recognitionReviewStatus": "reviewed"
     },
     {
       "venueId": "venue-parkers-tavern-cambridge",
@@ -1541,9 +1541,9 @@
         "dining-parkers-tavern-cambridge-date-unknown"
       ],
       "repeatCountRecords": 1,
-      "collectionTier": "archived_pending_recognition",
+      "collectionTier": "personal_featured_exception",
       "formalAwardOrGuideQualified": false,
-      "personalFeaturedException": false,
+      "personalFeaturedException": true,
       "officialProgramConnection": false,
       "officialSourceUrls": [
         "https://parkerstavern.com/",
@@ -1552,11 +1552,11 @@
       "historicalGuide": "not_verified",
       "formalRecognitions": [],
       "officialFeatures": [],
-      "reviewResult": "Canonical confirmed memory added after the original audit. Venue-specific recognition research remains pending; no award, guide distinction or publication approval inferred.",
+      "reviewResult": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
       "watchlistId": "venue-parkers-tavern-cambridge",
-      "reviewedOn": null,
+      "reviewedOn": "2026-10-31",
       "integrationOn": "2026-10-28",
-      "recognitionReviewStatus": "pending"
+      "recognitionReviewStatus": "reviewed"
     },
     {
       "venueId": "venue-fitzbillies-original-trumpington-cambridge",
@@ -1569,9 +1569,9 @@
         "dining-fitzbillies-trumpington-cambridge-date-unknown"
       ],
       "repeatCountRecords": 1,
-      "collectionTier": "archived_pending_recognition",
+      "collectionTier": "personal_featured_exception",
       "formalAwardOrGuideQualified": false,
-      "personalFeaturedException": false,
+      "personalFeaturedException": true,
       "officialProgramConnection": false,
       "officialSourceUrls": [
         "https://www.fitzbillies.com/pages/trumpington-street"
@@ -1579,11 +1579,11 @@
       "historicalGuide": "not_verified",
       "formalRecognitions": [],
       "officialFeatures": [],
-      "reviewResult": "Canonical confirmed memory added after the original audit. Venue-specific recognition research remains pending; no award, guide distinction or publication approval inferred.",
+      "reviewResult": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
       "watchlistId": "venue-fitzbillies-original-trumpington-cambridge",
-      "reviewedOn": null,
+      "reviewedOn": "2026-10-31",
       "integrationOn": "2026-10-28",
-      "recognitionReviewStatus": "pending"
+      "recognitionReviewStatus": "reviewed"
     },
     {
       "venueId": "venue-rieger-hotel-grill-exchange-kansas-city",
@@ -1715,6 +1715,80 @@
       "reviewResult": "October 30, 2026 evening dinner directly confirmed by the user. Exact restaurant association and Amy Racine's 2026 semifinalist recognition independently verified in official JBF and restaurant sources. No dishes, guests, or personal impressions inferred. Private story pending publication approval.",
       "watchlistId": null,
       "reviewedOn": "2026-10-30"
+    },
+    {
+      "venueId": "venue-lidias-kansas-city",
+      "restaurantName": "Lidia's Kansas City",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-lidias-kansas-city-2015-2019"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "official_program_or_editorial_connection",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": true,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "https://www.lidias-kc.com/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America event participation",
+          "relationship": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art.",
+          "venueScope": "exact_visited_venue",
+          "recognitionType": "event_participation",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ],
+      "reviewResult": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. This is an official program connection, not an award or evidence of attendance at that event.",
+      "watchlistId": "venue-lidias-kansas-city",
+      "reviewedOn": "2026-10-31",
+      "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-rozzelle-court-kansas-city",
+      "restaurantName": "Rozzelle Court Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-rozzelle-court-kansas-city-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "official_program_or_editorial_connection",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": true,
+      "officialSourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "https://www.nelson-atkins.org/visit/things-to-do/rozzelle-court/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America event participation",
+          "relationship": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef.",
+          "venueScope": "exact_visited_venue",
+          "recognitionType": "event_participation",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ],
+      "reviewResult": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef. This is an official program connection, not an award or evidence of attendance at that event.",
+      "watchlistId": "venue-rozzelle-court-kansas-city",
+      "reviewedOn": "2026-10-31",
+      "recognitionReviewStatus": "reviewed"
     }
   ],
   "futureAudit": {

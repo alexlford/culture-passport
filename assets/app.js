@@ -420,11 +420,11 @@
     for(const a of r.recognitions||[]){
       if(a.recognitionAtDifferentVenue)continue;
       const b=el("div","award-card");
-      b.append(el("strong","",a.organization+" · "+a.category+" · "+a.year),
+      b.append(el("strong","",a.organization+" · "+a.category+(a.year?" · "+a.year:"")),
         el("p","",a.recipient+" · "+a.result));
       if(a.relationship)b.append(el("p","",a.relationship));
       if(a.timingRelativeToVisit==="after_visit")b.append(el("p","","Recognized after the remembered visit."));
-      if(a.sourceUrl)b.append(link("Award source ↗",a.sourceUrl));
+      if(a.sourceUrl)b.append(link(a.organization==="CAMRA"?"CAMRA recognition source ↗":"Award source ↗",a.sourceUrl));
       badges.append(b);
     }
     if(badges.childElementCount)host.append(el("h2","","Why it stands out"),badges);

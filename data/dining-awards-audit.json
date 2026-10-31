@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 47,
-    "distinctPublishedVenues": 44,
+    "canonExperienceRecords": 50,
+    "distinctPublishedVenues": 47,
     "recognized": 24,
-    "featuredPersonal": 7,
-    "officiallyFeatured": 3,
-    "unfeaturedOther": 10,
+    "featuredPersonal": 15,
+    "officiallyFeatured": 5,
+    "unfeaturedOther": 4,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -764,11 +764,13 @@
       "rememberedPeriods": [
         "Cambridge visit · year unspecified"
       ],
-      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "recognitionStatus": "personal_featured_exception",
       "sourceUrls": [
         "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle"
       ],
-      "recognitionSummary": [],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ],
       "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
       "visitConfidence": "confirmed_location_date_unknown",
       "publicationStatus": "archived_private_not_curated"
@@ -784,11 +786,13 @@
       "rememberedPeriods": [
         "Cambridge visit · year unspecified"
       ],
-      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "recognitionStatus": "personal_featured_exception",
       "sourceUrls": [
         "https://www.anchorcambridge.com/"
       ],
-      "recognitionSummary": [],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ],
       "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
       "visitConfidence": "confirmed_location_date_unknown",
       "publicationStatus": "archived_private_not_curated"
@@ -804,11 +808,13 @@
       "rememberedPeriods": [
         "Cambridge visit · year unspecified"
       ],
-      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "recognitionStatus": "personal_featured_exception",
       "sourceUrls": [
         "https://www.themillpubcambridge.com/"
       ],
-      "recognitionSummary": [],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ],
       "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
       "visitConfidence": "confirmed_location_date_unknown",
       "publicationStatus": "archived_private_not_curated"
@@ -824,11 +830,13 @@
       "rememberedPeriods": [
         "GMI colleague dinner · year unspecified"
       ],
-      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "recognitionStatus": "personal_featured_exception",
       "sourceUrls": [
         "https://themillworks.co.uk/"
       ],
-      "recognitionSummary": [],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ],
       "editorialNote": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification.",
       "visitConfidence": "confirmed_location_date_unknown",
       "publicationStatus": "archived_private_not_curated"
@@ -845,11 +853,15 @@
       "rememberedPeriods": [
         "Cambridge stay at University Arms · date unknown"
       ],
-      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "recognitionStatus": "personal_featured_exception",
       "sourceUrls": [
-        "https://parkerstavern.com/"
+        "https://parkerstavern.com/",
+        "https://universityarms.com/eat-and-drink/"
       ],
-      "recognitionSummary": [],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ],
       "editorialNote": "Record confirmed dining and drinks at this venue. Do not infer venue-specific Michelin/JBF recognition from hotel's listing.",
       "visitConfidence": "confirmed_dining_and_drinks_same_venue",
       "publicationStatus": "archived_private_not_curated"
@@ -865,11 +877,13 @@
       "rememberedPeriods": [
         "Café dining or afternoon tea · Cambridge visit; exact date unknown"
       ],
-      "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
+      "recognitionStatus": "personal_featured_exception",
       "sourceUrls": [
         "https://www.fitzbillies.com/pages/trumpington-street"
       ],
-      "recognitionSummary": [],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ],
       "editorialNote": "Confirmed original Fitzbillies café dining or afternoon tea, with separate permanent recognition watchlist. No awards inferred.",
       "visitConfidence": "confirmed_visit_service_type_not_disambiguated",
       "publicationStatus": "archived_private_not_curated"
@@ -967,6 +981,71 @@
       "editorialNote": "Confirmed first-hand dinner on October 30, 2026. Order, companions and impressions not supplied; no Michelin listing claimed. Private story awaits explicit publication review.",
       "visitConfidence": "direct_user_confirmation_exact_date",
       "publicationStatus": "private_pending_story_review"
+    },
+    {
+      "venueId": "venue-lidias-kansas-city",
+      "name": "Lidia's Kansas City",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-lidias-kansas-city-2015-2019"
+      ],
+      "rememberedPeriods": [
+        "2015–2019 · date or anniversary outing"
+      ],
+      "visitConfidence": "direct_user_confirmation",
+      "publicationStatus": "private_pending_story_review",
+      "recognitionStatus": "official_program_connection",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "https://www.lidias-kc.com/"
+      ],
+      "recognitionSummary": [
+        "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. This is an official program connection, not an award or evidence of attendance at that event."
+      ]
+    },
+    {
+      "venueId": "venue-rozzelle-court-kansas-city",
+      "name": "Rozzelle Court Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-rozzelle-court-kansas-city-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Dining visit · date unknown"
+      ],
+      "visitConfidence": "direct_user_confirmation",
+      "publicationStatus": "private_pending_story_review",
+      "recognitionStatus": "official_program_connection",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "https://www.nelson-atkins.org/visit/things-to-do/rozzelle-court/"
+      ],
+      "recognitionSummary": [
+        "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef. This is an official program connection, not an award or evidence of attendance at that event."
+      ]
+    },
+    {
+      "venueId": "venue-kingston-arms-cambridge",
+      "name": "The Kingston Arms",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "experienceIds": [
+        "bar-kingston-arms-cambridge-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Cambridge visit · year unspecified"
+      ],
+      "visitConfidence": "direct_user_confirmation",
+      "publicationStatus": "private_pending_story_review",
+      "recognitionStatus": "personal_featured_exception",
+      "sourceUrls": [
+        "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle"
+      ],
+      "recognitionSummary": [
+        "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
+      ]
     }
   ],
   "confirmedArchiveOnly": [

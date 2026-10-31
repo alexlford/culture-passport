@@ -537,6 +537,86 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-eagle-cambridge-visit-date-unknown",
+      "title": "The Eagle",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-anchor-cambridge-visit-date-unknown",
+      "title": "The Anchor",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-mill-pub-cambridge-visit-date-unknown",
+      "title": "The Mill (pub)",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-millworks-cambridge-visit-date-unknown",
+      "title": "MillWorks",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-parkers-tavern-cambridge-date-unknown",
+      "title": "Parker's Tavern",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-parkers-tavern-cambridge-date-unknown",
+      "title": "Parker's Tavern Bar",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-fitzbillies-trumpington-cambridge-date-unknown",
+      "title": "Fitzbillies (original Trumpington Street)",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-lidias-kansas-city-2015-2019",
+      "title": "Lidia's Kansas City",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-rozzelle-court-kansas-city-date-unknown",
+      "title": "Rozzelle Court Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-kingston-arms-cambridge-date-unknown",
+      "title": "The Kingston Arms",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
