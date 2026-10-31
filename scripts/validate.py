@@ -117,9 +117,18 @@ assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
 assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
-    "Rye (Plaza)"]
+    "Extra Virgin"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
-assert rye_plaza["visitStatus"] == "unreviewed"
+assert rye_plaza["visitStatus"] == "confirmed"
+assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
+rye_visit = next(r for r in records if r["id"] == rye_plaza["confirmedVisitId"])
+assert rye_visit["status"] == "confirmed" and rye_visit["type"] == "dining"
+assert rye_visit["venueId"] == "venue-rye-plaza-kansas-city"
+assert rye_visit["visit"]["date"] is None and rye_visit["visit"]["precision"] == "unknown"
+assert rye_visit["editorial"]["awardQualified"] is False
+assert not rye_visit["recognitions"] and rye_visit["curation"]["verifiedForPublication"] is False
+assert not any(r["title"] == "Rye (Leawood)" and r["status"] == "confirmed" for r in records)
+assert "Leawood" in rye_visit["guide"]["note"] and "Bluestem" in rye_visit["guide"]["note"]
 assert rye_plaza["eligibility"]["verifiedForPublication"] is False
 assert rye_plaza["screening"]["status"] == "memory_only"
 assert len(rye_plaza["photographicEvidence"]) == 2
@@ -148,6 +157,30 @@ assert all(x["sourceUrl"].startswith("https://") and x["renderMode"] == "source_
            and x["imageRights"] == "unverified" and x["caption"] for x in photos)
 assert interview_data["interviewProgress"]["photoEvidencePolicy"]["showPerVenue"] is True
 assert "interview-photo-evidence" in (ROOT / "assets/app.js").read_text(encoding="utf-8")
+
+# Two distinct Hawaii regions are queued, and no attendance is inferred from queueing.
+hilo = interview_data["interviewChapters"]["hiloHawaii"]
+maui = interview_data["interviewChapters"]["mauiHawaii"]
+assert hilo["status"] == maui["status"] == "queued_unreviewed"
+assert hilo["visitClaimsEstablished"] == maui["visitClaimsEstablished"] == 0
+assert hilo["visitYears"] is None and maui["visitYears"] is None
+sequence = [row["area"] for row in interview_data["interviewProgress"]["nextCitySequence"]]
+assert sequence[-3:] == ["Baltimore", "Hilo, Hawaiʻi Island", "Maui, Hawaiʻi"]
+for chapter in (hilo, maui):
+    assert chapter["responseChoices"] == [
+        "Yes, I visited", "Maybe — looks familiar", "No, haven't been", "No, but want to go"]
+    assert chapter["candidateIds"]
+    assert all(next(c for c in candidates if c["id"] == cid)["visitStatus"] == "unreviewed"
+               for cid in chapter["candidateIds"])
+for cid in ["candidate-hilo-lehua-at-imiloa", "candidate-maui-tiffanys-wailuku",
+            "candidate-maui-sale-pepe-lahaina"]:
+    lead = next(c for c in candidates if c["id"] == cid)
+    assert lead["screening"]["evidenceUrl"].startswith("https://www.jamesbeard.org/")
+    assert lead["photographicEvidence"] and all(
+        photo["renderMode"] == "source_link_only" and photo["imageRights"] == "unverified"
+        for photo in lead["photographicEvidence"])
+assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")["visitStatus"] == "maybe"
+assert next(x for x in wishlist["entries"] if x["candidateId"] == "candidate-kc-novel-east-crossroads")["visitStatus"] == "not_visited"
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
@@ -822,6 +855,7 @@ for venue in venues:
             "venue-port-fonda-westport-kansas-city": "Kansas City",
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
             "venue-la-marchande-new-york": "New York",
+            "venue-rye-plaza-kansas-city": "Kansas City",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]

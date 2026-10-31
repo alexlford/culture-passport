@@ -20,7 +20,9 @@
     "Cape Cod": "Period not yet established; user remembers a great fish/seafood restaurant in Boston or on Cape Cod.",
     "Cambridge, UK": "Cambridge, England (work/GMI visit; actual venue visits confirmed, dates not yet specified).",
     "Los Angeles / West Hollywood": "Confirmed République meal October 24, 2026. Other trips with friend Jay near/around West Hollywood; dates and venue names not yet established. An unidentified Taiwanese meal is explicitly remembered, but no precise venue is confirmed.",
-    "South Bay / Space Park": "Visits to restaurants near Northrop Grumman's Space Park campus, 1 Space Park Blvd, Redondo Beach, CA. Exact periods are unknown. Candidate geography: Redondo/Manhattan/Hermosa/Torrance/Gardena, with Palos Verdes as extended scope."
+    "South Bay / Space Park": "Visits to restaurants near Northrop Grumman's Space Park campus, 1 Space Park Blvd, Redondo Beach, CA. Exact periods are unknown. Candidate geography: Redondo/Manhattan/Hermosa/Torrance/Gardena, with Palos Verdes as extended scope.",
+    "Hilo, Hawaiʻi Island": "Historical and future restaurant/bar experiences in Hilo, Hawaiʻi Island; visit years and attendance not yet reviewed.",
+    "Maui, Hawaiʻi": "Island-wide retrospective across Wailuku, Kahului, Lahaina, Kāʻanapali, Kīhei, Wailea and Upcountry; visit years and attendance not yet reviewed."
   },
   "statuses": [
     "unreviewed",
@@ -2777,8 +2779,8 @@
       "awardFamily": "beard",
       "interviewCue": "Country Club Plaza location (opened in 2017), not the original Rye Leawood at 10551 Mission Road. White tiled pillars, black/navy banquette seating, wooden tables and chairs, oversized square lanterns, bar, fried chicken, Midwestern pies. Check the 2017 original dining-room opening photograph.",
       "sourceUrl": "https://www.ryekc.com/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_visit_location_specific_recognition_unverified",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
@@ -2833,7 +2835,13 @@
         }
       ],
       "memoryPhotoCues": "Rye Plaza has dated 2017 opening photos of its white-tile-columned dining room with square lantern pendants, wooden chairs and dark round tables. Distinguish this Missouri Country Club Plaza restaurant from the older Rye in Leawood, Kansas.",
-      "photographicEvidenceReviewOn": "2026-10-31"
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "confirmedVisitId": "dining-rye-plaza-kansas-city-date-unknown",
+      "wantsToVisit": false,
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user reply: I visited Rye Plaza at 4646 Mill Creek Parkway. Record a confirmed visit there, not Rye Leawood, with date unknown.",
+      "visitDate": null,
+      "visitPrecision": "unknown"
     },
     {
       "id": "candidate-kansas-city-metro-the-american-restaurant",
@@ -8253,6 +8261,108 @@
       "attendanceCertainty": "explicit_nonattendance",
       "wishlistDecision": "explicit_no",
       "userResponseQuote": "Culture Passport Kansas City: I did not visit Michael Smith Restaurant and do not want it on my wishlist. Continue the interview with historical photos and all four answer buttons."
+    },
+    {
+      "id": "candidate-hilo-lehua-at-imiloa",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Lehua Restaurant at ʻImiloa",
+      "venueType": "restaurant",
+      "addressHint": "600 ʻImiloa Place, Hilo, HI 96720",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_foundation_award_semifinalist_verified",
+      "awardFamily": "beard",
+      "recognitionYear": 2025,
+      "recognition": "Keoni John Regidor, Lehua, Hilo, HI — James Beard Foundation 2025 Emerging Chef semifinalist; an individual recognition at Lehua, not a restaurant award win.",
+      "sourceUrl": "https://lehuarestaurant.com/",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_chef_in_post",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "sourceTier": "primary_jbf",
+        "verifiedAt": "2026-10-31",
+        "note": "Chef named by JBF alongside Lehua, Hilo; semifinalist only."
+      },
+      "interviewCue": "Lehua at ʻImiloa, Hilo; 600 ʻImiloa Place. Distinct from other Big Island places and unrelated to Maui.",
+      "photographicEvidence": [
+        {
+          "id": "lehua-venue",
+          "label": "Lehua — official restaurant photos",
+          "caption": "Official restaurant's Hilo dining and food photography; date of each photo unspecified.",
+          "photoSubject": "Lehua Restaurant at ʻImiloa in Hilo",
+          "sourceUrl": "https://lehuarestaurant.com/",
+          "sourceOrganization": "Lehua Restaurant",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
+    },
+    {
+      "id": "candidate-maui-tiffanys-wailuku",
+      "area": "Maui, Hawaiʻi",
+      "name": "Tiffany's Restaurant & Bar (Wailuku)",
+      "venueType": "restaurant",
+      "addressHint": "1424 Lower Main Street, Wailuku, HI 96793",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_foundation_award_semifinalist_verified",
+      "awardFamily": "beard",
+      "recognitionYear": 2026,
+      "recognition": "Sheldon Simeon, Tiffany's Restaurant and Bar, Wailuku — Best Chef: Northwest & Pacific semifinalist in 2025 and 2026; exact restaurant and chef, not a winner.",
+      "sourceUrl": "https://tiffanysmaui.com/",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_chef_in_post",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "sourceTier": "primary_jbf",
+        "verifiedAt": "2026-10-31",
+        "note": "Sheldon Simeon named at Tiffany's, Wailuku, 2025–26; distinguish ownership era from earlier Tiffany's visits."
+      },
+      "interviewCue": "Wailuku neighborhood restaurant on Lower Main Street; Sheldon and Janice Simeon took over an earlier-established local business. If visited, determine whether visit was before or after their era.",
+      "photographicEvidence": [
+        {
+          "id": "tiffanys-official",
+          "label": "Tiffany's Wailuku — official interior and food photos",
+          "caption": "Current official venue photographs; may not represent earlier pre-Simeon dining room.",
+          "photoSubject": "Tiffany's Restaurant and Bar, Wailuku",
+          "sourceUrl": "https://tiffanysmaui.com/",
+          "sourceOrganization": "Tiffany's Restaurant and Bar",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
+    },
+    {
+      "id": "candidate-maui-sale-pepe-lahaina",
+      "area": "Maui, Hawaiʻi",
+      "name": "Sale Pepe Pizzeria e Cucina (Lahaina)",
+      "venueType": "restaurant",
+      "addressHint": "Current: 157 Kupuohi Street, Suite J1, Lahaina, HI 96761; historical pre-August 2023 Front Street-area restaurant destroyed in Lahaina wildfire",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_foundation_award_semifinalist_verified",
+      "awardFamily": "beard",
+      "recognitionYear": 2026,
+      "recognition": "Michele Di Bari, Sale Pepe, Lahaina, HI — 2026 James Beard Best Chef: Northwest & Pacific semifinalist; chef recognition, not a restaurant win. Original location was lost in 2023 Lahaina fires, reopened at Emerald Plaza in March 2025.",
+      "sourceUrl": "https://www.salepepemaui.com/",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_chef_in_post",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "sourceTier": "primary_jbf",
+        "verifiedAt": "2026-10-31",
+        "note": "2026 attribution to the current reopened restaurant. Do not transfer the new address or design to visits before August 2023."
+      },
+      "interviewCue": "Lahaina Italian restaurant, original location lost during 2023 fire and reopened 2025 at Emerald Plaza. Ask which location/era matches if user recognizes it.",
+      "photographicEvidence": [
+        {
+          "id": "salepepe-official",
+          "label": "Sale Pepe Lahaina — official photos and rebuilding history",
+          "caption": "Official restaurant site documents current rebuilt location; images of the newer premises must not be described as pre-2023 interiors.",
+          "photoSubject": "Sale Pepe Pizzeria e Cucina, Lahaina",
+          "sourceUrl": "https://www.salepepemaui.com/",
+          "sourceOrganization": "Sale Pepe",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
     }
   ],
   "source": {
@@ -9072,7 +9182,8 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Rye (Plaza)"
+      "nextCandidate": "Rye (Plaza)",
+      "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -9295,6 +9406,51 @@
         "bar-parkers-tavern-cambridge-date-unknown",
         "dining-fitzbillies-trumpington-cambridge-date-unknown"
       ]
+    },
+    "hiloHawaii": {
+      "status": "queued_unreviewed",
+      "addedOn": "2026-10-31",
+      "directUserRequest": "Let's add Hawaii to the list to interview. Specifically, Hilo and Maui.",
+      "visitYears": null,
+      "visitClaimsEstablished": 0,
+      "interviewMode": "one_venue_at_a_time_with_historical_photos_and_four_buttons",
+      "responseChoices": [
+        "Yes, I visited",
+        "Maybe — looks familiar",
+        "No, haven't been",
+        "No, but want to go"
+      ],
+      "researchPolicy": "Verify Michelin/James Beard/CAMRA or relevant separate recognized cultural awards by venue and historical year, keep venue-level vs chef/brand awards separate, and do not infer attendance or visits to adjacent businesses.",
+      "wishlistPolicy": "Not visited + want to go is private wishlist only; no booking assumption.",
+      "photos": "Official or clearly sourced original venue/era photos with correct captions; no unlicensed rehosting",
+      "location": "Hilo, Hawaiʻi Island (Big Island)",
+      "note": "Distinct from Kailua-Kona; start Hilo city and immediate Hilo-area venues, then extend with user direction",
+      "candidateIds": [
+        "candidate-hilo-lehua-at-imiloa"
+      ]
+    },
+    "mauiHawaii": {
+      "status": "queued_unreviewed",
+      "addedOn": "2026-10-31",
+      "directUserRequest": "Let's add Hawaii to the list to interview. Specifically, Hilo and Maui.",
+      "visitYears": null,
+      "visitClaimsEstablished": 0,
+      "interviewMode": "one_venue_at_a_time_with_historical_photos_and_four_buttons",
+      "responseChoices": [
+        "Yes, I visited",
+        "Maybe — looks familiar",
+        "No, haven't been",
+        "No, but want to go"
+      ],
+      "researchPolicy": "Verify Michelin/James Beard/CAMRA or relevant separate recognized cultural awards by venue and historical year, keep venue-level vs chef/brand awards separate, and do not infer attendance or visits to adjacent businesses.",
+      "wishlistPolicy": "Not visited + want to go is private wishlist only; no booking assumption.",
+      "photos": "Official or clearly sourced original venue/era photos with correct captions; no unlicensed rehosting",
+      "location": "Maui island",
+      "note": "Track historic venues destroyed or relocated after August 2023 Lahaina fires with correct visit-era locations. Do not conflate Maui with Hilo on Hawaiʻi Island.",
+      "candidateIds": [
+        "candidate-maui-tiffanys-wailuku",
+        "candidate-maui-sale-pepe-lahaina"
+      ]
     }
   },
   "interviewProgress": {
@@ -9302,11 +9458,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Rye (Plaza)"
+        "Extra Virgin"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you ever eaten at Rye on the Country Club Plaza, at 4646 Mill Creek Parkway, since its 2017 opening? This is distinct from Rye in Leawood. Use the original 2017 interior photos to jog memory.",
-      "continuation": "One venue at a time with two labeled archival photography sources and four answer buttons (including No, but want to go). Do not transfer Leawood or Bluestem Beard honors to Rye Plaza. Continue KC 2010–present then Baltimore."
+      "question": "Did you eat at Extra Virgin, 1900 Main Street in Kansas City's Crossroads district? This is separate from Michael Smith Restaurant, which you explicitly did not visit.",
+      "continuation": "Keep the Kansas City retrospective active, then Baltimore, then Hilo and Maui. The prior uncertain Bluestem memory remains unresolved and should receive an archival photo follow-up. Always use four answer buttons and correct recognition scope."
     },
     "pausedBatches": [
       {
@@ -9648,6 +9804,18 @@
         "area": "Baltimore",
         "status": "queued_historical_gap_audit",
         "review": "Include previously overlooked and closed historically qualifying venues and preserve recalled/uncertain visit statuses."
+      },
+      {
+        "area": "Hilo, Hawaiʻi Island",
+        "status": "queued_after_baltimore",
+        "period": "historical, visit years TBD",
+        "review": "Hilo restaurants, bars, closed venues and cultural attractions. Begin with 2025 JBF Lehua candidate; expand only with verified awards, authentic venue photos and direct attendance responses."
+      },
+      {
+        "area": "Maui, Hawaiʻi",
+        "status": "queued_after_hilo",
+        "period": "historical, visit years TBD",
+        "review": "Maui island-wide: preserve historical Lahaina before/after fire, Wailuku, Kahului, resort areas and possible award-qualified venues such as Tiffany's and Sale Pepe. Four-button venue-by-venue interview."
       }
     ],
     "detailInterviewPolicy": {

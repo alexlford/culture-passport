@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "project": "Culture Passport",
+  "area": "Kansas City Metro + Hawaii future interview queue",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-rye-plaza",
+    "venue": "Rye Plaza",
+    "address": "4646 Mill Creek Parkway, Kansas City, MO",
+    "visitStatus": "confirmed",
+    "visitDate": null,
+    "visitPrecision": "unknown",
+    "differentFrom": "Rye Leawood",
+    "sourceType": "direct_user_response",
+    "quote": "Culture Passport Kansas City: I visited Rye Plaza at 4646 Mill Creek Parkway. Record a confirmed visit there, not Rye Leawood, with date unknown; preserve recognition attribution and continue the historical Kansas City interview with photographs and all four buttons.",
+    "recognitionScope": "No Rye Plaza-specific Michelin/JBF honor verified; Colby Garrelts' 2013 Best Chef Midwest was at Bluestem, Megan Garrelts' Rye pastry semifinalist listings were attributed to Leawood.",
+    "publication": "private confirmed award-watchlist; story pending review"
+  },
+  "addedInterviewAreas": [
+    {
+      "area": "Hilo, Hawaiʻi Island",
+      "scope": "Hilo and nearby East Hawaiʻi venues",
+      "status": "queued",
+      "visitDates": null,
+      "attendanceUnreviewed": true,
+      "initialCandidates": [
+        "Lehua Restaurant at ʻImiloa"
+      ],
+      "source": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+    },
+    {
+      "area": "Maui, Hawaiʻi",
+      "scope": "Maui island, including Wailuku, Kahului, Lahaina, resort towns and Upcountry",
+      "status": "queued",
+      "visitDates": null,
+      "attendanceUnreviewed": true,
+      "initialCandidates": [
+        "Tiffany's Restaurant and Bar (Wailuku)",
+        "Sale Pepe Pizzeria e Cucina (Lahaina)"
+      ],
+      "source": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+      "locationEraNote": "Do not confuse Sale Pepe pre-2023 destroyed location with post-March 2025 location."
+    }
+  ],
+  "directUserRequest": "Let's add Hawaii to the list to interview. Specifically, Hilo and Maui.",
+  "queuePosition": [
+    "Continue Kansas City 2010–present",
+    "Baltimore",
+    "Hilo Hawaiʻi Island",
+    "Maui"
+  ],
+  "interviewMode": "Historical venue-specific photos and four answer buttons with No, but want to go option",
+  "safety": "Future interview interest does not confirm venue attendance. No public release authorized."
+}

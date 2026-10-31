@@ -1309,6 +1309,18 @@
       "region": "Missouri",
       "country": "USA",
       "location": null
+    },
+    {
+      "id": "venue-rye-plaza-kansas-city",
+      "name": "Rye Plaza",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Country Club Plaza",
+      "address": "4646 Mill Creek Parkway, Kansas City, MO 64112",
+      "location": null,
+      "sourceId": "rye-plaza-kansas-city",
+      "venueScope": "Plaza branch only; not Rye Leawood"
     }
   ],
   "records": [
@@ -7498,6 +7510,83 @@
         "bar-manifesto-kansas-city",
         "dining-rieger-hotel-grill-exchange-kansas-city"
       ]
+    },
+    {
+      "id": "dining-rye-plaza-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "Rye Plaza",
+      "venueId": "venue-rye-plaza-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Rye Plaza dining visit · date unknown",
+        "source": "Direct user confirmation October 31, 2026: 'I visited Rye Plaza at 4646 Mill Creek Parkway. Record a confirmed visit there, not Rye Leawood, with date unknown.'",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_specific_branch_date_unknown",
+        "restaurantOperatingWindow": "Opened November 2017; window is not a user-provided visit date",
+        "otherLocationVisitNotInferred": "Rye Leawood"
+      },
+      "summary": "I visited Rye's Country Club Plaza restaurant at 4646 Mill Creek Parkway. Exact date, occasion, dishes and companions are not specified. No James Beard or Michelin award has been independently verified for this branch.",
+      "memory": {
+        "headline": "A meal at Rye on the Plaza",
+        "teaser": "Confirmed dining at Rye Plaza, distinct from Rye Leawood.",
+        "story": "I ate at Rye on Kansas City's Country Club Plaza. The date and what I ate are not recorded. This is a separate location from Rye Leawood; no visit to that location is implied.",
+        "period": "Kansas City visit · exact date unknown",
+        "source": "Direct user confirmation October 31, 2026"
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No direct award verified for Rye Plaza. Colby Garrelts won 2013 Best Chef: Midwest for Bluestem; Megan's 2017–2020 Rye pastry semifinals are credited to Rye Leawood. Do not transfer these."
+      },
+      "sourceUrl": "https://www.ryekc.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "confirmed_dining_award_watchlist",
+        "basis": "direct_location_attendance_no_site_specific_recognition",
+        "note": "Confirmed Rye Plaza attendance with no verified direct Michelin/JBF recognition. Remains in permanent private award-watchlist for periodic re-evaluation; no award or other-branch visit inferred."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "venue_specific_formal_honor_not_verified",
+        "reason": "The named James Beard recognitions are for other venues/locations. No Rye Plaza honor is verified. Preserve confirmed experience privately rather than counting as formally recognized.",
+        "evidenceUrls": [
+          "https://www.ryekc.com/",
+          "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
+        ],
+        "reviewedOn": "2026-10-31",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "Rye on the Country Club Plaza",
+        "paragraphs": [
+          "You confirmed eating at Rye on the Kansas City Country Club Plaza at 4646 Mill Creek Parkway. Its branch opened in November 2017; your actual visit date remains unknown.",
+          "The restaurant has Midwestern cooking, including fried chicken and pies, but no specific dish has been attributed to your meal.",
+          "Rye Plaza must not be conflated with the distinct Rye Leawood branch. Colby's 2013 James Beard Best Chef: Midwest win came from Bluestem; Megan's Rye pastry semifinalist announcements identify the Leawood location. Those are valuable chef history, not an award attributed to your Plaza visit."
+        ],
+        "sourceUrls": [
+          {
+            "label": "Rye — official restaurant",
+            "url": "https://www.ryekc.com/"
+          },
+          {
+            "label": "Rye Plaza 2017 opening photo tour",
+            "url": "https://www.bizjournals.com/kansascity/news/2017/11/21/rye-plaza-restaurant-photo-tour.html"
+          },
+          {
+            "label": "Kansas City's James Beard restaurants and chefs — Visit KC",
+            "url": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
+          }
+        ]
+      }
     }
   ],
   "origin": {
