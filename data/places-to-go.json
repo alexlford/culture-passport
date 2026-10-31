@@ -1385,6 +1385,42 @@
         "sourceUrl": "https://dirona.com/newly-awarded-distinguished-restaurants-of-north-america-named/"
       },
       "notes": "Explicitly not visited. Award is DiRōNA, not Michelin or James Beard; Michael Smith's 1999 Best Chef Midwest award was at The American Restaurant. Separate from Extra Virgin and closed Michael Smith Restaurant. No booking, meal, or visit date inferred."
+    },
+    {
+      "id": "want-to-visit-stock-hill-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-stock-hill",
+      "name": "Stock Hill",
+      "category": "dining_and_drinks",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-31",
+      "location": {
+        "address": "4800 Main Street, Suite G-001",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.stockhillkc.com/",
+      "userNote": "I have not visited Stock Hill but want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-31",
+        "quote": "Culture Passport Kansas City: I have not visited Stock Hill but want to go. Record nonattendance, add Stock Hill at 4800 Main Street to my private future-visit wishlist, preserve the AAA Four Diamond recognition separately from James Beard and Michelin, and continue with historical photographs and all four answer buttons."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognition": {
+        "organization": "AAA",
+        "designation": "Four Diamond restaurant",
+        "historicalPeriod": "2017–2023",
+        "venueScope": "Exact Stock Hill at 4800 Main Street",
+        "result": "designated restaurant",
+        "awardFamily": "aaa_four_diamond",
+        "sourceUrl": "https://newsroom.aaa.com/wp-content/uploads/2023/02/2023-4D-Restaurants-2-1-2023-1.pdf",
+        "secondarySourceUrl": "https://www.stockhillkc.com/",
+        "notes": "AAA recognition separate from Michelin and James Beard; 2023 AAA Four Diamond list explicitly names Stock Hill in Kansas City."
+      },
+      "notes": "Explicit nonattendance; wishlist only. No dinner, date, companions, visit to the remodeled lounge or confirmed reservation inferred. AAA historical designation does not imply Michelin/JBF award."
     }
   ],
   "interviewConvention": {

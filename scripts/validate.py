@@ -117,7 +117,7 @@ assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
 assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
-    "Stock Hill"]
+    "801 Chophouse"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -210,12 +210,21 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Stock Hill"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["801 Chophouse"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Stock Hill: actual AAA Four Diamond recognition, not a Michelin/JBF award or a visit.
 stock_hill = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-stock-hill")
-assert stock_hill["visitStatus"] == "unreviewed"
+assert stock_hill["visitStatus"] == "not_visited" and stock_hill["wantsToVisit"] is True
+assert stock_hill["wishlistEntryId"] == "want-to-visit-stock-hill-kansas-city"
+stock_wish = next(w for w in wishlist["entries"] if w["candidateId"] == stock_hill["id"])
+assert stock_wish["id"] == "want-to-visit-stock-hill-kansas-city"
+assert stock_wish["status"] == "want_to_visit" and stock_wish["visitStatus"] == "not_visited"
+assert stock_wish["location"]["address"] == "4800 Main Street, Suite G-001"
+assert stock_wish["recognition"]["organization"] == "AAA"
+assert stock_wish["recognition"]["awardFamily"] == "aaa_four_diamond"
+assert stock_wish["recognition"]["sourceUrl"].startswith("https://newsroom.aaa.com/")
+assert not any(r["title"] == "Stock Hill" for r in records)
 assert stock_hill["screening"]["status"] == "distinct_hospitality_award_verified"
 assert stock_hill["screening"]["basis"] == "aaa_four_diamond_exact_restaurant"
 assert stock_hill["awardFamily"] == "aaa_four_diamond"
@@ -227,6 +236,21 @@ assert all(photo["sourceUrl"].startswith("https://") and
            photo["imageRights"] == "unverified" for photo in stock_hill["photographicEvidence"])
 assert not any(r["title"] == "Stock Hill" for r in records)
 assert not any(r["title"] == "Farina" for r in records)
+
+# 801 Chophouse is the original KC Missouri downtown branch, not Leawood.
+chophouse = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-801-chophouse")
+assert chophouse["visitStatus"] == "unreviewed"
+assert "71 E 14th Street" in chophouse["addressHint"]
+assert "Leawood" in chophouse["addressHint"]
+assert chophouse["screening"]["status"] == "distinct_hospitality_award_verified"
+assert chophouse["screening"]["basis"] == "wine_spectator_best_of_award_of_excellence_exact_kc_restaurant"
+assert chophouse["awardFamily"] == "wine_spectator"
+assert chophouse["eligibility"]["verifiedForPublication"] is False
+assert "not a James Beard/Michelin culinary award" in chophouse["recognition"]
+assert len(chophouse["photographicEvidence"]) == 2
+assert all(p["sourceUrl"].startswith("https://") and p["renderMode"] == "source_link_only"
+           and p["imageRights"] == "unverified" for p in chophouse["photographicEvidence"])
+assert not any(r["title"] == "801 Chophouse" for r in records)
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {

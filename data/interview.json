@@ -2587,30 +2587,68 @@
       "id": "candidate-kansas-city-metro-801-chophouse",
       "area": "Kansas City Metro",
       "name": "801 Chophouse",
-      "recognition": "Historical dining candidate, no Michelin star or restaurant-level James Beard honor asserted",
-      "recognitionYear": null,
-      "awardFamily": "context",
-      "interviewCue": "Upscale classic steakhouse in Kansas City's Power & Light District; dark wood, white tablecloths and prime steaks.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "recognition": "Kansas City Power & Light District location of 801 Chophouse earned Wine Spectator Best of Award of Excellence (two glasses) in 2023 and 2025, cited in a city business press report and 2025 local award roundup. This is a wine-program award for the restaurant, not a James Beard/Michelin culinary award. Do not transfer Leawood-only wine or restaurant honors; distinguish the 71 E 14th Street Missouri branch.",
+      "recognitionYear": 2025,
+      "awardFamily": "wine_spectator",
+      "interviewCue": "Classic white-tablecloth steakhouse at 71 East 14th Street in downtown Kansas City's Power & Light District: rich mahogany bar with green leather stools, coppery wood floors, bronze chandeliers, white tablecloths, and a Kansas City Stock Yards mural. Distinguish from sister location in Leawood, Kansas.",
+      "sourceUrl": "https://801chophouse.com/locations/kansas-city/",
       "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "historical_exact_branch_wine_spectator_restaurant_award_verified",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "distinct_hospitality_award_verified",
+        "basis": "wine_spectator_best_of_award_of_excellence_exact_kc_restaurant",
+        "evidenceUrl": "https://www.kcdaily.com/p/cherry-on-top",
+        "sourceTier": "local_2025_awards_roundup_plus_kcbj_2023",
+        "verifiedAt": "2026-10-31",
+        "note": "2025 KC Daily explicitly lists 801 Chophouse (Leawood & KCMO) under Best of Award of Excellence; 2023 Kansas City Business Journal explicitly includes the KC MO location in Wine Spectator 2023 roundup; venue's contemporary award claims are not Michelin/JBF. Distinguish Leawood branch."
       },
       "eligibility": {
-        "status": "outside_scope",
-        "basis": "context",
-        "reason": "No Michelin Guide or James Beard honor established for the named venue.",
-        "screenedOn": "2026-10-25",
+        "status": "verified_other_hospitality_recognition_requires_tier_review",
+        "basis": "wine_spectator_restaurant_wine_program_award",
+        "reason": "Venue-specific Wine Spectator Best of Award of Excellence documented for Kansas City location in 2023 and 2025. This recognition is separate from Michelin/James Beard culinary award tiers and should be labeled as a wine-program honor, not automatically counted as Michelin/JBF.",
+        "screenedOn": "2026-10-31",
         "verifiedForPublication": false
-      }
+      },
+      "sourceUrls": [
+        "https://801chophouse.com/locations/kansas-city/",
+        "https://www.powerandlightdistrict.com/eat-and-drink/801-chophouse",
+        "https://www.bizjournals.com/kansascity/news/2023/06/28/wine-spectator-best-restaurants-for-wine-2023-kc.html",
+        "https://www.kcdaily.com/p/cherry-on-top",
+        "https://www.aaa.com/tripcanvas/restaurant/801-chophouse-kansas-city-AA2967"
+      ],
+      "venueType": "restaurant",
+      "addressHint": "71 E 14th Street, Kansas City, MO 64106 (Power & Light District), not 801 Chophouse at 11616 Ash Street, Leawood, Kansas",
+      "operatingStatus": "operating",
+      "photographicEvidence": [
+        {
+          "id": "801-chophouse-pnl-official-bar",
+          "label": "801 Chophouse Kansas City — actual bar and white-tablecloth dining room",
+          "caption": "Power & Light District's official photo of the Kansas City, Missouri, restaurant shows mahogany liquor bar, green stools and white-clothed tables. Not Leawood.",
+          "photoSubject": "801 Chophouse 71 E 14th St bar and dining room",
+          "sourceUrl": "https://www.powerandlightdistrict.com/eat-and-drink/801-chophouse",
+          "sourceOrganization": "Kansas City Power & Light District",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "801 Chophouse Kansas City polished bar with green barstools and white-clothed dining tables"
+        },
+        {
+          "id": "801-chophouse-pnl-stockyards",
+          "label": "801 Chophouse Kansas City — Stock Yards mural dining room",
+          "caption": "Photograph on Kansas City branch's OpenTable listing shows the Kansas City Stock Yards mural, white tablecloths and dark wood chairs. Date unknown; not evidence of the user's visit.",
+          "photoSubject": "801 Chophouse 71 E 14th St dining room",
+          "sourceUrl": "https://www.opentable.com/801-chophouse-kansas-city",
+          "sourceOrganization": "OpenTable Kansas City branch profile",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "801 Chophouse dining room with large Kansas City Stock Yards wall mural"
+        }
+      ],
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "memoryPhotoCues": "Dark wood and classic white tablecloths; long dark-red mahogany liquor bar, green barstools, Stock Yards mural behind banquet tables. Photos belong to the Power & Light District Missouri branch, distinct from 801 Chophouse Leawood."
     },
     {
       "id": "candidate-kansas-city-metro-stock-hill",
@@ -2621,8 +2659,8 @@
       "awardFamily": "aaa_four_diamond",
       "interviewCue": "Two-story dining room and large marble/stone cocktail bar in former Board of Trade building south of Country Club Plaza (4800 Main). Tall wine displays, sculptural chandeliers, sweeping stair, tall windows and dark upholstered dining chairs; a lounge refresh opened in 2023, so 2023 photos are explicitly later-era.",
       "sourceUrl": "https://www.stockhillkc.com/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_aaa_four_diamond_restaurant_verified",
+      "visitStatus": "not_visited",
+      "researchStatus": "verified_aaa_four_diamond_wishlisted_no_visit",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
@@ -2675,7 +2713,12 @@
         }
       ],
       "photographicEvidenceReviewOn": "2026-10-31",
-      "memoryPhotoCues": "Original: huge window wall, dramatic suspended chandeliers, black metal stair railing, grand steakhouse bar. Later 2023 lounge: emerald velvet chairs and marble cocktail tables. No assumed visit to the lounge from dining-room recollection."
+      "memoryPhotoCues": "Original: huge window wall, dramatic suspended chandeliers, black metal stair railing, grand steakhouse bar. Later 2023 lounge: emerald velvet chairs and marble cocktail tables. No assumed visit to the lounge from dining-room recollection.",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-stock-hill-kansas-city",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "User directly answered: 'I have not visited Stock Hill but want to go. Record nonattendance, add Stock Hill at 4800 Main Street to my private future-visit wishlist, preserve the AAA Four Diamond recognition separately from James Beard and Michelin.'",
+      "attendanceCertainty": "explicit_nonattendance"
     },
     {
       "id": "candidate-kansas-city-metro-corvino-supper-club-tasting-room",
@@ -9265,10 +9308,11 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Stock Hill",
+      "nextCandidate": "801 Chophouse (Power & Light District, KCMO)",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
-      "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award."
+      "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
+      "stockHill": "Explicit not visited, wants to go; AAA Four Diamond separately tagged and no implied experience. Current wishlist address 4800 Main Street Suite G-001."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -9543,11 +9587,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Stock Hill"
+        "801 Chophouse"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you dined at Stock Hill (4800 Main Street, south Country Club Plaza), the two-story modern steakhouse in the former Board of Trade building? Photos of the main bar and later 2023 lounge are distinct eras.",
-      "continuation": "One venue at a time with actual location photos and four buttons. Site-specific historical AAA Four Diamond recognition is verified separately from Michelin/James Beard; preserve no visit before user response. Kansas City then Baltimore, Hilo and Maui."
+      "question": "Have you dined at 801 Chophouse at 71 E 14th Street in the Power & Light District, Kansas City, MO? This is not the sister restaurant in Leawood.",
+      "continuation": "One Kansas City venue at a time with real venue photos and all four answers. Its Wine Spectator wine-program award is separate from Michelin/JBF restaurant recognition. Continue remaining Kansas City historical audit, Baltimore, Hilo and Maui."
     },
     "pausedBatches": [
       {

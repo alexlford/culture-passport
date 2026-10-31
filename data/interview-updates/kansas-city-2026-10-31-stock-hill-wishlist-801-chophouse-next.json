@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-stock-hill",
+    "venue": "Stock Hill",
+    "address": "4800 Main Street, Suite G-001, Kansas City, Missouri",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-stock-hill-kansas-city",
+    "sourceType": "direct_user_response",
+    "sourceQuote": "Culture Passport Kansas City: I have not visited Stock Hill but want to go. Record nonattendance, add Stock Hill at 4800 Main Street to my private future-visit wishlist, preserve the AAA Four Diamond recognition separately from James Beard and Michelin, and continue with historical photographs and all four answer buttons.",
+    "attendance": false,
+    "bookingMade": false
+  },
+  "recognitionGuardrails": {
+    "organization": "AAA",
+    "distinction": "Four Diamond restaurant",
+    "documentedRange": "2017–2023",
+    "official2023Evidence": "https://newsroom.aaa.com/wp-content/uploads/2023/02/2023-4D-Restaurants-2-1-2023-1.pdf",
+    "note": "Direct location specific recognition, no Michelin or James Beard award inferred."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-801-chophouse",
+    "venue": "801 Chophouse — Kansas City Power & Light District",
+    "address": "71 E 14th Street, Kansas City, Missouri 64106",
+    "visitStatus": "unreviewed",
+    "recognition": {
+      "issuer": "Wine Spectator",
+      "distinction": "Best of Award of Excellence (two glasses)",
+      "verifiedForSpecificBranch": [
+        2023,
+        2025
+      ],
+      "evidenceUrls": [
+        "https://www.bizjournals.com/kansascity/news/2023/06/28/wine-spectator-best-restaurants-for-wine-2023-kc.html",
+        "https://www.kcdaily.com/p/cherry-on-top"
+      ],
+      "awardFamily": "wine_program_restaurant",
+      "note": "This is the Kansas City Missouri branch. Distinct from Leawood 801 Chophouse and unrelated to Michelin/JBF culinary awards."
+    },
+    "photographicEvidence": [
+      {
+        "label": "Actual Kansas City restaurant bar and dining room",
+        "url": "https://www.powerandlightdistrict.com/eat-and-drink/801-chophouse"
+      },
+      {
+        "label": "Kansas City Stock Yards mural interior",
+        "url": "https://www.opentable.com/801-chophouse-kansas-city"
+      }
+    ],
+    "responseButtons": [
+      "Yes, I visited",
+      "Maybe — looks familiar",
+      "No, haven't been",
+      "No, but want to go"
+    ]
+  },
+  "publication": {
+    "status": "private",
+    "notes": "Direct negative attendance answer not a Culture Passport qualifying dining visit; no public release."
+  }
+}
