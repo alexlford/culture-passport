@@ -524,7 +524,7 @@
     // Wishlist intent is separate from an actual visit. Keep the old browser-storage
     // namespace and historical "not_visited" answers for backward compatibility.
     const labels={visited:"Visited",maybe:"Possibly visited",not_visited:"Did not visit",
-      want_to_visit:"Haven't been — add to my list"};
+      want_to_visit:"No, but want to go"};
     const statuses=["visited","maybe","not_visited","want_to_visit"];
     const locked=(x)=>["confirmed","not_visited","maybe"].includes(x.visitStatus);
     const answer=(x)=>x.visitStatus==="confirmed"?"visited":
