@@ -609,6 +609,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-toms-town-kansas-city-multiple-visits",
+      "title": "Tom's Town Distilling Co.",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }

@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 49,
-    "distinctPublishedVenues": 46,
+    "canonExperienceRecords": 51,
+    "distinctPublishedVenues": 48,
     "recognized": 23,
     "featuredPersonal": 15,
-    "officiallyFeatured": 5,
-    "unfeaturedOther": 4,
+    "officiallyFeatured": 6,
+    "unfeaturedOther": 5,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -1022,6 +1022,49 @@
       "recognitionSummary": [
         "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified."
       ]
+    },
+    {
+      "venueId": "venue-toms-town-kansas-city",
+      "name": "Tom's Town Distilling Co.",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "bar-toms-town-kansas-city-multiple-visits"
+      ],
+      "rememberedPeriods": [
+        "Many visits; dates unspecified"
+      ],
+      "recognitionStatus": "official_program_connection",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "https://www.toms-town.com/"
+      ],
+      "recognitionSummary": [
+        "Tom’s Town Distilling Co. is credited as reception and dinner beverage supplier at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. This is company-level supplier participation, not an award, nomination, venue endorsement, or an event held at the distillery."
+      ],
+      "visitConfidence": "direct_user_repeated_visit_confirmation",
+      "publicationStatus": "private_pending_story_review"
+    },
+    {
+      "venueId": "venue-j-rieger-kansas-city",
+      "name": "J. Rieger & Co.",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "bar-j-rieger-kansas-city-multiple-visits"
+      ],
+      "rememberedPeriods": [
+        "Many visits; dates unspecified"
+      ],
+      "recognitionStatus": "not_verified",
+      "sourceUrls": [
+        "https://www.jriegerco.com/"
+      ],
+      "recognitionSummary": [
+        "Confirmed repeated distillery visits. No direct qualifying recognition verified; do not transfer The Rieger restaurant or Manifesto honors, or infer visits to separately named bars."
+      ],
+      "visitConfidence": "direct_user_repeated_visit_confirmation",
+      "publicationStatus": "private_archive_not_selected"
     }
   ],
   "confirmedArchiveOnly": [
