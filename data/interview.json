@@ -8633,15 +8633,15 @@
       "addressHint": "214 N 800 Road, Overbrook, Kansas 66524",
       "venueScope": "Exact farmstead dining experience; not downtown Overbrook, Lawrence, or Kansas City proper",
       "sourceUrl": "https://saltwellfarmkitchen.com/",
-      "recognition": "Chef Rozz Petrozz of Saltwell Farm Kitchen in Overbrook, KS, was a James Beard Best Chef: Midwest semifinalist in both 2024 and 2025; chef-in-post honor, not finalist or winner.",
+      "recognition": "Chef Rozz Petrozz at Saltwell Farm Kitchen in Overbrook KS was a 2024 and 2025 James Beard Best Chef: Midwest semifinalist; chef in post, not restaurant award, finalist or winner.",
       "recognitionYear": 2024,
       "recognitionYears": [
         2024,
         2025
       ],
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
-      "researchStatus": "primary_foundation_2024_2025_chef_in_post_semifinalist_verified",
+      "visitStatus": "not_visited",
+      "researchStatus": "explicit_nonattendance_future_wishlist_exact_overbrook_farmstead",
       "addedOn": "2026-10-31",
       "priority": "next",
       "operatingStatus": "operating",
@@ -8696,7 +8696,84 @@
           "altText": "Long candlelit farm table beneath trees and strings of lights"
         }
       ],
-      "photoEvidenceReviewOn": "2026-10-31"
+      "photoEvidenceReviewOn": "2026-10-31",
+      "wishlist": true,
+      "wishlistId": "want-to-visit-saltwell-farm-kitchen-overbrook",
+      "reviewedOn": "2026-10-31",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "reviewSource": "Direct user confirmation 2026-10-31: has not visited Saltwell Farm Kitchen at 214 N 800 Road, Overbrook KS, but wants to go.",
+      "recognitionEvidenceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+      ],
+      "notClaimed": [
+        "Any user visit",
+        "Meal date",
+        "Reservation",
+        "James Beard award win",
+        "Restaurant-level JBF award"
+      ]
+    },
+    {
+      "id": "candidate-lawrence-john-browns-underground",
+      "area": "Kansas City Metro",
+      "subregion": "Lawrence, Kansas (extended regional historical interview; not Kansas City proper)",
+      "name": "John Brown's Underground",
+      "venueType": "cocktail_bar",
+      "addressHint": "7 E 7th Street, Lawrence, KS 66044",
+      "recognition": "John Brown's Underground in Lawrence, Kansas was a 2025 James Beard Outstanding Bar semifinalist; bar-level venue distinction, not finalist or winner.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "sourceUrl": "https://www.explorelawrence.com/listing/john-browns-underground/7551/",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_jbf_2025_outstanding_bar_semifinalist_verified",
+      "addedOn": "2026-10-31",
+      "priority": "next",
+      "operatingStatus": "operating",
+      "interviewCue": "Opened in 2015, low-lit basement speakeasy off 7th Street between Massachusetts and New Hampshire in downtown Lawrence. Historic wooden ceiling, compact candlelit tables, vivid reinterpretation of Curry's John Brown mural with jazz-era figures. Later Aboveground patio (reopened 2025) is separate and not assumed visited.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_2025_outstanding_bar_venue_semifinalist",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-31",
+        "note": "Official JBF Outstanding Bar semifinalist names John Brown's Underground, Lawrence, KS. This is venue-level and not a winner or finalist; preserve unknown visit."
+      },
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "https://www.explorelawrence.com/listing/john-browns-underground/7551/",
+        "https://lawrencekstimes.com/2025/01/23/jbug-petrozz-beard-semifinalists/",
+        "https://www.travelks.com/listing/john-browns-underground/18886/",
+        "https://www.kcur.org/history/2024-11-23/john-brown-bleeding-kansas-free-state-pottawatomie-massacre-lawrence"
+      ],
+      "photographicEvidence": [
+        {
+          "id": "jbug-tourism-interior",
+          "label": "John Brown's Underground — bar and mural",
+          "caption": "Tourism-organization photograph of the precise Lawrence basement venue, featuring a vivid jazz-era mural, wooden bar and tiled floor. Exact photo year unknown; not evidence of the user's attendance.",
+          "photoSubject": "John Brown's Underground downstairs bar",
+          "sourceUrl": "https://www.travelks.com/listing/john-browns-underground/18886/",
+          "sourceOrganization": "Kansas Tourism",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Intimate speakeasy basement bar with a large colorful mural, wood ceiling and stools"
+        },
+        {
+          "id": "jbug-lawrence-tourism-archive",
+          "label": "John Brown's Underground — older bar photo",
+          "caption": "Explore Lawrence tourism archival cocktail-bar image; exact date/location subject must be confirmed by publisher before republishing.",
+          "photoSubject": "Lawrence speakeasy interior",
+          "sourceUrl": "https://www.explorelawrence.com/restaurants/cocktails/",
+          "sourceOrganization": "Explore Lawrence",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Dimly lit speakeasy with vintage lamps and an intimate wooden bar"
+        }
+      ],
+      "photographicEvidenceReviewOn": "2026-10-31"
     }
   ],
   "source": {
@@ -9516,7 +9593,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Saltwell Farm Kitchen — 214 N 800 Road, Overbrook KS (extended historical KC/Lawrence region; Rozz Petrozz 2024 & 2025 JBF semifinalist)",
+      "nextCandidate": "John Brown's Underground — 7 E 7th Street, Lawrence KS; 2025 JBF Outstanding Bar semifinalist (Lawrence regional historical audit)",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -9525,7 +9602,8 @@
       "801Chophouse": "Confirmed user-visited 71 E 14th St Kansas City Missouri, not Leawood; date unknown; Wine Spectator 2023 and 2025 Best of Award of Excellence separately wine_spectator, not Michelin/JBF.",
       "chophouse801": "Confirmed visited 71 East 14th Street downtown KCMO on October 31, 2026; date of actual visit unknown. 2025 Wine Spectator Best of Award of Excellence separate from Michelin/JBF; no Leawood visit inferred.",
       "ofCourse": "Not visited; user wants to go. Confirmed private wishlist of 7753 W 159th St in Overland Park. Swetha Newcomb 2026 Best Chef Midwest semifinalist (chef in post, not winner).",
-      "westportCafe": "Directly confirmed Westport Café & Bar at 419 Westport Road, date unknown; Romain Monnoyeur-Millard official 2024 JBF Best Chef Midwest semifinalist as chef in post, not winner."
+      "westportCafe": "Directly confirmed Westport Café & Bar at 419 Westport Road, date unknown; Romain Monnoyeur-Millard official 2024 JBF Best Chef Midwest semifinalist as chef in post, not winner.",
+      "saltwellFarmKitchen": "Explicitly not visited, user future wishlist only; 214 N 800 Road Overbrook KS. Chef Rozz Petrozz 2024 and 2025 JBF Best Chef Midwest semifinalist in post; not win or restaurant award."
     },
     "losAngeles": {
       "state": "active_research_parallel",
