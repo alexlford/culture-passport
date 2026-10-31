@@ -8152,6 +8152,36 @@
         "https://eldo.us/novel",
         "https://flatlandkc.org/eats-drinks/novel-restaurant-opening-new-chapter-in-east-crossroads/"
       ]
+    },
+    {
+      "id": "candidate-kc-michael-smith-restaurant-crossroads",
+      "area": "Kansas City Metro",
+      "name": "Michael Smith Restaurant (Crossroads, 2007–2019)",
+      "venueType": "restaurant",
+      "addressHint": "1900 Main Street, Kansas City, MO 64108 (former Michael Smith Restaurant within the former Extra Virgin space)",
+      "visitStatus": "unreviewed",
+      "researchStatus": "historical_award_recognition_verified",
+      "recognition": "Chef Michael Smith — James Beard Foundation Outstanding Chef semifinalist in 2009 and 2010 while associated with Michael Smith Restaurant; not a winner of these categories. His 1999 Best Chef Midwest win was at The American Restaurant and cannot be transferred.",
+      "recognitionYear": 2010,
+      "awardFamily": "beard",
+      "priority": "high",
+      "sourceUrl": "https://archive.jamesbeard.org/chef/michael-smith",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_chef_in_post",
+        "evidenceUrl": "https://archive.jamesbeard.org/chef/michael-smith",
+        "sourceTier": "official_jbf_archive",
+        "verifiedAt": "2026-10-31",
+        "note": "Official JBF archive lists Michael Smith Restaurant, Kansas City and 2009/2010 Outstanding Chef semifinals. 1999 win awarded at The American, not this restaurant."
+      },
+      "operatingStatus": "closed_in_2019",
+      "dateWindow": "2007–January 2019",
+      "interviewCue": "Upscale Michael Smith namesake dining room in the Crossroads at 1900 Main Street, adjacent to his Extra Virgin tapas restaurant. The restaurant transitioned into Farina at a separate Baltimore Avenue address in 2019; never infer Farina/Extra Virgin attendance.",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/chef/michael-smith",
+        "https://farinakc.com/farina/",
+        "https://flatlandkc.org/eats-drinks/michael-smiths-italian-restaurant-farina-opening-late-january/"
+      ]
     }
   ],
   "source": {
@@ -9199,11 +9229,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Novel (original Westside location)"
+        "Michael Smith Restaurant (Crossroads, 2007–2019)"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you eat at Novel’s original Westside location at 815 West 17th Street, before its 2018 move?",
-      "continuation": "List compilation only: attendance and wishlist choices with photos, no depth follow-ups. Continue Kansas City 2010–present, then Baltimore."
+      "question": "Did you ever dine at Michael Smith Restaurant, 1900 Main Street, before it closed in January 2019 and the chef opened Farina nearby? Keep the historic restaurant separate from Extra Virgin and Farina.",
+      "continuation": "One venue at a time with tappable visited/maybe/not visited/wishlist responses. Historical recognition only for the actual venue. Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
