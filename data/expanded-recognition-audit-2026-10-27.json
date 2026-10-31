@@ -5,12 +5,12 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 48,
-    "canonicalDistinctVenues": 46,
+    "restaurantEntriesReviewed": 49,
+    "canonicalDistinctVenues": 47,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 51,
+    "restaurantEntriesTracked": 52,
     "restaurantEntriesPendingRecognitionReview": 3
   },
   "rules": {
@@ -81,7 +81,7 @@
   },
   "countsByTier": {
     "archived_pending_recognition": 21,
-    "formal_michelin_jbf_recognition": 21,
+    "formal_michelin_jbf_recognition": 22,
     "personal_featured_exception": 6,
     "official_program_or_editorial_connection": 3
   },
@@ -1679,6 +1679,42 @@
       "reviewResult": "Verified direct Westport restaurant dining. Official 2015/2016/2017 JBF nominations. Time and meal details unknown, visitor story pending human publication approval.",
       "watchlistId": null,
       "reviewedOn": "2026-10-29"
+    },
+    {
+      "venueId": "venue-la-marchande-new-york",
+      "restaurantName": "La Marchande",
+      "city": "New York",
+      "region": "New York",
+      "venueScope": "specified_restaurant_location",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-la-marchande-new-york-2026-10-30"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://www.jfrestaurants.com/location/la-marchande/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "category": "Outstanding Professional in Beverage Service",
+          "year": 2026,
+          "result": "semifinalist",
+          "recipient": "Amy Racine at La Marchande",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "dateRelativeToVisit": "before_visit"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "October 30, 2026 evening dinner directly confirmed by the user. Exact restaurant association and Amy Racine's 2026 semifinalist recognition independently verified in official JBF and restaurant sources. No dishes, guests, or personal impressions inferred. Private story pending publication approval.",
+      "watchlistId": null,
+      "reviewedOn": "2026-10-30"
     }
   ],
   "futureAudit": {

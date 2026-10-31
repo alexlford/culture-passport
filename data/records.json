@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "categories": [
     {
       "id": "dining",
@@ -1266,6 +1266,18 @@
       "location": null,
       "sourceId": "drastic-measures-shawnee-kansas",
       "locationAttribution": "Address from published bar listing, coordinates not yet independently verified."
+    },
+    {
+      "id": "venue-la-marchande-new-york",
+      "name": "La Marchande",
+      "city": "New York",
+      "region": "New York",
+      "country": "USA",
+      "neighborhood": "Financial District",
+      "address": "88 Wall Street, New York, NY 10005",
+      "location": null,
+      "sourceId": "la-marchande-new-york",
+      "locationAttribution": "Exact venue address verified on restaurant and John Fraser Restaurants official websites; no coordinates inferred."
     }
   ],
   "records": [
@@ -6866,6 +6878,100 @@
           {
             "label": "James Beard Foundation — 2026 semifinalist",
             "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-la-marchande-new-york-2026-10-30",
+      "type": "dining",
+      "title": "La Marchande",
+      "venueId": "venue-la-marchande-new-york",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": "2026-10-30",
+        "year": 2026,
+        "possibleYears": [
+          2026
+        ],
+        "precision": "day",
+        "label": "October 30, 2026 · evening",
+        "source": "Direct user confirmation on October 30, 2026: 'I went tonight. Add it to the Culture Passport,' in response to the La Marchande recommendation. This is firsthand attendance evidence, not a reservation-derived inference.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_by_user",
+        "mealType": "dinner",
+        "companionDetails": "not_specified",
+        "orderDetails": "not_specified",
+        "occasionDetails": "not_specified"
+      },
+      "summary": "Confirmed October 30, 2026 evening visit to La Marchande, John Fraser's French market bistro at 88 Wall Street in Lower Manhattan. Amy Racine, named beverage director by the restaurant, was a 2026 James Beard Foundation Outstanding Professional in Beverage Service semifinalist associated with La Marchande. What was ordered, companions and impressions are not yet recorded.",
+      "memory": {
+        "headline": "An evening at La Marchande",
+        "teaser": "Dinner in Lower Manhattan at a French bistro whose beverage director earned 2026 James Beard semifinalist recognition.",
+        "story": "I went to La Marchande in New York on October 30, 2026. I haven't yet recorded the dishes, drinks, company or what stood out from the evening. La Marchande's beverage director Amy Racine was recognized earlier in the year as a James Beard Outstanding Professional in Beverage Service semifinalist.",
+        "period": "October 30, 2026",
+        "source": "Direct user confirmation October 30, 2026; restaurant and beverage-award facts independently verified."
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "result": "semifinalist",
+          "category": "Outstanding Professional in Beverage Service",
+          "recipient": "Amy Racine",
+          "relationship": "Beverage Director at La Marchande, New York, NY; individual professional honor explicitly naming this venue",
+          "timingRelativeToVisit": "before_visit",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No Michelin star, Bib Gourmand or Selected listing claimed. Qualifying honor is the documented 2026 James Beard Foundation semifinalist recognition of Amy Racine at the exact venue."
+      },
+      "sourceUrl": "https://www.lamarchandenyc.com/location/la-marchande/",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "officialFeature": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard_professional_at_named_restaurant",
+        "note": "Amy Racine's 2026 James Beard semifinalist recognition is a professional honor associated with La Marchande, not a restaurant award win or a finalist nomination. Attendance independently confirmed October 30, 2026. Private draft only pending publication approval."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "james_beard_professional_at_named_restaurant",
+        "reason": "Official 2026 James Beard Foundation semifinalist list names Amy Racine at La Marchande; the restaurant identifies her as its beverage director. The recognition predates the confirmed October 30, 2026 meal.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "https://www.jfrestaurants.com/location/la-marchande/"
+        ],
+        "reviewedOn": "2026-10-30",
+        "confidence": "direct_user_confirmation_plus_primary_award_and_venue_sources",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "Dinner at La Marchande on Wall Street",
+        "paragraphs": [
+          "I went to La Marchande in Lower Manhattan on October 30, 2026. I haven't yet supplied details about the dishes, drinks, company or occasion, so those personal memories remain open.",
+          "The restaurant occupies the Wall Street Hotel at 88 Wall Street, with a French market bistro concept from John Fraser.",
+          "In January 2026, the James Beard Foundation named Amy Racine of La Marchande a semifinalist for Outstanding Professional in Beverage Service. It was a professional recognition associated with this specific restaurant, not a Michelin star or an award win."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2026 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+          },
+          {
+            "label": "John Fraser Restaurants — La Marchande and Amy Racine",
+            "url": "https://www.jfrestaurants.com/location/la-marchande/"
+          },
+          {
+            "label": "La Marchande — restaurant address",
+            "url": "https://www.lamarchandenyc.com/location/la-marchande/"
           }
         ]
       }

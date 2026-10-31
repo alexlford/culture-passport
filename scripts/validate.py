@@ -760,6 +760,7 @@ for venue in venues:
             "venue-fitzbillies-original-trumpington-cambridge": "Cambridge",
             "venue-port-fonda-westport-kansas-city": "Kansas City",
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
+            "venue-la-marchande-new-york": "New York",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
@@ -922,3 +923,34 @@ assert next(x for x in candidates if x["name"] == "Soupçon" and x["area"] == "C
 assert all(not (x["restaurantName"] == "Soupçon") for x in expanded_rows)
 assert {r["restaurantName"] for r in expanded_rows if r["collectionTier"] == "official_program_or_editorial_connection"} == {
     "Uchi Denver", "Jack Stack Barbecue (Overland Park)", "Pierpont's at Union Station"}
+
+# NYC dinner: confirm the experience from the user's statement, independently
+# of an award or reservation, and attribute the professional honor precisely.
+la_marchande = next(r for r in records if r["id"] == "dining-la-marchande-new-york-2026-10-30")
+assert la_marchande["status"] == "confirmed" and la_marchande["type"] == "dining"
+assert la_marchande["visit"]["date"] == "2026-10-30" and la_marchande["visit"]["precision"] == "day"
+assert la_marchande["visit"]["evidenceType"] == "direct_user_recollection"
+assert la_marchande["favorite"] is False and la_marchande["editorial"]["awardQualified"] is True
+assert la_marchande["curation"]["verifiedForPublication"] is False
+assert len(la_marchande["recognitions"]) == 1
+la_marchande_award = la_marchande["recognitions"][0]
+assert la_marchande_award["organization"] == "James Beard Foundation"
+assert la_marchande_award["category"] == "Outstanding Professional in Beverage Service"
+assert la_marchande_award["recipient"] == "Amy Racine" and la_marchande_award["year"] == 2026
+assert la_marchande_award["result"] == "semifinalist"
+assert la_marchande_award["timingRelativeToVisit"] == "before_visit"
+assert la_marchande["guide"]["stars"] == 0 and la_marchande["guide"]["distinction"] == "not_verified"
+la_marchande_candidate = next(c for c in candidates if c["id"] == "candidate-new-york-city-la-marchande")
+assert la_marchande_candidate["visitStatus"] == "confirmed"
+assert la_marchande_candidate["confirmedVisitId"] == la_marchande["id"]
+assert la_marchande_candidate["screening"]["status"] == "award_qualified"
+assert any(x["venueId"] == la_marchande["venueId"] and x["recognitionStatus"] == "qualifies"
+           for x in aud["publishedVenues"])
+assert any(x["venueId"] == la_marchande["venueId"]
+           and x["collectionTier"] == "formal_michelin_jbf_recognition"
+           and x["formalAwardOrGuideQualified"] for x in expanded_rows)
+la_marchande_review = next(x for x in json.loads(
+    (ROOT / "data/publication-review.json").read_text(encoding="utf-8")
+)["reviewedRecords"] if x["id"] == la_marchande["id"])
+assert la_marchande_review["status"] == "pending"
+assert la_marchande_review["approvedDigest"] is None
