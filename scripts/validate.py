@@ -117,7 +117,7 @@ assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
 assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
-    "Extra Virgin"]
+    "Farina"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -181,6 +181,30 @@ for cid in ["candidate-hilo-lehua-at-imiloa", "candidate-maui-tiffanys-wailuku",
         for photo in lead["photographicEvidence"])
 assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")["visitStatus"] == "maybe"
 assert next(x for x in wishlist["entries"] if x["candidateId"] == "candidate-kc-novel-east-crossroads")["visitStatus"] == "not_visited"
+
+# Extra Virgin is explicitly NOT visited but is separately wanted; no awards transfer.
+extra_virgin = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-extra-virgin")
+assert extra_virgin["visitStatus"] == "not_visited" and extra_virgin["wantsToVisit"] is True
+assert extra_virgin["wishlistEntryId"] == "want-to-visit-extra-virgin-kansas-city"
+extra_wish = next(e for e in wishlist["entries"] if e["candidateId"] == extra_virgin["id"])
+assert extra_wish["id"] == extra_virgin["wishlistEntryId"]
+assert extra_wish["visitStatus"] == "not_visited" and extra_wish["status"] == "want_to_visit"
+assert extra_wish["location"]["address"] == "1900 Main Street"
+assert extra_wish["website"] == "https://www.extravirginkc.com/"
+assert not any(r["title"] == "Extra Virgin" and r["status"] == "confirmed" for r in records)
+# Farina is the next candidate with its OWN DiRoNA award, not Michael Smith's Beard prize.
+farina = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-farina")
+assert farina["visitStatus"] == "unreviewed"
+assert farina["screening"]["status"] == "distinct_hospitality_award_verified"
+assert farina["screening"]["basis"] == "dirona_award_of_excellence_exact_restaurant"
+assert farina["awardFamily"] == "dirona"
+assert farina["eligibility"]["verifiedForPublication"] is False
+assert "not a James Beard or Michelin honor" in farina["recognition"]
+assert len(farina["photographicEvidence"]) == 2
+assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
+           for p in farina["photographicEvidence"])
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Farina"]
+assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {

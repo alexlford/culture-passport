@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-extra-virgin",
+    "venue": "Extra Virgin",
+    "address": "1900 Main Street, Kansas City, Missouri",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-extra-virgin-kansas-city",
+    "sourceType": "direct_user_response",
+    "sourceQuote": "Culture Passport Kansas City: I have not visited Extra Virgin but want to go. Record nonattendance, add Extra Virgin to my private future-visit wishlist, and continue with historical photos and all four buttons.",
+    "attendance": false,
+    "bookingMade": false
+  },
+  "recognitionGuardrails": {
+    "chefMichaelSmith1999AwardVenue": "The American Restaurant",
+    "note": "A prior chef's James Beard award does not count as Extra Virgin's own venue award. Extra Virgin remains unvisited and is separately wishlisted.",
+    "venueOfficialWebsite": "https://www.extravirginkc.com/"
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-farina",
+    "venue": "Farina",
+    "address": "19 W 19th Street (also 1901 Baltimore Ave), Kansas City, MO",
+    "visitStatus": "unreviewed",
+    "recognition": {
+      "organization": "Distinguished Restaurants of North America (DiRōNA)",
+      "award": "Award of Excellence",
+      "year": 2023,
+      "announcement": "2024",
+      "result": "awarded restaurant",
+      "scope": "exact current Farina venue",
+      "sourceUrl": "https://dirona.com/newly-awarded-distinguished-restaurants-of-north-america-named/"
+    },
+    "guardrail": "DiRoNA hospitality award is neither Michelin nor James Beard, and Michael Smith's 1999 Beard award is tied to The American Restaurant.",
+    "photos": [
+      {
+        "label": "2019 Farina restaurant interior",
+        "url": "https://www.bizjournals.com/kansascity/news/2019/01/29/chef-michael-smith-sneak-peek-farina.html"
+      },
+      {
+        "label": "Farina design photography",
+        "url": "https://mydesignkc.com/the-designkc-awards/992-farina/"
+      }
+    ],
+    "responses": [
+      "Yes, I visited",
+      "Maybe — looks familiar",
+      "No, haven't been",
+      "No, but want to go"
+    ]
+  },
+  "publication": {
+    "status": "private_not_authorized",
+    "notes": "No confirmed Extra Virgin attendance; no Farina attendance inferred; no publication authorization."
+  }
+}

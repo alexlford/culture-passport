@@ -3024,22 +3024,22 @@
       "id": "candidate-kansas-city-metro-extra-virgin",
       "area": "Kansas City Metro",
       "name": "Extra Virgin",
-      "recognition": "Chef Michael Smith is a prior James Beard Best Chef: Midwest winner, for a different restaurant",
+      "recognition": "Owner/chef Michael Smith won a James Beard Best Chef: Midwest award in 1999 at The American Restaurant, not at Extra Virgin. Distinct wine program recognition has been advertised, but year- and venue-specific award attribution needs an independent source check. Do not transfer The American's award.",
       "recognitionYear": null,
       "awardFamily": "beard",
       "interviewCue": "Michael Smith's lively Crossroads tapas and small-plates restaurant.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "sourceUrl": "https://www.extravirginkc.com/",
+      "visitStatus": "not_visited",
+      "researchStatus": "confirmed_unvisited_future_visit",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
         "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "basis": "related_chef_different_venue",
+        "evidenceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "sourceTier": "secondary_award_context",
+        "verifiedAt": "2026-10-31",
+        "note": "Chef's 1999 award attributed to The American. Extra Virgin is an operating Crossroads tapas restaurant, not proven a JBF/Michelin award recipient."
       },
       "eligibility": {
         "status": "needs_verification",
@@ -3047,36 +3047,78 @@
         "reason": "Related chef, restaurant, or name has no direct qualifying award independently verified yet.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-extra-virgin-kansas-city",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user response: 'I have not visited Extra Virgin but want to go. Record nonattendance, add Extra Virgin to my private future-visit wishlist.'",
+      "attendanceCertainty": "explicit_nonattendance",
+      "operatingStatus": "operating",
+      "addressHint": "1900 Main Street, Kansas City, Missouri 64108"
     },
     {
       "id": "candidate-kansas-city-metro-farina",
       "area": "Kansas City Metro",
       "name": "Farina",
-      "recognition": "Chef Michael Smith is a James Beard-winning chef; his award predates Farina",
-      "recognitionYear": null,
-      "awardFamily": "beard",
-      "interviewCue": "Chef Michael Smith's Italian restaurant in the Crossroads, opened after 2018.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "recognition": "Farina is named by the Distinguished Restaurants of North America (DiRōNA) official awardee directory in its 2023 cohort (announcement in early 2024). This is a distinct restaurant-specific fine-dining Award of Excellence, not a James Beard or Michelin honor. Michael Smith's James Beard win at The American predates Farina; do not transfer it. Farina's interior has also been profiled under the Design KC Commercial Design awards.",
+      "recognitionYear": 2023,
+      "awardFamily": "dirona",
+      "interviewCue": "Italian restaurant at 19 W. 19th Street (corner of Baltimore), opened February 2019. Look for curved gray banquettes, black pendant lights, light-oak slatted ceiling, brown leather chairs, a long bar and a raw-oyster counter. Not Michael Smith Restaurant at 1900 Main, which was a different concept.",
+      "sourceUrl": "https://farinakc.com/",
       "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "verified_diRona_awarded_restaurant_and_venue_photos",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "distinct_hospitality_award_verified",
+        "basis": "dirona_award_of_excellence_exact_restaurant",
+        "evidenceUrl": "https://dirona.com/newly-awarded-distinguished-restaurants-of-north-america-named/",
+        "sourceTier": "official_award_body",
+        "verifiedAt": "2026-10-31",
+        "note": "DiRōNA named Farina in the awardee cohort. Categorize separately from Michelin/JBF; do not automatically count as formal qualifying Michelin/JBF or declare it newly eligible without extending criteria."
       },
       "eligibility": {
-        "status": "needs_verification",
-        "basis": "related_chef_or_unproven",
-        "reason": "Related chef, restaurant, or name has no direct qualifying award independently verified yet.",
-        "screenedOn": "2026-10-25",
+        "status": "verified_other_hospitality_recognition_requires_tier_review",
+        "basis": "direct_dirona_award",
+        "reason": "Distinct venue-level hospitality recognition exists but is not within the current formal Michelin/JBF primary award tier. Await user's attendance decision before curation; if visited, label DiRōNA Award of Excellence and avoid JBF winner transfer.",
+        "screenedOn": "2026-10-31",
         "verifiedForPublication": false
-      }
+      },
+      "addressHint": "19 West 19th Street (also listed as 1901 Baltimore Avenue), Kansas City, MO 64108",
+      "operatingStatus": "operating",
+      "openedOn": "2019-02",
+      "sourceUrls": [
+        "https://farinakc.com/",
+        "https://dirona.com/restaurants/farina/",
+        "https://dirona.com/newly-awarded-distinguished-restaurants-of-north-america-named/",
+        "https://mydesignkc.com/the-designkc-awards/992-farina/"
+      ],
+      "photographicEvidence": [
+        {
+          "id": "farina-2019-dining-room",
+          "label": "Farina — actual opening-era dining room (2019)",
+          "caption": "2019-era interior photography shows the curved banquettes and abstract art; this is the actual Farina restaurant, not a concept rendering.",
+          "photoSubject": "Farina dining room at 19 West 19th Street, Kansas City",
+          "sourceUrl": "https://www.bizjournals.com/kansascity/news/2019/01/29/chef-michael-smith-sneak-peek-farina.html",
+          "sourceOrganization": "Kansas City Business Journal",
+          "sourceYear": 2019,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "farina-design-interior",
+          "label": "Farina — commercial dining-room design photos",
+          "caption": "Michael Robinson's photographs of the restaurant's black pendant lights, bar and slatted ceiling, credited by Design KC; not photographs of Extra Virgin.",
+          "photoSubject": "Farina restaurant interior after its 2019 opening",
+          "sourceUrl": "https://mydesignkc.com/the-designkc-awards/992-farina/",
+          "sourceOrganization": "Design KC",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ],
+      "memoryPhotoCues": "Warm oak slat ceiling, curved gray banquettes, tan leather seats, black industrial pendant lights, central bar and pasta-focused menu; photos specific to Farina's 2019 location, not Michael Smith Restaurant/Extra Virgin. Award evidence is DiRōNA, separate from Michelin/James Beard.",
+      "photographicEvidenceReviewOn": "2026-10-31"
     },
     {
       "id": "candidate-kansas-city-metro-the-town-company",
@@ -9182,8 +9224,9 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Rye (Plaza)",
-      "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist."
+      "nextCandidate": "Farina",
+      "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
+      "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -9458,11 +9501,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Extra Virgin"
+        "Farina"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you eat at Extra Virgin, 1900 Main Street in Kansas City's Crossroads district? This is separate from Michael Smith Restaurant, which you explicitly did not visit.",
-      "continuation": "Keep the Kansas City retrospective active, then Baltimore, then Hilo and Maui. The prior uncertain Bluestem memory remains unresolved and should receive an archival photo follow-up. Always use four answer buttons and correct recognition scope."
+      "question": "Have you eaten at Farina, Chef Michael Smith's Italian restaurant at 19 West 19th Street (corner of Baltimore), since it opened in 2019? This is not Extra Virgin or the former Michael Smith Restaurant.",
+      "continuation": "One at a time, with actual 2019 Farina photos and four buttons. Farina has a direct DiRōNA awarded-restaurant listing, not a James Beard/Michelin venue award; keep the recognition tier separate. Then historical Kansas City, Baltimore, Hilo and Maui."
     },
     "pausedBatches": [
       {

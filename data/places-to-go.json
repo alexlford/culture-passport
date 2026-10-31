@@ -1327,6 +1327,31 @@
         "sourceUrl": "https://eldo.us/novel"
       },
       "notes": "Confirmed not visited at either original Westside or current Crossroads location. Wish is for current restaurant only, not the closed pre-2018 Westside address. Historical JBF Taste America program connection at original Novel does not transfer to current interior/design recognition."
+    },
+    {
+      "id": "want-to-visit-extra-virgin-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-extra-virgin",
+      "name": "Extra Virgin",
+      "category": "dining_and_drinks",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-31",
+      "location": {
+        "address": "1900 Main Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.extravirginkc.com/",
+      "userNote": "I have not visited Extra Virgin but want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-31",
+        "quote": "Culture Passport Kansas City: I have not visited Extra Virgin but want to go. Record nonattendance, add Extra Virgin to my private future-visit wishlist, and continue with historical photos and all four buttons."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "notes": "Exact restaurant and address, separate from the now-closed Michael Smith Restaurant at the same 1900 Main Street building. No date, meal, companions or booking inferred. Chef Michael Smith's 1999 James Beard Award was earned at The American Restaurant, not at Extra Virgin."
     }
   ],
   "interviewConvention": {
