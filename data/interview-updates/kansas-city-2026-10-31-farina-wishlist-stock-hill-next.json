@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-farina",
+    "venue": "Farina",
+    "address": "19 West 19th Street, Kansas City, Missouri",
+    "visitStatus": "not_visited",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-farina-kansas-city",
+    "sourceType": "direct_user_response",
+    "sourceQuote": "Culture Passport Kansas City: I have not visited Farina but want to go. Record nonattendance, add Farina at 19 West 19th Street to my private future-visit wishlist, keep the DiRōNA award separate from James Beard recognition, and continue with historical photographs and all four answer buttons.",
+    "attendance": false,
+    "bookingMade": false
+  },
+  "recognition": {
+    "issuer": "Distinguished Restaurants of North America",
+    "award": "DiRōNA Award of Excellence",
+    "recipient": "Farina itself",
+    "recognitionCohort": 2023,
+    "announcement": 2024,
+    "sourceUrl": "https://dirona.com/newly-awarded-distinguished-restaurants-of-north-america-named/",
+    "notes": "Venue-specific independent fine-dining award. Not a Michelin or James Beard honor. Michael Smith's 1999 Beard Award was at The American Restaurant and does not transfer."
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-stock-hill",
+    "venue": "Stock Hill",
+    "address": "4800 Main Street, Suite G-001, Kansas City, Missouri",
+    "visitStatus": "unreviewed",
+    "recognition": {
+      "issuer": "AAA",
+      "recognition": "Four Diamond restaurant designation",
+      "documentedYear": 2019,
+      "venueClaimedRange": "2017–2023",
+      "sourceUrl": "https://www.aaa.com/tripcanvas/restaurant/stock-hill-AA20057",
+      "independent2019Source": "https://www.bizjournals.com/kansascity/news/2019/02/15/aaa-diamond-ratings-bluestem-corvino-stock-hill.html",
+      "scope": "This restaurant, not Michelin or James Beard formal tier"
+    },
+    "photographicEvidence": [
+      {
+        "label": "Main bar, window-wall and sculptural staircase",
+        "url": "https://thevendry.com/venue/108718/stock-hill"
+      },
+      {
+        "label": "2023 updated lounge seating",
+        "url": "https://www.thepitchkc.com/stock-hill-expands-on-midwest-steakhouse-familiarity/"
+      }
+    ],
+    "choices": [
+      "Yes, I visited",
+      "Maybe — looks familiar",
+      "No, haven't been",
+      "No, but want to go"
+    ]
+  },
+  "guardrails": "Preserve award family and location precision, no inferred attendance, photos are source linked, no public publication."
+}
