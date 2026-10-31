@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -8011,8 +8011,8 @@
       "recognition": "Official Foundation program connection: Ryan Brazeal represented Novel at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum. Not a restaurant award.",
       "recognitionYear": 2017,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_program_connection_verified",
+      "visitStatus": "not_visited",
+      "researchStatus": "historical_location_not_visited_relocated_2018",
       "addedOn": "2026-10-29",
       "priority": "standard",
       "venueType": "restaurant",
@@ -8026,7 +8026,12 @@
         "sourceTier": "primary",
         "verifiedAt": "2026-10-29",
         "note": "2017 chef-team event participation during original-location period; not an award or an honor transferred to later premises."
-      }
+      },
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "User directly said 'I have not' when asked whether they had eaten at either Novel location; requested a want-to-go entry for current Novel.",
+      "wantsToVisit": false,
+      "operatingStatus": "closed_at_this_address",
+      "locationContinuityNote": "Former Westside restaurant at 815 W. 17th Street operated until March 2018. User has not visited. Future interest is attached to the operating East Crossroads location, not this former address. 2017 James Beard Foundation Taste America participation belongs to chef/restaurant during original-location period."
     },
     {
       "id": "candidate-new-york-city-la-marchande",
@@ -8110,6 +8115,43 @@
       "recognition": "Confirmed repeated distillery visits. No direct qualifying recognition verified; do not transfer The Rieger restaurant or Manifesto honors, or infer visits to separately named bars.",
       "researchStatus": "recognition_unverified",
       "repeatVisits": true
+    },
+    {
+      "id": "candidate-kc-novel-east-crossroads",
+      "area": "Kansas City Metro",
+      "name": "Novel Restaurant (East Crossroads)",
+      "venueType": "restaurant",
+      "addressHint": "1927 McGee Street, Kansas City, MO 64108",
+      "sourceUrl": "https://www.novelkc.com/",
+      "recognition": "2019 AIA Kansas City Design Excellence Awards Citation to the Crossroads restaurant project (architect El Dorado); architectural recognition, not a Michelin/James Beard award. The original Westside restaurant's 2017 JBF Taste America program participation must not be presented as a new-location award.",
+      "recognitionYear": 2019,
+      "awardFamily": "architecture",
+      "visitStatus": "not_visited",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-novel-east-crossroads",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "User replied 'I have not, but we should add this to the list of wanting to go.' to the Novel two-location question.",
+      "researchStatus": "confirmed_not_visited_future_visit",
+      "operatingStatus": "operating_current_restaurant",
+      "locationRelation": {
+        "predecessorCandidateId": "candidate-kc-novel-original-westside",
+        "openedAtCurrentLocation": "2018-04",
+        "priorLocation": "815 W. 17th St.",
+        "sameRestaurantBrand": true
+      },
+      "screening": {
+        "status": "cultural_architecture_qualified",
+        "basis": "2019_aia_kansas_city_design_citation",
+        "evidenceUrl": "https://eldo.us/novel",
+        "sourceTier": "project_architect",
+        "verifiedAt": "2026-10-31",
+        "note": "Named 2019 design citation for current Crossroads restaurant space; not a food or hospitality award. Older Westside 2017 JBF program participation not transferred."
+      },
+      "sourceUrls": [
+        "https://www.novelkc.com/",
+        "https://eldo.us/novel",
+        "https://flatlandkc.org/eats-drinks/novel-restaurant-opening-new-chapter-in-east-crossroads/"
+      ]
     }
   ],
   "source": {
@@ -8903,7 +8945,7 @@
       ]
     },
     "kansasCityMetro": {
-      "updatedOn": "2026-10-29",
+      "updatedOn": "2026-10-31",
       "confirmedRepeatedVisits": [
         "Jack Stack Barbecue (Overland Park)",
         "Pierpont's at Union Station"
@@ -8926,7 +8968,8 @@
       "riegerManifestoRelation": "Two independently confirmed venue experiences in the same building: dining at The Rieger Hotel Grill & Exchange and cocktails at Manifesto downstairs; no evidence of same date.",
       "newConfirmedBars": [
         "Drastic Measures"
-      ]
+      ],
+      "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019."
     },
     "losAngeles": {
       "state": "active_research_parallel",
