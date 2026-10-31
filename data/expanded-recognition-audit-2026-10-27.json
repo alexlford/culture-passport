@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "auditedOn": "2026-10-29",
+  "auditedOn": "2026-10-31",
   "classification": "private_research",
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 55,
-    "canonicalDistinctVenues": 50,
+    "restaurantEntriesReviewed": 57,
+    "canonicalDistinctVenues": 52,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 55,
+    "restaurantEntriesTracked": 57,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -80,8 +80,8 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 19,
-    "formal_michelin_jbf_recognition": 22,
+    "archived_pending_recognition": 20,
+    "formal_michelin_jbf_recognition": 23,
     "personal_featured_exception": 9,
     "official_program_or_editorial_connection": 5
   },
@@ -1814,6 +1814,67 @@
       "officialFeatures": [],
       "reviewResult": "Direct user confirms dining at Rye Plaza with unknown date. No Plaza-site Michelin/JBF award proven; Colby's 2013 win was at Bluestem, Megan's 2017–2020 Rye semifinalist attributions identify Leawood. Permanent private watchlist.",
       "watchlistId": "venue-rye-plaza-kansas-city",
+      "reviewedOn": "2026-10-31",
+      "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-801-chophouse-kansas-city-power-light",
+      "restaurantName": "801 Chophouse (Power & Light District)",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "71 E 14th St Kansas City Missouri not Leawood",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-801-chophouse-kansas-city-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://801chophouse.com/locations/kansas-city/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Direct confirmed KCMO visit, date unknown; 2023/2025 Wine Spectator Best of Award of Excellence is an independently classified wine-program distinction, not Michelin or James Beard; Leawood not inferred.",
+      "watchlistId": "venue-801-chophouse-kansas-city-power-light",
+      "reviewedOn": "2026-10-31",
+      "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-westport-cafe-bar-kansas-city",
+      "restaurantName": "Westport Café & Bar",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "venueScope": "419 Westport Road exact restaurant",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-westport-cafe-bar-kansas-city-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Romain Monnoyeur-Millard",
+          "relationship": "chef at Westport Cafe Kansas City",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "User confirmed a visit, date unknown. Romain Monnoyeur-Millard is a 2024 James Beard Best Chef Midwest semifinalist at the venue; not a winner or a restaurant award.",
       "reviewedOn": "2026-10-31",
       "recognitionReviewStatus": "reviewed"
     }
