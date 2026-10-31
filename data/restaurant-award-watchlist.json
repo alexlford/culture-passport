@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-31",
   "classification": "private_research",
   "purpose": "Permanent watchlist of user-confirmed restaurant visits without currently verified qualifying Michelin or James Beard recognition. Preserve here even if they later qualify; change status to promoted and append dated recognition evidence rather than deleting.",
   "scope": "Restaurants only. Cocktail bars such as J-Bar stay in the existing bar/research ledger and should be monitored separately if a bar watchlist is created.",
@@ -1452,6 +1452,43 @@
         }
       ],
       "expandedReviewTier": "official_program_or_editorial_connection"
+    },
+    {
+      "id": "venue-rye-plaza-kansas-city",
+      "venueId": "venue-rye-plaza-kansas-city",
+      "venueName": "Rye Plaza",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-rye-plaza-kansas-city-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed Rye Plaza dining visit · exact date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Verified direct visit to Rye Plaza; award evidence for chef Colby Garrelts belongs to Bluestem and pastry recognition for Megan Garrelts at Rye is identified as Leawood. Keep branch separate and re-audit exact location.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-31",
+          "result": "direct_user_confirmed_branch_separate_recognition_screen",
+          "note": "Confirmed Rye Plaza at 4646 Mill Creek Parkway (not Rye Leawood); award-specific verification pending future periodic research, no formal award asserted.",
+          "evidenceUrls": [
+            "https://www.ryekc.com/",
+            "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
