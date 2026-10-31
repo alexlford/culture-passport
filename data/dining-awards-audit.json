@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 51,
-    "distinctPublishedVenues": 48,
+    "canonExperienceRecords": 50,
+    "distinctPublishedVenues": 47,
     "recognized": 24,
     "featuredPersonal": 15,
     "officiallyFeatured": 5,
-    "unfeaturedOther": 5,
+    "unfeaturedOther": 4,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -980,20 +980,6 @@
       ],
       "editorialNote": "Confirmed first-hand dinner on October 30, 2026. Order, companions and impressions not supplied; no Michelin listing claimed. Private story awaits explicit publication review.",
       "visitConfidence": "direct_user_confirmation_exact_date",
-      "publicationStatus": "private_pending_story_review"
-    },
-    {
-      "venueId": "venue-j-bar-hotel-jerome-aspen",
-      "name": "J-Bar (Hotel Jerome)",
-      "city": "Aspen",
-      "region": "Colorado",
-      "experienceIds": [
-        "bar-j-bar-hotel-jerome-aspen"
-      ],
-      "rememberedPeriods": [
-        "Visit date unknown"
-      ],
-      "visitConfidence": "direct_user_confirmation",
       "publicationStatus": "private_pending_story_review"
     },
     {
