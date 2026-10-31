@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Places I'd like to go",
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "purpose": "Places Alex explicitly wants to visit, with future intent recorded separately from experience and award-watchlist ledgers.",
   "entries": [
     {
@@ -1293,6 +1293,40 @@
       },
       "desiredVisitDate": null,
       "notes": "Explicit nonattendance at Crossroads restaurant; no inference about Weston farm or creamery."
+    },
+    {
+      "id": "want-to-visit-novel-east-crossroads",
+      "candidateId": "candidate-kc-novel-east-crossroads",
+      "name": "Novel Restaurant — East Crossroads",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-31",
+      "location": {
+        "address": "1927 McGee Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.novelkc.com/",
+      "userNote": "I have not [visited Novel], but we should add this to the list of wanting to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-31",
+        "quote": "I have not, but we should add this to the list of wanting to go."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognition": {
+        "organization": "AIA Kansas City",
+        "year": 2019,
+        "category": "Design Excellence Awards — Citation",
+        "recipient": "Novel Restaurant (Crossroads interior/project)",
+        "result": "citation",
+        "relationship": "Architectural/design recognition, not a Michelin/James Beard culinary award",
+        "sourceUrl": "https://eldo.us/novel"
+      },
+      "notes": "Confirmed not visited at either original Westside or current Crossroads location. Wish is for current restaurant only, not the closed pre-2018 Westside address. Historical JBF Taste America program connection at original Novel does not transfer to current interior/design recognition."
     }
   ],
   "interviewConvention": {
