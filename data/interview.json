@@ -8076,12 +8076,13 @@
       "id": "candidate-kc-lifted-spirits-distillery",
       "area": "Kansas City Metro",
       "name": "Lifted Spirits Distillery",
-      "visitStatus": "maybe",
+      "visitStatus": "confirmed",
       "sourceUrl": "https://www.liftedspiritskc.com/",
-      "researchStatus": "tentative_identification",
+      "researchStatus": "confirmed_recognition_pending",
       "reviewedOn": "2026-10-31",
-      "reviewSource": "I think I was confusing it with Lifted Spirits Distillery.",
-      "recognition": "No qualifying Michelin/JBF recognition verified in this review. Preserve tentative identity separately from confirmed attendance."
+      "reviewSource": "I definitely went to Lifted Spirits, not sure if it qualifies.",
+      "recognition": "No direct Michelin/JBF distinction or program connection verified in this search. Official venue reports 2022 NYISC Double Gold for Supernova Gin and Gold for Bold Gin; product medals are separate from venue recognition.",
+      "confirmedVisitId": "bar-lifted-spirits-kansas-city-date-unknown"
     },
     {
       "id": "candidate-kc-toms-town-distillery",
@@ -8721,8 +8722,8 @@
       "id": "kc-unidentified-bar-formerly-misidentified-drastic-measures",
       "category": "bar",
       "name": "Unidentified Kansas City bar",
-      "status": "venue_identity_unresolved",
-      "venueIdentityConfirmed": false,
+      "status": "resolved_lifted_spirits_confirmed",
+      "venueIdentityConfirmed": true,
       "visitStatus": "confirmed",
       "visitDate": null,
       "possibleVisitPeriod": null,
@@ -8732,8 +8733,9 @@
       "excludedCandidateIds": [
         "candidate-kansas-city-metro-drastic-measures"
       ],
-      "note": "Preserve the general bar memory privately. This does not confirm Drastic Measures, establish an exact neighborhood, or identify a replacement venue. Identification can follow after list compilation. User now thinks the bar was Lifted Spirits Distillery; tentative identification only.",
-      "probableCandidateId": "candidate-kc-lifted-spirits-distillery"
+      "note": "User definitively identified Lifted Spirits on October 31, 2026; Drastic Measures confirmation remains withdrawn. Date and order unknown.",
+      "probableCandidateId": "candidate-kc-lifted-spirits-distillery",
+      "confirmedVisitId": "bar-lifted-spirits-kansas-city-date-unknown"
     }
   ],
   "interviewChapters": {

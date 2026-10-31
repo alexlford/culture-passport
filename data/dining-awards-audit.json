@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 51,
-    "distinctPublishedVenues": 48,
+    "canonExperienceRecords": 52,
+    "distinctPublishedVenues": 49,
     "recognized": 23,
     "featuredPersonal": 15,
     "officiallyFeatured": 6,
-    "unfeaturedOther": 5,
+    "unfeaturedOther": 6,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -1064,6 +1064,28 @@
         "Confirmed repeated distillery visits. No direct qualifying recognition verified; do not transfer The Rieger restaurant or Manifesto honors, or infer visits to separately named bars."
       ],
       "visitConfidence": "direct_user_repeated_visit_confirmation",
+      "publicationStatus": "private_archive_not_selected"
+    },
+    {
+      "venueId": "venue-lifted-spirits-kansas-city",
+      "name": "Lifted Spirits Distillery",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "bar-lifted-spirits-kansas-city-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Date unknown"
+      ],
+      "recognitionStatus": "not_verified",
+      "sourceUrls": [
+        "https://www.liftedspiritskc.com/",
+        "https://www.liftedspiritskc.com/newsroom"
+      ],
+      "recognitionSummary": [
+        "No direct Michelin/JBF distinction or program connection verified in this search. Official venue reports 2022 NYISC Double Gold for Supernova Gin and Gold for Bold Gin; product medals are separate from venue recognition."
+      ],
+      "visitConfidence": "direct_user_confirmation",
       "publicationStatus": "private_archive_not_selected"
     }
   ],

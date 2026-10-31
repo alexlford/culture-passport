@@ -754,6 +754,7 @@ for venue in venues:
             "venue-butchers-daughter-west-hollywood": "West Hollywood",
             "venue-eagle-cambridge": "Cambridge",
             "venue-toms-town-kansas-city": "Kansas City",
+            "venue-lifted-spirits-kansas-city": "Kansas City",
             "venue-j-rieger-kansas-city": "Kansas City",
             "venue-kingston-arms-cambridge": "Cambridge",
             "venue-lidias-kansas-city": "Kansas City",
@@ -984,7 +985,7 @@ withdrawn_bar = next(c for c in candidates if c["id"] == "candidate-kansas-city-
 assert withdrawn_bar["visitStatus"] == "unreviewed" and "confirmedVisitId" not in withdrawn_bar
 assert withdrawn_bar["correctionHistory"][-1]["previousAnswer"]["withdrawn"] is True
 unidentified_bar = next(x for x in interview_data["memoryLeads"] if x["id"] == "kc-unidentified-bar-formerly-misidentified-drastic-measures")
-assert unidentified_bar["publishAsExperience"] is False and unidentified_bar["venueIdentityConfirmed"] is False
+assert unidentified_bar["publishAsExperience"] is False and unidentified_bar["venueIdentityConfirmed"] is True
 
 # Distillery confirmations and venue-specific recognition must remain separate.
 toms = next(r for r in records if r["id"] == "bar-toms-town-kansas-city-multiple-visits")
@@ -994,4 +995,8 @@ assert toms["visit"]["repeatVisits"] and jrieger["visit"]["repeatVisits"]
 assert not toms["editorial"]["awardQualified"] and not jrieger["editorial"]["awardQualified"]
 assert toms["officialFeatures"][0]["recognitionType"] == "beverage_supplier"
 assert toms["id"] in visitor_ids and jrieger["id"] not in visitor_ids
-assert next(c for c in candidates if c["id"] == "candidate-kc-lifted-spirits-distillery")["visitStatus"] == "maybe"
+assert next(c for c in candidates if c["id"] == "candidate-kc-lifted-spirits-distillery")["visitStatus"] == "confirmed"
+
+assert "bar-lifted-spirits-kansas-city-date-unknown" not in visitor_ids
+assert next(r for r in records if r["id"] == "bar-lifted-spirits-kansas-city-date-unknown")["status"] == "confirmed"
+assert all(x["visitStatus"] == "unreviewed" for x in jrieger["recognitionResearch"]["findings"])
