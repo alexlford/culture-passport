@@ -1309,6 +1309,15 @@
       "region": "Missouri",
       "country": "USA",
       "location": null
+    },
+    {
+      "id": "venue-lifted-spirits-kansas-city",
+      "name": "Lifted Spirits Distillery",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": "1734 Cherry Street",
+      "location": null
     }
   ],
   "records": [
@@ -7246,6 +7255,117 @@
         "reason": "Direct venue-specific recognition remains unverified. Preserve repeated visits privately for future recognition review.",
         "evidenceUrls": [
           "https://www.jriegerco.com/"
+        ],
+        "reviewedOn": "2026-10-31",
+        "verifiedForPublication": false
+      },
+      "recognitionResearch": {
+        "reviewedOn": "2026-10-31",
+        "findings": [
+          {
+            "name": "Hey! Hey! Club",
+            "sourceUrl": "https://www.jriegerco.com/visit/eat-and-drink",
+            "recognition": "2020 Spirited Awards Regional Top 10 Honoree, Central, Best New American Cocktail Bar",
+            "recognitionSourceUrl": "https://talesofthecocktail.org/tales-of-the-cocktail-foundation-announces-regional-top-10-honorees-for-the-2020-spirited-awards/",
+            "eligibility": "additional_award_family_proposed_not_yet_adopted",
+            "scope": "exact_bar_not_popups",
+            "visitStatus": "unreviewed"
+          },
+          {
+            "name": "Camp Hell! Hell!",
+            "sourceUrl": "https://www.jriegerco.com/event-details/camp-hell-hell",
+            "recognition": "No independent qualifying recognition verified; seasonal transformation of Hey! Hey! Club, not a separate Spirited Awards honoree.",
+            "visitStatus": "unreviewed"
+          },
+          {
+            "name": "Sippin’ Santa at Electric Park Garden Bar",
+            "sourceUrl": "https://www.jriegerco.com/event-details/sippin-santa-at-j-rieger-co",
+            "recognition": "Official 2025 seasonal event verified. No specific Rieger-location Michelin/JBF or Spirited honor verified; do not transfer franchise creator awards.",
+            "visitStatus": "unreviewed"
+          },
+          {
+            "name": "Amaro Chalet",
+            "sourceUrl": "https://www.jriegerco.com/event-details/andres-chocolates-x-amaro-pairing-experience",
+            "recognition": "Seasonal space verified in official February 2026 event description. No independent qualifying recognition verified.",
+            "visitStatus": "unreviewed"
+          },
+          {
+            "name": "Monogram Lounge",
+            "sourceUrl": "https://www.jriegerco.com/visit/eat-and-drink",
+            "recognition": "Venue verified; no specific qualifying venue recognition verified.",
+            "visitStatus": "unreviewed"
+          },
+          {
+            "name": "Tasting Room & Atrium",
+            "sourceUrl": "https://www.jriegerco.com/visit/eat-and-drink",
+            "recognition": "Venue verified; no specific qualifying venue recognition verified.",
+            "visitStatus": "unreviewed"
+          },
+          {
+            "name": "Electric Park Garden Bar",
+            "sourceUrl": "https://www.jriegerco.com/visit/eat-and-drink",
+            "recognition": "Venue verified; no specific qualifying venue recognition verified.",
+            "visitStatus": "unreviewed"
+          }
+        ],
+        "productContext": {
+          "category": "Best New Spirit or Cocktail Ingredient",
+          "year": 2024,
+          "result": "top_four_finalist",
+          "recipient": "J. Rieger & Co. Monogram Whiskey 2023 Kansas City Whiskey – Solera Reserve",
+          "sourceUrl": "https://talesofthecocktail.org/spirited-awards-archive/",
+          "note": "Product recognition; not a bar award or evidence the user tasted this bottle."
+        },
+        "policyRecommendation": "Consider accepting venue-specific Tales of the Cocktail Spirited Awards recognition for bars. User decision pending; do not silently adopt or confirm attendance at Hey! Hey! Club or any pop-up."
+      }
+    },
+    {
+      "id": "bar-lifted-spirits-kansas-city-date-unknown",
+      "type": "bar",
+      "title": "Lifted Spirits Distillery",
+      "venueId": "venue-lifted-spirits-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Visit confirmed · date unspecified",
+        "source": "Direct user confirmation on October 31, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "directly_confirmed"
+      },
+      "summary": "I visited Lifted Spirits Distillery in Kansas City.",
+      "memory": {
+        "headline": "At Lifted Spirits",
+        "teaser": "A confirmed Kansas City distillery visit.",
+        "story": "I visited Lifted Spirits Distillery in Kansas City.",
+        "period": "Date unspecified",
+        "source": "Direct user confirmation."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No direct qualifying venue recognition verified."
+      },
+      "sourceUrl": "https://www.liftedspiritskc.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection"
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Confirmed visit, qualifying venue recognition remains unverified. Product medals are not restaurant/bar distinctions.",
+        "evidenceUrls": [
+          "https://www.liftedspiritskc.com/",
+          "https://www.liftedspiritskc.com/newsroom"
         ],
         "reviewedOn": "2026-10-31",
         "verifiedForPublication": false
