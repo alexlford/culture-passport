@@ -117,6 +117,17 @@ assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == 
     "Michael Smith Restaurant (Crossroads, 2007–2019)"]
 assert michael_smith["screening"]["evidenceUrl"].startswith("https://archive.jamesbeard.org/")
 
+# Keep the user-requested fourth answer visible on every venue interview.
+button_policy = interview_data["interviewProgress"]["answerButtonPolicy"]
+assert button_policy["alwaysShowFourOptions"] is True
+assert [x["id"] for x in button_policy["choices"]] == [
+    "visited", "maybe", "not_visited", "want_to_visit"
+]
+assert button_policy["choices"][3]["label"] == "No, but want to go"
+assert 'want_to_visit:"No, but want to go"' in (
+    ROOT / "assets/app.js").read_text(encoding="utf-8")
+assert "closed/unbookable" in button_policy["closedVenueSemantics"]
+
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
     "candidate-cambridge-eagle", "candidate-cambridge-anchor",

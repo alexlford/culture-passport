@@ -9594,6 +9594,29 @@
         "not_visited_skip"
       ],
       "photosAndButtons": true
+    },
+    "answerButtonPolicy": {
+      "alwaysShowFourOptions": true,
+      "choices": [
+        {
+          "id": "visited",
+          "label": "Yes, I visited"
+        },
+        {
+          "id": "maybe",
+          "label": "Maybe — looks familiar"
+        },
+        {
+          "id": "not_visited",
+          "label": "No, haven't been"
+        },
+        {
+          "id": "want_to_visit",
+          "label": "No, but want to go"
+        }
+      ],
+      "wishListSemantics": "No, but want to go sets not_visited=true and wantsToVisit=true; never counts as personal attendance.",
+      "closedVenueSemantics": "Preserve wishlist interest for a closed historical venue with closed/unbookable status; do not offer reservations."
     }
   }
 }
