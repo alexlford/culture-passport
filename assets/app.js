@@ -392,8 +392,8 @@
     if(Array.isArray(r.onSiteExperiences)&&r.onSiteExperiences.length){
       const section=el("section","onsite-experiences");
       section.append(el("p","eyebrow","CONFIRMED EXPERIENCES"),
-        el("h2","","Four experiences in one landmark"),
-        el("p","onsite-intro","These are four separately recalled visits or experiences at the J. Rieger complex. Dates and companions remain unknown; distinctions belong only to their named recipients."));
+        el("h2","",r.onSiteExperiences.length+" experiences in one landmark"),
+        el("p","onsite-intro","These are separately recalled visits or experiences at the J. Rieger complex. Dates and companions remain unknown; distinctions belong only to their named recipients."));
       const grid=el("div","onsite-grid");
       for(const experience of r.onSiteExperiences){
         const item=el("article","onsite-item");
