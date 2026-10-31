@@ -1342,6 +1342,18 @@
       "location": null,
       "sourceId": "801-chophouse-kansas-city",
       "venueScope": "Kansas City Missouri downtown branch only, not 801 Chophouse Leawood"
+    },
+    {
+      "id": "venue-westport-cafe-bar-kansas-city",
+      "name": "Westport Café & Bar",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Westport",
+      "address": "419 Westport Road, Kansas City, MO 64111",
+      "location": null,
+      "sourceId": "westport-cafe-bar-kansas-city",
+      "venueScope": "Westport Café & Bar at 419 Westport Road, not another bistro or successor address"
     }
   ],
   "records": [
@@ -7741,6 +7753,101 @@
           {
             "label": "2025 Kansas City Wine Spectator awards reporting",
             "url": "https://www.kcdaily.com/p/cherry-on-top"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-westport-cafe-bar-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "Westport Café & Bar",
+      "venueId": "venue-westport-cafe-bar-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Kansas City Westport dining · date unknown",
+        "source": "Direct user confirmation 2026-10-31: 'I visited Westport Café & Bar at 419 Westport Road, Kansas City, Missouri.'",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_exact_venue_date_unknown",
+        "restaurantOperatingWindow": "Opened in June 2010; not evidence of the actual visit date"
+      },
+      "summary": "Confirmed dining at Westport Café & Bar, 419 Westport Road, Kansas City, with date and other meal details unknown. Romain Monnoyeur-Millard at Westport Cafe was a 2024 James Beard Best Chef: Midwest semifinalist (chef in post, not winner).",
+      "memory": {
+        "headline": "A visit to Westport Café",
+        "teaser": "A confirmed meal at the French bistro on Westport Road.",
+        "story": "I ate at Westport Café & Bar at 419 Westport Road in Kansas City. The date, occasion, companions, dishes and drinks have not yet been recorded.",
+        "period": "Kansas City visit; date unknown",
+        "source": "Direct user confirmation 2026-10-31"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "result": "semifinalist",
+          "category": "Best Chef: Midwest",
+          "recipient": "Romain Monnoyeur-Millard",
+          "relationship": "Named by the James Beard Foundation as the chef at Westport Cafe, Kansas City, Missouri, in its 2024 semifinalist list; chef-in-post recognition, not a venue award or winner",
+          "venueScope": "Westport Café & Bar at 419 Westport Road, Kansas City, MO",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+          "historicalVisitDate": null,
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "historicalVisitDistinction": "none_claimed",
+        "note": "No Michelin distinction claimed. Official James Beard semifinalist recognition belongs to the chef at this venue in 2024; the user's dining date is unknown."
+      },
+      "sourceUrl": "https://westportcafeandbar.com/",
+      "editorial": {
+        "awardQualified": true,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard_2024_best_chef_midwest_chef_in_post_semifinalist",
+        "note": "Directly confirmed visit, with official 2024 JBF chef-at-venue semifinalist listing. Not a finalist or winner. Publication remains gated."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "james_beard_chef_in_post",
+        "reason": "2024 James Beard Foundation semifinalist announcement explicitly names Romain Monnoyeur-Millard at Westport Cafe, Kansas City, MO.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+          "https://westportcafeandbar.com/"
+        ],
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_dining_confirmation_primary_jbf_semifinalist_source",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "A meal at Westport Café & Bar",
+        "paragraphs": [
+          "I visited Westport Café & Bar, the intimate French bistro at 419 Westport Road in Kansas City. The exact date, companions, occasion, food and drinks remain unspecified.",
+          "The Westport café opened in June 2010 in a former Blanc Burgers + Bottles space. Historical venue photographs show exposed brick, close-set bistro tables, a checkerboard floor and a wooden bar.",
+          "In 2024, the James Beard Foundation named chef Romain Monnoyeur-Millard at Westport Cafe a Best Chef: Midwest semifinalist. This was a chef recognition, not a winner designation, and the date of my actual visit is not established."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — official 2024 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+          },
+          {
+            "label": "Westport Café & Bar — official restaurant",
+            "url": "https://westportcafeandbar.com/"
+          },
+          {
+            "label": "The Pitch — opening, June 24, 2010",
+            "url": "https://www.thepitchkc.com/westport-cafe-bar-opens/"
+          },
+          {
+            "label": "On the Grid — earlier Westport Café interior photographs",
+            "url": "https://onthegrid.city/kansas-city/westport/westport-cafe"
           }
         ]
       }
