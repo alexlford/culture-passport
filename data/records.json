@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "categories": [
     {
       "id": "dining",
@@ -2236,7 +2236,10 @@
             "url": "https://kansascitymag.com/your-guide-to-14-great-secret-bars-and-speakeasies-in-kansas-city-1/"
           }
         ]
-      }
+      },
+      "relatedExperienceIds": [
+        "bar-j-rieger-kansas-city-multiple-visits"
+      ]
     },
     {
       "id": "bar-death-and-co-denver",
@@ -6698,7 +6701,8 @@
         "verifiedForPublication": false
       },
       "relatedExperienceIds": [
-        "bar-manifesto-kansas-city"
+        "bar-manifesto-kansas-city",
+        "bar-j-rieger-kansas-city-multiple-visits"
       ],
       "story": {
         "headline": "Dinner at the Rieger, above Manifesto",
@@ -7216,13 +7220,13 @@
         "repeatVisits": true,
         "exactVisitCount": null
       },
-      "summary": "I have visited J. Rieger & Co. many times.",
+      "summary": "Repeated visits to J. Rieger & Co.'s historic East Bottoms distillery and four confirmed experiences: Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club. The garden bar's architecture and the Hey! Hey! Club's cocktail program have independently documented recognitions.",
       "memory": {
-        "headline": "Returning to J. Rieger & Co.",
-        "teaser": "Many visits to this Kansas City distillery.",
-        "story": "I have been to J. Rieger & Co. many times.",
-        "period": "Multiple visits; dates unspecified",
-        "source": "Direct user confirmation on October 31, 2026: I have been to both many times."
+        "headline": "A Kansas City institution, four ways",
+        "teaser": "An 1887 distilling legacy reimagined: a tropical Christmas pop-up, an award-winning garden bar, the Monogram Lounge, and an acclaimed underground cocktail club.",
+        "story": "I have returned to J. Rieger & Co. many times and visited Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club. Each is a distinct experience in a shared Kansas City landmark; the dates, specific drinks, and companions are not yet recorded.",
+        "period": "Repeated Kansas City visits · precise dates unknown",
+        "source": "Direct user recollections on October 31, 2026."
       },
       "recognitions": [],
       "guide": {
@@ -7236,20 +7240,234 @@
         "awardQualified": false,
         "officialFeature": false,
         "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Confirmed repeated distillery visits. No direct qualifying recognition verified; do not transfer The Rieger restaurant or Manifesto honors, or infer visits to separately named bars."
+        "collection": "curated_cultural_destination",
+        "basis": "direct_recollections_plus_scope_specific_independent_recognitions",
+        "note": "Cultural destination feature. Exclude from Michelin/James Beard award-qualified stats. Building awards apply to the restored distillery, Electric Park awards to that design project, and the 2020 Spirited regional Top 10 honor only to the Hey! Hey! Club. Monogram whiskey product nominations do not belong to Monogram Lounge. Sippin' Santa is an official branded guest program, not an individual venue award.",
+        "culturalSpotlight": true,
+        "culturalSpotlightType": "verified_site_preservation_architecture_and_cocktail_culture"
       },
       "curation": {
-        "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Direct venue-specific recognition remains unverified. Preserve repeated visits privately for future recognition review.",
+        "status": "curated_site_profile",
+        "basis": "historical_preservation_architecture_cocktail_culture",
+        "reason": "Four user-confirmed on-site experiences, direct preservation/design awards for the overall property and Electric Park, and a regional Spirited Awards Top 10 honor for the Hey! Hey! Club. None are Michelin/JBF wins or nominations.",
         "evidenceUrls": [
-          "https://www.jriegerco.com/"
+          "https://preservemo.org/we-advocate/honor-awards/2020honorawards/",
+          "https://www.aiakc.org/award/electric-park-garden-bar-at-j-rieger-co-professionals-choice",
+          "https://talesofthecocktail.org/tales-of-the-cocktail-foundation-announces-regional-top-10-honorees-for-the-2020-spirited-awards/"
         ],
         "reviewedOn": "2026-10-31",
         "verifiedForPublication": false
-      }
+      },
+      "story": {
+        "headline": "From pre-Prohibition whiskey to a renewed Electric Park",
+        "paragraphs": [
+          "J. Rieger & Co. began in Kansas City in 1887, when Jacob Rieger developed a nationally successful mail-order whiskey business. Prohibition ended its first era. Andy Rieger and Kansas City bartender Ryan Maybee revived the brand in 2014, bringing a historic name into the city's modern cocktail culture.",
+          "In 2019, the business opened its new home in the restored Heim Brewery bottling plant at 2700 Guinotte Avenue, a 1901 industrial building in the East Bottoms. The preservation project reconnected Kansas City distilling, architecture, and neighborhood history. Missouri Preservation gave J. Rieger & Co. a 2020 Preserve Missouri Award.",
+          "That setting became more than a distillery visit: I have been to four distinct experiences here. Electric Park Garden Bar transformed a former loading-dock area into an architectural award-winning urban garden. The Hey! Hey! Club made a separate name for itself in the cocktail world. Monogram Lounge overlooks the working production floor, while Sippin' Santa is the immersive holiday tiki pop-up that has appeared in different on-site spaces in different years.",
+          "My own visits are confirmed; the year of each outing, what I drank, and who joined me are not recorded. The honors below are precise: design awards belong to Electric Park, a preservation award belongs to the wider restored site, and the 2020 regional cocktail-bar honor belongs to the Hey! Hey! Club. The Monogram whiskey label's accolades are not awards to the Monogram Lounge."
+        ],
+        "chapters": [
+          {
+            "year": "1887",
+            "title": "A whiskey company takes root",
+            "detail": "Jacob Rieger establishes the original Kansas City distilling business, later known for its national mail-order whiskey trade."
+          },
+          {
+            "year": "2014",
+            "title": "A brand revived",
+            "detail": "Andy Rieger and Ryan Maybee bring the historic name back after Prohibition had ended its first era."
+          },
+          {
+            "year": "2019",
+            "title": "The Heim building reborn",
+            "detail": "A restored 1901 bottling plant in the East Bottoms opens as the distillery's new hospitality home."
+          },
+          {
+            "year": "2020",
+            "title": "Preservation and cocktails recognized",
+            "detail": "The overall rehabilitation receives a Preserve Missouri Award; the separately named Hey! Hey! Club makes the Spirited Awards Central regional Top 10 for Best New American Cocktail Bar."
+          },
+          {
+            "year": "2022",
+            "title": "Electric Park's design honored",
+            "detail": "The garden bar receives the AIA Kansas City Professionals' Choice and the Kansas City Business Journal Capstone Retail awards."
+          },
+          {
+            "year": "Visits",
+            "title": "Four places, one landmark",
+            "detail": "Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club are all confirmed personal experiences; their precise dates remain open."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "J. Rieger & Co. — company history",
+            "url": "https://www.jriegerco.com/about"
+          },
+          {
+            "label": "Missouri Preservation — 2020 Preserve Missouri Award",
+            "url": "https://preservemo.org/we-advocate/honor-awards/2020honorawards/"
+          },
+          {
+            "label": "AIA Kansas City — Electric Park Garden Bar award",
+            "url": "https://www.aiakc.org/award/electric-park-garden-bar-at-j-rieger-co-professionals-choice"
+          },
+          {
+            "label": "Tales of the Cocktail — 2020 Regional Top 10",
+            "url": "https://talesofthecocktail.org/tales-of-the-cocktail-foundation-announces-regional-top-10-honorees-for-the-2020-spirited-awards/"
+          },
+          {
+            "label": "Architect — preservation and Electric Park project",
+            "url": "https://www.gastingerwalker.com/jriegerco-copy"
+          }
+        ]
+      },
+      "siteRecognitions": [
+        {
+          "organization": "Missouri Preservation",
+          "year": 2020,
+          "category": "Preserve Missouri Award",
+          "result": "honoree",
+          "recipient": "J. Rieger & Co. historic distillery renovation",
+          "relationship": "Overall restored Heim Brewery bottling-plant site; not an award to any individual cocktail lounge",
+          "sourceUrl": "https://preservemo.org/we-advocate/honor-awards/2020honorawards/"
+        },
+        {
+          "organization": "Historic Kansas City",
+          "year": 2019,
+          "category": "Best Adaptive Re-Use",
+          "result": "reported award",
+          "recipient": "J. Rieger & Co. historic renovation",
+          "relationship": "Building-level preservation recognition reported by the project architect; original organizer announcement not independently retrieved",
+          "sourceUrl": "https://www.gastingerwalker.com/awards"
+        }
+      ],
+      "onSiteExperiences": [
+        {
+          "id": "j-rieger-sippin-santa",
+          "title": "Sippin' Santa",
+          "experienceType": "seasonal_cocktail_pop_up",
+          "visitStatus": "confirmed",
+          "visitDate": null,
+          "visitPeriod": "Holiday season · year unconfirmed",
+          "personalMemory": "I visited the Sippin' Santa holiday pop-up at J. Rieger & Co.",
+          "description": "A tropical holiday cocktail pop-up, created as a companion to Miracle and developed with tiki expert Jeff 'Beachbum' Berry. Its Kansas City venue has changed within the distillery: the Hey! Hey! Club hosted it in 2023 and 2024, while the official 2025 event listing placed it at Electric Park Garden Bar. My exact visit year and host room are not yet established.",
+          "recognitionContext": "Official nationwide branded holiday cocktail program; no location-specific award verified.",
+          "recognitions": [],
+          "sources": [
+            {
+              "label": "Sippin' Santa — official origin",
+              "url": "https://www.sippinsantapopup.com/about"
+            },
+            {
+              "label": "2023 Kansas City pop-up at Hey! Hey! Club",
+              "url": "https://www.kansascity.com/kc-city-guides/things-to-do/article281505283.html"
+            },
+            {
+              "label": "2024 official partner roster (PDF)",
+              "url": "https://static1.squarespace.com/static/5e27f9b2da9a70176ef25078/t/67327a30a155066451e4fede/1731361347827/MIRACLE-SIPPIN-2024_PressRelease_20241031.pdf"
+            },
+            {
+              "label": "2025 official J. Rieger event listing",
+              "url": "https://www.jriegerco.com/event-details/sippin-santa-at-j-rieger-co"
+            }
+          ]
+        },
+        {
+          "id": "j-rieger-electric-park",
+          "title": "Electric Park Garden Bar",
+          "experienceType": "garden_bar_and_adaptive_reuse_design",
+          "visitStatus": "confirmed",
+          "visitDate": null,
+          "visitPeriod": "Date unknown",
+          "personalMemory": "I visited Electric Park Garden Bar.",
+          "description": "An open-air garden bar on the restored distillery grounds, built around a historic loading dock. Fire pits, distinctive seating and an urban-park setting reference the historic Electric Park amusement park, which operated in the East Bottoms from 1899 to 1906.",
+          "recognitionContext": "The following awards recognize this specific architectural project, not a cocktail-service award.",
+          "recognitions": [
+            {
+              "organization": "AIA Kansas City",
+              "year": 2022,
+              "category": "Professionals' Choice",
+              "result": "award",
+              "recipient": "Electric Park Garden Bar at J. Rieger & Co.",
+              "relationship": "Design and architecture",
+              "sourceUrl": "https://www.aiakc.org/award/electric-park-garden-bar-at-j-rieger-co-professionals-choice"
+            },
+            {
+              "organization": "Kansas City Business Journal",
+              "year": 2022,
+              "category": "Capstone Awards — Retail",
+              "result": "award",
+              "recipient": "J. Rieger Electric Park Garden Bar addition",
+              "relationship": "Local retail-development award for Electric Park Garden Bar, reported by the project architect (original publication is indexed by the Kansas City Business Journal)",
+              "sourceUrl": "https://www.gastingerwalker.com/jriegerco-copy"
+            }
+          ],
+          "sources": [
+            {
+              "label": "Architect — Electric Park Garden Bar project",
+              "url": "https://www.gastingerwalker.com/jriegerco-copy"
+            },
+            {
+              "label": "Official bar description",
+              "url": "https://www.jriegerco.com/eat-and-drink"
+            }
+          ]
+        },
+        {
+          "id": "j-rieger-monogram-lounge",
+          "title": "Monogram Lounge",
+          "experienceType": "distillery_cocktail_lounge",
+          "visitStatus": "confirmed",
+          "visitDate": null,
+          "visitPeriod": "Date unknown",
+          "personalMemory": "I visited Monogram Lounge.",
+          "description": "The upstairs cocktail lounge overlooking the distillery's production floor, with original industrial character and views into the working stills. The wider building's preservation accolades provide context, but no award specific to Monogram Lounge has been verified.",
+          "recognitionContext": "Venue-specific award unverified. Spirited Awards nominations for Monogram Whiskey refer to the product, not this lounge.",
+          "recognitions": [],
+          "sources": [
+            {
+              "label": "J. Rieger — eat and drink",
+              "url": "https://www.jriegerco.com/eat-and-drink"
+            },
+            {
+              "label": "Architect — distillery renovation",
+              "url": "https://www.gastingerwalker.com/jriegerco-copy"
+            }
+          ]
+        },
+        {
+          "id": "j-rieger-hey-hey-club",
+          "title": "The Hey! Hey! Club",
+          "experienceType": "cocktail_bar_and_jazz_heritage",
+          "visitStatus": "confirmed",
+          "visitDate": null,
+          "visitPeriod": "Date unknown",
+          "personalMemory": "I visited The Hey! Hey! Club.",
+          "description": "A basement cocktail bar with a jazz-era atmosphere that pays homage to Kansas City's historic Hey-Hay Club. The cocktail program earned its own international-industry recognition soon after the contemporary venue opened in 2019.",
+          "recognitionContext": "Tales of the Cocktail Foundation named the specific bar a Central U.S. regional Top 10 honoree in 2020; this was a regional longlist distinction, not a national Spirited Awards win.",
+          "recognitions": [
+            {
+              "organization": "Tales of the Cocktail Foundation",
+              "year": 2020,
+              "category": "Spirited Awards — Best New American Cocktail Bar (Central region)",
+              "result": "Regional Top 10 honoree",
+              "recipient": "The Hey! Hey! Club, Kansas City",
+              "relationship": "The named cocktail bar itself; not an overall distillery award",
+              "sourceUrl": "https://talesofthecocktail.org/tales-of-the-cocktail-foundation-announces-regional-top-10-honorees-for-the-2020-spirited-awards/"
+            }
+          ],
+          "sources": [
+            {
+              "label": "J. Rieger — eat and drink",
+              "url": "https://www.jriegerco.com/eat-and-drink"
+            }
+          ]
+        }
+      ],
+      "relatedExperienceIds": [
+        "bar-manifesto-kansas-city",
+        "dining-rieger-hotel-grill-exchange-kansas-city"
+      ]
     }
   ],
   "origin": {

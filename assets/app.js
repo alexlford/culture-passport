@@ -18,7 +18,7 @@
     (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
   const isRecalled=(r)=>r.status==="recollected";
   // JBF program participation is not a James Beard Award.
-  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature);
+  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight);
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
@@ -69,7 +69,7 @@
   function card(r,v){
     const a=link(" ",href(r),"record-card");
     a.textContent="";
-    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
+    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.culturalSpotlight?"CULTURAL DESTINATION":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
@@ -349,7 +349,8 @@
       host.append(el("p","eyebrow memory-favorite","✳ KEPT FOR THE MEMORY"));
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
-      host.append(el("p","memory-disclosure",r.editorial?.featuredException?
+      host.append(el("p","memory-disclosure",r.editorial?.culturalSpotlight?
+        "A curated cultural landmark with independently documented preservation, architectural or cocktail-industry recognition. These honors are not Michelin or James Beard distinctions.":r.editorial?.featuredException?
         "A personally selected cultural memory.":r.editorial?.officialFeature?
         (r.editorial.officialFeatureType==="jbf_editorial_mention"?
           "Official James Beard Foundation editorial coverage; no award or nomination claimed.":
@@ -385,6 +386,73 @@
         feature.append(sources);
       }
       host.append(feature);
+    }
+    // A shared historic site may contain independently confirmed experiences.
+    // Render each named venue with its own recognition and prohibit award inheritance.
+    if(Array.isArray(r.onSiteExperiences)&&r.onSiteExperiences.length){
+      const section=el("section","onsite-experiences");
+      section.append(el("p","eyebrow","CONFIRMED EXPERIENCES"),
+        el("h2","","Four experiences in one landmark"),
+        el("p","onsite-intro","These are four separately recalled visits or experiences at the J. Rieger complex. Dates and companions remain unknown; distinctions belong only to their named recipients."));
+      const grid=el("div","onsite-grid");
+      for(const experience of r.onSiteExperiences){
+        const item=el("article","onsite-item");
+        item.append(el("p","onsite-period",experience.visitPeriod||"Date not specified"),
+          el("h3","",experience.title),el("p","onsite-memory",experience.personalMemory||""),
+          el("p","",experience.description||""));
+        if(experience.recognitionContext)item.append(el("p","onsite-context",experience.recognitionContext));
+        for(const award of experience.recognitions||[]){
+          const card=el("div","onsite-award");
+          card.append(el("strong","",award.organization+" · "+award.year+" · "+award.category),
+            el("p","",award.recipient+" · "+award.result));
+          if(award.relationship)card.append(el("p","",award.relationship));
+          if(award.sourceUrl?.startsWith("https://")){
+            const a=link("Read official recognition ↗",award.sourceUrl);
+            a.target="_blank";a.rel="noopener noreferrer";card.append(a);
+          }
+          item.append(card);
+        }
+        if(experience.sources?.length){
+          const refs=el("div","onsite-sources");
+          for(const source of experience.sources){
+            if(!source.url?.startsWith("https://"))continue;
+            const a=link(source.label+" ↗",source.url);
+            a.target="_blank";a.rel="noopener noreferrer";refs.append(a);
+          }
+          item.append(refs);
+        }
+        grid.append(item);
+      }
+      section.append(grid);
+      host.append(section);
+    }
+    if(Array.isArray(r.siteRecognitions)&&r.siteRecognitions.length){
+      const section=el("section","site-recognitions");
+      section.append(el("h2","","Recognition for the restored historic site"),
+        el("p","onsite-intro","Building-level preservation recognition applies to the overall distillery, not automatically to any cocktail lounge."));
+      const cards=el("div","award-list");
+      for(const award of r.siteRecognitions){
+        const card=el("div","award-card");
+        card.append(el("strong","",award.organization+" · "+award.category+" · "+award.year),
+          el("p","",award.recipient+" · "+award.result));
+        if(award.relationship)card.append(el("p","",award.relationship));
+        if(award.sourceUrl?.startsWith("https://")){
+          const a=link("Recognition source ↗",award.sourceUrl);
+          a.target="_blank";a.rel="noopener noreferrer";card.append(a);
+        }
+        cards.append(card);
+      }
+      section.append(cards);host.append(section);
+    }
+    if(Array.isArray(r.relatedExperienceIds)&&r.relatedExperienceIds.length){
+      const related=r.relatedExperienceIds.map(id=>db.records.find(x=>x.id===id&&inCollection(x))).filter(Boolean);
+      if(related.length){
+        const section=el("section","related-experiences");
+        section.append(el("h2","","Connected Kansas City stories"),
+          el("p","onsite-intro","The historic Rieger Hotel restaurant and Manifesto cocktail bar were separate experiences at a different address, not rooms inside this distillery."));
+        for(const other of related)section.append(link(other.title+" ↗",href(other)));
+        host.append(section);
+      }
     }
     const around=el("div","experience-navigation");
     around.append(link("Explore experiences in "+(v.city||"this city")+" ↗","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));

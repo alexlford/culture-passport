@@ -44,7 +44,7 @@ def public_story(record):
     if record["status"] != "confirmed":
         return False
     if record["type"] in {"dining", "bar"}:
-        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature"))
+        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature") or editorial.get("culturalSpotlight"))
     return True
 
 
@@ -56,7 +56,7 @@ def sanitize_record(record):
     selected = safe_fields(
         record,
         ("id", "type", "title", "venueId", "status", "summary", "sourceUrl",
-         "favorite", "story"),
+         "favorite", "story", "relatedExperienceIds"),
     )
     if record.get("production"):
         # Preserve public theater-program context, not internal date evidence.
@@ -86,7 +86,7 @@ def sanitize_record(record):
             if not a.get("recognitionAtDifferentVenue")
         ]
     selected["editorial"] = safe_fields(
-        record.get("editorial", {}), ("awardQualified", "featuredException", "officialFeature", "officialFeatureType", "userRequestedMemory")
+        record.get("editorial", {}), ("awardQualified", "featuredException", "officialFeature", "officialFeatureType", "userRequestedMemory", "culturalSpotlight")
     )
     if record.get("officialFeatures"):
         selected["officialFeatures"] = [
@@ -95,6 +95,31 @@ def sanitize_record(record):
             for feature in record["officialFeatures"]
             if feature.get("sourceUrl", "").startswith("https://")
         ]
+    # Multi-room cultural spotlights keep each recognition on its exact recipient.
+    # Include curated prose and public recognition links, not private interview evidence.
+    if record.get("siteRecognitions"):
+        selected["siteRecognitions"] = [
+            safe_fields(a, ("organization", "year", "category", "result",
+                            "recipient", "relationship", "sourceUrl"))
+            for a in record["siteRecognitions"]
+        ]
+    if record.get("onSiteExperiences"):
+        selected["onSiteExperiences"] = []
+        for experience in record["onSiteExperiences"]:
+            entry = safe_fields(experience, ("id", "title", "experienceType",
+                                            "visitStatus", "visitPeriod", "personalMemory",
+                                            "description", "recognitionContext"))
+            entry["recognitions"] = [
+                safe_fields(a, ("organization", "year", "category", "result",
+                                "recipient", "relationship", "sourceUrl"))
+                for a in experience.get("recognitions", [])
+            ]
+            entry["sources"] = [
+                safe_fields(source, ("label", "url"))
+                for source in experience.get("sources", [])
+                if source.get("url", "").startswith("https://")
+            ]
+            selected["onSiteExperiences"].append(entry)
     return selected
 
 

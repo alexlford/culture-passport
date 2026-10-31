@@ -30,6 +30,14 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 - `data/expanded-recognition-audit-2026-10-27.json` — source-linked, **full-scope recognition review** of every confirmed restaurant/location or brand-level dining memory, classifying awards, program connections, featured exceptions, and watchlisted archives without counting uncertain visits.
 - `assets/` — independent stylesheet and JavaScript, with no runtime dependency on the Life Map application.
 
+## Kansas City multi-venue cultural landmark — J. Rieger & Co. (October 31, 2026)
+
+The user confirmed four distinct experiences at the historic East Bottoms J. Rieger & Co. complex: Sippin' Santa, Electric Park Garden Bar, Monogram Lounge and the Hey! Hey! Club. The existing confirmed J. Rieger visit acts as a **single editorial introduction** with four scoped experience chapters. It links back to **Manifesto** and **The Rieger Hotel Grill & Exchange** as separate earlier Kansas City experiences at *1924 Main Street*, not as rooms in the current 2700 Guinotte Avenue distillery. No dates, drinks or companions were invented.
+
+A separate `editorial.culturalSpotlight` curation tier allows an award-supported historic/cultural destination page without inflating the Michelin/James Beard recognized count. The original J. Rieger record retains `editorial.awardQualified=false`. The overall historic site earned a 2020 Missouri Preservation **Preserve Missouri Award**, and the project architect documents a 2019 Historic Kansas City adaptive reuse honor (secondary source). **Electric Park Garden Bar** earned the 2022 AIA Kansas City Professionals' Choice design award and 2022 Kansas City Business Journal Capstone Retail development award. **The Hey! Hey! Club** is a 2020 Tales of the Cocktail Spirited Awards **Central regional Top 10 honoree** for Best New American Cocktail Bar, not a national award winner. Monogram Lounge has no verified room-specific award; the Monogram Whiskey product's honors do *not* transfer to the lounge. Sippin' Santa is a nationally affiliated holiday pop-up, not itself an awarded KC bar.
+
+The private user-confirmed history and links are in `data/interview-updates/kansas-city-2026-10-31-j-rieger-four-experiences.json`. The visitor-preview export includes only curated venue context and public evidence; the project remains private and this new page is `pending` in `data/publication-review.json`. Nothing in this classification authorizes public release, image reuse or override of the publication gate.
+
 ## Broader Michelin / James Beard curation (October 2026)
 
 **Always lead with a direct, confirmed visit.** A restaurant can appear in one of four distinctly named tiers. The stored claims must link to official Michelin Guide or James Beard Foundation resources, not only third-party lists:

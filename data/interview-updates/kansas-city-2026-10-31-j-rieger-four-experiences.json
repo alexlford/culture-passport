@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "area": "Kansas City, Missouri",
+  "project": "Culture Passport",
+  "topic": "J. Rieger & Co. historic venue cluster",
+  "statement": "I've been to Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club.",
+  "visitStatus": "confirmed",
+  "visitDate": null,
+  "year": null,
+  "companion": null,
+  "itemsOrdered": null,
+  "parentExperienceId": "bar-j-rieger-kansas-city-multiple-visits",
+  "visits": [
+    {
+      "experienceId": "j-rieger-sippin-santa",
+      "venue": "Sippin' Santa",
+      "status": "confirmed",
+      "type": "seasonal_pop_up",
+      "seasonYear": null,
+      "hostRoom": "unconfirmed; J. Rieger complex"
+    },
+    {
+      "experienceId": "j-rieger-electric-park",
+      "venue": "Electric Park Garden Bar",
+      "status": "confirmed",
+      "type": "garden_bar",
+      "date": null
+    },
+    {
+      "experienceId": "j-rieger-monogram-lounge",
+      "venue": "Monogram Lounge",
+      "status": "confirmed",
+      "type": "cocktail_lounge",
+      "date": null
+    },
+    {
+      "experienceId": "j-rieger-hey-hey-club",
+      "venue": "The Hey! Hey! Club",
+      "status": "confirmed",
+      "type": "cocktail_bar",
+      "date": null
+    }
+  ],
+  "researchSummary": {
+    "generalSite": [
+      {
+        "issuer": "Missouri Preservation",
+        "year": 2020,
+        "category": "Preserve Missouri Award",
+        "recipient": "J. Rieger & Co. restored Heim Brewery bottling plant",
+        "sourceUrl": "https://preservemo.org/we-advocate/honor-awards/2020honorawards/"
+      },
+      {
+        "issuer": "Historic Kansas City",
+        "year": 2019,
+        "category": "Best Adaptive Re-Use",
+        "recipient": "J. Rieger & Co. renovation",
+        "sourceTier": "architect secondary record",
+        "sourceUrl": "https://www.gastingerwalker.com/awards"
+      }
+    ],
+    "specificVenues": [
+      {
+        "experienceId": "j-rieger-electric-park",
+        "qualification": "2022 AIA Kansas City Professionals' Choice award and 2022 KCBJ Capstone Retail award",
+        "sourceUrls": [
+          "https://www.aiakc.org/award/electric-park-garden-bar-at-j-rieger-co-professionals-choice",
+          "https://www.gastingerwalker.com/jriegerco-copy"
+        ]
+      },
+      {
+        "experienceId": "j-rieger-hey-hey-club",
+        "qualification": "2020 Tales of the Cocktail Foundation Spirited Awards Central Regional Top 10 honoree, Best New American Cocktail Bar",
+        "sourceUrls": [
+          "https://talesofthecocktail.org/tales-of-the-cocktail-foundation-announces-regional-top-10-honorees-for-the-2020-spirited-awards/"
+        ]
+      },
+      {
+        "experienceId": "j-rieger-sippin-santa",
+        "qualification": "Official nationally franchised holiday pop-up, not an individual award",
+        "sourceUrls": [
+          "https://www.sippinsantapopup.com/about",
+          "https://www.jriegerco.com/event-details/sippin-santa-at-j-rieger-co"
+        ]
+      },
+      {
+        "experienceId": "j-rieger-monogram-lounge",
+        "qualification": "No verified lounge-specific honor; spirits-product accolades do not transfer",
+        "sourceUrls": [
+          "https://www.jriegerco.com/eat-and-drink"
+        ]
+      }
+    ]
+  },
+  "publication": {
+    "status": "pending",
+    "intent": "Editorial draft/visitor preview only; preserve private interview evidence and do not bypass review approval"
+  },
+  "strictAttribution": "2020 Spirited Awards recognition is a regional Top 10 distinction, not a win. 2020 Preserve Missouri applies to overall site. Electric Park design awards apply only to Electric Park project. Do not transfer awards to Monogram Lounge, Sippin' Santa or to the separately visited Rieger Hotel Grill & Exchange/Manifesto at 1924 Main St."
+}

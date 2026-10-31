@@ -993,5 +993,30 @@ assert toms["status"] == jrieger["status"] == "confirmed"
 assert toms["visit"]["repeatVisits"] and jrieger["visit"]["repeatVisits"]
 assert not toms["editorial"]["awardQualified"] and not jrieger["editorial"]["awardQualified"]
 assert toms["officialFeatures"][0]["recognitionType"] == "beverage_supplier"
-assert toms["id"] in visitor_ids and jrieger["id"] not in visitor_ids
+assert toms["id"] in visitor_ids and jrieger["id"] in visitor_ids
+assert jrieger["editorial"]["culturalSpotlight"] is True
+assert jrieger["editorial"]["awardQualified"] is False
+assert {x["title"] for x in jrieger["onSiteExperiences"]} == {
+    "Sippin' Santa", "Electric Park Garden Bar", "Monogram Lounge", "The Hey! Hey! Club"
+}
+assert all(x["visitStatus"] == "confirmed" and x["visitDate"] is None
+           for x in jrieger["onSiteExperiences"])
+rieger_experiences = {x["id"]: x for x in jrieger["onSiteExperiences"]}
+assert not rieger_experiences["j-rieger-sippin-santa"]["recognitions"]
+assert not rieger_experiences["j-rieger-monogram-lounge"]["recognitions"]
+assert {x["organization"] for x in rieger_experiences["j-rieger-electric-park"]["recognitions"]} == {
+    "AIA Kansas City", "Kansas City Business Journal"
+}
+hey_honor = rieger_experiences["j-rieger-hey-hey-club"]["recognitions"]
+assert len(hey_honor) == 1 and hey_honor[0]["year"] == 2020
+assert hey_honor[0]["result"] == "Regional Top 10 honoree"
+assert all(x["sourceUrl"].startswith("https://") for ex in jrieger["onSiteExperiences"]
+           for x in ex["recognitions"])
+assert {x["organization"] for x in jrieger["siteRecognitions"]} == {
+    "Missouri Preservation", "Historic Kansas City"
+}
+assert set(jrieger["relatedExperienceIds"]) == {
+    "bar-manifesto-kansas-city", "dining-rieger-hotel-grill-exchange-kansas-city"
+}
+
 assert next(c for c in candidates if c["id"] == "candidate-kc-lifted-spirits-distillery")["visitStatus"] == "maybe"
