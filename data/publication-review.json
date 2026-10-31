@@ -625,6 +625,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-westport-cafe-bar-kansas-city-date-unknown",
+      "title": "Westport Café & Bar",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
