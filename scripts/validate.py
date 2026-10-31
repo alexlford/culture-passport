@@ -44,7 +44,11 @@ justus_wish = next(x for x in wishlist["entries"] if x["candidateId"] == justus[
 assert justus_wish["visitStatus"] == "not_visited" and justus_wish["status"] == "want_to_visit"
 assert justus_wish["bookable"] is False
 assert not any(r["title"] == "Justus Drugstore" for r in records)
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Anjin"]
+# The queue must point to real, still-unanswered candidates as the interview advances.
+current_names = interview_data["interviewProgress"]["currentBatch"]["candidateNames"]
+assert current_names
+assert all(any(c["name"] == name and c["visitStatus"] == "unreviewed"
+               for c in candidates) for name in current_names)
 yoli = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-yoli-tortilleria")
 assert yoli["visitStatus"] == "not_visited" and yoli["wantsToVisit"] is True
 assert yoli["wishlistEntryId"] == "want-to-visit-yoli-tortilleria-westside-kansas-city"
@@ -67,7 +71,20 @@ fern_wish = next(e for e in wishlist["entries"] if e["candidateId"] == fern["id"
 assert fern_wish["visitStatus"] == "not_visited" and fern_wish["status"] == "want_to_visit"
 assert fern_wish["category"] == "bar"
 assert not any(r["title"] == "Fern Bar" for r in records)
-assert next(c for c in candidates if c["id"] == "candidate-kc-anjin-crossroads")["visitStatus"] == "unreviewed"
+# Preserve explicit attendance and future-interest answers from the KC list interview.
+kc_wishlist_ids = {
+    "candidate-kc-anjin-crossroads", "candidate-kc-the-campground",
+    "candidate-kc-jjs-restaurant", "candidate-kc-green-dirt-on-oak",
+}
+for cid in kc_wishlist_ids:
+    assert next(c for c in candidates if c["id"] == cid)["visitStatus"] == "not_visited"
+    wish = next(e for e in wishlist["entries"] if e["candidateId"] == cid)
+    assert wish["visitStatus"] == "not_visited" and wish["status"] == "want_to_visit"
+for cid in ("candidate-kc-acre-parkville", "candidate-kc-the-belfry"):
+    assert next(c for c in candidates if c["id"] == cid)["visitStatus"] == "not_visited"
+    assert not any(e["candidateId"] == cid for e in wishlist["entries"])
+for cid in ("candidate-kansas-city-metro-lidia-s-kansas-city", "candidate-kc-rozzelle-court"):
+    assert next(c for c in candidates if c["id"] == cid)["visitStatus"] == "confirmed"
 monarch = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-the-monarch-bar")
 assert monarch["visitStatus"] == "not_visited" and monarch["wantsToVisit"] is True
 assert monarch["wishlistEntryId"] == "want-to-visit-the-monarch-bar-kansas-city"
@@ -318,7 +335,7 @@ for name, area in [("Clover Club", "New York City"), ("Columbia Room", "Washingt
                    
                    ("Anjin", "Kansas City Metro")]:
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == area)
-    assert candidate["visitStatus"] == "unreviewed"
+    assert candidate["visitStatus"] == ("not_visited" if name == "Anjin" else "unreviewed")
     assert candidate["screening"]["status"] == "award_qualified"
     assert candidate["sourceUrl"].startswith("https://")
 traveling_mercies = next(c for c in candidates if c["name"] == "Traveling Mercies" and c["area"] == "Denver Metro")

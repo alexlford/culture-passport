@@ -1197,6 +1197,102 @@
           "sourceUrl": "https://archive.jamesbeard.org/blog/the-2023-james-beard-award-winners"
         }
       ]
+    },
+    {
+      "id": "want-to-visit-anjin-crossroads",
+      "candidateId": "candidate-kc-anjin-crossroads",
+      "name": "Anjin",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "1708 Oak Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.anjinkc.com/",
+      "userNote": "Haven’t been — add to wishlist",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "Haven’t been — add to wishlist"
+      },
+      "desiredVisitDate": null,
+      "notes": "Future intent only. Explicitly not visited; no booking or date inferred."
+    },
+    {
+      "id": "want-to-visit-the-campground-kc",
+      "candidateId": "candidate-kc-the-campground",
+      "name": "The Campground",
+      "category": "dining_and_drinks",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "1531 Genessee Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.thecampgroundkc.com/",
+      "userNote": "Haven’t been — add to wishlist",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "Haven’t been — add to wishlist"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future intent only. No booking or date inferred."
+    },
+    {
+      "id": "want-to-visit-jjs-restaurant-kc",
+      "candidateId": "candidate-kc-jjs-restaurant",
+      "name": "JJ's Restaurant",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "900 W. 48th Place, Suite 110",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://jjsrestaurantkc.com/",
+      "userNote": "Haven’t been — add to wishlist",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "Haven’t been — add to wishlist"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance and future intent only; no booking or visit date."
+    },
+    {
+      "id": "want-to-visit-green-dirt-on-oak",
+      "candidateId": "candidate-kc-green-dirt-on-oak",
+      "name": "Green Dirt on Oak",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-29",
+      "location": {
+        "address": "1601 Oak Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://oak.greendirtfarm.com/",
+      "userNote": "Haven’t been — add to wishlist",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-29",
+        "quote": "Haven’t been — add to wishlist"
+      },
+      "desiredVisitDate": null,
+      "notes": "Explicit nonattendance at Crossroads restaurant; no inference about Weston farm or creamery."
     }
   ],
   "interviewConvention": {

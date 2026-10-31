@@ -2935,22 +2935,22 @@
       "id": "candidate-kansas-city-metro-lidia-s-kansas-city",
       "area": "Kansas City Metro",
       "name": "Lidia's Kansas City",
-      "recognition": "Historical dining candidate, no Michelin star or restaurant-level James Beard honor asserted",
-      "recognitionYear": null,
-      "awardFamily": "context",
+      "recognition": "Official JBF program connection: Dan Swinney represented Lidia’s Kansas City at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. Not a restaurant award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
       "interviewCue": "Italian restaurant in a historic rail yard building near Union Station; pasta and Italian specialties.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "unreviewed",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "visitStatus": "confirmed",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Named chef representing exact restaurant at offsite JBF event; no award transferred from other venues."
       },
       "eligibility": {
         "status": "outside_scope",
@@ -2958,6 +2958,19 @@
         "reason": "No Michelin Guide or James Beard honor established for the named venue.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer to Have you visited Lidia’s Kansas City in the Freight House?: Yes — visited",
+      "visitPeriod": "2015–2019",
+      "userMemoryLead": {
+        "identityConfirmed": true,
+        "confirmedOn": "2026-10-29",
+        "source": "Direct user confirmation",
+        "recalled": "Confirmed dining at Lidia’s Kansas City in the Freight House, sometime in 2015–2019, for a date or anniversary outing. Specific occasion, companion identity, exact date and dishes unknown.",
+        "occasionCategory": "date_or_anniversary",
+        "occasionUserQuote": "Date or anniversary",
+        "historicalWindow": "2015–2019, directly selected by user"
       }
     },
     {
@@ -7775,7 +7788,7 @@
       "awardFamily": "beard",
       "interviewCue": "20-seat Japanese izakaya with a U-shaped wooden counter and open kitchen in the East Crossroads at 1708 Oak Street. Opened July 2025; owners Nick and Leslie Goellner also own The Antler Room, a separate restaurant.",
       "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "venueType": "restaurant",
       "researchStatus": "official_2026_restaurant_finalist_verified",
       "addedOn": "2026-10-29",
@@ -7789,6 +7802,210 @@
         "sourceTier": "official_jbf",
         "verifiedAt": "2026-10-29",
         "note": "Named 2026 Best New Restaurant nominee/finalist in the Foundation list. Did not win. This is an award to the specific venue, unrelated to The Antler Room's individual chef honors."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-the-campground",
+      "area": "Kansas City Metro",
+      "name": "The Campground",
+      "recognition": "Jeff Workman — 2024 James Beard Emerging Chef semifinalist at The Campground.",
+      "recognitionYear": 2024,
+      "awardFamily": "beard",
+      "visitStatus": "not_visited",
+      "researchStatus": "official_recognition_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "1531 Genessee Street, Kansas City, MO",
+      "interviewCue": "West Bottoms restaurant and cocktail bar, opened December 2018 in the former Genessee Royale Bistro.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Chef recognition at this specific venue; semifinalist, not winner."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-jjs-restaurant",
+      "area": "Kansas City Metro",
+      "name": "JJ's Restaurant",
+      "recognition": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "visitStatus": "not_visited",
+      "researchStatus": "official_recognition_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "900 W. 48th Place, Suite 110, Kansas City, MO",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+      "interviewCue": "West Plaza restaurant known for wine, steaks and seafood. Current location only; historical location requires separate identification.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "2025 program semifinalist, not winner; no transfer to earlier premises."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-acre-parkville",
+      "area": "Kansas City Metro",
+      "name": "Acre (Parkville)",
+      "recognition": "Official James Beard Foundation event connection: chef/owner Andrew Longres of Acre participated in the October 25, 2025 Friends of James Beard Benefit at The American, Kansas City. Not an Acre award or nomination.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "visitStatus": "not_visited",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "6325 Lewis Street, Suite 119, Parkville, MO",
+      "sourceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+      "interviewCue": "Modern Midwestern restaurant in Parkville with a wood-burning hearth.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Offsite chef-team participation at The American; no Acre award inferred."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — skip",
+      "wishlistStatus": "not_requested"
+    },
+    {
+      "id": "candidate-kc-green-dirt-on-oak",
+      "area": "Kansas City Metro",
+      "name": "Green Dirt on Oak",
+      "recognition": "Official Foundation event connection: Jeff Workman represented Green Dirt on Oak at the October 25, 2025 Friends of James Beard Benefit at The American. Not a venue award or nomination.",
+      "recognitionYear": 2025,
+      "awardFamily": "beard",
+      "visitStatus": "not_visited",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "1601 Oak Street, Kansas City, MO",
+      "sourceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+      "interviewCue": "East Crossroads restaurant and urban cheese kitchen; distinct from Green Dirt Farm and its Weston creamery.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://www.jamesbeard.org/events/fojbb-kansas-city-mo",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Offsite chef-team participation; Workman's 2024 Emerging Chef semifinalist recognition belongs to The Campground, not Green Dirt on Oak."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
+      "wishlistStatus": "want_to_visit"
+    },
+    {
+      "id": "candidate-kc-the-belfry",
+      "area": "Kansas City Metro",
+      "name": "The Belfry",
+      "recognition": "Official Foundation program connection: Celina Tio represented The Belfry at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. Not a Belfry award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
+      "visitStatus": "not_visited",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant_and_bar",
+      "addressHint": "1532 Grand Boulevard, 16th Street entrance, Kansas City, MO",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "interviewCue": "Crossroads bar and kitchen known for whiskey; separate from other Belfry Collective rooms.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Offsite named restaurant chef-team participation, not an award or a visit to the restaurant."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Haven’t been — skip",
+      "wishlistStatus": "not_requested"
+    },
+    {
+      "id": "candidate-kc-rozzelle-court",
+      "area": "Kansas City Metro",
+      "name": "Rozzelle Court Restaurant",
+      "recognition": "Official JBF program connection: Jonathan Pye of Rozzelle Court was host chef for Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. Program participation, not an award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
+      "visitStatus": "confirmed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "4525 Oak Street, Nelson–Atkins Museum of Art, Kansas City, MO",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "interviewCue": "Indoor Italian-style courtyard with fountain and two-story arcades; museum attendance alone is not dining attendance.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "Named host chef and restaurant at museum-hosted event; no award claimed."
+      },
+      "reviewedOn": "2026-10-29",
+      "reviewCertainty": "explicit",
+      "reviewSource": "Direct user answer: Yes — ate there",
+      "visitPeriod": null,
+      "userMemoryLead": {
+        "identityConfirmed": true,
+        "confirmedOn": "2026-10-29",
+        "source": "Direct user confirmation",
+        "recalled": "Ate at Rozzelle Court Restaurant inside the Nelson–Atkins Museum. Date, meal, companions and occasion remain unspecified."
+      },
+      "memoryDetailsDeferred": true,
+      "memoryFollowUpStatus": "deferred_at_user_request"
+    },
+    {
+      "id": "candidate-kc-novel-original-westside",
+      "area": "Kansas City Metro",
+      "name": "Novel (original Westside location)",
+      "recognition": "Official Foundation program connection: Ryan Brazeal represented Novel at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum. Not a restaurant award.",
+      "recognitionYear": 2017,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_program_connection_verified",
+      "addedOn": "2026-10-29",
+      "priority": "standard",
+      "venueType": "restaurant",
+      "addressHint": "815 West 17th Street, Kansas City, MO (former location)",
+      "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "interviewCue": "Original small-house Westside location, before 2018 relocation to McGee Street. Preserve separate locations.",
+      "screening": {
+        "status": "official_feature",
+        "basis": "james_beard_event_participation",
+        "evidenceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+        "sourceTier": "primary",
+        "verifiedAt": "2026-10-29",
+        "note": "2017 chef-team event participation during original-location period; not an award or an honor transferred to later premises."
       }
     }
   ],
@@ -8818,12 +9035,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Anjin"
+        "Novel (original Westside location)"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Anjin, the 20-seat Japanese izakaya at 1708 Oak Street in the Crossroads, since it opened in July 2025?",
-      "continuation": "Continue Kansas City Metro historical 2010–present award audit and then Baltimore retrospective gap audit.",
-      "note": "Yoli Westside retail shop explicitly unvisited and wishlisted, with no inference from outside product purchases. Anjin is a 2026 James Beard Best New Restaurant finalist at the exact Crossroads restaurant; separate from The Antler Room and its owner Nick Goellner's individual recognitions. Four interview choices include 'Haven't been — add to my list'."
+      "question": "Did you eat at Novel’s original Westside location at 815 West 17th Street, before its 2018 move?",
+      "continuation": "List compilation only: attendance and wishlist choices with photos, no depth follow-ups. Continue Kansas City 2010–present, then Baltimore."
     },
     "pausedBatches": [
       {
@@ -9166,6 +9382,24 @@
         "status": "queued_historical_gap_audit",
         "review": "Include previously overlooked and closed historically qualifying venues and preserve recalled/uncertain visit statuses."
       }
-    ]
+    ],
+    "detailInterviewPolicy": {
+      "mode": "compile_list_first",
+      "userInstruction": "We can do in-depth interviews later. Let’s get the list compiled first",
+      "defer": [
+        "dates",
+        "companions",
+        "occasions",
+        "dishes",
+        "stories"
+      ],
+      "responseChoices": [
+        "confirmed",
+        "maybe",
+        "not_visited_wishlist",
+        "not_visited_skip"
+      ],
+      "photosAndButtons": true
+    }
   }
 }
