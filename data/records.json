@@ -1321,6 +1321,15 @@
       "location": null,
       "sourceId": "rye-plaza-kansas-city",
       "venueScope": "Plaza branch only; not Rye Leawood"
+    },
+    {
+      "id": "venue-801-chophouse-downtown-kansas-city",
+      "name": "801 Chophouse",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "United States",
+      "address": "71 E 14th Street, Kansas City, MO",
+      "category": "restaurant"
     }
   ],
   "records": [
@@ -7586,6 +7595,36 @@
             "url": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
           }
         ]
+      }
+    },
+    {
+      "id": "dining-801-chophouse-downtown-kansas-city",
+      "type": "dining",
+      "title": "801 Chophouse — Downtown Kansas City",
+      "venueId": "venue-801-chophouse-downtown-kansas-city",
+      "status": "confirmed",
+      "visit": {
+        "date": null,
+        "year": null,
+        "precision": "unknown",
+        "source": "Direct user confirmation October 31, 2026",
+        "evidenceType": "direct_user_recollection"
+      },
+      "summary": "Confirmed visit to 801 Chophouse at 71 E 14th Street, downtown Kansas City; date unknown. Do not infer visits to other branches.",
+      "recognitions": [
+        {
+          "issuer": "Wine Spectator",
+          "distinction": "Best of Award of Excellence (Two Glasses)",
+          "year": 2025,
+          "category": "wine_program",
+          "attribution": "Downtown Kansas City restaurant; separate from Michelin, James Beard and DiRōNA",
+          "verification": "previous interview citation; primary award entry to be rechecked"
+        }
+      ],
+      "editorial": {
+        "awardQualified": false,
+        "collection": "confirmed_dining_award_watchlist",
+        "note": "Wine Spectator wine-list honor retained separately; do not present as Michelin/JBF distinction."
       }
     }
   ],
