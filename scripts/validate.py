@@ -922,7 +922,8 @@ for row in expanded_rows:
 assert next(x for x in candidates if x["name"] == "Soupçon" and x["area"] == "Crested Butte")["visitStatus"] == "maybe"
 assert all(not (x["restaurantName"] == "Soupçon") for x in expanded_rows)
 assert {r["restaurantName"] for r in expanded_rows if r["collectionTier"] == "official_program_or_editorial_connection"} == {
-    "Uchi Denver", "Jack Stack Barbecue (Overland Park)", "Pierpont's at Union Station"}
+    "Uchi Denver", "Jack Stack Barbecue (Overland Park)", "Pierpont's at Union Station",
+    "Lidia's Kansas City", "Rozzelle Court Restaurant"}
 
 # NYC dinner: confirm the experience from the user's statement, independently
 # of an award or reservation, and attribute the professional honor precisely.
@@ -954,3 +955,19 @@ la_marchande_review = next(x for x in json.loads(
 )["reviewedRecords"] if x["id"] == la_marchande["id"])
 assert la_marchande_review["status"] == "pending"
 assert la_marchande_review["approvedDigest"] is None
+
+# Website incorporation preserves confirmed visits, distinct recognition and pending review.
+incorporated_ids = ["dining-lidias-kansas-city-2015-2019","dining-rozzelle-court-kansas-city-date-unknown","bar-eagle-cambridge-visit-date-unknown","bar-anchor-cambridge-visit-date-unknown","bar-mill-pub-cambridge-visit-date-unknown","dining-millworks-cambridge-visit-date-unknown","dining-parkers-tavern-cambridge-date-unknown","bar-parkers-tavern-cambridge-date-unknown","dining-fitzbillies-trumpington-cambridge-date-unknown","bar-kingston-arms-cambridge-date-unknown"]
+from build_public_preview import visitor_dataset
+visitor_ids = {r["id"] for r in visitor_dataset()["records"]}
+assert set(incorporated_ids) <= visitor_ids
+for cid in incorporated_ids:
+    rec = next(r for r in records if r["id"] == cid)
+    assert rec["status"] == "confirmed" and not rec["editorial"]["awardQualified"]
+    assert rec["visit"]["date"] is None
+    approval = next(a for a in json.loads((ROOT / "data/publication-review.json").read_text())["reviewedRecords"] if a["id"] == cid)
+    assert approval["status"] == "pending" and approval["approvedDigest"] is None
+for title in ("The Mill (pub)", "The Kingston Arms", "The Eagle"):
+    rec = next(r for r in records if r["title"] == title)
+    assert any(a["organization"] == "CAMRA" and a["sourceUrl"].startswith("https://camra.org.uk/") for a in rec["recognitions"])
+assert next(r for r in records if r["id"] == "dining-lidias-kansas-city-2015-2019")["visit"]["possibleYears"] == [2015, 2016, 2017, 2018, 2019]

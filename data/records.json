@@ -1278,6 +1278,33 @@
       "location": null,
       "sourceId": "la-marchande-new-york",
       "locationAttribution": "Exact venue address verified on restaurant and John Fraser Restaurants official websites; no coordinates inferred."
+    },
+    {
+      "id": "venue-lidias-kansas-city",
+      "name": "Lidia's Kansas City",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": "101 West 22nd Street",
+      "location": null
+    },
+    {
+      "id": "venue-rozzelle-court-kansas-city",
+      "name": "Rozzelle Court Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": "4525 Oak Street, Nelson–Atkins Museum of Art",
+      "location": null
+    },
+    {
+      "id": "venue-kingston-arms-cambridge",
+      "name": "The Kingston Arms",
+      "city": "Cambridge",
+      "region": "Cambridgeshire, England",
+      "country": "United Kingdom",
+      "address": "33 Kingston Street, Cambridge CB1 2NU",
+      "location": null
     }
   ],
   "records": [
@@ -6193,7 +6220,18 @@
         "period": "Cambridge work visit; exact date unknown",
         "source": "User-supplied Cambridge recollections on 2026-10-27; no fabricated date, dishes or individuals."
       },
-      "recognitions": [],
+      "recognitions": [
+        {
+          "organization": "CAMRA",
+          "category": "Outstanding pub restoration",
+          "year": null,
+          "result": "recognition",
+          "recipient": "The Eagle",
+          "relationship": "recognition of this exact pub",
+          "sourceUrl": "https://camra.org.uk/pubs/eagle-cambridge-131472",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
       "guide": {
         "distinction": "not_verified",
         "stars": 0,
@@ -6205,20 +6243,21 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted. Separately verified CAMRA recognition is listed with its source; visit date and honor timing relative to visit are unknown."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       }
     },
     {
@@ -6258,20 +6297,21 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://www.anchorcambridge.com/"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       }
     },
     {
@@ -6299,7 +6339,18 @@
         "period": "Cambridge work visit; exact date unknown",
         "source": "User-supplied Cambridge recollections on 2026-10-27; no fabricated date, dishes or individuals."
       },
-      "recognitions": [],
+      "recognitions": [
+        {
+          "organization": "CAMRA",
+          "category": "Local CAMRA Young Members’ Pub of the Year",
+          "year": 2018,
+          "result": "winner",
+          "recipient": "The Mill (pub)",
+          "relationship": "recognition of this exact pub",
+          "sourceUrl": "https://camra.org.uk/pubs/mill-cambridge-131219",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
       "guide": {
         "distinction": "not_verified",
         "stars": 0,
@@ -6311,20 +6362,21 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted. Separately verified CAMRA recognition is listed with its source; visit date and honor timing relative to visit are unknown."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://www.themillpubcambridge.com/"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       }
     },
     {
@@ -6364,20 +6416,21 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Maintain as confirmed experience independently of recognition. Do not call this an award-qualified venue without formal source verification."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Confirmed personal experience retained in archive; Michelin/JBF award eligibility not established.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://themillworks.co.uk/"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       }
     },
     {
@@ -6399,21 +6452,22 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Record confirmed dining and drinks at this venue. Do not infer venue-specific Michelin/JBF recognition from hotel's listing."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Visit directly confirmed; restaurant-level award or guide recognition not verified. Keep in permanent watchlist.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://parkerstavern.com/",
           "https://universityarms.com/eat-and-drink/"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       },
       "visit": {
         "date": null,
@@ -6462,21 +6516,22 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Record confirmed dining and drinks at this venue. Do not infer venue-specific Michelin/JBF recognition from hotel's listing."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Visit directly confirmed; restaurant-level award or guide recognition not verified. Keep in permanent watchlist.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://parkerstavern.com/",
           "https://universityarms.com/eat-and-drink/"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       },
       "visit": {
         "date": null,
@@ -6548,20 +6603,21 @@
       "editorial": {
         "awardQualified": false,
         "officialFeature": false,
-        "featuredException": false,
-        "collection": "archived_private_memory",
-        "basis": "confirmed_user_recollection",
-        "note": "Confirmed original Fitzbillies café dining or afternoon tea, with separate permanent recognition watchlist. No awards inferred."
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted."
       },
       "curation": {
         "status": "outside_scope",
-        "basis": "none_verified",
-        "reason": "Retain confirmed historical café memory; exact venue historical Michelin/JBF award, program or editorial connection remains to be audited.",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
         "evidenceUrls": [
           "https://www.fitzbillies.com/pages/trumpington-street"
         ],
-        "reviewedOn": "2026-10-27",
-        "confidence": "direct_user_confirmation"
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       }
     },
     {
@@ -6974,6 +7030,205 @@
             "url": "https://www.lamarchandenyc.com/location/la-marchande/"
           }
         ]
+      }
+    },
+    {
+      "id": "dining-lidias-kansas-city-2015-2019",
+      "type": "dining",
+      "title": "Lidia's Kansas City",
+      "venueId": "venue-lidias-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "precision": "approximate",
+        "label": "2015–2019 · date or anniversary outing",
+        "source": "Direct user confirmation in the Culture Passport interview, October 29, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "directly_confirmed"
+      },
+      "summary": "I visited Lidia’s Kansas City for a date or anniversary outing sometime between 2015 and 2019.",
+      "memory": {
+        "headline": "At Lidia's Kansas City",
+        "teaser": "I visited Lidia’s Kansas City for a date or anniversary outing sometime between 2015 and 2019.",
+        "story": "I visited Lidia’s Kansas City for a date or anniversary outing sometime between 2015 and 2019.",
+        "period": "2015–2019 · date or anniversary outing",
+        "source": "Direct user confirmation in the Culture Passport interview, October 29, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "Foundation event participation, not a Michelin or James Beard award."
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America event participation",
+          "relationship": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art.",
+          "venueScope": "exact_visited_venue",
+          "recognitionType": "event_participation",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ],
+      "sourceUrl": "https://www.lidias-kc.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": true,
+        "officialFeatureType": "jbf_event_participation",
+        "featuredException": false,
+        "collection": "official_foundation_featured_dining",
+        "basis": "jbf_program_participation"
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "jbf_program_participation",
+        "reason": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. This is an official program connection, not an award or evidence of attendance at that event.",
+        "evidenceUrls": [
+          "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+          "https://www.lidias-kc.com/"
+        ],
+        "reviewedOn": "2026-10-31",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-rozzelle-court-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "Rozzelle Court Restaurant",
+      "venueId": "venue-rozzelle-court-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Dining visit · date unknown",
+        "source": "Direct user confirmation in the Culture Passport interview, October 29, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "directly_confirmed"
+      },
+      "summary": "I ate at Rozzelle Court inside the Nelson–Atkins Museum of Art.",
+      "memory": {
+        "headline": "At Rozzelle Court Restaurant",
+        "teaser": "I ate at Rozzelle Court inside the Nelson–Atkins Museum of Art.",
+        "story": "I ate at Rozzelle Court inside the Nelson–Atkins Museum of Art.",
+        "period": "Dining visit · date unknown",
+        "source": "Direct user confirmation in the Culture Passport interview, October 29, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "Foundation event participation, not a Michelin or James Beard award."
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America event participation",
+          "relationship": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef.",
+          "venueScope": "exact_visited_venue",
+          "recognitionType": "event_participation",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ],
+      "sourceUrl": "https://www.nelson-atkins.org/visit/things-to-do/rozzelle-court/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": true,
+        "officialFeatureType": "jbf_event_participation",
+        "featuredException": false,
+        "collection": "official_foundation_featured_dining",
+        "basis": "jbf_program_participation"
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "jbf_program_participation",
+        "reason": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef. This is an official program connection, not an award or evidence of attendance at that event.",
+        "evidenceUrls": [
+          "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+          "https://www.nelson-atkins.org/visit/things-to-do/rozzelle-court/"
+        ],
+        "reviewedOn": "2026-10-31",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-kingston-arms-cambridge-date-unknown",
+      "type": "bar",
+      "title": "The Kingston Arms",
+      "venueId": "venue-kingston-arms-cambridge",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Cambridge visit · year unspecified",
+        "source": "Direct user's Cambridge Culture Passport interview answers on October 27, 2026.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_location_date_unknown"
+      },
+      "summary": "I visited The Kingston Arms in Cambridge for drinks.",
+      "memory": {
+        "headline": "Drinks at The Kingston Arms",
+        "teaser": "A Cambridge pub visit for drinks.",
+        "story": "I visited The Kingston Arms in Cambridge for drinks.",
+        "period": "Cambridge visit · date unknown",
+        "source": "Direct user confirmation in the prior Cambridge interview."
+      },
+      "recognitions": [
+        {
+          "organization": "CAMRA",
+          "category": "Cambridgeshire CAMRA Pub of the Year",
+          "year": 2025,
+          "result": "winner",
+          "recipient": "The Kingston Arms",
+          "relationship": "recognition of this exact pub",
+          "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin or James Beard distinction claimed for this experience."
+      },
+      "sourceUrl": "https://thekingstonarms.co.uk/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": true,
+        "collection": "personal_memories",
+        "basis": "explicit_user_inclusion",
+        "note": "User requested incorporation of confirmed Cambridge experiences on October 31, 2026. Personal inclusion; no unverified Michelin or James Beard honors asserted. Separately verified CAMRA recognition is listed with its source; visit date and honor timing relative to visit are unknown."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "personal_featured_exception",
+        "reason": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
+        "evidenceUrls": [
+          "https://www.greeneking.co.uk/pubs/cambridgeshire/eagle"
+        ],
+        "reviewedOn": "2026-10-31",
+        "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
       }
     }
   ],

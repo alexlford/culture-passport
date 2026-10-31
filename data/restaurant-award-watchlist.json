@@ -1244,8 +1244,8 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-27",
-      "featuredException": false,
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": true,
       "evidenceRefs": [
         "data/records.json",
         "data/interview.json"
@@ -1256,6 +1256,14 @@
           "date": "2026-10-27",
           "result": "pending_formal_historical_screening",
           "note": "Confirmed meal added to the permanent restaurant award watchlist without assuming venue-specific Michelin or James Beard recognition. Formal expanded audit remains open.",
+          "evidenceUrls": [
+            "https://themillworks.co.uk/"
+          ]
+        },
+        {
+          "date": "2026-10-31",
+          "result": "website_selection_updated",
+          "note": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
           "evidenceUrls": [
             "https://themillworks.co.uk/"
           ]
@@ -1279,8 +1287,8 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-27",
-      "featuredException": false,
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": true,
       "evidenceRefs": [
         "data/records.json",
         "data/interview.json"
@@ -1294,6 +1302,15 @@
           "evidenceUrls": [
             "https://guide.michelin.com/ie/en/hotels-stays/cambridge/university-arms-hotel-10187?viamichelin=1",
             "https://parkerstavern.com/"
+          ]
+        },
+        {
+          "date": "2026-10-31",
+          "result": "website_selection_updated",
+          "note": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
+          "evidenceUrls": [
+            "https://parkerstavern.com/",
+            "https://universityarms.com/eat-and-drink/"
           ]
         }
       ],
@@ -1315,8 +1332,8 @@
       ],
       "status": "monitoring",
       "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-27",
-      "featuredException": false,
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": true,
       "evidenceRefs": [
         "data/records.json",
         "data/interview.json"
@@ -1330,11 +1347,111 @@
           "evidenceUrls": [
             "https://www.fitzbillies.com/pages/our-story"
           ]
+        },
+        {
+          "date": "2026-10-31",
+          "result": "website_selection_updated",
+          "note": "Confirmed Cambridge experience selected for website by explicit user request; formal Michelin/JBF recognition remains unverified.",
+          "evidenceUrls": [
+            "https://www.fitzbillies.com/pages/trumpington-street"
+          ]
         }
       ],
       "recognitionEvents": [],
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition"
+    },
+    {
+      "id": "venue-lidias-kansas-city",
+      "venueId": "venue-lidias-kansas-city",
+      "venueName": "Lidia's Kansas City",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-lidias-kansas-city-2015-2019"
+      ],
+      "visitPeriods": [
+        "2015–2019 · date or anniversary outing"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. This is an official program connection, not an award or evidence of attendance at that event.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-31",
+          "result": "website_selection_updated",
+          "note": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art. This is an official program connection, not an award or evidence of attendance at that event.",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+            "https://www.lidias-kc.com/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America event participation",
+          "relationship": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art.",
+          "venueScope": "exact_visited_venue",
+          "recognitionType": "event_participation",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ],
+      "expandedReviewTier": "official_program_or_editorial_connection"
+    },
+    {
+      "id": "venue-rozzelle-court-kansas-city",
+      "venueId": "venue-rozzelle-court-kansas-city",
+      "venueName": "Rozzelle Court Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-rozzelle-court-kansas-city-date-unknown"
+      ],
+      "visitPeriods": [
+        "Dining visit · date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified",
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef. This is an official program connection, not an award or evidence of attendance at that event.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-31",
+          "result": "website_selection_updated",
+          "note": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef. This is an official program connection, not an award or evidence of attendance at that event.",
+          "evidenceUrls": [
+            "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+            "https://www.nelson-atkins.org/visit/things-to-do/rozzelle-court/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America event participation",
+          "relationship": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef.",
+          "venueScope": "exact_visited_venue",
+          "recognitionType": "event_participation",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ],
+      "expandedReviewTier": "official_program_or_editorial_connection"
     }
   ]
 }

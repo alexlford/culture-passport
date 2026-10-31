@@ -2953,10 +2953,10 @@
         "note": "Named chef representing exact restaurant at offsite JBF event; no award transferred from other venues."
       },
       "eligibility": {
-        "status": "outside_scope",
-        "basis": "context",
-        "reason": "No Michelin Guide or James Beard honor established for the named venue.",
-        "screenedOn": "2026-10-25",
+        "status": "official_program_connection",
+        "basis": "jbf_program_participation",
+        "reason": "Dan Swinney represented Lidia's Kansas City at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art.",
+        "screenedOn": "2026-10-31",
         "verifiedForPublication": false
       },
       "reviewedOn": "2026-10-29",
@@ -2971,7 +2971,8 @@
         "occasionCategory": "date_or_anniversary",
         "occasionUserQuote": "Date or anniversary",
         "historicalWindow": "2015–2019, directly selected by user"
-      }
+      },
+      "confirmedVisitId": "dining-lidias-kansas-city-2015-2019"
     },
     {
       "id": "candidate-kansas-city-metro-extra-virgin",
@@ -7982,7 +7983,15 @@
         "recalled": "Ate at Rozzelle Court Restaurant inside the Nelson–Atkins Museum. Date, meal, companions and occasion remain unspecified."
       },
       "memoryDetailsDeferred": true,
-      "memoryFollowUpStatus": "deferred_at_user_request"
+      "memoryFollowUpStatus": "deferred_at_user_request",
+      "confirmedVisitId": "dining-rozzelle-court-kansas-city-date-unknown",
+      "eligibility": {
+        "status": "official_program_connection",
+        "basis": "jbf_program_participation",
+        "reason": "Jonathan Pye represented Rozzelle Court Restaurant at Taste America Kansas City on November 10, 2017 at the Nelson–Atkins Museum of Art as host chef.",
+        "screenedOn": "2026-10-31",
+        "verifiedForPublication": false
+      }
     },
     {
       "id": "candidate-kc-novel-original-westside",
@@ -8040,6 +8049,17 @@
         "screenedOn": "2026-10-30",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-cambridge-kingston-arms",
+      "name": "The Kingston Arms",
+      "area": "Cambridge, UK",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "bar-kingston-arms-cambridge-date-unknown",
+      "sourceUrl": "https://camra.org.uk/pubs/kingston-arms-cambridge-131210",
+      "reviewSource": "User explicitly confirmed visiting The Kingston Arms, 33 Kingston Street, for drinks in the Cambridge interview.",
+      "reviewedOn": "2026-10-31",
+      "recognition": "Cambridgeshire CAMRA Pub of the Year 2025; not a Michelin or James Beard distinction."
     }
   ],
   "source": {
