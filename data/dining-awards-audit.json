@@ -1,7 +1,7 @@
 {
   "version": 1,
   "auditedOn": "2026-10-31",
-  "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation. October 27, 2026 Union Station follow-up: repeated Pierpont's dining and Harvey's after-wedding goodbye brunch directly confirmed and explicitly selected. Pierpont's is linked by a 2011 Foundation editorial mention; Harvey's is a personal-memory exception. No new formal awards or exact visit dates.",
+  "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation. October 27, 2026 Union Station follow-up: repeated Pierpont's dining and Harvey's after-wedding goodbye brunch directly confirmed and explicitly selected. Pierpont's is linked by a 2011 Foundation editorial mention; Harvey's is a personal-memory exception. No new formal awards or exact visit dates. October 31 direct 801 Chophouse downtown KCMO visit: date unknown; Wine Spectator Best of Award of Excellence (wine program, 2023 and 2025) is separately documented, not Michelin or James Beard.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
     "personal": "User explicitly chose to preserve a personally meaningful venue regardless of award.",
@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 52,
-    "distinctPublishedVenues": 49,
+    "canonExperienceRecords": 53,
+    "distinctPublishedVenues": 50,
     "recognized": 23,
     "featuredPersonal": 15,
     "officiallyFeatured": 6,
-    "unfeaturedOther": 6,
+    "unfeaturedOther": 7,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -1086,6 +1086,47 @@
         "Location-specific Michelin/James Beard honor not independently verified. Colby Garrelts' 2013 Best Chef: Midwest award was at Bluestem, while Megan Garrelts' Rye pastry semifinalist listings identify Leawood. No transfer to Plaza."
       ],
       "visitConfidence": "direct_user_confirmation_specific_plaza_branch_date_unknown",
+      "publicationStatus": "private_award_watchlist_not_selected"
+    },
+    {
+      "venueId": "venue-801-chophouse-kansas-city-power-light",
+      "name": "801 Chophouse — Power & Light District",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-801-chophouse-kansas-city-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Confirmed downtown KCMO visit; exact date unknown"
+      ],
+      "recognitionStatus": "separate_wine_spectator_award_not_michelin_james_beard",
+      "sourceUrls": [
+        "https://801chophouse.com/locations/kansas-city/",
+        "https://thebestrestaurantsguide.com/awards/wine-spectator/2023",
+        "https://www.kcdaily.com/p/cherry-on-top"
+      ],
+      "recognitionSummary": [
+        "Exact Kansas City, Missouri restaurant received Wine Spectator Best of Award of Excellence (two glasses) for its wine program in 2023 and 2025. Separate from James Beard or Michelin, and distinct from Leawood. Qualifying formal culinary awards not independently verified."
+      ],
+      "otherHospitalityRecognitions": [
+        {
+          "organization": "Wine Spectator",
+          "year": 2023,
+          "category": "Best of Award of Excellence",
+          "awardFamily": "wine_spectator",
+          "recipient": "801 Chophouse — Kansas City, Missouri",
+          "sourceUrl": "https://thebestrestaurantsguide.com/awards/wine-spectator/2023"
+        },
+        {
+          "organization": "Wine Spectator",
+          "year": 2025,
+          "category": "Best of Award of Excellence",
+          "awardFamily": "wine_spectator",
+          "recipient": "801 Chophouse — Kansas City, Missouri",
+          "sourceUrl": "https://www.kcdaily.com/p/cherry-on-top"
+        }
+      ],
+      "visitConfidence": "direct_user_confirmation_specific_downtown_kc_branch_date_unknown",
       "publicationStatus": "private_award_watchlist_not_selected"
     }
   ],
