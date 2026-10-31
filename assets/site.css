@@ -200,3 +200,22 @@ main:focus{outline:none}
 [aria-busy="false"][tabindex="-1"]:focus-visible{outline:3px solid var(--wine);outline-offset:3px}
 .passport-pending{border-style:dashed!important}
 .passport-label{color:var(--wine)}.passport-links>[aria-current="true"]{background:var(--wine);border-color:var(--wine);color:var(--cream)}.passport-pending{color:var(--muted)}@media(min-width:721px){.footer{grid-template-columns:1fr 1.5fr}}
+
+/* Historic multi-room cultural destination: the four Rieger visits stay distinct. */
+.onsite-experiences,.site-recognitions,.related-experiences{margin:60px 0}
+.onsite-experiences>h2,.site-recognitions>h2,.related-experiences>h2{font:500 clamp(31px,4vw,49px)/1.15 var(--serif);letter-spacing:-.035em}
+.onsite-intro{max-width:68ch;margin:0 0 24px;color:var(--muted);font-size:14px;line-height:1.75}
+.onsite-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.onsite-item{border:1px solid var(--line);padding:27px;background:var(--cream)}
+.onsite-item h3{font:500 clamp(27px,3vw,35px)/1.18 var(--serif);letter-spacing:-.03em;margin:10px 0 16px}
+.onsite-item>p:not(.onsite-period){font-size:13px;line-height:1.8;color:#515559}
+.onsite-period{font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--wine)}
+.onsite-item .onsite-memory{font-style:italic;color:var(--ink)!important}
+.onsite-item .onsite-context{font-size:12px;border-left:2px solid var(--gold);padding-left:12px;margin:20px 0}
+.onsite-award{padding:14px;margin:14px 0;border:1px solid #d5cbbf;background:#f8f5ee}
+.onsite-award strong{font-size:12px;line-height:1.5}
+.onsite-award p{font-size:11px;line-height:1.65;margin:6px 0;color:var(--muted)}
+.onsite-award a,.onsite-sources a,.related-experiences a{font-size:11px;line-height:1.6;color:var(--wine);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.onsite-sources{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding-top:16px;border-top:1px solid var(--line);margin-top:20px}
+.related-experiences a{display:block;margin:12px 0;font-size:14px}
+@media(max-width:720px){.onsite-grid{grid-template-columns:1fr}.onsite-item{padding:22px}}
