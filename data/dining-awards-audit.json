@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 50,
-    "distinctPublishedVenues": 47,
-    "recognized": 24,
+    "canonExperienceRecords": 49,
+    "distinctPublishedVenues": 46,
+    "recognized": 23,
     "featuredPersonal": 15,
     "officiallyFeatured": 5,
     "unfeaturedOther": 4,
@@ -933,30 +933,6 @@
       ],
       "editorialNote": "Confirmed directly by user on October 29, 2026; private pending story review. Do not infer exact year, menu or companions.",
       "visitConfidence": "direct_user_confirmation_westport_dining_date_unknown",
-      "publicationStatus": "private_pending_story_review"
-    },
-    {
-      "venueId": "venue-drastic-measures-shawnee-kansas",
-      "name": "Drastic Measures",
-      "city": "Shawnee",
-      "region": "Kansas",
-      "experienceIds": [
-        "bar-drastic-measures-shawnee-kansas"
-      ],
-      "rememberedPeriods": [
-        "Confirmed bar visit, exact date unknown"
-      ],
-      "recognitionStatus": "qualifies",
-      "sourceUrls": [
-        "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
-        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
-        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
-      ],
-      "recognitionSummary": [
-        "James Beard Outstanding Bar 2023 nominee, 2024 semifinalist, 2026 semifinalist"
-      ],
-      "editorialNote": "User confirmed visiting bar October 29, 2026. Actual date and drink order unknown; private story pending human review.",
-      "visitConfidence": "direct_user_confirmation_bar_visit_date_unknown",
       "publicationStatus": "private_pending_story_review"
     },
     {

@@ -3382,7 +3382,7 @@
       "awardFamily": "beard",
       "interviewCue": "Shawnee, Kansas, just west of Kansas City; modern, low-lit cocktail bar with inventive drinks.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
-      "visitStatus": "confirmed",
+      "visitStatus": "unreviewed",
       "venueType": "cocktail_bar",
       "priority": "high",
       "addedOn": "2026-10-25",
@@ -3400,12 +3400,23 @@
         "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
         "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
       ],
-      "confirmedVisitId": "bar-drastic-measures-shawnee-kansas",
-      "reviewedOn": "2026-10-29",
-      "reviewSource": "I visited Drastic Measures in Shawnee. Record it as confirmed and continue the Culture Passport Kansas City interview.",
-      "visitNote": "User confirms visiting exact Shawnee bar. Do not infer date, cocktails ordered, or companions.",
-      "visitPeriod": "Since 2020; exact date unknown",
-      "researchStatus": "user_confirmed_award_eligible_cocktail_bar"
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "I think we need to remove it. I was thinking of a different KC bar.",
+      "visitNote": "Prior attendance confirmation withdrawn as mistaken bar identification. No visit to the exact Shawnee venue is currently established; do not infer that the user has never visited.",
+      "visitPeriod": null,
+      "researchStatus": "prior_confirmation_withdrawn_identity_mismatch",
+      "correctionHistory": [
+        {
+          "date": "2026-10-31",
+          "previousAnswer": {
+            "date": "2026-10-29",
+            "response": "I visited Drastic Measures in Shawnee. Record it as confirmed and continue the Culture Passport Kansas City interview.",
+            "status": "confirmed",
+            "withdrawn": true
+          },
+          "reason": "User was thinking of a different Kansas City bar."
+        }
+      ]
     },
     {
       "id": "candidate-denver-metro-lady-jane",
@@ -8666,6 +8677,23 @@
         "dining-harveys-union-station-wedding-goodbye-brunch"
       ],
       "lastInterviewResponse": "Pierpont's: been there several times; Harvey's: held our after-wedding goodbye brunch."
+    },
+    {
+      "id": "kc-unidentified-bar-formerly-misidentified-drastic-measures",
+      "category": "bar",
+      "name": "Unidentified Kansas City bar",
+      "status": "venue_identity_unresolved",
+      "venueIdentityConfirmed": false,
+      "visitStatus": "confirmed",
+      "visitDate": null,
+      "possibleVisitPeriod": null,
+      "source": "User correction on October 31, 2026: I think we need to remove it. I was thinking of a different KC bar.",
+      "updatedOn": "2026-10-31",
+      "publishAsExperience": false,
+      "excludedCandidateIds": [
+        "candidate-kansas-city-metro-drastic-measures"
+      ],
+      "note": "Preserve the general bar memory privately. This does not confirm Drastic Measures, establish an exact neighborhood, or identify a replacement venue. Identification can follow after list compilation."
     }
   ],
   "interviewChapters": {

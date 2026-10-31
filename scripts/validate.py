@@ -974,3 +974,12 @@ for title in ("The Mill (pub)", "The Kingston Arms", "The Eagle"):
     rec = next(r for r in records if r["title"] == title)
     assert any(a["organization"] == "CAMRA" and a["sourceUrl"].startswith("https://camra.org.uk/") for a in rec["recognitions"])
 assert next(r for r in records if r["id"] == "dining-lidias-kansas-city-2015-2019")["visit"]["possibleYears"] == [2015, 2016, 2017, 2018, 2019]
+
+# A withdrawn venue identification must never remain a confirmed visitor story.
+assert not any(r["id"] == "bar-drastic-measures-shawnee-kansas" for r in records)
+assert "bar-drastic-measures-shawnee-kansas" not in visitor_ids
+withdrawn_bar = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-drastic-measures")
+assert withdrawn_bar["visitStatus"] == "unreviewed" and "confirmedVisitId" not in withdrawn_bar
+assert withdrawn_bar["correctionHistory"][-1]["previousAnswer"]["withdrawn"] is True
+unidentified_bar = next(x for x in interview_data["memoryLeads"] if x["id"] == "kc-unidentified-bar-formerly-misidentified-drastic-measures")
+assert unidentified_bar["publishAsExperience"] is False and unidentified_bar["venueIdentityConfirmed"] is False
