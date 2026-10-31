@@ -1489,6 +1489,61 @@
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-801-chophouse-kansas-city-power-light",
+      "venueId": "venue-801-chophouse-kansas-city-power-light",
+      "venueName": "801 Chophouse — Kansas City (Power & Light District)",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-801-chophouse-kansas-city-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed dining at 71 E 14th St, exact date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "other_hospitality_recognition_separately_verified_no_michelin_or_jbf_verified",
+      "lastReviewedOn": "2026-10-31",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json",
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Wine Spectator Best of Award of Excellence (two glasses) identified for this Kansas City, MO branch in 2023 and 2025; independent wine-program award. Do not conflate Michelin/JBF or Leawood restaurant; full formal award re-review remains on schedule. The user's actual dining date is unknown.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-31",
+          "result": "direct_confirmed_downtown_branch_and_separate_wine_program_recognition",
+          "note": "User explicitly confirmed 801 Chophouse, 71 E 14th Street, KCMO. Visit date unknown. 2023/2025 Wine Spectator recognition is a separate venue wine-program honor, not a Michelin/JBF culinary award or proof that distinction existed when they visited.",
+          "evidenceUrls": [
+            "https://801chophouse.com/locations/kansas-city/",
+            "https://thebestrestaurantsguide.com/awards/wine-spectator/2023",
+            "https://www.kcdaily.com/p/cherry-on-top"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "otherHospitalityRecognitions": [
+        {
+          "organization": "Wine Spectator",
+          "year": 2023,
+          "category": "Best of Award of Excellence",
+          "scope": "Kansas City, Missouri branch",
+          "sourceUrl": "https://thebestrestaurantsguide.com/awards/wine-spectator/2023"
+        },
+        {
+          "organization": "Wine Spectator",
+          "year": 2025,
+          "category": "Best of Award of Excellence",
+          "scope": "Kansas City, Missouri branch",
+          "sourceUrl": "https://www.kcdaily.com/p/cherry-on-top"
+        }
+      ],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
