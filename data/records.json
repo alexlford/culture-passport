@@ -1330,6 +1330,18 @@
       "country": "United States",
       "address": "71 E 14th Street, Kansas City, MO",
       "category": "restaurant"
+    },
+    {
+      "id": "venue-801-chophouse-kansas-city-power-light",
+      "name": "801 Chophouse",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "neighborhood": "Power & Light District",
+      "address": "71 E 14th Street, Kansas City, MO 64106",
+      "location": null,
+      "sourceId": "801-chophouse-kansas-city",
+      "venueScope": "Kansas City Missouri downtown branch only, not 801 Chophouse Leawood"
     }
   ],
   "records": [
@@ -7625,6 +7637,112 @@
         "awardQualified": false,
         "collection": "confirmed_dining_award_watchlist",
         "note": "Wine Spectator wine-list honor retained separately; do not present as Michelin/JBF distinction."
+      }
+    },
+    {
+      "id": "dining-801-chophouse-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "801 Chophouse",
+      "venueId": "venue-801-chophouse-kansas-city-power-light",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed downtown Kansas City dining visit · exact date unknown",
+        "source": "Direct user confirmation, 2026-10-31: visited 801 Chophouse at 71 E 14th Street in downtown Kansas City, Missouri.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_specific_branch_date_unknown",
+        "otherLocationVisitNotInferred": "801 Chophouse Leawood"
+      },
+      "summary": "I ate at 801 Chophouse in downtown Kansas City's Power & Light District. Date, companions, dishes and occasion are unknown. Its documented Wine Spectator honors are wine-program distinctions, not Michelin or James Beard honors.",
+      "memory": {
+        "headline": "At 801 Chophouse in downtown Kansas City",
+        "teaser": "Confirmed dinner at the Power & Light District steakhouse; visit date unknown.",
+        "story": "I visited 801 Chophouse at 71 East 14th Street in downtown Kansas City. I have not specified the date, companions, or what I ordered. This is the Missouri Power & Light District restaurant, not the Leawood location.",
+        "period": "Kansas City visit · exact date unknown",
+        "source": "Direct user confirmation 2026-10-31"
+      },
+      "recognitions": [
+        {
+          "organization": "Wine Spectator",
+          "year": 2023,
+          "result": "Best of Award of Excellence (two glasses)",
+          "category": "Restaurant wine program",
+          "recipient": "801 Chophouse — Kansas City, Missouri",
+          "venueScope": "71 E 14th Street, Kansas City, MO",
+          "sourceUrl": "https://thebestrestaurantsguide.com/awards/wine-spectator/2023",
+          "sourceTier": "secondary award directory; branch explicitly identified",
+          "awardFamily": "wine_spectator",
+          "notMichelinOrJamesBeard": true
+        },
+        {
+          "organization": "Wine Spectator",
+          "year": 2025,
+          "result": "Best of Award of Excellence (two glasses)",
+          "category": "Restaurant wine program",
+          "recipient": "801 Chophouse — Kansas City, Missouri",
+          "venueScope": "71 E 14th Street, Kansas City, MO",
+          "sourceUrl": "https://www.kcdaily.com/p/cherry-on-top",
+          "sourceTier": "secondary local awards reporting; includes Kansas City and Leawood separately",
+          "awardFamily": "wine_spectator",
+          "notMichelinOrJamesBeard": true
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No directly verified Michelin Guide or James Beard Foundation culinary award for this Kansas City branch. Wine Spectator is an independently labeled wine-program distinction."
+      },
+      "sourceUrl": "https://801chophouse.com/locations/kansas-city/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "confirmed_dining_award_watchlist",
+        "basis": "direct_dining_attendance_separate_wine_spectator_hospitality_recognition",
+        "note": "Wine Spectator Best of Award of Excellence is recorded as a separate wine-program award family and must not inflate Michelin/James Beard recognized counts. Remain private pending tier review."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "wine_spectator_other_hospitality_recognition",
+        "reason": "Confirmed user visit and independently reported venue-specific wine-program honors. The formal Michelin/James Beard classification is not verified; retain separately and do not publish automatically.",
+        "evidenceUrls": [
+          "https://801chophouse.com/locations/kansas-city/",
+          "https://www.kcdaily.com/p/cherry-on-top",
+          "https://thebestrestaurantsguide.com/awards/wine-spectator/2023"
+        ],
+        "reviewedOn": "2026-10-31",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "801 Chophouse — Power & Light District",
+        "paragraphs": [
+          "You confirmed eating at 801 Chophouse in the Power & Light District at 71 East 14th Street, Kansas City, Missouri. You did not specify a date, company, or occasion.",
+          "Its classic steakhouse setting is independently documented by the venue and Power & Light District. This is the Missouri location rather than the similarly named Leawood branch.",
+          "The Kansas City restaurant appears among Wine Spectator's 2023 and 2025 Best of Award of Excellence wine-program listings. The recognition is a wine-list honor and must not be described as a Michelin star or James Beard Award, nor as an award held on your unknown dining date."
+        ],
+        "sourceUrls": [
+          {
+            "label": "801 Chophouse — Kansas City official location",
+            "url": "https://801chophouse.com/locations/kansas-city/"
+          },
+          {
+            "label": "Kansas City Power & Light District official venue profile",
+            "url": "https://www.powerandlightdistrict.com/eat-and-drink/801-chophouse"
+          },
+          {
+            "label": "2023 Wine Spectator award directory — Kansas City Missouri branch",
+            "url": "https://thebestrestaurantsguide.com/awards/wine-spectator/2023"
+          },
+          {
+            "label": "2025 Kansas City Wine Spectator awards reporting",
+            "url": "https://www.kcdaily.com/p/cherry-on-top"
+          }
+        ]
       }
     }
   ],
