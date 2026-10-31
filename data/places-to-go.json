@@ -1462,6 +1462,36 @@
         ]
       },
       "notes": "Exact location, no past attendance or meal, date, companions, or reservation. Do not conflate with Anjin or claim an award win."
+    },
+    {
+      "id": "want-to-visit-of-course-kitchen-company-overland-park",
+      "candidateId": "candidate-kc-of-course-kitchen-company",
+      "name": "Of Course Kitchen & Company",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-31",
+      "location": {
+        "address": "7753 W 159th St",
+        "city": "Overland Park",
+        "region": "Kansas",
+        "country": "USA"
+      },
+      "website": "https://www.ofcoursekc.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-31"
+      },
+      "recognition": {
+        "organization": "James Beard Foundation",
+        "year": 2026,
+        "category": "Best Chef: Midwest",
+        "result": "semifinalist",
+        "recipient": "Swetha Newcomb",
+        "relationship": "Chef in post, not restaurant winner",
+        "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+      },
+      "notes": "User confirmed nonattendance and requested a future visit. No past meal, reservation, or date inferred."
     }
   ],
   "interviewConvention": {
