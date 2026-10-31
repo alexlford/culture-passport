@@ -1421,6 +1421,47 @@
         "notes": "AAA recognition separate from Michelin and James Beard; 2023 AAA Four Diamond list explicitly names Stock Hill in Kansas City."
       },
       "notes": "Explicit nonattendance; wishlist only. No dinner, date, companions, visit to the remodeled lounge or confirmed reservation inferred. AAA historical designation does not imply Michelin/JBF award."
+    },
+    {
+      "id": "want-to-visit-antler-room-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-the-antler-room",
+      "name": "The Antler Room",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-31",
+      "location": {
+        "address": "2506 Holmes Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://www.theantlerroomkc.com/",
+      "userNote": "I have not visited The Antler Room, but want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-31",
+        "quote": "For The Antler Room at 2506 Holmes Street, my answer is wishlist."
+      },
+      "desiredVisitDate": null,
+      "recognition": {
+        "organization": "James Beard Foundation",
+        "recipient": "Nick Goellner",
+        "category": "Best Chef: Midwest",
+        "years": [
+          2019,
+          2020,
+          2023
+        ],
+        "result": "semifinalist",
+        "relationship": "Chef in post at The Antler Room; semifinalist, not winner, and not venue award",
+        "officialEvidenceUrls": [
+          "https://archive.jamesbeard.org/index.php/blog/the-2019-james-beard-award-semifinalists",
+          "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+          "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+        ]
+      },
+      "notes": "Exact location, no past attendance or meal, date, companions, or reservation. Do not conflate with Anjin or claim an award win."
     }
   ],
   "interviewConvention": {
