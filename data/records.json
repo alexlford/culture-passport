@@ -7220,13 +7220,13 @@
         "repeatVisits": true,
         "exactVisitCount": null
       },
-      "summary": "Repeated visits to J. Rieger & Co.'s historic East Bottoms distillery and four confirmed experiences: Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club. The garden bar's architecture and the Hey! Hey! Club's cocktail program have independently documented recognitions.",
+      "summary": "Repeated visits to J. Rieger & Co.'s historic East Bottoms distillery and five confirmed experiences: Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, the Tasting Room, and the Hey! Hey! Club. The garden bar's architecture and the Hey! Hey! Club's cocktail program have independently documented recognitions.",
       "memory": {
-        "headline": "A Kansas City institution, four ways",
-        "teaser": "An 1887 distilling legacy reimagined: a tropical Christmas pop-up, an award-winning garden bar, the Monogram Lounge, and an acclaimed underground cocktail club.",
-        "story": "I have returned to J. Rieger & Co. many times and visited Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club. Each is a distinct experience in a shared Kansas City landmark; the dates, specific drinks, and companions are not yet recorded.",
+        "headline": "A Kansas City institution, five ways",
+        "teaser": "An 1887 distilling legacy reimagined: a tropical Christmas pop-up, an award-winning garden bar, Monogram Lounge, a distinct Tasting Room, and an acclaimed underground cocktail club.",
+        "story": "I have returned to J. Rieger & Co. many times and visited Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, the Tasting Room, and the Hey! Hey! Club. Each is a distinct experience in a shared Kansas City landmark; the dates, specific drinks, and companions are not yet recorded.",
         "period": "Repeated Kansas City visits · precise dates unknown",
-        "source": "Direct user recollections on October 31, 2026."
+        "source": "Direct user recollections on October 31, 2026, including a subsequent direct confirmation of visiting the Tasting Room."
       },
       "recognitions": [],
       "guide": {
@@ -7249,7 +7249,7 @@
       "curation": {
         "status": "curated_site_profile",
         "basis": "historical_preservation_architecture_cocktail_culture",
-        "reason": "Four user-confirmed on-site experiences, direct preservation/design awards for the overall property and Electric Park, and a regional Spirited Awards Top 10 honor for the Hey! Hey! Club. None are Michelin/JBF wins or nominations.",
+        "reason": "Five user-confirmed on-site experiences, direct preservation/design awards for the overall property and Electric Park, and a regional Spirited Awards Top 10 honor for the Hey! Hey! Club. None are Michelin/JBF wins or nominations. The Tasting Room has no separately verified award.",
         "evidenceUrls": [
           "https://preservemo.org/we-advocate/honor-awards/2020honorawards/",
           "https://www.aiakc.org/award/electric-park-garden-bar-at-j-rieger-co-professionals-choice",
@@ -7263,7 +7263,7 @@
         "paragraphs": [
           "J. Rieger & Co. began in Kansas City in 1887, when Jacob Rieger developed a nationally successful mail-order whiskey business. Prohibition ended its first era. Andy Rieger and Kansas City bartender Ryan Maybee revived the brand in 2014, bringing a historic name into the city's modern cocktail culture.",
           "In 2019, the business opened its new home in the restored Heim Brewery bottling plant at 2700 Guinotte Avenue, a 1901 industrial building in the East Bottoms. The preservation project reconnected Kansas City distilling, architecture, and neighborhood history. Missouri Preservation gave J. Rieger & Co. a 2020 Preserve Missouri Award.",
-          "That setting became more than a distillery visit: I have been to four distinct experiences here. Electric Park Garden Bar transformed a former loading-dock area into an architectural award-winning urban garden. The Hey! Hey! Club made a separate name for itself in the cocktail world. Monogram Lounge overlooks the working production floor, while Sippin' Santa is the immersive holiday tiki pop-up that has appeared in different on-site spaces in different years.",
+          "That setting became more than a distillery visit: I have been to five distinct experiences here. Electric Park Garden Bar transformed a former loading-dock area into an architectural award-winning urban garden. The Hey! Hey! Club made a separate name for itself in the cocktail world. Monogram Lounge overlooks the working production floor; the separately identified Tasting Room features a marble bar and connects to a glass-enclosed Atrium. Sippin' Santa is the immersive holiday tiki pop-up that has appeared in different on-site spaces in different years. A visit to the Tasting Room does not, by itself, confirm a guided distillery tour or a particular spirits tasting.",
           "My own visits are confirmed; the year of each outing, what I drank, and who joined me are not recorded. The honors below are precise: design awards belong to Electric Park, a preservation award belongs to the wider restored site, and the 2020 regional cocktail-bar honor belongs to the Hey! Hey! Club. The Monogram whiskey label's accolades are not awards to the Monogram Lounge."
         ],
         "chapters": [
@@ -7294,8 +7294,8 @@
           },
           {
             "year": "Visits",
-            "title": "Four places, one landmark",
-            "detail": "Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, and the Hey! Hey! Club are all confirmed personal experiences; their precise dates remain open."
+            "title": "Five experiences, one landmark",
+            "detail": "Sippin' Santa, Electric Park Garden Bar, Monogram Lounge, the Tasting Room, and the Hey! Hey! Club are all confirmed personal experiences; their precise dates remain open."
           }
         ],
         "sourceUrls": [
@@ -7318,6 +7318,10 @@
           {
             "label": "Architect — preservation and Electric Park project",
             "url": "https://www.gastingerwalker.com/jriegerco-copy"
+          },
+          {
+            "label": "J. Rieger & Co. — Tasting Room and Atrium",
+            "url": "https://www.jriegerco.com/host"
           }
         ]
       },
@@ -7432,6 +7436,32 @@
             {
               "label": "Architect — distillery renovation",
               "url": "https://www.gastingerwalker.com/jriegerco-copy"
+            }
+          ]
+        },
+        {
+          "id": "j-rieger-tasting-room",
+          "title": "The Tasting Room",
+          "experienceType": "distillery_tasting_room",
+          "visitStatus": "confirmed",
+          "visitDate": null,
+          "visitPeriod": "Date unknown",
+          "personalMemory": "I visited the Tasting Room at J. Rieger & Co.",
+          "description": "A separate distillery hospitality space with a white marble bar overlooking the working production floor. The Tasting Room connects to a glass-enclosed Atrium, which looks toward Electric Park Garden Bar. The confirmed memory is a visit to the Tasting Room; whether I booked a guided distillery tour or ordered a tasting flight has not been established.",
+          "recognitionContext": "No separately verified award for the Tasting Room. Preservation recognition belongs to the renovated J. Rieger property as a whole, not this room.",
+          "recognitions": [],
+          "sources": [
+            {
+              "label": "J. Rieger & Co. — Tasting Room and Atrium",
+              "url": "https://www.jriegerco.com/host"
+            },
+            {
+              "label": "Visit KC — distinct bars and Tasting Room",
+              "url": "https://www.visitkc.com/j-rieger-co/"
+            },
+            {
+              "label": "J. Rieger & Co. — tours and tastings",
+              "url": "https://www.jriegerco.com/visit/tours"
             }
           ]
         },
