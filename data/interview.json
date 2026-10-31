@@ -2762,16 +2762,16 @@
       "interviewCue": "Small seasonal globally influenced restaurant in the Union Hill/Longfellow area with intimate tables and inventive small plates.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
       "visitStatus": "not_visited",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "explicitly_not_visited_future_visit",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
-        "evidenceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-        "sourceTier": "secondary",
-        "verifiedAt": "2026-10-25",
-        "note": "Direct venue Michelin listing or a James Beard restaurant/chef-in-post recognition. Year and award level are kept in the recognition text; some awards postdate a possible meal."
+        "basis": "james_beard_chef_in_post_semifinalist",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-10-31",
+        "note": "Nick Goellner was Best Chef: Midwest semifinalist in 2019, 2020 and 2023, in association with The Antler Room. These are chef semifinalist recognitions, not JBF wins or restaurant awards."
       },
       "eligibility": {
         "status": "eligible_candidate",
@@ -2780,9 +2780,16 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewSource": "Direct user response 2026-10-31: 'For The Antler Room at 2506 Holmes Street, my answer is wishlist.'",
+      "reviewedOn": "2026-10-31",
+      "reviewCertainty": "explicit_nonattendance",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-antler-room-kansas-city",
+      "sourceUrls": [
+        "https://archive.jamesbeard.org/index.php/blog/the-2019-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-bluestem",
@@ -9312,7 +9319,8 @@
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
-      "stockHill": "Explicit not visited, wants to go; AAA Four Diamond separately tagged and no implied experience. Current wishlist address 4800 Main Street Suite G-001."
+      "stockHill": "Explicit not visited, wants to go; AAA Four Diamond separately tagged and no implied experience. Current wishlist address 4800 Main Street Suite G-001.",
+      "antlerRoom": "User explicitly not visited The Antler Room, added private future-visit wishlist on 2026-10-31; Nick Goellner JBF Best Chef Midwest semifinalist 2019, 2020, 2023 (not winner)."
     },
     "losAngeles": {
       "state": "active_research_parallel",
