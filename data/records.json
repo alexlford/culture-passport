@@ -1293,6 +1293,22 @@
       "country": "United Kingdom",
       "address": "33 Kingston Street, Cambridge CB1 2NU",
       "location": null
+    },
+    {
+      "id": "venue-toms-town-kansas-city",
+      "name": "Tom's Town Distilling Co.",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "location": null
+    },
+    {
+      "id": "venue-j-rieger-kansas-city",
+      "name": "J. Rieger & Co.",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "location": null
     }
   ],
   "records": [
@@ -7112,6 +7128,126 @@
         ],
         "reviewedOn": "2026-10-31",
         "confidence": "direct_user_confirmation",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-toms-town-kansas-city-multiple-visits",
+      "type": "bar",
+      "title": "Tom's Town Distilling Co.",
+      "venueId": "venue-toms-town-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Many visits · dates unspecified",
+        "precision": "unknown",
+        "source": "Direct user confirmation on October 31, 2026: I have been to both many times.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "repeated_visits_confirmed",
+        "repeatVisits": true,
+        "exactVisitCount": null
+      },
+      "summary": "I have visited Tom's Town Distilling Co. many times.",
+      "memory": {
+        "headline": "Returning to Tom's Town Distilling Co.",
+        "teaser": "Many visits to this Kansas City distillery.",
+        "story": "I have been to Tom's Town Distilling Co. many times.",
+        "period": "Multiple visits; dates unspecified",
+        "source": "Direct user confirmation on October 31, 2026: I have been to both many times."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed for this distillery."
+      },
+      "sourceUrl": "https://www.toms-town.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": true,
+        "featuredException": false,
+        "collection": "official_foundation_featured_bar",
+        "basis": "jbf_beverage_supplier_connection",
+        "note": "Tom’s Town Distilling Co. is credited as reception and dinner beverage supplier at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. This is company-level supplier participation, not an award, nomination, venue endorsement, or an event held at the distillery."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "jbf_beverage_supplier_connection",
+        "reason": "Tom’s Town Distilling Co. is credited as reception and dinner beverage supplier at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. This is company-level supplier participation, not an award, nomination, venue endorsement, or an event held at the distillery.",
+        "evidenceUrls": [
+          "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+          "https://www.toms-town.com/"
+        ],
+        "reviewedOn": "2026-10-31",
+        "verifiedForPublication": false
+      },
+      "officialFeatures": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2017,
+          "category": "Taste America beverage supplier",
+          "relationship": "Tom’s Town Distilling Co. is credited as reception and dinner beverage supplier at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. This is company-level supplier participation, not an award, nomination, venue endorsement, or an event held at the distillery.",
+          "venueScope": "named_distillery_company_not_event_host",
+          "recognitionType": "beverage_supplier",
+          "sourceUrl": "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner"
+        }
+      ]
+    },
+    {
+      "id": "bar-j-rieger-kansas-city-multiple-visits",
+      "type": "bar",
+      "title": "J. Rieger & Co.",
+      "venueId": "venue-j-rieger-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Many visits · dates unspecified",
+        "precision": "unknown",
+        "source": "Direct user confirmation on October 31, 2026: I have been to both many times.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "repeated_visits_confirmed",
+        "repeatVisits": true,
+        "exactVisitCount": null
+      },
+      "summary": "I have visited J. Rieger & Co. many times.",
+      "memory": {
+        "headline": "Returning to J. Rieger & Co.",
+        "teaser": "Many visits to this Kansas City distillery.",
+        "story": "I have been to J. Rieger & Co. many times.",
+        "period": "Multiple visits; dates unspecified",
+        "source": "Direct user confirmation on October 31, 2026: I have been to both many times."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed for this distillery."
+      },
+      "sourceUrl": "https://www.jriegerco.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_private_memory",
+        "basis": "confirmed_user_recollection",
+        "note": "Confirmed repeated distillery visits. No direct qualifying recognition verified; do not transfer The Rieger restaurant or Manifesto honors, or infer visits to separately named bars."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified",
+        "reason": "Direct venue-specific recognition remains unverified. Preserve repeated visits privately for future recognition review.",
+        "evidenceUrls": [
+          "https://www.jriegerco.com/"
+        ],
+        "reviewedOn": "2026-10-31",
         "verifiedForPublication": false
       }
     }

@@ -753,6 +753,8 @@ for venue in venues:
             "venue-hawthorne-heights-unidentified": "",
             "venue-butchers-daughter-west-hollywood": "West Hollywood",
             "venue-eagle-cambridge": "Cambridge",
+            "venue-toms-town-kansas-city": "Kansas City",
+            "venue-j-rieger-kansas-city": "Kansas City",
             "venue-kingston-arms-cambridge": "Cambridge",
             "venue-lidias-kansas-city": "Kansas City",
             "venue-rozzelle-court-kansas-city": "Kansas City",
@@ -983,3 +985,13 @@ assert withdrawn_bar["visitStatus"] == "unreviewed" and "confirmedVisitId" not i
 assert withdrawn_bar["correctionHistory"][-1]["previousAnswer"]["withdrawn"] is True
 unidentified_bar = next(x for x in interview_data["memoryLeads"] if x["id"] == "kc-unidentified-bar-formerly-misidentified-drastic-measures")
 assert unidentified_bar["publishAsExperience"] is False and unidentified_bar["venueIdentityConfirmed"] is False
+
+# Distillery confirmations and venue-specific recognition must remain separate.
+toms = next(r for r in records if r["id"] == "bar-toms-town-kansas-city-multiple-visits")
+jrieger = next(r for r in records if r["id"] == "bar-j-rieger-kansas-city-multiple-visits")
+assert toms["status"] == jrieger["status"] == "confirmed"
+assert toms["visit"]["repeatVisits"] and jrieger["visit"]["repeatVisits"]
+assert not toms["editorial"]["awardQualified"] and not jrieger["editorial"]["awardQualified"]
+assert toms["officialFeatures"][0]["recognitionType"] == "beverage_supplier"
+assert toms["id"] in visitor_ids and jrieger["id"] not in visitor_ids
+assert next(c for c in candidates if c["id"] == "candidate-kc-lifted-spirits-distillery")["visitStatus"] == "maybe"

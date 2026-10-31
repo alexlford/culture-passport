@@ -8071,6 +8071,45 @@
       "reviewSource": "User explicitly confirmed visiting The Kingston Arms, 33 Kingston Street, for drinks in the Cambridge interview.",
       "reviewedOn": "2026-10-31",
       "recognition": "Cambridgeshire CAMRA Pub of the Year 2025; not a Michelin or James Beard distinction."
+    },
+    {
+      "id": "candidate-kc-lifted-spirits-distillery",
+      "area": "Kansas City Metro",
+      "name": "Lifted Spirits Distillery",
+      "visitStatus": "maybe",
+      "sourceUrl": "https://www.liftedspiritskc.com/",
+      "researchStatus": "tentative_identification",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "I think I was confusing it with Lifted Spirits Distillery.",
+      "recognition": "No qualifying Michelin/JBF recognition verified in this review. Preserve tentative identity separately from confirmed attendance."
+    },
+    {
+      "id": "candidate-kc-toms-town-distillery",
+      "name": "Tom's Town Distilling Co.",
+      "area": "Kansas City Metro",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "bar-toms-town-kansas-city-multiple-visits",
+      "sourceUrl": "https://www.toms-town.com/",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user confirmation on October 31, 2026: I have been to both many times.",
+      "visitPeriod": "Many visits; dates unknown",
+      "recognition": "Tom’s Town Distilling Co. is credited as reception and dinner beverage supplier at Taste America Kansas City, November 10, 2017, at the Nelson–Atkins Museum of Art. This is company-level supplier participation, not an award, nomination, venue endorsement, or an event held at the distillery.",
+      "researchStatus": "official_supplier_connection_verified",
+      "repeatVisits": true
+    },
+    {
+      "id": "candidate-kc-j-rieger-distillery",
+      "name": "J. Rieger & Co.",
+      "area": "Kansas City Metro",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "bar-j-rieger-kansas-city-multiple-visits",
+      "sourceUrl": "https://www.jriegerco.com/",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user confirmation on October 31, 2026: I have been to both many times.",
+      "visitPeriod": "Many visits; dates unknown",
+      "recognition": "Confirmed repeated distillery visits. No direct qualifying recognition verified; do not transfer The Rieger restaurant or Manifesto honors, or infer visits to separately named bars.",
+      "researchStatus": "recognition_unverified",
+      "repeatVisits": true
     }
   ],
   "source": {
@@ -8693,7 +8732,8 @@
       "excludedCandidateIds": [
         "candidate-kansas-city-metro-drastic-measures"
       ],
-      "note": "Preserve the general bar memory privately. This does not confirm Drastic Measures, establish an exact neighborhood, or identify a replacement venue. Identification can follow after list compilation."
+      "note": "Preserve the general bar memory privately. This does not confirm Drastic Measures, establish an exact neighborhood, or identify a replacement venue. Identification can follow after list compilation. User now thinks the bar was Lifted Spirits Distillery; tentative identification only.",
+      "probableCandidateId": "candidate-kc-lifted-spirits-distillery"
     }
   ],
   "interviewChapters": {
