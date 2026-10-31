@@ -625,14 +625,6 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
-    },
-    {
-      "id": "dining-rye-plaza-kansas-city-date-unknown",
-      "title": "Rye Plaza",
-      "category": "dining",
-      "status": "pending",
-      "approvedDigest": null,
-      "reviewedOn": null
     }
   ]
 }
