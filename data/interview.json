@@ -2616,30 +2616,66 @@
       "id": "candidate-kansas-city-metro-stock-hill",
       "area": "Kansas City Metro",
       "name": "Stock Hill",
-      "recognition": "Historical dining candidate, no Michelin star or restaurant-level James Beard honor asserted",
-      "recognitionYear": null,
-      "awardFamily": "context",
-      "interviewCue": "Grand contemporary steakhouse south of the Country Club Plaza, known for dramatic dining room and cocktails.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "recognition": "AAA Four Diamond recognition, 2017–2023 per Stock Hill's official website, with independent documentation of its 2019 AAA Four Diamond restaurant ranking and an official AAA restaurant inspector profile. This is an AAA hospitality designation, not a Michelin or James Beard distinction; no historical visit year inferred.",
+      "recognitionYear": 2019,
+      "awardFamily": "aaa_four_diamond",
+      "interviewCue": "Two-story dining room and large marble/stone cocktail bar in former Board of Trade building south of Country Club Plaza (4800 Main). Tall wine displays, sculptural chandeliers, sweeping stair, tall windows and dark upholstered dining chairs; a lounge refresh opened in 2023, so 2023 photos are explicitly later-era.",
+      "sourceUrl": "https://www.stockhillkc.com/",
       "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "historical_aaa_four_diamond_restaurant_verified",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "distinct_hospitality_award_verified",
+        "basis": "aaa_four_diamond_exact_restaurant",
+        "evidenceUrl": "https://www.aaa.com/tripcanvas/restaurant/stock-hill-AA20057",
+        "sourceTier": "primary_aaa_listing_plus_2019_independent_press",
+        "verifiedAt": "2026-10-31",
+        "note": "Historical AAA Four Diamond 2019 corroborated by KCBJ; venue site claims years 2017–2023. This is an AAA restaurant distinction, separately tagged from Michelin/JBF."
       },
       "eligibility": {
-        "status": "outside_scope",
-        "basis": "context",
-        "reason": "No Michelin Guide or James Beard honor established for the named venue.",
-        "screenedOn": "2026-10-25",
+        "status": "verified_other_hospitality_recognition_requires_tier_review",
+        "basis": "aaa_four_diamond_restaurant",
+        "reason": "AAA Four Diamond is venue-specific and historically verified (2019), but it does not automatically count under the formal Michelin/James Beard award tier. Retain as distinct hospitality recognition and ask attendance.",
+        "screenedOn": "2026-10-31",
         "verifiedForPublication": false
-      }
+      },
+      "sourceUrls": [
+        "https://www.stockhillkc.com/",
+        "https://www.aaa.com/tripcanvas/restaurant/stock-hill-AA20057",
+        "https://www.bizjournals.com/kansascity/news/2019/02/15/aaa-diamond-ratings-bluestem-corvino-stock-hill.html",
+        "https://www.stockhillkc.com/gallery"
+      ],
+      "addressHint": "4800 Main Street, Suite G-001, Kansas City, MO 64112 (former Kansas City Board of Trade building)",
+      "venueType": "restaurant",
+      "openedOn": "2016",
+      "operatingStatus": "operating",
+      "photographicEvidence": [
+        {
+          "id": "stockhill-2017-interior",
+          "label": "Stock Hill — original-era tall-window dining room and staircase",
+          "caption": "Original-era Stock Hill interior at 4800 Main featuring large windows, circular metal stair railing and chandelier-style pendant lights. Published venue-event listing, image rights unverified.",
+          "photoSubject": "Stock Hill at 4800 Main dining and bar area",
+          "sourceUrl": "https://thevendry.com/venue/108718/stock-hill",
+          "sourceOrganization": "The Vendry",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "stockhill-2023-lounge",
+          "label": "Stock Hill — 2023 updated lounge",
+          "caption": "Emerald-green lounge seating and marble bar photographed for a 2023 article about the Stock Hill lounge, not to be mistaken for the 2016 opening decor.",
+          "photoSubject": "2023 lounge in Stock Hill",
+          "sourceUrl": "https://www.thepitchkc.com/stock-hill-expands-on-midwest-steakhouse-familiarity/",
+          "sourceOrganization": "The Pitch Kansas City",
+          "sourceYear": 2023,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ],
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "memoryPhotoCues": "Original: huge window wall, dramatic suspended chandeliers, black metal stair railing, grand steakhouse bar. Later 2023 lounge: emerald velvet chairs and marble cocktail tables. No assumed visit to the lounge from dining-room recollection."
     },
     {
       "id": "candidate-kansas-city-metro-corvino-supper-club-tasting-room",
@@ -3065,8 +3101,8 @@
       "awardFamily": "dirona",
       "interviewCue": "Italian restaurant at 19 W. 19th Street (corner of Baltimore), opened February 2019. Look for curved gray banquettes, black pendant lights, light-oak slatted ceiling, brown leather chairs, a long bar and a raw-oyster counter. Not Michael Smith Restaurant at 1900 Main, which was a different concept.",
       "sourceUrl": "https://farinakc.com/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "verified_diRona_awarded_restaurant_and_venue_photos",
+      "visitStatus": "not_visited",
+      "researchStatus": "verified_award_unvisited_wishlisted",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
@@ -3118,7 +3154,12 @@
         }
       ],
       "memoryPhotoCues": "Warm oak slat ceiling, curved gray banquettes, tan leather seats, black industrial pendant lights, central bar and pasta-focused menu; photos specific to Farina's 2019 location, not Michael Smith Restaurant/Extra Virgin. Award evidence is DiRōNA, separate from Michelin/James Beard.",
-      "photographicEvidenceReviewOn": "2026-10-31"
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-farina-kansas-city",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user response: 'I have not visited Farina but want to go. Record nonattendance, add Farina at 19 West 19th Street to my private future-visit wishlist, keep the DiRōNA award separate from James Beard recognition'",
+      "attendanceCertainty": "explicit_nonattendance"
     },
     {
       "id": "candidate-kansas-city-metro-the-town-company",
@@ -9224,9 +9265,10 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Farina",
+      "nextCandidate": "Stock Hill",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
-      "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building."
+      "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
+      "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -9501,11 +9543,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Farina"
+        "Stock Hill"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Farina, Chef Michael Smith's Italian restaurant at 19 West 19th Street (corner of Baltimore), since it opened in 2019? This is not Extra Virgin or the former Michael Smith Restaurant.",
-      "continuation": "One at a time, with actual 2019 Farina photos and four buttons. Farina has a direct DiRōNA awarded-restaurant listing, not a James Beard/Michelin venue award; keep the recognition tier separate. Then historical Kansas City, Baltimore, Hilo and Maui."
+      "question": "Have you dined at Stock Hill (4800 Main Street, south Country Club Plaza), the two-story modern steakhouse in the former Board of Trade building? Photos of the main bar and later 2023 lounge are distinct eras.",
+      "continuation": "One venue at a time with actual location photos and four buttons. Site-specific historical AAA Four Diamond recognition is verified separately from Michelin/James Beard; preserve no visit before user response. Kansas City then Baltimore, Hilo and Maui."
     },
     "pausedBatches": [
       {

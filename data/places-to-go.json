@@ -1352,6 +1352,39 @@
       "desiredVisitDate": null,
       "operatingStatus": "operating",
       "notes": "Exact restaurant and address, separate from the now-closed Michael Smith Restaurant at the same 1900 Main Street building. No date, meal, companions or booking inferred. Chef Michael Smith's 1999 James Beard Award was earned at The American Restaurant, not at Extra Virgin."
+    },
+    {
+      "id": "want-to-visit-farina-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-farina",
+      "name": "Farina",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-10-31",
+      "location": {
+        "address": "19 West 19th Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "website": "https://farinakc.com/",
+      "userNote": "I have not visited Farina but want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-10-31",
+        "quote": "Culture Passport Kansas City: I have not visited Farina but want to go. Record nonattendance, add Farina at 19 West 19th Street to my private future-visit wishlist, keep the DiRōNA award separate from James Beard recognition, and continue with historical photographs and all four answer buttons."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognition": {
+        "organization": "Distinguished Restaurants of North America (DiRōNA)",
+        "award": "Award of Excellence",
+        "recognitionYear": 2023,
+        "announcementYear": 2024,
+        "relationship": "Farina is named directly as an awarded restaurant, not Michael Smith's earlier JBF win",
+        "sourceUrl": "https://dirona.com/newly-awarded-distinguished-restaurants-of-north-america-named/"
+      },
+      "notes": "Explicitly not visited. Award is DiRōNA, not Michelin or James Beard; Michael Smith's 1999 Best Chef Midwest award was at The American Restaurant. Separate from Extra Virgin and closed Michael Smith Restaurant. No booking, meal, or visit date inferred."
     }
   ],
   "interviewConvention": {
