@@ -608,6 +608,23 @@
         if(x.screening?.status==="award_qualified")card.append(el("p","qualifies","Award candidate · "+(x.screening.basis==="michelin"?"Michelin Guide":"James Beard")));
         else card.append(el("p","qualifies neutral","Personal memory / recognition not yet verified"));
         if(x.userMemoryLead&&!x.userMemoryLead.identityConfirmed)card.append(el("p","tag","Identification lead: "+x.userMemoryLead.recalled));
+        // Source-linked historical photos help recognition without hotlinking images
+        // whose redistribution rights are unknown. Preserve original-venue identity.
+        if(Array.isArray(x.photographicEvidence)&&x.photographicEvidence.length){
+          const photos=el("div","interview-photo-evidence");
+          photos.append(el("p","interview-photo-title","HISTORICAL PHOTO CUES"));
+          for(const photo of x.photographicEvidence){
+            if(photo.renderMode!=="source_link_only"||typeof photo.sourceUrl!=="string"||!photo.sourceUrl.startsWith("https://"))continue;
+            const item=el("div","interview-photo-item");
+            const a=link(photo.label+" ↗",photo.sourceUrl,"interview-photo-link");
+            a.target="_blank";a.rel="noopener noreferrer";item.append(a);
+            if(photo.caption)item.append(el("p","interview-photo-caption",photo.caption));
+            photos.append(item);
+          }
+          photos.append(el("p","interview-photo-caveat","Images open at their original source. No photo is presented as the historic dining room without verification."));
+          card.append(photos);
+        }
+
         if(locked(x)){
           const style=x.visitStatus==="maybe"?"locked maybe":x.visitStatus==="not_visited"?"locked no":"locked";
           card.append(el("div",style,x.visitStatus==="confirmed"?"✓ Confirmed visit"+(x.visitPeriod?" · "+x.visitPeriod:""):x.visitStatus==="not_visited"?"✕ Confirmed not visited":"? Possibly visited, pending confirmation"));
