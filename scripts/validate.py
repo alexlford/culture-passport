@@ -335,7 +335,7 @@ for name, area in [("Clover Club", "New York City"), ("Columbia Room", "Washingt
                    
                    ("Anjin", "Kansas City Metro")]:
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == area)
-    assert candidate["visitStatus"] == "unreviewed"
+    assert candidate["visitStatus"] == ("not_visited" if name == "Anjin" else "unreviewed")
     assert candidate["screening"]["status"] == "award_qualified"
     assert candidate["sourceUrl"].startswith("https://")
 traveling_mercies = next(c for c in candidates if c["name"] == "Traveling Mercies" and c["area"] == "Denver Metro")
