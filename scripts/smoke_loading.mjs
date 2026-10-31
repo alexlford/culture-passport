@@ -103,13 +103,13 @@ try{
     const card=page.locator(".interview-item").filter({has:page.getByRole("heading",{name:candidate.name,exact:true})});
     assert.equal(await card.getByRole("button",{name:"Possibly visited",exact:true}).getAttribute("aria-pressed"),"true");
     assert((await page.locator("#interview-summary").inputValue()).includes(candidate.name+" (saved response)"));
-    const wishButton=card.getByRole("button",{name:"Haven't been — add to my list",exact:true});
+    const wishButton=card.getByRole("button",{name:"No, but want to go",exact:true});
     assert.equal(await wishButton.count(),1,"Interview must show a fourth wishlist answer");
     await wishButton.click();
     assert.equal(await wishButton.getAttribute("aria-pressed"),"true");
     assert.equal(JSON.parse(await page.evaluate(key=>localStorage.getItem(key),key))[candidate.id],"want_to_visit");
     const summary=(await page.locator("#interview-summary").inputValue());
-    assert(summary.includes("Haven't been — add to my list")&&
+    assert(summary.includes("No, but want to go")&&
       summary.includes("WISHLIST ENTRIES ABOVE ARE NOT VISITS.")&&
       summary.includes("Did not visit"),"Wishlist must be distinct from confirmation and included as a non-visit");
     // A new page shares localStorage but not the original page's addInitScript,
@@ -118,7 +118,7 @@ try{
     await restoredPage.goto(source+"interview.html");
     await recovered(restoredPage,"interview-list","#interview-list .interview-item");
     const restored=restoredPage.locator(".interview-item").filter({has:restoredPage.getByRole("heading",{name:candidate.name,exact:true})});
-    assert.equal(await restored.getByRole("button",{name:"Haven't been — add to my list",exact:true}).getAttribute("aria-pressed"),"true",
+    assert.equal(await restored.getByRole("button",{name:"No, but want to go",exact:true}).getAttribute("aria-pressed"),"true",
       "Wishlist selection must survive reload");
     await ctx.close();console.log("PASS independent interview retry and local wishlist choice");
   }
