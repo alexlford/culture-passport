@@ -128,6 +128,16 @@ assert 'want_to_visit:"No, but want to go"' in (
     ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert "closed/unbookable" in button_policy["closedVenueSemantics"]
 
+# Historically accurate photo cues must be source-linked and never rehost unlicensed images.
+photo_subject = next(c for c in candidates if c["id"] == "candidate-kc-michael-smith-restaurant-crossroads")
+photos = photo_subject["photographicEvidence"]
+assert len(photos) == 2
+assert {x["id"] for x in photos} == {"historic-building-exterior", "2016-chef-portrait"}
+assert all(x["sourceUrl"].startswith("https://") and x["renderMode"] == "source_link_only"
+           and x["imageRights"] == "unverified" and x["caption"] for x in photos)
+assert interview_data["interviewProgress"]["photoEvidencePolicy"]["showPerVenue"] is True
+assert "interview-photo-evidence" in (ROOT / "assets/app.js").read_text(encoding="utf-8")
+
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
     "candidate-cambridge-eagle", "candidate-cambridge-anchor",
