@@ -8623,6 +8623,80 @@
       "reviewSource": "Direct user response, October 31, 2026: I have not visited Of Course Kitchen & Company but want to go.",
       "visitDate": null,
       "recognitionEvidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+    },
+    {
+      "id": "candidate-kc-saltwell-farm-kitchen-overbrook",
+      "area": "Kansas City Metro",
+      "region": "Greater Kansas City / Lawrence–Topeka extended historical audit",
+      "name": "Saltwell Farm Kitchen",
+      "venueType": "restaurant",
+      "addressHint": "214 N 800 Road, Overbrook, Kansas 66524",
+      "venueScope": "Exact farmstead dining experience; not downtown Overbrook, Lawrence, or Kansas City proper",
+      "sourceUrl": "https://saltwellfarmkitchen.com/",
+      "recognition": "Chef Rozz Petrozz of Saltwell Farm Kitchen in Overbrook, KS, was a James Beard Best Chef: Midwest semifinalist in both 2024 and 2025; chef-in-post honor, not finalist or winner.",
+      "recognitionYear": 2024,
+      "recognitionYears": [
+        2024,
+        2025
+      ],
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "primary_foundation_2024_2025_chef_in_post_semifinalist_verified",
+      "addedOn": "2026-10-31",
+      "priority": "next",
+      "operatingStatus": "operating",
+      "interviewCue": "Rural historic farmstead near Clinton Lake, in a walnut grove; candlelit farmhouse tasting menus, antiques, hanging herbs, old piano and outdoor tables under string lights. Located about an hour outside the Kansas City area, near Lawrence and Topeka, not inside Kansas City.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "official_2024_and_2025_jbf_best_chef_midwest_semifinalist_rozz_petrozz_at_saltwell",
+        "sourceTier": "primary_official_jbf",
+        "verifiedAt": "2026-10-31",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+          "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        ],
+        "note": "Two chef-in-post semifinalist years, no venue award, finalist, or winner. No user visit inferred."
+      },
+      "eligibility": {
+        "status": "verified_if_visit_confirmed",
+        "basis": "historical_jbf_chef_in_post",
+        "screenedOn": "2026-10-31",
+        "verifiedForPublication": false
+      },
+      "sourceUrls": [
+        "https://saltwellfarmkitchen.com/",
+        "https://saltwellfarmkitchen.com/contact/",
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "https://lawrencekstimes.com/2022/05/04/saltwell-farm-kitchen/"
+      ],
+      "photographicEvidence": [
+        {
+          "id": "saltwell-farmhouse-2022",
+          "label": "Saltwell Farm Kitchen — farmhouse dining room",
+          "caption": "2022 Lawrence Times article image shows the original farmhouse interior, rustic tables and hanging herbs.",
+          "photoSubject": "Farmhouse interior at Saltwell Farm Kitchen",
+          "sourceUrl": "https://lawrencekstimes.com/2022/05/04/saltwell-farm-kitchen/",
+          "sourceOrganization": "The Lawrence Times",
+          "sourceYear": 2022,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Candlelit farmhouse dining room with antique furnishings and hanging herbs"
+        },
+        {
+          "id": "saltwell-outdoor-2022",
+          "label": "Saltwell Farm Kitchen — garden dinner",
+          "caption": "2022 photograph of outdoor table under trees and string lights at the farmstead.",
+          "photoSubject": "Outdoor Saltwell Farm Kitchen dining table",
+          "sourceUrl": "https://lawrencekstimes.com/2022/05/04/saltwell-farm-kitchen/",
+          "sourceOrganization": "The Lawrence Times",
+          "sourceYear": 2022,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Long candlelit farm table beneath trees and strings of lights"
+        }
+      ],
+      "photoEvidenceReviewOn": "2026-10-31"
     }
   ],
   "source": {
@@ -9442,7 +9516,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Saltwell Farm Kitchen (Overbrook, Kansas) — JBF 2024 chef semifinalist; verify location and historic photos",
+      "nextCandidate": "Saltwell Farm Kitchen — 214 N 800 Road, Overbrook KS (extended historical KC/Lawrence region; Rozz Petrozz 2024 & 2025 JBF semifinalist)",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
