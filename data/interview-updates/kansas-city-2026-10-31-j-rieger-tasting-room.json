@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "project": "Culture Passport",
+  "area": "Kansas City, Missouri",
+  "answer": {
+    "venue": "The Tasting Room at J. Rieger & Co.",
+    "parentExperienceId": "bar-j-rieger-kansas-city-multiple-visits",
+    "experienceId": "j-rieger-tasting-room",
+    "visitStatus": "confirmed",
+    "experienceType": "distillery_tasting_room",
+    "sourceType": "direct_user_recollection",
+    "sourceQuote": "I've also been to the tasting room at J. Rieger",
+    "visitDate": null,
+    "drinksOrdered": null,
+    "guidedTourAttendance": "not_established",
+    "companions": null
+  },
+  "venueEvidence": {
+    "location": "J. Rieger & Co., 2700 Guinotte Avenue, Kansas City, Missouri",
+    "description": "A separate white marble bar with views of the distillery production floor; opens to glass-enclosed Atrium facing Electric Park Garden Bar.",
+    "sourceType": "distillery_official_website",
+    "sourceUrl": "https://www.jriegerco.com/host",
+    "independentVenueListing": "https://www.visitkc.com/j-rieger-co/"
+  },
+  "recognition": {
+    "verdict": "confirmed_visit_within_curated_cultural_landmark",
+    "venueSpecificAwardVerified": false,
+    "overallPropertyPreservationAwardsMayBeLinkedAsContextOnly": true,
+    "caveat": "Do not borrow accolades from Monogram Lounge, Electric Park Garden Bar, Hey! Hey! Club, Rieger spirits, or the overall building. No claim of guided tour or spirits tasting made."
+  },
+  "relationship": {
+    "distinctFrom": [
+      "j-rieger-monogram-lounge",
+      "j-rieger-sippin-santa",
+      "j-rieger-electric-park",
+      "j-rieger-hey-hey-club"
+    ],
+    "parentDisplayGroup": "Five experiences in one landmark",
+    "preservingPriorInterview": "data/interview-updates/kansas-city-2026-10-31-j-rieger-four-experiences.json"
+  },
+  "publication": {
+    "status": "pending",
+    "intent": "Keep private recollection archived; public visitor page remains subject to separate explicit story-review approval"
+  }
+}
