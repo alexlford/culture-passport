@@ -8517,7 +8517,7 @@
       "name": "Westport Café & Bar",
       "venueType": "restaurant",
       "addressHint": "419 Westport Road, Kansas City, MO 64111",
-      "recognition": "Chef Romain Monnoyeur-Millard, Westport Cafe, Kansas City, was a 2024 James Beard Best Chef: Midwest semifinalist. Chef-in-post recognition only; not a restaurant win, and no attendance inferred.",
+      "recognition": "2024 James Beard Foundation Best Chef: Midwest SEMIFINALIST Romain Monnoyeur-Millard at Westport Cafe, Kansas City, Missouri. Chef-in-post recognition, not venue award, finalist or win. Actual user meal date unknown.",
       "recognitionYear": 2024,
       "awardFamily": "beard",
       "interviewCue": "French bistro at 419 Westport Road, operating since June 2010. Historic details: exposed brick, checkerboard black/white floor, vintage bentwood chairs, warm globe lights and intimate wooden bar. Prior 2010–2015 operator era differs from chef's 2024 Beard recognition.",
@@ -8528,8 +8528,8 @@
         "https://www.thepitchkc.com/westport-cafe-bar-opens/",
         "https://onthegrid.city/kansas-city/westport/westport-cafe"
       ],
-      "visitStatus": "unreviewed",
-      "researchStatus": "official_2024_chef_in_post_recognition_verified",
+      "visitStatus": "confirmed",
+      "researchStatus": "confirmed_user_attendance_exact_westport_venue_primary_2024_jbf_chef_semifinalist",
       "addedOn": "2026-10-31",
       "priority": "next",
       "screening": {
@@ -8541,8 +8541,8 @@
         "note": "Formal JBF semifinalist for the named chef at Westport Cafe in 2024, not a JBF award win and not evidence Alex visited."
       },
       "eligibility": {
-        "status": "verified_if_attendance_confirmed",
-        "basis": "venue_specific_jbf_chef_in_post",
+        "status": "award_qualified_confirmed_attendance",
+        "basis": "official_jbf_2024_best_chef_midwest_semifinalist_chef_in_post",
         "screenedOn": "2026-10-31",
         "verifiedForPublication": false
       },
@@ -8572,7 +8572,14 @@
           "altText": "Wooden bistro bar with glowing backlit shelves"
         }
       ],
-      "memoryPhotoCues": "Brick wall, black-and-white tiled floor, compact French-bistro dining area and warm dark wood bar."
+      "memoryPhotoCues": "Brick wall, black-and-white tiled floor, compact French-bistro dining area and warm dark wood bar.",
+      "confirmedVisitId": "dining-westport-cafe-bar-kansas-city-date-unknown",
+      "reviewedOn": "2026-10-31",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "reviewSource": "Direct October 31, 2026 user confirmation: visited Westport Café & Bar at 419 Westport Road, Kansas City, MO. User provided no visit date.",
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "visitDateUnknown": true
     },
     {
       "id": "candidate-kc-of-course-kitchen-company",
@@ -9435,7 +9442,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Westport Café & Bar (419 Westport Rd, Kansas City, MO)",
+      "nextCandidate": "Saltwell Farm Kitchen (Overbrook, Kansas) — JBF 2024 chef semifinalist; verify location and historic photos",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -9443,7 +9450,8 @@
       "antlerRoom": "User explicitly not visited The Antler Room, added private future-visit wishlist on 2026-10-31; Nick Goellner JBF Best Chef Midwest semifinalist 2019, 2020, 2023 (not winner).",
       "801Chophouse": "Confirmed user-visited 71 E 14th St Kansas City Missouri, not Leawood; date unknown; Wine Spectator 2023 and 2025 Best of Award of Excellence separately wine_spectator, not Michelin/JBF.",
       "chophouse801": "Confirmed visited 71 East 14th Street downtown KCMO on October 31, 2026; date of actual visit unknown. 2025 Wine Spectator Best of Award of Excellence separate from Michelin/JBF; no Leawood visit inferred.",
-      "ofCourse": "Not visited; user wants to go. Confirmed private wishlist of 7753 W 159th St in Overland Park. Swetha Newcomb 2026 Best Chef Midwest semifinalist (chef in post, not winner)."
+      "ofCourse": "Not visited; user wants to go. Confirmed private wishlist of 7753 W 159th St in Overland Park. Swetha Newcomb 2026 Best Chef Midwest semifinalist (chef in post, not winner).",
+      "westportCafe": "Directly confirmed Westport Café & Bar at 419 Westport Road, date unknown; Romain Monnoyeur-Millard official 2024 JBF Best Chef Midwest semifinalist as chef in post, not winner."
     },
     "losAngeles": {
       "state": "active_research_parallel",
