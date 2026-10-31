@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 53,
-    "distinctPublishedVenues": 50,
-    "recognized": 23,
+    "canonExperienceRecords": 54,
+    "distinctPublishedVenues": 51,
+    "recognized": 24,
     "featuredPersonal": 15,
     "officiallyFeatured": 6,
     "unfeaturedOther": 7,
@@ -1128,6 +1128,29 @@
       ],
       "visitConfidence": "direct_user_confirmation_specific_downtown_kc_branch_date_unknown",
       "publicationStatus": "private_award_watchlist_not_selected"
+    },
+    {
+      "venueId": "venue-westport-cafe-bar-kansas-city",
+      "name": "Westport Café & Bar",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "experienceIds": [
+        "dining-westport-cafe-bar-kansas-city-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Confirmed dining at 419 Westport Road; exact visit date unknown"
+      ],
+      "recognitionStatus": "verified_historical_james_beard_chef_in_post_semifinalist",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "https://westportcafeandbar.com/",
+        "https://www.thepitchkc.com/westport-cafe-bar-opens/"
+      ],
+      "recognitionSummary": [
+        "Romain Monnoyeur-Millard of Westport Cafe, Kansas City, was a James Beard Best Chef: Midwest 2024 semifinalist. This is a chef-at-venue recognition, not a finalist, winner or restaurant-level award; user visit date remains unknown."
+      ],
+      "visitConfidence": "direct_user_confirmation_of_exact_westport_cafe_location",
+      "publicationStatus": "private_confirmed_recognized_pending_editorial_approval"
     }
   ],
   "confirmedArchiveOnly": [
@@ -1274,7 +1297,7 @@
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
     }
   ],
-  "interviewCandidateCount": 235,
+  "interviewCandidateCount": 276,
   "artsNext": {
     "concerts": "Collect artist, venue, tour/event, city, approximate year and the memory rather than set times.",
     "opera": "Collect production, opera house, approximate year and occasion.",
