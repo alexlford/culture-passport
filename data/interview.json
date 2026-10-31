@@ -2592,8 +2592,8 @@
       "awardFamily": "wine_spectator",
       "interviewCue": "Classic white-tablecloth steakhouse at 71 East 14th Street in downtown Kansas City's Power & Light District: rich mahogany bar with green leather stools, coppery wood floors, bronze chandeliers, white tablecloths, and a Kansas City Stock Yards mural. Distinguish from sister location in Leawood, Kansas.",
       "sourceUrl": "https://801chophouse.com/locations/kansas-city/",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_exact_branch_wine_spectator_restaurant_award_verified",
+      "visitStatus": "confirmed",
+      "researchStatus": "direct_user_confirmed_downtown_kansas_city_branch_date_unknown_wine_spectator_separate",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
@@ -2648,7 +2648,19 @@
         }
       ],
       "photographicEvidenceReviewOn": "2026-10-31",
-      "memoryPhotoCues": "Dark wood and classic white tablecloths; long dark-red mahogany liquor bar, green barstools, Stock Yards mural behind banquet tables. Photos belong to the Power & Light District Missouri branch, distinct from 801 Chophouse Leawood."
+      "memoryPhotoCues": "Dark wood and classic white tablecloths; long dark-red mahogany liquor bar, green barstools, Stock Yards mural behind banquet tables. Photos belong to the Power & Light District Missouri branch, distinct from 801 Chophouse Leawood.",
+      "confirmedVisitId": "dining-801-chophouse-kansas-city-date-unknown",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user confirmation: visited 801 Chophouse at 71 E 14th Street in downtown Kansas City, Missouri; date unknown. Explicitly preserve Wine Spectator recognition separately from Michelin and James Beard.",
+      "venueBranch": "71 E 14th St, Kansas City, Missouri (not Leawood)",
+      "notClaimed": [
+        "Leawood branch visit",
+        "specific meal date",
+        "Michelin or James Beard award",
+        "dining during 2023 or 2025 award year"
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-stock-hill",
@@ -8496,6 +8508,69 @@
           "renderMode": "source_link_only"
         }
       ]
+    },
+    {
+      "id": "candidate-kc-westport-cafe-bar",
+      "area": "Kansas City Metro",
+      "name": "Westport Café & Bar",
+      "venueType": "restaurant",
+      "addressHint": "419 Westport Road, Kansas City, MO 64111",
+      "recognition": "Chef Romain Monnoyeur-Millard, Westport Cafe, Kansas City, was a 2024 James Beard Best Chef: Midwest semifinalist. Chef-in-post recognition only; not a restaurant win, and no attendance inferred.",
+      "recognitionYear": 2024,
+      "awardFamily": "beard",
+      "interviewCue": "French bistro at 419 Westport Road, operating since June 2010. Historic details: exposed brick, checkerboard black/white floor, vintage bentwood chairs, warm globe lights and intimate wooden bar. Prior 2010–2015 operator era differs from chef's 2024 Beard recognition.",
+      "sourceUrl": "https://westportcafeandbar.com/",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "https://westportcafeandbar.com/contact/",
+        "https://www.thepitchkc.com/westport-cafe-bar-opens/",
+        "https://onthegrid.city/kansas-city/westport/westport-cafe"
+      ],
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_2024_chef_in_post_recognition_verified",
+      "addedOn": "2026-10-31",
+      "priority": "next",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "2024_jbf_best_chef_midwest_semifinalist_romain_monnoyeur_millard",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "sourceTier": "primary_organizer",
+        "verifiedAt": "2026-10-31",
+        "note": "Formal JBF semifinalist for the named chef at Westport Cafe in 2024, not a JBF award win and not evidence Alex visited."
+      },
+      "eligibility": {
+        "status": "verified_if_attendance_confirmed",
+        "basis": "venue_specific_jbf_chef_in_post",
+        "screenedOn": "2026-10-31",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "westport-cafe-early-interior-onthegrid",
+          "label": "Westport Café — older bistro dining room",
+          "caption": "Archive photo shows brick walls and checkerboard floor at 419 Westport; photo date not confirmed, no personal attendance implied.",
+          "photoSubject": "Westport Cafe original restaurant dining room",
+          "sourceUrl": "https://onthegrid.city/kansas-city/westport/westport-cafe",
+          "sourceOrganization": "On the Grid",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "French bistro with brick walls, warm lamps and checkerboard floor"
+        },
+        {
+          "id": "westport-cafe-historic-bar-onthegrid",
+          "label": "Westport Café — older bar",
+          "caption": "Historic interior photograph of bar at exact restaurant address; not a claim about Alex's night.",
+          "photoSubject": "Westport Café wooden bar",
+          "sourceUrl": "https://onthegrid.city/kansas-city/westport/westport-cafe",
+          "sourceOrganization": "On the Grid",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Wooden bistro bar with glowing backlit shelves"
+        }
+      ],
+      "memoryPhotoCues": "Brick wall, black-and-white tiled floor, compact French-bistro dining area and warm dark wood bar."
     }
   ],
   "source": {
@@ -9315,12 +9390,13 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "801 Chophouse (Power & Light District, KCMO)",
+      "nextCandidate": "Westport Café & Bar (419 Westport Road; 2024 JBF Best Chef Midwest semifinalist Romain Monnoyeur-Millard)",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
       "stockHill": "Explicit not visited, wants to go; AAA Four Diamond separately tagged and no implied experience. Current wishlist address 4800 Main Street Suite G-001.",
-      "antlerRoom": "User explicitly not visited The Antler Room, added private future-visit wishlist on 2026-10-31; Nick Goellner JBF Best Chef Midwest semifinalist 2019, 2020, 2023 (not winner)."
+      "antlerRoom": "User explicitly not visited The Antler Room, added private future-visit wishlist on 2026-10-31; Nick Goellner JBF Best Chef Midwest semifinalist 2019, 2020, 2023 (not winner).",
+      "801Chophouse": "Confirmed user-visited 71 E 14th St Kansas City Missouri, not Leawood; date unknown; Wine Spectator 2023 and 2025 Best of Award of Excellence separately wine_spectator, not Michelin/JBF."
     },
     "losAngeles": {
       "state": "active_research_parallel",
