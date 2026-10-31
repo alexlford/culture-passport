@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kc-novel-original-westside",
+    "venue": "Novel Restaurant (original Westside)",
+    "address": "815 W. 17th Street, Kansas City, MO",
+    "visitStatus": "not_visited",
+    "wantsToVisit": false,
+    "exactQuote": "I have not, but we should add this to the list of wanting to go.",
+    "sourceType": "direct_user_response",
+    "negativeAppliesTo": "Original Westside and successor East Crossroads (both were in the previous question)"
+  },
+  "futureVisit": {
+    "candidateId": "candidate-kc-novel-east-crossroads",
+    "wishlistEntryId": "want-to-visit-novel-east-crossroads",
+    "venue": "Novel Restaurant — East Crossroads",
+    "address": "1927 McGee Street, Kansas City, MO 64108",
+    "status": "want_to_visit",
+    "visitStatus": "not_visited",
+    "venueWebsite": "https://www.novelkc.com/",
+    "recognition": {
+      "issuer": "AIA Kansas City",
+      "year": 2019,
+      "category": "Design Excellence Awards — Citation",
+      "recipient": "Novel Restaurant East Crossroads architectural project",
+      "type": "architecture",
+      "sourceUrl": "https://eldo.us/novel"
+    }
+  },
+  "historicalAttribution": {
+    "originalRestaurant": "Original Novel Westside operated 2013–March 2018, chef Ryan Brazeal at James Beard Foundation 2017 Taste America Kansas City event.",
+    "currentRestaurant": "Relocated to East Crossroads April 2018; own 2019 architecture citation, not James Beard restaurant distinction.",
+    "noVisitInferred": true,
+    "sources": [
+      "https://flatlandkc.org/eats-drinks/novel-restaurant-opening-new-chapter-in-east-crossroads/",
+      "https://archive.jamesbeard.org/index.php/events/taste-america-kansas-city-dinner",
+      "https://eldo.us/novel",
+      "https://www.novelkc.com/"
+    ]
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kc-michael-smith-restaurant-crossroads",
+    "venue": "Michael Smith Restaurant (historical Crossroads)",
+    "visitStatus": "unreviewed",
+    "recognition": {
+      "issuer": "James Beard Foundation",
+      "category": "Outstanding Chef",
+      "year": [
+        2009,
+        2010
+      ],
+      "result": "semifinalist",
+      "recipient": "Michael Smith at Michael Smith Restaurant",
+      "sourceUrl": "https://archive.jamesbeard.org/chef/michael-smith"
+    },
+    "question": "Did you ever dine at Michael Smith Restaurant (1900 Main Street, circa 2007–January 2019)?",
+    "answers": [
+      "visited",
+      "maybe",
+      "not_visited",
+      "not_visited_want_to_visit_historical"
+    ]
+  },
+  "guardrails": "Private interview and wishlist; no publication or false attendance. Closed original Novel not a bookable wishlist destination, and Michael Smith Restaurant's closure distinguishes it from the existing Extra Virgin and Farina venues."
+}
