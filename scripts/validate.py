@@ -93,6 +93,30 @@ assert monarch_wish["visitStatus"] == "not_visited" and monarch_wish["status"] =
 assert monarch_wish["category"] == "bar"
 assert not any(r["title"] == "The Monarch Bar" for r in records)
 
+# Novel has two historically different addresses; wishlisting the operating site never implies attendance.
+novel_original = next(c for c in candidates if c["id"] == "candidate-kc-novel-original-westside")
+novel_current = next(c for c in candidates if c["id"] == "candidate-kc-novel-east-crossroads")
+assert novel_original["visitStatus"] == novel_current["visitStatus"] == "not_visited"
+assert novel_original["operatingStatus"] == "closed_at_this_address"
+assert novel_original["wantsToVisit"] is False
+assert novel_current["wantsToVisit"] is True
+assert novel_current["screening"]["status"] == "cultural_architecture_qualified"
+assert novel_current["wishlistEntryId"] == "want-to-visit-novel-east-crossroads"
+novel_wish = next(e for e in wishlist["entries"] if e["candidateId"] == novel_current["id"])
+assert novel_wish["status"] == "want_to_visit" and novel_wish["visitStatus"] == "not_visited"
+assert novel_wish["location"]["address"] == "1927 McGee Street"
+assert novel_wish["recognition"]["organization"] == "AIA Kansas City"
+assert not any(e["candidateId"] == novel_original["id"] for e in wishlist["entries"])
+assert not any(r["title"] == "Novel Restaurant" for r in records)
+assert len({e["id"] for e in wishlist["entries"]}) == len(wishlist["entries"])
+# Next historical question must remain unresolved; do not ascribe another restaurant's awards.
+michael_smith = next(c for c in candidates if c["id"] == "candidate-kc-michael-smith-restaurant-crossroads")
+assert michael_smith["visitStatus"] == "unreviewed"
+assert michael_smith["screening"]["status"] == "award_qualified"
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
+    "Michael Smith Restaurant (Crossroads, 2007–2019)"]
+assert michael_smith["screening"]["evidenceUrl"].startswith("https://archive.jamesbeard.org/")
+
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
     "candidate-cambridge-eagle", "candidate-cambridge-anchor",
