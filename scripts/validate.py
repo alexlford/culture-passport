@@ -997,13 +997,23 @@ assert toms["id"] in visitor_ids and jrieger["id"] in visitor_ids
 assert jrieger["editorial"]["culturalSpotlight"] is True
 assert jrieger["editorial"]["awardQualified"] is False
 assert {x["title"] for x in jrieger["onSiteExperiences"]} == {
-    "Sippin' Santa", "Electric Park Garden Bar", "Monogram Lounge", "The Hey! Hey! Club"
+    "Sippin' Santa", "Electric Park Garden Bar", "Monogram Lounge",
+    "The Tasting Room", "The Hey! Hey! Club"
 }
 assert all(x["visitStatus"] == "confirmed" and x["visitDate"] is None
            for x in jrieger["onSiteExperiences"])
 rieger_experiences = {x["id"]: x for x in jrieger["onSiteExperiences"]}
 assert not rieger_experiences["j-rieger-sippin-santa"]["recognitions"]
 assert not rieger_experiences["j-rieger-monogram-lounge"]["recognitions"]
+assert len(jrieger["onSiteExperiences"]) == 5
+tasting_room = rieger_experiences["j-rieger-tasting-room"]
+assert tasting_room["visitStatus"] == "confirmed" and tasting_room["visitDate"] is None
+assert tasting_room["experienceType"] == "distillery_tasting_room"
+assert not tasting_room["recognitions"]
+assert tasting_room["sources"] and all(x["url"].startswith("https://")
+                                     for x in tasting_room["sources"])
+assert "tour" in tasting_room["description"] and "not been established" in tasting_room["description"]
+
 assert {x["organization"] for x in rieger_experiences["j-rieger-electric-park"]["recognitions"]} == {
     "AIA Kansas City", "Kansas City Business Journal"
 }
