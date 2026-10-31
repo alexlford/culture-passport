@@ -2772,30 +2772,68 @@
       "id": "candidate-kansas-city-metro-rye-plaza",
       "area": "Kansas City Metro",
       "name": "Rye (Plaza)",
-      "recognition": "Chef Colby Garrelts won the 2013 James Beard Best Chef: Midwest award",
-      "recognitionYear": 2013,
+      "recognition": "Rye chef/proprietor Colby Garrelts won James Beard Best Chef: Midwest in 2013 while at Bluestem (before Rye Plaza opened); Megan Garrelts was an Outstanding Pastry Chef semifinalist 2017–2020 at Rye, specified as Leawood in official Foundation announcements. These are chef and original-location recognitions, NOT a verified site-specific James Beard award for Rye Plaza.",
+      "recognitionYear": 2019,
       "awardFamily": "beard",
-      "interviewCue": "Kansas City Country Club Plaza branch of the Rye Midwestern restaurant, by Colby and Megan Garrelts.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "interviewCue": "Country Club Plaza location (opened in 2017), not the original Rye Leawood at 10551 Mission Road. White tiled pillars, black/navy banquette seating, wooden tables and chairs, oversized square lanterns, bar, fried chicken, Midwestern pies. Check the 2017 original dining-room opening photograph.",
+      "sourceUrl": "https://www.ryekc.com/",
       "visitStatus": "unreviewed",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
         "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "basis": "historically_relevant_shared_restaurant_brand_and_awarded_chefs",
+        "evidenceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "sourceTier": "visit_kc_plus_official_jbf_attributions",
+        "verifiedAt": "2026-10-31",
+        "note": "No direct James Beard or Michelin honor for the Plaza location verified. Colby 2013 Best Chef Midwest was at Bluestem; Megan's 2017–2020 Rye pastry semifinalist records say Leawood. Preserve these as related context, not qualifying Plaza awards."
       },
       "eligibility": {
-        "status": "needs_verification",
-        "basis": "related_chef_or_unproven",
-        "reason": "Related chef, restaurant, or name has no direct qualifying award independently verified yet.",
-        "screenedOn": "2026-10-25",
+        "status": "memory_lead_award_scope_unverified",
+        "basis": "restaurant_brand_related_chefs_only",
+        "reason": "The Plaza branch has separate current identity; primary JBF nominations attribute Rye to Leawood and Colby's win to Bluestem. Should a user confirm visiting the Plaza branch, place in confirmed nonqualified archive until a venue-specific honor is verified.",
+        "screenedOn": "2026-10-31",
         "verifiedForPublication": false
-      }
+      },
+      "venueType": "restaurant",
+      "addressHint": "4646 Mill Creek Parkway (formerly 4646 J.C. Nichols Parkway), Kansas City, Missouri 64112",
+      "operatingStatus": "operating",
+      "openedOn": "2017-11",
+      "sourceUrls": [
+        "https://www.ryekc.com/",
+        "https://www.bizjournals.com/kansascity/news/2017/11/21/rye-plaza-restaurant-photo-tour.html",
+        "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+      ],
+      "photographicEvidence": [
+        {
+          "id": "rye-plaza-2017-opening-dining-room",
+          "label": "2017 opening — main dining room",
+          "caption": "Adam Vogler photograph of the actual Rye Plaza dining room, taken at the November 2017 opening; not Rye Leawood.",
+          "photoSubject": "Rye Plaza interior at opening",
+          "sourceUrl": "https://www.bizjournals.com/kansascity/news/2017/11/21/rye-plaza-restaurant-photo-tour.html",
+          "sourceOrganization": "Kansas City Business Journal",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Rye Plaza dining room with dark round tables, wooden chairs, tiled columns and overhead square lanterns"
+        },
+        {
+          "id": "rye-plaza-visitor-photograph",
+          "label": "Rye Plaza dining room — Visit KC",
+          "caption": "Rye Plaza dining-room image and location listing supplied by the Kansas City tourism organization; publication era of the photo is not confirmed.",
+          "photoSubject": "Named Rye Plaza dining room",
+          "sourceUrl": "https://www.visitkc.com/listings/rye-plaza/",
+          "sourceOrganization": "Visit KC",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Rye Plaza table settings with blue-checkered napkins and dark wood tables"
+        }
+      ],
+      "memoryPhotoCues": "Rye Plaza has dated 2017 opening photos of its white-tile-columned dining room with square lantern pendants, wooden chairs and dark round tables. Distinguish this Missouri Country Club Plaza restaurant from the older Rye in Leawood, Kansas.",
+      "photographicEvidenceReviewOn": "2026-10-31"
     },
     {
       "id": "candidate-kansas-city-metro-the-american-restaurant",
@@ -8159,8 +8197,8 @@
       "name": "Michael Smith Restaurant (Crossroads, 2007–2019)",
       "venueType": "restaurant",
       "addressHint": "1900 Main Street, Kansas City, MO 64108 (former Michael Smith Restaurant within the former Extra Virgin space)",
-      "visitStatus": "unreviewed",
-      "researchStatus": "historical_award_recognition_verified",
+      "visitStatus": "not_visited",
+      "researchStatus": "award_qualified_historical_not_visited",
       "recognition": "Chef Michael Smith — James Beard Foundation Outstanding Chef semifinalist in 2009 and 2010 while associated with Michael Smith Restaurant; not a winner of these categories. His 1999 Best Chef Midwest win was at The American Restaurant and cannot be transferred.",
       "recognitionYear": 2010,
       "awardFamily": "beard",
@@ -8208,7 +8246,13 @@
         }
       ],
       "memoryPhotoCues": "For exact historic context, use two licensed-source links: original 1900 Main storefront and 2016 chef portrait. No directly verified, reusable photo of the former restaurant dining room has been found. Historical 2008 review describes sage-green walls, tobacco-colored curtains, white tablecloths, and a wine-shelf entry partition. Never show photos of Farina at 1901 Baltimore or The Restaurant at 1900 Shawnee Mission Parkway as images of Michael Smith Restaurant.",
-      "photographicEvidenceReviewOn": "2026-10-31"
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "wantsToVisit": false,
+      "reviewedOn": "2026-10-31",
+      "reviewSource": "Direct user response: 'I did not visit Michael Smith Restaurant and do not want it on my wishlist.'",
+      "attendanceCertainty": "explicit_nonattendance",
+      "wishlistDecision": "explicit_no",
+      "userResponseQuote": "Culture Passport Kansas City: I did not visit Michael Smith Restaurant and do not want it on my wishlist. Continue the interview with historical photos and all four answer buttons."
     }
   ],
   "source": {
@@ -9026,7 +9070,9 @@
       "newConfirmedBars": [
         "Drastic Measures"
       ],
-      "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019."
+      "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
+      "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
+      "nextCandidate": "Rye (Plaza)"
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -9256,11 +9302,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Michael Smith Restaurant (Crossroads, 2007–2019)"
+        "Rye (Plaza)"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you ever dine at Michael Smith Restaurant, 1900 Main Street, before it closed in January 2019 and the chef opened Farina nearby? Keep the historic restaurant separate from Extra Virgin and Farina.",
-      "continuation": "One venue at a time with tappable visited/maybe/not visited/wishlist responses. Historical recognition only for the actual venue. Continue Kansas City 2010–present, then Baltimore."
+      "question": "Have you ever eaten at Rye on the Country Club Plaza, at 4646 Mill Creek Parkway, since its 2017 opening? This is distinct from Rye in Leawood. Use the original 2017 interior photos to jog memory.",
+      "continuation": "One venue at a time with two labeled archival photography sources and four answer buttons (including No, but want to go). Do not transfer Leawood or Bluestem Beard honors to Rye Plaza. Continue KC 2010–present then Baltimore."
     },
     "pausedBatches": [
       {

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-31",
+  "project": "Culture Passport",
+  "area": "Kansas City Metro",
+  "topic": "Historical Michael Smith Restaurant negative response; Rye Plaza interview queued",
+  "answer": {
+    "candidateId": "candidate-kc-michael-smith-restaurant-crossroads",
+    "venue": "Michael Smith Restaurant (Crossroads, 2007–2019)",
+    "visitStatus": "not_visited",
+    "wantsToVisit": false,
+    "wishlistEntryId": null,
+    "sourceType": "direct_user_response",
+    "sourceQuote": "Culture Passport Kansas City: I did not visit Michael Smith Restaurant and do not want it on my wishlist. Continue the interview with historical photos and all four answer buttons.",
+    "attendance": false
+  },
+  "venueHistory": {
+    "originalAddress": "1900 Main Street, Kansas City, Missouri",
+    "originalRestaurantClosed": true,
+    "notToConfuseWith": [
+      "Extra Virgin",
+      "Farina",
+      "The Restaurant at 1900 in Mission Woods"
+    ],
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "recipient": "Chef Michael Smith at Michael Smith Restaurant",
+      "category": "Outstanding Chef",
+      "years": [
+        2009,
+        2010
+      ],
+      "result": "semifinalist",
+      "primarySource": "https://archive.jamesbeard.org/chef/michael-smith"
+    },
+    "note": "Historical recognition retained for research only, not a user visit"
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-rye-plaza",
+    "venue": "Rye (Plaza)",
+    "address": "4646 Mill Creek Parkway, Kansas City, Missouri",
+    "opened": "2017-11",
+    "status": "unreviewed",
+    "recognitionCaveat": "2013 Colby Garrelts JBF award attributed to Bluestem, and Megan Garrelts Rye pastry semifinalist attributions specify Leawood in official JBF lists. No award is transferred to this Plaza branch.",
+    "photoSources": [
+      "https://www.bizjournals.com/kansascity/news/2017/11/21/rye-plaza-restaurant-photo-tour.html",
+      "https://www.visitkc.com/listings/rye-plaza/"
+    ],
+    "choices": [
+      "Yes, I visited",
+      "Maybe — looks familiar",
+      "No, haven't been",
+      "No, but want to go"
+    ]
+  },
+  "publication": {
+    "status": "private_unreviewed",
+    "notes": "Negative response and interview question do not authorize any publication."
+  }
+}

@@ -111,10 +111,21 @@ assert not any(r["title"] == "Novel Restaurant" for r in records)
 assert len({e["id"] for e in wishlist["entries"]}) == len(wishlist["entries"])
 # Next historical question must remain unresolved; do not ascribe another restaurant's awards.
 michael_smith = next(c for c in candidates if c["id"] == "candidate-kc-michael-smith-restaurant-crossroads")
-assert michael_smith["visitStatus"] == "unreviewed"
+assert michael_smith["visitStatus"] == "not_visited"
+assert michael_smith["wantsToVisit"] is False
+assert michael_smith["wishlistDecision"] == "explicit_no"
+assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
 assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
-    "Michael Smith Restaurant (Crossroads, 2007–2019)"]
+    "Rye (Plaza)"]
+rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
+assert rye_plaza["visitStatus"] == "unreviewed"
+assert rye_plaza["eligibility"]["verifiedForPublication"] is False
+assert rye_plaza["screening"]["status"] == "memory_only"
+assert len(rye_plaza["photographicEvidence"]) == 2
+assert all(e["imageRights"] == "unverified" and e["renderMode"] == "source_link_only"
+           and e["sourceUrl"].startswith("https://") for e in rye_plaza["photographicEvidence"])
+assert "Leawood" in rye_plaza["recognition"] and "Bluestem" in rye_plaza["recognition"]
 assert michael_smith["screening"]["evidenceUrl"].startswith("https://archive.jamesbeard.org/")
 
 # Keep the user-requested fourth answer visible on every venue interview.
