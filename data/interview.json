@@ -8181,7 +8181,34 @@
         "https://archive.jamesbeard.org/chef/michael-smith",
         "https://farinakc.com/farina/",
         "https://flatlandkc.org/eats-drinks/michael-smiths-italian-restaurant-farina-opening-late-january/"
-      ]
+      ],
+      "photographicEvidence": [
+        {
+          "id": "historic-building-exterior",
+          "label": "Historic storefront photograph",
+          "caption": "1900 Main Street facade with Michael Smith and Extra Virgin signage; exact photograph date not confirmed.",
+          "photoSubject": "actual former venue building",
+          "sourceUrl": "https://www.loopnet.com/Listing/1900-Main-St-Kansas-City-MO/39255248/",
+          "sourceOrganization": "LoopNet commercial property listing",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "The exterior of the original Michael Smith Restaurant at 1900 Main Street showing its restaurant signage"
+        },
+        {
+          "id": "2016-chef-portrait",
+          "label": "Chef Michael Smith, 2016 photograph",
+          "caption": "2016 photograph of chef Michael Smith wearing his white chef's coat, published by Kansas City Business Journal. This is the chef, not independently verified as the restaurant's interior.",
+          "photoSubject": "chef associated with former venue",
+          "sourceUrl": "https://www.bizjournals.com/kansascity/news/2016/06/29/newsmaker-chef-michael-smith.html",
+          "sourceOrganization": "Kansas City Business Journal",
+          "sourceYear": 2016,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Chef Michael Smith in a white chef's coat at a dining table"
+        }
+      ],
+      "memoryPhotoCues": "For exact historic context, use two licensed-source links: original 1900 Main storefront and 2016 chef portrait. No directly verified, reusable photo of the former restaurant dining room has been found. Historical 2008 review describes sage-green walls, tobacco-colored curtains, white tablecloths, and a wine-shelf entry partition. Never show photos of Farina at 1901 Baltimore or The Restaurant at 1900 Shawnee Mission Parkway as images of Michael Smith Restaurant.",
+      "photographicEvidenceReviewOn": "2026-10-31"
     }
   ],
   "source": {
@@ -9617,6 +9644,13 @@
       ],
       "wishListSemantics": "No, but want to go sets not_visited=true and wantsToVisit=true; never counts as personal attendance.",
       "closedVenueSemantics": "Preserve wishlist interest for a closed historical venue with closed/unbookable status; do not offer reservations."
+    },
+    "photoEvidencePolicy": {
+      "showPerVenue": true,
+      "accuracy": "Use actual named venue/era; label chef or later location images as context, never original interior.",
+      "rights": "Photos without a verified publication license are shown in ChatGPT using source-linked search results; private website links to original publisher photography rather than rehosting or hotlinking copyrighted assets.",
+      "captionRequired": true,
+      "oneVenueAtATime": true
     }
   }
 }
