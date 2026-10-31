@@ -617,6 +617,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-j-rieger-kansas-city-multiple-visits",
+      "title": "J. Rieger & Co.",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
