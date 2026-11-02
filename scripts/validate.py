@@ -238,7 +238,7 @@ assert not any(r["title"] == "Farina" for r in records)
 
 # 801 Chophouse is the original KC Missouri downtown branch, not Leawood.
 chophouse = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-801-chophouse")
-assert chophouse["visitStatus"] == "confirmed" and chophouse["confirmedVisitId"] == "dining-801-chophouse-downtown-kansas-city"
+assert chophouse["visitStatus"] == "confirmed" and chophouse["confirmedVisitId"] == "dining-801-chophouse-kansas-city-date-unknown"
 assert "71 E 14th Street" in chophouse["addressHint"]
 assert "Leawood" in chophouse["addressHint"]
 assert chophouse["screening"]["status"] == "distinct_hospitality_award_verified"
@@ -925,7 +925,6 @@ for venue in venues:
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
             "venue-la-marchande-new-york": "New York",
             "venue-the-campbell-grand-central-new-york": "New York",
-            "venue-801-chophouse-downtown-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
