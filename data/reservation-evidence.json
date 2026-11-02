@@ -237,12 +237,12 @@
       "timezone": "America/New_York",
       "partySize": 4,
       "seating": "Dining Room",
-      "reservationStatus": "booked_upcoming",
+      "reservationStatus": "visited_confirmed",
       "source": "user_provided_reservation_screenshot",
       "screenshot": "EFFB8ED4-7ACF-4F1F-87A1-58B532ACEC0D.png",
       "screenshotArchiveNote": "Screenshot supplied in the ChatGPT conversation on 2026-10-29; filename and contents observed, image bytes are not committed to this repository.",
-      "attendanceInference": "not_proven_by_reservation",
-      "publicCuration": "research_only",
+      "attendanceInference": "confirmed_on_site_photo_and_user_instruction",
+      "publicCuration": "pending_explicit_story_review",
       "recordedOn": "2026-10-29",
       "recognition": {
         "organization": "MICHELIN Guide",
@@ -252,7 +252,17 @@
         "bibGourmandListUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand",
         "verifiedOn": "2026-10-29"
       },
-      "note": "Confirmed future reservation. The four guests are reservation party size only, not confirmed attendees. No meal or visit has yet been independently confirmed. Do not publish as a completed Culture Passport experience."
+      "note": "Direct user instruction and same-day photograph of Tonchin interior establish a confirmed November 1, 2026 visit. Prior 9 PM Resy confirmation corroborates the date and venue. Four guests are the booked party size, not established actual diners. Do not infer time of arrival, ordered meals, or Michelin stars. Original uploaded photo bytes remain in the conversation; GitHub stores descriptive evidence only.",
+      "confirmedVisitId": "dining-tonchin-new-york-2026-11-01",
+      "confirmedVisitDate": "2026-11-01",
+      "photoEvidence": {
+        "sourceType": "user_uploaded_in_chat",
+        "sourceFilename": "IMG_3661.jpeg",
+        "photoObservedOn": "2026-11-01",
+        "observation": "Tonchin nameplate below MICHELIN plaques labeled 2019 through 2025; physically photographed on visit date",
+        "bytesInRepository": false,
+        "attestation": "User explicitly requested Add Tonchin alongside this image"
+      }
     },
     {
       "id": "the-campbell-new-york-2026-11-01",
@@ -824,12 +834,15 @@
       "timezone": "America/New_York",
       "partySize": 4,
       "seating": "Dining Room",
-      "status": "upcoming_reservation",
+      "status": "visited_confirmed",
       "sourceType": "user_provided_screenshot",
       "sourceFile": "EFFB8ED4-7ACF-4F1F-87A1-58B532ACEC0D.png",
-      "publicationEligibility": "michelin_bib_gourmand_requires_confirmed_attendance_and_publication_approval",
-      "attendanceInference": "not_proven_by_reservation",
-      "sourceBatch": "Upcoming reservation screenshot added Oct 29, 2026"
+      "publicationEligibility": "confirmed_michelin_bib_gourmand_visit_pending_explicit_story_review",
+      "attendanceInference": "confirmed_on_site_photo_and_user_instruction",
+      "sourceBatch": "Upcoming reservation screenshot added Oct 29, 2026",
+      "confirmedVisitId": "dining-tonchin-new-york-2026-11-01",
+      "confirmedVisitDate": "2026-11-01",
+      "photoEvidenceFilename": "IMG_3661.jpeg"
     },
     {
       "name": "The Campbell",
