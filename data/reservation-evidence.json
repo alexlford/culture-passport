@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-11-01",
   "source": "User-provided booking screenshots and related direct recollections, including historical and upcoming reservations.",
   "policy": "A booked or completed reservation is evidence of a booking, not proof that anyone attended a meal. Confirmed experience requires direct recollection. MICHELIN/James Beard status must be verified for the exact named venue, not simply a high rating or a chef at another branch. An explicitly excluded unqualified venue is omitted from this private ledger at the user's request.",
   "entries": [
@@ -262,12 +262,12 @@
       "reservationTime": "19:30",
       "timezone": "America/New_York",
       "partySize": 3,
-      "reservationStatus": "booked_upcoming",
+      "reservationStatus": "visited_confirmed",
       "platform": "Resy",
       "source": "user_provided_reservation_screenshot",
       "screenshot": "5730DA81-A29C-4542-B44F-20ADE67DF8AE.png",
       "screenshotArchiveNote": "Resy confirmation screenshot supplied in the ChatGPT conversation on 2026-10-29; screenshot filename and details recorded, but image bytes not uploaded to GitHub.",
-      "attendanceInference": "not_proven_by_reservation",
+      "attendanceInference": "user_confirmed_attendance",
       "publicCuration": "research_only",
       "recordedOn": "2026-10-29",
       "recognition": {
@@ -325,11 +325,11 @@
           }
         ],
         "classification": {
-          "currentPolicy": "not_formally_qualified",
+          "currentPolicy": "editorially_recognized_personal_selection",
           "possibleExpandedTier": "editorially_recognized_bar",
           "tierRecommendation": "Strong candidate for a distinct curated editorial-recognition tier if user approves a broader rule; never label as a Michelin/JBF award or Tales of the Cocktail honor.",
-          "visitRequirement": "User must confirm attendance; booked upcoming reservation is not an experience.",
-          "publicationStatus": "private_research_only"
+          "visitRequirement": "fulfilled",
+          "publicationStatus": "pending_story_review"
         },
         "reviewedOn": "2026-10-29"
       },
@@ -337,7 +337,9 @@
         "note": "Guests under 21 are welcomed until 9pm when accompanied by a legal parent or guardian. No child attendance is inferred from reservation party size.",
         "sourceUrl": "https://www.thecampbellnyc.com/location/the-campbell/"
       },
-      "note": "Confirmed future Resy booking for 3 at 7:30 PM. Formal qualifying award not verified; three credible venue-specific editorial selections documented (Time Out 2025 #2 Midtown, Tasting Table 2023 NYC top-20, Eater 2017 design), which are not industry awards. Proposed editorial-recognition tier is not yet approved. Historical Playboy claim is unverified. The four-person 9:00 PM Tonchin reservation is separate. Do not assert attendance or publish this as a completed Culture Passport experience."
+      "note": "Confirmed future Resy booking for 3 at 7:30 PM. Formal qualifying award not verified; three credible venue-specific editorial selections documented (Time Out 2025 #2 Midtown, Tasting Table 2023 NYC top-20, Eater 2017 design), which are not industry awards. Proposed editorial-recognition tier is not yet approved. Historical Playboy claim is unverified. The four-person 9:00 PM Tonchin reservation is separate. Do not assert attendance or publish this as a completed Culture Passport experience.",
+      "confirmedVisitDate": "2026-11-01",
+      "confirmedVisitId": "bar-the-campbell-grand-central-new-york"
     }
   ],
   "semantics": "Historical reservation and waitlist evidence is preserved. Screenshot-derived rows expand private review. A reservation (including a confirmed upcoming booking) does not prove that a meal happened. Explicitly excluded venues remain omitted. Resy/Tock/OpenTable and other user-provided screenshots are private evidence, not public experience stories; do not copy guest counts or booking dates into visited narratives. Multiple bookings for one venue are not duplicates.",
@@ -835,13 +837,15 @@
       "time": "19:30",
       "timezone": "America/New_York",
       "partySize": 3,
-      "status": "upcoming_reservation",
+      "status": "visited_confirmed",
       "sourceType": "user_provided_screenshot",
       "platform": "Resy",
       "sourceFile": "5730DA81-A29C-4542-B44F-20ADE67DF8AE.png",
       "publicationEligibility": "requires_venue_specific_qualifying_award_and_confirmed_attendance",
-      "attendanceInference": "not_proven_by_reservation",
-      "sourceBatch": "Upcoming Resy confirmation screenshot added Oct 29, 2026"
+      "attendanceInference": "user_confirmed_attendance",
+      "sourceBatch": "Upcoming Resy confirmation screenshot added Oct 29, 2026",
+      "confirmedVisitDate": "2026-11-01",
+      "confirmedVisitId": "bar-the-campbell-grand-central-new-york"
     }
   ]
 }
