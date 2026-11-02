@@ -926,6 +926,7 @@ for venue in venues:
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
             "venue-la-marchande-new-york": "New York",
             "venue-the-campbell-grand-central-new-york": "New York",
+            "venue-801-chophouse-downtown-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
