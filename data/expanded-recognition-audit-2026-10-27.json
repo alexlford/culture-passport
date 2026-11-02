@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "auditedOn": "2026-10-31",
+  "auditedOn": "2026-11-01",
   "classification": "private_research",
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 57,
-    "canonicalDistinctVenues": 52,
+    "restaurantEntriesReviewed": 58,
+    "canonicalDistinctVenues": 53,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 57,
+    "restaurantEntriesTracked": 58,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -81,7 +81,7 @@
   },
   "countsByTier": {
     "archived_pending_recognition": 20,
-    "formal_michelin_jbf_recognition": 23,
+    "formal_michelin_jbf_recognition": 24,
     "personal_featured_exception": 9,
     "official_program_or_editorial_connection": 5
   },
@@ -1877,6 +1877,42 @@
       "reviewResult": "User confirmed a visit, date unknown. Romain Monnoyeur-Millard is a 2024 James Beard Best Chef Midwest semifinalist at the venue; not a winner or a restaurant award.",
       "reviewedOn": "2026-10-31",
       "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-tonchin-midtown-new-york",
+      "restaurantName": "Tonchin New York",
+      "city": "New York",
+      "region": "New York",
+      "venueScope": "13 W 36th Street Midtown Manhattan; not other Tonchin locations",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-tonchin-new-york-2026-11-01"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin?millesime=2025",
+        "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand"
+      ],
+      "historicalGuide": "bib_gourmand_2025_edition_verified; photographed 2019-2025 plaques do not imply same distinction each year",
+      "formalRecognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "category": "Bib Gourmand",
+          "result": "listed",
+          "recipient": "Tonchin — Midtown New York",
+          "sourceUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin?millesime=2025"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "User confirmed Nov 1, 2026 visit with contemporaneous in-restaurant photo of MICHELIN 2019–2025 plaques and instruction 'Add Tonchin', corroborated by booked 9 PM Resy confirmation; Bib Gourmand supported by official MICHELIN directory, no star claimed. Photo original only in ChatGPT conversation. Public story pending approval.",
+      "reviewedOn": "2026-11-01",
+      "recognitionReviewStatus": "reviewed",
+      "watchlistId": null
     }
   ],
   "futureAudit": {
