@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 55,
-    "distinctPublishedVenues": 52,
-    "recognized": 24,
+    "canonExperienceRecords": 56,
+    "distinctPublishedVenues": 53,
+    "recognized": 25,
     "featuredPersonal": 16,
     "officiallyFeatured": 6,
     "unfeaturedOther": 7,
@@ -1175,6 +1175,30 @@
       "visitConfidence": "direct_user_confirmation_and_date_matched_resy_screenshot",
       "publicationStatus": "pending_explicit_story_review",
       "editorialNote": "Included in confirmed visited Culture Passport at user's explicit direction; separate curated personal/editorial tier, no invented formal award."
+    },
+    {
+      "venueId": "venue-tonchin-midtown-new-york",
+      "name": "Tonchin New York",
+      "city": "New York",
+      "region": "New York",
+      "experienceIds": [
+        "dining-tonchin-new-york-2026-11-01"
+      ],
+      "rememberedPeriods": [
+        "Confirmed November 1, 2026 visit; photograph of 2019–2025 MICHELIN plaques and prior Resy booking"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin?millesime=2025",
+        "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand",
+        "https://www.tonchinus.com/locations"
+      ],
+      "recognitionSummary": [
+        "MICHELIN Guide Bib Gourmand for Tonchin at 13 W 36th Street (not Michelin star); photographed plaques labeled 2019–2025 are supporting historical evidence without proving exact distinction every year."
+      ],
+      "editorialNote": "User sent firsthand onsite photo and explicitly instructed to add Tonchin November 1, 2026. Dinner details and actual party size unknown. Image bytes attached in conversation, not yet uploaded to GitHub; private publication gate retained.",
+      "visitConfidence": "user_direct_same_day_photo_and_booked_reservation",
+      "publicationStatus": "private_pending_story_review"
     }
   ],
   "confirmedArchiveOnly": [
