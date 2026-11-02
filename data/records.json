@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "categories": [
     {
       "id": "dining",
@@ -1354,6 +1354,18 @@
       "location": null,
       "sourceId": "westport-cafe-bar-kansas-city",
       "venueScope": "Westport Café & Bar at 419 Westport Road, not another bistro or successor address"
+    },
+    {
+      "id": "venue-the-campbell-grand-central-new-york",
+      "name": "The Campbell",
+      "city": "New York",
+      "region": "New York",
+      "country": "USA",
+      "neighborhood": "Midtown East / Grand Central",
+      "address": "15 Vanderbilt Avenue, New York, NY 10017",
+      "location": null,
+      "sourceId": "the-campbell-grand-central-new-york",
+      "locationAttribution": "Exact venue from official business site and user-provided Resy confirmation, no exact coordinate inferred."
     }
   ],
   "records": [
@@ -7848,6 +7860,121 @@
           {
             "label": "On the Grid — earlier Westport Café interior photographs",
             "url": "https://onthegrid.city/kansas-city/westport/westport-cafe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bar-the-campbell-grand-central-new-york",
+      "type": "bar",
+      "title": "The Campbell",
+      "venueId": "venue-the-campbell-grand-central-new-york",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": "2026-11-01",
+        "year": 2026,
+        "possibleYears": [
+          2026
+        ],
+        "precision": "day",
+        "label": "November 1, 2026 · cocktail bar visit",
+        "source": "User confirmed on November 1, 2026: 'add the Campbell to the went list', immediately following the confirmed same-day 7:30 PM Resy booking. User then explicitly clarified 'It’s proof!!! Stop being so restrictive.' The dated reservation and personal confirmation together establish the visit; 7:30 PM is booking time, not an established arrival time.",
+        "evidenceType": "direct_user_confirmation_and_dated_reservation_screenshot",
+        "attendanceCertainty": "user_confirmed_visit_date_reservation_correlated",
+        "experienceType": "cocktail_bar_visit",
+        "linkedReservationId": "the-campbell-new-york-2026-11-01",
+        "arrivalTime": null,
+        "drinksOrdered": null,
+        "companions": null
+      },
+      "summary": "Confirmed November 1, 2026 visit to the historic Grand Central cocktail bar, The Campbell, at 15 Vanderbilt Avenue in Manhattan. The dated Resy confirmation and explicit user visit testimony are combined attendance evidence. Recognized in select editorial bar/design lists by Time Out, Tasting Table and Eater New York; these are editorial honors, not formal Michelin/James Beard or Spirited Awards wins.",
+      "memory": {
+        "headline": "An evening at The Campbell",
+        "teaser": "A confirmed visit to the historic Grand Central cocktail bar, recognized by New York food-and-drink editors.",
+        "story": "I went to The Campbell near Grand Central Terminal on November 1, 2026. The visit is documented both by my booking and my own confirmation. I have not yet recorded the cocktails, companions or other memories from the evening.",
+        "period": "November 1, 2026",
+        "source": "Direct user confirmation November 1, 2026 and screenshot of Resy confirmation; historical/editorial recognition separately sourced."
+      },
+      "recognitions": [],
+      "editorialRecognitions": [
+        {
+          "organization": "Tasting Table",
+          "year": 2023,
+          "type": "editorial_selection",
+          "category": "20 Best Cocktail Bars in New York City",
+          "result": "included",
+          "sourceUrl": "https://www.tastingtable.com/1202094/best-cocktail-bars-in-new-york-city/"
+        },
+        {
+          "organization": "Time Out New York",
+          "year": 2025,
+          "type": "editorial_selection",
+          "category": "15 Best Bars in Midtown",
+          "result": "#2",
+          "sourceUrl": "https://www.timeout.com/newyork/bars/best-midtown-bars"
+        },
+        {
+          "organization": "Eater New York",
+          "year": 2017,
+          "type": "editorial_design_selection",
+          "category": "The Most Beautiful New NYC Restaurants of 2017",
+          "result": "included for design after reopening",
+          "sourceUrl": "https://ny.eater.com/2017/12/29/16830236/best-design-nyc-restaurants-2017"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "sourceUrl": null,
+        "note": "Editorial bar rankings and design features are not Michelin Guide listings or formal hospitality award wins."
+      },
+      "sourceUrl": "https://www.thecampbellnyc.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": true,
+        "collection": "editorially_recognized_bar",
+        "basis": "explicit_user_inclusion_and_verified_editorial_recognition",
+        "note": "User explicitly requested this confirmed visit in the 'went' list and said to stop overly restrictive exclusions. Included as editorially recognized personal selection, not represented as a Michelin, James Beard or Spirited Awards winner. Explicit story-review approval still required."
+      },
+      "curation": {
+        "status": "eligible_personal_editorial_selection",
+        "basis": "user_selected_visited_bar_and_independent_editorial_recognitions",
+        "reason": "A confirmed visit with date established by user testimony and corroborating Resy booking; named exact venue appears on Time Out and Tasting Table cocktail selections and Eater design list. Curate separately from formal award-qualified stats.",
+        "evidenceUrls": [
+          "https://www.timeout.com/newyork/bars/best-midtown-bars",
+          "https://www.tastingtable.com/1202094/best-cocktail-bars-in-new-york-city/",
+          "https://ny.eater.com/2017/12/29/16830236/best-design-nyc-restaurants-2017"
+        ],
+        "reviewedOn": "2026-11-01",
+        "confidence": "user_confirmation_plus_dated_resy_screenshot_and_editorial_primary_sources",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "A cocktail stop at Grand Central",
+        "paragraphs": [
+          "I visited The Campbell on November 1, 2026. The reservation screenshot and my own confirmation establish the date; I have not yet specified what I ordered, who was with me, or the precise time we arrived.",
+          "The bar occupies a historic Grand Central space, known for its richly decorated interior. Its current operation followed a 2017 reopening.",
+          "Time Out's 2025 Midtown bar guide ranked The Campbell second, Tasting Table included it in a 2023 citywide cocktail selection, and Eater recognized its design after the 2017 reopening. These are editorial honors rather than formal industry-award wins."
+        ],
+        "sourceUrls": [
+          {
+            "label": "The Campbell — official venue",
+            "url": "https://www.thecampbellnyc.com/"
+          },
+          {
+            "label": "Time Out — 2025 Midtown bars",
+            "url": "https://www.timeout.com/newyork/bars/best-midtown-bars"
+          },
+          {
+            "label": "Tasting Table — NYC cocktail bars",
+            "url": "https://www.tastingtable.com/1202094/best-cocktail-bars-in-new-york-city/"
+          },
+          {
+            "label": "Eater — NYC design recognition",
+            "url": "https://ny.eater.com/2017/12/29/16830236/best-design-nyc-restaurants-2017"
           }
         ]
       }
