@@ -8807,6 +8807,39 @@
         "screenedOn": "2026-11-01",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-new-york-city-tonchin-midtown",
+      "area": "New York City",
+      "name": "Tonchin New York",
+      "venueType": "restaurant",
+      "recognition": "Michelin Guide Bib Gourmand — exact Midtown Manhattan Tonchin restaurant; user photo shows MICHELIN plaques labeled 2019–2025",
+      "recognitionYear": 2025,
+      "awardFamily": "michelin",
+      "interviewCue": "Japanese ramen at 13 W 36th Street, Midtown Manhattan, photographed plaques 2019–2025 above Tonchin nameplate.",
+      "sourceUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "dining-tonchin-new-york-2026-11-01",
+      "visitPeriod": "November 1, 2026 evening",
+      "researchStatus": "confirmed_visit_user_provided_photo_plus_resy",
+      "priority": "high",
+      "addedOn": "2026-11-01",
+      "reviewedOn": "2026-11-01",
+      "reviewSource": "User uploaded an in-restaurant photograph of the MICHELIN plaques and Tonchin nameplate on November 1, 2026, instructing 'Add Tonchin'; same-day prior Resy screenshot confirms booking at 9 PM for 4, not actual arrival or actual diners.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "michelin_bib_gourmand_exact_location",
+        "evidenceUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand",
+        "sourceTier": "official_michelin",
+        "verifiedAt": "2026-11-01",
+        "note": "Tonchin is in official NYC Bib Gourmand list, not Michelin-starred; photo of plaques does not establish that each year's distinction was Bib."
+      },
+      "eligibility": {
+        "status": "confirmed_award_eligible_visit",
+        "basis": "michelin_bib_gourmand_exact_midtown_location",
+        "screenedOn": "2026-11-01",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
