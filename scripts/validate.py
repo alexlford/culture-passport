@@ -116,8 +116,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
-    "801 Chophouse"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["John Brown\'s Underground"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -210,7 +209,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["801 Chophouse"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["John Brown\'s Underground"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Stock Hill: actual AAA Four Diamond recognition, not a Michelin/JBF award or a visit.
