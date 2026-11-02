@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -8774,6 +8774,39 @@
         }
       ],
       "photographicEvidenceReviewOn": "2026-10-31"
+    },
+    {
+      "id": "candidate-new-york-city-the-campbell",
+      "area": "New York City",
+      "name": "The Campbell",
+      "venueType": "cocktail_bar",
+      "recognition": "Time Out 2025 #2 Midtown bars; Tasting Table 2023 best NYC cocktail bars; Eater New York 2017 design feature. Editorial selections, not formal awards.",
+      "recognitionYear": 2025,
+      "awardFamily": "independent_editorial",
+      "interviewCue": "Historic cocktail lounge at 15 Vanderbilt Avenue inside Grand Central Terminal; user's Nov 1, 2026 Resy confirmation at 7:30 PM for three and explicit attendance confirmation.",
+      "sourceUrl": "https://www.thecampbellnyc.com/",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "bar-the-campbell-grand-central-new-york",
+      "visitPeriod": "2026-11-01; exact arrival time and cocktails unknown",
+      "researchStatus": "confirmed_direct_user_visit_with_same_day_booking_evidence",
+      "priority": "high",
+      "addedOn": "2026-11-01",
+      "reviewedOn": "2026-11-01",
+      "reviewSource": "User: 'add the Campbell to the went list' then 'It’s proof!!! Stop being so restrictive.' Dated Resy screenshot previously shared.",
+      "screening": {
+        "status": "editorially_recognized",
+        "basis": "selective_food_and_drink_editorial_lists",
+        "evidenceUrl": "https://www.timeout.com/newyork/bars/best-midtown-bars",
+        "sourceTier": "original_publisher",
+        "verifiedAt": "2026-10-29",
+        "note": "Editorial recognition is not MICHELIN/JBF or other formal industry award."
+      },
+      "eligibility": {
+        "status": "confirmed_selected_visited_bar",
+        "basis": "user_selected_editorial_recognition",
+        "screenedOn": "2026-11-01",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
