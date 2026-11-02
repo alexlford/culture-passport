@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -2649,7 +2649,7 @@
       ],
       "photographicEvidenceReviewOn": "2026-10-31",
       "memoryPhotoCues": "Dark wood and classic white tablecloths; long dark-red mahogany liquor bar, green barstools, Stock Yards mural behind banquet tables. Photos belong to the Power & Light District Missouri branch, distinct from 801 Chophouse Leawood.",
-      "confirmedVisitId": "dining-801-chophouse-downtown-kansas-city",
+      "confirmedVisitId": "dining-801-chophouse-kansas-city-date-unknown",
       "visitDate": null,
       "visitPrecision": "unknown",
       "reviewedOn": "2026-10-31",
@@ -8774,6 +8774,39 @@
         }
       ],
       "photographicEvidenceReviewOn": "2026-10-31"
+    },
+    {
+      "id": "candidate-new-york-city-the-campbell",
+      "area": "New York City",
+      "name": "The Campbell",
+      "venueType": "cocktail_bar",
+      "recognition": "Time Out 2025 #2 Midtown bars; Tasting Table 2023 best NYC cocktail bars; Eater New York 2017 design feature. Editorial selections, not formal awards.",
+      "recognitionYear": 2025,
+      "awardFamily": "independent_editorial",
+      "interviewCue": "Historic cocktail lounge at 15 Vanderbilt Avenue inside Grand Central Terminal; user's Nov 1, 2026 Resy confirmation at 7:30 PM for three and explicit attendance confirmation.",
+      "sourceUrl": "https://www.thecampbellnyc.com/",
+      "visitStatus": "confirmed",
+      "confirmedVisitId": "bar-the-campbell-grand-central-new-york",
+      "visitPeriod": "2026-11-01; exact arrival time and cocktails unknown",
+      "researchStatus": "confirmed_direct_user_visit_with_same_day_booking_evidence",
+      "priority": "high",
+      "addedOn": "2026-11-01",
+      "reviewedOn": "2026-11-01",
+      "reviewSource": "User: 'add the Campbell to the went list' then 'It’s proof!!! Stop being so restrictive.' Dated Resy screenshot previously shared.",
+      "screening": {
+        "status": "editorially_recognized",
+        "basis": "selective_food_and_drink_editorial_lists",
+        "evidenceUrl": "https://www.timeout.com/newyork/bars/best-midtown-bars",
+        "sourceTier": "original_publisher",
+        "verifiedAt": "2026-10-29",
+        "note": "Editorial recognition is not MICHELIN/JBF or other formal industry award."
+      },
+      "eligibility": {
+        "status": "confirmed_selected_visited_bar",
+        "basis": "user_selected_editorial_recognition",
+        "screenedOn": "2026-11-01",
+        "verifiedForPublication": false
+      }
     }
   ],
   "source": {
@@ -9876,13 +9909,13 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "restaurants",
+      "category": "cocktail_bars",
       "candidateNames": [
-        "Of Course Kitchen & Company"
+        "John Brown's Underground"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Of Course Kitchen & Company, 7753 W 159th Street, Overland Park, KS? Opened 2023, chef Swetha Newcomb 2026 JBF Best Chef: Midwest semifinalist.",
-      "continuation": "Four-button one-venue-at-a-time historical review, no inferred past visits, preserve chef award attribution. After Kansas City, move to Baltimore, Hilo and Maui."
+      "question": "Have you visited John Brown's Underground in Lawrence, Kansas? (Visit status not yet confirmed.)",
+      "continuation": "Continue Kansas City-region historical interview with photographs and four response options. Preserve exact venue and existing answer states; do not infer past attendance."
     },
     "pausedBatches": [
       {

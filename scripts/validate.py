@@ -116,8 +116,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == [
-    "801 Chophouse"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["John Brown\'s Underground"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -210,7 +209,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["801 Chophouse"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["John Brown\'s Underground"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Stock Hill: actual AAA Four Diamond recognition, not a Michelin/JBF award or a visit.
@@ -239,7 +238,7 @@ assert not any(r["title"] == "Farina" for r in records)
 
 # 801 Chophouse is the original KC Missouri downtown branch, not Leawood.
 chophouse = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-801-chophouse")
-assert chophouse["visitStatus"] == "unreviewed"
+assert chophouse["visitStatus"] == "confirmed" and chophouse["confirmedVisitId"] == "dining-801-chophouse-kansas-city-date-unknown"
 assert "71 E 14th Street" in chophouse["addressHint"]
 assert "Leawood" in chophouse["addressHint"]
 assert chophouse["screening"]["status"] == "distinct_hospitality_award_verified"
@@ -250,7 +249,7 @@ assert "not a James Beard/Michelin culinary award" in chophouse["recognition"]
 assert len(chophouse["photographicEvidence"]) == 2
 assert all(p["sourceUrl"].startswith("https://") and p["renderMode"] == "source_link_only"
            and p["imageRights"] == "unverified" for p in chophouse["photographicEvidence"])
-assert not any(r["title"] == "801 Chophouse" for r in records)
+assert any(r["id"] == chophouse["confirmedVisitId"] and r["status"] == "confirmed" for r in records)
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
@@ -448,7 +447,7 @@ kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c[
 assert len(kc_reviewed) == 9
 # The October 25 batch was only a tentative recollection. Preserve the seven
 # other venues' tentative status, while honoring the user's later direct correction.
-assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == "tentative_negative"
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] == "The Antler Room" else "tentative_negative")
            for c in kc_reviewed if c["name"] != "Bluestem")
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
 assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
@@ -521,20 +520,20 @@ booked_campbell = next(e for e in reservations if e["id"] == "the-campbell-new-y
 assert booked_campbell["name"] == "The Campbell"
 assert booked_campbell["reservationDate"] == "2026-11-01" and booked_campbell["reservationTime"] == "19:30"
 assert booked_campbell["timezone"] == "America/New_York" and booked_campbell["partySize"] == 3
-assert booked_campbell["platform"] == "Resy" and booked_campbell["reservationStatus"] == "booked_upcoming"
-assert booked_campbell["attendanceInference"] == "not_proven_by_reservation"
+assert booked_campbell["platform"] == "Resy" and booked_campbell["reservationStatus"] == "visited_confirmed"
+assert booked_campbell["attendanceInference"] == "user_confirmed_attendance"
 assert booked_campbell["publicCuration"] == "research_only"
 assert booked_campbell["recognition"]["status"] == "not_verified_as_qualifying"
 assert booked_campbell["recognition"]["formalAwards"]["verified"] is False
-assert booked_campbell["recognition"]["classification"]["currentPolicy"] == "not_formally_qualified"
-assert booked_campbell["recognition"]["classification"]["publicationStatus"] == "private_research_only"
+assert booked_campbell["recognition"]["classification"]["currentPolicy"] == "editorially_recognized_personal_selection"
+assert booked_campbell["recognition"]["classification"]["publicationStatus"] == "pending_story_review"
 assert booked_campbell["recognition"]["classification"]["possibleExpandedTier"] == "editorially_recognized_bar"
 assert len(booked_campbell["recognition"]["editorialSelections"]) == 3
 assert {(item["publisher"], item["publicationDate"]) for item in booked_campbell["recognition"]["editorialSelections"]} == {("Tasting Table", "2023-02-16"), ("Time Out New York", "2025-03-10"), ("Eater New York", "2017-12-29")}
 assert all(item["sourceUrl"].startswith("https://") and item["type"].endswith("not_award") for item in booked_campbell["recognition"]["editorialSelections"])
 assert booked_campbell["recognition"]["historicalUnverified"][0]["confidence"] == "secondary_reproduction_only_original_list_not_located"
 assert booked_campbell["childrenPolicy"]["sourceUrl"].startswith("https://www.thecampbellnyc.com/")
-assert not any(r["title"] == "The Campbell" for r in records)
+assert any(r["title"] == "The Campbell" and r["status"] == "confirmed" for r in records)
 assert sum(1 for e in reservations if e["reservationStatus"] == "completed") >= 1
 booked_tonchin = next(e for e in reservations if e["id"] == "tonchin-new-york-2026-11-01")
 assert booked_tonchin["name"] == "Tonchin New York"
@@ -597,8 +596,8 @@ evidence = json.loads((ROOT / "data/reservation-evidence.json").read_text(encodi
 assert len(evidence["entries"]) == 22 and len(evidence["rows"]) == 54 and len({r["name"] for r in evidence["rows"]}) == 48
 future_campbell = next(r for r in evidence["rows"] if r["name"] == "The Campbell" and r["date"] == "2026-11-01")
 assert future_campbell["time"] == "19:30" and future_campbell["partySize"] == 3
-assert future_campbell["platform"] == "Resy" and future_campbell["status"] == "upcoming_reservation"
-assert future_campbell["attendanceInference"] == "not_proven_by_reservation"
+assert future_campbell["platform"] == "Resy" and future_campbell["status"] == "visited_confirmed"
+assert future_campbell["attendanceInference"] == "user_confirmed_attendance"
 future_tonchin = next(r for r in evidence["rows"] if r["name"] == "Tonchin New York")
 assert future_tonchin["date"] == "2026-11-01" and future_tonchin["time"] == "21:00"
 assert future_tonchin["status"] == "upcoming_reservation"
@@ -925,6 +924,9 @@ for venue in venues:
             "venue-port-fonda-westport-kansas-city": "Kansas City",
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
             "venue-la-marchande-new-york": "New York",
+            "venue-the-campbell-grand-central-new-york": "New York",
+            "venue-801-chophouse-kansas-city-power-light": "Kansas City",
+            "venue-westport-cafe-bar-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
@@ -1190,3 +1192,24 @@ assert set(jrieger["relatedExperienceIds"]) == {
 }
 
 assert next(c for c in candidates if c["id"] == "candidate-kc-lifted-spirits-distillery")["visitStatus"] == "maybe"
+
+# The Campbell is an attended November 1 bar visit, corroborated by the dated
+# Resy booking and direct user confirmation. Editorial selections do not become awards.
+campbell_record = next(r for r in records if r["id"] == "bar-the-campbell-grand-central-new-york")
+assert campbell_record["type"] == "bar" and campbell_record["status"] == "confirmed"
+assert campbell_record["visit"]["date"] == "2026-11-01"
+assert campbell_record["visit"]["evidenceType"] == "direct_user_confirmation_and_dated_reservation_screenshot"
+assert campbell_record["visit"]["linkedReservationId"] == "the-campbell-new-york-2026-11-01"
+assert campbell_record["editorial"]["featuredException"] is True
+assert campbell_record["editorial"]["awardQualified"] is False
+assert campbell_record["editorial"]["collection"] == "editorially_recognized_bar"
+assert campbell_record["recognitions"] == [] and len(campbell_record["editorialRecognitions"]) == 3
+assert booked_campbell["confirmedVisitId"] == campbell_record["id"]
+assert booked_campbell["confirmedVisitDate"] == "2026-11-01"
+assert future_campbell["confirmedVisitId"] == campbell_record["id"]
+assert next(c for c in candidates if c["name"] == "The Campbell")["confirmedVisitId"] == campbell_record["id"]
+assert any(v["venueId"] == campbell_record["venueId"] for v in aud["publishedVenues"])
+from build_public_preview import visitor_dataset as campbell_visitor_dataset
+assert any(r["id"] == campbell_record["id"] for r in campbell_visitor_dataset()["records"])
+assert any(item["id"] == campbell_record["id"] and item["status"] == "pending"
+           for item in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
