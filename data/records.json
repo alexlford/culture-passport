@@ -1329,7 +1329,9 @@
       "region": "Missouri",
       "country": "United States",
       "address": "71 E 14th Street, Kansas City, MO",
-      "category": "restaurant"
+      "category": "restaurant",
+      "location": null,
+      "locationAttribution": "Exact coordinates not independently verified; deliberately unmapped until verified."
     },
     {
       "id": "venue-801-chophouse-kansas-city-power-light",
