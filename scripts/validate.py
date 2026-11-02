@@ -539,11 +539,11 @@ booked_tonchin = next(e for e in reservations if e["id"] == "tonchin-new-york-20
 assert booked_tonchin["name"] == "Tonchin New York"
 assert booked_tonchin["reservationDate"] == "2026-11-01" and booked_tonchin["reservationTime"] == "21:00"
 assert booked_tonchin["partySize"] == 4 and booked_tonchin["seating"] == "Dining Room"
-assert booked_tonchin["reservationStatus"] == "booked_upcoming"
-assert booked_tonchin["attendanceInference"] == "not_proven_by_reservation"
-assert booked_tonchin["publicCuration"] == "research_only"
+assert booked_tonchin["reservationStatus"] == "visited_confirmed"
+assert booked_tonchin["attendanceInference"] == "confirmed_on_site_photo_and_user_instruction"
+assert booked_tonchin["publicCuration"] == "pending_explicit_story_review"
 assert booked_tonchin["recognition"]["distinction"] == "Bib Gourmand"
-assert not any(r["title"] == "Tonchin New York" for r in records)  # Future booking is not a completed experience
+assert any(r["title"] == "Tonchin New York" and r["status"] == "confirmed" for r in records)
 assert all(e["reservationDate"] and e["partySize"] >= 1 and e["source"] == "user_provided_reservation_screenshot" for e in reservations)
 assert not any(e["name"] == "Le Fou Frog" for e in reservations)
 assert sum(1 for e in reservations if e["name"] == "Ritual Social House") == 2
@@ -600,8 +600,8 @@ assert future_campbell["platform"] == "Resy" and future_campbell["status"] == "v
 assert future_campbell["attendanceInference"] == "user_confirmed_attendance"
 future_tonchin = next(r for r in evidence["rows"] if r["name"] == "Tonchin New York")
 assert future_tonchin["date"] == "2026-11-01" and future_tonchin["time"] == "21:00"
-assert future_tonchin["status"] == "upcoming_reservation"
-assert future_tonchin["attendanceInference"] == "not_proven_by_reservation"
+assert future_tonchin["status"] == "visited_confirmed"
+assert future_tonchin["attendanceInference"] == "confirmed_on_site_photo_and_user_instruction"
 assert not any(r["name"] == "Le Fou Frog" for r in evidence["rows"])
 assert not any(r["title"] == "Le Fou Frog" for r in records)
 republique = next(r for r in records if r["title"] == "République")
@@ -925,6 +925,7 @@ for venue in venues:
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
             "venue-la-marchande-new-york": "New York",
             "venue-the-campbell-grand-central-new-york": "New York",
+            "venue-tonchin-midtown-new-york": "New York",
             "venue-801-chophouse-kansas-city-power-light": "Kansas City",
             "venue-westport-cafe-bar-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
@@ -1212,4 +1213,33 @@ assert any(v["venueId"] == campbell_record["venueId"] for v in aud["publishedVen
 from build_public_preview import visitor_dataset as campbell_visitor_dataset
 assert any(r["id"] == campbell_record["id"] for r in campbell_visitor_dataset()["records"])
 assert any(item["id"] == campbell_record["id"] and item["status"] == "pending"
+           for item in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+
+# Tonchin: user-submitted same-day restaurant photo plus original booked
+# reservation and instruction to add it establish the visited date.
+tonchin_record = next(r for r in records if r["id"] == "dining-tonchin-new-york-2026-11-01")
+assert tonchin_record["type"] == "dining" and tonchin_record["status"] == "confirmed"
+assert tonchin_record["visit"]["date"] == "2026-11-01" and tonchin_record["visit"]["precision"] == "day"
+assert tonchin_record["visit"]["linkedReservationId"] == "tonchin-new-york-2026-11-01"
+assert tonchin_record["visit"]["evidenceType"] == "direct_user_same_day_photo_and_confirmed_reservation"
+assert tonchin_record["visit"]["photoEvidence"]["sourceFilename"] == "IMG_3661.jpeg"
+assert tonchin_record["visit"]["photoEvidence"]["imageBytesArchivedInGitHub"] is False
+assert tonchin_record["visit"]["arrivalTime"] is None
+assert tonchin_record["visit"]["actualPartySize"] is None
+assert tonchin_record["editorial"]["awardQualified"] is True
+assert tonchin_record["editorial"]["featuredException"] is False
+assert tonchin_record["guide"]["distinction"] == "bib" and tonchin_record["guide"]["stars"] == 0
+assert tonchin_record["guide"]["verifiedEditions"] == [2025]
+assert tonchin_record["recognitions"][0]["organization"] == "MICHELIN Guide"
+assert tonchin_record["recognitions"][0]["result"] == "Bib Gourmand"
+assert booked_tonchin["confirmedVisitId"] == tonchin_record["id"]
+assert booked_tonchin["confirmedVisitDate"] == "2026-11-01"
+assert booked_tonchin["photoEvidence"]["sourceFilename"] == "IMG_3661.jpeg"
+assert future_tonchin["confirmedVisitId"] == tonchin_record["id"]
+assert next(x for x in candidates if x["id"] == "candidate-new-york-city-tonchin-midtown")["confirmedVisitId"] == tonchin_record["id"]
+assert any(v["venueId"] == tonchin_record["venueId"] and v["recognitionStatus"] == "qualifies" for v in aud["publishedVenues"])
+assert any(v["venueId"] == tonchin_record["venueId"] and v["formalAwardOrGuideQualified"] and v["collectionTier"] == "formal_michelin_jbf_recognition" for v in expanded_rows)
+from build_public_preview import visitor_dataset as tonchin_visitor_dataset
+assert any(r["id"] == tonchin_record["id"] for r in tonchin_visitor_dataset()["records"])
+assert any(item["id"] == tonchin_record["id"] and item["status"] == "pending" and item["approvedDigest"] is None
            for item in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
