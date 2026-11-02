@@ -925,6 +925,8 @@ for venue in venues:
             "venue-drastic-measures-shawnee-kansas": "Shawnee",
             "venue-la-marchande-new-york": "New York",
             "venue-the-campbell-grand-central-new-york": "New York",
+            "venue-801-chophouse-kansas-city-power-light": "Kansas City",
+            "venue-westport-cafe-bar-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
