@@ -9909,13 +9909,13 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "restaurants",
+      "category": "cocktail_bars",
       "candidateNames": [
-        "Of Course Kitchen & Company"
+        "John Brown's Underground"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Of Course Kitchen & Company, 7753 W 159th Street, Overland Park, KS? Opened 2023, chef Swetha Newcomb 2026 JBF Best Chef: Midwest semifinalist.",
-      "continuation": "Four-button one-venue-at-a-time historical review, no inferred past visits, preserve chef award attribution. After Kansas City, move to Baltimore, Hilo and Maui."
+      "question": "Have you visited John Brown's Underground in Lawrence, Kansas? (Visit status not yet confirmed.)",
+      "continuation": "Continue Kansas City-region historical interview with photographs and four response options. Preserve exact venue and existing answer states; do not infer past attendance."
     },
     "pausedBatches": [
       {
