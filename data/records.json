@@ -1357,6 +1357,19 @@
       "location": null,
       "sourceId": "the-campbell-grand-central-new-york",
       "locationAttribution": "Exact venue from official business site and user-provided Resy confirmation, no exact coordinate inferred."
+    },
+    {
+      "id": "venue-tonchin-midtown-new-york",
+      "name": "Tonchin New York",
+      "city": "New York",
+      "region": "New York",
+      "country": "USA",
+      "neighborhood": "Midtown Manhattan",
+      "address": "13 W 36th Street, New York, NY 10018",
+      "location": null,
+      "sourceId": "tonchin-new-york-midtown",
+      "venueScope": "Midtown Manhattan at 13 West 36th Street, not Tonchin Brooklyn or Los Angeles",
+      "locationAttribution": "Official Tonchin Midtown address; no street coordinates fabricated."
     }
   ],
   "records": [
@@ -7936,6 +7949,115 @@
           {
             "label": "Eater — NYC design recognition",
             "url": "https://ny.eater.com/2017/12/29/16830236/best-design-nyc-restaurants-2017"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-tonchin-new-york-2026-11-01",
+      "type": "dining",
+      "title": "Tonchin New York",
+      "venueId": "venue-tonchin-midtown-new-york",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": "2026-11-01",
+        "year": 2026,
+        "possibleYears": [
+          2026
+        ],
+        "precision": "day",
+        "label": "November 1, 2026 · Tonchin Midtown visit",
+        "source": "On November 1, 2026, user posted a photograph inside Tonchin showing the restaurant nameplate and dated MICHELIN plaques and directly instructed 'Add Tonchin'. This, together with the existing same-day Resy confirmation, establishes an attended visit. The 9:00 PM time and four guests are reservation details, not necessarily actual arrival time or attendance headcount.",
+        "evidenceType": "direct_user_same_day_photo_and_confirmed_reservation",
+        "attendanceCertainty": "confirmed_on_site_photo_and_user_instruction",
+        "linkedReservationId": "tonchin-new-york-2026-11-01",
+        "bookingTime": "21:00",
+        "arrivalTime": null,
+        "actualPartySize": null,
+        "orders": null,
+        "photoEvidence": {
+          "sourceType": "user_uploaded_in_chat",
+          "sourceFilename": "IMG_3661.jpeg",
+          "captureDateInferredFromConversation": "2026-11-01",
+          "imageContent": "Tonchin nameplate on wood counter directly below MICHELIN plaques marked 2019, 2020, 2021, 2022, 2023, 2024, 2025.",
+          "imageBytesArchivedInGitHub": false,
+          "sourceAssetNote": "The original user-supplied photograph is attached to the ChatGPT conversation, not copied into the GitHub repository. A path or filename is not a published photo URL."
+        }
+      },
+      "summary": "Confirmed November 1, 2026 visit to Tonchin's Midtown Manhattan ramen restaurant at 13 W 36th Street. Firsthand photo shows the Tonchin nameplate and MICHELIN plaques for 2019–2025; the MICHELIN Guide identifies Tonchin as a Bib Gourmand restaurant. The dated 9 PM Resy reservation corroborates the visit but does not establish exact arrival time, meals ordered, or diners.",
+      "memory": {
+        "headline": "Tonchin's Michelin-recognized ramen in Midtown",
+        "teaser": "A November evening at Tonchin, with a firsthand photograph of its Michelin Guide plaques from 2019 through 2025.",
+        "story": "I went to Tonchin in Midtown Manhattan on November 1, 2026. I photographed the restaurant's row of Michelin plaques marked 2019 through 2025, just above a small Tonchin nameplate. My reservation was for 9:00 PM. I have not yet recorded which ramen, sides or drinks I ordered, or who was with me.",
+        "period": "November 1, 2026",
+        "source": "Direct user photo and 'Add Tonchin' request on November 1, 2026, alongside prior same-day Resy reservation screenshot."
+      },
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "result": "Bib Gourmand",
+          "category": "Bib Gourmand",
+          "recipient": "Tonchin New York — Midtown Manhattan",
+          "relationship": "Exact restaurant at 13 W 36th Street, not a Michelin star",
+          "sourceUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin?millesime=2025",
+          "timingRelativeToVisit": "before_visit",
+          "editionAttribution": "2025 Michelin Guide listing; current official New York Bib Gourmand directory independently includes Tonchin."
+        }
+      ],
+      "guide": {
+        "distinction": "bib",
+        "stars": 0,
+        "historicalVisitDistinction": "Bib Gourmand; exact 2026 guide-edition continuity not inferred solely from plaques",
+        "verifiedEditions": [
+          2025
+        ],
+        "sourceUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin",
+        "bibDirectoryUrl": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand",
+        "note": "MICHELIN Bib Gourmand, not one-star dining. User photo separately shows physical MICHELIN plaques labeled 2019–2025; the plaques alone do not prove Bib Gourmand status in every year."
+      },
+      "sourceUrl": "https://www.tonchinus.com/locations",
+      "editorial": {
+        "awardQualified": true,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "michelin_bib_gourmand_exact_midtown_venue",
+        "note": "Official MICHELIN Guide Bib Gourmand listing, firsthand same-day user photo and user instruction establish visit; not a Michelin star. Private story pending manual approval."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "michelin_bib_gourmand",
+        "reason": "MICHELIN Guide's official New York Bib Gourmand directory lists Tonchin at its exact Manhattan venue, and a firsthand photo plus user instruction confirm an in-person outing on November 1, 2026.",
+        "evidenceUrls": [
+          "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand",
+          "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin?millesime=2025",
+          "https://www.tonchinus.com/locations"
+        ],
+        "reviewedOn": "2026-11-01",
+        "confidence": "direct_user_photo_and_reservation_plus_primary_michelin_guide",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "A row of Michelin plaques at Tonchin",
+        "paragraphs": [
+          "I visited Tonchin, the Midtown Manhattan ramen restaurant at 13 West 36th Street, on November 1, 2026. My photograph captures the Tonchin nameplate below MICHELIN plaques labeled from 2019 to 2025.",
+          "The Michelin Guide includes Tonchin in its New York Bib Gourmand directory, a recognition distinct from Michelin stars. The photographed plaques are a personal reminder of the restaurant's history with the Guide, not proof of an individual Michelin star or a year-by-year Bib Gourmand award.",
+          "The visit was linked to my 9 PM Resy reservation, but I haven't recorded the precise arrival time, what I ordered, or who joined me."
+        ],
+        "sourceUrls": [
+          {
+            "label": "MICHELIN Guide — Tonchin listing, 2025",
+            "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin?millesime=2025"
+          },
+          {
+            "label": "MICHELIN Guide — New York Bib Gourmand restaurants",
+            "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurants/bib-gourmand"
+          },
+          {
+            "label": "Tonchin — official locations",
+            "url": "https://www.tonchinus.com/locations"
           }
         ]
       }
