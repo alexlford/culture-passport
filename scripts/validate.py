@@ -238,7 +238,7 @@ assert not any(r["title"] == "Farina" for r in records)
 
 # 801 Chophouse is the original KC Missouri downtown branch, not Leawood.
 chophouse = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-801-chophouse")
-assert chophouse["visitStatus"] == "unreviewed"
+assert chophouse["visitStatus"] == "confirmed" and chophouse["confirmedVisitId"] == "dining-801-chophouse-downtown-kansas-city"
 assert "71 E 14th Street" in chophouse["addressHint"]
 assert "Leawood" in chophouse["addressHint"]
 assert chophouse["screening"]["status"] == "distinct_hospitality_award_verified"
@@ -249,7 +249,7 @@ assert "not a James Beard/Michelin culinary award" in chophouse["recognition"]
 assert len(chophouse["photographicEvidence"]) == 2
 assert all(p["sourceUrl"].startswith("https://") and p["renderMode"] == "source_link_only"
            and p["imageRights"] == "unverified" for p in chophouse["photographicEvidence"])
-assert not any(r["title"] == "801 Chophouse" for r in records)
+assert any(r["id"] == chophouse["confirmedVisitId"] and r["status"] == "confirmed" for r in records)
 
 # Recent Cambridge responses use the same locked-answer schema as older chapters.
 cambridge_confirmed = {
