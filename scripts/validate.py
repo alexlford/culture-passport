@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Room 39"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Bluestem"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Room 39"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Bluestem"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -626,7 +626,7 @@ assert "I'm not certain I visited" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
 if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
-    assert active_batch["candidateNames"] == ["Room 39"]
+    assert active_batch["candidateNames"] == ["Bluestem"]
     assert waldo["reviewCertainty"] == "explicit_nonattendance"
     assert waldo["visitStatus"] == "not_visited"
     assert waldo["operatingStatus"] == "permanently_closed"
