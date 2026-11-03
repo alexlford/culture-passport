@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-fox-pearl",
+    "aliasCandidateId": "candidate-kansas-city-metro-fox-and-pearl",
+    "venue": "Fox & Pearl",
+    "address": "2143 Summit Street, Kansas City, MO 64108",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-fox-pearl-2143-summit-kansas-city",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City-region interview: I have never visited Fox & Pearl at 2143 Summit Street, Kansas City, but want to go. Record explicit nonattendance, add the exact current location to my private future-visit wishlist, preserve Vaughn Good's 2020 James Beard semifinalist recognition, and continue with the next eligible venue, photos and four buttons."
+  },
+  "recognitionGuardrails": {
+    "organization": "James Beard Foundation",
+    "year": 2020,
+    "category": "Best Chef: Midwest",
+    "result": "semifinalist",
+    "recipient": "Vaughn Good at Fox and Pearl",
+    "venueScope": "Permanent 2143 Summit Street location",
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "notWinner": true
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-the-town-company",
+    "venue": "The Town Company",
+    "address": "1228 Baltimore Avenue, Kansas City, MO 64105",
+    "status": "awaiting_reconfirmation_of_prior_tentative_negative",
+    "operatingStatus": "operating",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2026,
+      "category": "Best Chef: Midwest / Outstanding Pastry Chef or Baker",
+      "recipients": [
+        "Johnny Leach",
+        "Helen Jo Leach"
+      ],
+      "result": "semifinalist",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+    },
+    "photoSourceUrls": [
+      "https://www.hyatt.com/unbound-collection/en-US/mcijd-hotel-kansas-city/dining",
+      "https://www.theinfatuation.com/kansas-city/reviews/the-town-company"
+    ],
+    "answerButtons": [
+      "Yes — I visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "Add it to the list — want to go"
+    ],
+    "venueIdentityNote": "Inside Hotel Kansas City; only restaurant attendance, not hotel or bar attendance, counts as dining."
+  },
+  "publication": {
+    "status": "private",
+    "approval": "pending",
+    "note": "No Fox & Pearl visit has been invented or approved for public publication."
+  }
+}

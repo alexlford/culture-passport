@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Places I'd like to go",
-  "updated": "2026-10-31",
+  "updated": "2026-11-03",
   "purpose": "Places Alex explicitly wants to visit, with future intent recorded separately from experience and award-watchlist ledgers.",
   "entries": [
     {
@@ -1533,6 +1533,41 @@
         ]
       },
       "notes": "Exact farmstead venue, explicit nonattendance and future interest. No visit, meal date, party, booking, or attendance during recognition years implied. Private future wishlist, separate from confirmed visit counts."
+    },
+    {
+      "id": "want-to-visit-fox-pearl-2143-summit-kansas-city",
+      "candidateId": "candidate-kansas-city-metro-fox-pearl",
+      "name": "Fox & Pearl — 2143 Summit Street",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-03",
+      "location": {
+        "address": "2143 Summit Street",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "postalCode": "64108",
+        "country": "USA"
+      },
+      "website": "https://www.foxandpearlkc.com/",
+      "userNote": "I have never visited Fox & Pearl at 2143 Summit Street, Kansas City, but want to go.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-03",
+        "quote": "Culture Passport Kansas City-region interview: I have never visited Fox & Pearl at 2143 Summit Street, Kansas City, but want to go. Record explicit nonattendance, add the exact current location to my private future-visit wishlist, preserve Vaughn Good's 2020 James Beard semifinalist recognition, and continue with the next eligible venue, photos and four buttons."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognition": {
+        "organization": "James Beard Foundation",
+        "year": 2020,
+        "category": "Best Chef: Midwest",
+        "result": "semifinalist",
+        "recipient": "Vaughn Good",
+        "relationship": "Chef at Fox and Pearl, Kansas City, at the permanent 2143 Summit Street restaurant; individual chef recognition, not venue win.",
+        "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+      },
+      "notes": "No past attendance, dining date, or reservation inferred. Exact Summit Street restaurant distinct from prior temporary 815 W 17th location. 'Fox and Pearl' interview duplicate is an alias, not a second wishlist entry."
     }
   ],
   "interviewConvention": {
