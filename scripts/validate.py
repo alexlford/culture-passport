@@ -532,7 +532,11 @@ assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "ex
 assert bluestem["reviewedOn"] == "2026-10-28"
 assert "I'm not certain I visited" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
-assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response"}
+assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
+if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
+    assert active_batch["candidateNames"] == ["The American Restaurant"]
+    assert american["reviewCertainty"] == "tentative_negative"
+    assert american["visitStatus"] == "not_visited"
 
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
