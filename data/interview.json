@@ -3806,10 +3806,10 @@
       "awardFamily": "beard",
       "interviewCue": "Westport Taiwanese restaurant occupying Bluestem's former 900 Westport Road premises. New business, striking green upholstered banquettes, pastel geometric patterned tile, neon Chewology sign, dumplings and Taiwanese food. Do not conflate with former Bluestem restaurant despite exact building address.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_2024_2025_jbf_best_chef_midwest_semifinalists_verified",
       "addedOn": "2026-10-25",
-      "priority": "next",
+      "priority": "reviewed",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "beard",
@@ -3874,6 +3874,33 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only",
           "altText": "Chewology neon sign in pink and blue above dining counter"
+        }
+      ],
+      "reviewCertainty": "explicit_direct_user_nonattendance",
+      "wantsToVisit": true,
+      "privateWishlistId": "want-to-visit-chewology-kansas-city-metro",
+      "metroExperienceGroupId": "chewology-kansas-city-metro",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct user 2026-11-03: explicitly has not visited Chewology, wants to go; one Kansas City metro brand-level wishlist.",
+      "attendanceDate": null,
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "category": "Best Chef: Midwest",
+          "recipient": "Katie Liu-Sung",
+          "result": "semifinalist",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+          "attribution": "Chef in post at Chewology; not a restaurant award or win."
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "category": "Best Chef: Midwest",
+          "recipient": "Katie Liu-Sung",
+          "result": "semifinalist",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+          "attribution": "Chef in post at Chewology; not a restaurant award or win."
         }
       ]
     },
@@ -9525,6 +9552,165 @@
       "visitPeriod": "First visit March 16, 2018",
       "historicalInterest": true,
       "attendanceCertainty": "confirmed_first_visit_historical_event_dated"
+    },
+    {
+      "id": "candidate-baltimore-water-for-chocolate",
+      "area": "Baltimore",
+      "subregion": "Upper Fells Point / Butchers Hill",
+      "name": "Water for Chocolate",
+      "venueType": "restaurant",
+      "addressHint": "1841 E Lombard Street, Baltimore, MD 21231",
+      "openedOn": "2006-05-16",
+      "operatingStatus": "operating",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "recognition": "Baltimore Magazine named Water for Chocolate among its 2019 Best Brunch Spots and featured chef Sean Guy's dishes. Editorial recommendation, not a formal James Beard or Michelin distinction.",
+      "recognitionYear": 2019,
+      "awardFamily": "local_editorial_feature",
+      "researchStatus": "researched_historical_memory_lead_no_qualifying_beard_michelin_verified",
+      "interviewCue": "Intimate corner restaurant on East Lombard Street, owned by Sean Guy, known for barbecue shrimp and grits, sweet-potato polenta, signature sweet potato bread pudding. Interior remodeled in 2019; older memories may look different.",
+      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
+      "sourceUrls": [
+        "https://www.waterforchocolate.com/team-member/sean-guy/",
+        "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
+        "https://www.baltimoremagazine.com/section/fooddrink/open-shut-water-for-chocolate-with-love-company-entre-amigos/"
+      ],
+      "eligibility": {
+        "status": "memory_candidate_pending_qualifying_award",
+        "basis": "editorial_feature_not_jbf_michelin",
+        "reason": "No venue-specific qualifying Michelin or James Beard distinction verified; 2019 Baltimore Magazine brunch selection is editorial.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "screening": {
+        "status": "historical_editorial_only",
+        "sourceTier": "publisher_and_restaurant_primary",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
+        "note": "Restaurant name and chef verified; no visit inferred, no Michelin/JBF awarded."
+      },
+      "photographicEvidence": [
+        {
+          "id": "water-for-chocolate-baltimore-2019",
+          "label": "Water for Chocolate 2019 renovated room and menu",
+          "caption": "2019 renovated space and signature brunch dishes; useful for matching pre-2021 memory.",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/open-shut-water-for-chocolate-with-love-company-entre-amigos/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2019,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
+    },
+    {
+      "id": "candidate-baltimore-ministry-of-brewing",
+      "area": "Baltimore",
+      "subregion": "Upper Fells Point",
+      "name": "Ministry of Brewing",
+      "venueType": "brewery_bar",
+      "addressHint": "1900 E Lombard Street, Baltimore, MD 21231",
+      "openedOn": "2020-01",
+      "operatingStatus": "operating",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "recognition": "Named to Esquire's 2021 The Best Bars in America list; national editorial bar recognition, not James Beard/Michelin/CAMRA.",
+      "recognitionYear": 2021,
+      "awardFamily": "esquire_best_bars_editorial",
+      "researchStatus": "verified_esquire_2021_historical_bar_candidate",
+      "interviewCue": "Brewery inside converted St. Michael's Romanesque Revival church, enormous vaulted nave, murals of saints, brewing tanks at former pulpit, long communal tables. Opened January 2020.",
+      "sourceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+      "sourceUrls": [
+        "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+        "https://ministryofbrewing.com/faq"
+      ],
+      "eligibility": {
+        "status": "national_editorial_bar_recognition_review_policy",
+        "basis": "esquire_2021_best_bars",
+        "reason": "2021 Esquire national Best Bars editorial inclusion verified; distinguish from James Beard/CAMRA, review bar recognition criterion rather than assert Michelin/JBF.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "screening": {
+        "status": "verified_editorial_recognition",
+        "sourceTier": "original_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+        "note": "Distinct bar/brewery in former St. Michael's church; no user attendance inferred."
+      },
+      "photographicEvidence": [
+        {
+          "id": "ministry-brewing-church-interior",
+          "label": "Ministry of Brewing church interior",
+          "caption": "Historic St. Michael's church nave preserved as brewery, brew tanks near former altar.",
+          "sourceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+          "sourceOrganization": "Esquire",
+          "sourceYear": 2021,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
+    },
+    {
+      "id": "candidate-baltimore-rye-street-tavern-sagamore",
+      "area": "Baltimore",
+      "subregion": "Port Covington / Baltimore Peninsula",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "venueType": "restaurant",
+      "addressHint": "225 E Cromwell Street, Baltimore, MD 21230",
+      "openedOn": "2017-09-12",
+      "closedToPublicOn": "2021-05",
+      "reopenedOn": "2024-07-15",
+      "operatingStatus": "operating_with_2024_different_operator_and_redesign",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "recognition": "Original 2017 restaurant opened under Andrew Carmellini, a James Beard Award-winning chef recognized at other restaurants. His earlier honors do not transfer to Rye Street Tavern. No direct venue-specific Michelin or JBF honor verified. Reviewed by Baltimore Magazine in 2018.",
+      "recognitionYear": null,
+      "awardFamily": "historical_chef_association_not_venue_recognition",
+      "researchStatus": "verified_2017_to_2021_original_and_2024_new_operator_history",
+      "interviewCue": "Waterfront restaurant adjoining Sagamore Spirit Distillery in Port Covington. Original 2017–2021 Andrew Carmellini-era dining had industrial décor, copper distillery equipment, sweeping Patapsco waterfront views; closed public service May 2021. Clydes-operated restaurant reopened July 15 2024 with a redesigned kitchen, oyster bar and outdoor bar. Do not mistake newer photos for older visit evidence.",
+      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+      "sourceUrls": [
+        "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+        "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+        "https://www.southbmore.com/2021/09/02/rye-street-tavern-reopens-for-private-events-targets-2022-restaurant-reopening/",
+        "https://www.ryestreettavern.com/about/"
+      ],
+      "eligibility": {
+        "status": "memory_candidate_no_direct_qualifying_award_verified",
+        "basis": "historic_beard_winning_founder_prior_honors_elsewhere",
+        "reason": "Chef Andrew Carmellini has prior James Beard awards but no verified at-Rye-Street venue honor. Do not transfer his award, or assume original and post-2024 concept are same experience.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "screening": {
+        "status": "historical_identity_verified_not_award_qualified",
+        "sourceTier": "period_coverage_and_operator_primary",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+        "note": "2017 historical venue, May 2021 closure and July 2024 reopening independently distinguished; user attendance unanswered."
+      },
+      "photographicEvidence": [
+        {
+          "id": "rye-street-2017-eater",
+          "label": "Rye Street Tavern opening-era interiors",
+          "caption": "2017 original Andrew Carmellini-operated Rye Street Tavern at Sagamore; 2017 era distinct from 2024 redesign.",
+          "sourceUrl": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+          "sourceOrganization": "Eater",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "rye-street-2018-review",
+          "label": "Rye Street Tavern 2018 food and dining",
+          "caption": "Original restaurant review and period photographs from first operating era.",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/review-rye-street-tavern/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2018,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
     }
   ],
   "source": {
@@ -10344,7 +10530,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Chewology, 900 Westport Road, Kansas City; distinct current restaurant in former Bluestem premises. 2024/2025 Katie Liu-Sung JBF Best Chef Midwest semifinalist; unreviewed, photos and four answers.",
+      "nextCandidate": "Kansas City metro historical interview resumes after the Baltimore Sagamore/Water for Chocolate/Ministry review; Chewology fully answered.",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -10359,7 +10545,8 @@
       "waldoThai": "2026-11-03 direct explicit nonattendance at original Waldo Thai 8431 Wornall Road; user wishes they had visited before closure. Private historical interest only, not future dining wishlist. Pam Liberda 2023 JBF Best Chef Midwest semifinalist retained.",
       "ryeMetro": "2026-11-03 direct reaffirmation of confirmed Rye Plaza visit; user instructs same-brand restaurants within a metro to count once. One Rye Kansas City metro dining experience, date unknown. Megan Garrelts JBF pastry semifinalist accolades historically attributed to Rye Leawood, only metro-brand association used for eligibility; no Leawood attendance or Plaza-specific chef award inferred.",
       "room39": "2026-11-03: explicit nonattendance at Room 39 across Kansas City metro, wants to visit; one brand-level private wishlist want-to-visit-room-39-kansas-city-metro. Supersedes October 28 prior MAYBE. James Beard Ted Habiger 2008, 2012, 2014 Best Chef Midwest semifinalist remains individual chef-in-post honor. No personal visit.",
-      "bluestem": "2026-11-03 direct user: explicitly NEVER visited Bluestem at 900 Westport Road; wishes had. Keep private historical interest only, not actionable wishlist. Overrides October 28 uncertain familiarity. Preserve Colby Garrelts' 2013 JBF Best Chef: Midwest win tied to Bluestem only, not Rye or Chewology."
+      "bluestem": "2026-11-03 direct user: explicitly NEVER visited Bluestem at 900 Westport Road; wishes had. Keep private historical interest only, not actionable wishlist. Overrides October 28 uncertain familiarity. Preserve Colby Garrelts' 2013 JBF Best Chef: Midwest win tied to Bluestem only, not Rye or Chewology.",
+      "chewology": "2026-11-03 direct: Chewology never visited and wants to visit; one metro brand-level private wish want-to-visit-chewology-kansas-city-metro. Katie Liu-Sung distinct 2024 and 2025 JBF Best Chef Midwest semifinalist recognitions, no win. Do not conflate with Bluestem or duplicate branch-level wishes."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -10629,7 +10816,7 @@
       ]
     },
     "baltimore": {
-      "status": "queued_historical_gap_audit_with_confirmed_salt",
+      "status": "active_historical_gap_audit_sagamore_neighborhood_venues",
       "confirmedSaltTavern": {
         "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
         "visitId": "dining-salt-tavern-baltimore-2018-03-16",
@@ -10642,19 +10829,25 @@
         "awardsNotTransferred": true,
         "reviewedOn": "2026-11-03"
       },
-      "nextInterviewSelection": "Resume Baltimore retrospective after KC Chewology interview; do not re-ask Salt attendance."
+      "nextInterviewSelection": "Rye Street Tavern (Sagamore Spirit campus), original 2017–2021 versus post-2024 different operator; show 2017–2018 photos and four buttons. Water for Chocolate and Ministry of Brewing follow.",
+      "researchedUnansweredCandidates": [
+        "candidate-baltimore-water-for-chocolate",
+        "candidate-baltimore-ministry-of-brewing",
+        "candidate-baltimore-rye-street-tavern-sagamore"
+      ],
+      "recognitionCautions": "Ministry of Brewing has a verified 2021 Esquire Best Bars listing; this is an editorial national bar distinction not a James Beard/Michelin/CAMRA award. Water for Chocolate has a 2019 Baltimore Magazine brunch editorial selection. Rye Street founder Andrew Carmellini's James Beard awards occurred elsewhere; no awards transferred to this venue."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Kansas City Metro",
-      "category": "restaurants",
+      "area": "Baltimore",
+      "category": "restaurants_and_bars",
       "candidateNames": [
-        "Chewology"
+        "Rye Street Tavern (Sagamore Spirit campus)"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you ever eat at Chewology, the Taiwanese restaurant now at 900 Westport Road, Kansas City, which occupies former Bluestem's address?",
-      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; Add it to my private future-visit wishlist. Distinct restaurant from now-closed Bluestem despite exact address. Katie Liu-Sung JBF Best Chef Midwest 2024/2025 semifinalist; show actual Chewology interior and food photos. Baltimore Salt Tavern separately confirmed for March 16, 2018; do not re-ask."
+      "question": "Did you visit Rye Street Tavern on the Sagamore Spirit campus in Baltimore, especially the original restaurant operating 2017–May 2021?",
+      "continuation": "Show original 2017–2018 photos (not 2024 redesign) and four options: Yes, visited; Maybe; No, haven't been; No, but want to go. Preserve all Kansas City responses, including Chewology wishlist; next Baltimore Water for Chocolate and Ministry of Brewing."
     },
     "pausedBatches": [
       {
