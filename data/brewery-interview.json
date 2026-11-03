@@ -206,7 +206,7 @@
     "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
     "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
     "status": "active",
-    "currentCandidateId": "candidate-boston-brewery-night-shift",
+    "currentCandidateId": "candidate-boston-brewery-aeronaut-somerville",
     "queue": [
       "candidate-boston-brewery-trillium-boston-metro",
       "candidate-boston-brewery-samuel-adams-jamaica-plain",
@@ -218,7 +218,11 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-harpoon-seaport"
+    "lastAnsweredCandidateId": "candidate-boston-brewery-night-shift",
+    "lastWishlistCandidateId": "candidate-boston-brewery-night-shift",
+    "notVisitedWishlistBrands": [
+      "Night Shift Brewing (Greater Boston)"
+    ]
   },
   "nextRegions": [
     "Colorado Front Range brewery visits — location and memory follow-up",
@@ -226,7 +230,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Harpoon Brewery & Beer Hall at 306 Northern Avenue in Boston Seaport: Yes — I visited. Exact site confirmed, date unspecified; include on public site.",
+  "lastUserStatement": "Night Shift Brewing: No, but want to go. Record private Greater Boston metro brand-level wishlist; no prior visit and no chosen taproom.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
