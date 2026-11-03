@@ -116,7 +116,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Story."]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["1900 Barker Bakery & Café"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -209,7 +209,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Story."]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["1900 Barker Bakery & Café"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -228,12 +228,27 @@ assert jbu_visit["recognitions"][0]["result"] == "semifinalist"
 assert jbu_visit["curation"]["verifiedForPublication"] is False
 story_candidate = next(x for x in candidates if x["id"] == "candidate-kc-story-prairie-village")
 assert story_candidate["name"] == "Story."
-assert story_candidate["visitStatus"] == "unreviewed"
+assert story_candidate["visitStatus"] == "not_visited"
+assert story_candidate["reviewCertainty"] == "explicit_nonattendance"
+assert story_candidate["historicalInterest"] is True
+assert story_candidate["wishlistStatus"] == "historical_interest_only_closed"
+assert story_candidate["wantsToVisit"] is False
 assert story_candidate["operatingStatus"] == "permanently_closed"
 assert story_candidate["screening"]["status"] == "award_qualified"
 assert "Carl Thorne-Thomsen" in story_candidate["recognition"]
 assert not any(r["venueId"] == "venue-story-prairie-village" and r["status"] == "confirmed" for r in records)
 assert not any(w["candidateId"] == story_candidate["id"] for w in wishlist["entries"])
+barker = next(c for c in candidates if c["id"] == "candidate-lawrence-1900-barker-original")
+assert barker["visitStatus"] == "unreviewed"
+assert barker["addressHint"] == "1900 Barker Avenue, Lawrence, KS 66046"
+assert barker["screening"]["status"] == "award_qualified"
+assert "Outstanding Baker semifinalist in 2018, 2019 and 2020" in barker["recognition"]
+assert barker["openedOn"] == "2015-06"
+assert len(barker["photographicEvidence"]) == 2
+assert all(photo["renderMode"] == "source_link_only" for photo in barker["photographicEvidence"])
+assert not any(w["candidateId"] == barker["id"] for w in wishlist["entries"])
+assert not any(r["title"] == barker["name"] and r["status"] == "confirmed" for r in records)
+
 
 # Stock Hill: actual AAA Four Diamond recognition, not a Michelin/JBF award or a visit.
 stock_hill = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-stock-hill")
