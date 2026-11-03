@@ -7587,7 +7587,7 @@
     {
       "id": "dining-rye-plaza-kansas-city-date-unknown",
       "type": "dining",
-      "title": "Rye Plaza",
+      "title": "Rye (Kansas City metro)",
       "venueId": "venue-rye-plaza-kansas-city",
       "status": "confirmed",
       "favorite": false,
@@ -7596,54 +7596,72 @@
         "year": null,
         "possibleYears": [],
         "precision": "unknown",
-        "label": "Confirmed Rye Plaza dining visit · date unknown",
+        "label": "Confirmed Rye Kansas City metro dining visit (Plaza location remembered) · date unknown",
         "source": "Direct user confirmation October 31, 2026: 'I visited Rye Plaza at 4646 Mill Creek Parkway. Record a confirmed visit there, not Rye Leawood, with date unknown.'",
         "evidenceType": "direct_user_recollection",
         "attendanceCertainty": "confirmed_specific_branch_date_unknown",
         "restaurantOperatingWindow": "Opened November 2017; window is not a user-provided visit date",
-        "otherLocationVisitNotInferred": "Rye Leawood"
+        "otherLocationVisitNotInferred": "Rye Leawood remains unverified; not separately counted or required",
+        "metroExperienceGroupId": "rye-kansas-city-metro",
+        "metroCountingPolicy": "same_brand_one_count"
       },
-      "summary": "I visited Rye's Country Club Plaza restaurant at 4646 Mill Creek Parkway. Exact date, occasion, dishes and companions are not specified. No James Beard or Michelin award has been independently verified for this branch.",
+      "summary": "I visited Rye on the Country Club Plaza in Kansas City. Count this as one Rye restaurant experience across the Kansas City metropolitan area, without distinguishing nearby Rye locations. Exact visit date, meal, and companions are unknown.",
       "memory": {
         "headline": "A meal at Rye on the Plaza",
-        "teaser": "Confirmed dining at Rye Plaza, distinct from Rye Leawood.",
-        "story": "I ate at Rye on Kansas City's Country Club Plaza. The date and what I ate are not recorded. This is a separate location from Rye Leawood; no visit to that location is implied.",
+        "teaser": "One Rye Kansas City metro visit, recalled at the Country Club Plaza; date unknown.",
+        "story": "I ate at Rye on the Country Club Plaza. For the Culture Passport I count restaurants with the same name within a metro area as a single experience. The remembered location is the Plaza; my attendance at Rye Leawood is not separately established.",
         "period": "Kansas City visit · exact date unknown",
         "source": "Direct user confirmation October 31, 2026"
       },
-      "recognitions": [],
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2019,
+          "result": "semifinalist",
+          "category": "Outstanding Pastry Chef",
+          "recipient": "Megan Garrelts",
+          "relationship": "Individual chef recognition at Rye in Leawood, Kansas, not an award earned at the Plaza branch; recorded as Rye KC metro restaurant-family recognition under the user's explicit metro-counting policy",
+          "originalRecognitionVenue": "Rye Leawood",
+          "experienceVenue": "Rye Plaza",
+          "qualificationScope": "same_restaurant_brand_same_metro_aggregated_user_policy",
+          "timingRelativeToVisit": "unknown",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+        }
+      ],
       "guide": {
         "distinction": "not_verified",
         "stars": 0,
         "sourceUrl": null,
-        "note": "No direct award verified for Rye Plaza. Colby Garrelts won 2013 Best Chef: Midwest for Bluestem; Megan's 2017–2020 Rye pastry semifinals are credited to Rye Leawood. Do not transfer these."
+        "note": "No Michelin star or Plaza-specific award asserted. Rye Leawood's pastry chef Megan Garrelts has JBF semifinalist recognition; it qualifies the same-brand Rye Kansas City metro experience only by explicit user aggregation policy. Colby Garrelts' 2013 JBF chef win belongs to Bluestem, and is not attributed to Rye."
       },
       "sourceUrl": "https://www.ryekc.com/",
       "editorial": {
-        "awardQualified": false,
+        "awardQualified": true,
         "officialFeature": false,
         "featuredException": false,
-        "collection": "confirmed_dining_award_watchlist",
-        "basis": "direct_location_attendance_no_site_specific_recognition",
-        "note": "Confirmed Rye Plaza attendance with no verified direct Michelin/JBF recognition. Remains in permanent private award-watchlist for periodic re-evaluation; no award or other-branch visit inferred."
+        "collection": "recognized_dining",
+        "basis": "james_beard_same_brand_same_metro_restaurant_family_aggregation_user_policy",
+        "note": "User explicitly directs one Rye count across KC metro branches. Meal at Plaza confirmed; 2019 Megan Garrelts JBF pastry semifinalist specifically at Rye Leawood, kept attributed there. No separate Leawood visit or Plaza-site award implied."
       },
       "curation": {
-        "status": "outside_scope",
-        "basis": "venue_specific_formal_honor_not_verified",
-        "reason": "The named James Beard recognitions are for other venues/locations. No Rye Plaza honor is verified. Preserve confirmed experience privately rather than counting as formally recognized.",
+        "status": "eligible",
+        "basis": "explicit_same_brand_metro_equivalence_with_named_jbf_pastry_recognition",
+        "reason": "Rye Kansas City metro family grouped by direct user policy; linked 2019 JBF Outstanding Pastry Chef semifinalist naming Megan Garrelts at Leawood, while confirmed personal visit was at Rye Plaza. This is a counting policy, not an award-location correction.",
         "evidenceUrls": [
           "https://www.ryekc.com/",
+          "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
           "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
         ],
-        "reviewedOn": "2026-10-31",
-        "verifiedForPublication": false
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false,
+        "confidence": "direct_user_plaza_confirmation_and_brand_rollup_primary_JBF"
       },
       "story": {
         "headline": "Rye on the Country Club Plaza",
         "paragraphs": [
-          "You confirmed eating at Rye on the Kansas City Country Club Plaza at 4646 Mill Creek Parkway. Its branch opened in November 2017; your actual visit date remains unknown.",
-          "The restaurant has Midwestern cooking, including fried chicken and pies, but no specific dish has been attributed to your meal.",
-          "Rye Plaza must not be conflated with the distinct Rye Leawood branch. Colby's 2013 James Beard Best Chef: Midwest win came from Bluestem; Megan's Rye pastry semifinalist announcements identify the Leawood location. Those are valuable chef history, not an award attributed to your Plaza visit."
+          "I visited Rye on the Country Club Plaza at 4646 Mill Creek Parkway. The date, dishes, and companions are not recorded.",
+          "I count Rye as one Kansas City metro restaurant experience, rather than splitting its locations within the same metro area.",
+          "Megan Garrelts received James Beard Outstanding Pastry Chef semifinalist recognition associated with Rye Leawood. That original attribution is retained even though the remembered personal visit was to Rye Plaza. Colby's 2013 Best Chef Midwest win came from Bluestem, not Rye."
         ],
         "sourceUrls": [
           {
@@ -7657,6 +7675,10 @@
           {
             "label": "Kansas City's James Beard restaurants and chefs — Visit KC",
             "url": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
+          },
+          {
+            "label": "James Beard Foundation 2019 pastry semifinalists — original Rye Leawood attribution",
+            "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
           }
         ]
       }
