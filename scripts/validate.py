@@ -367,6 +367,25 @@ assert all(r["organization"] == "James Beard Foundation" and r["year"] == 2026
            and "not restaurant-level award or win" in r["relationship"]
            for r in town_wish["recognitions"])
 assert not any(r["title"] == town["name"] and r["status"] == "confirmed" for r in records)
+# Salt: confirmed Baltimore first visit tied to the date of the UMBC/UVA upset.
+salt_candidate = next(c for c in candidates if c["id"] == "candidate-baltimore-salt-tavern-pratt-street")
+salt_record = next(r for r in records if r["id"] == "dining-salt-tavern-baltimore-2018-03-16")
+assert salt_candidate["visitStatus"] == "confirmed"
+assert salt_candidate["confirmedVisitId"] == salt_record["id"]
+assert salt_candidate["visitDate"] == "2018-03-16"
+assert salt_record["status"] == "confirmed" and salt_record["type"] == "dining"
+assert salt_record["visit"]["date"] == "2018-03-16" and salt_record["visit"]["precision"] == "day"
+assert salt_record["visit"]["firstVisit"] is True
+assert salt_record["venueId"] == "venue-salt-tavern-baltimore"
+assert salt_record["editorial"]["featuredException"] is True
+assert salt_record["editorial"]["awardQualified"] is False
+assert salt_record["curation"]["verifiedForPublication"] is False
+assert salt_record["relatedCulturalAndSportsContext"]["finalScore"] == "UMBC 74, Virginia 54"
+assert "not evidence user attended" in salt_record["relatedCulturalAndSportsContext"]["relationship"]
+assert salt_record["recognitions"][0]["organization"] == "Baltimore Magazine"
+assert salt_record["recognitions"][0]["year"] == 2006
+assert not any(w["candidateId"] == salt_candidate["id"] for w in wishlist["entries"])
+assert not any(v["id"] == "venue-marta-baltimore" and v["id"] == salt_record["venueId"] for v in venues)
 # The closed Bluestem is a private historical nonvisit, never a bookable wish.
 historical_bluestem = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")
 assert historical_bluestem["historicalInterest"] is True
