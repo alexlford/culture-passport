@@ -18,7 +18,8 @@
     (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
   const isRecalled=(r)=>r.status==="recollected";
   // JBF program participation is not a James Beard Award.
-  // Default curated view uses the expanded experience-first criteria.\n  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight||r.editorial?.expandedRecognitionEligible);
+  // Default curated view uses the expanded experience-first criteria.
+  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight||r.editorial?.expandedRecognitionEligible);
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
