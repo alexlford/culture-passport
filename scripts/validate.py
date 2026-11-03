@@ -1593,4 +1593,4 @@ assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == 
 assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon"]
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
            for x in interview_data["interviewProgress"]["pausedBatches"])
-assert all(x["id"] not in {r["venueId"] for r in records} for x in chapter["orderedCandidateIds"])
+assert all(cid not in {r["venueId"] for r in records} for cid in chapter["orderedCandidateIds"])
