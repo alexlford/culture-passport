@@ -1942,7 +1942,26 @@
           "result": "semifinalist",
           "category": "Outstanding Baker",
           "recipient": "Taylor Petrehn",
+          "relationship": "baker at original 1900 Barker",
           "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2019,
+          "result": "semifinalist",
+          "category": "Outstanding Baker",
+          "recipient": "Taylor Petrehn",
+          "relationship": "baker at original 1900 Barker",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2020,
+          "result": "semifinalist",
+          "category": "Outstanding Baker",
+          "recipient": "Taylor Petrehn",
+          "relationship": "baker at original 1900 Barker",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
         }
       ],
       "officialFeatures": [],
