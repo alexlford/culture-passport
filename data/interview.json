@@ -9612,12 +9612,15 @@
         "sourceTier": "official_venue_and_local_reporting",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.waterforchocolate.com/about/",
-        "note": "No JBF, Michelin, CAMRA award confirmed. Asked by user as a historical memory lead; do not imply nonattendance or publication."
+        "note": "No JBF, Michelin, CAMRA award confirmed. Asked by user as a historical memory lead; do not imply nonattendance or publication.",
+        "expandedCulturalTier": "local_editorial_selection",
+        "expandedEligible": true,
+        "expandedEvidenceChecked": "2026-11-03"
       },
       "eligibility": {
-        "status": "outside_core_award_scope_unless_memory_exception",
-        "basis": "context",
-        "reason": "Venue's culinary quality alone is not a documented qualifying award; review only if visit is confirmed and user requests an exception.",
+        "status": "expanded_cultural_eligible_private",
+        "basis": "baltimore_magazine_best_brunch_2019",
+        "reason": "Credible 2019 Baltimore Magazine best-brunch editorial selection qualifies culturally, though not a Michelin or James Beard award.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9675,12 +9678,15 @@
         "sourceTier": "primary_esquire_editorial_2021",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
-        "note": "2021 Esquire bar-list recognition distinct from a Michelin/James Beard honor; no CAMRA status asserted. Requires editorial tier assessment if confirmed visited."
+        "note": "2021 Esquire bar-list recognition distinct from a Michelin/James Beard honor; no CAMRA status asserted. Requires editorial tier assessment if confirmed visited.",
+        "expandedCulturalTier": "national_editorial_selection",
+        "expandedEligible": true,
+        "expandedEvidenceChecked": "2026-11-03"
       },
       "eligibility": {
-        "status": "verified_other_hospitality_recognition_requires_tier_review",
+        "status": "expanded_cultural_eligible_private",
         "basis": "esquire_best_bars_2021",
-        "reason": "National editorial best-bars list but not the established primary award family; may qualify under expanded hospitality/editorial criteria after user confirmation.",
+        "reason": "2021 Esquire Best Bars in America national editorial selection qualifies culturally, though not a Michelin/James Beard/CAMRA award.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9706,6 +9712,70 @@
       "reviewedOn": "2026-11-03",
       "reviewSource": "Direct user November 3, 2026: \"I have been to all three of those Baltimore places.\" Refers to Salt Tavern, Water for Chocolate, and Ministry of Brewing.",
       "userNote": "Visited; exact date, meal/drinks, companions not established. This is not a future wishlist request. Private record and award-tier distinction preserved."
+    },
+    {
+      "id": "candidate-baltimore-rye-street-tavern-sagamore",
+      "area": "Baltimore",
+      "subregion": "Port Covington / Baltimore Peninsula",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "venueType": "restaurant",
+      "addressHint": "225 E Cromwell Street, Baltimore, MD 21230",
+      "openedOn": "2017-09-12",
+      "closedToPublicOn": "2021-05",
+      "reopenedOn": "2024-07-15",
+      "operatingStatus": "operating_with_2024_different_operator_and_redesign",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "recognition": "Original 2017 restaurant opened under Andrew Carmellini, a James Beard Award-winning chef recognized at other restaurants. His earlier honors do not transfer to Rye Street Tavern. No direct venue-specific Michelin or JBF honor verified. Reviewed by Baltimore Magazine in 2018.",
+      "recognitionYear": null,
+      "awardFamily": "historical_chef_association_not_venue_recognition",
+      "researchStatus": "historical_cultural_interview_lead",
+      "interviewCue": "Waterfront restaurant adjoining Sagamore Spirit Distillery in Port Covington. Original 2017–2021 Andrew Carmellini-era dining had industrial décor, copper distillery equipment, sweeping Patapsco waterfront views; closed public service May 2021. Clydes-operated restaurant reopened July 15 2024 with a redesigned kitchen, oyster bar and outdoor bar. Do not mistake newer photos for older visit evidence.",
+      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+      "sourceUrls": [
+        "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+        "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+        "https://www.southbmore.com/2021/09/02/rye-street-tavern-reopens-for-private-events-targets-2022-restaurant-reopening/",
+        "https://www.ryestreettavern.com/about/"
+      ],
+      "eligibility": {
+        "status": "cultural_historical_candidate_if_visited",
+        "basis": "sagamore_waterfront_distillery_cultural_hospitality",
+        "reason": "Notable Sagamore Spirit waterfront/distillery cultural and restaurant setting; chef-founder historical connection is not an award transferred to the restaurant. Attendance unreviewed.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "screening": {
+        "status": "historical_cultural_context_verified",
+        "sourceTier": "period_coverage_and_operator_primary",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+        "note": "2017 opening and later relaunch distinguished; no user attendance or meal-era inferred.",
+        "expandedCulturalTier": "historic_hospitality_spotlight_if_visited"
+      },
+      "photographicEvidence": [
+        {
+          "id": "rye-street-2017-eater",
+          "label": "Rye Street Tavern opening-era interiors",
+          "caption": "2017 original Andrew Carmellini-operated Rye Street Tavern at Sagamore; 2017 era distinct from 2024 redesign.",
+          "sourceUrl": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+          "sourceOrganization": "Eater",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "rye-street-2018-review",
+          "label": "Rye Street Tavern 2018 food and dining",
+          "caption": "Original restaurant review and period photographs from first operating era.",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/review-rye-street-tavern/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2018,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ],
+      "priority": "deferred_user_requested"
     }
   ],
   "source": {
@@ -10842,7 +10912,16 @@
           "visitDate": null,
           "awardStatus": "2021_esquire_best_bars_editorial_not_jbf_michelin"
         }
-      ]
+      ],
+      "sagamoreHistoricCandidate": {
+        "candidateId": "candidate-baltimore-rye-street-tavern-sagamore",
+        "name": "Rye Street Tavern (Sagamore Spirit campus)",
+        "visitStatus": "unreviewed",
+        "pendingQuestion": "Did you ever eat at the original Rye Street Tavern beside the Sagamore Spirit distillery, or the relaunched restaurant?",
+        "recognitionClass": "historical_cultural_spotlight_candidate_not_chef_award_transfer",
+        "preserveCurrentInterview": true
+      },
+      "expandedRecognitionPolicy": "Local/national editorial distinctions and distinctive historic hospitality venues count as valid cultural recognition tiers, separate from formal Michelin and James Beard claims. Existing confirmed Water for Chocolate and Ministry of Brewing qualify under the expanded editorial criteria. Rye Street Tavern remains an unanswered historical venue lead until explicitly confirmed."
     }
   },
   "interviewProgress": {
