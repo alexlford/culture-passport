@@ -9724,8 +9724,8 @@
       "closedToPublicOn": "2021-05",
       "reopenedOn": "2024-07-15",
       "operatingStatus": "operating_with_2024_different_operator_and_redesign",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "recognition": "Original 2017 restaurant opened under Andrew Carmellini, a James Beard Award-winning chef recognized at other restaurants. His earlier honors do not transfer to Rye Street Tavern. No direct venue-specific Michelin or JBF honor verified. Reviewed by Baltimore Magazine in 2018.",
       "recognitionYear": null,
       "awardFamily": "historical_chef_association_not_venue_recognition",
@@ -9739,9 +9739,9 @@
         "https://www.ryestreettavern.com/about/"
       ],
       "eligibility": {
-        "status": "cultural_historical_candidate_if_visited",
-        "basis": "sagamore_waterfront_distillery_cultural_hospitality",
-        "reason": "Notable Sagamore Spirit waterfront/distillery cultural and restaurant setting; chef-founder historical connection is not an award transferred to the restaurant. Attendance unreviewed.",
+        "status": "eligible_expanded_culture_private",
+        "basis": "confirmed_historical_sagamore_campus_restaurant",
+        "reason": "User confirmed actual venue; distinctive waterfront/distillery historical hospitality context supports private cultural record, independent of formal Michelin or James Beard. Publication remains gated.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9775,7 +9775,14 @@
           "renderMode": "source_link_only"
         }
       ],
-      "priority": "deferred_user_requested"
+      "priority": "deferred_user_requested",
+      "visitDate": null,
+      "visitPeriod": "Confirmed visit, exact date and operating era unknown",
+      "visitEra": "unverified_original_2017_to_2020_or_reopened_2024_onward",
+      "reviewCertainty": "explicit_first_person_confirmation",
+      "reviewSource": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
+      "reviewedOn": "2026-11-03",
+      "confirmedVisitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
     },
     {
       "id": "candidate-boston-brewery-trillium-boston-metro",
@@ -11210,7 +11217,7 @@
       ]
     },
     "baltimore": {
-      "status": "active_historical_gap_audit_three_directly_confirmed",
+      "status": "active_historical_audit_four_confirmed_including_prior_salt",
       "confirmedSaltTavern": {
         "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
         "visitId": "dining-salt-tavern-baltimore-2018-03-16",
@@ -11223,10 +11230,11 @@
         "awardsNotTransferred": true,
         "reviewedOn": "2026-11-03"
       },
-      "nextInterviewSelection": "Café Dear Leon original Canton bakery, 2929 O'Donnell St, opened August 2020, 2026 JBF Outstanding Bakery semifinalist; ask four answer options with actual shop/pastry photos. Salt, Water for Chocolate and Ministry of Brewing confirmed, do not re-ask.",
+      "nextInterviewSelection": "Resume Café Dear Leon after the Boston brewery interview; the latest user's three Baltimore confirmations were Water for Chocolate, Ministry of Brewing and Rye Street Tavern at Sagamore; Salt was separately confirmed earlier. Do not re-ask these four.",
       "newUserRequestedLeads": [
         "Water for Chocolate",
-        "Ministry of Brewing"
+        "Ministry of Brewing",
+        "Rye Street Tavern (Sagamore Spirit campus)"
       ],
       "otherConfirmedVisits": [
         {
@@ -11240,15 +11248,24 @@
           "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
           "visitDate": null,
           "awardStatus": "2021_esquire_best_bars_editorial_not_jbf_michelin"
+        },
+        {
+          "candidateId": "candidate-baltimore-rye-street-tavern-sagamore",
+          "visitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+          "visitDate": null,
+          "visitEra": "unverified",
+          "awardStatus": "historical_cultural_venue_not_formal_michelin_jbf"
         }
       ],
       "sagamoreHistoricCandidate": {
         "candidateId": "candidate-baltimore-rye-street-tavern-sagamore",
         "name": "Rye Street Tavern (Sagamore Spirit campus)",
-        "visitStatus": "unreviewed",
-        "pendingQuestion": "Did you ever eat at the original Rye Street Tavern beside the Sagamore Spirit distillery, or the relaunched restaurant?",
-        "recognitionClass": "historical_cultural_spotlight_candidate_not_chef_award_transfer",
-        "preserveCurrentInterview": true
+        "visitStatus": "confirmed",
+        "pendingQuestion": null,
+        "recognitionClass": "cultural_historical_spotlight_eligible_private_no_award_transfer",
+        "preserveCurrentInterview": true,
+        "confirmedVisitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+        "visitEra": "unverified"
       },
       "expandedRecognitionPolicy": "Local/national editorial distinctions and distinctive historic hospitality venues count as valid cultural recognition tiers, separate from formal Michelin and James Beard claims. Existing confirmed Water for Chocolate and Ministry of Brewing qualify under the expanded editorial criteria. Rye Street Tavern remains an unanswered historical venue lead until explicitly confirmed."
     },
