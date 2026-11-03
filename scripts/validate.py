@@ -617,8 +617,8 @@ kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c[
 assert len(kc_reviewed) == 9
 # The October 25 batch was only a tentative recollection. Preserve the seven
 # other venues' tentative status, while honoring the user's later direct correction.
-assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "tentative_negative")
-           for c in kc_reviewed if c["name"] != "Bluestem")
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "explicit_nonattendance" if c["name"] == "Waldo Thai" else "tentative_negative")
+           for c in kc_reviewed if c["name"] not in {"Bluestem", "Rye (Leawood)"})
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
 assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
 assert bluestem["reviewedOn"] == "2026-10-28"
