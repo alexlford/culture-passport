@@ -1248,6 +1248,14 @@ for venue in venues:
             "venue-rye-street-tavern-sagamore-baltimore": "Baltimore",
             "venue-water-for-chocolate-baltimore": "Baltimore",
             "venue-ministry-of-brewing-baltimore": "Baltimore",
+            "venue-brewery-brand-maui-brewing-company-site-unconfirmed": None,
+            "venue-brewery-brand-cerebral-brewing-site-unconfirmed": None,
+            "venue-brewery-brand-outer-range-brewing-site-unconfirmed": None,
+            "venue-brewery-brand-new-terrain-brewing-site-unconfirmed": None,
+            "venue-brewery-brand-new-belgium-brewing-site-unconfirmed": None,
+            "venue-brewery-brand-left-hand-brewing-site-unconfirmed": None,
+            "venue-brewery-brand-avery-brewing-site-unconfirmed": None,
+            "venue-brewery-brand-trillium-boston-metro-site-unconfirmed": "Boston",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
