@@ -1548,6 +1548,17 @@
       "sourceId": "candidate-boston-brewery-harpoon-seaport",
       "venueScope": "Original Boston Seaport brewery and beer hall at 306 Northern Avenue. Not Harpoon Beer Garden in Boston Common or other locations.",
       "locationAttribution": "User directly confirmed exact Boston Seaport brewery address; map point is Boston approximate city centroid and is not a GPS visit coordinate."
+    },
+    {
+      "id": "venue-brewery-brand-mighty-squirrel-boston-metro-site-unconfirmed",
+      "name": "Mighty Squirrel Brewing",
+      "city": "Boston",
+      "region": "Massachusetts",
+      "country": "USA",
+      "location": null,
+      "sourceId": "brewery-brand-mighty-squirrel-boston-metro",
+      "venueScope": "Boston-metro brewery brand only; no physical branch identified. Not a Waltham, Fenway or Watertown venue claim.",
+      "locationAttribution": "Brand-level confirmed during Greater Boston interview; exact site unknown, so the location is not mapped to any particular brewery entrance."
     }
   ],
   "records": [
@@ -9393,6 +9404,74 @@
         "evidenceUrls": [
           "https://harpoonbrewery.com/boston-brewery/",
           "https://www.bostonglobe.com/2024/07/11/magazine/nine-best-breweries-taproom-in-greater-boston-area/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-mighty-squirrel-boston-metro-visit-date-unknown",
+      "type": "bar",
+      "title": "Mighty Squirrel Brewing",
+      "venueId": "venue-brewery-brand-mighty-squirrel-boston-metro-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation on November 3, 2026: 'I know I’ve been to Mighty Squirrel'. Stated during Boston brewery interview; specific site/date not identified.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "I visited Mighty Squirrel Brewing in the Greater Boston area. The particular brewery taproom and visit date are unknown. Its Oktoberfest earned a 2026 Great American Beer Festival silver medal in American Amber Lager; that award does not establish what I drank or which location I visited.",
+      "memory": {
+        "headline": "A Mighty Squirrel brewery visit",
+        "teaser": "A confirmed Greater Boston brewery experience, with the individual taproom and date still to be recalled.",
+        "story": "I know I've visited Mighty Squirrel Brewing. I haven't yet identified whether it was Waltham, Fenway, Watertown or another location, or what I drank or when I went. The brewery's Oktoberfest has a separate 2026 Great American Beer Festival silver medal, but I have not claimed to have sampled that beer or attended the award-listed Waltham location.",
+        "period": "Date unknown",
+        "source": "Direct user statement on November 3, 2026."
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "category": "American Amber Lager — Oktoberfest",
+          "result": "silver medal",
+          "recipient": "Mighty Squirrel — Oktoberfest (beer), Waltham, MA entry",
+          "relationship": "2026 judged silver medal for the beer Oktoberfest, submitted by a Waltham-listed brewery. The medal belongs to the beer/brewer, not an unverified visited taproom; user's date, site and tasting remain unknown.",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "Not a Michelin/James Beard award. The judged GABF distinction applies to a beer product, not the user's unverified branch."
+      },
+      "sourceUrl": "https://www.mightysquirrel.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_brewery_brand_visit",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery brand visit; included in visitor dataset without a Michelin/JBF award requirement. Site and year unknown; source-scoped medal context does not infer personal beer order."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "Explicit user confirmation; entry should be included in public-site candidate collection, but story still requires review prior to public release.",
+        "evidenceUrls": [
+          "https://www.mightysquirrel.com/",
+          "https://www.greatamericanbeerfestival.com/2026-winners/"
         ],
         "reviewedOn": "2026-11-03",
         "verifiedForPublication": false
