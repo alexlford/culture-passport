@@ -9776,6 +9776,335 @@
         }
       ],
       "priority": "deferred_user_requested"
+    },
+    {
+      "id": "candidate-boston-brewery-trillium-boston-metro",
+      "area": "Boston",
+      "name": "Trillium Brewing Company",
+      "venueType": "brewery_taproom",
+      "addressHint": "Boston: original 369 Congress Street (2013–2018), now 50 Thomson Place (Fort Point), plus 401 Park Drive (Fenway); Canton another site",
+      "recognition": "The Boston Globe Best of the Best 2026 brewery/taproom editorial selection; not a medal or James Beard award",
+      "recognitionYear": 2026,
+      "awardFamily": "local_editorial_brewery_selection",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "next",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://trilliumbrewing.com/pages/fort-point",
+      "sourceUrls": [
+        "https://trilliumbrewing.com/pages/fort-point",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      ],
+      "interviewCue": "Original tiny Fort Point Congress Street brewery (2013–2018), long lines for growlers and hazy IPAs; current Fort Point 50 Thomson Place taproom has warm timber beams, long communal tables, tanks behind glass, upstairs Headroom and rooftop; Fenway patio beside Time Out Market.",
+      "siteScope": "Boston metro brand-level; ask follow-up before assigning site",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "trillium-fort-point-interior-official",
+          "label": "Fort Point first-floor taproom",
+          "caption": "Official Trillium photograph of the 50 Thomson Place taproom. This is the post-2018 site, not the old Congress Street brewery.",
+          "sourceUrl": "https://trilliumbrewing.com/pages/fort-point",
+          "sourceOrganization": "Trillium Brewing Co.",
+          "sourceYear": 2026,
+          "photoSubject": "Trillium Fort Point Boston interior wooden beams communal tables",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Trillium Fort Point Boston interior wooden beams communal tables"
+        },
+        {
+          "id": "trillium-fort-point-2018-opening",
+          "label": "Trillium Fort Point opening-era brewery",
+          "caption": "Historical 2018 Boston Magazine photo set documents the new Fort Point brewery/restaurant interior.",
+          "sourceUrl": "https://www.bostonmagazine.com/restaurants/2018/10/19/trillium-restaurant-open-photos/",
+          "sourceOrganization": "Boston Magazine",
+          "sourceYear": 2018,
+          "photoSubject": "Trillium Fort Point 2018 brewery dining area",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Trillium Fort Point 2018 brewery dining area"
+        }
+      ]
+    },
+    {
+      "id": "candidate-boston-brewery-samuel-adams-jamaica-plain",
+      "area": "Boston",
+      "name": "Samuel Adams Boston Brewery",
+      "venueType": "brewery_taproom",
+      "addressHint": "30 Germania Street, Jamaica Plain, Boston, MA 02130; distinct from downtown taproom",
+      "recognition": "Long-running Boston Beer Co. award-winning beers, venue tour site award separately scoped; brewery accolades not evidence user visited Jamaica Plain",
+      "recognitionYear": 2026,
+      "awardFamily": "great_american_beer_festival",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://www.samueladams.com/taprooms",
+      "sourceUrls": [
+        "https://www.samueladams.com/taprooms",
+        "https://www.greatamericanbeerfestival.com/2026-winners/"
+      ],
+      "interviewCue": "Original Samuel Adams Boston Brewery in Jamaica Plain: guided R&D brewhouse tours, barrel-age Bier Keller, beer garden and exclusive releases.",
+      "siteScope": "Exact original Boston Brewery; not downtown Faneuil Hall taproom",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
+    },
+    {
+      "id": "candidate-boston-brewery-harpoon-seaport",
+      "area": "Boston",
+      "name": "Harpoon Brewery & Beer Hall",
+      "venueType": "brewery_taproom",
+      "addressHint": "306 Northern Avenue, Boston, MA 02210",
+      "recognition": "2026 Boston Globe Best of the Best curated brewery/bar selection, local editorial recognition",
+      "recognitionYear": 2026,
+      "awardFamily": "local_editorial_brewery_selection",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://www.harpoonbrewery.com/",
+      "sourceUrls": [
+        "https://www.harpoonbrewery.com/",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      ],
+      "interviewCue": "Seaport brewing operation founded in 1986, long beer hall benches, house pretzels, Harpoon IPA, tours and festivals.",
+      "siteScope": "Boston Seaport active brewery + beer hall",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
+    },
+    {
+      "id": "candidate-boston-brewery-night-shift",
+      "area": "Boston",
+      "name": "Night Shift Brewing",
+      "venueType": "brewery_taproom",
+      "addressHint": "87 Santilli Highway, Everett (original taproom) and 1 Lovejoy Wharf, Boston; other sites require verification",
+      "recognition": "Boston Magazine 2025 Readers' Poll Best Brewery winner; reader vote editorial distinction not formal medal",
+      "recognitionYear": 2025,
+      "awardFamily": "local_editorial_brewery_selection",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://nightshiftbrewing.com/",
+      "sourceUrls": [
+        "https://nightshiftbrewing.com/",
+        "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/"
+      ],
+      "interviewCue": "Large Everett warehouse brewery with community tables; Lovejoy Wharf taproom by TD Garden, waterside patio and Detroit-style pizza.",
+      "siteScope": "Boston metro brewery brand with multiple sites, not automatically one exact visit address",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
+    },
+    {
+      "id": "candidate-boston-brewery-aeronaut-somerville",
+      "area": "Boston",
+      "name": "Aeronaut Brewing Company",
+      "venueType": "brewery_taproom",
+      "addressHint": "14 Tyler Street, Somerville, MA 02143; confirm Cannery in Everett separately",
+      "recognition": "Boston Globe 2026 Best of the Best brewery/taproom editorial selection",
+      "recognitionYear": 2026,
+      "awardFamily": "local_editorial_brewery_selection",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://www.aeronautbrewing.com/",
+      "sourceUrls": [
+        "https://www.aeronautbrewing.com/",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      ],
+      "interviewCue": "Somerville industrial taproom, community tables, science-inspired beers, live music and indoor food partners.",
+      "siteScope": "Original Somerville brewery/taproom, distinct from Everett Cannery",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
+    },
+    {
+      "id": "candidate-boston-brewery-lamplighter-cambridge",
+      "area": "Boston",
+      "name": "Lamplighter Brewing Co.",
+      "venueType": "brewery_taproom",
+      "addressHint": "284 Broadway, Cambridge, MA 02139; Cambridge Crossing location distinct",
+      "recognition": "Boston Globe 2026 Best of the Best brewery/taproom editorial selection",
+      "recognitionYear": 2026,
+      "awardFamily": "local_editorial_brewery_selection",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://lamplighterbrewing.com/",
+      "sourceUrls": [
+        "https://lamplighterbrewing.com/",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      ],
+      "interviewCue": "Former industrial garage converted into bright Cambridge taproom, Pepita coffee bar by day and hazy IPAs/sours after hours.",
+      "siteScope": "Original Cambridge Broadway taproom, separate from CX",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
+    },
+    {
+      "id": "candidate-boston-brewery-dorchester-brewing",
+      "area": "Boston",
+      "name": "Dorchester Brewing Company",
+      "venueType": "brewery_taproom",
+      "addressHint": "1250 Massachusetts Avenue, Dorchester, Boston, MA 02125",
+      "recognition": "Boston Globe 2026 Best of the Best brewery/taproom editorial selection",
+      "recognitionYear": 2026,
+      "awardFamily": "local_editorial_brewery_selection",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://www.dorchesterbrewing.com/",
+      "sourceUrls": [
+        "https://www.dorchesterbrewing.com/",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      ],
+      "interviewCue": "Large Dorchester brewery with rooftop greenhouse beer garden, skyline views and Museum of Bad Art exhibit.",
+      "siteScope": "Exact Dorchester brewery site",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
+    },
+    {
+      "id": "candidate-boston-brewery-mighty-squirrel",
+      "area": "Boston",
+      "name": "Mighty Squirrel Brewing",
+      "venueType": "brewery_taproom",
+      "addressHint": "Waltham: 411 Waverley Oaks Road; Fenway 1 David Ortiz Drive, Boston; multiple site identities",
+      "recognition": "Mighty Squirrel's Oktoberfest won silver in 2026 Great American Beer Festival American Amber Lager, entry listed Waltham; do not transfer location or infer sampled beer",
+      "recognitionYear": 2026,
+      "awardFamily": "great_american_beer_festival",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "priority": "queued",
+      "researchStatus": "official_venue_and_brewery_recognition_screened",
+      "addedOn": "2026-11-03",
+      "sourceUrl": "https://www.mightysquirrel.com/",
+      "sourceUrls": [
+        "https://www.mightysquirrel.com/",
+        "https://www.greatamericanbeerfestival.com/2026-winners/"
+      ],
+      "interviewCue": "Cloud Candy IPA, Waltham beer hall and Fenway brewery taproom near Fenway Park; Waltham-produced Oktoberfest 2026 GABF silver.",
+      "siteScope": "Greater Boston brewery brand-level, visited site still to confirm",
+      "screening": {
+        "status": "eligible_brewery_cultural_candidate_if_attended",
+        "basis": "direct_award_or_editorial_evidence",
+        "sourceTier": "official_venue_and_primary_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+      },
+      "eligibility": {
+        "status": "candidate_eligible_if_visited",
+        "basis": "brewing_award_or_curated_editorial_recognition",
+        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": []
     }
   ],
   "source": {
@@ -10922,18 +11251,64 @@
         "preserveCurrentInterview": true
       },
       "expandedRecognitionPolicy": "Local/national editorial distinctions and distinctive historic hospitality venues count as valid cultural recognition tiers, separate from formal Michelin and James Beard claims. Existing confirmed Water for Chocolate and Ministry of Brewing qualify under the expanded editorial criteria. Rye Street Tavern remains an unanswered historical venue lead until explicitly confirmed."
+    },
+    "bostonBreweries": {
+      "status": "active_one_venue_at_a_time",
+      "addedOn": "2026-11-03",
+      "scope": "Boston city and nearby Cambridge, Somerville and Everett; Greater Boston historic brewery/taprooms. Do not assume visits based on city travel or on ownership of a brand's beer.",
+      "confirmedBostonBreweryVisitCount": 0,
+      "exactVisitDatesEstablished": 0,
+      "priorBostonCandidate": "Café Dear Leon is Baltimore and remains unreviewed, paused on user request; not a Boston candidate.",
+      "orderedCandidateIds": [
+        "candidate-boston-brewery-trillium-boston-metro",
+        "candidate-boston-brewery-samuel-adams-jamaica-plain",
+        "candidate-boston-brewery-harpoon-seaport",
+        "candidate-boston-brewery-night-shift",
+        "candidate-boston-brewery-aeronaut-somerville",
+        "candidate-boston-brewery-lamplighter-cambridge",
+        "candidate-boston-brewery-dorchester-brewing",
+        "candidate-boston-brewery-mighty-squirrel"
+      ],
+      "nextCandidateId": "candidate-boston-brewery-trillium-boston-metro",
+      "nominationPolicy": "GABF, World Beer Cup, regional judged brewing medals, established local/national editorial best-of lists and preservation or architecture honors qualify as distinct evidence categories; keep medal, beer, brewery, year and site attribution precise.",
+      "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
+      "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
+      "priorBostonInferredSites": 0,
+      "unansweredCandidates": 8,
+      "futureExpansion": [
+        "Tree House Brewing Company outside Boston proper",
+        "Notch Brewing at Charles River Speedway",
+        "Widowmaker Brighton",
+        "Maui breweries and Colorado Front Range"
+      ]
+    },
+    "breweryBrandVisitArchive": {
+      "status": "7_confirmed_brewery_brands_exact_sites_unresolved",
+      "canonicalFile": "data/brewery-interview.json",
+      "confirmedBrandNames": [
+        "Maui Brewing Co.",
+        "Cerebral Brewing",
+        "Outer Range Brewing Co.",
+        "New Terrain Brewing Co.",
+        "New Belgium Brewing",
+        "Left Hand Brewing Company",
+        "Avery Brewing Co."
+      ],
+      "count": 7,
+      "lastUpdated": "2026-11-03",
+      "note": "Direct brewery attendance confirmed by user; site, date and award-to-site association unspecified. Separate from public visitor experience counts and individual Boston attendance."
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Baltimore",
-      "category": "bakery_cafe",
+      "area": "Boston",
+      "category": "brewery_taprooms",
       "candidateNames": [
-        "Café Dear Leon"
+        "Trillium Brewing Company"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Café Dear Leon at its original 2929 O'Donnell Street Canton bakery, which opened in August 2020?",
-      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; No, but want to go. Show historical storefront, pastry and egg-sandwich photographs. Venue named 2026 James Beard Outstanding Bakery semifinalist, not winner; recognition may postdate the actual visit. All three user-mentioned Baltimore venues (Salt, Water for Chocolate, Ministry of Brewing) already confirmed. Resume Kansas City historical after this Baltimore stretch."
+      "question": "Have you visited Trillium Brewing Company in the Boston area? The original Congress Street Fort Point location was operating 2013–2018; today's 50 Thomson Place Fort Point site and Fenway and Canton sites are distinct. A yes confirms the brand; I'll ask about site if needed.",
+      "continuation": "Four buttons: Yes visited; Maybe — looks familiar; No, haven't been; No, but want to go. Show real Trillium official and historic 2018 Fort Point photos. Boston Globe 2026 Best of the Best selected Trillium as an editorial brewery/taproom recommendation; not a GABF/World Beer Cup medal. Continue Boston area one at a time, then restore Baltimore Café Dear Leon and Kansas City."
     },
     "pausedBatches": [
       {
@@ -11051,6 +11426,18 @@
         "status": "paused_after_chewology_answer_for_baltimore_user_request",
         "pausedOn": "2026-11-03",
         "reason": "User explicitly asked to look at Water for Chocolate and Ministry of Brewing while continuing KC; resume other unanswered award-eligible venues after Baltimore two-venue mini-audit, without re-asking Chewology or other reviewed KC restaurants."
+      },
+      {
+        "area": "Baltimore",
+        "category": "bakery_cafe",
+        "candidateNames": [
+          "Café Dear Leon"
+        ],
+        "status": "paused_for_user_requested_boston_brewery_interview",
+        "question": "Have you visited Café Dear Leon at its original 2929 O'Donnell Street Canton bakery, which opened in August 2020?",
+        "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; No, but want to go. Show historical storefront, pastry and egg-sandwich photographs. Venue named 2026 James Beard Outstanding Bakery semifinalist, not winner; recognition may postdate the actual visit. All three user-mentioned Baltimore venues (Salt, Water for Chocolate, Ministry of Brewing) already confirmed. Resume Kansas City historical after this Baltimore stretch.",
+        "pausedOn": "2026-11-03",
+        "reason": "User explicitly requested Boston brewery interview; no response to Café Dear Leon was implied. Preserve status unreviewed."
       }
     ],
     "interviewMode": "one_venue_at_a_time",
@@ -11268,6 +11655,12 @@
       }
     ],
     "nextCitySequence": [
+      {
+        "area": "Boston",
+        "status": "active_brewery_retrospective",
+        "period": "Boston metro visits; dates unknown",
+        "review": "Begin Trillium Brewing (Fort Point, distinct pre-2018 original), then Samuel Adams, Harpoon, Night Shift and additional vetted breweries. Preserve all other regional interviews and eight historical Boston candidate photos/recognition."
+      },
       {
         "area": "Cambridge, UK",
         "status": "active"
