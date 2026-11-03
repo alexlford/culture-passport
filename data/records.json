@@ -1382,6 +1382,18 @@
       "location": null,
       "sourceId": "john-browns-underground-lawrence",
       "venueScope": "Underground cocktail bar at 7 E 7th Street; not the separate Aboveground patio"
+    },
+    {
+      "id": "venue-1900-barker-original-lawrence",
+      "name": "1900 Barker Bakery & Café",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "country": "USA",
+      "neighborhood": "East Lawrence",
+      "address": "1900 Barker Avenue, Lawrence, KS 66046",
+      "location": null,
+      "sourceId": "1900-barker-original-lawrence",
+      "venueScope": "Original Barker Avenue bakery and café, opened June 2015; not Barker on Mass at 816 Massachusetts St opened March 2023"
     }
   ],
   "records": [
@@ -8149,6 +8161,126 @@
           {
             "label": "Explore Lawrence — exact bar listing",
             "url": "https://www.explorelawrence.com/listing/john-browns-underground/7551/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-1900-barker-original-lawrence-date-unknown",
+      "type": "dining",
+      "title": "1900 Barker Bakery & Café",
+      "venueId": "venue-1900-barker-original-lawrence",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed visit to original 1900 Barker bakery · date unknown",
+        "source": "Direct user confirmation 2026-11-03: visited the original 1900 Barker Bakery & Café at 1900 Barker Avenue, Lawrence, Kansas; date unknown.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_exact_original_barker_avenue_location_date_unknown",
+        "experienceScope": "bakery_cafe_visit",
+        "orders": null,
+        "companions": null,
+        "otherLocationVisitNotInferred": "816 Massachusetts St / Barker on Mass"
+      },
+      "summary": "Confirmed visit to the original 1900 Barker Bakery & Café at 1900 Barker Avenue, Lawrence, Kansas; date and purchases unknown. Baker Taylor Petrehn was a James Beard Outstanding Baker semifinalist in 2018, 2019 and 2020 at this business; not a finalist or winner.",
+      "memory": {
+        "headline": "A visit to Lawrence's original 1900 Barker",
+        "teaser": "A remembered visit to the original East Lawrence bakery with three James Beard baker semifinalist distinctions.",
+        "story": "I visited the original 1900 Barker Bakery & Café at 1900 Barker Avenue in Lawrence, Kansas. The date, whether I purchased anything, and who came with me are not yet recorded. This confirmation does not establish a visit to the separate Massachusetts Street branch opened in 2023.",
+        "period": "Lawrence, Kansas · exact date unknown",
+        "source": "Direct user statement November 3, 2026"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2018,
+          "result": "semifinalist",
+          "category": "Outstanding Baker",
+          "recipient": "Taylor Petrehn",
+          "relationship": "baker and cofounder at 1900 Barker Bakery & Café, original Barker Avenue location; baker-in-post recognition rather than a venue-level award",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+          "historicalVisitDate": null,
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2019,
+          "result": "semifinalist",
+          "category": "Outstanding Baker",
+          "recipient": "Taylor Petrehn",
+          "relationship": "baker and cofounder at 1900 Barker Bakery & Café, original Barker Avenue location; baker-in-post recognition rather than a venue-level award",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+          "historicalVisitDate": null,
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2020,
+          "result": "semifinalist",
+          "category": "Outstanding Baker",
+          "recipient": "Taylor Petrehn",
+          "relationship": "baker and cofounder at 1900 Barker Bakery & Café, original Barker Avenue location; baker-in-post recognition rather than a venue-level award",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+          "historicalVisitDate": null,
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "none_claimed",
+        "note": "James Beard honors belong to Taylor Petrehn as a baker working at the original 1900 Barker; semifinalist recognition is not a winner or finalist designation. Actual visit timing unknown."
+      },
+      "sourceUrl": "https://www.1900barker.com/",
+      "editorial": {
+        "awardQualified": true,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "recognized_dining",
+        "basis": "james_beard_2018_2019_2020_outstanding_baker_chef_in_post",
+        "note": "The original venue was directly confirmed visited. Its baker was named to three official James Beard semifinalist lists; visit date not known, no purchase/companions inferred. Private editorial approval still required."
+      },
+      "curation": {
+        "status": "eligible",
+        "basis": "james_beard_baker_in_post_semifinalist",
+        "reason": "James Beard Foundation 2018, 2019 and 2020 Outstanding Baker semifinalists each identify Taylor Petrehn at 1900 Barker in Lawrence. Original Barker Avenue location predates all three; later Mass St branch not inferred.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+          "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+          "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+          "https://www.1900barker.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "direct_user_confirmed_exact_original_location",
+        "verifiedForPublication": false
+      },
+      "story": {
+        "headline": "At 1900 Barker in East Lawrence",
+        "paragraphs": [
+          "I visited the original 1900 Barker Bakery & Café on Barker Avenue in Lawrence, Kansas. The date and what I ordered, if anything, remain open.",
+          "Taylor Petrehn, a cofounder and baker at 1900 Barker, appeared in the James Beard Foundation's 2018, 2019 and 2020 Outstanding Baker semifinalist announcements. These are baker-in-post recognitions, not wins or a bakery-level award.",
+          "The original bakery began serving Lawrence in 2015. The later location on Massachusetts Street opened in 2023 and is not established as a visit."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2018 Outstanding Baker semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+          },
+          {
+            "label": "James Beard Foundation — 2019 Outstanding Baker semifinalists",
+            "url": "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
+          },
+          {
+            "label": "James Beard Foundation — 2020 Outstanding Baker semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+          },
+          {
+            "label": "1900 Barker — bakery official site",
+            "url": "https://www.1900barker.com/"
           }
         ]
       }
