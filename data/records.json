@@ -8536,8 +8536,8 @@
         "featuredException": false,
         "collection": "recognized_local_editorial_dining",
         "basis": "direct_visit_and_local_brunch_editorial",
-        "note": "2019 Baltimore Magazine Best Brunch Spots — local curated/editorial recognition qualifies culturally, independently of Michelin or James Beard. Private, publication still pending.",
-        "culturalSpotlight": false,
+        "note": "2019 Baltimore Magazine Best Brunch Spots — local curated/editorial recognition qualifies culturally, independently of Michelin or James Beard. Culturally qualified for visitor review; publication remains pending explicit approval.",
+        "culturalSpotlight": true,
         "expandedRecognitionEligible": true
       },
       "curation": {
@@ -8626,8 +8626,8 @@
         "featuredException": false,
         "collection": "editorially_recognized_bar",
         "basis": "direct_visit_and_esquire_2021_bar_editorial_selection",
-        "note": "2021 Esquire Best Bars in America — credible national curated/editorial bar recognition qualifies culturally, independently of CAMRA/JBF/Michelin. Private, publication still pending.",
-        "culturalSpotlight": false,
+        "note": "2021 Esquire Best Bars in America — credible national curated/editorial bar recognition qualifies culturally, independently of CAMRA/JBF/Michelin. Culturally qualified for visitor review; publication remains pending explicit approval.",
+        "culturalSpotlight": true,
         "expandedRecognitionEligible": true
       },
       "curation": {
