@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "title": "Culture Passport — brewery experiences and historical interview",
+  "updated": "2026-11-03",
+  "purpose": "Brewery visits and Boston-area venue-by-venue interview; hospitality and beer awards recorded independently from the visit, without inferring a particular taproom, exact date or beer ordered.",
+  "userDirective": "Interview Boston-area breweries and treat brewery visits as qualifying cultural-experience candidates alongside recognized pubs, with no Michelin/JBF-only gate.",
+  "countingPolicy": {
+    "breweryVisitation": "One explicit brewery-brand attendance memory per named brewery until the exact venue and number of visits are established; once confirmed, distinguish multiple distinct actual sites only with user confirmation.",
+    "location": "Brand-level confirmation does not establish which brewery address, taproom, brewery campus or country the user visited. Do not substitute brewery headquarters or award-entry city for attendance location.",
+    "visitEvidence": "User explicitly said 'I've been to...' for the seven brewery brands below. This is personal attendance evidence at an unspecified brewery venue, not evidence of a beer purchased at retail or a specific tour.",
+    "recognition": "GABF, World Beer Cup, Colorado Brewers Cup and comparable judged brewing medals qualify as brewery/beer distinctions, distinct from JBF, Michelin, CAMRA, editorial or brewery-specific hospitality awards. Store beer, medal, year and adjudicating body; medal for a product or a submitting site does not establish the user's physical site or the date of a personal visit.",
+    "publication": "Private research only pending distinct site verification, evidence attribution and explicit story-review approval. Do not increase published or location-specific experience totals from these brand-level memories."
+  },
+  "confirmedBrandVisits": [
+    {
+      "id": "brewery-brand-maui-brewing-company",
+      "name": "Maui Brewing Co.",
+      "reportedName": "Maui brewery",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "possibleSites": "Maui Brewing operates multiple Hawaii taprooms; no specific Maui or other address established",
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "awardReviewStatus": "needs_site_independent_brewery_award_screen"
+    },
+    {
+      "id": "brewery-brand-cerebral-brewing",
+      "name": "Cerebral Brewing",
+      "reportedName": "Cerebral",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2025,
+          "category": "American-Style Light Lager",
+          "product": "Neon Lite",
+          "result": "silver medal",
+          "listedBrewer": "Cerebral Brewing - Aurora Arts",
+          "relationship": "Award submitted/attributed to Aurora Arts brewery; user has not identified the visited Cerebral site",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2025-winners/"
+        }
+      ]
+    },
+    {
+      "id": "brewery-brand-outer-range-brewing",
+      "name": "Outer Range Brewing Co.",
+      "reportedName": "Outer Range",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "awardReviewStatus": "needs_official_brewing_award_screen"
+    },
+    {
+      "id": "brewery-brand-new-terrain-brewing",
+      "name": "New Terrain Brewing Co.",
+      "reportedName": "new terrain",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2025,
+          "category": "Belgian-Style Witbier",
+          "product": "Suntrip",
+          "result": "gold medal",
+          "sourceUrl": "https://newterrainbrewing.com/awards/",
+          "relationship": "Brewery beer medal, not proof user tasted product or visited on award year"
+        },
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2025,
+          "category": "Belgian-Style Witbier",
+          "product": "Suntrip",
+          "result": "bronze medal",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2025-winners/",
+          "relationship": "Brewery beer medal, no user visit date implied"
+        }
+      ]
+    },
+    {
+      "id": "brewery-brand-new-belgium-brewing",
+      "name": "New Belgium Brewing",
+      "reportedName": "new Belgium",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "category": "Belgian-Style Tripel",
+          "product": "Trippel",
+          "result": "silver medal",
+          "listedBrewer": "New Belgium Brewing Company, Fort Collins, CO",
+          "relationship": "Award entry city not evidence of physical user visit location",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/"
+        }
+      ]
+    },
+    {
+      "id": "brewery-brand-left-hand-brewing",
+      "name": "Left Hand Brewing Company",
+      "reportedName": "left hand",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "awardReviewStatus": "needs_official_brewing_award_screen"
+    },
+    {
+      "id": "brewery-brand-avery-brewing",
+      "name": "Avery Brewing Co.",
+      "reportedName": "Avery",
+      "status": "confirmed_brewery_brand_visit",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03"
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "category": "Belgian-Style Witbier",
+          "product": "White Rascal",
+          "result": "silver medal",
+          "listedBrewer": "Avery Brewing Co, Boulder, CO",
+          "relationship": "Award-listed brewery location must not be assumed visited by user",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/"
+        }
+      ]
+    }
+  ],
+  "historicalInterview": {
+    "area": "Boston",
+    "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
+    "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
+    "status": "active",
+    "currentCandidateId": "candidate-boston-brewery-trillium-boston-metro",
+    "queue": [
+      "candidate-boston-brewery-trillium-boston-metro",
+      "candidate-boston-brewery-samuel-adams-jamaica-plain",
+      "candidate-boston-brewery-harpoon-seaport",
+      "candidate-boston-brewery-night-shift",
+      "candidate-boston-brewery-aeronaut-somerville",
+      "candidate-boston-brewery-lamplighter-cambridge",
+      "candidate-boston-brewery-dorchester-brewing",
+      "candidate-boston-brewery-mighty-squirrel"
+    ],
+    "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue."
+  },
+  "nextRegions": [
+    "Colorado Front Range brewery visits — location and memory follow-up",
+    "Maui brewery location follow-up",
+    "Greater Boston brewery retrospective",
+    "Other named cities and historical craft brewery venues"
+  ],
+  "lastUserStatement": "You should interview me about breweries in Boston. I’ve been to Maui brewery, Cerebral, Outer Range, new terrain, new Belgium, left hand, Avery, and many more. If we are diving into pubs, let’s do breweries as well."
+}
