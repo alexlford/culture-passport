@@ -1406,6 +1406,42 @@
       "location": null,
       "sourceId": "salt-tavern-baltimore-original",
       "venueScope": "Original 2006–2018 Salt Tavern; not successor Marta"
+    },
+    {
+      "id": "venue-water-for-chocolate-baltimore",
+      "name": "Water for Chocolate",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Upper Fells Point",
+      "address": "1841 E Lombard Street, Baltimore, MD 21231",
+      "location": null,
+      "sourceId": "venue-water-for-chocolate-baltimore",
+      "venueScope": "Original named establishment"
+    },
+    {
+      "id": "venue-ministry-of-brewing-baltimore",
+      "name": "Ministry of Brewing",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Upper Fells Point",
+      "address": "1900 E Lombard Street, Baltimore, MD 21231",
+      "location": null,
+      "sourceId": "venue-ministry-of-brewing-baltimore",
+      "venueScope": "Original named establishment"
+    },
+    {
+      "id": "venue-rye-street-tavern-sagamore-baltimore",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Port Covington / Baltimore Peninsula",
+      "address": "225 E Cromwell Street, Baltimore, MD 21230",
+      "location": null,
+      "sourceId": "venue-rye-street-tavern-sagamore-baltimore",
+      "venueScope": "One named Sagamore campus restaurant, distinguish historic original and redesigned 2024 operation"
     }
   ],
   "records": [
@@ -8448,6 +8484,260 @@
           {
             "label": "Washington Post — UMBC–Virginia, March 16 2018",
             "url": "https://www.washingtonpost.com/sports/ncaa-stunner-no-16-seed-umbc-makes-history-by-knocking-out-no-1-virginia/2018/03/16/35d91dee-2954-11e8-874b-d517e912f125_story.html?noredirect=on"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-water-for-chocolate-baltimore-date-unknown",
+      "type": "dining",
+      "title": "Water for Chocolate",
+      "venueId": "venue-water-for-chocolate-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Baltimore restaurant visit · exact date unknown",
+        "source": "Direct user 2026-11-03: 'I have been to all three of those Baltimore places.' User confirmed Water for Chocolate, Ministry of Brewing and Rye Street Tavern at Sagamore Spirit.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_named_venue_exact_visit_date_unknown",
+        "companions": null,
+        "itemsOrdered": null
+      },
+      "summary": "Confirmed visit to Water for Chocolate in Baltimore, exact date and visit details unknown. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award.",
+      "recognitions": [],
+      "editorialRecognitions": [
+        {
+          "organization": "Baltimore Magazine",
+          "year": 2019,
+          "type": "local_editorial_selection",
+          "category": "Baltimore’s Best Brunch Spots",
+          "result": "included",
+          "recipient": "Water for Chocolate",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
+          "awardFamily": "local_editorial",
+          "notMichelinOrJamesBeard": true
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "not_established",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin Guide or James Beard recognition verified. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award."
+      },
+      "sourceUrl": "https://www.waterforchocolate.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "confirmed_dining_award_watchlist",
+        "basis": "direct_visit_and_local_brunch_editorial",
+        "note": "Private confirmed personal experience. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award. Not authorized for publication."
+      },
+      "curation": {
+        "status": "archived_confirmed_pending_qualifying_award",
+        "basis": "baltimore_magazine_best_brunch_editorial",
+        "reason": "Direct venue attendance confirmed. No Michelin/James Beard award transferred from other restaurants. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award.",
+        "evidenceUrls": [
+          "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
+          "https://www.waterforchocolate.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "direct_user_attendance_named_venue_undated",
+        "verifiedForPublication": false
+      },
+      "memory": {
+        "headline": "Water for Chocolate in Baltimore",
+        "teaser": "A confirmed Baltimore restaurant experience, details to be recovered.",
+        "story": "I visited Water for Chocolate in Baltimore. I have not yet established exactly when, what I ordered or drank, whom I went with, or the occasion. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award.",
+        "period": "Baltimore · exact date unknown",
+        "source": "Direct user confirmation November 3, 2026"
+      },
+      "story": {
+        "headline": "A visit to Water for Chocolate",
+        "paragraphs": [
+          "I visited Water for Chocolate in Baltimore. The date, companions and food or drinks are not yet recorded.",
+          "Baltimore Magazine named Water for Chocolate in its 2019 Best Brunch Spots coverage; this is local editorial recognition, not a formal Michelin or James Beard distinction."
+        ],
+        "sourceUrls": [
+          {
+            "label": "Water for Chocolate — venue",
+            "url": "https://www.waterforchocolate.com/"
+          },
+          {
+            "label": "Recognition/history source",
+            "url": "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "type": "bar",
+      "title": "Ministry of Brewing",
+      "venueId": "venue-ministry-of-brewing-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Baltimore brewery/bar visit · exact date unknown",
+        "source": "Direct user 2026-11-03: 'I have been to all three of those Baltimore places.' User confirmed Water for Chocolate, Ministry of Brewing and Rye Street Tavern at Sagamore Spirit.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_named_venue_exact_visit_date_unknown",
+        "companions": null,
+        "itemsOrdered": null
+      },
+      "summary": "Confirmed visit to Ministry of Brewing in Baltimore, exact date and visit details unknown. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award.",
+      "recognitions": [],
+      "editorialRecognitions": [
+        {
+          "organization": "Esquire",
+          "year": 2021,
+          "type": "national_editorial_selection",
+          "category": "The Best Bars in America, 2021",
+          "result": "included",
+          "recipient": "Ministry of Brewing, Baltimore",
+          "venueScope": "1900 E Lombard St",
+          "sourceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+          "awardFamily": "esquire_best_bars_editorial",
+          "notMichelinOrJamesBeard": true
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "not_established",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin Guide or James Beard recognition verified. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award."
+      },
+      "sourceUrl": "https://ministryofbrewing.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "editorially_recognized_bar",
+        "basis": "direct_visit_and_esquire_2021_bar_editorial_selection",
+        "note": "Private confirmed personal experience. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award. Not authorized for publication."
+      },
+      "curation": {
+        "status": "national_editorial_bar_recognition_pending_criteria",
+        "basis": "esquire_2021_national_editorial_best_bars",
+        "reason": "Direct venue attendance confirmed. No Michelin/James Beard award transferred from other restaurants. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award.",
+        "evidenceUrls": [
+          "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+          "https://ministryofbrewing.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "direct_user_attendance_named_venue_undated",
+        "verifiedForPublication": false
+      },
+      "memory": {
+        "headline": "A visit inside Baltimore's converted church brewery",
+        "teaser": "A confirmed Baltimore brewery experience, details to be recovered.",
+        "story": "I visited Ministry of Brewing in Baltimore. I have not yet established exactly when, what I ordered or drank, whom I went with, or the occasion. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award.",
+        "period": "Baltimore · exact date unknown",
+        "source": "Direct user confirmation November 3, 2026"
+      },
+      "story": {
+        "headline": "A visit to Ministry of Brewing",
+        "paragraphs": [
+          "I visited Ministry of Brewing in Baltimore. The date, companions and food or drinks are not yet recorded.",
+          "Esquire featured this brewery in its 2021 Best Bars in America list. The converted St. Michael's Church setting is part of its distinctive identity; Esquire recognition is editorial, not a James Beard win."
+        ],
+        "sourceUrls": [
+          {
+            "label": "Ministry of Brewing — venue",
+            "url": "https://ministryofbrewing.com/"
+          },
+          {
+            "label": "Recognition/history source",
+            "url": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "type": "dining",
+      "title": "Rye Street Tavern (Sagamore Spirit campus)",
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Baltimore restaurant visit · exact date unknown",
+        "source": "Direct user 2026-11-03: 'I have been to all three of those Baltimore places.' User confirmed Water for Chocolate, Ministry of Brewing and Rye Street Tavern at Sagamore Spirit.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_named_venue_exact_visit_date_unknown",
+        "companions": null,
+        "itemsOrdered": null,
+        "operatorEra": "unverified",
+        "possibleOriginalEra": "2017 to December 2020",
+        "possibleReopenedEra": "July 15, 2024 onward",
+        "note": "Do not infer operation period, date or number of visits"
+      },
+      "summary": "Confirmed visit to Rye Street Tavern (Sagamore Spirit campus) in Baltimore, exact date and visit details unknown. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established.",
+      "recognitions": [],
+      "editorialRecognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "not_established",
+        "sourceUrl": null,
+        "note": "No venue-specific Michelin Guide or James Beard recognition verified. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established."
+      },
+      "sourceUrl": "https://www.ryestreettavern.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "confirmed_dining_award_watchlist",
+        "basis": "direct_visit_historical_restaurant_no_venue_award",
+        "note": "Private confirmed personal experience. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established. Not authorized for publication."
+      },
+      "curation": {
+        "status": "archived_confirmed_pending_qualifying_award",
+        "basis": "history_not_formal_award",
+        "reason": "Direct venue attendance confirmed. No Michelin/James Beard award transferred from other restaurants. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established.",
+        "evidenceUrls": [
+          "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
+          "https://www.ryestreettavern.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "direct_user_attendance_named_venue_undated",
+        "verifiedForPublication": false
+      },
+      "memory": {
+        "headline": "Rye Street Tavern at the Sagamore distillery",
+        "teaser": "A confirmed Baltimore restaurant experience, details to be recovered.",
+        "story": "I visited Rye Street Tavern (Sagamore Spirit campus) in Baltimore. I have not yet established exactly when, what I ordered or drank, whom I went with, or the occasion. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established.",
+        "period": "Baltimore · exact date unknown",
+        "source": "Direct user confirmation November 3, 2026"
+      },
+      "story": {
+        "headline": "A visit to Rye Street Tavern (Sagamore Spirit campus)",
+        "paragraphs": [
+          "I visited Rye Street Tavern (Sagamore Spirit campus) in Baltimore. The date, companions and food or drinks are not yet recorded.",
+          "Rye Street Tavern operated beside Sagamore Spirit from 2017, stopped public service in the pandemic, and reopened under Clyde's in July 2024. Which era I visited is not yet established."
+        ],
+        "sourceUrls": [
+          {
+            "label": "Rye Street Tavern (Sagamore Spirit campus) — venue",
+            "url": "https://www.ryestreettavern.com/"
+          },
+          {
+            "label": "Recognition/history source",
+            "url": "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/"
           }
         ]
       }
