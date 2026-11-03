@@ -1648,6 +1648,44 @@
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-rye-street-tavern-sagamore-baltimore",
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "venueName": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed named Sagamore restaurant visit, exact year/era unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_named_venue_award_verified_in_targeted_search",
+      "lastReviewedOn": "2026-11-03",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json",
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "User directly confirmed Rye Street Tavern at Sagamore Spirit. Original NoHo/Andrew Carmellini era is distinct from post-2024 Clyde's operation, but visit era not yet established. Chef awards elsewhere must not transfer.",
+      "reviewHistory": [
+        {
+          "date": "2026-11-03",
+          "result": "confirmed_visit_no_qualifying_venue_award_verified",
+          "note": "Exact venue confirmed, year/meal/operator era unknown; historically separate operations documented.",
+          "evidenceUrls": [
+            "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+            "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
