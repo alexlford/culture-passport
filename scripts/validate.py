@@ -367,6 +367,23 @@ assert all(r["organization"] == "James Beard Foundation" and r["year"] == 2026
            and "not restaurant-level award or win" in r["relationship"]
            for r in town_wish["recognitions"])
 assert not any(r["title"] == town["name"] and r["status"] == "confirmed" for r in records)
+# Room 39 is one metro-brand wish, not a confirmed meal or multiple branch wishes.
+room_39 = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-room-39")
+assert room_39["visitStatus"] == "not_visited"
+assert room_39["reviewCertainty"] == "explicit_nonvisit_with_wishlist_intent"
+assert room_39["wantsToVisit"] is True
+assert room_39["reviewedOn"] == "2026-11-03"
+assert room_39["wishlistEntryId"] == "want-to-visit-room-39-kansas-city-metro"
+assert room_39["metroExperienceGroupId"] == "room-39-kansas-city-metro"
+room_wishes = [e for e in wishlist["entries"] if e["candidateId"] == room_39["id"]]
+assert len(room_wishes) == 1
+assert room_wishes[0]["id"] == room_39["wishlistEntryId"]
+assert room_wishes[0]["status"] == "want_to_visit" and room_wishes[0]["visitStatus"] == "not_visited"
+assert len(room_wishes[0]["recognitions"]) == 3
+assert {x["year"] for x in room_wishes[0]["recognitions"]} == {2008, 2012, 2014}
+assert all(x["recipient"] == "Ted Habiger" and x["result"] == "semifinalist"
+           for x in room_wishes[0]["recognitions"])
+assert not any(r["title"].startswith("Room 39") and r["status"] == "confirmed" for r in records)
 waldo = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-waldo-thai")
 assert waldo["visitStatus"] == "not_visited" and waldo["reviewCertainty"] == "explicit_nonattendance"
 assert waldo["operatingStatus"] == "permanently_closed" and waldo["closedOn"] == "2025-10-03"
