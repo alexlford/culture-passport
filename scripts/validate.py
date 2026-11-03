@@ -400,12 +400,12 @@ assert chewology["addressHint"].startswith("900 Westport Road")
 assert chewology["screening"]["status"] == "award_qualified"
 assert "Katie Liu-Sung" in chewology["recognition"]
 assert all(x["imageRights"] == "unverified" and x["renderMode"] == "source_link_only" for x in chewology["photographicEvidence"])
-# Baltimore Salt is an unreviewed research lead, not attendance or a JBF award claim.
+# Baltimore Salt is a confirmed, dated user-selected historical restaurant visit, not a JBF award claim.
 salt_baltimore = next(c for c in candidates if c["id"] == "candidate-baltimore-salt-tavern-pratt-street")
-assert salt_baltimore["visitStatus"] == "unreviewed"
+assert salt_baltimore["visitStatus"] == "confirmed"
 assert salt_baltimore["addressHint"].startswith("2127 E Pratt Street")
-assert salt_baltimore["screening"]["status"] == "local_editorial_recognition_verified_pending_strict_eligibility_review"
-assert salt_baltimore["wantsToVisit"] is None
+assert salt_baltimore["screening"]["status"] == "personal_featured_exception_local_editorial_verified"
+assert salt_baltimore["wantsToVisit"] is False
 assert salt_baltimore["eligibility"]["verifiedForPublication"] is False
 assert not any(w["candidateId"] == salt_baltimore["id"] for w in wishlist["entries"])
 
