@@ -17,7 +17,7 @@
     "featuredPersonal": 17,
     "officiallyFeatured": 6,
     "unfeaturedOther": 6,
-    "additionalConfirmedArchiveOnly": 15,
+    "additionalConfirmedArchiveOnly": 16,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -1379,6 +1379,13 @@
       "period": "Restaurant visit after July 2024 opening, exact date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex directly confirmed eating at Two Twelve, 212 Elk Avenue, on 2026-10-27 interview. Chef Anthony Nelson's live-fire cooking has positive independent Axios/5280/Mountain Town Magazine coverage, with aspirations for a James Beard nomination, NOT actual Foundation nomination or Michelin Guide recognition. Keep owner ties to Bonez and Secret Stash as restaurant history, without treating those venues as confirmed visits."
+    },
+    {
+      "name": "Water for Chocolate",
+      "city": "Baltimore",
+      "period": "Visit confirmed, exact date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Directly confirmed Nov 3, 2026 visit to Sean Guy's 1841 E Lombard Street restaurant. No exact meal date, companions or dishes inferred. No verified Michelin or James Beard award in targeted research. Kept in permanent private restaurant award watchlist; not an automatic public experience or featured exception."
     }
   ],
   "possiblyVisited": [
@@ -1438,6 +1445,23 @@
       "experienceId": "bar-the-library-gilt-bar-chicago-friend-recalled",
       "status": "recollected_not_confirmed",
       "awardContext": "Gilt Bar parent restaurant is Michelin Bib Gourmand-listed; The Library has no separate award"
+    }
+  ],
+  "confirmedBarsEditorial": [
+    {
+      "name": "Ministry of Brewing",
+      "city": "Baltimore",
+      "period": "Confirmed, exact visit date unknown",
+      "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "status": "confirmed_brewery_bar_visit_editorial_recognition_separate_from_jbf_michelin",
+      "year": 2021,
+      "organization": "Esquire",
+      "recognition": "Best Bars in America 2021 (editorial selection)",
+      "sourceUrls": [
+        "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+        "https://www.thebanner.com/culture/food-drink/best-bars-baltimore-esquire-church-ash-bar-blooms-ZSVXWKOBCJAQZGFGQEDWRJGH7Q/"
+      ],
+      "note": "This is not a restaurant and is outside restaurant-only watchlist and expanded-recognition counts. Private bar visit; publication pending."
     }
   ]
 }

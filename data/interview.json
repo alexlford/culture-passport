@@ -1690,29 +1690,79 @@
       "id": "baltimore-cafe-dear-leon",
       "area": "Baltimore",
       "name": "Café Dear Leon",
-      "recognition": "Opened August 2020; historic bakery visit candidate. No award claimed for the interview period.",
-      "recognitionYear": 2020,
-      "awardFamily": "context",
-      "interviewCue": "Tiny Canton pastry shop at O'Donnell Square; croissants and Japanese egg sandwiches, mainly takeout in 2020.",
-      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/open-shut-cafe-dear-leon-snow-cone-sisters-hungry-like-the-wolfe/",
+      "recognition": "Café Dear Leon, Baltimore, was named an Outstanding Bakery semifinalist in the 2026 James Beard Awards. Venue-level recognition, not a winner or finalist; the 2026 honor postdates opening and may postdate the user's 2020–2021 Baltimore period.",
+      "recognitionYear": 2026,
+      "awardFamily": "beard",
+      "interviewCue": "Canton original bakery at 2929 O'Donnell Street: bright small storefront, white subway-brick and wood interior, house-baked French/Korean-influenced pastries, croissants and Japanese egg sandwiches. Opened August 2020, so cannot have been visited earlier; 2026 James Beard Outstanding Bakery semifinalist is after your possible Baltimore period.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
       "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "verified_official_2026_james_beard_outstanding_bakery_semifinalist",
       "addedOn": "2026-10-25",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "award_qualified",
+        "basis": "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "note": "2026 Outstanding Bakery semifinalist is venue-level, not win or nominee finalist. Does not prove the user visited or the honor existed before an unknown visit date."
       },
       "eligibility": {
-        "status": "outside_scope",
-        "basis": "context",
-        "reason": "No Michelin Guide or James Beard honor established for the named venue.",
-        "screenedOn": "2026-10-25",
+        "status": "eligible_candidate",
+        "basis": "beard",
+        "reason": "James Beard Foundation 2026 Outstanding Bakery semifinalist, original Canton cafe at 2929 O'Donnell Street.",
+        "screenedOn": "2026-11-03",
         "verifiedForPublication": false
-      }
+      },
+      "priority": "next",
+      "addressHint": "2929 O'Donnell Street, Baltimore, MD 21224 (original Canton location)",
+      "venueType": "bakery_cafe",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://cafedearleon.com/",
+        "https://www.cantoncommunity.org/news-and-notes/2020/8/7/neighborhood-notes-august-2020",
+        "https://www.baltimoremagazine.com/section/fooddrink/open-shut-cafe-dear-leon-snow-cone-sisters-hungry-like-the-wolfe/"
+      ],
+      "officialVenueWebsite": "https://cafedearleon.com/",
+      "openedOn": "2020-08",
+      "operatingStatus": "operating",
+      "photographicEvidence": [
+        {
+          "id": "dear-leon-original-canton-2020-opening",
+          "label": "Café Dear Leon in 2020",
+          "caption": "Baltimore Magazine's original August 2020 opening report and early café imagery.",
+          "photoSubject": "Café Dear Leon Canton opening-era pastry shop",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/open-shut-cafe-dear-leon-snow-cone-sisters-hungry-like-the-wolfe/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2020,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Café Dear Leon's original Canton bakery"
+        },
+        {
+          "id": "dear-leon-pastries-jhu",
+          "label": "Café Dear Leon pastry counter",
+          "caption": "Johns Hopkins News-Letter photo of croissants and pastries at the Canton bakery.",
+          "photoSubject": "Café Dear Leon's baked goods",
+          "sourceUrl": "https://www.jhunewsletter.com/article/2025/02/made-in-baltimore-a-love-letter-in-layerscaf-dear-leons-pastries-delight-canton",
+          "sourceOrganization": "The Johns Hopkins News-Letter",
+          "sourceYear": 2025,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Array of croissants and French-Korean inspired pastries"
+        },
+        {
+          "id": "dear-leon-egg-sandwich-starchefs",
+          "label": "Café Dear Leon egg sandwich",
+          "caption": "StarChefs visual of Min Kim's popular Japanese-style egg salad sandwich.",
+          "photoSubject": "Café Dear Leon egg sandwich",
+          "sourceUrl": "https://www.starchefs.com/on-the-ground/min-kim",
+          "sourceOrganization": "StarChefs",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Japanese-style egg salad sandwich in a paper takeout carton"
+        }
+      ]
     },
     {
       "id": "baltimore-nihao",
@@ -3806,10 +3856,10 @@
       "awardFamily": "beard",
       "interviewCue": "Westport Taiwanese restaurant occupying Bluestem's former 900 Westport Road premises. New business, striking green upholstered banquettes, pastel geometric patterned tile, neon Chewology sign, dumplings and Taiwanese food. Do not conflate with former Bluestem restaurant despite exact building address.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "official_2024_2025_jbf_best_chef_midwest_semifinalists_verified",
       "addedOn": "2026-10-25",
-      "priority": "next",
+      "priority": "reviewed",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "beard",
@@ -3875,7 +3925,14 @@
           "renderMode": "source_link_only",
           "altText": "Chewology neon sign in pink and blue above dining counter"
         }
-      ]
+      ],
+      "reviewCertainty": "explicit_user_nonattendance",
+      "wantsToVisit": true,
+      "wishlistId": "want-to-visit-chewology-kansas-city-metro",
+      "metroExperienceGroupId": "chewology-kansas-city-metro",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct user response November 3, 2026: 'I have not visited Chewology but want to go.'",
+      "userNote": "One Kansas City metro brand-level private future-visit wishlist; no visit, meal date, booking or Bluestem attendance transferred."
     },
     {
       "id": "candidate-kansas-city-metro-yoli-tortilleria",
@@ -9525,6 +9582,130 @@
       "visitPeriod": "First visit March 16, 2018",
       "historicalInterest": true,
       "attendanceCertainty": "confirmed_first_visit_historical_event_dated"
+    },
+    {
+      "id": "candidate-baltimore-water-for-chocolate-lombard",
+      "area": "Baltimore",
+      "subregion": "Upper Fells Point",
+      "name": "Water for Chocolate",
+      "venueType": "restaurant",
+      "addressHint": "1841 E Lombard Street, Baltimore, MD 21231",
+      "operatingStatus": "operating",
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
+      "awardFamily": "context",
+      "recognition": "Chef-owned intimate dining room; as of November 3, 2026, no qualifying James Beard/Michelin/CAMRA award verified. No award claimed.",
+      "recognitionYear": null,
+      "addedOn": "2026-11-03",
+      "priority": "reviewed_confirmed",
+      "researchStatus": "user_requested_baltimore_award_and_memory_audit",
+      "sourceUrl": "https://www.waterforchocolate.com/",
+      "sourceUrls": [
+        "https://www.waterforchocolate.com/",
+        "https://www.waterforchocolate.com/about/",
+        "https://www.bizjournals.com/baltimore/news/2019/08/08/water-for-chocolate-reopens-after-expansion.html"
+      ],
+      "interviewCue": "Chef Sean Guy's small restaurant at 1841 E Lombard Street, Baltimore, with creative American/Jamaican/French-influenced comfort food and intimate tables. Renovation in spring-summer 2019 more than doubled its footprint; the 2018 dining room may look different from current photographs.",
+      "screening": {
+        "status": "no_qualifying_award_verified",
+        "basis": null,
+        "sourceTier": "official_venue_and_local_reporting",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.waterforchocolate.com/about/",
+        "note": "No JBF, Michelin, CAMRA award confirmed. Asked by user as a historical memory lead; do not imply nonattendance or publication."
+      },
+      "eligibility": {
+        "status": "outside_core_award_scope_unless_memory_exception",
+        "basis": "context",
+        "reason": "Venue's culinary quality alone is not a documented qualifying award; review only if visit is confirmed and user requests an exception.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "water-for-chocolate-baltimore-dining-room",
+          "label": "Water for Chocolate dining room",
+          "caption": "Cozy East Lombard Street dining space with window seating and wood tables.",
+          "photoSubject": "Water for Chocolate Baltimore interior",
+          "sourceUrl": "https://joe.coffee/locations/md/baltimore/water-for-chocolate-catering-llc-baltimore/",
+          "sourceOrganization": "joe coffee",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Intimate dining room and street-facing window at Water for Chocolate in Baltimore"
+        }
+      ],
+      "attendanceCertainty": "direct_user_confirmation",
+      "reviewCertainty": "explicit_confirmed_visit",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "confirmedVisitId": "dining-water-for-chocolate-baltimore-date-unknown",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct user November 3, 2026: \"I have been to all three of those Baltimore places.\" Refers to Salt Tavern, Water for Chocolate, and Ministry of Brewing.",
+      "userNote": "Visited; exact date, meal/drinks, companions not established. This is not a future wishlist request. Private record and award-tier distinction preserved."
+    },
+    {
+      "id": "candidate-baltimore-ministry-of-brewing-lombard",
+      "area": "Baltimore",
+      "subregion": "Upper Fells Point / Washington Hill",
+      "name": "Ministry of Brewing",
+      "venueType": "brewery_taproom",
+      "addressHint": "1900 E Lombard Street, Baltimore, MD 21231",
+      "openedOn": "2020-01",
+      "operatingStatus": "operating",
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
+      "awardFamily": "esquire_best_bars",
+      "recognition": "2021 Esquire Best Bars in America selection for Ministry of Brewing, separately categorized editorial bar recognition, not Michelin or James Beard.",
+      "recognitionYear": 2021,
+      "addedOn": "2026-11-03",
+      "priority": "reviewed_confirmed",
+      "researchStatus": "user_requested_baltimore_award_and_memory_audit",
+      "sourceUrl": "https://ministryofbrewing.com/",
+      "sourceUrls": [
+        "https://ministryofbrewing.com/",
+        "https://www.thebanner.com/culture/food-drink/best-bars-baltimore-esquire-church-ash-bar-blooms-ZSVXWKOBCJAQZGFGQEDWRJGH7Q/",
+        "https://www.baltimoremagazine.com/section/fooddrink/ministry-of-brewing-upper-fells-point-brewery-in-desanctified-historic-catholic-church/",
+        "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/"
+      ],
+      "interviewCue": "Large brewery and taproom inside converted 1857 St Michael the Archangel church, 1900 E Lombard St; 53-foot vaulted ceilings, columns, pews, preserved religious artwork and gleaming metal brew tanks near former altar. Opened in 2020; do not infer visits from previous church activity.",
+      "screening": {
+        "status": "verified_other_editorial_bar_recognition",
+        "basis": "esquire_2021_best_bars_in_america_selection",
+        "sourceTier": "primary_esquire_editorial_2021",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+        "note": "2021 Esquire bar-list recognition distinct from a Michelin/James Beard honor; no CAMRA status asserted. Requires editorial tier assessment if confirmed visited."
+      },
+      "eligibility": {
+        "status": "verified_other_hospitality_recognition_requires_tier_review",
+        "basis": "esquire_best_bars_2021",
+        "reason": "National editorial best-bars list but not the established primary award family; may qualify under expanded hospitality/editorial criteria after user confirmation.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "ministry-of-brewing-church-interior",
+          "label": "Ministry of Brewing church taproom",
+          "caption": "Historic church interior repurposed with brewing tanks, decorative high ceilings, pews and columns.",
+          "photoSubject": "Ministry of Brewing Baltimore inside St Michael's church",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/ministry-of-brewing-upper-fells-point-brewery-in-desanctified-historic-catholic-church/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Vaulted ceiling and columns in historic church brewery in Baltimore"
+        }
+      ],
+      "attendanceCertainty": "direct_user_confirmation",
+      "reviewCertainty": "explicit_confirmed_visit",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "confirmedVisitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct user November 3, 2026: \"I have been to all three of those Baltimore places.\" Refers to Salt Tavern, Water for Chocolate, and Ministry of Brewing.",
+      "userNote": "Visited; exact date, meal/drinks, companions not established. This is not a future wishlist request. Private record and award-tier distinction preserved."
     }
   ],
   "source": {
@@ -10344,7 +10525,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Chewology, 900 Westport Road, Kansas City; distinct current restaurant in former Bluestem premises. 2024/2025 Katie Liu-Sung JBF Best Chef Midwest semifinalist; unreviewed, photos and four answers.",
+      "nextCandidate": "Chewology answered: not visited; private future wishlist recorded as one metro-brand entry. Kansas City retrospective continues after Baltimore requested mini-audit, skipping answered venues.",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -10359,7 +10540,8 @@
       "waldoThai": "2026-11-03 direct explicit nonattendance at original Waldo Thai 8431 Wornall Road; user wishes they had visited before closure. Private historical interest only, not future dining wishlist. Pam Liberda 2023 JBF Best Chef Midwest semifinalist retained.",
       "ryeMetro": "2026-11-03 direct reaffirmation of confirmed Rye Plaza visit; user instructs same-brand restaurants within a metro to count once. One Rye Kansas City metro dining experience, date unknown. Megan Garrelts JBF pastry semifinalist accolades historically attributed to Rye Leawood, only metro-brand association used for eligibility; no Leawood attendance or Plaza-specific chef award inferred.",
       "room39": "2026-11-03: explicit nonattendance at Room 39 across Kansas City metro, wants to visit; one brand-level private wishlist want-to-visit-room-39-kansas-city-metro. Supersedes October 28 prior MAYBE. James Beard Ted Habiger 2008, 2012, 2014 Best Chef Midwest semifinalist remains individual chef-in-post honor. No personal visit.",
-      "bluestem": "2026-11-03 direct user: explicitly NEVER visited Bluestem at 900 Westport Road; wishes had. Keep private historical interest only, not actionable wishlist. Overrides October 28 uncertain familiarity. Preserve Colby Garrelts' 2013 JBF Best Chef: Midwest win tied to Bluestem only, not Rye or Chewology."
+      "bluestem": "2026-11-03 direct user: explicitly NEVER visited Bluestem at 900 Westport Road; wishes had. Keep private historical interest only, not actionable wishlist. Overrides October 28 uncertain familiarity. Preserve Colby Garrelts' 2013 JBF Best Chef: Midwest win tied to Bluestem only, not Rye or Chewology.",
+      "chewology": "Explicitly not visited on 2026-11-03, wants to go. One KC metro brand-level private wishlist entry want-to-visit-chewology-kansas-city-metro. Preserve Katie Liu-Sung's distinct 2024 and 2025 JBF Best Chef Midwest semifinalist recognitions; no restaurant wins or Bluestem transfer."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -10629,7 +10811,7 @@
       ]
     },
     "baltimore": {
-      "status": "queued_historical_gap_audit_with_confirmed_salt",
+      "status": "active_historical_gap_audit_three_directly_confirmed",
       "confirmedSaltTavern": {
         "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
         "visitId": "dining-salt-tavern-baltimore-2018-03-16",
@@ -10642,19 +10824,37 @@
         "awardsNotTransferred": true,
         "reviewedOn": "2026-11-03"
       },
-      "nextInterviewSelection": "Resume Baltimore retrospective after KC Chewology interview; do not re-ask Salt attendance."
+      "nextInterviewSelection": "Café Dear Leon original Canton bakery, 2929 O'Donnell St, opened August 2020, 2026 JBF Outstanding Bakery semifinalist; ask four answer options with actual shop/pastry photos. Salt, Water for Chocolate and Ministry of Brewing confirmed, do not re-ask.",
+      "newUserRequestedLeads": [
+        "Water for Chocolate",
+        "Ministry of Brewing"
+      ],
+      "otherConfirmedVisits": [
+        {
+          "candidateId": "candidate-baltimore-water-for-chocolate-lombard",
+          "visitId": "dining-water-for-chocolate-baltimore-date-unknown",
+          "visitDate": null,
+          "awardStatus": "no_core_award_verified_private_watchlist"
+        },
+        {
+          "candidateId": "candidate-baltimore-ministry-of-brewing-lombard",
+          "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+          "visitDate": null,
+          "awardStatus": "2021_esquire_best_bars_editorial_not_jbf_michelin"
+        }
+      ]
     }
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Kansas City Metro",
-      "category": "restaurants",
+      "area": "Baltimore",
+      "category": "bakery_cafe",
       "candidateNames": [
-        "Chewology"
+        "Café Dear Leon"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you ever eat at Chewology, the Taiwanese restaurant now at 900 Westport Road, Kansas City, which occupies former Bluestem's address?",
-      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; Add it to my private future-visit wishlist. Distinct restaurant from now-closed Bluestem despite exact address. Katie Liu-Sung JBF Best Chef Midwest 2024/2025 semifinalist; show actual Chewology interior and food photos. Baltimore Salt Tavern separately confirmed for March 16, 2018; do not re-ask."
+      "question": "Have you visited Café Dear Leon at its original 2929 O'Donnell Street Canton bakery, which opened in August 2020?",
+      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; No, but want to go. Show historical storefront, pastry and egg-sandwich photographs. Venue named 2026 James Beard Outstanding Bakery semifinalist, not winner; recognition may postdate the actual visit. All three user-mentioned Baltimore venues (Salt, Water for Chocolate, Ministry of Brewing) already confirmed. Resume Kansas City historical after this Baltimore stretch."
     },
     "pausedBatches": [
       {
@@ -10765,6 +10965,13 @@
         "note": "Joy remains the leading possible Taiwanese identity, Liu's Cafe secondary; neither confirmed. No assumed new dining records.",
         "pausedOn": "2026-10-27",
         "reason": "Cambridge interview requested next; existing LA answers and active background research retained."
+      },
+      {
+        "area": "Kansas City Metro",
+        "category": "restaurants",
+        "status": "paused_after_chewology_answer_for_baltimore_user_request",
+        "pausedOn": "2026-11-03",
+        "reason": "User explicitly asked to look at Water for Chocolate and Ministry of Brewing while continuing KC; resume other unanswered award-eligible venues after Baltimore two-venue mini-audit, without re-asking Chewology or other reviewed KC restaurants."
       }
     ],
     "interviewMode": "one_venue_at_a_time",
