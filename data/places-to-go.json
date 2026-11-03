@@ -1751,6 +1751,45 @@
       "recognitions": [],
       "recognitionContext": "Samuel Adams brewery/beer accolades including Great American Beer Festival results are beer- or producer-level and do not automatically belong to the Jamaica Plain site. No specific dated, site-attributed medal added without official source confirmation.",
       "notes": "Exactly one original Jamaica Plain brewery wishlist; explicitly not visited, no tour, beer order or past visit. Private future interest only and excluded from all confirmed experiences."
+    },
+    {
+      "id": "want-to-visit-night-shift-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-night-shift",
+      "name": "Night Shift Brewing — Greater Boston metro",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-03",
+      "metroExperienceGroupId": "night-shift-brewing-greater-boston",
+      "location": {
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "Brand-level wishlist only; no specific taproom chosen. Everett at 87 Santilli Highway, Lovejoy Wharf at 1 Lovejoy Wharf, and seasonal beer gardens are separate possible destinations."
+      },
+      "website": "https://nightshiftbrewing.com/locations/",
+      "userNote": "I have never visited Night Shift Brewing, but want to go. One Greater Boston brewery-brand-level wishlist, not a visit to Everett or Lovejoy Wharf.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-03",
+        "quote": "Culture Passport Boston brewery interview: For Night Shift Brewing, my answer is \"No, but want to go\"."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating_multiple_locations",
+      "recognitions": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2025,
+          "category": "Best of Boston Readers' Poll — Best Brewery",
+          "result": "winner",
+          "recipient": "Night Shift Brewing (brand, multiple locations)",
+          "relationship": "Readers' choice editorial distinction at brewery-brand level; not a judged brewing medal, not a specific taproom award, and does not establish attendance.",
+          "sourceUrl": "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/"
+        }
+      ],
+      "notes": "Exactly one Greater Boston brewery-brand wishlist entry, explicit nonattendance and future interest only. No date, branch, reservation, previous order or personal visit asserted. Private wishlist excluded from public experience records."
     }
   ],
   "interviewConvention": {
