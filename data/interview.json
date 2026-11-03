@@ -9706,6 +9706,79 @@
       "reviewedOn": "2026-11-03",
       "reviewSource": "Direct user November 3, 2026: \"I have been to all three of those Baltimore places.\" Refers to Salt Tavern, Water for Chocolate, and Ministry of Brewing.",
       "userNote": "Visited; exact date, meal/drinks, companions not established. This is not a future wishlist request. Private record and award-tier distinction preserved."
+    },
+    {
+      "id": "candidate-baltimore-rye-street-tavern-sagamore",
+      "area": "Baltimore",
+      "subregion": "Port Covington / Baltimore Peninsula",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "venueType": "restaurant",
+      "addressHint": "225 E Cromwell Street, Baltimore, MD 21230",
+      "openedOn": "2017-09",
+      "originalPublicServiceCeasedOn": "2020-12",
+      "pausedIn": "2021-05",
+      "reopenedOn": "2024-07-15",
+      "operatingStatus": "open_relaunched_by_clydes_july_2024",
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
+      "visitDate": null,
+      "visitPeriod": "Exact date and operating era unknown",
+      "visitEra": "unverified_original_2017_to_2020_or_reopened_2024_onward",
+      "reviewCertainty": "explicit_first_person_confirmation",
+      "reviewSource": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
+      "reviewedOn": "2026-11-03",
+      "confirmedVisitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "recognition": "Historical original NoHo/Andrew Carmellini restaurant at Sagamore Spirit; Carmellini's personal James Beard honors elsewhere are NOT restaurant honors here. No direct venue Michelin/JBF honor verified.",
+      "recognitionYear": null,
+      "awardFamily": "historical_chef_connection_not_formal_venue_honor",
+      "interviewCue": "Waterfront restaurant next to Sagamore Spirit Distillery, Port Covington. 2017–2020 NoHo/Andrew Carmellini era: industrial wood/copper interiors, waterfront outlook. Public dining stopped December 2020, later 2021 pause; 2024 Clyde's reopening redesigned the place with oyster bar and waterfront outdoor bar. Confirmed venue, but exact era/date unknown.",
+      "sourceUrl": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+      "sourceUrls": [
+        "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+        "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
+        "https://www.ryestreettavern.com/about/"
+      ],
+      "screening": {
+        "status": "historical_venue_verified_no_formal_direct_award",
+        "basis": "named_sagamore_rye_street_tavern",
+        "sourceTier": "historical_period_reporting_and_current_operator",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+        "note": "Confirmed visit, exact operating era unknown. No inherited Michelin/JBF award."
+      },
+      "eligibility": {
+        "status": "archived_confirmed_pending_qualifying_recognition",
+        "basis": "direct_attendance_no_verified_formal_venue_award",
+        "reason": "Attendance alone establishes a private record; no Michelin/JBF venue recognition has been independently verified. Founder awards elsewhere do not transfer.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "rye-street-original-2017-interior",
+          "label": "Original 2017 Rye Street Tavern",
+          "caption": "Original Andrew Carmellini-era waterfront restaurant interiors, before 2024 redesign.",
+          "photoSubject": "Rye Street Tavern original interior 2017",
+          "sourceUrl": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+          "sourceOrganization": "Eater",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Industrial waterfront restaurant with copper and wood details"
+        },
+        {
+          "id": "rye-street-2024-reopened-interior",
+          "label": "2024 reopened Rye Street Tavern",
+          "caption": "Redesigned Clyde's-era restaurant, shown for historical contrast only; not evidence of when user visited.",
+          "photoSubject": "Rye Street Tavern restaurant 2024 renovation",
+          "sourceUrl": "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
+          "sourceOrganization": "SouthBMore",
+          "sourceYear": 2024,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Waterfront restaurant with new oyster bar and renovated dining space"
+        }
+      ]
     }
   ],
   "source": {
@@ -10811,7 +10884,7 @@
       ]
     },
     "baltimore": {
-      "status": "active_historical_gap_audit_three_directly_confirmed",
+      "status": "active_historical_gap_audit_four_directly_confirmed_including_prior_salt",
       "confirmedSaltTavern": {
         "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
         "visitId": "dining-salt-tavern-baltimore-2018-03-16",
@@ -10824,10 +10897,11 @@
         "awardsNotTransferred": true,
         "reviewedOn": "2026-11-03"
       },
-      "nextInterviewSelection": "Café Dear Leon original Canton bakery, 2929 O'Donnell St, opened August 2020, 2026 JBF Outstanding Bakery semifinalist; ask four answer options with actual shop/pastry photos. Salt, Water for Chocolate and Ministry of Brewing confirmed, do not re-ask.",
+      "nextInterviewSelection": "Café Dear Leon original Canton bakery, 2929 O'Donnell Street; 2026 JBF Outstanding Bakery semifinalist, four answer options with period photos. Newly confirmed by latest user response: Water for Chocolate, Ministry of Brewing, Rye Street Tavern at Sagamore. Salt separately confirmed earlier. Do not re-ask any of these four.",
       "newUserRequestedLeads": [
         "Water for Chocolate",
-        "Ministry of Brewing"
+        "Ministry of Brewing",
+        "Rye Street Tavern (Sagamore Spirit campus)"
       ],
       "otherConfirmedVisits": [
         {
@@ -10841,6 +10915,13 @@
           "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
           "visitDate": null,
           "awardStatus": "2021_esquire_best_bars_editorial_not_jbf_michelin"
+        },
+        {
+          "candidateId": "candidate-baltimore-rye-street-tavern-sagamore",
+          "visitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+          "visitDate": null,
+          "visitEra": "unverified_original_or_post_2024",
+          "awardStatus": "no_direct_michelin_james_beard_venue_award_verified_private_watchlist"
         }
       ]
     }
@@ -10854,7 +10935,7 @@
       ],
       "status": "awaiting_user_response",
       "question": "Have you visited Café Dear Leon at its original 2929 O'Donnell Street Canton bakery, which opened in August 2020?",
-      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; No, but want to go. Show historical storefront, pastry and egg-sandwich photographs. Venue named 2026 James Beard Outstanding Bakery semifinalist, not winner; recognition may postdate the actual visit. All three user-mentioned Baltimore venues (Salt, Water for Chocolate, Ministry of Brewing) already confirmed. Resume Kansas City historical after this Baltimore stretch."
+      "continuation": "Four options: Yes visited / Maybe / No haven't been / No but want to go. Show actual historical storefront, pastry and egg-sandwich photos; 2026 James Beard Outstanding Bakery semifinalist is not a win and may postdate any visit. Water for Chocolate, Ministry of Brewing and Rye Street Tavern are the three venues confirmed by latest direct statement; Salt was separately confirmed earlier."
     },
     "pausedBatches": [
       {
