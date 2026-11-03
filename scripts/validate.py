@@ -116,7 +116,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["John Brown\'s Underground"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Story."]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -209,8 +209,31 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["John Brown\'s Underground"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Story."]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
+
+# Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
+jbu = next(x for x in candidates if x["id"] == "candidate-lawrence-john-browns-underground")
+assert jbu["visitStatus"] == "confirmed"
+assert jbu["confirmedVisitId"] == "bar-john-browns-underground-lawrence-date-unknown"
+jbu_visit = next(r for r in records if r["id"] == jbu["confirmedVisitId"])
+assert jbu_visit["type"] == "bar" and jbu_visit["status"] == "confirmed"
+assert jbu_visit["venueId"] == "venue-john-browns-underground-lawrence"
+assert jbu_visit["visit"]["date"] is None and jbu_visit["visit"]["precision"] == "unknown"
+assert jbu_visit["editorial"]["awardQualified"] is True
+assert len(jbu_visit["recognitions"]) == 1
+assert jbu_visit["recognitions"][0]["category"] == "Outstanding Bar"
+assert jbu_visit["recognitions"][0]["year"] == 2025
+assert jbu_visit["recognitions"][0]["result"] == "semifinalist"
+assert jbu_visit["curation"]["verifiedForPublication"] is False
+story_candidate = next(x for x in candidates if x["id"] == "candidate-kc-story-prairie-village")
+assert story_candidate["name"] == "Story."
+assert story_candidate["visitStatus"] == "unreviewed"
+assert story_candidate["operatingStatus"] == "permanently_closed"
+assert story_candidate["screening"]["status"] == "award_qualified"
+assert "Carl Thorne-Thomsen" in story_candidate["recognition"]
+assert not any(r["venueId"] == "venue-story-prairie-village" and r["status"] == "confirmed" for r in records)
+assert not any(w["candidateId"] == story_candidate["id"] for w in wishlist["entries"])
 
 # Stock Hill: actual AAA Four Diamond recognition, not a Michelin/JBF award or a visit.
 stock_hill = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-stock-hill")
