@@ -3324,22 +3324,22 @@
       "id": "candidate-kansas-city-metro-the-town-company",
       "area": "Kansas City Metro",
       "name": "The Town Company",
-      "recognition": "Chef Johnny Leach was James Beard Best Chef: Midwest semifinalist in 2023–2025, after the restaurant opened",
-      "recognitionYear": 2023,
+      "recognition": "Johnny Leach was a 2026 James Beard Best Chef: Midwest semifinalist at The Town Company; Helen Jo Leach was separately a 2026 James Beard Outstanding Pastry Chef or Baker semifinalist at the same restaurant. Both are individual chef-in-post semifinalist honors, not wins or venue-level awards. Historic 2023–2025 chef recognitions also reported by Visit KC.",
+      "recognitionYear": 2026,
       "awardFamily": "beard",
-      "interviewCue": "Restaurant inside Hotel Kansas City, opened 2020; kitchen led by Johnny and Helen Jo Leach.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "interviewCue": "Inside Hotel Kansas City at 1228 Baltimore: intimate mahogany and indigo dining room with long oxblood tufted-leather banquette, gold accents and an open white-oak live-fire kitchen/hearth. This restaurant is not the separate hotel lobby bar. Ask whether user dined at this exact restaurant.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
       "visitStatus": "not_visited",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "official_2026_james_beard_dual_chef_in_post_semifinalists_verified",
       "addedOn": "2026-10-25",
-      "priority": "standard",
+      "priority": "next",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
-        "evidenceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-        "sourceTier": "secondary",
-        "verifiedAt": "2026-10-25",
-        "note": "Direct venue Michelin listing or a James Beard restaurant/chef-in-post recognition. Year and award level are kept in the recognition text; some awards postdate a possible meal."
+        "basis": "james_beard_2026_best_chef_midwest_johnny_leach_and_outstanding_pastry_chef_baker_helen_jo_leach_semifinalists_exact_venue",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "Foundation's 2026 official list separately names Johnny Leach as Best Chef: Midwest semifinalist and Helen Jo Leach as Outstanding Pastry Chef or Baker semifinalist at The Town Company; no wins or finalist status claimed. Earlier 2023–2025 recognitions kept separately in commentary and secondary source."
       },
       "eligibility": {
         "status": "eligible_candidate",
@@ -3350,7 +3350,46 @@
       },
       "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
       "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewCertainty": "tentative_negative",
+      "addressHint": "1228 Baltimore Avenue, Hotel Kansas City, Kansas City, MO 64105",
+      "subregion": "Downtown Kansas City; Hotel Kansas City, historic Kansas City Club building",
+      "venueType": "restaurant",
+      "operatingStatus": "operating",
+      "openedOn": "2020-10",
+      "reconfirmationRequestedOn": "2026-11-03",
+      "reconfirmationReason": "2026-10-25 group-level negative was tentative, not exact-venue explicit. Use detailed official dining-room photos to ask specifically about the restaurant inside Hotel Kansas City; do not confuse with lobby bar or hotel attendance.",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "https://www.hyatt.com/unbound-collection/en-US/mcijd-hotel-kansas-city/dining",
+        "https://restaurantandbardesignawards.com/entry/10399"
+      ],
+      "photographicEvidence": [
+        {
+          "id": "town-company-hyatt-interior",
+          "label": "Town Company — dark banquettes and blue dining room",
+          "caption": "Hotel Kansas City's official hotel dining photography shows The Town Company restaurant dining room with tufted leather booths, wood floors and blue walls.",
+          "photoSubject": "The Town Company restaurant dining room at 1228 Baltimore Ave",
+          "sourceUrl": "https://www.hyatt.com/unbound-collection/en-US/mcijd-hotel-kansas-city/dining",
+          "sourceOrganization": "Hotel Kansas City / Hyatt",
+          "sourceYear": 2021,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Blue-panelled intimate restaurant interior with upholstered banquettes and wooden tables"
+        },
+        {
+          "id": "town-company-chef-counter",
+          "label": "Town Company — open-kitchen chef counter",
+          "caption": "The Infatuation's interior photograph of The Town Company's open kitchen and chef's counter, distinct from hotel lobby and bar.",
+          "photoSubject": "Open-kitchen chef counter inside The Town Company",
+          "sourceUrl": "https://www.theinfatuation.com/kansas-city/reviews/the-town-company",
+          "sourceOrganization": "The Infatuation",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Warm wood chef counter and open kitchen with small tables in downtown Kansas City"
+        }
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-gram-dun",
@@ -3408,9 +3447,16 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewSource": "Resolved to the exact same current 2143 Summit Street Fox & Pearl venue after direct user answer on 2026-11-03. Alias only; do not duplicate a venue, visit, or wishlist item.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+      "attendanceCertainty": "explicit_nonattendance",
+      "wantsToVisit": true,
+      "wishlistStatus": "linked_alias_no_duplicate_entry",
+      "canonicalCandidateId": "candidate-kansas-city-metro-fox-pearl",
+      "wishlistEntryId": "want-to-visit-fox-pearl-2143-summit-kansas-city",
+      "priority": "reviewed",
+      "visitPeriod": null
     },
     {
       "id": "candidate-kansas-city-metro-the-restaurant-at-1900",
@@ -3487,7 +3533,7 @@
       "visitStatus": "not_visited",
       "researchStatus": "official_2020_jbf_best_chef_midwest_at_original_permanent_site_verified",
       "addedOn": "2026-10-25",
-      "priority": "next",
+      "priority": "reviewed",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "james_beard",
@@ -3495,9 +3541,9 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative",
+      "reviewSource": "Direct user on 2026-11-03: I have never visited Fox & Pearl at 2143 Summit Street, Kansas City, but want to go.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
       "addressHint": "2143 Summit Street, Kansas City, MO 64108",
       "subregion": "Historic Westside, Kansas City, Missouri — permanent 2143 Summit location, not temporary 815 W 17th Street",
       "venueType": "restaurant",
@@ -3547,7 +3593,13 @@
         }
       ],
       "linkedCandidateId": "candidate-kansas-city-metro-fox-and-pearl",
-      "linkedCandidateNote": "Earlier duplicate name variant 'Fox and Pearl' refers to same restaurant; preserve its tentative review state and consolidate in future deduplication without treating as a second experience."
+      "linkedCandidateNote": "Earlier duplicate name variant 'Fox and Pearl' refers to same restaurant; preserve its tentative review state and consolidate in future deduplication without treating as a second experience.",
+      "attendanceCertainty": "explicit_nonattendance",
+      "wantsToVisit": true,
+      "wishlistStatus": "want_to_visit",
+      "wishlistEntryId": "want-to-visit-fox-pearl-2143-summit-kansas-city",
+      "reconfirmationResolvedOn": "2026-11-03",
+      "visitPeriod": null
     },
     {
       "id": "candidate-kansas-city-metro-room-39",
@@ -10300,11 +10352,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Fox & Pearl"
+        "The Town Company"
       ],
       "status": "awaiting_reconfirmation_of_prior_tentative_negative",
-      "question": "Have you visited Fox & Pearl at its permanent 2143 Summit Street location in Kansas City's Westside (open since July 2019)?",
-      "continuation": "Four options: Yes visited, Maybe familiar, No never visited, Add to future-visit wishlist (not visited, want to go). Prior October 25 group-level negative is tentative, not definitive. Do not confuse 2143 Summit with temporary 815 W 17th or double-count 'Fox and Pearl' alias."
+      "question": "Did you ever dine at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City, rather than just visit the hotel or bar?",
+      "continuation": "Four answers: Yes — I visited/dined, Maybe — looks familiar, No — never visited, Add to list — want to go. If yes, clarify restaurant meal vs hotel bar/event and preserve date unknown. Source-linked official photos and 2026 JBF separately attributed chef/baker recognitions. October 25 batch-level negative was tentative; preserve until direct answer. Continue KC region historical screening."
     },
     "pausedBatches": [
       {
