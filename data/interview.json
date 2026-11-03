@@ -2861,10 +2861,10 @@
       "awardFamily": "beard",
       "interviewCue": "Former acclaimed Westside tasting-menu restaurant by Colby and Megan Garrelts; closed in 2020.",
       "sourceUrl": "https://archive.jamesbeard.org/blog/winner-recap-2",
-      "visitStatus": "maybe",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
-      "priority": "next",
+      "priority": "reviewed",
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard_2013_best_chef_midwest_winner_at_bluestem",
@@ -2880,10 +2880,10 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "Direct user correction on October 28, 2026: 'Bluestem looks familiar, but I'm not certain I visited. Preserve the uncertainty and continue the Kansas City interview.' Supersedes the October 25 tentative group-level negative for Bluestem only.",
-      "reviewedOn": "2026-10-28",
-      "reviewCertainty": "explicit_uncertain",
-      "visitNote": "Possible past visit at Bluestem, 900 Westport Road, Kansas City. Familiarity only. No confirmed attendance, meal, companions, or visit date. Closed 2020; retain qualifying chef recognition independently of personal visit.",
+      "reviewSource": "Direct 2026-11-03 user statement: 'I never visited Bluestem at 900 Westport Road, but wish I had. Record nonattendance and private historical interest only because Bluestem is permanently closed; not a future-visit wishlist entry.' Supersedes October 28 uncertain familiarity.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonattendance",
+      "visitNote": "Explicit never visited; no meal, date, companions, or reservation inferred. 2013 Colby Garrelts James Beard win preserved at Bluestem; distinct from separately confirmed Rye Kansas City metro experience.",
       "operatingStatus": "permanently_closed",
       "closedOn": "2020-12-19",
       "addressHint": "900 Westport Road, Kansas City, MO 64111",
@@ -2912,7 +2912,15 @@
           "renderMode": "source_link_only",
           "altText": "Original Bluestem dining room with brick wall, open kitchen and dark tables"
         }
-      ]
+      ],
+      "attendance": false,
+      "reconfirmationResolvedOn": "2026-11-03",
+      "historicalInterest": true,
+      "historicalInterestReason": "Wishes they had eaten at Bluestem before permanent closure in 2020; never attended.",
+      "wantsToVisit": false,
+      "wishlistStatus": "historical_interest_only_closed",
+      "wishlistDecision": "historical_interest_no_actionable_future_visit",
+      "visitDate": null
     },
     {
       "id": "candidate-kansas-city-metro-rye-leawood",
@@ -3793,22 +3801,80 @@
       "id": "candidate-kansas-city-metro-chewology",
       "area": "Kansas City Metro",
       "name": "Chewology",
-      "recognition": "Chef Katie Liu-Sung was a 2024 and 2025 James Beard Best Chef: Midwest semifinalist.",
+      "recognition": "Katie Liu-Sung at Chewology in Kansas City was a James Beard Best Chef: Midwest semifinalist in 2024 and 2025 (two separate individual chef-in-post semifinalist recognitions, not finalists or wins).",
       "recognitionYear": 2024,
       "awardFamily": "beard",
-      "interviewCue": "Westport Taiwanese restaurant with handmade dumplings and noodles.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "interviewCue": "Westport Taiwanese restaurant occupying Bluestem's former 900 Westport Road premises. New business, striking green upholstered banquettes, pastel geometric patterned tile, neon Chewology sign, dumplings and Taiwanese food. Do not conflate with former Bluestem restaurant despite exact building address.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
       "visitStatus": "unreviewed",
-      "researchStatus": "award_screened",
+      "researchStatus": "official_2024_2025_jbf_best_chef_midwest_semifinalists_verified",
       "addedOn": "2026-10-25",
-      "priority": "high",
+      "priority": "next",
       "eligibility": {
         "status": "eligible_candidate",
-        "basis": "james_beard",
-        "reason": "James Beard recognition documented in Visit KC's honorees guide; original category/year should be rechecked if a visit is confirmed.",
-        "screenedOn": "2026-10-25",
+        "basis": "beard",
+        "reason": "Two official James Beard Best Chef Midwest semifinalist entries name Katie Liu-Sung at Chewology, Kansas City MO.",
+        "screenedOn": "2026-11-03",
         "verifiedForPublication": false
-      }
+      },
+      "venueType": "restaurant",
+      "addressHint": "900 Westport Road, Kansas City, MO 64111",
+      "operatingStatus": "operating",
+      "officialVenueWebsite": "https://www.chewologykc.com/",
+      "openedOn": "2021-09",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "https://www.chewologykc.com/",
+        "https://www.bizjournals.com/kansascity/news/2021/09/29/take-a-sneak-peek-tour-of-chewology.html"
+      ],
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_2024_and_2025_best_chef_midwest_katie_liu_sung_at_chewology",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+        "additionalEvidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "note": "Chef-in-post 2024 and 2025 JBF semifinalist, not venue award or win. Same physical address as former Bluestem; attendance at either does not establish attendance at the other."
+      },
+      "photographicEvidence": [
+        {
+          "id": "chewology-westport-2021-interior",
+          "label": "Chewology 2021 opening interior",
+          "caption": "Opening photo of Chewology's green booth seating and pink-gray geometric tile wall at 900 Westport Road (not Bluestem).",
+          "photoSubject": "Chewology Westport interior, September 2021",
+          "sourceUrl": "https://www.bizjournals.com/kansascity/news/2021/09/29/take-a-sneak-peek-tour-of-chewology.html",
+          "sourceOrganization": "Kansas City Business Journal",
+          "sourceYear": 2021,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Green banquettes, pastel tiled walls and bright patterned tables inside Chewology"
+        },
+        {
+          "id": "chewology-2022-food",
+          "label": "Chewology Taiwanese dishes",
+          "caption": "Historical Chewology dishes including dumplings, bao, noodles on patterned tablecloth.",
+          "photoSubject": "Chewology Taiwanese street food 2022",
+          "sourceUrl": "https://www.thepitchkc.com/dish-drink-kc-prepare-your-stomach-for-the-13th-annual-kc-restaurant-week/",
+          "sourceOrganization": "The Pitch",
+          "sourceYear": 2022,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Taiwanese gyoza, noodles and bao on bright floral tablecloth"
+        },
+        {
+          "id": "chewology-neon-interior",
+          "label": "Chewology neon-sign interior",
+          "caption": "Interior with tiled wall and neon CHEWOLOGY signage; distinct from historical Bluestem photos.",
+          "photoSubject": "Chewology Westport restaurant interior",
+          "sourceUrl": "https://thevendry.com/venue/267647/chewology",
+          "sourceOrganization": "The Vendry",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Chewology neon sign in pink and blue above dining counter"
+        }
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-yoli-tortilleria",
@@ -9380,6 +9446,78 @@
       "attendanceCertainty": "explicit_nonattendance",
       "visitPeriod": null,
       "wishlistDecision": "not_eligible_for_future_visit_closed"
+    },
+    {
+      "id": "candidate-baltimore-salt-tavern-pratt-street",
+      "area": "Baltimore",
+      "subregion": "Butchers Hill / Upper Fells Point",
+      "name": "Salt Tavern",
+      "venueType": "restaurant",
+      "addressHint": "2127 E Pratt Street, Baltimore, MD 21231",
+      "openedOn": "2006",
+      "closedOn": "2018-08-11",
+      "operatingStatus": "regular_dining_closed_2018_space_replaced_by_marta_2022",
+      "visitStatus": "unreviewed",
+      "reviewCertainty": "unanswered",
+      "wantsToVisit": null,
+      "visitDate": null,
+      "recognition": "Baltimore Magazine Best of Baltimore 2006: Burger and Fries (specific dish/category at Salt); Baltimore Sun 2010 Top 50 Restaurants: Salt Tavern ranked #10; Baltimore Magazine reported four-star Baltimore Sun review and other local 'Best of' nods. These are local editorial distinctions, not verified Michelin or James Beard honors.",
+      "recognitionYear": 2006,
+      "awardFamily": "local_editorial_award_and_ranked_guide",
+      "researchStatus": "local_editorial_distinctions_verified_jbf_michelin_not_established",
+      "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+      "sourceUrls": [
+        "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+        "https://www.pauladamsmith.com/misc/top_50_baltimore_restaurants_2010.html",
+        "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
+        "https://www.baltimoremagazine.com/section/fooddrink/open-shut-little-bird-man-vs-pho-salt-tavern/",
+        "https://www.baltimoremagazine.com/section/fooddrink/review-marta-fine-food-spirits-butcher-hill/"
+      ],
+      "interviewCue": "Historic Salt: A New American Tavern on East Pratt St, opened 2006 by Jason and Jane Ambrose. Exposed brick walls, green hanging globe lamps, separate small bar and dining room, duck-fat fries, foie-gras Wagyu burger and goat cheese doughnuts. Last regular dinner August 11, 2018. The space is now Marta; do not count dining at Marta as a Salt visit.",
+      "screening": {
+        "status": "local_editorial_recognition_verified_pending_strict_eligibility_review",
+        "basis": "2006_baltimore_magazine_best_burger_and_fries_and_2010_baltimore_sun_top_50_rank_10",
+        "sourceTier": "primary_publisher_and_historical_ranking_transcription",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+        "note": "2006 named food category Best of Baltimore at Salt; 2010 Sun rank #10 supported by archived transcription; neither is Michelin or JBF. Distinguish formal culinary award eligibility from local editorial/guide accolade. Retain as user-requested Baltimore retrospective candidate pending attendance and eligibility decision."
+      },
+      "eligibility": {
+        "status": "historical_editorial_candidate",
+        "basis": "local_best_of_and_historical_guide_rank",
+        "reason": "Confirmed named Baltimore Magazine 2006 category winner and Sun 2010 top-ten list. No James Beard/Michelin recognition substantiated; assess within user-approved expanded cultural inclusion policy, without preemptively promoting public story.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "salt-baltimore-2013-interior",
+          "label": "Salt Tavern dining room, 2013",
+          "caption": "Baltimore Magazine's 2013 review photo and historic restaurant descriptions. Green globe hanging lights, exposed brick, dining room and bar; original Salt, not later Marta.",
+          "photoSubject": "Salt: A New American Tavern historic restaurant interior",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2013,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Salt Baltimore historic brick-walled neighborhood restaurant with pendant lighting"
+        },
+        {
+          "id": "salt-baltimore-2006-baltimore-style",
+          "label": "Salt Tavern opening-era photo",
+          "caption": "2006 Baltimore Style review of Salt; original tavern interiors and cuisine.",
+          "photoSubject": "Salt: A New American Tavern in 2006",
+          "sourceUrl": "https://baltimorestyle.com/to_salt/",
+          "sourceOrganization": "Baltimore Style",
+          "sourceYear": 2006,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Historic Salt Baltimore restaurant photo from 2006"
+        }
+      ],
+      "addedOn": "2026-11-03",
+      "priority": "queued_for_baltimore",
+      "reviewSource": "User 2026-11-03: 'Let's look at Salt in Baltimore too.' This is a research/venue request, NOT an attendance confirmation or future wishlist instruction."
     }
   ],
   "source": {
@@ -10199,7 +10337,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Bluestem (historical, closed December 19 2020), 900 Westport Road Kansas City. Original chef Colby Garrelts JBF 2013 Best Chef Midwest winner; prior MAYBE looks familiar; source-linked interior photos, four historically appropriate answer choices.",
+      "nextCandidate": "Chewology, 900 Westport Road, Kansas City; distinct current restaurant in former Bluestem premises. 2024/2025 Katie Liu-Sung JBF Best Chef Midwest semifinalist; unreviewed, photos and four answers.",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -10213,7 +10351,8 @@
       "townCompany": "Direct user 2026-11-03: explicitly never dined at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City; wants to visit exact operating restaurant. Private wishlist want-to-visit-the-town-company-hotel-kansas-city; Johnny Leach 2026 JBF Best Chef Midwest semifinalist and Helen Jo Leach 2026 JBF Outstanding Pastry Chef or Baker semifinalist, independently attributed and not wins. Supersedes October 25 tentative negative.",
       "waldoThai": "2026-11-03 direct explicit nonattendance at original Waldo Thai 8431 Wornall Road; user wishes they had visited before closure. Private historical interest only, not future dining wishlist. Pam Liberda 2023 JBF Best Chef Midwest semifinalist retained.",
       "ryeMetro": "2026-11-03 direct reaffirmation of confirmed Rye Plaza visit; user instructs same-brand restaurants within a metro to count once. One Rye Kansas City metro dining experience, date unknown. Megan Garrelts JBF pastry semifinalist accolades historically attributed to Rye Leawood, only metro-brand association used for eligibility; no Leawood attendance or Plaza-specific chef award inferred.",
-      "room39": "2026-11-03: explicit nonattendance at Room 39 across Kansas City metro, wants to visit; one brand-level private wishlist want-to-visit-room-39-kansas-city-metro. Supersedes October 28 prior MAYBE. James Beard Ted Habiger 2008, 2012, 2014 Best Chef Midwest semifinalist remains individual chef-in-post honor. No personal visit."
+      "room39": "2026-11-03: explicit nonattendance at Room 39 across Kansas City metro, wants to visit; one brand-level private wishlist want-to-visit-room-39-kansas-city-metro. Supersedes October 28 prior MAYBE. James Beard Ted Habiger 2008, 2012, 2014 Best Chef Midwest semifinalist remains individual chef-in-post honor. No personal visit.",
+      "bluestem": "2026-11-03 direct user: explicitly NEVER visited Bluestem at 900 Westport Road; wishes had. Keep private historical interest only, not actionable wishlist. Overrides October 28 uncertain familiarity. Preserve Colby Garrelts' 2013 JBF Best Chef: Midwest win tied to Bluestem only, not Rye or Chewology."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -10481,18 +10620,42 @@
         "candidate-maui-tiffanys-wailuku",
         "candidate-maui-sale-pepe-lahaina"
       ]
+    },
+    "baltimore": {
+      "status": "queued_historical_gap_audit",
+      "nextTargetCandidateId": "candidate-baltimore-salt-tavern-pratt-street",
+      "venue": "Salt Tavern",
+      "historicAddress": "2127 E Pratt Street, Baltimore, MD 21231",
+      "attendanceStatus": "unreviewed",
+      "queuedOn": "2026-11-03",
+      "sourceQuote": "Let's look at Salt in Baltimore too",
+      "recognitionSummary": "Baltimore Magazine 2006 Best Burger & Fries category and Baltimore Sun Top 50 #10 in 2010; separate from Michelin/JBF",
+      "closureStatus": "regular dining closed August 11 2018",
+      "currentSuccessor": "Marta — not interchangeable with original Salt",
+      "nextQuestion": "Did you dine at Salt: A New American Tavern on East Pratt St in Baltimore before August 2018?",
+      "photoEvidenceUrls": [
+        "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
+        "https://baltimorestyle.com/to_salt/"
+      ],
+      "responseChoices": [
+        "Yes — visited",
+        "Maybe — looks familiar",
+        "No — never visited",
+        "No — wish I had (historical interest only)"
+      ],
+      "statusNotes": "User has not answered Salt attendance yet; do not infer a visit or wishlist."
     }
   },
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "historical_restaurants",
+      "category": "restaurants",
       "candidateNames": [
-        "Bluestem"
+        "Chewology"
       ],
       "status": "awaiting_user_response",
-      "question": "Bluestem at 900 Westport Road closed December 19, 2020. You previously thought it looked familiar; did you ever dine there?",
-      "continuation": "Four historical answer choices: Yes — visited; Maybe — looks familiar; No — never visited; No — wish I had (historical interest, not actionable wishlist). Distinct restaurant from Rye despite same chef-owners and KC metro; 2013 official JBF Best Chef Midwest winner Colby Garrelts at Bluestem. Include circa-2014 original room images."
+      "question": "Did you ever eat at Chewology, the Taiwanese restaurant now at 900 Westport Road, Kansas City, which occupies former Bluestem's address?",
+      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; Add it to my private future-visit wishlist. Distinct restaurant from now-closed Bluestem despite exact address. Katie Liu-Sung JBF Best Chef Midwest 2024/2025 semifinalist; show actual Chewology interior and food photos. Baltimore Salt Tavern separately queued as unreviewed historical lead."
     },
     "pausedBatches": [
       {
@@ -10832,8 +10995,9 @@
       },
       {
         "area": "Baltimore",
-        "status": "queued_historical_gap_audit",
-        "review": "Include previously overlooked and closed historically qualifying venues and preserve recalled/uncertain visit statuses."
+        "status": "queued_with_identified_salt_tavern_lead",
+        "review": "Interview historic Salt Tavern from 2006–2018 at 2127 E Pratt Street, with local Best of Baltimore culinary category recognition and Sun 2010 Top 50 rank #10; attendance unknown and no Michelin/JBF asserted. Continue other Baltimore gap audit after Kansas City.",
+        "priorityVenueId": "candidate-baltimore-salt-tavern-pratt-street"
       },
       {
         "area": "Hilo, Hawaiʻi Island",
