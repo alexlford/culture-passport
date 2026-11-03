@@ -9864,8 +9864,8 @@
       "recognition": "Long-running Boston Beer Co. award-winning beers, venue tour site award separately scoped; brewery accolades not evidence user visited Jamaica Plain",
       "recognitionYear": 2026,
       "awardFamily": "great_american_beer_festival",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "not_visited",
+      "wantsToVisit": true,
       "priority": "queued",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
@@ -9882,16 +9882,24 @@
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
-        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+        "note": "Not visited; one future-visit wishlist entry for the Jamaica Plain brewery only. Beer-level award attribution and site distinction preserved; no attendance claimed."
       },
       "eligibility": {
-        "status": "candidate_eligible_if_visited",
+        "status": "eligible_wishlist_not_a_visit",
         "basis": "brewing_award_or_curated_editorial_recognition",
         "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
-      "photographicEvidence": []
+      "photographicEvidence": [],
+      "wishlistEntryId": "want-to-visit-samuel-adams-boston-brewery-jamaica-plain",
+      "userAnswer": "No, but want to go",
+      "answerDate": "2026-11-03",
+      "attendanceEvidence": "Direct user statement 2026-11-03: No, but want to go; exact original Jamaica Plain brewery, not downtown taproom",
+      "confirmedVisitId": null,
+      "visitDate": null,
+      "visitScope": "Explicit nonattendance at 30 Germania Street, Jamaica Plain; no visit/date to assign.",
+      "recognitionAttribution": "Beer medals credited to specific beer/brand/brewer and year; not a medal for this taproom unless separately sourced. No drinking/tour assumed."
     },
     {
       "id": "candidate-boston-brewery-harpoon-seaport",
@@ -9907,8 +9915,9 @@
       "priority": "queued",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
-      "sourceUrl": "https://www.harpoonbrewery.com/",
+      "sourceUrl": "https://harpoonbrewery.com/boston-brewery/",
       "sourceUrls": [
+        "https://harpoonbrewery.com/boston-brewery/",
         "https://www.harpoonbrewery.com/",
         "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
       ],
@@ -9929,7 +9938,44 @@
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
-      "photographicEvidence": []
+      "photographicEvidence": [
+        {
+          "id": "harpoon-beer-hall-boston-tourism",
+          "label": "Harpoon Beer Hall interior",
+          "caption": "Meet Boston tourism photograph of communal tables and large circular chandeliers at the Seaport Beer Hall.",
+          "photoSubject": "Harpoon Brewery & Beer Hall Boston Seaport interior",
+          "sourceUrl": "https://www.meetboston.com/listing/harpoon-brewery/14131/",
+          "sourceOrganization": "Meet Boston",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Long communal wooden tables, circular chandeliers in Harpoon Boston beer hall"
+        },
+        {
+          "id": "harpoon-boston-beer-flight-infatuation",
+          "label": "Beer flight and pretzel",
+          "caption": "The Infatuation photograph of a Harpoon beer flight with a pretzel; photographic cue, not evidence of the user's drinks.",
+          "photoSubject": "Harpoon Boston beer flight and pretzel",
+          "sourceUrl": "https://www.theinfatuation.com/boston/reviews/harpoon-brewery",
+          "sourceOrganization": "The Infatuation",
+          "sourceYear": 2024,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Harpoon beer flight next to brewery pretzel"
+        },
+        {
+          "id": "harpoon-boston-beer-hall-2021",
+          "label": "Harpoon Beer Hall, 2021",
+          "caption": "Boston.com photograph of the beer hall from a 2021 article.",
+          "photoSubject": "Harpoon Boston Beer Hall guests at communal tables",
+          "sourceUrl": "https://www.boston.com/food/beer/2021/05/11/harpoon-brewery-2022-wedding-giveaway/",
+          "sourceOrganization": "Boston.com",
+          "sourceYear": 2021,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Harpoon's crowded beer hall in 2021"
+        }
+      ]
     },
     {
       "id": "candidate-boston-brewery-night-shift",
@@ -11294,12 +11340,12 @@
         "candidate-boston-brewery-dorchester-brewing",
         "candidate-boston-brewery-mighty-squirrel"
       ],
-      "nextCandidateId": "candidate-boston-brewery-samuel-adams-jamaica-plain",
+      "nextCandidateId": "candidate-boston-brewery-harpoon-seaport",
       "nominationPolicy": "GABF, World Beer Cup, regional judged brewing medals, established local/national editorial best-of lists and preservation or architecture honors qualify as distinct evidence categories; keep medal, beer, brewery, year and site attribution precise.",
       "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
       "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
       "priorBostonInferredSites": 0,
-      "unansweredCandidates": 7,
+      "unansweredCandidates": 6,
       "futureExpansion": [
         "Tree House Brewing Company outside Boston proper",
         "Notch Brewing at Charles River Speedway",
@@ -11309,7 +11355,11 @@
       "confirmedBrandNames": [
         "Trillium Brewing Company"
       ],
-      "lastConfirmedCandidateId": "candidate-boston-brewery-trillium-boston-metro"
+      "lastConfirmedCandidateId": "candidate-boston-brewery-trillium-boston-metro",
+      "notVisitedWishlistNames": [
+        "Samuel Adams Boston Brewery (Jamaica Plain)"
+      ],
+      "lastAnsweredCandidateId": "candidate-boston-brewery-samuel-adams-jamaica-plain"
     },
     "breweryBrandVisitArchive": {
       "status": "8_confirmed_brewery_brands_exact_sites_unresolved",
@@ -11334,11 +11384,11 @@
       "area": "Boston",
       "category": "brewery_taprooms",
       "candidateNames": [
-        "Samuel Adams Boston Brewery"
+        "Harpoon Brewery & Beer Hall"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited the original Samuel Adams Boston Brewery at 30 Germania Street in Jamaica Plain? It is distinct from the downtown Boston taproom. Do not infer a tour or a specific date from any response.",
-      "continuation": "Four buttons: Yes — visited; Maybe — looks familiar; No — never visited; No, but want to go. Show verified official and historical Jamaica Plain brewery photos. Separate Samuel Adams brand beer medals (such as 1985 GABF Boston Lager) from the Jamaica Plain venue or any user visit. Continue Boston breweries one at a time."
+      "question": "Have you visited Harpoon Brewery & Beer Hall at 306 Northern Avenue, in Boston's Seaport? Recognize the long communal tables, circular chandeliers, beer flights and pretzels. This question concerns the Boston venue, not drinking Harpoon elsewhere.",
+      "continuation": "Four answer buttons, actual venue photos with publisher links. Boston Globe 2024 best brewery/taproom editorial selection, distinct from a beer medal or the user's attendance. Next Night Shift."
     },
     "pausedBatches": [
       {
@@ -11774,6 +11824,11 @@
       "rule": "Count one personal restaurant-brand experience in the metro; don't solicit separate visits or create duplicate records for different branches in that metro. Retain the precise remembered visit location as evidence. Recognitions from other locations of the same brand can qualify the metro brand with transparent original recipient, year, and location attribution; never claim attendance or awards at the other location.",
       "source": "Direct user request 2026-11-03: I don't want to distinguish between locations within the same metro area. Just count it and move forward.",
       "exception": "Independently named/operated venues, including a distinct hotel bar, remain separate businesses."
+    },
+    "breweryInterviewPublicInclusionPolicy": {
+      "directive": "If I said I went, I want it on public site",
+      "date": "2026-11-03",
+      "meaning": "All directly user-confirmed brewery visits are included in the visitor candidate dataset regardless of guide/award status; preserve brand-only location precision and unknown visit date. Unconfirmed venues and future wishlists never become visits. Site publishing still requires separate reviewed story copy and a launch decision."
     }
   }
 }

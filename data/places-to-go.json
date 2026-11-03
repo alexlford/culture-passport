@@ -1720,6 +1720,37 @@
         }
       ],
       "notes": "Exactly one Kansas City metro brand-level wishlist. Explicit nonattendance; no prior meal, visit date, or reservation. Chewology operates in former Bluestem premises at 900 Westport Road, but the two are distinct businesses. Do not transfer Bluestem 2013 chef award or attendance to Chewology. Private future interest only, excluded from experience totals."
+    },
+    {
+      "id": "want-to-visit-samuel-adams-boston-brewery-jamaica-plain",
+      "candidateId": "candidate-boston-brewery-samuel-adams-jamaica-plain",
+      "name": "Samuel Adams Boston Brewery — Jamaica Plain",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-03",
+      "location": {
+        "address": "30 Germania Street",
+        "neighborhood": "Jamaica Plain",
+        "city": "Boston",
+        "region": "Massachusetts",
+        "postalCode": "02130",
+        "country": "USA",
+        "venue": "Original Samuel Adams Boston Brewery"
+      },
+      "website": "https://www.samueladams.com/taprooms",
+      "userNote": "I have not visited the original Jamaica Plain brewery but want to go. Do not conflate it with the downtown Boston taproom.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-03",
+        "quote": "Culture Passport Boston brewery interview: For Samuel Adams Boston Brewery in Jamaica Plain, my answer is \"No, but want to go\"."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognitions": [],
+      "recognitionContext": "Samuel Adams brewery/beer accolades including Great American Beer Festival results are beer- or producer-level and do not automatically belong to the Jamaica Plain site. No specific dated, site-attributed medal added without official source confirmation.",
+      "notes": "Exactly one original Jamaica Plain brewery wishlist; explicitly not visited, no tour, beer order or past visit. Private future interest only and excluded from all confirmed experiences."
     }
   ],
   "interviewConvention": {

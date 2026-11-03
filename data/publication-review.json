@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "description": "Private editorial approval list for prospective Culture Passport visitor pages. Entries remain pending until explicitly reviewed and approved. This file does not authorize publication.",
+  "description": "Private editorial review manifest for all visitor candidate records. Every directly confirmed visit is eligible for public inclusion, but each story and venue attribution must be reviewed and content-locked before deployment; no award gate.",
   "reviewedRecords": [
     {
       "id": "dining-republique-los-angeles",
@@ -838,6 +838,70 @@
       "id": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
       "title": "Rye Street Tavern (Sagamore Spirit campus)",
       "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-maui-brewing-company-visit-date-unknown",
+      "title": "Maui Brewing Co.",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-cerebral-brewing-visit-date-unknown",
+      "title": "Cerebral Brewing",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-outer-range-brewing-visit-date-unknown",
+      "title": "Outer Range Brewing Co.",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-new-terrain-brewing-visit-date-unknown",
+      "title": "New Terrain Brewing Co.",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-new-belgium-brewing-visit-date-unknown",
+      "title": "New Belgium Brewing",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-left-hand-brewing-visit-date-unknown",
+      "title": "Left Hand Brewing Company",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-avery-brewing-visit-date-unknown",
+      "title": "Avery Brewing Co.",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-trillium-boston-metro-visit-date-unknown",
+      "title": "Trillium Brewing Company",
+      "category": "bar",
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
