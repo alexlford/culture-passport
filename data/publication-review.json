@@ -905,6 +905,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-harpoon-brewery-beer-hall-boston-date-unknown",
+      "title": "Harpoon Brewery & Beer Hall",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }

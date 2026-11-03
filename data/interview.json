@@ -9910,8 +9910,8 @@
       "recognition": "The Boston Globe's July 11, 2024 list of nine Greater Boston breweries and taprooms specifically features Harpoon Brewery & Beer Hall at 306 Northern Avenue. Its June 2026 list describes Harpoon Beer Garden at a different site, so the 2026 feature must not be transferred to the Seaport beer hall.",
       "recognitionYear": 2024,
       "awardFamily": "local_editorial_2024_specific_seaport_beer_hall",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "priority": "queued",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
@@ -9930,10 +9930,10 @@
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.bostonglobe.com/2024/07/11/magazine/nine-best-breweries-taproom-in-greater-boston-area/",
-        "note": "The 2024 Boston Globe best breweries and taprooms profile specifically identifies Harpoon Brewery & Beer Hall at 306 Northern Avenue; 2026 Best of the Best Harpoon Beer Garden mention is a distinct location and must not be attributed to this site. Editorial selection is not a judged beer medal and is not user visit evidence."
+        "note": "2024 Boston Globe editorial brewery list names the exact Seaport venue; 2026 list references another beer garden. User directly confirmed exact Seaport venue, date unknown. Editorial honor does not prove recognition existed at visit time."
       },
       "eligibility": {
-        "status": "candidate_eligible_if_visited",
+        "status": "confirmed_visit_public_candidate_pending_story_review",
         "basis": "brewing_award_or_curated_editorial_recognition",
         "reason": "Direct local editorial venue selection: 2024 Boston Globe list covers this exact Seaport beer hall; independent of user attendance.",
         "screenedOn": "2026-11-03",
@@ -9976,7 +9976,16 @@
           "renderMode": "source_link_only",
           "altText": "Harpoon's crowded beer hall in 2021"
         }
-      ]
+      ],
+      "confirmedVisitId": "bar-harpoon-brewery-beer-hall-boston-date-unknown",
+      "confirmedSiteVisitId": "brewery-site-harpoon-seaport",
+      "siteVisited": "Harpoon Brewery & Beer Hall, 306 Northern Avenue, Boston Seaport",
+      "visitDate": null,
+      "visitPeriod": null,
+      "userAnswer": "Yes — I visited",
+      "answerDate": "2026-11-03",
+      "visitScope": "Exact original Boston Seaport beer hall and brewery at 306 Northern Avenue, not an inferred Harpoon beer garden",
+      "attendanceEvidence": "Direct user answer 2026-11-03 naming the exact Harpoon Brewery & Beer Hall address; date, orders, company, tours and number of visits unspecified."
     },
     {
       "id": "candidate-boston-brewery-night-shift",
@@ -9989,15 +9998,17 @@
       "awardFamily": "local_editorial_brewery_selection",
       "visitStatus": "unreviewed",
       "wantsToVisit": null,
-      "priority": "queued",
+      "priority": "next",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
       "sourceUrl": "https://nightshiftbrewing.com/",
       "sourceUrls": [
         "https://nightshiftbrewing.com/",
-        "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/"
+        "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/",
+        "https://nightshiftbrewing.com/locations/everett-taproom/",
+        "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf/"
       ],
-      "interviewCue": "Large Everett warehouse brewery with community tables; Lovejoy Wharf taproom by TD Garden, waterside patio and Detroit-style pizza.",
+      "interviewCue": "Everett original: blue-painted industrial brewery, long wooden tables, colored pendant lamps and large garage doors; Lovejoy Wharf: Boston waterfront patio near TD Garden and a dramatic teal-lit bar. Brand-level recognition not proof of one specific site.",
       "siteScope": "Boston metro brewery brand with multiple sites, not automatically one exact visit address",
       "screening": {
         "status": "eligible_brewery_cultural_candidate_if_attended",
@@ -10014,7 +10025,44 @@
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
-      "photographicEvidence": []
+      "photographicEvidence": [
+        {
+          "id": "night-shift-everett-original-2014",
+          "label": "Original Everett brewery, 2014",
+          "caption": "Boston Magazine's 2014 opening-era view of the Everett taproom with communal picnic tables and colored pendant lights.",
+          "photoSubject": "Night Shift Everett brewery 2014 interior",
+          "sourceUrl": "https://www.bostonmagazine.com/restaurants/2014/05/16/look-inside-night-shift-brewings-massive-new-taproom/",
+          "sourceOrganization": "Boston Magazine",
+          "sourceYear": 2014,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Wooden tables under geometric pendant lights in the original Night Shift Everett taproom"
+        },
+        {
+          "id": "night-shift-everett-official",
+          "label": "Everett Taproom today",
+          "caption": "Official Night Shift Everett taproom photographs; modern lounge furniture and a large garage-door facade.",
+          "photoSubject": "Night Shift Everett Taproom 87 Santilli Highway",
+          "sourceUrl": "https://nightshiftbrewing.com/locations/everett-taproom/",
+          "sourceOrganization": "Night Shift Brewing",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Night Shift Everett brewery lounge with colorful sofas and industrial windows"
+        },
+        {
+          "id": "night-shift-lovejoy-official",
+          "label": "Lovejoy Wharf interior",
+          "caption": "Official photo of Night Shift's waterfront Lovejoy Wharf taproom with geometric teal illuminated ceiling above the bar; distinct from Everett.",
+          "photoSubject": "Night Shift Lovejoy Wharf Boston brewery restaurant interior",
+          "sourceUrl": "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf/",
+          "sourceOrganization": "Night Shift Brewing",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Night Shift Lovejoy Wharf taproom with teal geometric ceiling lighting"
+        }
+      ]
     },
     {
       "id": "candidate-boston-brewery-aeronaut-somerville",
@@ -11328,7 +11376,7 @@
       "status": "active_one_venue_at_a_time",
       "addedOn": "2026-11-03",
       "scope": "Boston city and nearby Cambridge, Somerville and Everett; Greater Boston historic brewery/taprooms. Do not assume visits based on city travel or on ownership of a brand's beer.",
-      "confirmedBostonBreweryVisitCount": 1,
+      "confirmedBostonBreweryVisitCount": 2,
       "exactVisitDatesEstablished": 0,
       "priorBostonCandidate": "Café Dear Leon is Baltimore and remains unreviewed, paused on user request; not a Boston candidate.",
       "orderedCandidateIds": [
@@ -11341,12 +11389,12 @@
         "candidate-boston-brewery-dorchester-brewing",
         "candidate-boston-brewery-mighty-squirrel"
       ],
-      "nextCandidateId": "candidate-boston-brewery-harpoon-seaport",
+      "nextCandidateId": "candidate-boston-brewery-night-shift",
       "nominationPolicy": "GABF, World Beer Cup, regional judged brewing medals, established local/national editorial best-of lists and preservation or architecture honors qualify as distinct evidence categories; keep medal, beer, brewery, year and site attribution precise.",
       "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
       "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
       "priorBostonInferredSites": 0,
-      "unansweredCandidates": 6,
+      "unansweredCandidates": 5,
       "futureExpansion": [
         "Tree House Brewing Company outside Boston proper",
         "Notch Brewing at Charles River Speedway",
@@ -11356,11 +11404,14 @@
       "confirmedBrandNames": [
         "Trillium Brewing Company"
       ],
-      "lastConfirmedCandidateId": "candidate-boston-brewery-trillium-boston-metro",
+      "lastConfirmedCandidateId": "candidate-boston-brewery-harpoon-seaport",
       "notVisitedWishlistNames": [
         "Samuel Adams Boston Brewery (Jamaica Plain)"
       ],
-      "lastAnsweredCandidateId": "candidate-boston-brewery-samuel-adams-jamaica-plain"
+      "lastAnsweredCandidateId": "candidate-boston-brewery-harpoon-seaport",
+      "confirmedSiteNames": [
+        "Harpoon Brewery & Beer Hall — 306 Northern Avenue"
+      ]
     },
     "breweryBrandVisitArchive": {
       "status": "8_confirmed_brewery_brands_exact_sites_unresolved",
@@ -11385,11 +11436,11 @@
       "area": "Boston",
       "category": "brewery_taprooms",
       "candidateNames": [
-        "Harpoon Brewery & Beer Hall"
+        "Night Shift Brewing"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Harpoon Brewery & Beer Hall at 306 Northern Avenue, in Boston's Seaport? Recognize the long communal tables, circular chandeliers, beer flights and pretzels. This question concerns the Boston venue, not drinking Harpoon elsewhere.",
-      "continuation": "Four answer buttons, actual venue photos with publisher links. Boston Globe 2024 best brewery/taproom editorial selection, distinct from a beer medal or the user's attendance. Next Night Shift."
+      "question": "Have you visited Night Shift Brewing at any Greater Boston location? The Everett brewery at 87 Santilli Highway and Lovejoy Wharf taproom at 1 Lovejoy Wharf look different; reply yes at brand level unless you want to identify a site.",
+      "continuation": "Use official/historic photo cues for Everett and Lovejoy Wharf, with four buttons: Yes — visited; Maybe; No — never visited; No, but want to go. Boston Magazine 2025 Readers' Poll Best Brewery winner is a reader-selected brewery-brand distinction, not judged beer medal and not site-specific."
     },
     "pausedBatches": [
       {
