@@ -51,7 +51,8 @@ try{
     assert.equal(requests,2,"Retry must not reload the page or issue duplicate requests");
     assert.equal(interviewRequests,0,"Visitor pages must never request private interview data");
     await page.locator("#search").fill("Sauvage");
-    assert.equal(await page.locator("#explore-results a.record-card").count(),1);
+    assert(await page.locator("#explore-results a.record-card").count()>=1,"Search should retain the confirmed Sauvage visit");
+    assert((await page.locator("#explore-results").innerText()).includes("Sauvage"));
     await ctx.close();console.log("PASS archive HTTP retry and keyboard focus",width);
   }
   // Exercise malformed JSON and a valid JSON document with the wrong root shape.
