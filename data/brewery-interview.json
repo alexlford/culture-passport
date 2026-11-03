@@ -10,7 +10,7 @@
     "location": "Brand-level confirmation does not establish which brewery address, taproom, brewery campus or country the user visited. Do not substitute brewery headquarters or award-entry city for attendance location.",
     "visitEvidence": "User explicitly said 'I've been to...' for the seven brewery brands below. This is personal attendance evidence at an unspecified brewery venue, not evidence of a beer purchased at retail or a specific tour.",
     "recognition": "GABF, World Beer Cup, Colorado Brewers Cup and comparable judged brewing medals qualify as brewery/beer distinctions, distinct from JBF, Michelin, CAMRA, editorial or brewery-specific hospitality awards. Store beer, medal, year and adjudicating body; medal for a product or a submitting site does not establish the user's physical site or the date of a personal visit.",
-    "publication": "Private research only pending distinct site verification, evidence attribution and explicit story-review approval. Do not increase published or location-specific experience totals from these brand-level memories."
+    "publication": "All directly confirmed brewery-brand visits are included in the public visitor candidate records with unknown site and date retained. Story approvals and launch remain separate."
   },
   "confirmedBrandVisits": [
     {
@@ -206,7 +206,7 @@
     "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
     "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
     "status": "active",
-    "currentCandidateId": "candidate-boston-brewery-samuel-adams-jamaica-plain",
+    "currentCandidateId": "candidate-boston-brewery-harpoon-seaport",
     "queue": [
       "candidate-boston-brewery-trillium-boston-metro",
       "candidate-boston-brewery-samuel-adams-jamaica-plain",
@@ -226,5 +226,5 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Culture Passport Boston brewery interview: For Trillium Brewing Company, my answer is 'Yes — I visited'. Record this at the Boston-metro brand level without inferring a specific location or date. Continue to the next eligible venue with photos and four buttons."
+  "lastUserStatement": "Confirmed visits belong on the public site. Samuel Adams Jamaica Plain: not visited but wants to go."
 }
