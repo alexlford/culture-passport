@@ -681,6 +681,22 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-water-for-chocolate-baltimore-date-unknown",
+      "title": "Water for Chocolate",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "title": "Ministry of Brewing",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
