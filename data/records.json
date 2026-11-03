@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-11-01",
+  "updated": "2026-11-03",
   "categories": [
     {
       "id": "dining",
@@ -1370,6 +1370,18 @@
       "sourceId": "tonchin-new-york-midtown",
       "venueScope": "Midtown Manhattan at 13 West 36th Street, not Tonchin Brooklyn or Los Angeles",
       "locationAttribution": "Official Tonchin Midtown address; no street coordinates fabricated."
+    },
+    {
+      "id": "venue-john-browns-underground-lawrence",
+      "name": "John Brown's Underground",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "country": "USA",
+      "neighborhood": "Downtown Lawrence",
+      "address": "7 E 7th Street, Lawrence, KS 66044",
+      "location": null,
+      "sourceId": "john-browns-underground-lawrence",
+      "venueScope": "Underground cocktail bar at 7 E 7th Street; not the separate Aboveground patio"
     }
   ],
   "records": [
@@ -8058,6 +8070,85 @@
           {
             "label": "Tonchin — official locations",
             "url": "https://www.tonchinus.com/locations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bar-john-browns-underground-lawrence-date-unknown",
+      "type": "bar",
+      "title": "John Brown's Underground",
+      "venueId": "venue-john-browns-underground-lawrence",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Lawrence cocktail-bar visit · date unknown",
+        "source": "Direct user confirmation on 2026-11-03: 'I visited John Brown’s Underground at 7 E 7th St, Lawrence, Kansas.'",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_exact_bar_date_unknown",
+        "originalVisitYear": null,
+        "otherVenueVisitNotInferred": "Aboveground patio"
+      },
+      "summary": "Confirmed visit to John Brown's Underground, the downtown Lawrence cocktail bar. The date, drinks, companions, and occasion are unknown. The venue was named a 2025 James Beard Outstanding Bar semifinalist, not a finalist or winner.",
+      "memory": {
+        "headline": "An underground cocktail stop in Lawrence",
+        "teaser": "A confirmed visit to a James Beard-recognized Lawrence speakeasy.",
+        "story": "I visited John Brown's Underground at 7 E 7th Street in Lawrence, Kansas. I have not established the date, the cocktails I ordered, or who accompanied me. The bar was later or previously recognized as a 2025 James Beard Outstanding Bar semifinalist; the actual visit date remains unknown.",
+        "period": "Lawrence, Kansas · exact date unknown",
+        "source": "Direct user recollection November 3, 2026"
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "result": "semifinalist",
+          "category": "Outstanding Bar",
+          "recipient": "John Brown's Underground, Lawrence, KS",
+          "relationship": "named bar itself; venue-level",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "note": "Do not infer a Michelin star or James Beard award win from a semifinalist designation."
+      },
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+      "editorial": {
+        "awardQualified": true,
+        "featuredException": false,
+        "collection": "recognized_cocktail_bar",
+        "basis": "james_beard_exact_venue_semifinalist",
+        "note": "Direct attendance confirmed; 2025 JBF Outstanding Bar semifinalist is not a winner. Visit date unknown; private visitor-story review required."
+      },
+      "curation": {
+        "status": "eligible_formal_award",
+        "basis": "james_beard_2025_outstanding_bar_semifinalist",
+        "confidence": "direct_user_confirmed_exact_venue",
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false,
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        ]
+      },
+      "story": {
+        "headline": "John Brown's Underground in Lawrence",
+        "paragraphs": [
+          "I visited the underground cocktail bar at 7 East 7th Street in Lawrence, Kansas. The date and the drinks are not yet recorded.",
+          "The James Beard Foundation identified John Brown's Underground as a 2025 Outstanding Bar semifinalist. This is venue-level recognition, not a finalist or winner designation."
+        ],
+        "sourceUrls": [
+          {
+            "label": "James Beard Foundation — 2025 semifinalists",
+            "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+          },
+          {
+            "label": "Explore Lawrence — exact bar listing",
+            "url": "https://www.explorelawrence.com/listing/john-browns-underground/7551/"
           }
         ]
       }
