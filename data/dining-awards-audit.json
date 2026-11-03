@@ -17,7 +17,7 @@
     "featuredPersonal": 17,
     "officiallyFeatured": 6,
     "unfeaturedOther": 6,
-    "additionalConfirmedArchiveOnly": 16,
+    "additionalConfirmedArchiveOnly": 17,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -1386,6 +1386,16 @@
       "period": "Visit confirmed, exact date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Directly confirmed Nov 3, 2026 visit to Sean Guy's 1841 E Lombard Street restaurant. No exact meal date, companions or dishes inferred. No verified Michelin or James Beard award in targeted research. Kept in permanent private restaurant award watchlist; not an automatic public experience or featured exception."
+    },
+    {
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "period": "Confirmed visit to Sagamore Spirit campus restaurant; date and operating era unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "2017–2020 NoHo versus 2024+ Clyde's operator distinction; no formal Michelin/JBF venue-specific award confirmed. Direct user confirmation; private award-watchlist, no automatic publication.",
+      "experienceId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "sourceUrl": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+      "publicationStatus": "private_not_in_visitor_preview"
     }
   ],
   "possiblyVisited": [
@@ -1424,7 +1434,7 @@
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
     }
   ],
-  "interviewCandidateCount": 276,
+  "interviewCandidateCount": 288,
   "artsNext": {
     "concerts": "Collect artist, venue, tour/event, city, approximate year and the memory rather than set times.",
     "opera": "Collect production, opera house, approximate year and occasion.",

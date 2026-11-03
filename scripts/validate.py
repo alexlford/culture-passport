@@ -461,11 +461,22 @@ assert len(ministry_record["editorialRecognitions"]) == 1
 assert ministry_record["editorialRecognitions"][0]["year"] == 2021
 assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
 assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
-# User requested a review of the Sagamore restaurant; never infer attendance.
+# User explicitly confirmed Rye Street Tavern beside the distillery as the third new
+# Baltimore venue, separately from the previously confirmed historic Salt Tavern.
 sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
-assert sagamore["visitStatus"] == "unreviewed"
-assert sagamore["eligibility"]["status"] == "cultural_historical_candidate_if_visited"
-assert not any(r["title"].startswith("Rye Street Tavern") for r in records)
+assert sagamore["visitStatus"] == "confirmed"
+assert sagamore["eligibility"]["status"] == "eligible_expanded_culture_private"
+assert sagamore["confirmedVisitId"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+assert sagamore["visitEra"].startswith("unverified")
+sagamore_record = next(r for r in records if r["id"] == sagamore["confirmedVisitId"])
+assert sagamore_record["status"] == "confirmed" and sagamore_record["type"] == "dining"
+assert sagamore_record["visit"]["date"] is None and sagamore_record["visit"]["operatingEra"] == "unverified"
+assert sagamore_record["editorial"]["awardQualified"] is False
+assert sagamore_record["curation"]["verifiedForPublication"] is False
+assert "Rye Street Tavern" in water_record["visit"]["source"]
+assert "Rye Street Tavern" in ministry_record["visit"]["source"]
+assert not any(p["id"] == sagamore_record["id"] for p in json.loads(
+    (ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
@@ -1235,6 +1246,7 @@ for venue in venues:
             "venue-john-browns-underground-lawrence": "Lawrence",
             "venue-1900-barker-original-lawrence": "Lawrence",
             "venue-salt-tavern-baltimore": "Baltimore",
+            "venue-rye-street-tavern-sagamore-baltimore": "Baltimore",
             "venue-water-for-chocolate-baltimore": "Baltimore",
             "venue-ministry-of-brewing-baltimore": "Baltimore",
         }
