@@ -41,6 +41,22 @@ A separate `editorial.culturalSpotlight` curation tier allows an award-supported
 
 The original private four-venue history remains in `data/interview-updates/kansas-city-2026-10-31-j-rieger-four-experiences.json`; the fifth-visit follow-up is in `data/interview-updates/kansas-city-2026-10-31-j-rieger-tasting-room.json`. The visitor-preview export includes only curated venue context and public evidence; the project remains private and this new page is `pending` in `data/publication-review.json`. Nothing in this classification authorizes public release, image reuse or override of the publication gate.
 
+## Culture Passport eligibility — expanded editorial standard (November 2026)
+
+**Experience first, not Michelin/James Beard first.** A directly confirmed cultural outing can qualify for a curated Culture Passport entry through (1) substantive recognition or (2) a meaningful, expressly chosen personal/cultural highlight. The private archive retains other confirmed memories too. Do not require a Michelin star, James Beard win, or any other single award to consider a restaurant, cocktail bar, brewery, pub, distillery experience, theater, performance or historic hospitality venue. Recognition supports the story, not a universal threshold.
+
+**Eligible recognition families, displayed distinctly:**
+
+- Michelin Guide (Stars, Bib Gourmand, Selected/Plate) and James Beard winners, finalists, semifinalists and genuine Foundation/program/editorial ties, each precisely labeled.
+- Other direct hospitality distinctions: DiRōNA, AAA Four Diamond, Wine Spectator, CAMRA pub honors and Good Beer Guide selections, plus established industry/cocktail awards.
+- Credible national and local editorial distinctions and curated selections from established publishers, including *Esquire* Best Bars, Baltimore Magazine restaurant/brunch selections, and substantive city or regional best-of guides. These are **editorial recognition**, not Michelin/JBF prizes.
+- Architecture, historic preservation, notable cultural destinations and design recognition, including distinctive historically documented hospitality places; use a **cultural spotlight** label rather than inventing a culinary award.
+- User-selected personal experiences (important meals, anniversaries, favorites and distinctive memories) via a **personal highlight** path. No external award is mandatory for an explicit exception; do not automatically feature every private archival memory.
+
+**Keep facts independent:** (a) confirmed attendance, (b) why the experience is culturally notable, (c) precise recipient/year/category of external recognition, and (d) whether the story is approved for publication. Editorial or design recognition may qualify culturally without changing the formal Michelin/JBF `editorial.awardQualified` counter. A chef's earlier award does not transfer to another restaurant. Group experiences across the same metro may be counted once with transparent award/location sourcing. Unanswered, possible and negative answers never enter confirmed totals; permanently closed sites belong in historical-interest collections rather than bookable wishes. Publication still requires explicit story-review approval.
+
+**Baltimore examples:** Ministry of Brewing's 2021 *Esquire* Best Bars inclusion is qualifying national editorial recognition; Water for Chocolate's 2019 *Baltimore Magazine* brunch selection is qualifying local editorial recognition; Rye Street Tavern's Sagamore waterfront/distillery connection is suitable for a historical/cultural spotlight without treating Andrew Carmellini's prior James Beard honors as restaurant awards. None of these classifications determines whether or when the user visited.
+
 ## Broader Michelin / James Beard curation (October 2026)
 
 **Always lead with a direct, confirmed visit.** A restaurant can appear in one of four distinctly named tiers. The stored claims must link to official Michelin Guide or James Beard Foundation resources, not only third-party lists:
