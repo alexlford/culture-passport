@@ -170,6 +170,35 @@
           "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/"
         }
       ]
+    },
+    {
+      "id": "brewery-brand-trillium-boston-metro",
+      "name": "Trillium Brewing Company",
+      "reportedName": "Trillium Brewing Company",
+      "status": "confirmed_brewery_brand_visit",
+      "metroArea": "Boston, Massachusetts",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_confirmation",
+        "date": "2026-11-03",
+        "response": "Yes — I visited",
+        "context": "Culture Passport Boston brewery interview"
+      },
+      "recognitionContext": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — brewery/taproom editorial selection",
+          "classification": "local_editorial_recommendation_not_judged_brewing_medal",
+          "scope": "brewery_brand",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "note": "Direct confirmation establishes one visit to this brewery brand within Boston metro, but does not identify Fort Point Congress Street, Thomson Place, Fenway, Canton, an exact date, companions, particular beers or a brewery tour. Do not claim the 2026 editorial selection was in place at visit time."
     }
   ],
   "historicalInterview": {
@@ -177,7 +206,7 @@
     "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
     "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
     "status": "active",
-    "currentCandidateId": "candidate-boston-brewery-trillium-boston-metro",
+    "currentCandidateId": "candidate-boston-brewery-samuel-adams-jamaica-plain",
     "queue": [
       "candidate-boston-brewery-trillium-boston-metro",
       "candidate-boston-brewery-samuel-adams-jamaica-plain",
@@ -188,7 +217,8 @@
       "candidate-boston-brewery-dorchester-brewing",
       "candidate-boston-brewery-mighty-squirrel"
     ],
-    "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue."
+    "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-trillium-boston-metro"
   },
   "nextRegions": [
     "Colorado Front Range brewery visits — location and memory follow-up",
@@ -196,5 +226,5 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "You should interview me about breweries in Boston. I’ve been to Maui brewery, Cerebral, Outer Range, new terrain, new Belgium, left hand, Avery, and many more. If we are diving into pubs, let’s do breweries as well."
+  "lastUserStatement": "Culture Passport Boston brewery interview: For Trillium Brewing Company, my answer is 'Yes — I visited'. Record this at the Boston-metro brand level without inferring a specific location or date. Continue to the next eligible venue with photos and four buttons."
 }
