@@ -5,12 +5,12 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 59,
-    "canonicalDistinctVenues": 54,
+    "restaurantEntriesReviewed": 60,
+    "canonicalDistinctVenues": 55,
     "archiveOnlyAdditionalEntries": 5,
-    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards.",
+    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 59,
+    "restaurantEntriesTracked": 60,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -82,7 +82,7 @@
   "countsByTier": {
     "archived_pending_recognition": 19,
     "formal_michelin_jbf_recognition": 26,
-    "personal_featured_exception": 9,
+    "personal_featured_exception": 10,
     "official_program_or_editorial_connection": 5
   },
   "confirmedRestaurants": [
@@ -1978,6 +1978,43 @@
       ],
       "officialFeatures": [],
       "reviewResult": "Original Barker Avenue visit confirmed, date unknown. Three outstanding baker semifinalist recognitions.",
+      "reviewedOn": "2026-11-03",
+      "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-salt-tavern-baltimore",
+      "restaurantName": "Salt: A New American Tavern",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "original_2127_e_pratt_st_2006_to_2018_distinct_from_marta",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-salt-tavern-baltimore-2018-03-16"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "personal_featured_exception",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": true,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+        "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/"
+      ],
+      "historicalGuide": "not_covered",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "otherHospitalityRecognitions": [
+        {
+          "organization": "Baltimore Magazine",
+          "year": 2006,
+          "category": "Best of Baltimore: Burger and Fries",
+          "result": "winner",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+          "note": "Local editorial food-category recognition; no Michelin/James Beard award claimed"
+        }
+      ],
+      "reviewResult": "Confirmed first visit on March 16, 2018 by direct user statement dated using contemporaneous UMBC–Virginia NCAA game; personally selected for Culture Passport. No formal JBF/Michelin honor. Venue closed August 2018.",
+      "watchlistId": "venue-salt-tavern-baltimore",
       "reviewedOn": "2026-11-03",
       "recognitionReviewStatus": "reviewed"
     }
