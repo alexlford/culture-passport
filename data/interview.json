@@ -8858,10 +8858,10 @@
       "recognition": "Chef/owner Carl Thorne-Thomsen: James Beard Best Chef: Midwest semifinalist in 2013 and 2022 while at Story.; restaurant also earned Wine Spectator distinctions independently. Chef-in-post recognition, not an award win.",
       "recognitionYear": 2013,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "researchStatus": "historical_exact_venue_jbf_2013_2022_verified",
       "addedOn": "2026-11-03",
-      "priority": "next",
+      "priority": "reviewed",
       "openedOn": "2011-05",
       "closedOn": "2026-01",
       "operatingStatus": "permanently_closed",
@@ -8902,6 +8902,78 @@
           "sourceYear": 2026,
           "imageRights": "unverified",
           "renderMode": "source_link_only"
+        }
+      ],
+      "wantsToVisit": false,
+      "wishlistStatus": "historical_interest_only_closed",
+      "historicalInterest": true,
+      "historicalInterestReason": "User wishes they had visited Story. while it operated, but confirms never visiting; not a future-visit wishlist entry because closed January 2026.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonattendance",
+      "reviewSource": "Direct user answer on 2026-11-03: 'I never visited Story. in Prairie Village, but wish I had.'",
+      "attendanceCertainty": "explicit_nonattendance",
+      "visitPeriod": null,
+      "wishlistDecision": "not_eligible_for_future_visit_closed",
+      "statusNote": "Confirmed nonattendance; preserve wistful historical interest separately from actionable future-visit wishlist."
+    },
+    {
+      "id": "candidate-lawrence-1900-barker-original",
+      "area": "Kansas City Metro",
+      "subregion": "Lawrence, Kansas (original Barker Avenue location, not the later Mass Street branch)",
+      "name": "1900 Barker Bakery & Café",
+      "venueType": "bakery_cafe",
+      "addressHint": "1900 Barker Avenue, Lawrence, KS 66046",
+      "recognition": "Taylor Petrehn at the original 1900 Barker Bakery & Café was a James Beard Outstanding Baker semifinalist in 2018, 2019 and 2020. Recognitions belong to its baker in post, not a bakery-level award win or a nomination for the 2023 Mass Street branch.",
+      "recognitionYear": 2018,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "official_jbf_2018_2019_2020_outstanding_baker_semifinalist_verified",
+      "addedOn": "2026-11-03",
+      "priority": "next",
+      "openedOn": "2015-06",
+      "operatingStatus": "operating",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+        "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "https://www.1900barker.com/",
+        "https://www.travelks.com/listing/1900-barker-bakery-%7C-cafe/23806/",
+        "https://lawrencekstimes.com/2023/03/06/lowdown-1900-barker-mass-soft-opening/"
+      ],
+      "interviewCue": "Original East Lawrence bakery at 1900 Barker Avenue began in 2015 in a former laundromat. Exposed timber beams, open bread-production racks, pastries, coffee bar, naturally leavened loaves and croissants. The separate 816 Massachusetts Street 'Barker on Mass' opened March 2023; do not transfer an answer between locations.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_outstanding_baker_2018_2019_2020_semifinalist_taylor_petrehn_at_original",
+        "sourceTier": "official_jbf",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+        "verifiedAt": "2026-11-03",
+        "note": "Named Taylor Petrehn at 1900 Barker in 2018/2019/2020 semifinalist lists. No finalist/winner inference; avoid implying 2023 Mass branch was the original recognized venue."
+      },
+      "photographicEvidence": [
+        {
+          "id": "1900-barker-original-interior-kansas-tourism",
+          "label": "1900 Barker — original Barker Avenue interior",
+          "caption": "Kansas Tourism photograph listed under the 1900 Barker Bakery | Cafe (66046) location showing the bakery racks and open kitchen, not the separate Massachusetts Street café.",
+          "photoSubject": "Original 1900 Barker Avenue bakery counter and baking racks",
+          "sourceUrl": "https://www.travelks.com/listing/1900-barker-bakery-%7C-cafe/23806/",
+          "sourceOrganization": "Kansas Tourism",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Bright bakery interior with pastries, exposed timber and an open preparation counter"
+        },
+        {
+          "id": "1900-barker-original-pastry-2019",
+          "label": "1900 Barker — 2019 pastry racks",
+          "caption": "2019 photography of the original 1900 Barker bakery's artisan pastries and loaves, prior to the 2023 second location.",
+          "photoSubject": "Original bakery's pastries and bread on racks",
+          "sourceUrl": "https://themonopolitan.com/2019/03/1900-barker",
+          "sourceOrganization": "The Monopolitan",
+          "sourceYear": 2019,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Artisan breads, croissants and baked pastries stacked on metal bakery racks"
         }
       ]
     }
@@ -10006,13 +10078,13 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "restaurants",
+      "category": "bakeries_and_cafes",
       "candidateNames": [
-        "Story."
+        "1900 Barker Bakery & Café"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you ever dine at Story. at 3931 W 69th Terrace in Prairie Village, during its 2011–January 2026 operation?",
-      "continuation": "Four options: Yes — visited; Maybe — familiar; No — never visited; No — wish I had (historical-interest archive only, NOT future wishlist because permanently closed). Follow with another individually verified venue. Do not confuse Story. with successor Scratch Gourmet Kitchen."
+      "question": "Have you visited the original 1900 Barker Bakery & Café at 1900 Barker Avenue, Lawrence, Kansas (opened 2015), not the later 816 Massachusetts Street location?",
+      "continuation": "Four options: Yes — visited, Maybe — looks familiar, No — never visited, Add to list — not visited, want to go. Keep distinct original Barker Avenue and 2023 Massachusetts Street locations; conserve Taylor Petrehn chef/baker semifinalist award attribution."
     },
     "pausedBatches": [
       {
