@@ -2894,10 +2894,10 @@
       "awardFamily": "beard",
       "interviewCue": "Modern Midwestern comfort food in Leawood, Kansas; one of Colby and Megan Garrelts' restaurants.",
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-      "visitStatus": "not_visited",
+      "visitStatus": "unreviewed",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
-      "priority": "standard",
+      "priority": "skip_duplicate_metro_brand",
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard",
@@ -2913,9 +2913,13 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewSource": "2026-11-03 user does not want same-brand same-metro restaurant locations distinguished or interviewed separately. Only Rye Plaza attendance is confirmed; Leawood visit unknown.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "location_not_separately_assessed_by_user_policy",
+      "metroExperienceGroupId": "rye-kansas-city-metro",
+      "metroCanonicalCandidateId": "candidate-kansas-city-metro-rye-plaza",
+      "interviewExcludedDueToMetroGrouping": true,
+      "excludeFromVisitCounts": true
     },
     {
       "id": "candidate-kansas-city-metro-rye-plaza",
@@ -2931,17 +2935,17 @@
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
-        "status": "memory_only",
-        "basis": "historically_relevant_shared_restaurant_brand_and_awarded_chefs",
-        "evidenceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-        "sourceTier": "visit_kc_plus_official_jbf_attributions",
-        "verifiedAt": "2026-10-31",
-        "note": "No direct James Beard or Michelin honor for the Plaza location verified. Colby 2013 Best Chef Midwest was at Bluestem; Megan's 2017–2020 Rye pastry semifinalist records say Leawood. Preserve these as related context, not qualifying Plaza awards."
+        "status": "award_qualified_metro_brand_aggregation",
+        "basis": "james_beard_pastry_semifinalist_at_rye_leawood_metro_brand",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "User explicitly groups restaurant branches across the same metro; one confirmed Rye entry can count using original Leawood chef award evidence, which remains labeled with its original venue."
       },
       "eligibility": {
-        "status": "memory_lead_award_scope_unverified",
-        "basis": "restaurant_brand_related_chefs_only",
-        "reason": "The Plaza branch has separate current identity; primary JBF nominations attribute Rye to Leawood and Colby's win to Bluestem. Should a user confirm visiting the Plaza branch, place in confirmed nonqualified archive until a venue-specific honor is verified.",
+        "status": "eligible_candidate",
+        "basis": "james_beard_restaurant_brand_metro_aggregation_user_policy",
+        "reason": "Confirmed Rye Plaza meal; Rye Leawood chef award linked at metro brand group only. No Plaza-specific honor or Leawood visit claimed.",
         "screenedOn": "2026-10-31",
         "verifiedForPublication": false
       },
@@ -2985,10 +2989,14 @@
       "photographicEvidenceReviewOn": "2026-10-31",
       "confirmedVisitId": "dining-rye-plaza-kansas-city-date-unknown",
       "wantsToVisit": false,
-      "reviewedOn": "2026-10-31",
-      "reviewSource": "Direct user reply: I visited Rye Plaza at 4646 Mill Creek Parkway. Record a confirmed visit there, not Rye Leawood, with date unknown.",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct 2026-10-31 confirmation of Plaza visit, reaffirmed 2026-11-03: 'I believe I went to Rye on the plaza. I recall I don’t want to distinguish between locations within the same metro area. Just count it and move forward.'",
       "visitDate": null,
-      "visitPrecision": "unknown"
+      "visitPrecision": "unknown",
+      "metroExperienceGroupId": "rye-kansas-city-metro",
+      "metroCountingStatus": "count_once_confirmed",
+      "metroCountingPolicy": "same_restaurant_brand_same_metro",
+      "recognitionScopeNote": "Megan Garrelts' 2017-2020 JBF pastry semifinalist records name Rye Leawood; attribute to Rye KC metro brand for user's counting preference, without declaring award at Plaza or attendance at Leawood."
     },
     {
       "id": "candidate-kansas-city-metro-the-american-restaurant",
@@ -3540,12 +3548,12 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative",
+      "reviewSource": "Direct user response 2026-11-03: I never visited Waldo Thai at 8431 Wornall Road, but wish I had. Historical interest only, not future dining wishlist.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonattendance",
       "operatingStatus": "permanently_closed",
       "closedOn": "2025-10-03",
-      "priority": "next",
+      "priority": "reviewed",
       "reconfirmationRequestedOn": "2026-11-03",
       "closureEvidenceUrl": "https://www.kansascity.com/news/business/openings-closings/article315991006.html",
       "closureNote": "Closed after October 3, 2025; in August 2026 another operator opened Jade & Ember in former 8431 Wornall Rd space. Restaurant website remains online with outdated hours. Historical attendance question only; no actionable future-visit wishlist.",
@@ -3569,7 +3577,12 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only"
         }
-      ]
+      ],
+      "historicalInterest": true,
+      "historicalInterestNote": "Never visited, but wishes they had experienced the restaurant before October 2025 closure.",
+      "wantsToVisit": false,
+      "wishlistStatus": "historical_interest_only_closed",
+      "reconfirmationResolvedOn": "2026-11-03"
     },
     {
       "id": "candidate-kansas-city-metro-fox-pearl",
@@ -10117,7 +10130,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Waldo Thai — historical restaurant, 8431 Wornall Road, Kansas City; 2023 Pam Liberda JBF Best Chef Midwest semifinalist. Closed October 2025 and replaced by Jade & Ember in August 2026. Ask visit/maybe/nonvisit/historical interest.",
+      "nextCandidate": "Room 39 — prior maybe at original 1719 West 39th Street; confirm KC-metro brand-level attendance with photos, not branch-specific. Ted Habiger James Beard Best Chef Midwest semifinalist 2008, 2012, 2014.",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -10128,7 +10141,9 @@
       "ofCourse": "Not visited; user wants to go. Confirmed private wishlist of 7753 W 159th St in Overland Park. Swetha Newcomb 2026 Best Chef Midwest semifinalist (chef in post, not winner).",
       "westportCafe": "Directly confirmed Westport Café & Bar at 419 Westport Road, date unknown; Romain Monnoyeur-Millard official 2024 JBF Best Chef Midwest semifinalist as chef in post, not winner.",
       "saltwellFarmKitchen": "Explicitly not visited, user future wishlist only; 214 N 800 Road Overbrook KS. Chef Rozz Petrozz 2024 and 2025 JBF Best Chef Midwest semifinalist in post; not win or restaurant award.",
-      "townCompany": "Direct user 2026-11-03: explicitly never dined at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City; wants to visit exact operating restaurant. Private wishlist want-to-visit-the-town-company-hotel-kansas-city; Johnny Leach 2026 JBF Best Chef Midwest semifinalist and Helen Jo Leach 2026 JBF Outstanding Pastry Chef or Baker semifinalist, independently attributed and not wins. Supersedes October 25 tentative negative."
+      "townCompany": "Direct user 2026-11-03: explicitly never dined at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City; wants to visit exact operating restaurant. Private wishlist want-to-visit-the-town-company-hotel-kansas-city; Johnny Leach 2026 JBF Best Chef Midwest semifinalist and Helen Jo Leach 2026 JBF Outstanding Pastry Chef or Baker semifinalist, independently attributed and not wins. Supersedes October 25 tentative negative.",
+      "waldoThai": "2026-11-03 direct explicit nonattendance at original Waldo Thai 8431 Wornall Road; user wishes they had visited before closure. Private historical interest only, not future dining wishlist. Pam Liberda 2023 JBF Best Chef Midwest semifinalist retained.",
+      "ryeMetro": "2026-11-03 direct reaffirmation of confirmed Rye Plaza visit; user instructs same-brand restaurants within a metro to count once. One Rye Kansas City metro dining experience, date unknown. Megan Garrelts JBF pastry semifinalist accolades historically attributed to Rye Leawood, only metro-brand association used for eligibility; no Leawood attendance or Plaza-specific chef award inferred."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -10403,11 +10418,11 @@
       "area": "Kansas City Metro",
       "category": "historical_restaurants",
       "candidateNames": [
-        "Waldo Thai"
+        "Room 39"
       ],
-      "status": "awaiting_reconfirmation_of_prior_tentative_negative",
-      "question": "Did you eat at the original Waldo Thai at 8431 Wornall Road before it closed in October 2025?",
-      "continuation": "Offer four answers: Yes — visited; Maybe — looks familiar; No — never visited; No — wish I had. The restaurant is closed and former premises now house Jade & Ember, so historical interest rather than a live future-visit wishlist. Verify Pam Liberda 2023 JBF Best Chef: Midwest semifinalist with original JBF list. Show original venue/food photographs and do not conflate with Buck Tui or MuNi."
+      "status": "awaiting_user_response",
+      "question": "You previously said the original Room 39 on West 39th Street looked familiar. Did you actually eat at Room 39 anywhere in the Kansas City metro?",
+      "continuation": "One brand-level question only, no location-specific duplicate count. Four choices: Yes visited; Maybe looks familiar; No never visited; Add to wishlist. Ted Habiger's 2008, 2012, 2014 JBF Best Chef: Midwest semifinalist recognitions; original West 39th location photo cues."
     },
     "pausedBatches": [
       {
@@ -10810,6 +10825,13 @@
       "rights": "Photos without a verified publication license are shown in ChatGPT using source-linked search results; private website links to original publisher photography rather than rehosting or hotlinking copyrighted assets.",
       "captionRequired": true,
       "oneVenueAtATime": true
+    },
+    "metroVenueCountingPolicy": {
+      "establishedOn": "2026-11-03",
+      "scope": "Restaurants sharing the same brand within one metropolitan area",
+      "rule": "Count one personal restaurant-brand experience in the metro; don't solicit separate visits or create duplicate records for different branches in that metro. Retain the precise remembered visit location as evidence. Recognitions from other locations of the same brand can qualify the metro brand with transparent original recipient, year, and location attribution; never claim attendance or awards at the other location.",
+      "source": "Direct user request 2026-11-03: I don't want to distinguish between locations within the same metro area. Just count it and move forward.",
+      "exception": "Independently named/operated venues, including a distinct hotel bar, remain separate businesses."
     }
   }
 }
