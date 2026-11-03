@@ -697,6 +697,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "title": "Rye Street Tavern (Sagamore Spirit campus)",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
