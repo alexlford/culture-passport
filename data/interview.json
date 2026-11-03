@@ -2947,22 +2947,22 @@
       "id": "candidate-kansas-city-metro-the-american-restaurant",
       "area": "Kansas City Metro",
       "name": "The American Restaurant",
-      "recognition": "2018 James Beard Design Icon winner (after its regular restaurant operation ended)",
+      "recognition": "2018 James Beard Foundation Design Icon Award WINNER — The American Restaurant itself at Crown Center. Exact venue award, not chef award or Michelin. Public restaurant dining ended at the end of 2016, while the historic space continues as a private/event venue.",
       "recognitionYear": 2018,
       "awardFamily": "beard",
-      "interviewCue": "Landmark fine-dining room high above Crown Center; ceased regular public restaurant operations at the end of 2016, later used for special events.",
+      "interviewCue": "Original fine-dining penthouse above Crown Center, sculptural Warren Platner ceiling 'trees', tiered terrace dining, large skyline windows and formal white tablecloths. Regular public dining through 2016; private dining and special events after 2017 must be distinguished from an original full-service meal.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
       "visitStatus": "not_visited",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "official_2018_jbf_design_icon_winner_historical_venue_verified",
       "addedOn": "2026-10-25",
       "priority": "standard",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
+        "basis": "james_beard_2018_design_icon_exact_venue_winner",
         "evidenceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
-        "sourceTier": "primary",
-        "verifiedAt": "2026-10-25",
-        "note": "Direct venue Michelin listing or a James Beard restaurant/chef-in-post recognition. Year and award level are kept in the recognition text; some awards postdate a possible meal."
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "2018 JBF Design Icon was a WIN for this exact restaurant/dining space; regular restaurant service ended 2016. Do not infer that the user visited, nor treat private event dining as regular dining."
       },
       "eligibility": {
         "status": "eligible_candidate",
@@ -2973,7 +2973,46 @@
       },
       "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
       "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewCertainty": "tentative_negative",
+      "addressHint": "200 E 25th Street, Suite 400, Crown Center, Kansas City, MO 64108",
+      "venueType": "restaurant_historical",
+      "operatingStatus": "regular_public_restaurant_closed_private_events_continue",
+      "openedOn": "1974-02-14",
+      "regularDiningEndedOn": "2016-12",
+      "reconfirmationRequestedOn": "2026-11-03",
+      "reconfirmationReason": "October 25 group-level tentative negative recollection was not a definitive answer. Review the exact historic Crown Center venue individually with photos; preserve original tentative answer until new direct response.",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+        "https://archive.jamesbeard.org/restaurant-design-award-winner-archive",
+        "https://www.crowncenter.com/news-release/james-beard-foundation-announces-2018-design-icon-award",
+        "https://www.crowncenter.com/theamerican",
+        "https://www.visitkc.com/listings/the-american-restaurant/",
+        "https://deanjab.com/2016/07/american-kansas-city-missouri/"
+      ],
+      "photographicEvidence": [
+        {
+          "id": "american-visitkc-2015-interior",
+          "label": "The American — original dining-room architecture",
+          "caption": "Photograph of the original Crown Center restaurant room, reportedly 2015, with the white tablecloths, red carpeting, terraced setting and sculptural Warren Platner ceiling, prior to end of regular dining.",
+          "photoSubject": "The American Restaurant public dining room at Crown Center before 2017",
+          "sourceUrl": "https://www.visitkc.com/listings/the-american-restaurant/",
+          "sourceOrganization": "Visit KC",
+          "sourceYear": 2015,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "american-crowncenter-original-ceiling",
+          "label": "The American — distinctive Crown Center interior",
+          "caption": "Crown Center's official photography of the historic space and its overhead tree-shaped ceiling; photographed in event-use era, architectural context is continuous but not proof of dining attendance.",
+          "photoSubject": "The American Restaurant at Crown Center, distinctive interior architecture",
+          "sourceUrl": "https://www.crowncenter.com/theamerican",
+          "sourceOrganization": "Crown Center",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-q39",
@@ -8994,8 +9033,8 @@
       "recognition": "Calvin Davis at Freshwater was a 2019 James Beard Rising Star Chef of the Year semifinalist, not a winner or finalist.",
       "recognitionYear": 2019,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
-      "priority": "next",
+      "visitStatus": "not_visited",
+      "priority": "reviewed",
       "addedOn": "2026-11-03",
       "openedOn": "2017-04",
       "closedOn": "2020-07",
@@ -9040,7 +9079,17 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only"
         }
-      ]
+      ],
+      "wantsToVisit": false,
+      "wishlistStatus": "historical_interest_only_closed",
+      "historicalInterest": true,
+      "historicalInterestReason": "User explicitly regrets missing Freshwater during its 2017–2020 operation; cannot be a future-visit wishlist destination because permanently closed.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonattendance",
+      "reviewSource": "Direct user answer: never visited Freshwater (Fine) Dining, but wish I had.",
+      "attendanceCertainty": "explicit_nonattendance",
+      "visitPeriod": null,
+      "wishlistDecision": "not_eligible_for_future_visit_closed"
     }
   ],
   "source": {
@@ -10145,11 +10194,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Freshwater (Fine) Dining"
+        "The American Restaurant"
       ],
-      "status": "awaiting_user_response",
-      "question": "Did you dine at Freshwater (Fine) Dining at 3711 Southwest Trafficway in Kansas City, Missouri, during 2017–2020?",
-      "continuation": "Four answers: yes visited, maybe, no never visited, no wish I had (historical interest only, closed). Do not add to future wishlist."
+      "status": "awaiting_reconfirmation_of_prior_tentative_negative",
+      "question": "Did you ever dine at The American Restaurant in Crown Center during 2010–2016, or attend a later special event in the same historic dining room?",
+      "continuation": "Historical venue with 2018 James Beard Design Icon WIN. Four options: yes attended (ask next if dining vs event), maybe familiar, no never, no wish I had. Preserve tentative negative from October 25 until user responds directly. If wishes he had eaten there before 2017, historical regret only; current private event space is distinct and not a regular restaurant wishlist."
     },
     "pausedBatches": [
       {
