@@ -92,7 +92,7 @@
       const target=byId(key); // counts use their own id rather than a category placeholder
       const badge=byId(key+"-count");
       if(!badge)continue;
-      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&includedDining(r)).length+" included";
+      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining").length+" visits";
       else if(key==="bar"){
         const visits=confirmed.filter(r=>r.type==="bar").length,shared=selected.filter(r=>r.type==="bar"&&isRecalled(r)).length;
         badge.textContent=visits+" visits · "+shared+" shared memories";
@@ -118,7 +118,7 @@
     const cityHost=byId("city-editions");
     if(cityHost){
       const grouped=new Map();
-      db.records.filter(r=>r.status==="confirmed"&&(!["dining","bar"].includes(r.type)||includedDining(r))).forEach(r=>{
+      db.records.filter(r=>r.status==="confirmed").forEach(r=>{
         const venue=venues.get(r.venueId);
         if(!venue?.city)return;
         let entry=grouped.get(venue.city);
@@ -167,7 +167,7 @@
     availableCities.forEach(n=>{const option=el("option","",n);option.value=n;city.append(option);});
     const params=new URLSearchParams(window.location.search);
     let filter=Object.prototype.hasOwnProperty.call(titleFor,params.get("type"))?params.get("type"):"all";
-    includeMemories.checked=params.get("memories")==="1";
+    includeMemories.checked=params.get("memories")!=="0";
     const buttons=all(".tabstrip button[data-type]");
     function update(){
       buttons.forEach(b=>{const active=b.dataset.type===filter;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));});
@@ -185,7 +185,7 @@
     buttons.forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.type;const url=new URL(location.href);if(filter==="all")url.searchParams.delete("type");else url.searchParams.set("type",filter);history.replaceState(null,"",url);update();}));
     const initialCity=params.get("city");
     if(initialCity&&availableCities.includes(initialCity))city.value=initialCity;
-    city.addEventListener("change",()=>{const url=new URL(location.href);if(city.value)url.searchParams.set("city",city.value);else url.searchParams.delete("city");history.replaceState(null,"",url);update();});search.addEventListener("input",update);includeMemories.addEventListener("change",()=>{const url=new URL(location.href);if(includeMemories.checked)url.searchParams.set("memories","1");else url.searchParams.delete("memories");history.replaceState(null,"",url);update();});update();
+    city.addEventListener("change",()=>{const url=new URL(location.href);if(city.value)url.searchParams.set("city",city.value);else url.searchParams.delete("city");history.replaceState(null,"",url);update();});search.addEventListener("input",update);includeMemories.addEventListener("change",()=>{const url=new URL(location.href);if(includeMemories.checked)url.searchParams.delete("memories");else url.searchParams.set("memories","0");history.replaceState(null,"",url);update();});update();
   }
   function timeline(db){
     const host=byId("timeline-results"),select=byId("timeline-type"),count=byId("timeline-count"),includeMemories=byId("timeline-memories");
@@ -211,8 +211,7 @@
   function map(db){
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
-    const available=db.records.filter(r=>inCollection(r)&&
-      (!["dining","bar"].includes(r.type)||includedDining(r)));
+    const available=db.records.filter(inCollection);
     // Map points are city-centroid *representations* until independently
     // verified venue coordinates become available. Do not place pins at
     // address approximations or imply the GPS belongs to the venue.
