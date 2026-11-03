@@ -1394,6 +1394,18 @@
       "location": null,
       "sourceId": "1900-barker-original-lawrence",
       "venueScope": "Original Barker Avenue bakery and café, opened June 2015; not Barker on Mass at 816 Massachusetts St opened March 2023"
+    },
+    {
+      "id": "venue-salt-tavern-baltimore",
+      "name": "Salt: A New American Tavern",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Butchers Hill",
+      "address": "2127 E Pratt Street, Baltimore, MD 21231",
+      "location": null,
+      "sourceId": "salt-tavern-baltimore-original",
+      "venueScope": "Original 2006–2018 Salt Tavern; not successor Marta"
     }
   ],
   "records": [
@@ -8303,6 +8315,139 @@
           {
             "label": "1900 Barker — bakery official site",
             "url": "https://www.1900barker.com/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dining-salt-tavern-baltimore-2018-03-16",
+      "type": "dining",
+      "title": "Salt: A New American Tavern",
+      "venueId": "venue-salt-tavern-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": "2018-03-16",
+        "year": 2018,
+        "month": 3,
+        "possibleYears": [
+          2018
+        ],
+        "precision": "day",
+        "label": "March 16, 2018 · first visit, night of UMBC's upset of Virginia",
+        "source": "User's direct Culture Passport statement November 3, 2026: 'I went to Salt for the first time during UMBC upset of UVA. We need to include it in the Culture Passport.' Date anchored independently to the March 16, 2018 NCAA tournament game.",
+        "evidenceType": "direct_user_recollection_with_historical_event_date_anchor",
+        "attendanceCertainty": "confirmed",
+        "firstVisit": true,
+        "otherVisits": null,
+        "mealTime": null,
+        "mealAndCompanionsUnknown": true,
+        "dateBasis": "Historical event same-evening association; no clock time, game viewing activity, or attendance at game assumed"
+      },
+      "summary": "First confirmed dinner at Salt: A New American Tavern in Baltimore on March 16, 2018, remembered in connection with the historic UMBC upset of Virginia. The restaurant is now closed; the specific food, companions and whether the game was watched there were not established.",
+      "recognitions": [
+        {
+          "organization": "Baltimore Magazine",
+          "year": 2006,
+          "category": "Best of Baltimore — Burger and Fries",
+          "result": "winner",
+          "recipient": "Salt: A New American Tavern",
+          "relationship": "Local editorial food-category award for signature burger and duck-fat fries; not James Beard or Michelin recognition and not proof of user's order",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/"
+        }
+      ],
+      "guide": {
+        "distinction": "not_covered",
+        "stars": 0,
+        "historicalVisitDistinction": "not_applicable",
+        "sourceUrl": null,
+        "note": "Baltimore not within Michelin's 2018 restaurant guide coverage; no Michelin or James Beard award for Salt asserted. Its 2006 Baltimore Magazine food-category honor is separate local editorial recognition."
+      },
+      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
+      "editorial": {
+        "awardQualified": false,
+        "collection": "featured_personal_dining",
+        "basis": "direct_user_selected_dated_historical_sports_memory",
+        "featuredException": true,
+        "exceptionPriority": "user_selected",
+        "note": "Explicitly requested inclusion. Qualifies as a personally selected memorable 2018 Baltimore dining event, not a Michelin/James Beard recognized restaurant. Keep 2006 local award distinct."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "personal_featured_exception_with_local_editorial_award",
+        "reason": "User explicitly asked that this first visit tied to UMBC's historic March 16 2018 basketball upset be included; no Michelin/JBF distinction verified. Preserve local editorial awards separately.",
+        "evidenceUrls": [
+          "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+          "https://www.baltimoremagazine.com/section/fooddrink/open-shut-little-bird-man-vs-pho-salt-tavern/",
+          "https://www.washingtonpost.com/sports/ncaa-stunner-no-16-seed-umbc-makes-history-by-knocking-out-no-1-virginia/2018/03/16/35d91dee-2954-11e8-874b-d517e912f125_story.html?noredirect=on"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "direct_user_attendance_contextual_date_plus_original_editorial_source",
+        "verifiedForPublication": false
+      },
+      "memory": {
+        "headline": "Salt, on the night UMBC made history",
+        "teaser": "My first visit to Salt in Baltimore coincided with UMBC's unforgettable upset of Virginia.",
+        "story": "On March 16, 2018 I visited Salt: A New American Tavern in Baltimore for the first time. I remember the night because UMBC—the No. 16 seed—beat No. 1 Virginia in one of the NCAA tournament's most famous upsets. I haven't specified what I ordered, whom I was with, or whether we watched the game at the restaurant.",
+        "period": "March 16, 2018",
+        "source": "Direct user first-visit memory with independently verified NCAA game date"
+      },
+      "relatedCulturalAndSportsContext": {
+        "type": "historical_sports_event_during_dining_visit",
+        "event": "2018 NCAA Men's Basketball Tournament: UMBC defeats Virginia",
+        "eventDate": "2018-03-16",
+        "teams": [
+          "UMBC Retrievers",
+          "Virginia Cavaliers"
+        ],
+        "finalScore": "UMBC 74, Virginia 54",
+        "seedMatchup": "No. 16 UMBC vs No. 1 Virginia",
+        "eventSite": "Charlotte, North Carolina",
+        "relationship": "Date-and-memory anchor for Baltimore Salt restaurant visit; not evidence user attended the game in Charlotte or watched television at Salt.",
+        "sourceUrl": "https://www.washingtonpost.com/sports/ncaa-stunner-no-16-seed-umbc-makes-history-by-knocking-out-no-1-virginia/2018/03/16/35d91dee-2954-11e8-874b-d517e912f125_story.html?noredirect=on",
+        "crossPassportLinkStatus": "contextual_reference_only_no_duplicate_sports_experience_created"
+      },
+      "story": {
+        "headline": "The night UMBC made history—and a first dinner at Salt",
+        "paragraphs": [
+          "March 16, 2018 is the date tied to my first visit to Salt: A New American Tavern on East Pratt Street in Baltimore. It's easy to remember because that was the night UMBC shocked the top-seeded University of Virginia in the NCAA men's basketball tournament.",
+          "UMBC's 74–54 victory in Charlotte was the first time a No. 16 seed defeated a No. 1 seed in the men's tournament. That sporting moment fixes this restaurant memory to a particular night; it doesn't establish that I attended the basketball game or watched it from Salt.",
+          "Salt was a Butchers Hill New American tavern known for duck-fat fries, its foie-gras burger, and an exposed-brick dining room. It had received a 2006 Baltimore Magazine Best of Baltimore honor for burger and fries. Those are restaurant history, not a claim about the dishes ordered on my visit.",
+          "Salt's regular dinner service ended on August 11, 2018, just five months after the visit. The space later reopened as Marta, a separate restaurant. I want the original Salt experience preserved in my Culture Passport even though no Michelin or James Beard award for Salt has been established."
+        ],
+        "chapters": [
+          {
+            "year": "2006",
+            "title": "Salt opens",
+            "detail": "Salt: A New American Tavern opens at 2127 E Pratt Street and receives a Baltimore Magazine Best of Baltimore food honor."
+          },
+          {
+            "year": "2018",
+            "title": "March 16 — a landmark night",
+            "detail": "First confirmed Salt visit coincides with UMBC's historic 74–54 upset over Virginia."
+          },
+          {
+            "year": "2018",
+            "title": "August — the original chapter ends",
+            "detail": "Salt concludes regular dinner service on August 11."
+          }
+        ],
+        "sourceUrls": [
+          {
+            "label": "Baltimore Magazine — Best of Baltimore 2006",
+            "url": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/"
+          },
+          {
+            "label": "Baltimore Magazine — Salt in 2013",
+            "url": "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/"
+          },
+          {
+            "label": "Baltimore Magazine — Salt's 2018 closure",
+            "url": "https://www.baltimoremagazine.com/section/fooddrink/open-shut-little-bird-man-vs-pho-salt-tavern/"
+          },
+          {
+            "label": "Washington Post — UMBC–Virginia, March 16 2018",
+            "url": "https://www.washingtonpost.com/sports/ncaa-stunner-no-16-seed-umbc-makes-history-by-knocking-out-no-1-virginia/2018/03/16/35d91dee-2954-11e8-874b-d517e912f125_story.html?noredirect=on"
           }
         ]
       }
