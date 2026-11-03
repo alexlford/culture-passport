@@ -8926,10 +8926,10 @@
       "recognition": "Taylor Petrehn at the original 1900 Barker Bakery & Café was a James Beard Outstanding Baker semifinalist in 2018, 2019 and 2020. Recognitions belong to its baker in post, not a bakery-level award win or a nomination for the 2023 Mass Street branch.",
       "recognitionYear": 2018,
       "awardFamily": "beard",
-      "visitStatus": "unreviewed",
+      "visitStatus": "confirmed",
       "researchStatus": "official_jbf_2018_2019_2020_outstanding_baker_semifinalist_verified",
       "addedOn": "2026-11-03",
-      "priority": "next",
+      "priority": "reviewed",
       "openedOn": "2015-06",
       "operatingStatus": "operating",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
@@ -8974,6 +8974,71 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only",
           "altText": "Artisan breads, croissants and baked pastries stacked on metal bakery racks"
+        }
+      ],
+      "confirmedVisitId": "dining-1900-barker-original-lawrence-date-unknown",
+      "wantsToVisit": false,
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_confirmed",
+      "reviewSource": "Direct user confirmation of a visit to original 1900 Barker Avenue bakery; date unknown.",
+      "visitPeriod": null,
+      "attendanceCertainty": "confirmed_exact_original_location_date_unknown"
+    },
+    {
+      "id": "candidate-kc-freshwater-fine-dining-2017-2020",
+      "area": "Kansas City Metro",
+      "subregion": "Midtown Kansas City, MO, original historical site",
+      "name": "Freshwater (Fine) Dining",
+      "venueType": "restaurant",
+      "addressHint": "3711 Southwest Trafficway / 3711 Summit Street, Kansas City, MO 64111",
+      "recognition": "Calvin Davis at Freshwater was a 2019 James Beard Rising Star Chef of the Year semifinalist, not a winner or finalist.",
+      "recognitionYear": 2019,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "priority": "next",
+      "addedOn": "2026-11-03",
+      "openedOn": "2017-04",
+      "closedOn": "2020-07",
+      "operatingStatus": "permanently_closed",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+        "https://www.thepitchkc.com/swooning-for-freshwater-20-a-successful-experiment-in-fine-dining-for-workingclass-millennials/",
+        "https://kcindependent.com/freshwater/",
+        "https://1dapperlatino.com/freshwater/",
+        "https://www.kansascity.com/news/business/biz-columns-blogs/cityscape/article244373827.html"
+      ],
+      "interviewCue": "Intimate open-kitchen, farm-to-table tasting menu and a small dining room along Southwest Trafficway; operated 2017–2020, interrupted in 2017–2018, then closed in 2020.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "2019_jbf_rising_star_chef_semifinalist_calvin_davis_at_freshwater",
+        "sourceTier": "official_jbf",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+        "verifiedAt": "2026-11-03",
+        "note": "Chef-at-venue semifinalist, not an award win. Historic Freshwater only, no attribution to later businesses."
+      },
+      "photographicEvidence": [
+        {
+          "id": "freshwater-2017-menu-gallery",
+          "label": "Freshwater — 2017 plated dishes",
+          "caption": "Historic 2017 photos of dishes at Freshwater.",
+          "photoSubject": "Freshwater Kansas City dishes in 2017",
+          "sourceUrl": "https://1dapperlatino.com/freshwater/",
+          "sourceOrganization": "1 Dapper Latino",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "freshwater-2019-indep",
+          "label": "Freshwater — 2019 seasonal menu",
+          "caption": "2019 historical photographs from the original restaurant.",
+          "photoSubject": "Freshwater Kansas City 2019 dishes",
+          "sourceUrl": "https://kcindependent.com/freshwater/",
+          "sourceOrganization": "The Independent",
+          "sourceYear": 2019,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
         }
       ]
     }
@@ -10078,13 +10143,13 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "bakeries_and_cafes",
+      "category": "restaurants",
       "candidateNames": [
-        "1900 Barker Bakery & Café"
+        "Freshwater (Fine) Dining"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited the original 1900 Barker Bakery & Café at 1900 Barker Avenue, Lawrence, Kansas (opened 2015), not the later 816 Massachusetts Street location?",
-      "continuation": "Four options: Yes — visited, Maybe — looks familiar, No — never visited, Add to list — not visited, want to go. Keep distinct original Barker Avenue and 2023 Massachusetts Street locations; conserve Taylor Petrehn chef/baker semifinalist award attribution."
+      "question": "Did you dine at Freshwater (Fine) Dining at 3711 Southwest Trafficway in Kansas City, Missouri, during 2017–2020?",
+      "continuation": "Four answers: yes visited, maybe, no never visited, no wish I had (historical interest only, closed). Do not add to future wishlist."
     },
     "pausedBatches": [
       {
