@@ -9907,9 +9907,9 @@
       "name": "Harpoon Brewery & Beer Hall",
       "venueType": "brewery_taproom",
       "addressHint": "306 Northern Avenue, Boston, MA 02210",
-      "recognition": "2026 Boston Globe Best of the Best curated brewery/bar selection, local editorial recognition",
-      "recognitionYear": 2026,
-      "awardFamily": "local_editorial_brewery_selection",
+      "recognition": "The Boston Globe's July 11, 2024 list of nine Greater Boston breweries and taprooms specifically features Harpoon Brewery & Beer Hall at 306 Northern Avenue. Its June 2026 list describes Harpoon Beer Garden at a different site, so the 2026 feature must not be transferred to the Seaport beer hall.",
+      "recognitionYear": 2024,
+      "awardFamily": "local_editorial_2024_specific_seaport_beer_hall",
       "visitStatus": "unreviewed",
       "wantsToVisit": null,
       "priority": "queued",
@@ -9917,6 +9917,7 @@
       "addedOn": "2026-11-03",
       "sourceUrl": "https://harpoonbrewery.com/boston-brewery/",
       "sourceUrls": [
+        "https://www.bostonglobe.com/2024/07/11/magazine/nine-best-breweries-taproom-in-greater-boston-area/",
         "https://harpoonbrewery.com/boston-brewery/",
         "https://www.harpoonbrewery.com/",
         "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
@@ -9928,13 +9929,13 @@
         "basis": "direct_award_or_editorial_evidence",
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
-        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
-        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+        "evidenceUrl": "https://www.bostonglobe.com/2024/07/11/magazine/nine-best-breweries-taproom-in-greater-boston-area/",
+        "note": "The 2024 Boston Globe best breweries and taprooms profile specifically identifies Harpoon Brewery & Beer Hall at 306 Northern Avenue; 2026 Best of the Best Harpoon Beer Garden mention is a distinct location and must not be attributed to this site. Editorial selection is not a judged beer medal and is not user visit evidence."
       },
       "eligibility": {
         "status": "candidate_eligible_if_visited",
         "basis": "brewing_award_or_curated_editorial_recognition",
-        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "reason": "Direct local editorial venue selection: 2024 Boston Globe list covers this exact Seaport beer hall; independent of user attendance.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
