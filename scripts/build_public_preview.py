@@ -36,16 +36,12 @@ INTERVIEW_SECTION = re.compile(
 
 
 def public_story(record):
-    # Curated experiences only: a personal favorite may be included even
-    # without a Michelin or James Beard distinction.
-    editorial = record.get("editorial") or {}
+    # Every directly confirmed visit belongs in the public-facing collection.
+    # Awards, features and editorial spotlights affect labeling, not visibility.
+    # Preserve separately requested friend-recalled stories without claiming attendance.
     if record["status"] == "recollected":
-        return editorial.get("userRequestedMemory") is True
-    if record["status"] != "confirmed":
-        return False
-    if record["type"] in {"dining", "bar"}:
-        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature") or editorial.get("culturalSpotlight"))
-    return True
+        return (record.get("editorial") or {}).get("userRequestedMemory") is True
+    return record["status"] == "confirmed"
 
 
 def safe_fields(original, names):
@@ -258,7 +254,7 @@ def main():
             records, venues = build(Path(temp) / "site")
     else:
         records, venues = build(args.output)
-    print(f"Clean visitor export passes: {records} curated experiences, {venues} venues.")
+    print(f"Clean visitor export passes: {records} public-facing experiences, {venues} venues.")
     print("Excluded private research ledgers, raw reservations, interview pages and interview response data.")
     print("Human review of memory/story text and source Git history is still required before publication.")
 
