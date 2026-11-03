@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kc-story-prairie-village",
+    "venue": "Story.",
+    "address": "3931 W 69th Terrace, Prairie Village, KS 66208",
+    "historicalOperatingPeriod": "May 2011–January 2026",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonattendance",
+    "historicalInterest": true,
+    "historicalInterestNote": "Wishes they had visited before the permanent closure.",
+    "wantsToVisit": false,
+    "actionableFutureWishlist": false,
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City-region interview: I never visited Story. in Prairie Village, but wish I had. Record nonattendance and private historical interest, not a future-visit wishlist entry because Story. permanently closed in January 2026. Continue with the next eligible historical venue, photos and four buttons."
+  },
+  "recognitionGuardrails": {
+    "organization": "James Beard Foundation",
+    "category": "Best Chef: Midwest",
+    "recipient": "Carl Thorne-Thomsen at Story.",
+    "years": [
+      2013,
+      2022
+    ],
+    "result": "semifinalist",
+    "notWinner": true,
+    "sourceUrls": [
+      "https://www.jamesbeard.org/sites/default/files/pressreleases/JBF%202013%20Semifinalists%20Press%20Release%20-%20FINAL-1.pdf",
+      "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+    ]
+  },
+  "nextInterview": {
+    "candidateId": "candidate-lawrence-1900-barker-original",
+    "venue": "1900 Barker Bakery & Café",
+    "address": "1900 Barker Avenue, Lawrence, KS 66046",
+    "sourceUrls": [
+      "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+      "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+      "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+      "https://www.1900barker.com/",
+      "https://www.travelks.com/listing/1900-barker-bakery-%7C-cafe/23806/",
+      "https://lawrencekstimes.com/2023/03/06/lowdown-1900-barker-mass-soft-opening/"
+    ],
+    "visitStatus": "unreviewed",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "category": "Outstanding Baker",
+      "recipient": "Taylor Petrehn at 1900 Barker original",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "result": "semifinalist",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+        "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+      ]
+    },
+    "photographicEvidence": [
+      {
+        "id": "1900-barker-original-interior-kansas-tourism",
+        "label": "1900 Barker — original Barker Avenue interior",
+        "caption": "Kansas Tourism photograph listed under the 1900 Barker Bakery | Cafe (66046) location showing the bakery racks and open kitchen, not the separate Massachusetts Street café.",
+        "photoSubject": "Original 1900 Barker Avenue bakery counter and baking racks",
+        "sourceUrl": "https://www.travelks.com/listing/1900-barker-bakery-%7C-cafe/23806/",
+        "sourceOrganization": "Kansas Tourism",
+        "sourceYear": null,
+        "imageRights": "unverified",
+        "renderMode": "source_link_only",
+        "altText": "Bright bakery interior with pastries, exposed timber and an open preparation counter"
+      },
+      {
+        "id": "1900-barker-original-pastry-2019",
+        "label": "1900 Barker — 2019 pastry racks",
+        "caption": "2019 photography of the original 1900 Barker bakery's artisan pastries and loaves, prior to the 2023 second location.",
+        "photoSubject": "Original bakery's pastries and bread on racks",
+        "sourceUrl": "https://themonopolitan.com/2019/03/1900-barker",
+        "sourceOrganization": "The Monopolitan",
+        "sourceYear": 2019,
+        "imageRights": "unverified",
+        "renderMode": "source_link_only",
+        "altText": "Artisan breads, croissants and baked pastries stacked on metal bakery racks"
+      }
+    ],
+    "responseButtons": [
+      "Yes — visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "Add it to the list — haven't been, want to go"
+    ],
+    "locationScope": "Original location at 1900 Barker Ave only; Mass St location opened March 2023"
+  },
+  "publication": {
+    "status": "private",
+    "notes": "No visit record was created for Story. and no public story approval implied. Baker is only an interview candidate pending user answer."
+  }
+}
