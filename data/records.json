@@ -1430,6 +1430,18 @@
       "location": null,
       "sourceId": "ministry-of-brewing-baltimore-original",
       "venueScope": "Brewery and taproom housed in the former St. Michael the Archangel church at 1900 E Lombard Street; not the prior church operation"
+    },
+    {
+      "id": "venue-rye-street-tavern-sagamore-baltimore",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Port Covington / Baltimore Peninsula",
+      "address": "225 E Cromwell Street, Baltimore, MD 21230",
+      "location": null,
+      "sourceId": "rye-street-tavern-sagamore-original-and-reopened",
+      "venueScope": "Rye Street Tavern beside Sagamore Spirit at 225 E Cromwell St. Original NoHo/Andrew Carmellini 2017-2020 public-dining era, 2021 events-only period, and Clyde's 2024 reopened venue differentiated; personal visit era unknown."
     }
   ],
   "records": [
@@ -8606,6 +8618,69 @@
         ],
         "reviewedOn": "2026-11-03",
         "confidence": "direct_user_attendance_confirmed_and_primary_esquire_selection_date_unknown",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "type": "dining",
+      "title": "Rye Street Tavern (Sagamore Spirit campus)",
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Rye Street Tavern visit · date and operating era unknown",
+        "source": "Direct user confirmation November 3, 2026: 'I have been the Rye Street Tavern too'.",
+        "evidenceType": "direct_user_recollection",
+        "attendanceCertainty": "confirmed_exact_venue_undated",
+        "companions": null,
+        "orders": null,
+        "operatingEra": "not_established",
+        "possibleHistoricPublicDining": "2017 to late 2020",
+        "possibleReopenedPublicDining": "2024-07-15 onward",
+        "visitToSagamoreDistilleryNotInferred": true
+      },
+      "summary": "Confirmed personal visit to Rye Street Tavern at 225 E Cromwell Street, beside Sagamore Spirit in Baltimore. Visit date and whether the meal occurred in the original 2017–2020 era or after the July 2024 Clyde's relaunch are not established.",
+      "memory": {
+        "headline": "Rye Street Tavern on the Baltimore waterfront",
+        "teaser": "A confirmed visit to Rye Street Tavern on the Sagamore Spirit campus.",
+        "story": "I have been to Rye Street Tavern on the Baltimore waterfront. The restaurant opened in 2017 and relaunched under a different operator in 2024. I have not yet identified which era I visited, the date, my companions, or what I ordered.",
+        "period": "Baltimore visit · exact date unknown",
+        "source": "Direct user confirmation November 3, 2026"
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "unknown_visit_year",
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award documented for Rye Street Tavern. A founder chef's earlier honors at other restaurants are not transferable."
+      },
+      "sourceUrl": "https://www.ryestreettavern.com/about/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": false,
+        "collection": "historic_baltimore_restaurant_archive",
+        "basis": "direct_user_visit_waterfront_distillery_history",
+        "note": "Not currently included in the public visitor preview. Historical experience archived; evaluate wider cultural-spotlight category independently, with story approval if promoted."
+      },
+      "curation": {
+        "status": "archived_confirmed_pending_formal_recognition_or_personal_feature_review",
+        "basis": "direct_visit_historic_sagamore_waterfront_restaurant",
+        "reason": "Distinctly recognized historic waterfront hospitality setting but no direct qualifying restaurant Michelin/JBF honor verified; user has not requested a personal-feature exception. Preserve confirmed visit and operator eras; re-audit award or editorial tier later.",
+        "evidenceUrls": [
+          "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
+          "https://www.ryestreettavern.com/about/",
+          "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "user_confirmed_specific_restaurant_undated",
         "verifiedForPublication": false
       }
     }
