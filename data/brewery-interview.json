@@ -199,6 +199,36 @@
         }
       ],
       "note": "Direct confirmation establishes one visit to this brewery brand within Boston metro, but does not identify Fort Point Congress Street, Thomson Place, Fenway, Canton, an exact date, companions, particular beers or a brewery tour. Do not claim the 2026 editorial selection was in place at visit time."
+    },
+    {
+      "id": "brewery-brand-mighty-squirrel-boston-metro",
+      "name": "Mighty Squirrel Brewing",
+      "reportedName": "Mighty Squirrel",
+      "status": "confirmed_brewery_brand_visit",
+      "metroArea": "Greater Boston, Massachusetts",
+      "locationStatus": "site_unconfirmed",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_statement",
+        "date": "2026-11-03",
+        "quote": "I know I’ve been to Mighty Squirrel"
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "category": "American Amber Lager",
+          "product": "Oktoberfest",
+          "result": "silver medal",
+          "listedBrewer": "Mighty Squirrel, Waltham, MA",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+          "relationship": "Judged beer medal credited to the listed Waltham brewer; it does not identify the user's visited site, date or beer ordered."
+        }
+      ],
+      "publicRecordId": "bar-brewery-brand-mighty-squirrel-boston-metro-visit-date-unknown",
+      "note": "User confirms visit to brewery brand in Boston interview. Waltham, Fenway, Arsenal Yards/Watertown and any other site remain unconfirmed. Exact date, companions, tour and beverage order unknown."
     }
   ],
   "historicalInterview": {
@@ -222,6 +252,13 @@
     "lastWishlistCandidateId": "candidate-boston-brewery-night-shift",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)"
+    ],
+    "outOfOrderAnswers": [
+      {
+        "candidateId": "candidate-boston-brewery-mighty-squirrel",
+        "answer": "confirmed_brand_visit",
+        "recordedOn": "2026-11-03"
+      }
     ]
   },
   "nextRegions": [
@@ -230,7 +267,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Night Shift Brewing: No, but want to go. Record private Greater Boston metro brand-level wishlist; no prior visit and no chosen taproom.",
+  "lastUserStatement": "I know I’ve been to Mighty Squirrel. Confirm at Boston metro brewery-brand level; exact taproom/date unknown; resume Aeronaut.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
