@@ -1610,6 +1610,44 @@
       "officialConnections": [],
       "expandedReviewTier": "personal_featured_exception",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-water-for-chocolate-baltimore",
+      "venueId": "venue-water-for-chocolate-baltimore",
+      "venueName": "Water for Chocolate",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-water-for-chocolate-baltimore-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed Baltimore restaurant visit, exact date unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_qualifying_award_verified_in_targeted_search",
+      "lastReviewedOn": "2026-11-03",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json",
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Directly visited restaurant at 1841 E Lombard St. No directly qualifying Michelin or James Beard recognition verified on 2026-11-03; chef Sean Guy's restaurant reputation or unrelated award elsewhere cannot be transferred. Permanent private award-watchlist; no user-selected feature exception or exact date.",
+      "reviewHistory": [
+        {
+          "date": "2026-11-03",
+          "result": "direct_confirmed_visit_no_qualifying_award_verified",
+          "note": "Visit established by direct statement of three Baltimore visits. Awards screened narrowly; revisit in routine audit. Not an assertion that no honors exist.",
+          "evidenceUrls": [
+            "https://www.waterforchocolate.com/",
+            "https://www.bizjournals.com/baltimore/news/2019/08/08/water-for-chocolate-reopens-after-expansion.html"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
