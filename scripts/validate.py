@@ -1605,3 +1605,14 @@ assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
            for x in interview_data["interviewProgress"]["pausedBatches"])
 assert all(cid not in {r["venueId"] for r in records} for cid in chapter["orderedCandidateIds"])
+
+# Confirmed visits always enter the sanitized visitor dataset regardless of awards.
+# Unconfirmed research and nonattendance never create canonical confirmed visits.
+from build_public_preview import visitor_dataset as confirmed_visitor_dataset
+visitor_records = confirmed_visitor_dataset()["records"]
+visitor_ids_all = {r["id"] for r in visitor_records}
+assert {r["id"] for r in records if r["status"] == "confirmed"} <= visitor_ids_all
+approval_ids = {x["id"] for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"]}
+assert approval_ids == visitor_ids_all
+assert 'id="highlights-only"' in (ROOT / "explore.html").read_text(encoding="utf-8")
+assert 'id="timeline-highlights-only"' in (ROOT / "timeline.html").read_text(encoding="utf-8")
