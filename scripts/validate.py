@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Bluestem"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Chewology"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -183,7 +183,7 @@ for cid in ["candidate-hilo-lehua-at-imiloa", "candidate-maui-tiffanys-wailuku",
     assert lead["photographicEvidence"] and all(
         photo["renderMode"] == "source_link_only" and photo["imageRights"] == "unverified"
         for photo in lead["photographicEvidence"])
-assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")["visitStatus"] == "maybe"
+assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")["visitStatus"] == "not_visited"
 assert next(x for x in wishlist["entries"] if x["candidateId"] == "candidate-kc-novel-east-crossroads")["visitStatus"] == "not_visited"
 
 # Extra Virgin is explicitly NOT visited but is separately wanted; no awards transfer.
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Bluestem"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Chewology"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -367,6 +367,48 @@ assert all(r["organization"] == "James Beard Foundation" and r["year"] == 2026
            and "not restaurant-level award or win" in r["relationship"]
            for r in town_wish["recognitions"])
 assert not any(r["title"] == town["name"] and r["status"] == "confirmed" for r in records)
+# Salt: confirmed Baltimore first visit tied to the date of the UMBC/UVA upset.
+salt_candidate = next(c for c in candidates if c["id"] == "candidate-baltimore-salt-tavern-pratt-street")
+salt_record = next(r for r in records if r["id"] == "dining-salt-tavern-baltimore-2018-03-16")
+assert salt_candidate["visitStatus"] == "confirmed"
+assert salt_candidate["confirmedVisitId"] == salt_record["id"]
+assert salt_candidate["visitDate"] == "2018-03-16"
+assert salt_record["status"] == "confirmed" and salt_record["type"] == "dining"
+assert salt_record["visit"]["date"] == "2018-03-16" and salt_record["visit"]["precision"] == "day"
+assert salt_record["visit"]["firstVisit"] is True
+assert salt_record["venueId"] == "venue-salt-tavern-baltimore"
+assert salt_record["editorial"]["featuredException"] is True
+assert salt_record["editorial"]["awardQualified"] is False
+assert salt_record["curation"]["verifiedForPublication"] is False
+assert salt_record["relatedCulturalAndSportsContext"]["finalScore"] == "UMBC 74, Virginia 54"
+assert "not evidence user attended" in salt_record["relatedCulturalAndSportsContext"]["relationship"]
+assert salt_record["recognitions"][0]["organization"] == "Baltimore Magazine"
+assert salt_record["recognitions"][0]["year"] == 2006
+assert not any(w["candidateId"] == salt_candidate["id"] for w in wishlist["entries"])
+assert not any(v["id"] == "venue-marta-baltimore" and v["id"] == salt_record["venueId"] for v in venues)
+# The closed Bluestem is a private historical nonvisit, never a bookable wish.
+historical_bluestem = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")
+assert historical_bluestem["historicalInterest"] is True
+assert historical_bluestem["wantsToVisit"] is False
+assert historical_bluestem["wishlistStatus"] == "historical_interest_only_closed"
+assert historical_bluestem["operatingStatus"] == "permanently_closed"
+assert not any(w["candidateId"] == historical_bluestem["id"] for w in wishlist["entries"])
+# Chewology is a separate restaurant at the former Bluestem premises.
+chewology = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-chewology")
+assert chewology["visitStatus"] == "unreviewed"
+assert chewology["addressHint"].startswith("900 Westport Road")
+assert chewology["screening"]["status"] == "award_qualified"
+assert "Katie Liu-Sung" in chewology["recognition"]
+assert all(x["imageRights"] == "unverified" and x["renderMode"] == "source_link_only" for x in chewology["photographicEvidence"])
+# Baltimore Salt is a confirmed, dated user-selected historical restaurant visit, not a JBF award claim.
+salt_baltimore = next(c for c in candidates if c["id"] == "candidate-baltimore-salt-tavern-pratt-street")
+assert salt_baltimore["visitStatus"] == "confirmed"
+assert salt_baltimore["addressHint"].startswith("2127 E Pratt Street")
+assert salt_baltimore["screening"]["status"] == "personal_featured_exception_local_editorial_verified"
+assert salt_baltimore["wantsToVisit"] is False
+assert salt_baltimore["eligibility"]["verifiedForPublication"] is False
+assert not any(w["candidateId"] == salt_baltimore["id"] for w in wishlist["entries"])
+
 # Room 39 is one metro-brand wish, not a confirmed meal or multiple branch wishes.
 room_39 = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-room-39")
 assert room_39["visitStatus"] == "not_visited"
@@ -637,13 +679,13 @@ assert len(kc_reviewed) == 9
 assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "explicit_nonattendance" if c["name"] == "Waldo Thai" else "tentative_negative")
            for c in kc_reviewed if c["name"] not in {"Bluestem", "Rye (Leawood)"})
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
-assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
-assert bluestem["reviewedOn"] == "2026-10-28"
-assert "I'm not certain I visited" in bluestem["reviewSource"]
+assert bluestem["visitStatus"] == "not_visited" and bluestem["reviewCertainty"] == "explicit_nonattendance"
+assert bluestem["reviewedOn"] == "2026-11-03"
+assert "I never visited Bluestem" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
 if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
-    assert active_batch["candidateNames"] == ["Bluestem"]
+    assert active_batch["candidateNames"] == ["Chewology"]
     assert waldo["reviewCertainty"] == "explicit_nonattendance"
     assert waldo["visitStatus"] == "not_visited"
     assert waldo["operatingStatus"] == "permanently_closed"
@@ -1124,6 +1166,8 @@ for venue in venues:
             "venue-rye-plaza-kansas-city": "Kansas City",
             "venue-john-browns-underground-lawrence": "Lawrence",
             "venue-1900-barker-original-lawrence": "Lawrence",
+            "venue-salt-tavern-baltimore": "Baltimore",
+            "venue-salt-tavern-baltimore": "Baltimore",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]

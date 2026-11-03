@@ -1563,6 +1563,53 @@
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-salt-tavern-baltimore",
+      "venueId": "venue-salt-tavern-baltimore",
+      "venueName": "Salt: A New American Tavern",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-salt-tavern-baltimore-2018-03-16"
+      ],
+      "visitPeriods": [
+        "March 16, 2018 (first confirmed visit; exact day anchored by UMBC–UVA upset)"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "personal_featured_exception_local_editorial_award_not_national",
+      "lastReviewedOn": "2026-11-03",
+      "featuredException": true,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json",
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Confirmed personal restaurant visit on night of UMBC's historic March 16 2018 win. Featured by direct user request; Baltimore Magazine 2006 Best of Baltimore burger-and-fries recognition is local editorial, not Michelin/JBF. Closed to public dining in August 2018; location later Marta. Date exact; order/companions/TV viewing not established.",
+      "reviewHistory": [
+        {
+          "date": "2026-11-03",
+          "result": "confirmed_visit_personal_feature_exception",
+          "note": "User requested inclusion of first visit March 16 2018 with historic sports memory. Preserve local award separately, no inferred Michelin/JBF qualification.",
+          "evidenceUrls": [
+            "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+            "https://www.baltimoremagazine.com/section/fooddrink/open-shut-little-bird-man-vs-pho-salt-tavern/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "otherHospitalityRecognitions": [
+        {
+          "organization": "Baltimore Magazine",
+          "year": 2006,
+          "category": "Best of Baltimore — Burger and Fries",
+          "result": "winner",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/"
+        }
+      ],
+      "officialConnections": [],
+      "expandedReviewTier": "personal_featured_exception",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
