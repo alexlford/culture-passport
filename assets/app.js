@@ -18,7 +18,7 @@
     (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
   const isRecalled=(r)=>r.status==="recollected";
   // JBF program participation is not a James Beard Award.
-  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight);
+  // Default curated view uses the expanded experience-first criteria.\n  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight||r.editorial?.expandedRecognitionEligible);
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
@@ -69,7 +69,7 @@
   function card(r,v){
     const a=link(" ",href(r),"record-card");
     a.textContent="";
-    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.culturalSpotlight?"CULTURAL DESTINATION":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
+    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.culturalSpotlight?"CULTURAL DESTINATION":r.editorial?.expandedRecognitionEligible?"EDITORIAL / INDUSTRY RECOGNITION":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
@@ -92,7 +92,7 @@
       const target=byId(key); // counts use their own id rather than a category placeholder
       const badge=byId(key+"-count");
       if(!badge)continue;
-      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&includedDining(r)).length+" included";
+      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&includedDining(r)).length+" curated";
       else if(key==="bar"){
         const visits=confirmed.filter(r=>r.type==="bar").length,shared=selected.filter(r=>r.type==="bar"&&isRecalled(r)).length;
         badge.textContent=visits+" visits · "+shared+" shared memories";
