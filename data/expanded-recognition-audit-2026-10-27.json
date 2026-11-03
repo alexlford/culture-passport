@@ -5,12 +5,12 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 61,
-    "canonicalDistinctVenues": 56,
+    "restaurantEntriesReviewed": 62,
+    "canonicalDistinctVenues": 57,
     "archiveOnlyAdditionalEntries": 5,
-    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted. November 3: Water for Chocolate confirmed as restaurant visit, date unknown, archived without verified formal honor; Ministry of Brewing is a bar and excluded from these restaurant totals.",
+    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted. November 3: Water for Chocolate confirmed as restaurant visit, date unknown, archived without verified formal honor; Ministry of Brewing is a bar and excluded from these restaurant totals. Direct November 3 Baltimore triple confirmation includes Rye Street Tavern at Sagamore, alongside Water for Chocolate and Ministry of Brewing. Salt Tavern separately previously confirmed. Rye visit date and era unknown.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 61,
+    "restaurantEntriesTracked": 62,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -80,7 +80,7 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 20,
+    "archived_pending_recognition": 21,
     "formal_michelin_jbf_recognition": 26,
     "personal_featured_exception": 10,
     "official_program_or_editorial_connection": 5
@@ -2042,6 +2042,34 @@
       "officialFeatures": [],
       "reviewResult": "Confirmed visit on November 3, 2026 first-person statement; exact date, dishes and companions unknown. No directly qualifying Michelin/James Beard recognition verified in limited source screen. Keep private permanent watchlist pending future re-audit.",
       "watchlistId": "venue-water-for-chocolate-baltimore",
+      "reviewedOn": "2026-11-03",
+      "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "restaurantName": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "sagamore_spirit_2017_2020_and_2024_plus_relaunch_visit_era_unknown",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+        "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
+        "https://www.ryestreettavern.com/about/"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Confirmed user visit with unknown date/operating era; no direct Michelin or JBF venue honor verified. Prior chef awards elsewhere cannot be transferred.",
+      "watchlistId": "venue-rye-street-tavern-sagamore-baltimore",
       "reviewedOn": "2026-11-03",
       "recognitionReviewStatus": "reviewed"
     }
