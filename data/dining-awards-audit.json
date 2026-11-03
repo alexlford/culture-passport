@@ -11,12 +11,12 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 59,
-    "distinctPublishedVenues": 56,
+    "canonExperienceRecords": 61,
+    "distinctPublishedVenues": 58,
     "recognized": 28,
     "featuredPersonal": 17,
     "officiallyFeatured": 6,
-    "unfeaturedOther": 6,
+    "unfeaturedOther": 8,
     "additionalConfirmedArchiveOnly": 16,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -1271,6 +1271,30 @@
       "editorialNote": "Direct user request: include confirmed first visit anchored to UMBC defeating UVA on March 16, 2018. No claim about dishes ordered or whether game was watched at Salt.",
       "visitConfidence": "direct_user_confirmation_with_verified_historical_calendar_anchor",
       "publicationStatus": "private_pending_story_review"
+    },
+    {
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "User-confirmed visit; exact year and restaurant era unknown"
+      ],
+      "recognitionStatus": "cultural_historical_spotlight",
+      "sourceUrls": [
+        "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+        "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
+        "https://www.ryestreettavern.com/about/"
+      ],
+      "recognitionSummary": [
+        "Sagamore Spirit waterfront hospitality cultural spotlight; no directly verified venue Michelin/James Beard award. Original 2017 restaurant versus 2024 relaunch distinguished."
+      ],
+      "editorialNote": "Direct user confirmed Rye Street Tavern separately from Salt/Water for Chocolate/Ministry. Private pending story review; era and date not assumed.",
+      "visitConfidence": "direct_user_confirmed_named_venue_date_unknown",
+      "publicationStatus": "private_pending_story_review"
     }
   ],
   "confirmedArchiveOnly": [
@@ -1424,7 +1448,7 @@
       "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
     }
   ],
-  "interviewCandidateCount": 276,
+  "interviewCandidateCount": 296,
   "artsNext": {
     "concerts": "Collect artist, venue, tour/event, city, approximate year and the memory rather than set times.",
     "opera": "Collect production, opera house, approximate year and occasion.",
