@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "auditedOn": "2026-11-01",
+  "auditedOn": "2026-11-03",
   "classification": "private_research",
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 60,
-    "canonicalDistinctVenues": 55,
+    "restaurantEntriesReviewed": 61,
+    "canonicalDistinctVenues": 56,
     "archiveOnlyAdditionalEntries": 5,
-    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted.",
+    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted. November 3: Water for Chocolate confirmed as restaurant visit, date unknown, archived without verified formal honor; Ministry of Brewing is a bar and excluded from these restaurant totals.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 60,
+    "restaurantEntriesTracked": 61,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -80,7 +80,7 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 19,
+    "archived_pending_recognition": 20,
     "formal_michelin_jbf_recognition": 26,
     "personal_featured_exception": 10,
     "official_program_or_editorial_connection": 5
@@ -2017,6 +2017,33 @@
       "watchlistId": "venue-salt-tavern-baltimore",
       "reviewedOn": "2026-11-03",
       "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-water-for-chocolate-baltimore",
+      "restaurantName": "Water for Chocolate",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "venueScope": "1841_e_lombard_st_chef_sean_guy_baltimore",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-water-for-chocolate-baltimore-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.waterforchocolate.com/",
+        "https://www.bizjournals.com/baltimore/news/2019/08/08/water-for-chocolate-reopens-after-expansion.html"
+      ],
+      "historicalGuide": "not_verified_no_visit_date",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Confirmed visit on November 3, 2026 first-person statement; exact date, dishes and companions unknown. No directly qualifying Michelin/James Beard recognition verified in limited source screen. Keep private permanent watchlist pending future re-audit.",
+      "watchlistId": "venue-water-for-chocolate-baltimore",
+      "reviewedOn": "2026-11-03",
+      "recognitionReviewStatus": "reviewed"
     }
   ],
   "futureAudit": {
@@ -2024,7 +2051,7 @@
     "nextReviewTarget": "2027-01",
     "priority": "For archived and featured-exception restaurants first, search official Michelin Guide history, special awards, inspector articles, official James Beard awards archives, Taste America/TasteTwenty, Beard House events, Smart Catch and named chef-program rosters; distinguish current vs historical, award vs participation, exact venue vs group."
   },
-  "barLeadSeparate": "J-Bar at Hotel Jerome is confirmed as a bar experience but excluded from these restaurant totals.",
+  "barLeadSeparate": "J-Bar at Hotel Jerome is confirmed as a bar experience but excluded from these restaurant totals. Ministry of Brewing, Baltimore, is also confirmed; its Esquire 2021 Best Bars in America recognition belongs to a separate national editorial bar category, not Michelin or James Beard.",
   "secondaryDiscoverySources": [
     {
       "title": "A Complete List of Every Colorado James Beard Award — 5280",
