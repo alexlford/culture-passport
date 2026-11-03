@@ -367,6 +367,29 @@ assert all(r["organization"] == "James Beard Foundation" and r["year"] == 2026
            and "not restaurant-level award or win" in r["relationship"]
            for r in town_wish["recognitions"])
 assert not any(r["title"] == town["name"] and r["status"] == "confirmed" for r in records)
+# The closed Bluestem is a private historical nonvisit, never a bookable wish.
+historical_bluestem = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")
+assert historical_bluestem["historicalInterest"] is True
+assert historical_bluestem["wantsToVisit"] is False
+assert historical_bluestem["wishlistStatus"] == "historical_interest_only_closed"
+assert historical_bluestem["operatingStatus"] == "permanently_closed"
+assert not any(w["candidateId"] == historical_bluestem["id"] for w in wishlist["entries"])
+# Chewology is a separate restaurant at the former Bluestem premises.
+chewology = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-chewology")
+assert chewology["visitStatus"] == "unreviewed"
+assert chewology["addressHint"].startswith("900 Westport Road")
+assert chewology["screening"]["status"] == "award_qualified"
+assert "Katie Liu-Sung" in chewology["recognition"]
+assert all(x["imageRights"] == "unverified" and x["renderMode"] == "source_link_only" for x in chewology["photographicEvidence"])
+# Baltimore Salt is an unreviewed research lead, not attendance or a JBF award claim.
+salt_baltimore = next(c for c in candidates if c["id"] == "candidate-baltimore-salt-tavern-pratt-street")
+assert salt_baltimore["visitStatus"] == "unreviewed"
+assert salt_baltimore["addressHint"].startswith("2127 E Pratt Street")
+assert salt_baltimore["screening"]["status"] == "local_editorial_recognition_verified_pending_strict_eligibility_review"
+assert salt_baltimore["wantsToVisit"] is None
+assert salt_baltimore["eligibility"]["verifiedForPublication"] is False
+assert not any(w["candidateId"] == salt_baltimore["id"] for w in wishlist["entries"])
+
 # Room 39 is one metro-brand wish, not a confirmed meal or multiple branch wishes.
 room_39 = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-room-39")
 assert room_39["visitStatus"] == "not_visited"
