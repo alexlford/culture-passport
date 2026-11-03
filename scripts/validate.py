@@ -463,9 +463,16 @@ assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
 assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
 # User requested a review of the Sagamore restaurant; never infer attendance.
 sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
-assert sagamore["visitStatus"] == "unreviewed"
+assert sagamore["visitStatus"] == "confirmed" and sagamore["confirmedVisitId"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
 assert sagamore["eligibility"]["status"] == "cultural_historical_candidate_if_visited"
-assert not any(r["title"].startswith("Rye Street Tavern") for r in records)
+rye_street_record = next(r for r in records if r["id"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown")
+assert rye_street_record["status"] == "confirmed" and rye_street_record["type"] == "dining"
+assert rye_street_record["visit"]["date"] is None and rye_street_record["visit"]["operatingEra"] == "not_established"
+assert rye_street_record["venueId"] == "venue-rye-street-tavern-sagamore-baltimore"
+assert not rye_street_record["editorial"]["awardQualified"]
+assert rye_street_record["curation"]["verifiedForPublication"] is False
+assert not any(r["title"] == "Rye Street Tavern" and r["venueId"] == "venue-rye-plaza-kansas-city" for r in records)
+assert any(w["venueId"] == rye_street_record["venueId"] and w["status"] == "monitoring" for w in json.loads((ROOT / "data/restaurant-award-watchlist.json").read_text())["entries"])
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
@@ -1236,6 +1243,7 @@ for venue in venues:
             "venue-1900-barker-original-lawrence": "Lawrence",
             "venue-salt-tavern-baltimore": "Baltimore",
             "venue-water-for-chocolate-baltimore": "Baltimore",
+            "venue-rye-street-tavern-sagamore-baltimore": "Baltimore",
             "venue-ministry-of-brewing-baltimore": "Baltimore",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
