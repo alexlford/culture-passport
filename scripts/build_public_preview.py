@@ -44,7 +44,7 @@ def public_story(record):
     if record["status"] != "confirmed":
         return False
     if record["type"] in {"dining", "bar"}:
-        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature") or editorial.get("culturalSpotlight"))
+        return bool(editorial.get("awardQualified") or editorial.get("featuredException") or editorial.get("officialFeature") or editorial.get("culturalSpotlight") or editorial.get("expandedRecognitionEligible"))
     return True
 
 
