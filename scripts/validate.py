@@ -1256,6 +1256,7 @@ for venue in venues:
             "venue-brewery-brand-left-hand-brewing-site-unconfirmed": None,
             "venue-brewery-brand-avery-brewing-site-unconfirmed": None,
             "venue-brewery-brand-trillium-boston-metro-site-unconfirmed": "Boston",
+            "venue-brewery-brand-mighty-squirrel-boston-metro-site-unconfirmed": "Boston",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
@@ -1575,13 +1576,13 @@ assert any(item["id"] == tonchin_record["id"] and item["status"] == "pending" an
 brewery = json.loads((ROOT / "data/brewery-interview.json").read_text(encoding="utf-8"))
 assert brewery["classification"] == "private_research" and brewery["schemaVersion"] == 1
 brand_visits = brewery["confirmedBrandVisits"]
-assert len(brand_visits) == 8
-assert len({x["id"] for x in brand_visits}) == 8
+assert len(brand_visits) == 9
+assert len({x["id"] for x in brand_visits}) == 9
 assert {x["name"] for x in brand_visits} == {
     "Maui Brewing Co.", "Cerebral Brewing", "Outer Range Brewing Co.",
     "New Terrain Brewing Co.", "New Belgium Brewing",
     "Left Hand Brewing Company", "Avery Brewing Co.",
-    "Trillium Brewing Company"
+    "Trillium Brewing Company", "Mighty Squirrel Brewing"
 }
 assert all(x["status"] == "confirmed_brewery_brand_visit" and x["locationStatus"] == "site_unconfirmed"
            and x["siteVisited"] is None and x["visitDate"] is None and x["visitPeriod"] is None
@@ -1595,7 +1596,7 @@ assert harpoon_private["id"] == "brewery-site-harpoon-seaport"
 assert harpoon_private["locationStatus"] == "site_confirmed"
 assert harpoon_private["visitDate"] is None
 assert harpoon_private["publicRecordId"] == "bar-harpoon-brewery-beer-hall-boston-date-unknown"
-assert len(public_brewery_visits) == len(brand_visits) + len(site_visits) == 9
+assert len(public_brewery_visits) == len(brand_visits) + len(site_visits) == 10
 assert {r["id"] for r in public_brewery_visits} == ({
     "bar-" + b["id"] + "-visit-date-unknown" for b in brand_visits
 } | {harpoon_private["publicRecordId"]})
@@ -1613,8 +1614,25 @@ assert harpoon_venue["locationAttribution"].find("not a GPS visit coordinate") >
 assert harpoon_public["recognitions"][0]["year"] == 2024
 assert harpoon_public["recognitions"][0]["recipient"].find("306 Northern Avenue") >= 0
 assert all(next(v for v in venues if v["id"] == r["venueId"])["city"] is None
-           for r in public_brewery_visits if r["title"] not in {"Trillium Brewing Company", "Harpoon Brewery & Beer Hall"})
+           for r in public_brewery_visits if r["title"] not in {"Trillium Brewing Company", "Harpoon Brewery & Beer Hall", "Mighty Squirrel Brewing"})
 assert next(v for v in venues if v["name"] == "Trillium Brewing Company")["city"] == "Boston"
+mighty = next(c for c in candidates if c["id"] == "candidate-boston-brewery-mighty-squirrel")
+assert mighty["visitStatus"] == "confirmed" and mighty["wantsToVisit"] is False
+assert mighty["siteVisited"] is None and mighty["visitDate"] is None
+assert mighty["confirmedBrandVisitId"] == "brewery-brand-mighty-squirrel-boston-metro"
+assert mighty["confirmedVisitId"] == "bar-brewery-brand-mighty-squirrel-boston-metro-visit-date-unknown"
+assert mighty["confirmedVisitId"] in {r["id"] for r in public_brewery_visits}
+mighty_brand = next(b for b in brand_visits if b["id"] == mighty["confirmedBrandVisitId"])
+assert mighty_brand["metroArea"] == "Greater Boston, Massachusetts"
+assert mighty_brand["siteVisited"] is None and mighty_brand["visitDate"] is None
+assert {(h["year"],h["category"],h["product"],h["result"]) for h in mighty_brand["recognitions"]} == {
+    (2026, "American Amber Lager", "Oktoberfest", "silver medal")}
+mighty_public = next(r for r in public_brewery_visits if r["id"] == mighty["confirmedVisitId"])
+assert mighty_public["recognitions"][0]["recipient"] == "Mighty Squirrel — Oktoberfest (beer), Waltham, MA entry"
+assert mighty_public["visit"]["date"] is None
+assert next(v for v in venues if v["id"] == mighty_public["venueId"])["location"] is None
+assert next(v for v in venues if v["id"] == mighty_public["venueId"])["city"] == "Boston"
+assert not any(e["candidateId"] == mighty["id"] for e in wishlist["entries"])
 assert all(h["sourceUrl"].startswith("https://") and h["result"] in {"gold medal","silver medal","bronze medal"}
            for b in brand_visits for h in b.get("recognitions", []))
 assert {(x["organization"],x["year"],x["product"],x["result"])
@@ -1624,11 +1642,11 @@ assert {(x["organization"],x["year"],x["product"],x["result"])
 # Boston brewery city/metro is its own active interview chapter, not assumed attendance.
 chapter = interview_data["interviewChapters"]["bostonBreweries"]
 assert chapter["status"] == "active_one_venue_at_a_time"
-assert chapter["confirmedBostonBreweryVisitCount"] == 2
+assert chapter["confirmedBostonBreweryVisitCount"] == 3
 assert len(chapter["orderedCandidateIds"]) == 8
 assert chapter["nextCandidateId"] == "candidate-boston-brewery-aeronaut-somerville"
 assert all(next(c for c in candidates if c["id"] == cid)["visitStatus"] == "unreviewed"
-           for cid in chapter["orderedCandidateIds"][4:])
+           for cid in chapter["orderedCandidateIds"][4:] if cid != "candidate-boston-brewery-mighty-squirrel")
 trillium = next(c for c in candidates if c["id"] == "candidate-boston-brewery-trillium-boston-metro")
 assert trillium["visitStatus"] == "confirmed" and trillium["siteVisited"] is None and trillium["visitDate"] is None
 assert trillium["confirmedBrandVisitId"] == "brewery-brand-trillium-boston-metro"
