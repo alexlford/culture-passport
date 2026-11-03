@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Water for Chocolate"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Café Dear Leon"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Water for Chocolate"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Café Dear Leon"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -422,11 +422,13 @@ assert salt_baltimore["screening"]["status"] == "personal_featured_exception_loc
 assert salt_baltimore["wantsToVisit"] is False
 assert salt_baltimore["eligibility"]["verifiedForPublication"] is False
 assert not any(w["candidateId"] == salt_baltimore["id"] for w in wishlist["entries"])
-# These Baltimore venues are research leads only, never inferred visits or future wishes.
+# Salt, Water for Chocolate and Ministry of Brewing were explicitly confirmed by the user;
+# only Salt has a known visit date. Different national/editorial award classes stay distinct.
 water = next(c for c in candidates if c["id"] == "candidate-baltimore-water-for-chocolate-lombard")
 ministry = next(c for c in candidates if c["id"] == "candidate-baltimore-ministry-of-brewing-lombard")
-assert water["visitStatus"] == ministry["visitStatus"] == "unreviewed"
-assert water["wantsToVisit"] is None and ministry["wantsToVisit"] is None
+assert water["visitStatus"] == ministry["visitStatus"] == "confirmed"
+assert water["wantsToVisit"] is False and ministry["wantsToVisit"] is False
+assert water["visitDate"] is None and ministry["visitDate"] is None
 assert water["addressHint"].startswith("1841 E Lombard")
 assert water["screening"]["status"] == "no_qualifying_award_verified"
 assert ministry["addressHint"].startswith("1900 E Lombard")
@@ -436,8 +438,31 @@ assert all(c["photographicEvidence"] and all(p["imageRights"] == "unverified" an
            p["renderMode"] == "source_link_only" for p in c["photographicEvidence"])
            for c in (water, ministry))
 assert not any(w["candidateId"] in {water["id"], ministry["id"]} for w in wishlist["entries"])
-assert not any(r["title"] in {"Water for Chocolate", "Ministry of Brewing"} for r in records)
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Water for Chocolate"]
+water_record = next(r for r in records if r["id"] == water["confirmedVisitId"])
+ministry_record = next(r for r in records if r["id"] == ministry["confirmedVisitId"])
+for c, record in ((water, water_record), (ministry, ministry_record)):
+    assert record["status"] == "confirmed"
+    assert record["visit"]["date"] is None and record["visit"]["precision"] == "unknown"
+    assert record["curation"]["verifiedForPublication"] is False
+    assert not record["editorial"]["awardQualified"]
+    assert any(p["id"] == record["id"] and p["status"] == "pending" for p in
+               json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert water_record["type"] == "dining" and water_record["recognitions"] == []
+assert water_record["editorial"]["collection"] == "archived_personal_memory"
+assert any(w["venueId"] == water_record["venueId"] and w["status"] == "monitoring"
+           for w in json.loads((ROOT / "data/restaurant-award-watchlist.json").read_text(encoding="utf-8"))["entries"])
+assert ministry_record["type"] == "bar"
+assert ministry_record["recognitions"] == []
+assert len(ministry_record["editorialRecognitions"]) == 1
+assert ministry_record["editorialRecognitions"][0]["year"] == 2021
+assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
+assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
+cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
+assert cafe_leon["visitStatus"] == "unreviewed"
+assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
+assert cafe_leon["addressHint"].startswith("2929 O'Donnell Street")
+assert len(cafe_leon["photographicEvidence"]) >= 2
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Café Dear Leon"]
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Baltimore"
 assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
