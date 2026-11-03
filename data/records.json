@@ -1531,6 +1531,23 @@
       "sourceId": "brewery-brand-trillium-boston-metro",
       "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
       "locationAttribution": "Boston metro area; specific taproom not identified"
+    },
+    {
+      "id": "venue-harpoon-brewery-beer-hall-boston-seaport",
+      "name": "Harpoon Brewery & Beer Hall",
+      "city": "Boston",
+      "region": "Massachusetts",
+      "country": "USA",
+      "neighborhood": "Seaport",
+      "address": "306 Northern Avenue, Boston, MA 02210",
+      "location": {
+        "lat": 42.3601,
+        "lng": -71.0589,
+        "precision": "city-centroid"
+      },
+      "sourceId": "candidate-boston-brewery-harpoon-seaport",
+      "venueScope": "Original Boston Seaport brewery and beer hall at 306 Northern Avenue. Not Harpoon Beer Garden in Boston Common or other locations.",
+      "locationAttribution": "User directly confirmed exact Boston Seaport brewery address; map point is Boston approximate city centroid and is not a GPS visit coordinate."
     }
   ],
   "records": [
@@ -9306,6 +9323,76 @@
         "evidenceUrls": [
           "https://trilliumbrewing.com/",
           "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-harpoon-brewery-beer-hall-boston-date-unknown",
+      "type": "bar",
+      "title": "Harpoon Brewery & Beer Hall",
+      "venueId": "venue-harpoon-brewery-beer-hall-boston-seaport",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed Boston Seaport brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement on November 3, 2026: 'Yes — I visited' Harpoon Brewery & Beer Hall at 306 Northern Avenue in Boston Seaport. Exact venue confirmed; date, beer selections, tour, companions and number of visits not established.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_named_exact_venue_visit_date_unknown",
+        "addressVerified": "306 Northern Avenue, Boston, MA 02210",
+        "actualVisitDate": null,
+        "beersOrdered": null,
+        "breweryTour": null
+      },
+      "summary": "Confirmed visit to Harpoon Brewery & Beer Hall at 306 Northern Avenue, Boston Seaport. Exact visit date and activities unknown. Separately, The Boston Globe included this specific beer hall in a 2024 brewery/taproom roundup.",
+      "memory": {
+        "headline": "A visit to Harpoon's Seaport brewery",
+        "teaser": "I visited Harpoon Brewery & Beer Hall in Boston's Seaport; the date is still unknown.",
+        "story": "I visited Harpoon Brewery & Beer Hall at 306 Northern Avenue in Boston's Seaport. I haven't established the visit date or what I drank, ordered, or did there. The venue's beer-hall atmosphere and its 2024 Boston Globe editorial recognition are historical context, not claims about what happened during my visit.",
+        "period": "Boston Seaport visit · date unknown",
+        "source": "Direct user confirmation November 3, 2026."
+      },
+      "recognitions": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2024,
+          "category": "Nine Best Breweries and Taprooms in Greater Boston (editorial selection)",
+          "result": "selected",
+          "recipient": "Harpoon Brewery & Beer Hall, 306 Northern Avenue, Boston",
+          "relationship": "Publisher's 2024 editorial brewery/taproom list names the exact Seaport brewery; not a judged brewing medal, a Michelin distinction, or a James Beard award. Separate 2026 Harpoon Beer Garden mention is a different site; timing relative to visit unknown.",
+          "sourceUrl": "https://www.bostonglobe.com/2024/07/11/magazine/nine-best-breweries-taproom-in-greater-boston-area/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard recognition asserted. 2024 Boston Globe selection is editorial recognition for this exact site."
+      },
+      "sourceUrl": "https://harpoonbrewery.com/boston-brewery/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_brewery_site_visit_public_candidate",
+        "basis": "user_confirmed_exact_seaport_site",
+        "note": "User directly confirmed Harpoon's 306 Northern Avenue brewery, irrespective of awards. 2024 Boston Globe editorial recognition separately attributed to this exact venue. Publication approval remains pending."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_at_exact_site",
+        "reason": "Exact Seaport brewery personally confirmed; public inclusion requested for every confirmed visit. Site/date facts and editorial-award attribution kept separate.",
+        "evidenceUrls": [
+          "https://harpoonbrewery.com/boston-brewery/",
+          "https://www.bostonglobe.com/2024/07/11/magazine/nine-best-breweries-taproom-in-greater-boston-area/"
         ],
         "reviewedOn": "2026-11-03",
         "verifiedForPublication": false
