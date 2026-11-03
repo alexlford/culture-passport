@@ -80,8 +80,8 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 20,
-    "formal_michelin_jbf_recognition": 25,
+    "archived_pending_recognition": 19,
+    "formal_michelin_jbf_recognition": 26,
     "personal_featured_exception": 9,
     "official_program_or_editorial_connection": 5
   },
@@ -1792,7 +1792,7 @@
     },
     {
       "venueId": "venue-rye-plaza-kansas-city",
-      "restaurantName": "Rye Plaza",
+      "restaurantName": "Rye (Kansas City metro)",
       "city": "Kansas City",
       "region": "Missouri",
       "venueScope": "specified_restaurant_location_plaza_not_leawood",
@@ -1801,20 +1801,32 @@
         "dining-rye-plaza-kansas-city-date-unknown"
       ],
       "repeatCountRecords": 1,
-      "collectionTier": "archived_pending_recognition",
-      "formalAwardOrGuideQualified": false,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
       "personalFeaturedException": false,
       "officialProgramConnection": false,
       "officialSourceUrls": [
         "https://www.ryekc.com/",
-        "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
+        "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
       ],
       "historicalGuide": "not_verified",
-      "formalRecognitions": [],
+      "formalRecognitions": [
+        {
+          "year": 2019,
+          "recipient": "Megan Garrelts",
+          "organization": "James Beard Foundation",
+          "category": "Outstanding Pastry Chef",
+          "result": "semifinalist",
+          "originalVenue": "Rye Leawood",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+          "attribution": "same restaurant brand across KC metro per user policy; no Plaza-specific award"
+        }
+      ],
       "officialFeatures": [],
-      "reviewResult": "Direct user confirms dining at Rye Plaza with unknown date. No Plaza-site Michelin/JBF award proven; Colby's 2013 win was at Bluestem, Megan's 2017–2020 Rye semifinalist attributions identify Leawood. Permanent private watchlist.",
+      "reviewResult": "Plaza visit confirmed. Count Rye once per KC metro with JBF chef honor at Rye Leawood, preserving original award location.",
       "watchlistId": "venue-rye-plaza-kansas-city",
-      "reviewedOn": "2026-10-31",
+      "reviewedOn": "2026-11-03",
       "recognitionReviewStatus": "reviewed"
     },
     {
