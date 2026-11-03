@@ -952,6 +952,7 @@ for venue in venues:
             "venue-801-chophouse-kansas-city-power-light": "Kansas City",
             "venue-westport-cafe-bar-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
+            "venue-john-browns-underground-lawrence": "Lawrence",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
