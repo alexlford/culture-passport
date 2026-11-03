@@ -53,7 +53,8 @@
     "criterionAudit": "Keep separate: verified Michelin Guide inclusion (stars, Bib, Selected/historical Plate), James Beard semifinalist/finalist/winner at the specific venue or chef while working there, explicitly featured personal memories, user-confirmed history without award, uncertain leads, and reservation-only evidence. Never count unverified founders' awards from unrelated restaurants or award years as the historical dining year.",
     "stageMemories": "Confirmed live outings can be recorded with a provisional production title. Verify the tour period and venue independently but do not infer exact performance dates; labels are about the memory.",
     "culturalExperiences": "Concert, festival, theatrical, live television, magic and opera entries can be supported by user recollections or personal event archive screenshots without Michelin/James Beard recognition. Show exact performance dates only when supported; a run's date window never proves a particular night.",
-    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date."
+    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date.",
+    "confirmedVisitPublicInclusion": "Every direct user-confirmed visit is included in the visitor-data candidate collection without an external-award gate. Brewery-brand visits count as confirmed experiences even if a precise taproom, city or date is unknown; these remain unmapped until a legitimate location cue is available. Public release of story wording requires separate editorial review; this inclusion instruction does not automatically approve every story or launch the site."
   },
   "venues": [
     {
@@ -1442,6 +1443,94 @@
       "location": null,
       "sourceId": "rye-street-tavern-sagamore",
       "venueScope": "One named restaurant on Sagamore campus; original NoHo era and post-July 2024 Clyde's relaunch differentiated"
+    },
+    {
+      "id": "venue-brewery-brand-maui-brewing-company-site-unconfirmed",
+      "name": "Maui Brewing Co.",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-maui-brewing-company",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-cerebral-brewing-site-unconfirmed",
+      "name": "Cerebral Brewing",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-cerebral-brewing",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-outer-range-brewing-site-unconfirmed",
+      "name": "Outer Range Brewing Co.",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-outer-range-brewing",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-new-terrain-brewing-site-unconfirmed",
+      "name": "New Terrain Brewing Co.",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-new-terrain-brewing",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-new-belgium-brewing-site-unconfirmed",
+      "name": "New Belgium Brewing",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-new-belgium-brewing",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-left-hand-brewing-site-unconfirmed",
+      "name": "Left Hand Brewing Company",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-left-hand-brewing",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-avery-brewing-site-unconfirmed",
+      "name": "Avery Brewing Co.",
+      "city": null,
+      "region": null,
+      "country": null,
+      "location": null,
+      "sourceId": "brewery-brand-avery-brewing",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Location not established; exact brewery/taproom site not identified"
+    },
+    {
+      "id": "venue-brewery-brand-trillium-boston-metro-site-unconfirmed",
+      "name": "Trillium Brewing Company",
+      "city": "Boston",
+      "region": "Massachusetts",
+      "country": "USA",
+      "location": null,
+      "sourceId": "brewery-brand-trillium-boston-metro",
+      "venueScope": "Brewery-brand visit; site, address and number of branch visits not established. Do not use brewery headquarters as visit coordinates.",
+      "locationAttribution": "Boston metro area; specific taproom not identified"
     }
   ],
   "records": [
@@ -8701,6 +8790,525 @@
             "url": "https://www.ryestreettavern.com/about/"
           }
         ]
+      }
+    },
+    {
+      "id": "bar-brewery-brand-maui-brewing-company-visit-date-unknown",
+      "type": "bar",
+      "title": "Maui Brewing Co.",
+      "venueId": "venue-brewery-brand-maui-brewing-company-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited Maui Brewing Co.. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: Maui Brewing Co.. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to Maui Brewing Co.",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited Maui Brewing Co.. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://mauibrewingco.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": false,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://mauibrewingco.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-cerebral-brewing-visit-date-unknown",
+      "type": "bar",
+      "title": "Cerebral Brewing",
+      "venueId": "venue-brewery-brand-cerebral-brewing-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited Cerebral Brewing. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: Cerebral Brewing. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to Cerebral Brewing",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited Cerebral Brewing. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2025,
+          "category": "American-Style Light Lager — Neon Lite",
+          "result": "silver medal",
+          "recipient": "Cerebral Brewing — Neon Lite (beer)",
+          "relationship": "Judged beer-product medal, not an award to the unidentified visited venue or proof of a beer the user drank. Listed brewer: Cerebral Brewing - Aurora Arts. Visit year and exact site are unknown.",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2025-winners/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://cerebralbrewing.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://cerebralbrewing.com/",
+          "https://www.greatamericanbeerfestival.com/2025-winners/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-outer-range-brewing-visit-date-unknown",
+      "type": "bar",
+      "title": "Outer Range Brewing Co.",
+      "venueId": "venue-brewery-brand-outer-range-brewing-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited Outer Range Brewing Co.. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: Outer Range Brewing Co.. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to Outer Range Brewing Co.",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited Outer Range Brewing Co.. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://outerrange.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": false,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://outerrange.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-new-terrain-brewing-visit-date-unknown",
+      "type": "bar",
+      "title": "New Terrain Brewing Co.",
+      "venueId": "venue-brewery-brand-new-terrain-brewing-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited New Terrain Brewing Co.. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: New Terrain Brewing Co.. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to New Terrain Brewing Co.",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited New Terrain Brewing Co.. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2025,
+          "category": "Belgian-Style Witbier — Suntrip",
+          "result": "gold medal",
+          "recipient": "New Terrain Brewing Co. — Suntrip (beer)",
+          "relationship": "Judged beer-product medal, not an award to the unidentified visited venue or proof of a beer the user drank. Visit year and exact site are unknown.",
+          "sourceUrl": "https://newterrainbrewing.com/awards/",
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2025,
+          "category": "Belgian-Style Witbier — Suntrip",
+          "result": "bronze medal",
+          "recipient": "New Terrain Brewing Co. — Suntrip (beer)",
+          "relationship": "Judged beer-product medal, not an award to the unidentified visited venue or proof of a beer the user drank. Visit year and exact site are unknown.",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2025-winners/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://newterrainbrewing.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://newterrainbrewing.com/",
+          "https://newterrainbrewing.com/awards/",
+          "https://www.greatamericanbeerfestival.com/2025-winners/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-new-belgium-brewing-visit-date-unknown",
+      "type": "bar",
+      "title": "New Belgium Brewing",
+      "venueId": "venue-brewery-brand-new-belgium-brewing-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited New Belgium Brewing. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: New Belgium Brewing. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to New Belgium Brewing",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited New Belgium Brewing. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "category": "Belgian-Style Tripel — Trippel",
+          "result": "silver medal",
+          "recipient": "New Belgium Brewing — Trippel (beer)",
+          "relationship": "Judged beer-product medal, not an award to the unidentified visited venue or proof of a beer the user drank. Listed brewer: New Belgium Brewing Company, Fort Collins, CO. Visit year and exact site are unknown.",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://www.newbelgium.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://www.newbelgium.com/",
+          "https://www.greatamericanbeerfestival.com/2026-winners/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-left-hand-brewing-visit-date-unknown",
+      "type": "bar",
+      "title": "Left Hand Brewing Company",
+      "venueId": "venue-brewery-brand-left-hand-brewing-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited Left Hand Brewing Company. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: Left Hand Brewing Company. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to Left Hand Brewing Company",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited Left Hand Brewing Company. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://lefthandbrewing.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": false,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://lefthandbrewing.com/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-avery-brewing-visit-date-unknown",
+      "type": "bar",
+      "title": "Avery Brewing Co.",
+      "venueId": "venue-brewery-brand-avery-brewing-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited Avery Brewing Co.. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: Avery Brewing Co.. The exact brewery or taproom location has not been established. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to Avery Brewing Co.",
+        "teaser": "A confirmed brewery visit; location and date still to be recalled.",
+        "story": "I have visited Avery Brewing Co.. I have not yet identified which brewery or taproom location I visited. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "category": "Belgian-Style Witbier — White Rascal",
+          "result": "silver medal",
+          "recipient": "Avery Brewing Co. — White Rascal (beer)",
+          "relationship": "Judged beer-product medal, not an award to the unidentified visited venue or proof of a beer the user drank. Listed brewer: Avery Brewing Co, Boulder, CO. Visit year and exact site are unknown.",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://www.averybrewing.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://www.averybrewing.com/",
+          "https://www.greatamericanbeerfestival.com/2026-winners/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-brewery-brand-trillium-boston-metro-visit-date-unknown",
+      "type": "bar",
+      "title": "Trillium Brewing Company",
+      "venueId": "venue-brewery-brand-trillium-boston-metro-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed brewery visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user statement, 2026-11-03: visited Trillium Brewing Company. Public inclusion explicitly requested: 'If I said I went, I want it on public site.' No specific site or date confirmed.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "brand_level_confirmed_site_unverified",
+        "visitSite": null,
+        "visitDate": null
+      },
+      "summary": "Confirmed brewery visit: Trillium Brewing Company. Boston-metro brand level confirmed; exact taproom unknown. Visit date, beers ordered, companions and tours are not specified.",
+      "memory": {
+        "headline": "A visit to Trillium Brewing Company",
+        "teaser": "A confirmed Boston-area brewery experience; precise taproom and date still unknown.",
+        "story": "I have visited Trillium Brewing Company. I remember this as a Boston-area brewery visit, but have not identified which Trillium location. The visit date and specific beers, companions or tours have not been established.",
+        "period": "Visit date unknown",
+        "source": "Direct user confirmation on November 3, 2026; public inclusion request same date."
+      },
+      "recognitions": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — brewery/taproom editorial selection (editorial)",
+          "result": "editorial selection — not a brewing medal",
+          "recipient": "Trillium Brewing Company (brewery brand)",
+          "relationship": "Publisher's brewery/taproom selection, not a judged beer medal or a Michelin/James Beard award. Exact personal visit date and branch unknown.",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award claimed. Any brewing medal is beer/brand-level, not proof of the user's site or beer."
+      },
+      "sourceUrl": "https://trilliumbrewing.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "collection": "confirmed_brewery_visit_requested_for_public_inclusion",
+        "basis": "direct_user_confirmation",
+        "note": "Directly confirmed brewery-brand visit. Public candidate inclusion explicitly requested, without inventing venue/date; linked producer/editorial recognition does not transfer to unknown taproom. Public story copy requires separate review.",
+        "publicInclusionRequested": true
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "All directly confirmed visits belong in public Culture Passport; precise site unknown and story copy pending review.",
+        "evidenceUrls": [
+          "https://trilliumbrewing.com/",
+          "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
       }
     }
   ],
