@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The Town Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Waldo Thai"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The Town Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Waldo Thai"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -340,15 +340,42 @@ assert not any(w["candidateId"] == fox_alias["id"] for w in wishlist["entries"])
 town = next(x for x in candidates if x["id"] == "candidate-kansas-city-metro-the-town-company")
 assert town["name"] == "The Town Company"
 assert town["addressHint"].startswith("1228 Baltimore Avenue")
-assert town["visitStatus"] == "not_visited" and town["reviewCertainty"] == "tentative_negative"
-assert town["reconfirmationRequestedOn"] == "2026-11-03"
+assert town["visitStatus"] == "not_visited" and town["reviewCertainty"] == "explicit_nonvisit_with_wishlist_intent"
+assert town["reviewedOn"] == town["reconfirmationResolvedOn"] == "2026-11-03"
+assert town["wantsToVisit"] is True
+assert town["wishlistEntryId"] == "want-to-visit-the-town-company-hotel-kansas-city"
 assert town["screening"]["status"] == "award_qualified"
 assert town["recognitionYear"] == 2026
 assert "Helen Jo Leach" in town["recognition"] and "Johnny Leach" in town["recognition"]
 assert len(town["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" for p in town["photographicEvidence"])
-assert not any(w["candidateId"] == town["id"] for w in wishlist["entries"])
+town_wish = next(w for w in wishlist["entries"] if w["candidateId"] == town["id"])
+assert town_wish["id"] == town["wishlistEntryId"]
+assert town_wish["status"] == "want_to_visit" and town_wish["visitStatus"] == "not_visited"
+assert town_wish["location"]["address"] == "1228 Baltimore Avenue"
+assert town_wish["location"]["postalCode"] == "64105"
+assert town_wish["location"]["venue"] == "Hotel Kansas City"
+assert town_wish["desiredVisitDate"] is None
+assert len(town_wish["recognitions"]) == len(town["recognitions"]) == 2
+assert {r["recipient"] for r in town_wish["recognitions"]} == {"Johnny Leach", "Helen Jo Leach"}
+assert {(r["recipient"], r["category"]) for r in town_wish["recognitions"]} == {
+    ("Johnny Leach", "Best Chef: Midwest"),
+    ("Helen Jo Leach", "Outstanding Pastry Chef or Baker"),
+}
+assert all(r["organization"] == "James Beard Foundation" and r["year"] == 2026
+           and r["result"] == "semifinalist" and "jamesbeard.org" in r["sourceUrl"]
+           and "not restaurant-level award or win" in r["relationship"]
+           for r in town_wish["recognitions"])
 assert not any(r["title"] == town["name"] and r["status"] == "confirmed" for r in records)
+waldo = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-waldo-thai")
+assert waldo["visitStatus"] == "not_visited" and waldo["reviewCertainty"] == "tentative_negative"
+assert waldo["operatingStatus"] == "permanently_closed" and waldo["closedOn"] == "2025-10-03"
+assert waldo["addressHint"].startswith("8431 Wornall Road")
+assert waldo["screening"]["status"] == "award_qualified"
+assert waldo["recognitionYear"] == 2023 and "Pam Liberda" in waldo["recognition"]
+assert len(waldo["photographicEvidence"]) == 2
+assert all(x["renderMode"] == "source_link_only" and x["imageRights"] == "unverified" for x in waldo["photographicEvidence"])
+assert not any(w["candidateId"] == waldo["id"] for w in wishlist["entries"])
 
 
 
@@ -590,7 +617,7 @@ kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c[
 assert len(kc_reviewed) == 9
 # The October 25 batch was only a tentative recollection. Preserve the seven
 # other venues' tentative status, while honoring the user's later direct correction.
-assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl"} else "tentative_negative")
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "tentative_negative")
            for c in kc_reviewed if c["name"] != "Bluestem")
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
 assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
@@ -599,9 +626,11 @@ assert "I'm not certain I visited" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
 if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
-    assert active_batch["candidateNames"] == ["The Town Company"]
-    assert town["reviewCertainty"] == "tentative_negative"
-    assert town["visitStatus"] == "not_visited"
+    assert active_batch["candidateNames"] == ["Waldo Thai"]
+    assert waldo["reviewCertainty"] == "tentative_negative"
+    assert waldo["visitStatus"] == "not_visited"
+    assert waldo["operatingStatus"] == "permanently_closed"
+    assert "closed in October 2025" in active_batch["question"] or "closed in October 2025" in active_batch["continuation"]
 
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"

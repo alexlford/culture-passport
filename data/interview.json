@@ -3332,7 +3332,7 @@
       "visitStatus": "not_visited",
       "researchStatus": "official_2026_james_beard_dual_chef_in_post_semifinalists_verified",
       "addedOn": "2026-10-25",
-      "priority": "next",
+      "priority": "reviewed",
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard_2026_best_chef_midwest_johnny_leach_and_outstanding_pastry_chef_baker_helen_jo_leach_semifinalists_exact_venue",
@@ -3348,9 +3348,9 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative",
+      "reviewSource": "Direct user statement 2026-11-03: Culture Passport Kansas City-region interview: I have never visited The Town Company restaurant inside Hotel Kansas City at 1228 Baltimore Avenue, but want to go. Record nonattendance, add the exact restaurant to my private future-visit wishlist, preserve Johnny Leach and Helen Jo Leach's separate 2026 James Beard semifinalist recognitions, and continue with the next eligible venue, photos and four buttons.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
       "addressHint": "1228 Baltimore Avenue, Hotel Kansas City, Kansas City, MO 64105",
       "subregion": "Downtown Kansas City; Hotel Kansas City, historic Kansas City Club building",
       "venueType": "restaurant",
@@ -3388,6 +3388,29 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only",
           "altText": "Warm wood chef counter and open kitchen with small tables in downtown Kansas City"
+        }
+      ],
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-the-town-company-hotel-kansas-city",
+      "reconfirmationResolvedOn": "2026-11-03",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "category": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Johnny Leach",
+          "relationship": "Executive chef at The Town Company; individual chef-in-post recognition, not restaurant-level award or win",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "category": "Outstanding Pastry Chef or Baker",
+          "result": "semifinalist",
+          "recipient": "Helen Jo Leach",
+          "relationship": "Executive pastry chef at The Town Company; separate individual pastry-chef recognition, not restaurant-level award or win",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
         }
       ]
     },
@@ -3519,7 +3542,34 @@
       },
       "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
       "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewCertainty": "tentative_negative",
+      "operatingStatus": "permanently_closed",
+      "closedOn": "2025-10-03",
+      "priority": "next",
+      "reconfirmationRequestedOn": "2026-11-03",
+      "closureEvidenceUrl": "https://www.kansascity.com/news/business/openings-closings/article315991006.html",
+      "closureNote": "Closed after October 3, 2025; in August 2026 another operator opened Jade & Ember in former 8431 Wornall Rd space. Restaurant website remains online with outdated hours. Historical attendance question only; no actionable future-visit wishlist.",
+      "addressHint": "8431 Wornall Road, Kansas City, MO 64114",
+      "photographicEvidence": [
+        {
+          "id": "waldo-thai-interior-2019",
+          "sourceUrl": "https://www.thepitchkc.com/waldo-thai-place-is-a-new-kind-of-kc-thai-place/",
+          "photoSubject": "Historic Waldo Thai restaurant interior with seated Thai flute-player statue",
+          "sourceOrganization": "The Pitch",
+          "sourceYear": 2019,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "waldo-thai-food-archive",
+          "sourceUrl": "https://www.waldothai.com/",
+          "photoSubject": "Historic menu — Northern Thai dishes and shared platters",
+          "sourceOrganization": "Waldo Thai official site, retained after closure",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-fox-pearl",
@@ -10067,7 +10117,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "John Brown's Underground — 7 E 7th Street, Lawrence KS; 2025 JBF Outstanding Bar semifinalist (Lawrence regional historical audit)",
+      "nextCandidate": "Waldo Thai — historical restaurant, 8431 Wornall Road, Kansas City; 2023 Pam Liberda JBF Best Chef Midwest semifinalist. Closed October 2025 and replaced by Jade & Ember in August 2026. Ask visit/maybe/nonvisit/historical interest.",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -10077,7 +10127,8 @@
       "chophouse801": "Confirmed visited 71 East 14th Street downtown KCMO on October 31, 2026; date of actual visit unknown. 2025 Wine Spectator Best of Award of Excellence separate from Michelin/JBF; no Leawood visit inferred.",
       "ofCourse": "Not visited; user wants to go. Confirmed private wishlist of 7753 W 159th St in Overland Park. Swetha Newcomb 2026 Best Chef Midwest semifinalist (chef in post, not winner).",
       "westportCafe": "Directly confirmed Westport Café & Bar at 419 Westport Road, date unknown; Romain Monnoyeur-Millard official 2024 JBF Best Chef Midwest semifinalist as chef in post, not winner.",
-      "saltwellFarmKitchen": "Explicitly not visited, user future wishlist only; 214 N 800 Road Overbrook KS. Chef Rozz Petrozz 2024 and 2025 JBF Best Chef Midwest semifinalist in post; not win or restaurant award."
+      "saltwellFarmKitchen": "Explicitly not visited, user future wishlist only; 214 N 800 Road Overbrook KS. Chef Rozz Petrozz 2024 and 2025 JBF Best Chef Midwest semifinalist in post; not win or restaurant award.",
+      "townCompany": "Direct user 2026-11-03: explicitly never dined at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City; wants to visit exact operating restaurant. Private wishlist want-to-visit-the-town-company-hotel-kansas-city; Johnny Leach 2026 JBF Best Chef Midwest semifinalist and Helen Jo Leach 2026 JBF Outstanding Pastry Chef or Baker semifinalist, independently attributed and not wins. Supersedes October 25 tentative negative."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -10350,13 +10401,13 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "restaurants",
+      "category": "historical_restaurants",
       "candidateNames": [
-        "The Town Company"
+        "Waldo Thai"
       ],
       "status": "awaiting_reconfirmation_of_prior_tentative_negative",
-      "question": "Did you ever dine at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City, rather than just visit the hotel or bar?",
-      "continuation": "Four answers: Yes — I visited/dined, Maybe — looks familiar, No — never visited, Add to list — want to go. If yes, clarify restaurant meal vs hotel bar/event and preserve date unknown. Source-linked official photos and 2026 JBF separately attributed chef/baker recognitions. October 25 batch-level negative was tentative; preserve until direct answer. Continue KC region historical screening."
+      "question": "Did you eat at the original Waldo Thai at 8431 Wornall Road before it closed in October 2025?",
+      "continuation": "Offer four answers: Yes — visited; Maybe — looks familiar; No — never visited; No — wish I had. The restaurant is closed and former premises now house Jade & Ember, so historical interest rather than a live future-visit wishlist. Verify Pam Liberda 2023 JBF Best Chef: Midwest semifinalist with original JBF list. Show original venue/food photographs and do not conflate with Buck Tui or MuNi."
     },
     "pausedBatches": [
       {

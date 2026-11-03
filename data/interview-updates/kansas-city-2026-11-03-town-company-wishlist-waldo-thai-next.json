@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-the-town-company",
+    "venue": "The Town Company",
+    "address": "1228 Baltimore Avenue, inside Hotel Kansas City, Kansas City, MO 64105",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-the-town-company-hotel-kansas-city",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City-region interview: I have never visited The Town Company restaurant inside Hotel Kansas City at 1228 Baltimore Avenue, but want to go. Record nonattendance, add the exact restaurant to my private future-visit wishlist, preserve Johnny Leach and Helen Jo Leach's separate 2026 James Beard semifinalist recognitions, and continue with the next eligible venue, photos and four buttons.",
+    "previousRecollection": "October 25 tentative batch-level negative; superseded by this exact-venue direct answer"
+  },
+  "recognitionGuardrails": {
+    "organization": "James Beard Foundation",
+    "year": 2026,
+    "recognitions": [
+      {
+        "organization": "James Beard Foundation",
+        "year": 2026,
+        "category": "Best Chef: Midwest",
+        "result": "semifinalist",
+        "recipient": "Johnny Leach",
+        "relationship": "Executive chef at The Town Company; individual chef-in-post recognition, not restaurant-level award or win",
+        "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+      },
+      {
+        "organization": "James Beard Foundation",
+        "year": 2026,
+        "category": "Outstanding Pastry Chef or Baker",
+        "result": "semifinalist",
+        "recipient": "Helen Jo Leach",
+        "relationship": "Executive pastry chef at The Town Company; separate individual pastry-chef recognition, not restaurant-level award or win",
+        "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+      }
+    ],
+    "allSemifinalists": true,
+    "noWinnersClaimed": true,
+    "venueAwardClaimed": false
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-waldo-thai",
+    "venue": "Waldo Thai (historical; closed)",
+    "address": "8431 Wornall Road, Kansas City, MO 64114",
+    "operatingStatus": "permanently_closed",
+    "closedOn": "2025-10-03",
+    "formerVenueReplacedBy": "Jade & Ember Munchery (opened August 2026)",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2023,
+      "category": "Best Chef: Midwest",
+      "recipient": "Pam Liberda at Waldo Thai",
+      "result": "semifinalist",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+    },
+    "closureSources": [
+      "https://www.kansascity.com/news/business/openings-closings/article315991006.html",
+      "https://www.aol.com/articles/kansas-city-asian-restaurant-opens-142600000.html"
+    ],
+    "photos": [
+      "https://www.thepitchkc.com/waldo-thai-place-is-a-new-kind-of-kc-thai-place/",
+      "https://www.waldothai.com/",
+      "https://www.theinfatuation.com/kansas-city/reviews/waldo-thai"
+    ],
+    "responseButtons": [
+      "Yes — I visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "No — wish I had"
+    ],
+    "wishlistConstraint": "Former restaurant closed; historic interest only, not future dining wishlist."
+  },
+  "publication": {
+    "status": "private",
+    "approval": "pending",
+    "note": "No Town Company dining attendance should be published; wishlist is private and original venue honors are kept separate."
+  }
+}
