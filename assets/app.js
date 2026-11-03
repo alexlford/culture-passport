@@ -18,7 +18,8 @@
     (r.status==="recollected"&&r.editorial?.userRequestedMemory===true);
   const isRecalled=(r)=>r.status==="recollected";
   // JBF program participation is not a James Beard Award.
-  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight);
+  // Recognition only controls an optional highlight filter, never whether a confirmed visit appears.
+  const includedDining=(r)=>!!(r.editorial?.awardQualified||r.editorial?.featuredException||r.editorial?.officialFeature||r.editorial?.culturalSpotlight||r.officialFeatures?.length||r.siteRecognitions?.length||r.recognitions?.some(a=>!a.recognitionAtDifferentVenue));
   const reservationDerived=(r)=>r.visit?.evidenceType==="completed_reservation"||r.visit?.evidenceType==="completed_reservation_and_user_confirmed_venue";
   const storyPeriod=(r)=>{
     // Culture Passport is a memory archive: restaurant/cocktail stories show a year or
@@ -69,7 +70,7 @@
   function card(r,v){
     const a=link(" ",href(r),"record-card");
     a.textContent="";
-    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.culturalSpotlight?"CULTURAL DESTINATION":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.type.toUpperCase();
+    const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.culturalSpotlight?"CULTURAL DESTINATION":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.recognitions?.length?"OTHER RECOGNITION":r.type.toUpperCase();
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
@@ -92,7 +93,7 @@
       const target=byId(key); // counts use their own id rather than a category placeholder
       const badge=byId(key+"-count");
       if(!badge)continue;
-      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining"&&includedDining(r)).length+" included";
+      if(key==="dining")badge.textContent=confirmed.filter(r=>r.type==="dining").length+" confirmed visits";
       else if(key==="bar"){
         const visits=confirmed.filter(r=>r.type==="bar").length,shared=selected.filter(r=>r.type==="bar"&&isRecalled(r)).length;
         badge.textContent=visits+" visits · "+shared+" shared memories";
@@ -103,7 +104,7 @@
     siteStats(db);
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const host=byId("featured-records");
-    const records=db.records.filter(r=>inCollection(r)&&(includedDining(r)||r.type!=="dining"&&r.type!=="bar")).sort((a,b)=>Number(isRecalled(a))-Number(isRecalled(b))||Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||Number(!!b.favorite)-Number(!!a.favorite)||byDate(a,b)).slice(0,6);
+    const records=db.records.filter(inCollection).sort((a,b)=>Number(isRecalled(a))-Number(isRecalled(b))||Number(!!b.editorial?.featuredException)-Number(!!a.editorial?.featuredException)||Number(!!b.favorite)-Number(!!a.favorite)||byDate(a,b)).slice(0,6);
     host.replaceChildren();
     records.forEach(r=>{
       const v=venues.get(r.venueId);
@@ -118,7 +119,7 @@
     const cityHost=byId("city-editions");
     if(cityHost){
       const grouped=new Map();
-      db.records.filter(r=>r.status==="confirmed"&&(!["dining","bar"].includes(r.type)||includedDining(r))).forEach(r=>{
+      db.records.filter(r=>r.status==="confirmed").forEach(r=>{
         const venue=venues.get(r.venueId);
         if(!venue?.city)return;
         let entry=grouped.get(venue.city);
@@ -161,13 +162,13 @@
     }
   }
   function explore(db){
-    const host=byId("explore-results"),city=byId("city-filter"),search=byId("search"),count=byId("result-count"),includeMemories=byId("include-memories");
+    const host=byId("explore-results"),city=byId("city-filter"),search=byId("search"),count=byId("result-count"),highlightsOnly=byId("highlights-only");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const availableCities=[...new Set(db.records.map(r=>venues.get(r.venueId)?.city).filter(Boolean))].sort();
     availableCities.forEach(n=>{const option=el("option","",n);option.value=n;city.append(option);});
     const params=new URLSearchParams(window.location.search);
     let filter=Object.prototype.hasOwnProperty.call(titleFor,params.get("type"))?params.get("type"):"all";
-    includeMemories.checked=params.get("memories")==="1";
+    highlightsOnly.checked=params.get("highlights")==="1";
     const buttons=all(".tabstrip button[data-type]");
     function update(){
       buttons.forEach(b=>{const active=b.dataset.type===filter;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));});
@@ -175,7 +176,7 @@
       const rows=db.records.filter(r=>{
         const v=venues.get(r.venueId);
         const content=[r.title,r.summary,r.memory?.headline,r.memory?.teaser,r.memory?.story,v?.city,v?.region,v?.name].join(" ").toLocaleLowerCase();
-        return inCollection(r)&&(!["dining","bar"].includes(r.type)||includedDining(r)||includeMemories.checked)&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
+        return inCollection(r)&&(!highlightsOnly.checked||!["dining","bar"].includes(r.type)||includedDining(r))&&(filter==="all"||r.type===filter)&&(!city.value||city.value===v?.city)&&(!q||content.includes(q));
       }).sort(byDate);
       count.textContent=rows.length+" places & experiences";
       host.replaceChildren();
@@ -185,14 +186,14 @@
     buttons.forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.type;const url=new URL(location.href);if(filter==="all")url.searchParams.delete("type");else url.searchParams.set("type",filter);history.replaceState(null,"",url);update();}));
     const initialCity=params.get("city");
     if(initialCity&&availableCities.includes(initialCity))city.value=initialCity;
-    city.addEventListener("change",()=>{const url=new URL(location.href);if(city.value)url.searchParams.set("city",city.value);else url.searchParams.delete("city");history.replaceState(null,"",url);update();});search.addEventListener("input",update);includeMemories.addEventListener("change",()=>{const url=new URL(location.href);if(includeMemories.checked)url.searchParams.set("memories","1");else url.searchParams.delete("memories");history.replaceState(null,"",url);update();});update();
+    city.addEventListener("change",()=>{const url=new URL(location.href);if(city.value)url.searchParams.set("city",city.value);else url.searchParams.delete("city");history.replaceState(null,"",url);update();});search.addEventListener("input",update);highlightsOnly.addEventListener("change",()=>{const url=new URL(location.href);if(highlightsOnly.checked)url.searchParams.set("highlights","1");else url.searchParams.delete("highlights");url.searchParams.delete("memories");history.replaceState(null,"",url);update();});update();
   }
   function timeline(db){
-    const host=byId("timeline-results"),select=byId("timeline-type"),count=byId("timeline-count"),includeMemories=byId("timeline-memories");
+    const host=byId("timeline-results"),select=byId("timeline-type"),count=byId("timeline-count"),highlightsOnly=byId("timeline-highlights-only");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     function render(){
       const grouped=new Map();
-      const results=db.records.filter(r=>inCollection(r)&&(includeMemories.checked||!["dining","bar"].includes(r.type)||includedDining(r))&&(select.value==="all"||r.type===select.value)).sort(byDate);
+      const results=db.records.filter(r=>inCollection(r)&&(!highlightsOnly.checked||!["dining","bar"].includes(r.type)||includedDining(r))&&(select.value==="all"||r.type===select.value)).sort(byDate);
       for(const r of results){const label=timelineChapter(r);if(!grouped.has(label))grouped.set(label,[]);grouped.get(label).push(r);}
       count.textContent=results.length+" recorded experience"+(results.length===1?"":"s");
       host.replaceChildren();
@@ -206,13 +207,12 @@
         section.append(year,stack);host.append(section);
       }
     }
-    select.addEventListener("change",render);includeMemories.addEventListener("change",render);render();
+    select.addEventListener("change",render);highlightsOnly.addEventListener("change",render);render();
   }
   function map(db){
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
-    const available=db.records.filter(r=>inCollection(r)&&
-      (!["dining","bar"].includes(r.type)||includedDining(r)));
+    const available=db.records.filter(inCollection);
     // Map points are city-centroid *representations* until independently
     // verified venue coordinates become available. Do not place pins at
     // address approximations or imply the GPS belongs to the venue.
@@ -355,7 +355,7 @@
         (r.editorial.officialFeatureType==="jbf_editorial_mention"?
           "Official James Beard Foundation editorial coverage; no award or nomination claimed.":
           "Official James Beard Foundation program connection, not an award or nomination."):
-        "A remembered place, with no verified Michelin or James Beard qualification."));
+        "A confirmed personal visit; no venue-specific Michelin or James Beard award is claimed."));
     }
     if(r.story?.paragraphs?.length){
       const feature=el("section","feature-story");
