@@ -1648,6 +1648,44 @@
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-rye-street-tavern-sagamore-baltimore",
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "venueName": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed Rye Street Tavern visit at Sagamore; exact date and original/relaunched era unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_formal_named_venue_michelin_jbf_recognition_verified",
+      "lastReviewedOn": "2026-11-03",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json",
+        "data/dining-awards-audit.json"
+      ],
+      "sourceNotes": "Distinct from chef Andrew Carmellini's JBF awards at other restaurants. User-confirmed Rye Street Tavern experience; historical cultural spotlight via waterfront/distillery architecture is not formal culinary award.",
+      "reviewHistory": [
+        {
+          "date": "2026-11-03",
+          "result": "confirmed_venue_visit_and_cultural_historical_spotlight",
+          "note": "One named restaurant, era and visit date unknown. Retain on formal award watchlist while historic cultural spotlight is curated separately.",
+          "evidenceUrls": [
+            "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+            "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_formal_award_recognition",
+      "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     }
   ]
 }
