@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The American Restaurant"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Corvino Supper Club & Tasting Room"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The American Restaurant"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Corvino Supper Club & Tasting Room"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -278,7 +278,12 @@ assert all(x["renderMode"] == "source_link_only" for x in freshwater["photograph
 assert not any(x["candidateId"] == freshwater["id"] for x in wishlist["entries"])
 assert not any(r["title"] == freshwater["name"] and r["status"] == "confirmed" for r in records)
 american = next(x for x in candidates if x["id"] == "candidate-kansas-city-metro-the-american-restaurant")
-assert american["visitStatus"] == "not_visited" and american["reviewCertainty"] == "tentative_negative"
+assert american["visitStatus"] == "not_visited" and american["reviewCertainty"] == "explicit_nonattendance"
+assert american["historicalInterest"] is True
+assert american["wantsToVisit"] is False
+assert american["wishlistStatus"] == "historical_interest_only_original_dining_closed"
+assert american["reconfirmationResolvedOn"] == "2026-11-03"
+assert not any(w["candidateId"] == american["id"] for w in wishlist["entries"])
 assert american["reconfirmationRequestedOn"] == "2026-11-03"
 assert american["regularDiningEndedOn"] == "2016-12"
 assert american["screening"]["basis"] == "james_beard_2018_design_icon_exact_venue_winner"
@@ -287,6 +292,18 @@ assert american["sourceUrl"].startswith("https://www.jamesbeard.org/")
 assert len(american["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" for p in american["photographicEvidence"])
 assert not any(r["title"] == american["name"] and r["status"] == "confirmed" for r in records)
+corvino = next(x for x in candidates if x["id"] == "candidate-kansas-city-metro-corvino-supper-club-tasting-room")
+assert corvino["visitStatus"] == "not_visited" and corvino["reviewCertainty"] == "tentative_negative"
+assert corvino["reconfirmationRequestedOn"] == "2026-11-03"
+assert corvino["closedOn"] == "2025-12-31"
+assert corvino["operatingStatus"] == "permanently_closed"
+assert corvino["screening"]["basis"] == "james_beard_2019_2023_best_chef_midwest_semifinalist_at_exact_venue"
+assert "2019 and 2023" in corvino["recognition"]
+assert len(corvino["photographicEvidence"]) == 2
+assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified" for p in corvino["photographicEvidence"])
+assert not any(w["candidateId"] == corvino["id"] for w in wishlist["entries"])
+assert not any(r["title"] == corvino["name"] and r["status"] == "confirmed" for r in records)
+
 
 
 
@@ -525,7 +542,7 @@ kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c[
 assert len(kc_reviewed) == 9
 # The October 25 batch was only a tentative recollection. Preserve the seven
 # other venues' tentative status, while honoring the user's later direct correction.
-assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] == "The Antler Room" else "tentative_negative")
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant"} else "tentative_negative")
            for c in kc_reviewed if c["name"] != "Bluestem")
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
 assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
@@ -534,9 +551,9 @@ assert "I'm not certain I visited" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
 if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
-    assert active_batch["candidateNames"] == ["The American Restaurant"]
-    assert american["reviewCertainty"] == "tentative_negative"
-    assert american["visitStatus"] == "not_visited"
+    assert active_batch["candidateNames"] == ["Corvino Supper Club & Tasting Room"]
+    assert corvino["reviewCertainty"] == "tentative_negative"
+    assert corvino["visitStatus"] == "not_visited"
 
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
