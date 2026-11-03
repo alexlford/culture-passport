@@ -2746,7 +2746,7 @@
       "visitStatus": "not_visited",
       "researchStatus": "official_2019_2023_jbf_chef_in_post_semifinalist_and_2025_closure_verified",
       "addedOn": "2026-10-25",
-      "priority": "high",
+      "priority": "reviewed",
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard_2019_2023_best_chef_midwest_semifinalist_at_exact_venue",
@@ -2762,9 +2762,9 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": true
       },
-      "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
-      "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative",
+      "reviewSource": "Direct user answer on 2026-11-03: never visited Corvino Supper Club & Tasting Room in Kansas City, but wish I had.",
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_nonattendance",
       "addressHint": "1830 Walnut Street, Kansas City, MO 64108",
       "subregion": "Crossroads Arts District, Corrigan Station; original Corvino 2017–2025",
       "venueType": "restaurant_historical",
@@ -2803,7 +2803,15 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only"
         }
-      ]
+      ],
+      "attendanceCertainty": "explicit_nonattendance",
+      "visitPeriod": null,
+      "historicalInterest": true,
+      "historicalInterestReason": "Wishes they had visited original Corvino before final service December 31, 2025; not an actionable visit because permanently closed.",
+      "wantsToVisit": false,
+      "wishlistStatus": "historical_interest_only_closed",
+      "wishlistDecision": "not_eligible_for_future_visit_closed",
+      "reconfirmationResolvedOn": "2026-11-03"
     },
     {
       "id": "candidate-kansas-city-metro-the-antler-room",
@@ -3471,15 +3479,15 @@
       "id": "candidate-kansas-city-metro-fox-pearl",
       "area": "Kansas City Metro",
       "name": "Fox & Pearl",
-      "recognition": "Chef Vaughn Good was a 2020 James Beard Best Chef: Midwest semifinalist at Fox & Pearl.",
+      "recognition": "Chef Vaughn Good at Fox & Pearl, Kansas City, was a 2020 James Beard Best Chef: Midwest semifinalist. Chef-in-post, not venue-level award or win.",
       "recognitionYear": 2020,
       "awardFamily": "beard",
-      "interviewCue": "Westside KC restaurant known for live-fire and smoked meats, in an intimate setting.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "interviewCue": "Two-story Westside brick structure (originally 1907 Swedish lodge hall) with red/blue front doors, bright white-walled wood-table main dining room, reclaimed marble-topped bar, and stone-walled cellar lounge. Chef Vaughn Good serves seasonal Midwestern live-fire food. Permanent 2143 Summit Street site opened July 12, 2019; do not conflate with prior temporary Fox & Pearl at 815 W 17th Street.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
       "visitStatus": "not_visited",
-      "researchStatus": "award_screened",
+      "researchStatus": "official_2020_jbf_best_chef_midwest_at_original_permanent_site_verified",
       "addedOn": "2026-10-25",
-      "priority": "high",
+      "priority": "next",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "james_beard",
@@ -3489,7 +3497,57 @@
       },
       "reviewSource": "October 25, 2026: User stated he does not think he has visited any of the eight Kansas City restaurants in the pictured batch. Tentative negative recollection; open to later revision.",
       "reviewedOn": "2026-10-25",
-      "reviewCertainty": "tentative_negative"
+      "reviewCertainty": "tentative_negative",
+      "addressHint": "2143 Summit Street, Kansas City, MO 64108",
+      "subregion": "Historic Westside, Kansas City, Missouri — permanent 2143 Summit location, not temporary 815 W 17th Street",
+      "venueType": "restaurant",
+      "openedOn": "2019-07-12",
+      "operatingStatus": "operating",
+      "reconfirmationRequestedOn": "2026-11-03",
+      "reconfirmationReason": "October 25 batch-level tentative nonvisit answer; requesting direct confirmation at specific 2143 Summit Street restaurant without changing prior answer.",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "https://www.foxandpearlkc.com/about",
+        "https://www.foxandpearlkc.com/",
+        "https://www.kshb.com/lifestyle/food/chew-diligence-fox-and-pearl-opening-permanent-location-on-summit-street-soon",
+        "https://www.kansascity.com/spaces/article235148647.html"
+      ],
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_2020_best_chef_midwest_semifinalist_vaughn_good_fox_pearl",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "2020 James Beard Best Chef: Midwest semifinalist Vaughn Good at Fox and Pearl Kansas City, MO, exact permanent venue established since July 2019. Does not establish visit; not winner/finalist."
+      },
+      "photographicEvidence": [
+        {
+          "id": "fox-pearl-original-2143-summit-bistro",
+          "label": "Fox & Pearl — permanent Summit Street dining room",
+          "caption": "Restaurant's own photo of the permanent 2143 Summit Street bistro, with white walls, long wood tables, orange leather banquettes and open hearth kitchen.",
+          "photoSubject": "2143 Summit Street bistro dining room",
+          "sourceUrl": "https://www.foxandpearlkc.com/about",
+          "sourceOrganization": "Fox & Pearl official restaurant website",
+          "sourceYear": null,
+          "imageRights": "official_site_link_only",
+          "renderMode": "source_link_only",
+          "altText": "Bright historic bistro dining room with wood tables and banquettes"
+        },
+        {
+          "id": "fox-pearl-original-2143-summit-bar",
+          "label": "Fox & Pearl — historic brick-building bar",
+          "caption": "Restaurant's own photo of its marble-topped bar in the permanent 2143 Summit Street building.",
+          "photoSubject": "2143 Summit Street Fox & Pearl bar",
+          "sourceUrl": "https://www.foxandpearlkc.com/about",
+          "sourceOrganization": "Fox & Pearl official restaurant website",
+          "sourceYear": null,
+          "imageRights": "official_site_link_only",
+          "renderMode": "source_link_only",
+          "altText": "Bright marble bar with bottles, wooden stools and pendant lights"
+        }
+      ],
+      "linkedCandidateId": "candidate-kansas-city-metro-fox-and-pearl",
+      "linkedCandidateNote": "Earlier duplicate name variant 'Fox and Pearl' refers to same restaurant; preserve its tentative review state and consolidate in future deduplication without treating as a second experience."
     },
     {
       "id": "candidate-kansas-city-metro-room-39",
@@ -10242,11 +10300,11 @@
       "area": "Kansas City Metro",
       "category": "restaurants",
       "candidateNames": [
-        "Corvino Supper Club & Tasting Room"
+        "Fox & Pearl"
       ],
       "status": "awaiting_reconfirmation_of_prior_tentative_negative",
-      "question": "Did you ever dine at or visit Corvino Supper Club & Tasting Room at 1830 Walnut Street in the Crossroads before its December 31, 2025 closing? You previously gave only a tentative group-level nonvisit answer.",
-      "continuation": "Four choices: Yes — visited, Maybe — looks familiar, No — never visited, No — wish I had. If yes, preserve whether main supper club, tasting room or bar until clarified. Since now closed, historical interest is NOT a future-visit wishlist entry. Do not confuse its chef with The American's Design Icon award."
+      "question": "Have you visited Fox & Pearl at its permanent 2143 Summit Street location in Kansas City's Westside (open since July 2019)?",
+      "continuation": "Four options: Yes visited, Maybe familiar, No never visited, Add to future-visit wishlist (not visited, want to go). Prior October 25 group-level negative is tentative, not definitive. Do not confuse 2143 Summit with temporary 815 W 17th or double-count 'Fox and Pearl' alias."
     },
     "pausedBatches": [
       {
