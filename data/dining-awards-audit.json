@@ -11,10 +11,10 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 58,
-    "distinctPublishedVenues": 55,
+    "canonExperienceRecords": 59,
+    "distinctPublishedVenues": 56,
     "recognized": 28,
-    "featuredPersonal": 16,
+    "featuredPersonal": 17,
     "officiallyFeatured": 6,
     "unfeaturedOther": 6,
     "additionalConfirmedArchiveOnly": 15,
@@ -1248,6 +1248,29 @@
       "editorialNote": "Visit confirmed directly November 3, 2026; unknown date, purchases and companions. Not the newer Mass Street location. Private pending approval.",
       "visitConfidence": "direct_user_confirmed_original_barker_avenue_date_unknown",
       "publicationStatus": "private_confirmed_recognized_pending_editorial_approval"
+    },
+    {
+      "venueId": "venue-salt-tavern-baltimore",
+      "name": "Salt: A New American Tavern",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "dining-salt-tavern-baltimore-2018-03-16"
+      ],
+      "rememberedPeriods": [
+        "March 16, 2018 — first visit during UMBC's NCAA upset of Virginia"
+      ],
+      "recognitionStatus": "featured_personal_exception",
+      "sourceUrls": [
+        "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
+        "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/"
+      ],
+      "recognitionSummary": [
+        "2006 Baltimore Magazine Best of Baltimore Burger and Fries: local editorial food-category winner, not Michelin or James Beard award."
+      ],
+      "editorialNote": "Direct user request: include confirmed first visit anchored to UMBC defeating UVA on March 16, 2018. No claim about dishes ordered or whether game was watched at Salt.",
+      "visitConfidence": "direct_user_confirmation_with_verified_historical_calendar_anchor",
+      "publicationStatus": "private_pending_story_review"
     }
   ],
   "confirmedArchiveOnly": [
