@@ -1005,7 +1005,7 @@ aud = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="ut
 archive_only_names = {x["name"] for x in aud["confirmedArchiveOnly"]}
 # Editorially recognized bars awaiting tier review are separate from restaurant-only archive counts.
 archive_only_names |= {x["name"] for x in aud.get("confirmedBarsEditorial", [])}
-published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names]
+published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names and not r.get("editorial", {}).get("publicInclusionRequested", False)]
 assert aud["summary"] == {
     "canonExperienceRecords": len(published_experiences),
     "distinctPublishedVenues": len({r["venueId"] for r in published_experiences}),
