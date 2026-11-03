@@ -9576,9 +9576,9 @@
         "https://www.baltimoremagazine.com/section/fooddrink/open-shut-water-for-chocolate-with-love-company-entre-amigos/"
       ],
       "eligibility": {
-        "status": "memory_candidate_pending_qualifying_award",
-        "basis": "editorial_feature_not_jbf_michelin",
-        "reason": "No venue-specific qualifying Michelin or James Beard distinction verified; 2019 Baltimore Magazine brunch selection is editorial.",
+        "status": "eligible_expanded_culture_private",
+        "basis": "2019_baltimore_magazine_brunch_selection",
+        "reason": "2019 Baltimore Magazine Best Brunch Spots — local curated/editorial recognition qualifies culturally, independently of Michelin or James Beard.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9587,7 +9587,8 @@
         "sourceTier": "publisher_and_restaurant_primary",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
-        "note": "Restaurant name and chef verified; no visit inferred, no Michelin/JBF awarded."
+        "note": "Restaurant name and chef verified; no visit inferred, no Michelin/JBF awarded.",
+        "expandedCulturalTier": "local_editorial_cultural_recognition"
       },
       "photographicEvidence": [
         {
@@ -9631,9 +9632,9 @@
         "https://ministryofbrewing.com/faq"
       ],
       "eligibility": {
-        "status": "national_editorial_bar_recognition_review_policy",
-        "basis": "esquire_2021_best_bars",
-        "reason": "2021 Esquire national Best Bars editorial inclusion verified; distinguish from James Beard/CAMRA, review bar recognition criterion rather than assert Michelin/JBF.",
+        "status": "eligible_expanded_culture_private",
+        "basis": "2021_esquire_best_bars",
+        "reason": "2021 Esquire Best Bars in America — credible national curated/editorial bar recognition qualifies culturally, independently of CAMRA/JBF/Michelin.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9642,7 +9643,8 @@
         "sourceTier": "original_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
-        "note": "Distinct bar/brewery in former St. Michael's church; no user attendance inferred."
+        "note": "Distinct bar/brewery in former St. Michael's church; no user attendance inferred.",
+        "expandedCulturalTier": "national_editorial_cultural_recognition"
       },
       "photographicEvidence": [
         {
@@ -9690,9 +9692,9 @@
         "https://www.ryestreettavern.com/about/"
       ],
       "eligibility": {
-        "status": "memory_candidate_no_direct_qualifying_award_verified",
-        "basis": "historic_beard_winning_founder_prior_honors_elsewhere",
-        "reason": "Chef Andrew Carmellini has prior James Beard awards but no verified at-Rye-Street venue honor. Do not transfer his award, or assume original and post-2024 concept are same experience.",
+        "status": "eligible_expanded_culture_private",
+        "basis": "sagamore_distillery_waterfront_restaurant_cultural_setting",
+        "reason": "Distinctive historic Sagamore Spirit waterfront distillery restaurant and cultural/hospitality setting qualifies as a historical cultural spotlight. Chef Andrew Carmellini's prior Beard awards are not attributed to this restaurant.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9701,7 +9703,8 @@
         "sourceTier": "period_coverage_and_operator_primary",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.baltimoremagazine.com/section/fooddrink/rye-street-tavern-opens-tonight-in-port-covington/",
-        "note": "2017 historical venue, May 2021 closure and July 2024 reopening independently distinguished; user attendance unanswered."
+        "note": "2017 historical venue, May 2021 closure and July 2024 reopening independently distinguished; user attendance unanswered.",
+        "expandedCulturalTier": "historical_cultural_spotlight"
       },
       "photographicEvidence": [
         {
@@ -10921,7 +10924,7 @@
         "candidate-baltimore-ministry-of-brewing",
         "candidate-baltimore-rye-street-tavern-sagamore"
       ],
-      "recognitionCautions": "Ministry of Brewing has a verified 2021 Esquire Best Bars listing; this is an editorial national bar distinction not a James Beard/Michelin/CAMRA award. Water for Chocolate has a 2019 Baltimore Magazine brunch editorial selection. Rye Street founder Andrew Carmellini's James Beard awards occurred elsewhere; no awards transferred to this venue. All three visits confirmed 2026-11-03, exact dates unknown. Esquire national editorial selection can be shown in a separate category, never mistaken for James Beard or Michelin. Rye Street original 2017–2020 operator era and post July 2024 operator era cannot be inferred from visit confirmation alone.",
+      "recognitionCautions": "National/local editorial selections, design and cultural/historical distinction, plus selected personal highlights are Culture Passport-eligible without Michelin/James Beard awards. Ministry of Brewing: Esquire Best Bars 2021 (national editorial), Water for Chocolate: Baltimore Magazine best brunch 2019 (local editorial), Rye Street Tavern: Sagamore Spirit waterfront cultural spotlight (no chef award transfer). Formal award tier remains distinct. All three recorded as confirmed visits with unknown visit dates; original and reopened Rye Street eras remain unresolved.",
       "confirmedAdditional20261103": [
         {
           "candidateId": "candidate-baltimore-water-for-chocolate",
