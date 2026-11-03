@@ -116,7 +116,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["1900 Barker Bakery & Café"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Freshwater (Fine) Dining"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -209,7 +209,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["1900 Barker Bakery & Café"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Freshwater (Fine) Dining"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -239,7 +239,9 @@ assert "Carl Thorne-Thomsen" in story_candidate["recognition"]
 assert not any(r["venueId"] == "venue-story-prairie-village" and r["status"] == "confirmed" for r in records)
 assert not any(w["candidateId"] == story_candidate["id"] for w in wishlist["entries"])
 barker = next(c for c in candidates if c["id"] == "candidate-lawrence-1900-barker-original")
-assert barker["visitStatus"] == "unreviewed"
+assert barker["visitStatus"] == "confirmed"
+assert barker["confirmedVisitId"] == "dining-1900-barker-original-lawrence-date-unknown"
+assert barker["reviewCertainty"] == "explicit_confirmed"
 assert barker["addressHint"] == "1900 Barker Avenue, Lawrence, KS 66046"
 assert barker["screening"]["status"] == "award_qualified"
 assert "Outstanding Baker semifinalist in 2018, 2019 and 2020" in barker["recognition"]
@@ -247,7 +249,25 @@ assert barker["openedOn"] == "2015-06"
 assert len(barker["photographicEvidence"]) == 2
 assert all(photo["renderMode"] == "source_link_only" for photo in barker["photographicEvidence"])
 assert not any(w["candidateId"] == barker["id"] for w in wishlist["entries"])
-assert not any(r["title"] == barker["name"] and r["status"] == "confirmed" for r in records)
+barker_visit = next(r for r in records if r["id"] == barker["confirmedVisitId"])
+assert barker_visit["status"] == "confirmed" and barker_visit["type"] == "dining"
+assert barker_visit["venueId"] == "venue-1900-barker-original-lawrence"
+assert barker_visit["visit"]["date"] is None and barker_visit["visit"]["precision"] == "unknown"
+assert barker_visit["visit"]["orders"] is None
+assert barker_visit["editorial"]["awardQualified"] is True
+assert {x["year"] for x in barker_visit["recognitions"] if x["result"] == "semifinalist" and x["category"] == "Outstanding Baker"} == {2018,2019,2020}
+assert barker_visit["curation"]["verifiedForPublication"] is False
+assert any(a["id"] == barker_visit["id"] and a["status"] == "pending" for a in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+freshwater = next(c for c in candidates if c["id"] == "candidate-kc-freshwater-fine-dining-2017-2020")
+assert freshwater["visitStatus"] == "unreviewed"
+assert freshwater["operatingStatus"] == "permanently_closed"
+assert freshwater["addressHint"].startswith("3711 Southwest Trafficway")
+assert freshwater["screening"]["status"] == "award_qualified"
+assert freshwater["recognitionYear"] == 2019
+assert len(freshwater["photographicEvidence"]) == 2
+assert all(x["renderMode"] == "source_link_only" for x in freshwater["photographicEvidence"])
+assert not any(x["candidateId"] == freshwater["id"] for x in wishlist["entries"])
+assert not any(r["title"] == freshwater["name"] and r["status"] == "confirmed" for r in records)
 
 
 # Stock Hill: actual AAA Four Diamond recognition, not a Michelin/JBF award or a visit.
@@ -968,6 +988,7 @@ for venue in venues:
             "venue-westport-cafe-bar-kansas-city": "Kansas City",
             "venue-rye-plaza-kansas-city": "Kansas City",
             "venue-john-browns-underground-lawrence": "Lawrence",
+            "venue-1900-barker-original-lawrence": "Lawrence",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
