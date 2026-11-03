@@ -697,6 +697,150 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-thames-street-oyster-house-baltimore",
+      "title": "Thames Street Oyster House",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-rec-pier-chop-house-baltimore",
+      "title": "Rec Pier Chop House",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-breckenridge-distillery-2021",
+      "title": "Breckenridge Distillery Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-breckenridge-distillery-2022",
+      "title": "Breckenridge Distillery Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-breckenridge-distillery-2023",
+      "title": "Breckenridge Distillery Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-the-kitchen-american-bistro-boulder",
+      "title": "The Kitchen American Bistro",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-primrose-steamboat-date-unknown",
+      "title": "Primrose",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-j-bar-hotel-jerome-aspen",
+      "title": "J-Bar (Hotel Jerome)",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-acquolina-aspen-date-unknown",
+      "title": "Acquolina Trattoria & Pizzeria",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-the-sunflower-crested-butte-date-unknown",
+      "title": "The Sunflower",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-the-wooden-nickel-crested-butte-date-unknown",
+      "title": "The Wooden Nickel",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-the-breadery-crested-butte-date-unknown",
+      "title": "The Breadery",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-public-house-crested-butte-date-unknown",
+      "title": "Public House",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-teocalli-tamale-crested-butte-date-unknown",
+      "title": "Teocalli Tamale",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-two-twelve-crested-butte-date-unknown",
+      "title": "Two Twelve",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-butchers-daughter-los-angeles-date-unknown",
+      "title": "The Butcher's Daughter",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-801-chophouse-kansas-city-date-unknown",
+      "title": "801 Chophouse",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "title": "Rye Street Tavern (Sagamore Spirit campus)",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
