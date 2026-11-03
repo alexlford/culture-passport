@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Chewology"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Water for Chocolate"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Chewology"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Water for Chocolate"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -395,7 +395,21 @@ assert historical_bluestem["operatingStatus"] == "permanently_closed"
 assert not any(w["candidateId"] == historical_bluestem["id"] for w in wishlist["entries"])
 # Chewology is a separate restaurant at the former Bluestem premises.
 chewology = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-chewology")
-assert chewology["visitStatus"] == "unreviewed"
+assert chewology["visitStatus"] == "not_visited"
+assert chewology["wantsToVisit"] is True
+assert chewology["reviewCertainty"] == "explicit_user_nonattendance"
+assert chewology["wishlistId"] == "want-to-visit-chewology-kansas-city-metro"
+assert chewology["metroExperienceGroupId"] == "chewology-kansas-city-metro"
+chewology_wishes = [w for w in wishlist["entries"] if w["candidateId"] == chewology["id"]]
+assert len(chewology_wishes) == 1
+assert chewology_wishes[0]["id"] == chewology["wishlistId"]
+assert chewology_wishes[0]["visitStatus"] == "not_visited" and chewology_wishes[0]["status"] == "want_to_visit"
+assert chewology_wishes[0]["metroExperienceGroupId"] == "chewology-kansas-city-metro"
+assert {r["year"] for r in chewology_wishes[0]["recognitions"]} == {2024, 2025}
+assert all(r["recipient"] == "Katie Liu-Sung" and r["result"] == "semifinalist"
+           and r["category"] == "Best Chef: Midwest" and "jamesbeard.org" in r["sourceUrl"]
+           for r in chewology_wishes[0]["recognitions"])
+assert not any(r["title"] == "Chewology" and r["status"] == "confirmed" for r in records)
 assert chewology["addressHint"].startswith("900 Westport Road")
 assert chewology["screening"]["status"] == "award_qualified"
 assert "Katie Liu-Sung" in chewology["recognition"]
@@ -408,6 +422,24 @@ assert salt_baltimore["screening"]["status"] == "personal_featured_exception_loc
 assert salt_baltimore["wantsToVisit"] is False
 assert salt_baltimore["eligibility"]["verifiedForPublication"] is False
 assert not any(w["candidateId"] == salt_baltimore["id"] for w in wishlist["entries"])
+# These Baltimore venues are research leads only, never inferred visits or future wishes.
+water = next(c for c in candidates if c["id"] == "candidate-baltimore-water-for-chocolate-lombard")
+ministry = next(c for c in candidates if c["id"] == "candidate-baltimore-ministry-of-brewing-lombard")
+assert water["visitStatus"] == ministry["visitStatus"] == "unreviewed"
+assert water["wantsToVisit"] is None and ministry["wantsToVisit"] is None
+assert water["addressHint"].startswith("1841 E Lombard")
+assert water["screening"]["status"] == "no_qualifying_award_verified"
+assert ministry["addressHint"].startswith("1900 E Lombard")
+assert ministry["screening"]["status"] == "verified_other_editorial_bar_recognition"
+assert ministry["recognitionYear"] == 2021 and ministry["awardFamily"] == "esquire_best_bars"
+assert all(c["photographicEvidence"] and all(p["imageRights"] == "unverified" and
+           p["renderMode"] == "source_link_only" for p in c["photographicEvidence"])
+           for c in (water, ministry))
+assert not any(w["candidateId"] in {water["id"], ministry["id"]} for w in wishlist["entries"])
+assert not any(r["title"] in {"Water for Chocolate", "Ministry of Brewing"} for r in records)
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Water for Chocolate"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Baltimore"
+assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
 # Room 39 is one metro-brand wish, not a confirmed meal or multiple branch wishes.
 room_39 = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-room-39")
