@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-lawrence-john-browns-underground",
+    "venue": "John Brown's Underground",
+    "address": "7 E 7th Street, Lawrence, KS 66044",
+    "visitStatus": "confirmed",
+    "visitDate": null,
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City-region interview: I visited John Brown’s Underground at 7 E 7th St, Lawrence, Kansas. Record confirmed attendance, leave the date unknown, preserve its 2025 James Beard Outstanding Bar semifinalist recognition, and continue with the next eligible venue, photos and four buttons.",
+    "attendance": true,
+    "drinksUnknown": true,
+    "companionsUnknown": true,
+    "canonicalRecordId": "bar-john-browns-underground-lawrence-date-unknown"
+  },
+  "recognitionGuardrails": {
+    "organization": "James Beard Foundation",
+    "category": "Outstanding Bar",
+    "year": 2025,
+    "result": "semifinalist",
+    "recipient": "John Brown's Underground, Lawrence KS",
+    "venueLevel": true,
+    "notFinalist": true,
+    "notWinner": true,
+    "officialSourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kc-story-prairie-village",
+    "venue": "Story.",
+    "address": "3931 W 69th Terrace, Prairie Village, KS 66208",
+    "historicalOperatingPeriod": "2011–January 2026",
+    "operatingStatus": "permanently_closed",
+    "visitStatus": "unreviewed",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "category": "Best Chef: Midwest",
+      "recipient": "Carl Thorne-Thomsen at Story.",
+      "years": [
+        2013,
+        2022
+      ],
+      "result": "semifinalist",
+      "notWinner": true,
+      "sourceUrls": [
+        "https://www.jamesbeard.org/sites/default/files/pressreleases/JBF%202013%20Semifinalists%20Press%20Release%20-%20FINAL-1.pdf",
+        "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+      ]
+    },
+    "photographicEvidenceSourceUrls": [
+      "https://www.opentable.com/r/story-prairie-village",
+      "https://kansascitymag.com/story-in-prairie-village-has-closed-scratch-gourmet-kitchen-is-moving-in/"
+    ],
+    "responseButtons": [
+      "Yes — visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "No — wish I had (historical interest, not visitable)"
+    ],
+    "wishlistConstraint": "Closed; historical-interest archive only. Never enter as future-visit wishlist."
+  },
+  "publication": {
+    "status": "private",
+    "storyApproval": "pending",
+    "note": "Do not publish user story without explicit approval."
+  }
+}

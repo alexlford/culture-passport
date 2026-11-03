@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-11-01",
+  "updated": "2026-11-03",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -8726,10 +8726,10 @@
       "recognitionYear": 2025,
       "awardFamily": "beard",
       "sourceUrl": "https://www.explorelawrence.com/listing/john-browns-underground/7551/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "confirmed",
       "researchStatus": "official_jbf_2025_outstanding_bar_semifinalist_verified",
       "addedOn": "2026-10-31",
-      "priority": "next",
+      "priority": "reviewed",
       "operatingStatus": "operating",
       "interviewCue": "Opened in 2015, low-lit basement speakeasy off 7th Street between Massachusetts and New Hampshire in downtown Lawrence. Historic wooden ceiling, compact candlelit tables, vivid reinterpretation of Curry's John Brown mural with jazz-era figures. Later Aboveground patio (reopened 2025) is separate and not assumed visited.",
       "screening": {
@@ -8738,7 +8738,7 @@
         "evidenceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
         "sourceTier": "official_jbf",
         "verifiedAt": "2026-10-31",
-        "note": "Official JBF Outstanding Bar semifinalist names John Brown's Underground, Lawrence, KS. This is venue-level and not a winner or finalist; preserve unknown visit."
+        "note": "2025 James Beard Outstanding Bar semifinalist for exact Lawrence venue; not finalist/winner, visit date unknown."
       },
       "sourceUrls": [
         "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
@@ -8773,7 +8773,14 @@
           "altText": "Dimly lit speakeasy with vintage lamps and an intimate wooden bar"
         }
       ],
-      "photographicEvidenceReviewOn": "2026-10-31"
+      "photographicEvidenceReviewOn": "2026-10-31",
+      "confirmedVisitId": "bar-john-browns-underground-lawrence-date-unknown",
+      "wantsToVisit": false,
+      "reviewedOn": "2026-11-03",
+      "reviewCertainty": "explicit_confirmed",
+      "reviewSource": "Direct user statement 2026-11-03 confirming visit to 7 E 7th St, Lawrence, KS.",
+      "attendanceCertainty": "confirmed_exact_venue_date_unknown",
+      "visitPeriod": null
     },
     {
       "id": "candidate-new-york-city-the-campbell",
@@ -8840,6 +8847,63 @@
         "screenedOn": "2026-11-01",
         "verifiedForPublication": false
       }
+    },
+    {
+      "id": "candidate-kc-story-prairie-village",
+      "area": "Kansas City Metro",
+      "subregion": "Prairie Village, Kansas (historical 2011–January 2026)",
+      "name": "Story.",
+      "venueType": "restaurant",
+      "addressHint": "3931 W 69th Terrace, Prairie Village, KS 66208",
+      "recognition": "Chef/owner Carl Thorne-Thomsen: James Beard Best Chef: Midwest semifinalist in 2013 and 2022 while at Story.; restaurant also earned Wine Spectator distinctions independently. Chef-in-post recognition, not an award win.",
+      "recognitionYear": 2013,
+      "awardFamily": "beard",
+      "visitStatus": "unreviewed",
+      "researchStatus": "historical_exact_venue_jbf_2013_2022_verified",
+      "addedOn": "2026-11-03",
+      "priority": "next",
+      "openedOn": "2011-05",
+      "closedOn": "2026-01",
+      "operatingStatus": "permanently_closed",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/sites/default/files/pressreleases/JBF%202013%20Semifinalists%20Press%20Release%20-%20FINAL-1.pdf",
+        "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+        "https://kansascitymag.com/story-in-prairie-village-has-closed-scratch-gourmet-kitchen-is-moving-in/"
+      ],
+      "interviewCue": "White tablecloths, curved contemporary ceiling and dark floors in Prairie Village Shops; opened 2011, closed January 2026. Was next to Scratch Gourmet Kitchen, which moved into the space in 2026; not the same restaurant.",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_best_chef_midwest_2013_2022_semifinalist_at_story",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "Carl Thorne-Thomsen was twice a chef semifinalist at the specific Story restaurant (2013/2022), not a winner; closed early 2026. Historical interest is not a future-visit wishlist item."
+      },
+      "photographicEvidence": [
+        {
+          "id": "story-prv-open-table-interior",
+          "label": "Story. — original Prairie Village dining room",
+          "caption": "Original restaurant interior (white tablecloths, curved soffit); archive photograph via the restaurant's historical OpenTable entry, not present-day successor Scratch Gourmet Kitchen.",
+          "photoSubject": "Story. restaurant dining room before January 2026 closure",
+          "sourceUrl": "https://www.opentable.com/r/story-prairie-village",
+          "sourceOrganization": "OpenTable",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        },
+        {
+          "id": "story-kansas-city-magazine-closure",
+          "label": "Story. — archival restaurant photograph",
+          "caption": "Restaurant interior photo identified as Story. on Kansas City Magazine's 2026 closure reporting; not an image of the subsequent Scratch establishment.",
+          "photoSubject": "Story. historical restaurant",
+          "sourceUrl": "https://kansascitymag.com/story-in-prairie-village-has-closed-scratch-gourmet-kitchen-is-moving-in/",
+          "sourceOrganization": "Kansas City Magazine",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only"
+        }
+      ]
     }
   ],
   "source": {
@@ -9942,13 +10006,13 @@
   "interviewProgress": {
     "currentBatch": {
       "area": "Kansas City Metro",
-      "category": "cocktail_bars",
+      "category": "restaurants",
       "candidateNames": [
-        "John Brown's Underground"
+        "Story."
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited John Brown's Underground in Lawrence, Kansas? (Visit status not yet confirmed.)",
-      "continuation": "Continue Kansas City-region historical interview with photographs and four response options. Preserve exact venue and existing answer states; do not infer past attendance."
+      "question": "Did you ever dine at Story. at 3931 W 69th Terrace in Prairie Village, during its 2011–January 2026 operation?",
+      "continuation": "Four options: Yes — visited; Maybe — familiar; No — never visited; No — wish I had (historical-interest archive only, NOT future wishlist because permanently closed). Follow with another individually verified venue. Do not confuse Story. with successor Scratch Gourmet Kitchen."
     },
     "pausedBatches": [
       {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "auditedOn": "2026-11-01",
+  "auditedOn": "2026-11-03",
   "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation. October 27, 2026 Union Station follow-up: repeated Pierpont's dining and Harvey's after-wedding goodbye brunch directly confirmed and explicitly selected. Pierpont's is linked by a 2011 Foundation editorial mention; Harvey's is a personal-memory exception. No new formal awards or exact visit dates. October 31 direct 801 Chophouse downtown KCMO visit: date unknown; Wine Spectator Best of Award of Excellence (wine program, 2023 and 2025) is separately documented, not Michelin or James Beard.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 56,
-    "distinctPublishedVenues": 53,
-    "recognized": 25,
+    "canonExperienceRecords": 57,
+    "distinctPublishedVenues": 54,
+    "recognized": 26,
     "featuredPersonal": 16,
     "officiallyFeatured": 6,
     "unfeaturedOther": 7,
@@ -1199,6 +1199,29 @@
       "editorialNote": "User sent firsthand onsite photo and explicitly instructed to add Tonchin November 1, 2026. Dinner details and actual party size unknown. Image bytes attached in conversation, not yet uploaded to GitHub; private publication gate retained.",
       "visitConfidence": "user_direct_same_day_photo_and_booked_reservation",
       "publicationStatus": "private_pending_story_review"
+    },
+    {
+      "venueId": "venue-john-browns-underground-lawrence",
+      "name": "John Brown's Underground",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "experienceIds": [
+        "bar-john-browns-underground-lawrence-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Confirmed Lawrence cocktail-bar visit; exact date unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+        "https://www.explorelawrence.com/listing/john-browns-underground/7551/"
+      ],
+      "recognitionSummary": [
+        "James Beard Foundation 2025 Outstanding Bar semifinalist: the Lawrence bar itself. Not a finalist or winner."
+      ],
+      "editorialNote": "Direct user confirmation November 3, 2026; no actual visit date, drink, or companions assumed. Private story review pending.",
+      "visitConfidence": "direct_user_confirmed_specific_bar_date_unknown",
+      "publicationStatus": "private_confirmed_recognized_pending_editorial_approval"
     }
   ],
   "confirmedArchiveOnly": [
