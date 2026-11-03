@@ -10233,15 +10233,17 @@
       "recognition": "Mighty Squirrel's Oktoberfest won silver in 2026 Great American Beer Festival American Amber Lager, entry listed Waltham; do not transfer location or infer sampled beer",
       "recognitionYear": 2026,
       "awardFamily": "great_american_beer_festival",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
-      "priority": "queued",
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
+      "priority": "answered",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
       "sourceUrl": "https://www.mightysquirrel.com/",
       "sourceUrls": [
         "https://www.mightysquirrel.com/",
-        "https://www.greatamericanbeerfestival.com/2026-winners/"
+        "https://www.greatamericanbeerfestival.com/2026-winners/",
+        "https://www.mightysquirrel.com/freeparking",
+        "https://www.mightysquirrel.com/waltham-private-events"
       ],
       "interviewCue": "Cloud Candy IPA, Waltham beer hall and Fenway brewery taproom near Fenway Park; Waltham-produced Oktoberfest 2026 GABF silver.",
       "siteScope": "Greater Boston brewery brand-level, visited site still to confirm",
@@ -10251,16 +10253,26 @@
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
-        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+        "note": "User directly confirms Mighty Squirrel brand attendance. Exact brewery/taproom site and visit date unknown. The 2026 GABF Oktoberfest silver medal was submitted under Waltham; this is beer-level, not evidence that the user visited that site or tried the beer."
       },
       "eligibility": {
-        "status": "candidate_eligible_if_visited",
+        "status": "confirmed_visit_public_candidate_pending_story_review",
         "basis": "brewing_award_or_curated_editorial_recognition",
         "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
-      "photographicEvidence": []
+      "photographicEvidence": [],
+      "confirmedBrandVisitId": "brewery-brand-mighty-squirrel-boston-metro",
+      "confirmedVisitId": "bar-brewery-brand-mighty-squirrel-boston-metro-visit-date-unknown",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "visitScope": "Greater Boston brewery brand confirmed. Exact Waltham, Fenway, Watertown or other taproom not identified.",
+      "attendanceEvidence": "Direct user statement on November 3, 2026: 'I know I’ve been to Mighty Squirrel'. No exact branch, visit date, orders or tour confirmed.",
+      "userAnswer": "Yes — visited",
+      "answerDate": "2026-11-03",
+      "recognitionAttribution": "2026 GABF silver medal belongs to Mighty Squirrel's beer Oktoberfest in American Amber Lager, entered under Waltham, MA. This does not prove the user visited Waltham or drank Oktoberfest."
     }
   ],
   "source": {
@@ -11422,7 +11434,7 @@
       "status": "active_one_venue_at_a_time",
       "addedOn": "2026-11-03",
       "scope": "Boston city and nearby Cambridge, Somerville and Everett; Greater Boston historic brewery/taprooms. Do not assume visits based on city travel or on ownership of a brand's beer.",
-      "confirmedBostonBreweryVisitCount": 2,
+      "confirmedBostonBreweryVisitCount": 3,
       "exactVisitDatesEstablished": 0,
       "priorBostonCandidate": "Café Dear Leon is Baltimore and remains unreviewed, paused on user request; not a Boston candidate.",
       "orderedCandidateIds": [
@@ -11440,7 +11452,7 @@
       "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
       "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
       "priorBostonInferredSites": 0,
-      "unansweredCandidates": 4,
+      "unansweredCandidates": 3,
       "futureExpansion": [
         "Tree House Brewing Company outside Boston proper",
         "Notch Brewing at Charles River Speedway",
@@ -11448,9 +11460,10 @@
         "Maui breweries and Colorado Front Range"
       ],
       "confirmedBrandNames": [
-        "Trillium Brewing Company"
+        "Trillium Brewing Company",
+        "Mighty Squirrel Brewing"
       ],
-      "lastConfirmedCandidateId": "candidate-boston-brewery-harpoon-seaport",
+      "lastConfirmedCandidateId": "candidate-boston-brewery-mighty-squirrel",
       "notVisitedWishlistNames": [
         "Samuel Adams Boston Brewery (Jamaica Plain)",
         "Night Shift Brewing — Boston metro (brand level)"
@@ -11459,7 +11472,15 @@
       "confirmedSiteNames": [
         "Harpoon Brewery & Beer Hall — 306 Northern Avenue"
       ],
-      "lastWishlistCandidateId": "candidate-boston-brewery-night-shift"
+      "lastWishlistCandidateId": "candidate-boston-brewery-night-shift",
+      "outOfOrderConfirmations": [
+        {
+          "candidateId": "candidate-boston-brewery-mighty-squirrel",
+          "answer": "confirmed_brand_visit",
+          "answeredOn": "2026-11-03",
+          "followUpToResume": "candidate-boston-brewery-aeronaut-somerville"
+        }
+      ]
     },
     "breweryBrandVisitArchive": {
       "status": "8_confirmed_brewery_brands_exact_sites_unresolved",
