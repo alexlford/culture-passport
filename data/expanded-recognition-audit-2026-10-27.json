@@ -5,12 +5,12 @@
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 58,
-    "canonicalDistinctVenues": 53,
+    "restaurantEntriesReviewed": 59,
+    "canonicalDistinctVenues": 54,
     "archiveOnlyAdditionalEntries": 5,
     "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 58,
+    "restaurantEntriesTracked": 59,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -81,7 +81,7 @@
   },
   "countsByTier": {
     "archived_pending_recognition": 20,
-    "formal_michelin_jbf_recognition": 24,
+    "formal_michelin_jbf_recognition": 25,
     "personal_featured_exception": 9,
     "official_program_or_editorial_connection": 5
   },
@@ -1913,6 +1913,42 @@
       "reviewedOn": "2026-11-01",
       "recognitionReviewStatus": "reviewed",
       "watchlistId": null
+    },
+    {
+      "venueId": "venue-1900-barker-original-lawrence",
+      "restaurantName": "1900 Barker Bakery & Café",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "venueScope": "1900 Barker Avenue original only",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-1900-barker-original-lawrence-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "formal_michelin_jbf_recognition",
+      "formalAwardOrGuideQualified": true,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+        "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2018,
+          "result": "semifinalist",
+          "category": "Outstanding Baker",
+          "recipient": "Taylor Petrehn",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+        }
+      ],
+      "officialFeatures": [],
+      "reviewResult": "Original Barker Avenue visit confirmed, date unknown. Three outstanding baker semifinalist recognitions.",
+      "reviewedOn": "2026-11-03",
+      "recognitionReviewStatus": "reviewed"
     }
   ],
   "futureAudit": {
