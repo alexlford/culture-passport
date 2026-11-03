@@ -1626,7 +1626,7 @@ samuel_wish = next(e for e in wishlist["entries"] if e["candidateId"] == samuel[
 assert samuel_wish["status"] == "want_to_visit" and samuel_wish["visitStatus"] == "not_visited"
 assert samuel_wish["location"]["address"] == "30 Germania Street"
 assert samuel_wish["category"] == "bar"
-assert not any(e["candidateId"] == samuel["id"] for e in records)
+assert not any(r["title"] == "Samuel Adams Boston Brewery" for r in records)
 assert not any(x["candidateId"] in chapter["orderedCandidateIds"] and x["candidateId"] != samuel["id"]
                for x in wishlist["entries"])
 harpoon = next(c for c in candidates if c["id"] == chapter["nextCandidateId"])
