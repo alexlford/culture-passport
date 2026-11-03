@@ -673,6 +673,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-salt-tavern-baltimore-2018-03-16",
+      "title": "Salt: A New American Tavern",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
