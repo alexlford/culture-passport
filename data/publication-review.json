@@ -913,6 +913,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-brewery-brand-mighty-squirrel-boston-metro-visit-date-unknown",
+      "title": "Mighty Squirrel Brewing",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
