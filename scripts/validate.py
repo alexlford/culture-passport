@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Night Shift Brewing"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Aeronaut Brewing Company"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Night Shift Brewing"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Aeronaut Brewing Company"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -481,7 +481,7 @@ assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
 assert cafe_leon["addressHint"].startswith("2929 O'Donnell Street")
 assert len(cafe_leon["photographicEvidence"]) >= 2
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Night Shift Brewing"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Aeronaut Brewing Company"]
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
 assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
@@ -1626,9 +1626,9 @@ chapter = interview_data["interviewChapters"]["bostonBreweries"]
 assert chapter["status"] == "active_one_venue_at_a_time"
 assert chapter["confirmedBostonBreweryVisitCount"] == 2
 assert len(chapter["orderedCandidateIds"]) == 8
-assert chapter["nextCandidateId"] == "candidate-boston-brewery-night-shift"
+assert chapter["nextCandidateId"] == "candidate-boston-brewery-aeronaut-somerville"
 assert all(next(c for c in candidates if c["id"] == cid)["visitStatus"] == "unreviewed"
-           for cid in chapter["orderedCandidateIds"][3:])
+           for cid in chapter["orderedCandidateIds"][4:])
 trillium = next(c for c in candidates if c["id"] == "candidate-boston-brewery-trillium-boston-metro")
 assert trillium["visitStatus"] == "confirmed" and trillium["siteVisited"] is None and trillium["visitDate"] is None
 assert trillium["confirmedBrandVisitId"] == "brewery-brand-trillium-boston-metro"
@@ -1650,15 +1650,32 @@ assert samuel_wish["status"] == "want_to_visit" and samuel_wish["visitStatus"] =
 assert samuel_wish["location"]["address"] == "30 Germania Street"
 assert samuel_wish["category"] == "bar"
 assert not any(r["title"] == "Samuel Adams Boston Brewery" for r in records)
-assert not any(x["candidateId"] in chapter["orderedCandidateIds"] and x["candidateId"] != samuel["id"]
+night_shift = next(c for c in candidates if c["id"] == "candidate-boston-brewery-night-shift")
+assert night_shift["visitStatus"] == "not_visited" and night_shift["wantsToVisit"] is True
+assert night_shift["wishlistEntryId"] == "want-to-visit-night-shift-brewing-boston-metro"
+assert night_shift["siteVisited"] is None and night_shift["visitDate"] is None
+night_wish = next(e for e in wishlist["entries"] if e["candidateId"] == night_shift["id"])
+assert night_wish["status"] == "want_to_visit" and night_wish["visitStatus"] == "not_visited"
+assert night_wish["metroExperienceGroupId"] == "night-shift-brewing-greater-boston"
+assert night_wish["location"]["address"] is None
+assert night_wish["recognitions"][0]["organization"] == "Boston Magazine"
+assert night_wish["recognitions"][0]["year"] == 2025
+assert night_wish["recognitions"][0]["recipient"] == "Night Shift Brewing (brand, multiple locations)"
+assert not any(r["title"] == "Night Shift Brewing" for r in records)
+assert not any(x["candidateId"] in chapter["orderedCandidateIds"]
+               and x["candidateId"] not in {samuel["id"], night_shift["id"]}
                for x in wishlist["entries"])
 harpoon = next(c for c in candidates if c["id"] == "candidate-boston-brewery-harpoon-seaport")
 assert harpoon["name"] == "Harpoon Brewery & Beer Hall" and harpoon["visitStatus"] == "confirmed"
 assert harpoon["confirmedVisitId"] == harpoon_public["id"]
 assert harpoon["siteVisited"] == "Harpoon Brewery & Beer Hall, 306 Northern Avenue, Boston Seaport"
 assert harpoon["visitDate"] is None
-night_shift = next(c for c in candidates if c["id"] == chapter["nextCandidateId"])
-assert night_shift["name"] == "Night Shift Brewing" and night_shift["visitStatus"] == "unreviewed"
+aeronaut = next(c for c in candidates if c["id"] == chapter["nextCandidateId"])
+assert aeronaut["name"] == "Aeronaut Brewing Company" and aeronaut["visitStatus"] == "unreviewed"
+assert "14 Tyler Street" in aeronaut["addressHint"]
+assert len(aeronaut["photographicEvidence"]) >= 2
+assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_only"
+           and p["sourceUrl"].startswith("https://") for p in aeronaut["photographicEvidence"])
 assert len(night_shift["photographicEvidence"]) >= 2
 assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_only"
            and p["sourceUrl"].startswith("https://") for p in night_shift["photographicEvidence"])
@@ -1666,7 +1683,7 @@ assert len(harpoon["photographicEvidence"]) >= 2
 assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_only"
            and p["sourceUrl"].startswith("https://") for p in harpoon["photographicEvidence"])
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Night Shift Brewing"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Aeronaut Brewing Company"]
 assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon"]
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
            for x in interview_data["interviewProgress"]["pausedBatches"])

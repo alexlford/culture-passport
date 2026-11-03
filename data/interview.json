@@ -9996,9 +9996,9 @@
       "recognition": "Boston Magazine 2025 Readers' Poll Best Brewery winner; reader vote editorial distinction not formal medal",
       "recognitionYear": 2025,
       "awardFamily": "local_editorial_brewery_selection",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
-      "priority": "next",
+      "visitStatus": "not_visited",
+      "wantsToVisit": true,
+      "priority": "answered",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
       "sourceUrl": "https://nightshiftbrewing.com/",
@@ -10009,17 +10009,17 @@
         "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf/"
       ],
       "interviewCue": "Everett original: blue-painted industrial brewery, long wooden tables, colored pendant lamps and large garage doors; Lovejoy Wharf: Boston waterfront patio near TD Garden and a dramatic teal-lit bar. Brand-level recognition not proof of one specific site.",
-      "siteScope": "Boston metro brewery brand with multiple sites, not automatically one exact visit address",
+      "siteScope": "Greater Boston brewery brand level; no specific future visit site selected. Everett, Lovejoy Wharf and seasonal locations are examples only.",
       "screening": {
         "status": "eligible_brewery_cultural_candidate_if_attended",
         "basis": "direct_award_or_editorial_evidence",
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/",
-        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+        "note": "Explicitly not visited; future interest in Greater Boston brewery brand with no exact site selected. 2025 Boston Magazine Readers' Poll Best Brewery winner applies to brand, not an individual branch. No confirmed visit or assumed visit date."
       },
       "eligibility": {
-        "status": "candidate_eligible_if_visited",
+        "status": "eligible_private_future_wishlist_not_a_visit",
         "basis": "brewing_award_or_curated_editorial_recognition",
         "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
         "screenedOn": "2026-11-03",
@@ -10062,7 +10062,15 @@
           "renderMode": "source_link_only",
           "altText": "Night Shift Lovejoy Wharf taproom with teal geometric ceiling lighting"
         }
-      ]
+      ],
+      "wishlistEntryId": "want-to-visit-night-shift-brewing-boston-metro",
+      "answerDate": "2026-11-03",
+      "userAnswer": "No, but want to go",
+      "attendanceEvidence": "Direct user statement in the Boston brewery interview: No, but want to go.",
+      "confirmedVisitId": null,
+      "visitDate": null,
+      "siteVisited": null,
+      "recognitionAttribution": "2025 Boston Magazine Readers' Poll Best Brewery winner is for Night Shift Brewing at the brand level and was a readers' choice, not a judged beer medal or proof of site attendance."
     },
     {
       "id": "candidate-boston-brewery-aeronaut-somerville",
@@ -10075,15 +10083,16 @@
       "awardFamily": "local_editorial_brewery_selection",
       "visitStatus": "unreviewed",
       "wantsToVisit": null,
-      "priority": "queued",
+      "priority": "next",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
-      "sourceUrl": "https://www.aeronautbrewing.com/",
+      "sourceUrl": "https://www.aeronautbrewing.com/visit/somerville/",
       "sourceUrls": [
-        "https://www.aeronautbrewing.com/",
-        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+        "https://www.aeronautbrewing.com/visit/somerville/",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "https://www.aeronautbrewing.com/"
       ],
-      "interviewCue": "Somerville industrial taproom, community tables, science-inspired beers, live music and indoor food partners.",
+      "interviewCue": "Somerville original at 14 Tyler Street: illuminated hanging cloud-shaped sculpture, long communal tables, science-inspired beer, live music and brewing equipment. The historic Everett Cannery and seasonal Allston pop-ups were different sites; no attendance inferred.",
       "siteScope": "Original Somerville brewery/taproom, distinct from Everett Cannery",
       "screening": {
         "status": "eligible_brewery_cultural_candidate_if_attended",
@@ -10091,7 +10100,7 @@
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
-        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+        "note": "2026 Boston Globe editorial Best of the Best recognized Aeronaut Brewing Co. as a Somerville brewery option; official Somerville location at 14 Tyler Street. Editorial recognition is not an award medal or user attendance evidence; historic other locations not conflated."
       },
       "eligibility": {
         "status": "candidate_eligible_if_visited",
@@ -10100,7 +10109,44 @@
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
-      "photographicEvidence": []
+      "photographicEvidence": [
+        {
+          "id": "aeronaut-somerville-tourism",
+          "label": "Somerville taproom & live music",
+          "caption": "Massachusetts tourism image of Aeronaut's original Somerville taproom: high ceilings, hanging illuminated cloud, live music and communal seating.",
+          "photoSubject": "Aeronaut Somerville 14 Tyler Street interior live music",
+          "sourceUrl": "https://www.visitma.com/business/10268/",
+          "sourceOrganization": "Visit Massachusetts",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Spacious industrial brewery interior with illuminated blue cloud sculpture and live musicians"
+        },
+        {
+          "id": "aeronaut-somerville-beerflight",
+          "label": "Aeronaut tasting flight",
+          "caption": "Historic Aeronaut Somerville beer flight image from The Boston Calendar; this is a venue visual cue, not evidence of any personal beer order.",
+          "photoSubject": "Aeronaut Brewing Somerville four glass tasting flight",
+          "sourceUrl": "https://www.thebostoncalendar.com/events/live-music-at-aeronaut-brewery-somerville",
+          "sourceOrganization": "The Boston Calendar",
+          "sourceYear": 2023,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Four beer glasses spelling AERONAUT over a wooden tasting paddle"
+        },
+        {
+          "id": "aeronaut-somerville-2017-bso",
+          "label": "Aeronaut brewery concert, 2017",
+          "caption": "WBUR photograph of a 2016 Boston Symphony community concert in the Somerville brewery, published in 2017; no user's attendance is implied.",
+          "photoSubject": "Aeronaut Somerville 2016 BSO concert with fermentation vessels",
+          "sourceUrl": "https://www.wbur.org/news/2017/03/16/bso-community-concerts",
+          "sourceOrganization": "WBUR",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Classical musicians with string instruments performing between stainless-steel brewing vessels"
+        }
+      ]
     },
     {
       "id": "candidate-boston-brewery-lamplighter-cambridge",
@@ -11389,12 +11435,12 @@
         "candidate-boston-brewery-dorchester-brewing",
         "candidate-boston-brewery-mighty-squirrel"
       ],
-      "nextCandidateId": "candidate-boston-brewery-night-shift",
+      "nextCandidateId": "candidate-boston-brewery-aeronaut-somerville",
       "nominationPolicy": "GABF, World Beer Cup, regional judged brewing medals, established local/national editorial best-of lists and preservation or architecture honors qualify as distinct evidence categories; keep medal, beer, brewery, year and site attribution precise.",
       "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
       "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
       "priorBostonInferredSites": 0,
-      "unansweredCandidates": 5,
+      "unansweredCandidates": 4,
       "futureExpansion": [
         "Tree House Brewing Company outside Boston proper",
         "Notch Brewing at Charles River Speedway",
@@ -11406,12 +11452,14 @@
       ],
       "lastConfirmedCandidateId": "candidate-boston-brewery-harpoon-seaport",
       "notVisitedWishlistNames": [
-        "Samuel Adams Boston Brewery (Jamaica Plain)"
+        "Samuel Adams Boston Brewery (Jamaica Plain)",
+        "Night Shift Brewing — Boston metro (brand level)"
       ],
-      "lastAnsweredCandidateId": "candidate-boston-brewery-harpoon-seaport",
+      "lastAnsweredCandidateId": "candidate-boston-brewery-night-shift",
       "confirmedSiteNames": [
         "Harpoon Brewery & Beer Hall — 306 Northern Avenue"
-      ]
+      ],
+      "lastWishlistCandidateId": "candidate-boston-brewery-night-shift"
     },
     "breweryBrandVisitArchive": {
       "status": "8_confirmed_brewery_brands_exact_sites_unresolved",
@@ -11436,11 +11484,11 @@
       "area": "Boston",
       "category": "brewery_taprooms",
       "candidateNames": [
-        "Night Shift Brewing"
+        "Aeronaut Brewing Company"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Night Shift Brewing at any Greater Boston location? The Everett brewery at 87 Santilli Highway and Lovejoy Wharf taproom at 1 Lovejoy Wharf look different; reply yes at brand level unless you want to identify a site.",
-      "continuation": "Use official/historic photo cues for Everett and Lovejoy Wharf, with four buttons: Yes — visited; Maybe; No — never visited; No, but want to go. Boston Magazine 2025 Readers' Poll Best Brewery winner is a reader-selected brewery-brand distinction, not judged beer medal and not site-specific."
+      "question": "Have you ever visited Aeronaut Brewing Company in the Greater Boston area? The original Somerville brewery is at 14 Tyler Street, with communal tables, hanging cloud art, live music and a scientific theme. Answer for Aeronaut brand-level unless you confirm a precise venue.",
+      "continuation": "Show verifiable historical Somerville brewery photo cues from Massachusetts tourism and The Boston Calendar. Always offer four choices: Yes — visited, Maybe — looks familiar, No — never visited, No, but want to go. The Boston Globe 2026 editorial mention applies to Aeronaut; not a judged medal or proof of attendance. Continue to Lamplighter next."
     },
     "pausedBatches": [
       {
