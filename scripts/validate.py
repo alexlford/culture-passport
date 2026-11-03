@@ -461,10 +461,10 @@ assert len(ministry_record["editorialRecognitions"]) == 1
 assert ministry_record["editorialRecognitions"][0]["year"] == 2021
 assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
 assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
-# User requested a review of the Sagamore restaurant; never infer attendance.
+# User directly confirmed a visit to the Sagamore restaurant; do not infer era or Michelin/JBF award.
 sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
 assert sagamore["visitStatus"] == "confirmed" and sagamore["confirmedVisitId"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
-assert sagamore["eligibility"]["status"] == "cultural_historical_candidate_if_visited"
+assert sagamore["eligibility"]["status"] == "confirmed_personal_historical_interest_private_archive"
 rye_street_record = next(r for r in records if r["id"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown")
 assert rye_street_record["status"] == "confirmed" and rye_street_record["type"] == "dining"
 assert rye_street_record["visit"]["date"] is None and rye_street_record["visit"]["operatingEra"] == "not_established"
