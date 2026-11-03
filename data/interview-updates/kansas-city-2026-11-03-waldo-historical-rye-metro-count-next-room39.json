@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "venue": "Rye",
+    "visitStatus": "confirmed",
+    "rememberedLocation": "Rye Plaza",
+    "address": "4646 Mill Creek Parkway, Kansas City, MO",
+    "visitDate": null,
+    "oneExperiencePerMetro": true,
+    "otherLocationVisitNotEstablished": true,
+    "sourceQuote": "I believe I went to Rye on the plaza. I recall I don’t want to distinguish between locations within the same metro area. Just count it and move forward."
+  },
+  "priorAnswer": {
+    "venue": "Waldo Thai",
+    "address": "8431 Wornall Road, Kansas City, MO",
+    "visitStatus": "not_visited",
+    "historicalInterest": true,
+    "privateFutureVisitWishlist": false,
+    "sourceQuote": "I never visited Waldo Thai at 8431 Wornall Road, but wish I had."
+  },
+  "recognition": {
+    "recipient": "Megan Garrelts",
+    "award": "James Beard Outstanding Pastry Chef",
+    "year": 2019,
+    "result": "semifinalist",
+    "originalRecognitionVenue": "Rye Leawood",
+    "evidenceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "attributionNote": "For metro-level Rye counting only, not award claimed at Plaza or visit claimed at Leawood."
+  },
+  "nextInterview": {
+    "venue": "Room 39",
+    "address": "1719 W 39th Street, Kansas City, MO",
+    "priorStatus": "maybe",
+    "recognition": "Ted Habiger Best Chef Midwest James Beard semifinalist 2008, 2012, 2014",
+    "photographs": [
+      "https://www.rm39.com/rm39-home",
+      "https://www.thepitchkc.com/room-39-remodels-its-original-dining-room-and-ownership/"
+    ],
+    "buttons": [
+      "Yes — I visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "Add it to the list — want to go"
+    ]
+  },
+  "publication": {
+    "status": "private",
+    "approval": "pending"
+  }
+}
