@@ -1430,6 +1430,18 @@
       "location": null,
       "sourceId": "ministry-of-brewing-baltimore-original",
       "venueScope": "Brewery and taproom housed in the former St. Michael the Archangel church at 1900 E Lombard Street; not the prior church operation"
+    },
+    {
+      "id": "venue-rye-street-tavern-sagamore-baltimore",
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "neighborhood": "Port Covington / Baltimore Peninsula",
+      "address": "225 E Cromwell Street, Baltimore, MD 21230",
+      "location": null,
+      "sourceId": "rye-street-tavern-sagamore",
+      "venueScope": "One named restaurant on Sagamore campus; original NoHo era and post-July 2024 Clyde's relaunch differentiated"
     }
   ],
   "records": [
@@ -8489,7 +8501,7 @@
         "possibleYears": [],
         "label": "Confirmed Baltimore visit · date unknown",
         "precision": "unknown",
-        "source": "Direct user response November 3, 2026: \"I have been to all three of those Baltimore places.\" In context, the three are Salt: A New American Tavern (already dated 2018-03-16), Water for Chocolate, and Ministry of Brewing. Only the latter two had previously unreviewed attendance.",
+        "source": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
         "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "confirmed_visit_exact_date_unknown",
         "companions": null,
@@ -8548,7 +8560,7 @@
         "possibleYears": [],
         "label": "Confirmed Baltimore visit · date unknown",
         "precision": "unknown",
-        "source": "Direct user response November 3, 2026: \"I have been to all three of those Baltimore places.\" In context, the three are Salt: A New American Tavern (already dated 2018-03-16), Water for Chocolate, and Ministry of Brewing. Only the latter two had previously unreviewed attendance.",
+        "source": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
         "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "confirmed_visit_exact_date_unknown",
         "companions": null,
@@ -8607,6 +8619,88 @@
         "reviewedOn": "2026-11-03",
         "confidence": "direct_user_attendance_confirmed_and_primary_esquire_selection_date_unknown",
         "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "type": "dining",
+      "title": "Rye Street Tavern (Sagamore Spirit campus)",
+      "venueId": "venue-rye-street-tavern-sagamore-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "precision": "unknown",
+        "label": "Confirmed Sagamore Spirit campus restaurant visit · date unknown",
+        "source": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_named_venue_exact_visit_date_unknown",
+        "companions": null,
+        "itemsOrdered": null,
+        "operatingEra": "unverified",
+        "possibleOriginalEra": "2017–December 2020",
+        "possibleReopenedEra": "July 15, 2024 onward"
+      },
+      "summary": "Confirmed visit to Rye Street Tavern next to Sagamore Spirit in Baltimore, exact year, companions and restaurant operating era not established. Original 2017 NoHo/Andrew Carmellini restaurant closed its public dining operation by December 2020; the venue reopened with new operator and design in July 2024.",
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "historicalVisitDistinction": "not_established",
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard venue award verified. Do not transfer Andrew Carmellini's previous chef awards elsewhere to Rye Street Tavern."
+      },
+      "sourceUrl": "https://www.ryestreettavern.com/about/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "collection": "archived_personal_memory",
+        "basis": null,
+        "note": "Confirmed direct user attendance, date and operating era unknown. Private restaurant award watchlist, not an approved visitor story."
+      },
+      "curation": {
+        "status": "outside_scope",
+        "basis": "none_verified_for_named_venue",
+        "reason": "User-confirmed dining venue, but no formal Michelin/JBF recognition for Rye Street Tavern established. Distinguish original 2017–2020 operation from 2024 reopening. Do not infer date or operator.",
+        "evidenceUrls": [
+          "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening",
+          "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
+          "https://www.ryestreettavern.com/about/"
+        ],
+        "reviewedOn": "2026-11-03",
+        "confidence": "direct_confirmation_exact_venue_date_unknown",
+        "verifiedForPublication": false
+      },
+      "memory": {
+        "headline": "Rye Street Tavern beside Sagamore Spirit",
+        "teaser": "A confirmed visit to the waterfront restaurant at the distillery.",
+        "story": "I visited Rye Street Tavern beside the Sagamore Spirit distillery in Baltimore. I haven't specified the date, what I ordered, whom I was with or which operating era I experienced.",
+        "period": "Baltimore · date and operating era unknown",
+        "source": "Direct user confirmation November 3, 2026"
+      },
+      "story": {
+        "headline": "Rye Street Tavern at Sagamore Spirit",
+        "paragraphs": [
+          "I visited the restaurant on the Sagamore Spirit distillery campus in Baltimore. The date, companions and meal details remain unknown.",
+          "Rye Street Tavern opened in 2017 under NoHo Hospitality and chef Andrew Carmellini, then paused public service during the pandemic. Clyde's Restaurant Group reopened the heavily redesigned restaurant in July 2024. I haven't specified which era I visited."
+        ],
+        "sourceUrls": [
+          {
+            "label": "Original 2017 Rye Street Tavern — Eater",
+            "url": "https://www.eater.com/2017/9/20/16301624/andrew-carmellini-rye-street-tavern-baltimore-opening"
+          },
+          {
+            "label": "2024 reopening — SouthBMore",
+            "url": "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/"
+          },
+          {
+            "label": "Current Rye Street Tavern",
+            "url": "https://www.ryestreettavern.com/about/"
+          }
+        ]
       }
     }
   ],
