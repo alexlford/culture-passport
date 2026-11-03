@@ -183,7 +183,7 @@ for cid in ["candidate-hilo-lehua-at-imiloa", "candidate-maui-tiffanys-wailuku",
     assert lead["photographicEvidence"] and all(
         photo["renderMode"] == "source_link_only" and photo["imageRights"] == "unverified"
         for photo in lead["photographicEvidence"])
-assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")["visitStatus"] == "maybe"
+assert next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-bluestem")["visitStatus"] == "not_visited"
 assert next(x for x in wishlist["entries"] if x["candidateId"] == "candidate-kc-novel-east-crossroads")["visitStatus"] == "not_visited"
 
 # Extra Virgin is explicitly NOT visited but is separately wanted; no awards transfer.
@@ -637,9 +637,9 @@ assert len(kc_reviewed) == 9
 assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "explicit_nonattendance" if c["name"] == "Waldo Thai" else "tentative_negative")
            for c in kc_reviewed if c["name"] not in {"Bluestem", "Rye (Leawood)"})
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
-assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
-assert bluestem["reviewedOn"] == "2026-10-28"
-assert "I'm not certain I visited" in bluestem["reviewSource"]
+assert bluestem["visitStatus"] == "not_visited" and bluestem["reviewCertainty"] == "explicit_nonattendance"
+assert bluestem["reviewedOn"] == "2026-11-03"
+assert "I never visited Bluestem" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
 if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
