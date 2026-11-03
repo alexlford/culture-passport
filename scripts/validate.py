@@ -1447,6 +1447,9 @@ assert la_marchande_review["approvedDigest"] is None
 incorporated_ids = ["dining-lidias-kansas-city-2015-2019","dining-rozzelle-court-kansas-city-date-unknown","bar-eagle-cambridge-visit-date-unknown","bar-anchor-cambridge-visit-date-unknown","bar-mill-pub-cambridge-visit-date-unknown","dining-millworks-cambridge-visit-date-unknown","dining-parkers-tavern-cambridge-date-unknown","bar-parkers-tavern-cambridge-date-unknown","dining-fitzbillies-trumpington-cambridge-date-unknown","bar-kingston-arms-cambridge-date-unknown"]
 from build_public_preview import visitor_dataset
 visitor_ids = {r["id"] for r in visitor_dataset()["records"]}
+# Every directly confirmed experience must be in the visitor dataset, even
+# without awards; only uncertain attendance and research stay private.
+assert {r["id"] for r in records if r["status"] == "confirmed"} <= visitor_ids
 assert set(incorporated_ids) <= visitor_ids
 for cid in incorporated_ids:
     rec = next(r for r in records if r["id"] == cid)
