@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-corvino-supper-club-tasting-room",
+    "venue": "Corvino Supper Club & Tasting Room",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonattendance",
+    "historicalInterest": true,
+    "wantsToVisit": false,
+    "wishlistStatus": "historical_interest_only_closed",
+    "closedOn": "2025-12-31",
+    "recognition": {
+      "recipient": "Michael Corvino",
+      "award": "Best Chef: Midwest",
+      "organization": "James Beard Foundation",
+      "years": [
+        2019,
+        2023
+      ],
+      "result": "semifinalist"
+    },
+    "sourceType": "direct_user_statement"
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-fox-pearl",
+    "venue": "Fox & Pearl",
+    "address": "2143 Summit Street, Kansas City, MO 64108",
+    "visitStatus": "not_visited",
+    "reviewCertainty": "tentative_negative",
+    "award": {
+      "year": 2020,
+      "result": "semifinalist",
+      "recipient": "Vaughn Good",
+      "organization": "James Beard Foundation"
+    },
+    "photos": [
+      "https://www.foxandpearlkc.com/about"
+    ],
+    "answerOptions": [
+      "visited",
+      "maybe",
+      "not_visited",
+      "future_wishlist"
+    ]
+  },
+  "publication": {
+    "status": "private",
+    "approval": "pending"
+  }
+}
