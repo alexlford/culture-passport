@@ -1690,29 +1690,79 @@
       "id": "baltimore-cafe-dear-leon",
       "area": "Baltimore",
       "name": "Café Dear Leon",
-      "recognition": "Opened August 2020; historic bakery visit candidate. No award claimed for the interview period.",
-      "recognitionYear": 2020,
-      "awardFamily": "context",
-      "interviewCue": "Tiny Canton pastry shop at O'Donnell Square; croissants and Japanese egg sandwiches, mainly takeout in 2020.",
-      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/open-shut-cafe-dear-leon-snow-cone-sisters-hungry-like-the-wolfe/",
+      "recognition": "Café Dear Leon, Baltimore, was named an Outstanding Bakery semifinalist in the 2026 James Beard Awards. Venue-level recognition, not a winner or finalist; the 2026 honor postdates opening and may postdate the user's 2020–2021 Baltimore period.",
+      "recognitionYear": 2026,
+      "awardFamily": "beard",
+      "interviewCue": "Canton original bakery at 2929 O'Donnell Street: bright small storefront, white subway-brick and wood interior, house-baked French/Korean-influenced pastries, croissants and Japanese egg sandwiches. Opened August 2020, so cannot have been visited earlier; 2026 James Beard Outstanding Bakery semifinalist is after your possible Baltimore period.",
+      "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
       "visitStatus": "unreviewed",
-      "researchStatus": "historical_candidate",
+      "researchStatus": "verified_official_2026_james_beard_outstanding_bakery_semifinalist",
       "addedOn": "2026-10-25",
       "screening": {
-        "status": "memory_only",
-        "basis": null,
-        "evidenceUrl": null,
-        "sourceTier": null,
-        "verifiedAt": "2026-10-25",
-        "note": "No qualifying Michelin or James Beard distinction established for this restaurant. It remains available as a memory lead."
+        "status": "award_qualified",
+        "basis": "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "note": "2026 Outstanding Bakery semifinalist is venue-level, not win or nominee finalist. Does not prove the user visited or the honor existed before an unknown visit date."
       },
       "eligibility": {
-        "status": "outside_scope",
-        "basis": "context",
-        "reason": "No Michelin Guide or James Beard honor established for the named venue.",
-        "screenedOn": "2026-10-25",
+        "status": "eligible_candidate",
+        "basis": "beard",
+        "reason": "James Beard Foundation 2026 Outstanding Bakery semifinalist, original Canton cafe at 2929 O'Donnell Street.",
+        "screenedOn": "2026-11-03",
         "verifiedForPublication": false
-      }
+      },
+      "priority": "next",
+      "addressHint": "2929 O'Donnell Street, Baltimore, MD 21224 (original Canton location)",
+      "venueType": "bakery_cafe",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "https://cafedearleon.com/",
+        "https://www.cantoncommunity.org/news-and-notes/2020/8/7/neighborhood-notes-august-2020",
+        "https://www.baltimoremagazine.com/section/fooddrink/open-shut-cafe-dear-leon-snow-cone-sisters-hungry-like-the-wolfe/"
+      ],
+      "officialVenueWebsite": "https://cafedearleon.com/",
+      "openedOn": "2020-08",
+      "operatingStatus": "operating",
+      "photographicEvidence": [
+        {
+          "id": "dear-leon-original-canton-2020-opening",
+          "label": "Café Dear Leon in 2020",
+          "caption": "Baltimore Magazine's original August 2020 opening report and early café imagery.",
+          "photoSubject": "Café Dear Leon Canton opening-era pastry shop",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/open-shut-cafe-dear-leon-snow-cone-sisters-hungry-like-the-wolfe/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2020,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Café Dear Leon's original Canton bakery"
+        },
+        {
+          "id": "dear-leon-pastries-jhu",
+          "label": "Café Dear Leon pastry counter",
+          "caption": "Johns Hopkins News-Letter photo of croissants and pastries at the Canton bakery.",
+          "photoSubject": "Café Dear Leon's baked goods",
+          "sourceUrl": "https://www.jhunewsletter.com/article/2025/02/made-in-baltimore-a-love-letter-in-layerscaf-dear-leons-pastries-delight-canton",
+          "sourceOrganization": "The Johns Hopkins News-Letter",
+          "sourceYear": 2025,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Array of croissants and French-Korean inspired pastries"
+        },
+        {
+          "id": "dear-leon-egg-sandwich-starchefs",
+          "label": "Café Dear Leon egg sandwich",
+          "caption": "StarChefs visual of Min Kim's popular Japanese-style egg salad sandwich.",
+          "photoSubject": "Café Dear Leon egg sandwich",
+          "sourceUrl": "https://www.starchefs.com/on-the-ground/min-kim",
+          "sourceOrganization": "StarChefs",
+          "sourceYear": null,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Japanese-style egg salad sandwich in a paper takeout carton"
+        }
+      ]
     },
     {
       "id": "baltimore-nihao",
@@ -9541,13 +9591,13 @@
       "venueType": "restaurant",
       "addressHint": "1841 E Lombard Street, Baltimore, MD 21231",
       "operatingStatus": "operating",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "awardFamily": "context",
       "recognition": "Chef-owned intimate dining room; as of November 3, 2026, no qualifying James Beard/Michelin/CAMRA award verified. No award claimed.",
       "recognitionYear": null,
       "addedOn": "2026-11-03",
-      "priority": "next",
+      "priority": "reviewed_confirmed",
       "researchStatus": "user_requested_baltimore_award_and_memory_audit",
       "sourceUrl": "https://www.waterforchocolate.com/",
       "sourceUrls": [
@@ -9584,7 +9634,15 @@
           "renderMode": "source_link_only",
           "altText": "Intimate dining room and street-facing window at Water for Chocolate in Baltimore"
         }
-      ]
+      ],
+      "attendanceCertainty": "direct_user_confirmation",
+      "reviewCertainty": "explicit_confirmed_visit",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "confirmedVisitId": "dining-water-for-chocolate-baltimore-date-unknown",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct user November 3, 2026: \"I have been to all three of those Baltimore places.\" Refers to Salt Tavern, Water for Chocolate, and Ministry of Brewing.",
+      "userNote": "Visited; exact date, meal/drinks, companions not established. This is not a future wishlist request. Private record and award-tier distinction preserved."
     },
     {
       "id": "candidate-baltimore-ministry-of-brewing-lombard",
@@ -9595,13 +9653,13 @@
       "addressHint": "1900 E Lombard Street, Baltimore, MD 21231",
       "openedOn": "2020-01",
       "operatingStatus": "operating",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "awardFamily": "esquire_best_bars",
       "recognition": "2021 Esquire Best Bars in America selection for Ministry of Brewing, separately categorized editorial bar recognition, not Michelin or James Beard.",
       "recognitionYear": 2021,
       "addedOn": "2026-11-03",
-      "priority": "queued_after_water_for_chocolate",
+      "priority": "reviewed_confirmed",
       "researchStatus": "user_requested_baltimore_award_and_memory_audit",
       "sourceUrl": "https://ministryofbrewing.com/",
       "sourceUrls": [
@@ -9639,7 +9697,15 @@
           "renderMode": "source_link_only",
           "altText": "Vaulted ceiling and columns in historic church brewery in Baltimore"
         }
-      ]
+      ],
+      "attendanceCertainty": "direct_user_confirmation",
+      "reviewCertainty": "explicit_confirmed_visit",
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "confirmedVisitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct user November 3, 2026: \"I have been to all three of those Baltimore places.\" Refers to Salt Tavern, Water for Chocolate, and Ministry of Brewing.",
+      "userNote": "Visited; exact date, meal/drinks, companions not established. This is not a future wishlist request. Private record and award-tier distinction preserved."
     }
   ],
   "source": {
@@ -10745,7 +10811,7 @@
       ]
     },
     "baltimore": {
-      "status": "active_historical_memory_audit_user_requested",
+      "status": "active_historical_gap_audit_three_directly_confirmed",
       "confirmedSaltTavern": {
         "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
         "visitId": "dining-salt-tavern-baltimore-2018-03-16",
@@ -10758,23 +10824,37 @@
         "awardsNotTransferred": true,
         "reviewedOn": "2026-11-03"
       },
-      "nextInterviewSelection": "Water for Chocolate at 1841 E Lombard St; after response ask Ministry of Brewing at 1900 E Lombard St. Both attendance states unreviewed. Salt already confirmed dated March 16, 2018; do not re-ask.",
+      "nextInterviewSelection": "Café Dear Leon original Canton bakery, 2929 O'Donnell St, opened August 2020, 2026 JBF Outstanding Bakery semifinalist; ask four answer options with actual shop/pastry photos. Salt, Water for Chocolate and Ministry of Brewing confirmed, do not re-ask.",
       "newUserRequestedLeads": [
         "Water for Chocolate",
         "Ministry of Brewing"
+      ],
+      "otherConfirmedVisits": [
+        {
+          "candidateId": "candidate-baltimore-water-for-chocolate-lombard",
+          "visitId": "dining-water-for-chocolate-baltimore-date-unknown",
+          "visitDate": null,
+          "awardStatus": "no_core_award_verified_private_watchlist"
+        },
+        {
+          "candidateId": "candidate-baltimore-ministry-of-brewing-lombard",
+          "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+          "visitDate": null,
+          "awardStatus": "2021_esquire_best_bars_editorial_not_jbf_michelin"
+        }
       ]
     }
   },
   "interviewProgress": {
     "currentBatch": {
       "area": "Baltimore",
-      "category": "restaurants_and_bars",
+      "category": "bakery_cafe",
       "candidateNames": [
-        "Water for Chocolate"
+        "Café Dear Leon"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you eaten at Water for Chocolate at 1841 E Lombard Street, Baltimore? The chef-owned, small intimate restaurant is just down the street from Ministry of Brewing.",
-      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; Add to private future-visit wishlist (means not visited). Show photos. No qualifying JBF/Michelin award verified; do not count toward public awards without a separately documented exception. Ministry of Brewing is queued next with Esquire 2021 Best Bars in America recognition distinct from JBF/Michelin; Salt already confirmed and not to be re-asked."
+      "question": "Have you visited Café Dear Leon at its original 2929 O'Donnell Street Canton bakery, which opened in August 2020?",
+      "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; No, but want to go. Show historical storefront, pastry and egg-sandwich photographs. Venue named 2026 James Beard Outstanding Bakery semifinalist, not winner; recognition may postdate the actual visit. All three user-mentioned Baltimore venues (Salt, Water for Chocolate, Ministry of Brewing) already confirmed. Resume Kansas City historical after this Baltimore stretch."
     },
     "pausedBatches": [
       {
