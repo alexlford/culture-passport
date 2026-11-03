@@ -11,13 +11,13 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 59,
-    "distinctPublishedVenues": 56,
+    "canonExperienceRecords": 60,
+    "distinctPublishedVenues": 57,
     "recognized": 28,
     "featuredPersonal": 17,
     "officiallyFeatured": 6,
-    "unfeaturedOther": 6,
-    "additionalConfirmedArchiveOnly": 16,
+    "unfeaturedOther": 7,
+    "additionalConfirmedArchiveOnly": 17,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -1386,6 +1386,16 @@
       "period": "Visit confirmed, exact date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Directly confirmed Nov 3, 2026 visit to Sean Guy's 1841 E Lombard Street restaurant. No exact meal date, companions or dishes inferred. No verified Michelin or James Beard award in targeted research. Kept in permanent private restaurant award watchlist; not an automatic public experience or featured exception."
+    },
+    {
+      "name": "Rye Street Tavern (Sagamore Spirit campus)",
+      "city": "Baltimore",
+      "period": "Confirmed visit; date and operator era unknown",
+      "status": "confirmed_memory_no_eligible_michelin_james_beard_award_verified",
+      "note": "Directly confirmed user visit to the exact Rye Street Tavern at 225 E Cromwell St beside Sagamore Spirit. Do not conflate with Rye Plaza (Kansas City), Salt Tavern, or the distillery's tour itself. Original 2017–2020 NoHo venue and 2024 Clyde's relaunch are the same named location with distinct eras; date remains unknown.",
+      "experienceId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "sourceUrl": "https://www.ryestreettavern.com/about/",
+      "publicationStatus": "private_pending_future_editorial_review"
     }
   ],
   "possiblyVisited": [
