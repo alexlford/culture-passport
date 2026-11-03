@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Chewology"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The Brewer\'s Art"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Chewology"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["The Brewer\'s Art"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -395,11 +395,40 @@ assert historical_bluestem["operatingStatus"] == "permanently_closed"
 assert not any(w["candidateId"] == historical_bluestem["id"] for w in wishlist["entries"])
 # Chewology is a separate restaurant at the former Bluestem premises.
 chewology = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-chewology")
-assert chewology["visitStatus"] == "unreviewed"
+assert chewology["visitStatus"] == "not_visited" and chewology["wantsToVisit"] is True
 assert chewology["addressHint"].startswith("900 Westport Road")
 assert chewology["screening"]["status"] == "award_qualified"
 assert "Katie Liu-Sung" in chewology["recognition"]
 assert all(x["imageRights"] == "unverified" and x["renderMode"] == "source_link_only" for x in chewology["photographicEvidence"])
+# Confirm Chewology's new answer, one brand-level wishlist and BOTH chef-in-post honors.
+assert chewology["privateWishlistId"] == "want-to-visit-chewology-kansas-city-metro"
+chew_wishes = [w for w in wishlist["entries"] if w["candidateId"] == chewology["id"]]
+assert len(chew_wishes) == 1 and chew_wishes[0]["visitStatus"] == "not_visited"
+assert chew_wishes[0]["metroExperienceGroupId"] == "chewology-kansas-city-metro"
+assert {(r["year"], r["recipient"], r["result"]) for r in chewology["recognitions"]} == {
+    (2024, "Katie Liu-Sung", "semifinalist"), (2025, "Katie Liu-Sung", "semifinalist")}
+assert len(chew_wishes[0]["recognitions"]) == 2
+assert not any(r["title"] == "Chewology" for r in records)
+# The user's three Baltimore visit confirmations must be consistent across ledgers.
+for candidate_id, visit_id, venue_id, kind in [
+    ("candidate-baltimore-water-for-chocolate", "dining-water-for-chocolate-baltimore-date-unknown", "venue-water-for-chocolate-baltimore", "dining"),
+    ("candidate-baltimore-ministry-of-brewing", "bar-ministry-of-brewing-baltimore-date-unknown", "venue-ministry-of-brewing-baltimore", "bar"),
+    ("candidate-baltimore-rye-street-tavern-sagamore", "dining-rye-street-tavern-sagamore-baltimore-date-unknown", "venue-rye-street-tavern-sagamore-baltimore", "dining"),
+]:
+    cand = next(c for c in candidates if c["id"] == candidate_id)
+    experience = next(r for r in records if r["id"] == visit_id)
+    assert cand["visitStatus"] == experience["status"] == "confirmed"
+    assert cand["confirmedVisitId"] == visit_id and experience["venueId"] == venue_id
+    assert experience["type"] == kind and experience["visit"]["date"] is None
+    assert experience["curation"]["verifiedForPublication"] is False
+    assert not any(w["candidateId"] == candidate_id for w in wishlist["entries"])
+rye_at_sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
+assert rye_at_sagamore["visitEra"].startswith("unconfirmed")
+ministry_visit = next(r for r in records if r["id"] == "bar-ministry-of-brewing-baltimore-date-unknown")
+assert ministry_visit["editorial"]["awardQualified"] is False
+assert ministry_visit["editorialRecognitions"][0]["organization"] == "Esquire"
+assert ministry_visit["editorialRecognitions"][0]["year"] == 2021
+assert next(c for c in candidates if c["id"] == "candidate-baltimore-brewers-art-mount-vernon")["visitStatus"] == "unreviewed"
 # Baltimore Salt is a confirmed, dated user-selected historical restaurant visit, not a JBF award claim.
 salt_baltimore = next(c for c in candidates if c["id"] == "candidate-baltimore-salt-tavern-pratt-street")
 assert salt_baltimore["visitStatus"] == "confirmed"
