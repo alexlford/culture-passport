@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-bluestem",
+    "venue": "Bluestem",
+    "address": "900 Westport Road, Kansas City, MO 64111",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonattendance",
+    "historicalInterest": true,
+    "wantsToVisit": false,
+    "wishlistStatus": "historical_interest_only_closed",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City: I never visited Bluestem at 900 Westport Road, but wish I had. Record nonattendance and private historical interest only because Bluestem is permanently closed; not a future-visit wishlist entry. Continue the next eligible venue with photographs and four buttons.",
+    "previousStatus": "maybe - familiarity only (2026-10-28) superseded"
+  },
+  "awardGuardrail": {
+    "organization": "James Beard Foundation",
+    "year": 2013,
+    "category": "Best Chef: Midwest",
+    "recipient": "Colby Garrelts at Bluestem",
+    "result": "winner",
+    "sourceUrl": "https://archive.jamesbeard.org/blog/winner-recap-2",
+    "notAtRye": true
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-chewology",
+    "venue": "Chewology",
+    "address": "900 Westport Road, Kansas City, MO 64111",
+    "visitStatus": "unreviewed",
+    "operatingStatus": "operating",
+    "sameAddressDistinctVenue": "Bluestem closed Dec 2020; Chewology opened at this address in Sep 2021",
+    "recognitions": [
+      {
+        "organization": "James Beard Foundation",
+        "year": 2024,
+        "category": "Best Chef: Midwest",
+        "recipient": "Katie Liu-Sung",
+        "result": "semifinalist",
+        "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+      },
+      {
+        "organization": "James Beard Foundation",
+        "year": 2025,
+        "category": "Best Chef: Midwest",
+        "recipient": "Katie Liu-Sung",
+        "result": "semifinalist",
+        "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+      }
+    ],
+    "historicPhotoUrls": [
+      "https://www.bizjournals.com/kansascity/news/2021/09/29/take-a-sneak-peek-tour-of-chewology.html",
+      "https://www.thepitchkc.com/dish-drink-kc-prepare-your-stomach-for-the-13th-annual-kc-restaurant-week/"
+    ],
+    "responseButtons": [
+      "Yes — visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "Add to list — want to go"
+    ]
+  },
+  "parallelBaltimoreRequest": {
+    "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
+    "venue": "Salt Tavern",
+    "address": "2127 East Pratt Street, Baltimore, MD",
+    "visitStatus": "unreviewed",
+    "requestedByUser": "Let's look at Salt in Baltimore too",
+    "closedRegularDining": "2018-08-11",
+    "recognitions": [
+      {
+        "organization": "Baltimore Magazine",
+        "year": 2006,
+        "category": "Best of Baltimore — Burger and Fries",
+        "result": "editorial category pick",
+        "recipient": "Salt Tavern foie gras burger and duck-fat fries",
+        "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/"
+      },
+      {
+        "organization": "Baltimore Sun",
+        "year": 2010,
+        "category": "Top 50 restaurants",
+        "result": "ranked #10",
+        "recipient": "Salt Tavern",
+        "sourceUrl": "https://www.pauladamsmith.com/misc/top_50_baltimore_restaurants_2010.html",
+        "sourceTier": "historical rank transcription"
+      }
+    ],
+    "formalJbfOrMichelinAwardVerified": false,
+    "photoSources": [
+      "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
+      "https://baltimorestyle.com/to_salt/"
+    ],
+    "attendanceNotInferred": true
+  },
+  "publication": {
+    "status": "private",
+    "approval": "pending",
+    "note": "No confirmed Salt or Bluestem visit, no future wishlist for either, no public story."
+  }
+}
