@@ -1196,7 +1196,9 @@ for venue in venues:
             "venue-john-browns-underground-lawrence": "Lawrence",
             "venue-1900-barker-original-lawrence": "Lawrence",
             "venue-salt-tavern-baltimore": "Baltimore",
-            "venue-salt-tavern-baltimore": "Baltimore",
+            "venue-water-for-chocolate-baltimore": "Baltimore",
+            "venue-ministry-of-brewing-baltimore": "Baltimore",
+            "venue-rye-street-tavern-sagamore-baltimore": "Baltimore",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
