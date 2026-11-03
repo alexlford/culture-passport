@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-03",
   "classification": "private_research",
   "purpose": "Permanent watchlist of user-confirmed restaurant visits without currently verified qualifying Michelin or James Beard recognition. Preserve here even if they later qualify; change status to promoted and append dated recognition evidence rather than deleting.",
   "scope": "Restaurants only. Cocktail bars such as J-Bar stay in the existing bar/research ledger and should be monitored separately if a bar watchlist is created.",
@@ -1456,7 +1456,7 @@
     {
       "id": "venue-rye-plaza-kansas-city",
       "venueId": "venue-rye-plaza-kansas-city",
-      "venueName": "Rye Plaza",
+      "venueName": "Rye (Kansas City metro)",
       "city": "Kansas City",
       "region": "Missouri",
       "experienceIds": [
@@ -1465,15 +1465,15 @@
       "visitPeriods": [
         "Confirmed Rye Plaza dining visit · exact date unknown"
       ],
-      "status": "monitoring",
-      "reviewStatus": "no_qualifying_award_verified",
-      "lastReviewedOn": "2026-10-31",
+      "status": "promoted",
+      "reviewStatus": "promoted_same_brand_metro_policy",
+      "lastReviewedOn": "2026-11-03",
       "featuredException": false,
       "evidenceRefs": [
         "data/records.json",
         "data/interview.json"
       ],
-      "sourceNotes": "Verified direct visit to Rye Plaza; award evidence for chef Colby Garrelts belongs to Bluestem and pastry recognition for Megan Garrelts at Rye is identified as Leawood. Keep branch separate and re-audit exact location.",
+      "sourceNotes": "Plaza meal confirmed and one Rye brand experience counted across the Kansas City metro by user instruction. JBF 2019 Megan Garrelts pastry semifinalist attribution is Rye Leawood; no separate Leawood visit or Plaza award implied.",
       "reviewHistory": [
         {
           "date": "2026-10-31",
@@ -1483,11 +1483,30 @@
             "https://www.ryekc.com/",
             "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
           ]
+        },
+        {
+          "date": "2026-11-03",
+          "result": "promoted_kc_metro_brand",
+          "note": "User requested one Rye metro count without splitting branches. Original chef award Leawood attribution retained.",
+          "evidenceUrls": [
+            "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+            "https://www.ryekc.com/"
+          ]
         }
       ],
-      "recognitionEvents": [],
+      "recognitionEvents": [
+        {
+          "year": 2019,
+          "category": "Outstanding Pastry Chef",
+          "recipient": "Megan Garrelts",
+          "organization": "James Beard Foundation",
+          "result": "semifinalist",
+          "originalVenue": "Rye Leawood",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+        }
+      ],
       "officialConnections": [],
-      "expandedReviewTier": "archived_pending_recognition",
+      "expandedReviewTier": "formal_michelin_jbf_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
     },
     {
