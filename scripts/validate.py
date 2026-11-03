@@ -463,9 +463,19 @@ assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
 assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
 # User requested a review of the Sagamore restaurant; never infer attendance.
 sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
-assert sagamore["visitStatus"] == "unreviewed"
+assert sagamore["visitStatus"] == "confirmed" and sagamore["wantsToVisit"] is False
+assert sagamore["confirmedVisitId"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+assert sagamore["visitDate"] is None and sagamore["operatingEraVisited"] == "unknown_original_or_relaunched"
 assert sagamore["eligibility"]["status"] == "cultural_historical_candidate_if_visited"
-assert not any(r["title"].startswith("Rye Street Tavern") for r in records)
+rye_visit = next(r for r in records if r["id"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown")
+assert rye_visit["status"] == "confirmed" and rye_visit["type"] == "dining"
+assert rye_visit["venueId"] == "venue-rye-street-tavern-sagamore-baltimore"
+assert rye_visit["visit"]["date"] is None and rye_visit["visit"]["operatingEra"] == "unknown_original_or_relaunched"
+assert rye_visit["curation"]["verifiedForPublication"] is False
+assert rye_visit["editorial"]["awardQualified"] is False and rye_visit["editorial"]["culturalSpotlight"] is True
+assert any(x["id"] == rye_visit["id"] and x["status"] == "pending" and x["approvedDigest"] is None
+           for x in json.loads((ROOT / "data/publication-review.json").read_text())["reviewedRecords"])
+assert not any(w["candidateId"] == sagamore["id"] for w in wishlist["entries"])
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
@@ -1235,6 +1245,7 @@ for venue in venues:
             "venue-john-browns-underground-lawrence": "Lawrence",
             "venue-1900-barker-original-lawrence": "Lawrence",
             "venue-salt-tavern-baltimore": "Baltimore",
+            "venue-rye-street-tavern-sagamore-baltimore": "Baltimore",
             "venue-water-for-chocolate-baltimore": "Baltimore",
             "venue-ministry-of-brewing-baltimore": "Baltimore",
         }
