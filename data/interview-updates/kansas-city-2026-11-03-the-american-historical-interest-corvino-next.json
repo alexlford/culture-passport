@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-the-american-restaurant",
+    "venue": "The American Restaurant",
+    "address": "200 E 25th Street, Suite 400, Crown Center, Kansas City, MO 64108",
+    "historicalRegularDiningPeriod": "1974–2016",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonattendance",
+    "historicalInterest": true,
+    "historicalInterestNote": "Wishes they had experienced original fine-dining era before regular public dining ended 2016.",
+    "wantsToVisit": false,
+    "actionableFutureRegularDiningWishlist": false,
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City-region interview: I never visited The American Restaurant at Crown Center, but wish I had experienced its original fine-dining era. Record explicit nonattendance and private historical interest, not a future regular-dining wishlist entry because public restaurant service ended in 2016. Preserve the 2018 James Beard Design Icon win and continue with the next eligible historical venue, photos and four buttons."
+  },
+  "recognitionGuardrails": {
+    "organization": "James Beard Foundation",
+    "year": 2018,
+    "category": "Design Icon",
+    "result": "winner",
+    "recipient": "The American Restaurant, Crown Center",
+    "venueLevel": true,
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+    "historicalAwardAfterRegularDiningEnded": true
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-corvino-supper-club-tasting-room",
+    "venue": "Corvino Supper Club & Tasting Room",
+    "address": "1830 Walnut Street, Kansas City, MO 64108",
+    "historicalOperatingPeriod": "2017–December 31, 2025",
+    "operatingStatus": "permanently_closed",
+    "visitStatus": "not_visited",
+    "reviewCertainty": "tentative_negative",
+    "priorAnswerContext": "October 25 group answer was tentative, not a direct venue-specific nonattendance. Review again with original interior photos.",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "category": "Best Chef: Midwest",
+      "recipient": "Michael Corvino at Corvino Supper Club & Tasting Room",
+      "years": [
+        2019,
+        2023
+      ],
+      "result": "semifinalist",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+      ]
+    },
+    "photographicEvidence": [
+      {
+        "year": 2017,
+        "sourceUrl": "https://www.eater.com/2017/3/29/15107814/corvino-supper-club-tasting-room-opening-food-photos"
+      },
+      {
+        "year": 2017,
+        "sourceUrl": "https://archinect.com/hufft/project/corvino-supper-club-tasting-room"
+      }
+    ],
+    "closureEvidenceUrl": "https://www.kansascity.com/news/business/openings-closings/article312965583.html",
+    "responseButtons": [
+      "Yes — visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "No — wish I had"
+    ],
+    "wishlistConstraint": "Now closed; historical interest only, not a future-visit wishlist"
+  },
+  "publication": {
+    "status": "private",
+    "storyApproval": "pending",
+    "note": "No visit record for The American. The current private/event use at Crown Center is distinct from its original full-service dining."
+  }
+}
