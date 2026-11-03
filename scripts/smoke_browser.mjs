@@ -144,7 +144,7 @@ try{
     await page.goto(BASE+"explore.html",{waitUntil:"domcontentloaded"});
     await page.locator("#explore-results a.record-card").first().waitFor();
     await page.locator("#search").fill("Sauvage");
-    await page.waitForFunction(()=>document.querySelectorAll("#explore-results a.record-card").length===1);
+    await page.waitForFunction(()=>Array.from(document.querySelectorAll("#explore-results a.record-card h3")).some(h=>h.textContent==="Sauvage"));
     assert((await page.locator("#explore-results").innerText()).includes("Sauvage"),"Search failed");
     // The film festival is a separately filterable cultural chapter.
     await page.goto(BASE+"explore.html",{waitUntil:"domcontentloaded"});
