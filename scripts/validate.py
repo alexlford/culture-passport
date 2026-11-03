@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Trillium Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Samuel Adams Boston Brewery"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Trillium Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Samuel Adams Boston Brewery"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -481,7 +481,7 @@ assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
 assert cafe_leon["addressHint"].startswith("2929 O'Donnell Street")
 assert len(cafe_leon["photographicEvidence"]) >= 2
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Trillium Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Samuel Adams Boston Brewery"]
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
 assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
@@ -1567,12 +1567,13 @@ assert any(item["id"] == tonchin_record["id"] and item["status"] == "pending" an
 brewery = json.loads((ROOT / "data/brewery-interview.json").read_text(encoding="utf-8"))
 assert brewery["classification"] == "private_research" and brewery["schemaVersion"] == 1
 brand_visits = brewery["confirmedBrandVisits"]
-assert len(brand_visits) == 7
-assert len({x["id"] for x in brand_visits}) == 7
+assert len(brand_visits) == 8
+assert len({x["id"] for x in brand_visits}) == 8
 assert {x["name"] for x in brand_visits} == {
     "Maui Brewing Co.", "Cerebral Brewing", "Outer Range Brewing Co.",
     "New Terrain Brewing Co.", "New Belgium Brewing",
-    "Left Hand Brewing Company", "Avery Brewing Co."
+    "Left Hand Brewing Company", "Avery Brewing Co.",
+    "Trillium Brewing Company"
 }
 assert all(x["status"] == "confirmed_brewery_brand_visit" and x["locationStatus"] == "site_unconfirmed"
            and x["siteVisited"] is None and x["visitDate"] is None and x["visitPeriod"] is None
@@ -1587,12 +1588,19 @@ assert {(x["organization"],x["year"],x["product"],x["result"])
 # Boston brewery city/metro is its own active interview chapter, not assumed attendance.
 chapter = interview_data["interviewChapters"]["bostonBreweries"]
 assert chapter["status"] == "active_one_venue_at_a_time"
-assert chapter["confirmedBostonBreweryVisitCount"] == 0
+assert chapter["confirmedBostonBreweryVisitCount"] == 1
 assert len(chapter["orderedCandidateIds"]) == 8
-assert chapter["nextCandidateId"] == "candidate-boston-brewery-trillium-boston-metro"
+assert chapter["nextCandidateId"] == "candidate-boston-brewery-samuel-adams-jamaica-plain"
 assert all(next(c for c in candidates if c["id"] == cid)["visitStatus"] == "unreviewed"
-           for cid in chapter["orderedCandidateIds"])
-trillium = next(c for c in candidates if c["id"] == chapter["nextCandidateId"])
+           for cid in chapter["orderedCandidateIds"][1:])
+trillium = next(c for c in candidates if c["id"] == "candidate-boston-brewery-trillium-boston-metro")
+assert trillium["visitStatus"] == "confirmed" and trillium["siteVisited"] is None and trillium["visitDate"] is None
+assert trillium["confirmedBrandVisitId"] == "brewery-brand-trillium-boston-metro"
+brand_trillium = next(b for b in brand_visits if b["id"] == trillium["confirmedBrandVisitId"])
+assert brand_trillium["metroArea"] == "Boston, Massachusetts"
+assert brand_trillium["source"]["type"] == "direct_user_confirmation"
+assert all(h["classification"] == "local_editorial_recommendation_not_judged_brewing_medal"
+           for h in brand_trillium["recognitionContext"])
 assert trillium["area"] == "Boston" and trillium["name"] == "Trillium Brewing Company"
 assert "50 Thomson Place" in trillium["addressHint"] and "369 Congress Street" in trillium["addressHint"]
 assert len(trillium["photographicEvidence"]) >= 2
@@ -1600,7 +1608,7 @@ assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_
            and p["sourceUrl"].startswith("https://") for p in trillium["photographicEvidence"])
 assert not any(x["candidateId"] in chapter["orderedCandidateIds"] for x in wishlist["entries"])
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Trillium Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Samuel Adams Boston Brewery"]
 assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon"]
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
            for x in interview_data["interviewProgress"]["pausedBatches"])
