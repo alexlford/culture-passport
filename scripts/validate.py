@@ -984,6 +984,8 @@ assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngel
 # Venue-level audit: do not inflate stats with repeat visits or unverified awards.
 aud = json.loads((ROOT / "data/dining-awards-audit.json").read_text(encoding="utf-8"))
 archive_only_names = {x["name"] for x in aud["confirmedArchiveOnly"]}
+# Editorially recognized bars awaiting tier review are separate from restaurant-only archive counts.
+archive_only_names |= {x["name"] for x in aud.get("confirmedBarsEditorial", [])}
 published_experiences = [r for r in records if r["type"] in {"dining", "bar"} and r["status"] == "confirmed" and r["title"] not in archive_only_names]
 assert aud["summary"] == {
     "canonExperienceRecords": len(published_experiences),
