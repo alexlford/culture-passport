@@ -3676,7 +3676,7 @@
       "visitStatus": "maybe",
       "researchStatus": "award_screened",
       "addedOn": "2026-10-25",
-      "priority": "high",
+      "priority": "next",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "james_beard",
@@ -3685,7 +3685,7 @@
         "verifiedForPublication": false
       },
       "reviewedOn": "2026-10-28",
-      "reviewSource": "Direct answers: 'Maybe — looks familiar'; location follow-up: 'Original West 39th Street'.",
+      "reviewSource": "October 28, 2026 user said original Room 39 West 39th Street looked familiar but was uncertain. Re-ask at metro-brand level, not branch-specific.",
       "visitNote": "Possible visit at original West 39th Street location; user says that location looks familiar. Attendance remains maybe, not confirmed. Date, meal and companions unresolved.",
       "possibleVisitLocation": {
         "address": "1719 West 39th Street",
@@ -3693,7 +3693,40 @@
         "region": "Missouri",
         "country": "USA",
         "certainty": "familiarity_only"
-      }
+      },
+      "reviewCertainty": "explicit_uncertain",
+      "addressHint": "1719 W 39th Street, Kansas City, MO 64111 (original)",
+      "screening": {
+        "status": "award_qualified",
+        "basis": "james_beard_best_chef_midwest_chef_in_post",
+        "evidenceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "Ted Habiger Room 39 2008, 2012, 2014 Best Chef Midwest semifinalist; original venue has direct 2014 JBF attribution."
+      },
+      "photographicEvidence": [
+        {
+          "id": "room39-original-venue-exterior",
+          "label": "Room 39 original 39th Street exterior",
+          "sourceUrl": "https://www.rm39.com/rm39-home",
+          "photoSubject": "Original W 39th Street brick restaurant exterior and black Room 39 awning",
+          "sourceOrganization": "Room 39 official website",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Room 39 black awning on its red-brick West 39th Street storefront"
+        },
+        {
+          "id": "room39-original-2015-interior",
+          "label": "Historic Room 39 original dining room",
+          "sourceUrl": "https://www.thepitchkc.com/room-39-remodels-its-original-dining-room-and-ownership/",
+          "photoSubject": "Original Room 39 dining room reviewed in 2015 after renovation",
+          "sourceOrganization": "The Pitch",
+          "sourceYear": 2015,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Room 39 wood-floored dining room and bar, historic photo"
+        }
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-affare",
