@@ -657,6 +657,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-1900-barker-original-lawrence-date-unknown",
+      "title": "1900 Barker Bakery & Café",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }

@@ -11,9 +11,9 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 57,
-    "distinctPublishedVenues": 54,
-    "recognized": 26,
+    "canonExperienceRecords": 58,
+    "distinctPublishedVenues": 55,
+    "recognized": 27,
     "featuredPersonal": 16,
     "officiallyFeatured": 6,
     "unfeaturedOther": 7,
@@ -1221,6 +1221,30 @@
       ],
       "editorialNote": "Direct user confirmation November 3, 2026; no actual visit date, drink, or companions assumed. Private story review pending.",
       "visitConfidence": "direct_user_confirmed_specific_bar_date_unknown",
+      "publicationStatus": "private_confirmed_recognized_pending_editorial_approval"
+    },
+    {
+      "venueId": "venue-1900-barker-original-lawrence",
+      "name": "1900 Barker Bakery & Café",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "experienceIds": [
+        "dining-1900-barker-original-lawrence-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Confirmed original 1900 Barker Ave bakery visit; exact date and purchases unknown"
+      ],
+      "recognitionStatus": "qualifies",
+      "sourceUrls": [
+        "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+        "https://archive.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
+        "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+      ],
+      "recognitionSummary": [
+        "Taylor Petrehn at original 1900 Barker was a 2018, 2019, 2020 James Beard Outstanding Baker semifinalist (baker-in-post, not a winner or finalist, nor a bakery-level award)."
+      ],
+      "editorialNote": "Visit confirmed directly November 3, 2026; unknown date, purchases and companions. Not the newer Mass Street location. Private pending approval.",
+      "visitConfidence": "direct_user_confirmed_original_barker_avenue_date_unknown",
       "publicationStatus": "private_confirmed_recognized_pending_editorial_approval"
     }
   ],
