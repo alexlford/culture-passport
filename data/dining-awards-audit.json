@@ -1379,6 +1379,24 @@
       "period": "Restaurant visit after July 2024 opening, exact date unknown",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Alex directly confirmed eating at Two Twelve, 212 Elk Avenue, on 2026-10-27 interview. Chef Anthony Nelson's live-fire cooking has positive independent Axios/5280/Mountain Town Magazine coverage, with aspirations for a James Beard nomination, NOT actual Foundation nomination or Michelin Guide recognition. Keep owner ties to Bonez and Secret Stash as restaurant history, without treating those venues as confirmed visits."
+    },
+    {
+      "name": "Water for Chocolate",
+      "city": "Baltimore",
+      "period": "Visit confirmed, exact date unknown",
+      "status": "confirmed_memory_no_eligible_award_verified",
+      "note": "Directly confirmed Nov 3, 2026 visit to Sean Guy's 1841 E Lombard Street restaurant. No exact meal date, companions or dishes inferred. No verified Michelin or James Beard award in targeted research. Kept in permanent private restaurant award watchlist; not an automatic public experience or featured exception."
+    },
+    {
+      "name": "Ministry of Brewing",
+      "city": "Baltimore",
+      "period": "Taproom visit confirmed, exact date unknown",
+      "status": "confirmed_bar_separate_national_editorial_recognition",
+      "note": "Directly confirmed Nov 3, 2026 visit to 1900 E Lombard Street brewery. Selected for Esquire 2021 Best Bars in America, exact venue; editorial accolade only, not Michelin, James Beard, or CAMRA. Private editorial tier review pending and no assumption that selection preceded visit.",
+      "sourceUrls": [
+        "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
+        "https://www.thebanner.com/culture/food-drink/best-bars-baltimore-esquire-church-ash-bar-blooms-ZSVXWKOBCJAQZGFGQEDWRJGH7Q/"
+      ]
     }
   ],
   "possiblyVisited": [
