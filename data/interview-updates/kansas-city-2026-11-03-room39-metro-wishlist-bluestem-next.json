@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kansas-city-metro-room-39",
+    "venue": "Room 39",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+    "wantsToVisit": true,
+    "wishlistEntryId": "want-to-visit-room-39-kansas-city-metro",
+    "brandLevelOnly": true,
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City: I have not visited Room 39 but want to go. Add one Kansas City metro brand-level entry to my private future-visit wishlist, preserve nonattendance, and continue with photographs and four buttons.",
+    "supersedes": "2026-10-28 maybe visited original 39th Street"
+  },
+  "recognition": {
+    "organization": "James Beard Foundation",
+    "recipient": "Ted Habiger",
+    "category": "Best Chef: Midwest",
+    "years": [
+      2008,
+      2012,
+      2014
+    ],
+    "result": "semifinalist",
+    "relationship": "Named chef at Room 39; no James Beard restaurant award or winner",
+    "sourceUrls": [
+      "https://www.jamesbeard.org/sites/default/files/pressreleases/2008_semifinalists.pdf",
+      "https://archive.jamesbeard.org/blog/awards-watch-2012-restaurant-and-chef-awards-semifinalists",
+      "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists"
+    ]
+  },
+  "locationVerification": {
+    "venueIdentity": "One Room 39 brand across Kansas City metro",
+    "originalStreet": "West 39th Street",
+    "officialPagesDisagreeOnHouseNumber": [
+      "1717 W 39th Street",
+      "1719 W 39th Street"
+    ],
+    "sourceUrls": [
+      "https://www.rm39.com/",
+      "https://www.rm39.com/rm39-home"
+    ],
+    "note": "Address discrepancy should not generate two restaurant identities"
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-bluestem",
+    "venue": "Bluestem",
+    "address": "900 Westport Road, Kansas City, MO 64111",
+    "operatingStatus": "permanently_closed",
+    "closedOn": "2020-12-19",
+    "previousReviewStatus": "maybe",
+    "recognition": {
+      "recipient": "Colby Garrelts at Bluestem",
+      "organization": "James Beard Foundation",
+      "year": 2013,
+      "category": "Best Chef: Midwest",
+      "result": "winner",
+      "sourceUrl": "https://archive.jamesbeard.org/blog/winner-recap-2"
+    },
+    "historicalPhotoUrls": [
+      "https://www.eater.com/2014/6/4/6214853/inside-bluestem-kansas-citys-10-year-old-restaurant-gets-a-major",
+      "https://onthegrid.city/kansas-city/westport/bluestem"
+    ],
+    "answerButtons": [
+      "Yes — visited",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "No — wish I had"
+    ],
+    "wishlistConstraint": "Closed, so no actionable future-dining wish."
+  },
+  "publication": {
+    "status": "private",
+    "approval": "pending",
+    "note": "No attendance at Room 39 or Bluestem inferred; private wishlist is not a confirmed visited story."
+  }
+}

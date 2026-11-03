@@ -1615,6 +1615,64 @@
         }
       ],
       "notes": "Explicit nonattendance for The Town Company restaurant only, separate from Hotel Kansas City's Nighthawk and Classic lobby bar. Earlier October 25 group-level tentative negative superseded. No meal, visit date, companions or reservation inferred; remain private until separately approved."
+    },
+    {
+      "id": "want-to-visit-room-39-kansas-city-metro",
+      "candidateId": "candidate-kansas-city-metro-room-39",
+      "name": "Room 39 — Kansas City metro",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-03",
+      "metroExperienceGroupId": "room-39-kansas-city-metro",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA",
+        "neighborhood": "West 39th Street",
+        "address": "West 39th Street",
+        "addressNote": "Current official restaurant pages inconsistently list 1717 and 1719 W 39th Street; reconfirm before travel",
+        "postalCode": "64111"
+      },
+      "website": "https://www.rm39.com/",
+      "userNote": "I have not visited Room 39 but want to go; count one Kansas City metro brand-level entry.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-03",
+        "quote": "Culture Passport Kansas City: I have not visited Room 39 but want to go. Add one Kansas City metro brand-level entry to my private future-visit wishlist, preserve nonattendance, and continue with photographs and four buttons."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2008,
+          "category": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Ted Habiger",
+          "relationship": "Chef in post at Room 39; individual recognition, not restaurant win",
+          "sourceUrl": "https://www.jamesbeard.org/sites/default/files/pressreleases/2008_semifinalists.pdf"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2012,
+          "category": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Ted Habiger",
+          "relationship": "Chef in post at Room 39; individual recognition, not restaurant win",
+          "sourceUrl": "https://archive.jamesbeard.org/blog/awards-watch-2012-restaurant-and-chef-awards-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2014,
+          "category": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Ted Habiger",
+          "relationship": "Chef in post at Room 39; individual recognition, not restaurant win",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists"
+        }
+      ],
+      "notes": "One restaurant brand across KC metro, not individual branch wishes. Directly not visited, replacing prior tentative maybe. Do not infer meal, reservation or date. Address number discrepancy in official pages retained as verification note. Private wishlist only."
     }
   ],
   "interviewConvention": {

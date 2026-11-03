@@ -2856,22 +2856,22 @@
       "id": "candidate-kansas-city-metro-bluestem",
       "area": "Kansas City Metro",
       "name": "Bluestem",
-      "recognition": "Chef Colby Garrelts won 2013 James Beard Best Chef: Midwest; Bluestem was his prior restaurant",
+      "recognition": "Colby Garrelts at Bluestem won the 2013 James Beard Best Chef: Midwest award; this award belongs to Bluestem, not to Rye Plaza or Rye Leawood.",
       "recognitionYear": 2013,
       "awardFamily": "beard",
       "interviewCue": "Former acclaimed Westside tasting-menu restaurant by Colby and Megan Garrelts; closed in 2020.",
-      "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+      "sourceUrl": "https://archive.jamesbeard.org/blog/winner-recap-2",
       "visitStatus": "maybe",
       "researchStatus": "historical_candidate",
       "addedOn": "2026-10-25",
-      "priority": "standard",
+      "priority": "next",
       "screening": {
         "status": "award_qualified",
-        "basis": "james_beard",
-        "evidenceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
-        "sourceTier": "secondary",
-        "verifiedAt": "2026-10-25",
-        "note": "Direct venue Michelin listing or a James Beard restaurant/chef-in-post recognition. Year and award level are kept in the recognition text; some awards postdate a possible meal."
+        "basis": "james_beard_2013_best_chef_midwest_winner_at_bluestem",
+        "evidenceUrl": "https://archive.jamesbeard.org/blog/winner-recap-2",
+        "sourceTier": "official_jbf",
+        "verifiedAt": "2026-11-03",
+        "note": "2013 official JBF winner Colby Garrelts of Bluestem at exact 900 Westport Road restaurant. Distinct named restaurant from same owners' Rye brand. Bluestem now closed."
       },
       "eligibility": {
         "status": "eligible_candidate",
@@ -2883,7 +2883,36 @@
       "reviewSource": "Direct user correction on October 28, 2026: 'Bluestem looks familiar, but I'm not certain I visited. Preserve the uncertainty and continue the Kansas City interview.' Supersedes the October 25 tentative group-level negative for Bluestem only.",
       "reviewedOn": "2026-10-28",
       "reviewCertainty": "explicit_uncertain",
-      "visitNote": "Possible past visit at Bluestem, 900 Westport Road, Kansas City. Familiarity only. No confirmed attendance, meal, companions, or visit date. Closed 2020; retain qualifying chef recognition independently of personal visit."
+      "visitNote": "Possible past visit at Bluestem, 900 Westport Road, Kansas City. Familiarity only. No confirmed attendance, meal, companions, or visit date. Closed 2020; retain qualifying chef recognition independently of personal visit.",
+      "operatingStatus": "permanently_closed",
+      "closedOn": "2020-12-19",
+      "addressHint": "900 Westport Road, Kansas City, MO 64111",
+      "reconfirmationRequestedOn": "2026-11-03",
+      "photographicEvidence": [
+        {
+          "id": "bluestem-2014-interior-eater",
+          "label": "Bluestem 2014 renovated dining room",
+          "caption": "Photographs of original restaurant after 2014 dining-room renovation.",
+          "photoSubject": "Bluestem fine-dining room in Westport in 2014",
+          "sourceUrl": "https://www.eater.com/2014/6/4/6214853/inside-bluestem-kansas-citys-10-year-old-restaurant-gets-a-major",
+          "sourceOrganization": "Eater",
+          "sourceYear": 2014,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Moody Bluestem restaurant interior with dark wood tables, gray banquettes, mirrors, and open kitchen"
+        },
+        {
+          "id": "bluestem-interior-onthegrid",
+          "label": "Historic Bluestem interior",
+          "caption": "Historic Westport restaurant dining-room photo showing exposed brick and sculpted ceiling.",
+          "photoSubject": "Bluestem original venue at 900 Westport Rd",
+          "sourceUrl": "https://onthegrid.city/kansas-city/westport/bluestem",
+          "sourceOrganization": "On the Grid",
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Original Bluestem dining room with brick wall, open kitchen and dark tables"
+        }
+      ]
     },
     {
       "id": "candidate-kansas-city-metro-rye-leawood",
@@ -3673,10 +3702,10 @@
       "awardFamily": "beard",
       "interviewCue": "Farm-driven American restaurant around West 39th Street, with casual lunch and refined dinner.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2014-restaurant-and-chef-award-semifinalists",
-      "visitStatus": "maybe",
+      "visitStatus": "not_visited",
       "researchStatus": "award_screened",
       "addedOn": "2026-10-25",
-      "priority": "next",
+      "priority": "reviewed",
       "eligibility": {
         "status": "eligible_candidate",
         "basis": "james_beard",
@@ -3684,9 +3713,9 @@
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
       },
-      "reviewedOn": "2026-10-28",
-      "reviewSource": "October 28, 2026 user said original Room 39 West 39th Street looked familiar but was uncertain. Re-ask at metro-brand level, not branch-specific.",
-      "visitNote": "Possible visit at original West 39th Street location; user says that location looks familiar. Attendance remains maybe, not confirmed. Date, meal and companions unresolved.",
+      "reviewedOn": "2026-11-03",
+      "reviewSource": "Direct statement 2026-11-03: Culture Passport Kansas City: I have not visited Room 39 but want to go. Add one Kansas City metro brand-level entry to my private future-visit wishlist, preserve nonattendance, and continue with photographs and four buttons. Prior 2026-10-28 'maybe' superseded.",
+      "visitNote": "Explicitly not visited any Room 39 Kansas City metro restaurant; wants one future visit. Original West 39th St familiarity does not establish historical attendance.",
       "possibleVisitLocation": {
         "address": "1719 West 39th Street",
         "city": "Kansas City",
@@ -3694,8 +3723,8 @@
         "country": "USA",
         "certainty": "familiarity_only"
       },
-      "reviewCertainty": "explicit_uncertain",
-      "addressHint": "1719 W 39th Street, Kansas City, MO 64111 (original)",
+      "reviewCertainty": "explicit_nonvisit_with_wishlist_intent",
+      "addressHint": "West 39th Street Kansas City MO; official site pages show both 1717 and 1719 W 39th Street (address requires reconfirmation before booking)",
       "screening": {
         "status": "award_qualified",
         "basis": "james_beard_best_chef_midwest_chef_in_post",
@@ -3726,7 +3755,14 @@
           "renderMode": "source_link_only",
           "altText": "Room 39 wood-floored dining room and bar, historic photo"
         }
-      ]
+      ],
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-room-39-kansas-city-metro",
+      "visitDate": null,
+      "metroExperienceGroupId": "room-39-kansas-city-metro",
+      "interviewExcludedDueToMetroGrouping": false,
+      "officialVenueWebsite": "https://www.rm39.com/",
+      "photoEvidenceNotes": "Official site has inconsistent street numbers (main/about 1717, rm39-home 1719). Do not invent a visit or treat two street numbers as two venues."
     },
     {
       "id": "candidate-kansas-city-metro-affare",
@@ -10163,7 +10199,7 @@
       ],
       "novelUpdate": "Not visited at original Westside nor current East Crossroads location. Future interest is current East Crossroads only. No location/award transfer; next interview is Michael Smith Restaurant historic Crossroads 2007–Jan 2019.",
       "michaelSmithRestaurant": "Explicitly not visited and not wishlisted. Historical closed original namesake restaurant only, not its later repurposing for Extra Virgin.",
-      "nextCandidate": "Room 39 — prior maybe at original 1719 West 39th Street; confirm KC-metro brand-level attendance with photos, not branch-specific. Ted Habiger James Beard Best Chef Midwest semifinalist 2008, 2012, 2014.",
+      "nextCandidate": "Bluestem (historical, closed December 19 2020), 900 Westport Road Kansas City. Original chef Colby Garrelts JBF 2013 Best Chef Midwest winner; prior MAYBE looks familiar; source-linked interior photos, four historically appropriate answer choices.",
       "ryePlaza": "Explicit confirmed Rye Plaza visit at 4646 Mill Creek Parkway; date unknown, not Rye Leawood. No location-specific JBF/Michelin recognition yet verified; retain in private award watchlist.",
       "extraVirgin": "Explicitly not visited; added to private future-visit wishlist at 1900 Main Street. Do not conflate the former Michael Smith Restaurant in the same building.",
       "farina": "User explicitly not visited but wants to go; original restaurant address 19 West 19th Street. DiRōNA Award of Excellence is a separate restaurant-specific recognition, NOT a James Beard Award.",
@@ -10176,7 +10212,8 @@
       "saltwellFarmKitchen": "Explicitly not visited, user future wishlist only; 214 N 800 Road Overbrook KS. Chef Rozz Petrozz 2024 and 2025 JBF Best Chef Midwest semifinalist in post; not win or restaurant award.",
       "townCompany": "Direct user 2026-11-03: explicitly never dined at The Town Company at 1228 Baltimore Avenue inside Hotel Kansas City; wants to visit exact operating restaurant. Private wishlist want-to-visit-the-town-company-hotel-kansas-city; Johnny Leach 2026 JBF Best Chef Midwest semifinalist and Helen Jo Leach 2026 JBF Outstanding Pastry Chef or Baker semifinalist, independently attributed and not wins. Supersedes October 25 tentative negative.",
       "waldoThai": "2026-11-03 direct explicit nonattendance at original Waldo Thai 8431 Wornall Road; user wishes they had visited before closure. Private historical interest only, not future dining wishlist. Pam Liberda 2023 JBF Best Chef Midwest semifinalist retained.",
-      "ryeMetro": "2026-11-03 direct reaffirmation of confirmed Rye Plaza visit; user instructs same-brand restaurants within a metro to count once. One Rye Kansas City metro dining experience, date unknown. Megan Garrelts JBF pastry semifinalist accolades historically attributed to Rye Leawood, only metro-brand association used for eligibility; no Leawood attendance or Plaza-specific chef award inferred."
+      "ryeMetro": "2026-11-03 direct reaffirmation of confirmed Rye Plaza visit; user instructs same-brand restaurants within a metro to count once. One Rye Kansas City metro dining experience, date unknown. Megan Garrelts JBF pastry semifinalist accolades historically attributed to Rye Leawood, only metro-brand association used for eligibility; no Leawood attendance or Plaza-specific chef award inferred.",
+      "room39": "2026-11-03: explicit nonattendance at Room 39 across Kansas City metro, wants to visit; one brand-level private wishlist want-to-visit-room-39-kansas-city-metro. Supersedes October 28 prior MAYBE. James Beard Ted Habiger 2008, 2012, 2014 Best Chef Midwest semifinalist remains individual chef-in-post honor. No personal visit."
     },
     "losAngeles": {
       "state": "active_research_parallel",
@@ -10451,11 +10488,11 @@
       "area": "Kansas City Metro",
       "category": "historical_restaurants",
       "candidateNames": [
-        "Room 39"
+        "Bluestem"
       ],
       "status": "awaiting_user_response",
-      "question": "You previously said the original Room 39 on West 39th Street looked familiar. Did you actually eat at Room 39 anywhere in the Kansas City metro?",
-      "continuation": "One brand-level question only, no location-specific duplicate count. Four choices: Yes visited; Maybe looks familiar; No never visited; Add to wishlist. Ted Habiger's 2008, 2012, 2014 JBF Best Chef: Midwest semifinalist recognitions; original West 39th location photo cues."
+      "question": "Bluestem at 900 Westport Road closed December 19, 2020. You previously thought it looked familiar; did you ever dine there?",
+      "continuation": "Four historical answer choices: Yes — visited; Maybe — looks familiar; No — never visited; No — wish I had (historical interest, not actionable wishlist). Distinct restaurant from Rye despite same chef-owners and KC metro; 2013 official JBF Best Chef Midwest winner Colby Garrelts at Bluestem. Include circa-2014 original room images."
     },
     "pausedBatches": [
       {
