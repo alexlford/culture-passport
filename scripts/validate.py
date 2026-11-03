@@ -445,11 +445,14 @@ for c, record in ((water, water_record), (ministry, ministry_record)):
     assert record["visit"]["date"] is None and record["visit"]["precision"] == "unknown"
     assert record["curation"]["verifiedForPublication"] is False
     assert not record["editorial"]["awardQualified"]
-    # These are archived private memories, not visitor-only stories awaiting approval.
-    assert not any(p["id"] == record["id"] for p in
-                   json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+    # Expanded editorial eligibility permits a private visitor preview, never public release.
+    assert record["editorial"]["culturalSpotlight"] is True
+    assert record["editorial"]["expandedRecognitionEligible"] is True
+    assert record["curation"]["status"] == "expanded_cultural_eligible_pending_story_review"
+    assert any(p["id"] == record["id"] and p["status"] == "pending" and p["approvedDigest"] is None
+               for p in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 assert water_record["type"] == "dining" and water_record["recognitions"] == []
-assert water_record["editorial"]["collection"] == "archived_personal_memory"
+assert water_record["editorial"]["collection"] == "locally_recognized_dining"
 assert any(w["venueId"] == water_record["venueId"] and w["status"] == "monitoring"
            for w in json.loads((ROOT / "data/restaurant-award-watchlist.json").read_text(encoding="utf-8"))["entries"])
 assert ministry_record["type"] == "bar"
@@ -458,6 +461,11 @@ assert len(ministry_record["editorialRecognitions"]) == 1
 assert ministry_record["editorialRecognitions"][0]["year"] == 2021
 assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
 assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
+# User requested a review of the Sagamore restaurant; never infer attendance.
+sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
+assert sagamore["visitStatus"] == "unreviewed"
+assert sagamore["eligibility"]["status"] == "cultural_historical_candidate_if_visited"
+assert not any(r["title"].startswith("Rye Street Tavern") for r in records)
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
