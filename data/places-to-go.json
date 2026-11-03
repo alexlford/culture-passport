@@ -1673,6 +1673,54 @@
         }
       ],
       "notes": "One restaurant brand across KC metro, not individual branch wishes. Directly not visited, replacing prior tentative maybe. Do not infer meal, reservation or date. Address number discrepancy in official pages retained as verification note. Private wishlist only."
+    },
+    {
+      "id": "want-to-visit-chewology-kansas-city-metro",
+      "candidateId": "candidate-kansas-city-metro-chewology",
+      "name": "Chewology — Kansas City metro",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-03",
+      "metroExperienceGroupId": "chewology-kansas-city-metro",
+      "location": {
+        "address": "900 Westport Road",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "postalCode": "64111",
+        "country": "USA",
+        "addressRole": "Current flagship location, not separate location-specific wishlist"
+      },
+      "website": "https://www.chewologykc.com/",
+      "userNote": "I have not visited Chewology but want to go. One Kansas City metro brand-level future-visit wish.",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-03",
+        "quote": "Culture Passport Kansas City: I have not visited Chewology but want to go. Add a single Kansas City metro brand-level private future-visit wishlist entry, preserve both James Beard semifinalist recognitions, and continue the interview with photos and four buttons."
+      },
+      "desiredVisitDate": null,
+      "operatingStatus": "operating",
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2024,
+          "category": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Katie Liu-Sung",
+          "relationship": "Chef at Chewology; individual chef-in-post honor, not restaurant award or win",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+        },
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "category": "Best Chef: Midwest",
+          "result": "semifinalist",
+          "recipient": "Katie Liu-Sung",
+          "relationship": "Chef at Chewology; separate individual chef-in-post honor, not restaurant award or win",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        }
+      ],
+      "notes": "One brand-level wish across Kansas City metro, no meal/date/companions/reservation inferred. Westport Chewology opened October 2021 in former Bluestem building; distinct business and awards from closed Bluestem. Private research only, not a published visit."
     }
   ],
   "interviewConvention": {
