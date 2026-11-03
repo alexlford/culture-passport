@@ -422,8 +422,8 @@ assert salt_baltimore["screening"]["status"] == "personal_featured_exception_loc
 assert salt_baltimore["wantsToVisit"] is False
 assert salt_baltimore["eligibility"]["verifiedForPublication"] is False
 assert not any(w["candidateId"] == salt_baltimore["id"] for w in wishlist["entries"])
-# Salt, Water for Chocolate and Ministry of Brewing were explicitly confirmed by the user;
-# only Salt has a known visit date. Different national/editorial award classes stay distinct.
+# Water for Chocolate, Ministry of Brewing and Sagamore's Rye Street Tavern were the
+# three venues confirmed together; Salt Tavern was previously confirmed separately with a date.
 water = next(c for c in candidates if c["id"] == "candidate-baltimore-water-for-chocolate-lombard")
 ministry = next(c for c in candidates if c["id"] == "candidate-baltimore-ministry-of-brewing-lombard")
 assert water["visitStatus"] == ministry["visitStatus"] == "confirmed"
@@ -458,6 +458,22 @@ assert len(ministry_record["editorialRecognitions"]) == 1
 assert ministry_record["editorialRecognitions"][0]["year"] == 2021
 assert ministry_record["editorialRecognitions"][0]["organization"] == "Esquire"
 assert "esquire.com" in ministry_record["editorialRecognitions"][0]["sourceUrl"]
+# Rye Street Tavern is independently confirmed on the Sagamore campus, not Salt Tavern.
+rye_sagamore = next(c for c in candidates if c["id"] == "candidate-baltimore-rye-street-tavern-sagamore")
+assert rye_sagamore["visitStatus"] == "confirmed" and rye_sagamore["wantsToVisit"] is False
+assert rye_sagamore["confirmedVisitId"] == "dining-rye-street-tavern-sagamore-baltimore-date-unknown"
+assert rye_sagamore["visitDate"] is None and rye_sagamore["visitEra"].startswith("unverified")
+rye_record = next(r for r in records if r["id"] == rye_sagamore["confirmedVisitId"])
+assert rye_record["status"] == "confirmed" and rye_record["type"] == "dining"
+assert rye_record["visit"]["date"] is None and rye_record["visit"]["operatingEra"] == "unverified"
+assert rye_record["editorial"]["awardQualified"] is False
+assert rye_record["curation"]["verifiedForPublication"] is False
+assert rye_record["venueId"] == "venue-rye-street-tavern-sagamore-baltimore"
+assert "Rye Street Tavern" in water_record["visit"]["source"]
+assert "Rye Street Tavern" in ministry_record["visit"]["source"]
+assert not any(w["candidateId"] == rye_sagamore["id"] for w in wishlist["entries"])
+assert not any(p["id"] == rye_record["id"] for p in
+    json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
@@ -1227,6 +1243,7 @@ for venue in venues:
             "venue-john-browns-underground-lawrence": "Lawrence",
             "venue-1900-barker-original-lawrence": "Lawrence",
             "venue-salt-tavern-baltimore": "Baltimore",
+            "venue-rye-street-tavern-sagamore-baltimore": "Baltimore",
             "venue-water-for-chocolate-baltimore": "Baltimore",
             "venue-ministry-of-brewing-baltimore": "Baltimore",
         }
