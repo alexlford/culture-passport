@@ -9562,8 +9562,8 @@
       "addressHint": "1841 E Lombard Street, Baltimore, MD 21231",
       "openedOn": "2006-05-16",
       "operatingStatus": "operating",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "recognition": "Baltimore Magazine named Water for Chocolate among its 2019 Best Brunch Spots and featured chef Sean Guy's dishes. Editorial recommendation, not a formal James Beard or Michelin distinction.",
       "recognitionYear": 2019,
       "awardFamily": "local_editorial_feature",
@@ -9600,7 +9600,14 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only"
         }
-      ]
+      ],
+      "reviewCertainty": "explicit_first_person_confirmed",
+      "reviewSource": "Direct user Culture Passport statement on 2026-11-03: 'I have been to all three of those Baltimore places.' referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore distillery.",
+      "reviewedOn": "2026-11-03",
+      "confirmedVisitId": "dining-water-for-chocolate-baltimore-date-unknown",
+      "visitPeriod": "At least one confirmed visit; exact date unknown",
+      "visitDate": null,
+      "attendanceCertainty": "confirmed_venue_date_unknown"
     },
     {
       "id": "candidate-baltimore-ministry-of-brewing",
@@ -9611,8 +9618,8 @@
       "addressHint": "1900 E Lombard Street, Baltimore, MD 21231",
       "openedOn": "2020-01",
       "operatingStatus": "operating",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "recognition": "Named to Esquire's 2021 The Best Bars in America list; national editorial bar recognition, not James Beard/Michelin/CAMRA.",
       "recognitionYear": 2021,
       "awardFamily": "esquire_best_bars_editorial",
@@ -9648,7 +9655,14 @@
           "imageRights": "unverified",
           "renderMode": "source_link_only"
         }
-      ]
+      ],
+      "reviewCertainty": "explicit_first_person_confirmed",
+      "reviewSource": "Direct user Culture Passport statement on 2026-11-03: 'I have been to all three of those Baltimore places.' referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore distillery.",
+      "reviewedOn": "2026-11-03",
+      "confirmedVisitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "visitPeriod": "At least one confirmed visit; exact date unknown",
+      "visitDate": null,
+      "attendanceCertainty": "confirmed_venue_date_unknown"
     },
     {
       "id": "candidate-baltimore-rye-street-tavern-sagamore",
@@ -9661,8 +9675,8 @@
       "closedToPublicOn": "2021-05",
       "reopenedOn": "2024-07-15",
       "operatingStatus": "operating_with_2024_different_operator_and_redesign",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
+      "visitStatus": "confirmed",
+      "wantsToVisit": false,
       "recognition": "Original 2017 restaurant opened under Andrew Carmellini, a James Beard Award-winning chef recognized at other restaurants. His earlier honors do not transfer to Rye Street Tavern. No direct venue-specific Michelin or JBF honor verified. Reviewed by Baltimore Magazine in 2018.",
       "recognitionYear": null,
       "awardFamily": "historical_chef_association_not_venue_recognition",
@@ -9709,6 +9723,78 @@
           "sourceYear": 2018,
           "imageRights": "unverified",
           "renderMode": "source_link_only"
+        }
+      ],
+      "reviewCertainty": "explicit_first_person_confirmed",
+      "reviewSource": "Direct user Culture Passport statement on 2026-11-03: 'I have been to all three of those Baltimore places.' referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore distillery.",
+      "reviewedOn": "2026-11-03",
+      "confirmedVisitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+      "visitPeriod": "At least one confirmed visit; exact date unknown",
+      "visitDate": null,
+      "attendanceCertainty": "confirmed_venue_date_unknown",
+      "visitEra": "unconfirmed_original_2017_2020_or_reopened_2024_plus",
+      "visitEraNote": "User confirmed the specific restaurant at Sagamore, but did not specify which operating era. Original regular public service ceased December 2020, officially paused May 2021; Clyde's reopened July 15, 2024. Do not infer a 2018–2021 visit based on residence alone.",
+      "originalOperator": "NoHo Hospitality Group / Andrew Carmellini",
+      "currentOperator": "Clyde’s Restaurant Group"
+    },
+    {
+      "id": "candidate-baltimore-brewers-art-mount-vernon",
+      "area": "Baltimore",
+      "subregion": "Mount Vernon",
+      "name": "The Brewer's Art",
+      "venueType": "brewpub_and_bar",
+      "addressHint": "1106 N Charles Street, Baltimore, MD 21201",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": null,
+      "researchStatus": "official_2007_esquire_best_bars_inclusion_verified",
+      "awardFamily": "esquire_best_bars_editorial",
+      "recognition": "Esquire named The Brewer's Art in its 2007 Best Bars in America list, a national editorial selection, not Michelin/James Beard/CAMRA. Baltimore Magazine 2009 reported an additional Esquire readers' best bar recognition.",
+      "recognitionYear": 2007,
+      "sourceUrl": "https://www.esquire.com/food-drink/bars/a2947/bestbars2007/",
+      "sourceUrls": [
+        "https://www.esquire.com/food-drink/bars/a2947/bestbars2007/",
+        "https://www.baltimoremagazine.com/section/fooddrink/25-best-bars-2009/"
+      ],
+      "interviewCue": "Mount Vernon 19th-century mansion brewpub with an ornate upstairs restaurant and a dim, brick-arched basement bar; house Belgian-style beer named Resurrection; located 1106 North Charles Street.",
+      "screening": {
+        "status": "verified_national_editorial_bar_recognition",
+        "basis": "esquire_best_bars_2007",
+        "sourceTier": "original_publisher",
+        "verifiedAt": "2026-11-03",
+        "evidenceUrl": "https://www.esquire.com/food-drink/bars/a2947/bestbars2007/",
+        "note": "Esquire editorial inclusion distinct from formal JBF/Michelin honors."
+      },
+      "eligibility": {
+        "status": "national_editorial_bar_recognition_review_policy",
+        "basis": "esquire_2007_best_bars",
+        "reason": "Esquire original publisher confirms 2007 national Best Bars selection, no JBF/Michelin claim.",
+        "screenedOn": "2026-11-03",
+        "verifiedForPublication": false
+      },
+      "photographicEvidence": [
+        {
+          "id": "brewers-art-2017-bar",
+          "label": "The Brewer's Art bar circa 2017",
+          "caption": "Historical photo showing ornate upstairs bar, woodwork and beer tap area; 2017 user memory cue.",
+          "photoSubject": "The Brewer's Art upstairs bar 2017",
+          "sourceUrl": "https://www.warrensbeeradventures.com/2017/09/27/the-brewers-art/",
+          "sourceOrganization": "Warren's Beer Adventures",
+          "sourceYear": 2017,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "The Brewer's Art ornate upstairs bar in Mount Vernon"
+        },
+        {
+          "id": "brewers-art-basement",
+          "label": "The Brewer's Art vaulted basement",
+          "caption": "Brick arched underground lounge, a visual marker for its downstairs bar.",
+          "photoSubject": "The Brewer's Art downstairs cellar bar",
+          "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/25-best-bars-2009/",
+          "sourceOrganization": "Baltimore Magazine",
+          "sourceYear": 2009,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "A dim brick arch basement with bar seating"
         }
       ]
     }
@@ -10816,7 +10902,7 @@
       ]
     },
     "baltimore": {
-      "status": "active_historical_gap_audit_sagamore_neighborhood_venues",
+      "status": "active_historical_interview_three_new_confirmed_visits",
       "confirmedSaltTavern": {
         "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
         "visitId": "dining-salt-tavern-baltimore-2018-03-16",
@@ -10829,25 +10915,48 @@
         "awardsNotTransferred": true,
         "reviewedOn": "2026-11-03"
       },
-      "nextInterviewSelection": "Rye Street Tavern (Sagamore Spirit campus), original 2017–2021 versus post-2024 different operator; show 2017–2018 photos and four buttons. Water for Chocolate and Ministry of Brewing follow.",
+      "nextInterviewSelection": "The Brewer's Art (Mount Vernon; Esquire Best Bars 2007), 1106 N Charles Street. Show 2017 upstairs bar and historic basement images with four answers.",
       "researchedUnansweredCandidates": [
         "candidate-baltimore-water-for-chocolate",
         "candidate-baltimore-ministry-of-brewing",
         "candidate-baltimore-rye-street-tavern-sagamore"
       ],
-      "recognitionCautions": "Ministry of Brewing has a verified 2021 Esquire Best Bars listing; this is an editorial national bar distinction not a James Beard/Michelin/CAMRA award. Water for Chocolate has a 2019 Baltimore Magazine brunch editorial selection. Rye Street founder Andrew Carmellini's James Beard awards occurred elsewhere; no awards transferred to this venue."
+      "recognitionCautions": "Ministry of Brewing has a verified 2021 Esquire Best Bars listing; this is an editorial national bar distinction not a James Beard/Michelin/CAMRA award. Water for Chocolate has a 2019 Baltimore Magazine brunch editorial selection. Rye Street founder Andrew Carmellini's James Beard awards occurred elsewhere; no awards transferred to this venue. All three visits confirmed 2026-11-03, exact dates unknown. Esquire national editorial selection can be shown in a separate category, never mistaken for James Beard or Michelin. Rye Street original 2017–2020 operator era and post July 2024 operator era cannot be inferred from visit confirmation alone.",
+      "confirmedAdditional20261103": [
+        {
+          "candidateId": "candidate-baltimore-water-for-chocolate",
+          "visitId": "dining-water-for-chocolate-baltimore-date-unknown",
+          "visitDate": null,
+          "visitStatus": "confirmed",
+          "noOtherVenueAwardTransfer": true
+        },
+        {
+          "candidateId": "candidate-baltimore-ministry-of-brewing",
+          "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+          "visitDate": null,
+          "visitStatus": "confirmed",
+          "noOtherVenueAwardTransfer": true
+        },
+        {
+          "candidateId": "candidate-baltimore-rye-street-tavern-sagamore",
+          "visitId": "dining-rye-street-tavern-sagamore-baltimore-date-unknown",
+          "visitDate": null,
+          "visitStatus": "confirmed",
+          "noOtherVenueAwardTransfer": true
+        }
+      ]
     }
   },
   "interviewProgress": {
     "currentBatch": {
       "area": "Baltimore",
-      "category": "restaurants_and_bars",
+      "category": "brewpub_and_bars",
       "candidateNames": [
-        "Rye Street Tavern (Sagamore Spirit campus)"
+        "The Brewer's Art"
       ],
       "status": "awaiting_user_response",
-      "question": "Did you visit Rye Street Tavern on the Sagamore Spirit campus in Baltimore, especially the original restaurant operating 2017–May 2021?",
-      "continuation": "Show original 2017–2018 photos (not 2024 redesign) and four options: Yes, visited; Maybe; No, haven't been; No, but want to go. Preserve all Kansas City responses, including Chewology wishlist; next Baltimore Water for Chocolate and Ministry of Brewing."
+      "question": "Did you ever visit The Brewer's Art brewpub/bar at 1106 N Charles Street in Baltimore's Mount Vernon neighborhood?",
+      "continuation": "Show historic upstairs bar and dark arched basement bar photos, four responses Yes visited / Maybe / No haven't been / No but want to go. Esquire 2007 national Best Bars editorial inclusion is distinct from Michelin or James Beard award. All three prior Baltimore user responses are confirmed."
     },
     "pausedBatches": [
       {
