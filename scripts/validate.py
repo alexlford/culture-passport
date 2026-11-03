@@ -445,8 +445,9 @@ for c, record in ((water, water_record), (ministry, ministry_record)):
     assert record["visit"]["date"] is None and record["visit"]["precision"] == "unknown"
     assert record["curation"]["verifiedForPublication"] is False
     assert not record["editorial"]["awardQualified"]
-    assert any(p["id"] == record["id"] and p["status"] == "pending" for p in
-               json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+    # These are archived private memories, not visitor-only stories awaiting approval.
+    assert not any(p["id"] == record["id"] for p in
+                   json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 assert water_record["type"] == "dining" and water_record["recognitions"] == []
 assert water_record["editorial"]["collection"] == "archived_personal_memory"
 assert any(w["venueId"] == water_record["venueId"] and w["status"] == "monitoring"
