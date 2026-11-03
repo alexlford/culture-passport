@@ -6,6 +6,12 @@ A standalone cultural experience archive for restaurants, cocktail bars, concert
 
 **Planned public site:** `https://culture.alexlford.com` (DNS and GitHub Pages still require configuration). This code is **not** a chapter of the Life Map. Work, education, career, and personal geography remain in `alexlford/life-map`.
 
+## Confirmed visits are public by default (November 3, 2026)
+
+The user explicitly clarified that **every direct confirmation of a visit or attended performance is intended for the public Culture Passport site**. Do not keep confirmed dining, bars, pubs, concerts, opera, theater, or films private merely because no formal award has been verified. The public-facing visitor dataset and default Explore, Timeline, and Map views include all directly confirmed experiences. Awards and exceptional features affect labels and highlights, **not the fact of public inclusion**. Preserve venue and metro-level attribution and unknown dates accurately.
+
+Keep **unvisited wishlists, explicit nonattendance, tentative/maybe responses, booking-only research, private award-watch ledgers, and internal interview notes** out of the public export. The two separately user-requested friend-recalled memories remain visibly distinguished from actual confirmed attendance. The canonical source repository stays private; only a sanitized visitor build may be considered for public release. Consent to share the fact of attendance does not independently approve all surrounding personal story prose, companion details, photographs, or source research; the existing content-review and release safeguards still apply.
+
 ## Experience-first editorial rules
 
 - **Start with the memory.** Atmosphere, companions, venue history, chefs/artists, and what made an evening memorable matter most.
@@ -43,7 +49,7 @@ The original private four-venue history remains in `data/interview-updates/kansa
 
 ## Culture Passport eligibility — expanded editorial standard (November 2026)
 
-**Experience first, not Michelin/James Beard first.** A directly confirmed cultural outing can qualify for a curated Culture Passport entry through (1) substantive recognition or (2) a meaningful, expressly chosen personal/cultural highlight. The private archive retains other confirmed memories too. Do not require a Michelin star, James Beard win, or any other single award to consider a restaurant, cocktail bar, brewery, pub, distillery experience, theater, performance or historic hospitality venue. Recognition supports the story, not a universal threshold.
+**Experience first, not Michelin/James Beard first.** A directly confirmed cultural outing can qualify for a curated Culture Passport entry through (1) substantive recognition or (2) a meaningful, expressly chosen personal/cultural highlight. Recognition-watch ledgers can privately retain award-research context for confirmed memories, but confirmed visit facts belong in the public visitor dataset. Do not require a Michelin star, James Beard win, or any other single award to consider a restaurant, cocktail bar, brewery, pub, distillery experience, theater, performance or historic hospitality venue. Recognition supports the story, not a universal threshold.
 
 **Eligible recognition families, displayed distinctly:**
 
@@ -152,7 +158,7 @@ Run `python scripts/report_publication_risk.py` for an aggregate inventory of pe
 
 The script `python scripts/build_public_preview.py --check` builds a temporary static preview and runs integrity checks without publishing anything. `python scripts/build_public_preview.py` writes to `dist/` (Git-ignored). The **manual** Pages workflow will publish `dist/`, not the entire repository.
 
-The visitor export contains only Home, Explore, Timeline, Map, experience pages, app assets, and **confirmed curated experiences** (award-qualified restaurants/bars, separately labeled official Michelin/JBF program-linked dining, explicit personal favorites, and arts). It omits interview pages, candidate lists, reservation ledgers, booking-only records, exclusion records, old source notes, provenance fields and the entire research directory. This allows the future public site to focus on stories and venues instead of private reconstruction notes.
+The visitor export contains only Home, Explore, Timeline, Map, experience pages, app assets, and **all directly confirmed experiences**, irrespective of awards or feature status, plus the two explicitly requested friend-recalled memories labeled as unconfirmed. It omits interview pages, candidate lists, reservation ledgers, booking-only records, exclusion records, old source notes, provenance fields and the entire research directory. This allows the future public site to focus on stories and venues instead of private reconstruction notes.
 
 **Not yet approved for public release:** individual memory/story text, venue geography, and content in `data/records.json` still require human privacy review. Running the exporter does not cleanse or protect the current repository's Git history. Keep the existing source repository **private**; prefer deployment from private Pages (if account settings support it) or a new *clean public distribution repository* containing only the reviewed `dist/` contents. Do not make the canonical history public merely to enable Pages.
 
