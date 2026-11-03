@@ -48,7 +48,7 @@ assert not any(r["title"] == "Justus Drugstore" for r in records)
 current_names = interview_data["interviewProgress"]["currentBatch"]["candidateNames"]
 assert current_names
 assert all(any(c["name"] == name and (
-                    c["visitStatus"] == "unreviewed" or (
+                    c["visitStatus"] in {"unreviewed", "maybe"} or (
                         c["visitStatus"] == "not_visited"
                         and c.get("reviewCertainty") == "tentative_negative"
                         and interview_data["interviewProgress"]["currentBatch"]["status"].startswith("awaiting_reconfirmation")
@@ -121,7 +121,7 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Waldo Thai"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Room 39"]
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -129,12 +129,12 @@ rye_visit = next(r for r in records if r["id"] == rye_plaza["confirmedVisitId"])
 assert rye_visit["status"] == "confirmed" and rye_visit["type"] == "dining"
 assert rye_visit["venueId"] == "venue-rye-plaza-kansas-city"
 assert rye_visit["visit"]["date"] is None and rye_visit["visit"]["precision"] == "unknown"
-assert rye_visit["editorial"]["awardQualified"] is False
-assert not rye_visit["recognitions"] and rye_visit["curation"]["verifiedForPublication"] is False
+assert rye_visit["editorial"]["awardQualified"] is True
+assert rye_visit["recognitions"] and rye_visit["curation"]["verifiedForPublication"] is False
 assert not any(r["title"] == "Rye (Leawood)" and r["status"] == "confirmed" for r in records)
 assert "Leawood" in rye_visit["guide"]["note"] and "Bluestem" in rye_visit["guide"]["note"]
 assert rye_plaza["eligibility"]["verifiedForPublication"] is False
-assert rye_plaza["screening"]["status"] == "memory_only"
+assert rye_plaza["screening"]["status"] == "award_qualified_metro_brand_aggregation"
 assert len(rye_plaza["photographicEvidence"]) == 2
 assert all(e["imageRights"] == "unverified" and e["renderMode"] == "source_link_only"
            and e["sourceUrl"].startswith("https://") for e in rye_plaza["photographicEvidence"])
@@ -214,7 +214,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Waldo Thai"]
+assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Room 39"]
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -368,7 +368,7 @@ assert all(r["organization"] == "James Beard Foundation" and r["year"] == 2026
            for r in town_wish["recognitions"])
 assert not any(r["title"] == town["name"] and r["status"] == "confirmed" for r in records)
 waldo = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-waldo-thai")
-assert waldo["visitStatus"] == "not_visited" and waldo["reviewCertainty"] == "tentative_negative"
+assert waldo["visitStatus"] == "not_visited" and waldo["reviewCertainty"] == "explicit_nonattendance"
 assert waldo["operatingStatus"] == "permanently_closed" and waldo["closedOn"] == "2025-10-03"
 assert waldo["addressHint"].startswith("8431 Wornall Road")
 assert waldo["screening"]["status"] == "award_qualified"
@@ -617,8 +617,8 @@ kc_reviewed = [c for c in candidates if c["area"] == "Kansas City Metro" and (c[
 assert len(kc_reviewed) == 9
 # The October 25 batch was only a tentative recollection. Preserve the seven
 # other venues' tentative status, while honoring the user's later direct correction.
-assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "tentative_negative")
-           for c in kc_reviewed if c["name"] != "Bluestem")
+assert all(c["visitStatus"] == "not_visited" and c["reviewCertainty"] == ("explicit_nonattendance" if c["name"] in {"The Antler Room", "The American Restaurant", "Corvino Supper Club & Tasting Room"} else "explicit_nonvisit_with_wishlist_intent" if c["name"] in {"Fox and Pearl", "Fox & Pearl", "The Town Company"} else "explicit_nonattendance" if c["name"] == "Waldo Thai" else "tentative_negative")
+           for c in kc_reviewed if c["name"] not in {"Bluestem", "Rye (Leawood)"})
 bluestem = next(c for c in kc_reviewed if c["name"] == "Bluestem")
 assert bluestem["visitStatus"] == "maybe" and bluestem["reviewCertainty"] == "explicit_uncertain"
 assert bluestem["reviewedOn"] == "2026-10-28"
@@ -626,8 +626,8 @@ assert "I'm not certain I visited" in bluestem["reviewSource"]
 assert not any(r["title"] == "Bluestem" and r["status"] == "confirmed" for r in records)
 assert active_batch["status"] in {"ready_for_visual_screening", "awaiting_user_response", "awaiting_reconfirmation_of_prior_tentative_negative"}
 if active_batch["status"] == "awaiting_reconfirmation_of_prior_tentative_negative":
-    assert active_batch["candidateNames"] == ["Waldo Thai"]
-    assert waldo["reviewCertainty"] == "tentative_negative"
+    assert active_batch["candidateNames"] == ["Room 39"]
+    assert waldo["reviewCertainty"] == "explicit_nonattendance"
     assert waldo["visitStatus"] == "not_visited"
     assert waldo["operatingStatus"] == "permanently_closed"
     assert "closed in October 2025" in active_batch["question"] or "closed in October 2025" in active_batch["continuation"]

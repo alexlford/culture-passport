@@ -13,10 +13,10 @@
   "summary": {
     "canonExperienceRecords": 58,
     "distinctPublishedVenues": 55,
-    "recognized": 27,
+    "recognized": 28,
     "featuredPersonal": 16,
     "officiallyFeatured": 6,
-    "unfeaturedOther": 7,
+    "unfeaturedOther": 6,
     "additionalConfirmedArchiveOnly": 15,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
@@ -1068,7 +1068,7 @@
     },
     {
       "venueId": "venue-rye-plaza-kansas-city",
-      "name": "Rye Plaza",
+      "name": "Rye (Kansas City metro)",
       "city": "Kansas City",
       "region": "Missouri",
       "experienceIds": [
@@ -1077,16 +1077,18 @@
       "rememberedPeriods": [
         "Confirmed dining visit · date unknown"
       ],
-      "recognitionStatus": "not_verified",
+      "recognitionStatus": "qualifies",
       "sourceUrls": [
         "https://www.ryekc.com/",
-        "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/"
+        "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
       ],
       "recognitionSummary": [
-        "Location-specific Michelin/James Beard honor not independently verified. Colby Garrelts' 2013 Best Chef: Midwest award was at Bluestem, while Megan Garrelts' Rye pastry semifinalist listings identify Leawood. No transfer to Plaza."
+        "Single Rye KC-metro experience: Plaza visit confirmed, date unknown. JBF 2019 Megan Garrelts pastry semifinalist credited to Rye Leawood; no Plaza-specific award or visit to Leawood implied."
       ],
-      "visitConfidence": "direct_user_confirmation_specific_plaza_branch_date_unknown",
-      "publicationStatus": "private_award_watchlist_not_selected"
+      "visitConfidence": "confirmed_plaza_meal_metro_brand_one_count",
+      "publicationStatus": "private_pending_story_review",
+      "metroGroupId": "rye-kansas-city-metro"
     },
     {
       "venueId": "venue-801-chophouse-kansas-city-power-light",
