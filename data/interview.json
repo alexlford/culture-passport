@@ -9457,14 +9457,14 @@
       "openedOn": "2006",
       "closedOn": "2018-08-11",
       "operatingStatus": "regular_dining_closed_2018_space_replaced_by_marta_2022",
-      "visitStatus": "unreviewed",
-      "reviewCertainty": "unanswered",
-      "wantsToVisit": null,
-      "visitDate": null,
+      "visitStatus": "confirmed",
+      "reviewCertainty": "explicit_confirmed_first_visit",
+      "wantsToVisit": false,
+      "visitDate": "2018-03-16",
       "recognition": "Baltimore Magazine Best of Baltimore 2006: Burger and Fries (specific dish/category at Salt); Baltimore Sun 2010 Top 50 Restaurants: Salt Tavern ranked #10; Baltimore Magazine reported four-star Baltimore Sun review and other local 'Best of' nods. These are local editorial distinctions, not verified Michelin or James Beard honors.",
       "recognitionYear": 2006,
       "awardFamily": "local_editorial_award_and_ranked_guide",
-      "researchStatus": "local_editorial_distinctions_verified_jbf_michelin_not_established",
+      "researchStatus": "confirmed_personal_dining_featured_exception_local_editorial_distinctions",
       "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
       "sourceUrls": [
         "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
@@ -9475,17 +9475,17 @@
       ],
       "interviewCue": "Historic Salt: A New American Tavern on East Pratt St, opened 2006 by Jason and Jane Ambrose. Exposed brick walls, green hanging globe lamps, separate small bar and dining room, duck-fat fries, foie-gras Wagyu burger and goat cheese doughnuts. Last regular dinner August 11, 2018. The space is now Marta; do not count dining at Marta as a Salt visit.",
       "screening": {
-        "status": "local_editorial_recognition_verified_pending_strict_eligibility_review",
+        "status": "personal_featured_exception_local_editorial_verified",
         "basis": "2006_baltimore_magazine_best_burger_and_fries_and_2010_baltimore_sun_top_50_rank_10",
         "sourceTier": "primary_publisher_and_historical_ranking_transcription",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/",
-        "note": "2006 named food category Best of Baltimore at Salt; 2010 Sun rank #10 supported by archived transcription; neither is Michelin or JBF. Distinguish formal culinary award eligibility from local editorial/guide accolade. Retain as user-requested Baltimore retrospective candidate pending attendance and eligibility decision."
+        "note": "User expressly requested inclusion of confirmed dated dining at Salt. 2006 Best of Baltimore burger-and-fries honor remains local editorial, not Michelin/JBF. No claim user ordered either dish or attended UMBC game."
       },
       "eligibility": {
-        "status": "historical_editorial_candidate",
-        "basis": "local_best_of_and_historical_guide_rank",
-        "reason": "Confirmed named Baltimore Magazine 2006 category winner and Sun 2010 top-ten list. No James Beard/Michelin recognition substantiated; assess within user-approved expanded cultural inclusion policy, without preemptively promoting public story.",
+        "status": "eligible_personal_featured_exception",
+        "basis": "direct_user_memory_first_visit_UMBC_historical_date",
+        "reason": "User directs inclusion despite no Michelin/James Beard evidence. Separately retain local editorial recognition.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
@@ -9516,8 +9516,14 @@
         }
       ],
       "addedOn": "2026-11-03",
-      "priority": "queued_for_baltimore",
-      "reviewSource": "User 2026-11-03: 'Let's look at Salt in Baltimore too.' This is a research/venue request, NOT an attendance confirmation or future wishlist instruction."
+      "priority": "reviewed_confirmed",
+      "reviewSource": "Direct user message November 3, 2026: 'I went to Salt for the first time during UMBC upset of UVA. We need to include it in the Culture Passport.' Independently verified UMBC defeated Virginia March 16, 2018.",
+      "reviewedOn": "2026-11-03",
+      "confirmedVisitId": "dining-salt-tavern-baltimore-2018-03-16",
+      "visitPrecision": "day",
+      "visitPeriod": "First visit March 16, 2018",
+      "historicalInterest": true,
+      "attendanceCertainty": "confirmed_first_visit_historical_event_dated"
     }
   ],
   "source": {
@@ -10622,28 +10628,20 @@
       ]
     },
     "baltimore": {
-      "status": "queued_historical_gap_audit",
-      "nextTargetCandidateId": "candidate-baltimore-salt-tavern-pratt-street",
-      "venue": "Salt Tavern",
-      "historicAddress": "2127 E Pratt Street, Baltimore, MD 21231",
-      "attendanceStatus": "unreviewed",
-      "queuedOn": "2026-11-03",
-      "sourceQuote": "Let's look at Salt in Baltimore too",
-      "recognitionSummary": "Baltimore Magazine 2006 Best Burger & Fries category and Baltimore Sun Top 50 #10 in 2010; separate from Michelin/JBF",
-      "closureStatus": "regular dining closed August 11 2018",
-      "currentSuccessor": "Marta — not interchangeable with original Salt",
-      "nextQuestion": "Did you dine at Salt: A New American Tavern on East Pratt St in Baltimore before August 2018?",
-      "photoEvidenceUrls": [
-        "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
-        "https://baltimorestyle.com/to_salt/"
-      ],
-      "responseChoices": [
-        "Yes — visited",
-        "Maybe — looks familiar",
-        "No — never visited",
-        "No — wish I had (historical interest only)"
-      ],
-      "statusNotes": "User has not answered Salt attendance yet; do not infer a visit or wishlist."
+      "status": "queued_historical_gap_audit_with_confirmed_salt",
+      "confirmedSaltTavern": {
+        "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
+        "visitId": "dining-salt-tavern-baltimore-2018-03-16",
+        "firstVisitDate": "2018-03-16",
+        "dateMemory": "Night UMBC upset UVA 74–54 in 2018 NCAA tournament",
+        "contextOnlyNoGameAttendance": true,
+        "otherVisitsUnknown": true,
+        "venueClosed": true,
+        "personalFeaturedException": true,
+        "awardsNotTransferred": true,
+        "reviewedOn": "2026-11-03"
+      },
+      "nextInterviewSelection": "Resume Baltimore retrospective after KC Chewology interview; do not re-ask Salt attendance."
     }
   },
   "interviewProgress": {
