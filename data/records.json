@@ -8534,14 +8534,16 @@
         "awardQualified": false,
         "officialFeature": false,
         "featuredException": false,
-        "collection": "confirmed_dining_award_watchlist",
+        "collection": "recognized_local_editorial_dining",
         "basis": "direct_visit_and_local_brunch_editorial",
-        "note": "Private confirmed personal experience. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award. Not authorized for publication."
+        "note": "2019 Baltimore Magazine Best Brunch Spots — local curated/editorial recognition qualifies culturally, independently of Michelin or James Beard. Private, publication still pending.",
+        "culturalSpotlight": false,
+        "expandedRecognitionEligible": true
       },
       "curation": {
-        "status": "archived_confirmed_pending_qualifying_award",
-        "basis": "baltimore_magazine_best_brunch_editorial",
-        "reason": "Direct venue attendance confirmed. No Michelin/James Beard award transferred from other restaurants. 2019 Baltimore Magazine editorial brunch selection, not Michelin or James Beard award.",
+        "status": "expanded_cultural_eligible_pending_story_review",
+        "basis": "2019_baltimore_magazine_brunch_selection",
+        "reason": "2019 Baltimore Magazine Best Brunch Spots — local curated/editorial recognition qualifies culturally, independently of Michelin or James Beard. No public approval implied.",
         "evidenceUrls": [
           "https://www.baltimoremagazine.com/section/fooddrink/best-brunch-spots-baltimore/",
           "https://www.waterforchocolate.com/"
@@ -8624,12 +8626,14 @@
         "featuredException": false,
         "collection": "editorially_recognized_bar",
         "basis": "direct_visit_and_esquire_2021_bar_editorial_selection",
-        "note": "Private confirmed personal experience. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award. Not authorized for publication."
+        "note": "2021 Esquire Best Bars in America — credible national curated/editorial bar recognition qualifies culturally, independently of CAMRA/JBF/Michelin. Private, publication still pending.",
+        "culturalSpotlight": false,
+        "expandedRecognitionEligible": true
       },
       "curation": {
-        "status": "national_editorial_bar_recognition_pending_criteria",
-        "basis": "esquire_2021_national_editorial_best_bars",
-        "reason": "Direct venue attendance confirmed. No Michelin/James Beard award transferred from other restaurants. 2021 Esquire Best Bars in America editorial inclusion, not James Beard/Michelin/CAMRA award.",
+        "status": "expanded_cultural_eligible_pending_story_review",
+        "basis": "2021_esquire_best_bars",
+        "reason": "2021 Esquire Best Bars in America — credible national curated/editorial bar recognition qualifies culturally, independently of CAMRA/JBF/Michelin. No public approval implied.",
         "evidenceUrls": [
           "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/",
           "https://ministryofbrewing.com/"
@@ -8701,14 +8705,16 @@
         "awardQualified": false,
         "officialFeature": false,
         "featuredException": false,
-        "collection": "confirmed_dining_award_watchlist",
+        "collection": "cultural_hospitality_spotlight",
         "basis": "direct_visit_historical_restaurant_no_venue_award",
-        "note": "Private confirmed personal experience. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established. Not authorized for publication."
+        "note": "Distinctive historic Sagamore Spirit waterfront distillery restaurant and cultural/hospitality setting qualifies as a historical cultural spotlight. Chef Andrew Carmellini's prior Beard awards are not attributed to this restaurant. Private, publication still pending.",
+        "culturalSpotlight": true,
+        "expandedRecognitionEligible": true
       },
       "curation": {
-        "status": "archived_confirmed_pending_qualifying_award",
-        "basis": "history_not_formal_award",
-        "reason": "Direct venue attendance confirmed. No Michelin/James Beard award transferred from other restaurants. 2017–2020 original NoHo/Carmellini operation vs July 2024 Clyde's relaunch; visit era not yet established.",
+        "status": "expanded_cultural_eligible_pending_story_review",
+        "basis": "sagamore_distillery_waterfront_restaurant_cultural_setting",
+        "reason": "Distinctive historic Sagamore Spirit waterfront distillery restaurant and cultural/hospitality setting qualifies as a historical cultural spotlight. Chef Andrew Carmellini's prior Beard awards are not attributed to this restaurant. No public approval implied.",
         "evidenceUrls": [
           "https://www.southbmore.com/2024/07/15/the-new-rye-street-tavern-opens-in-baltimore-peninsula/",
           "https://www.ryestreettavern.com/"
