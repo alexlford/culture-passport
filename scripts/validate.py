@@ -474,7 +474,7 @@ assert sagamore_record["editorial"]["awardQualified"] is False
 assert sagamore_record["curation"]["verifiedForPublication"] is False
 assert "Rye Street Tavern" in water_record["visit"]["source"]
 assert "Rye Street Tavern" in ministry_record["visit"]["source"]
-assert not any(p["id"] == sagamore_record["id"] for p in json.loads(
+assert any(p["id"] == sagamore_record["id"] and p["status"] == "pending" for p in json.loads(
     (ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
