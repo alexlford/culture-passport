@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Baltimore",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-baltimore-salt-tavern-pratt-street",
+    "venue": "Salt: A New American Tavern",
+    "address": "2127 E Pratt Street, Baltimore, MD 21231",
+    "visitStatus": "confirmed",
+    "attendance": true,
+    "firstVisit": true,
+    "visitDate": "2018-03-16",
+    "visitPrecision": "day",
+    "visitId": "dining-salt-tavern-baltimore-2018-03-16",
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "I went to Salt for the first time during UMBC upset of UVA. We need to include it in the Culture Passport",
+    "dateCorroboration": "UMBC defeated Virginia 74–54 on March 16 2018 in NCAA tournament; event contemporaneous with first Salt visit",
+    "unknowns": [
+      "Dishes ordered",
+      "Companions",
+      "Exact time",
+      "Whether televised game was watched in restaurant",
+      "Any later visits"
+    ]
+  },
+  "recognitionGuardrails": {
+    "formalMichelinOrJamesBeardAwardNotVerified": true,
+    "localEditorial": [
+      {
+        "organization": "Baltimore Magazine",
+        "year": 2006,
+        "category": "Best of Baltimore — Burger and Fries",
+        "result": "winner",
+        "sourceUrl": "https://www.baltimoremagazine.com/section/bestof/best-of-baltimore-2006/"
+      }
+    ],
+    "publicationEligibility": "user_requested_featured_personal_exception",
+    "publicationApproval": "pending"
+  },
+  "eventContext": {
+    "date": "2018-03-16",
+    "game": "UMBC vs UVA",
+    "finalScore": "74–54",
+    "historicalSignificance": "First No. 16 seed defeated No. 1 seed in men's NCAA tournament",
+    "sourceUrl": "https://www.washingtonpost.com/sports/ncaa-stunner-no-16-seed-umbc-makes-history-by-knocking-out-no-1-virginia/2018/03/16/35d91dee-2954-11e8-874b-d517e912f125_story.html?noredirect=on",
+    "relationship": "Personal calendar anchor only, not claim of game attendance or viewing"
+  },
+  "operatingHistory": {
+    "openedOn": "2006",
+    "lastRegularDinner": "2018-08-11",
+    "replacedBy": "Marta (separate establishment)"
+  },
+  "sourceUrls": [
+    "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/",
+    "https://www.baltimoremagazine.com/section/fooddrink/open-shut-little-bird-man-vs-pho-salt-tavern/"
+  ],
+  "photoLinks": [
+    {
+      "label": "Salt 2013",
+      "sourceUrl": "https://www.baltimoremagazine.com/section/fooddrink/shaking-up-salt/"
+    },
+    {
+      "label": "Salt opening era 2006",
+      "sourceUrl": "https://baltimorestyle.com/to_salt/"
+    }
+  ],
+  "publication": {
+    "status": "private_pending_review",
+    "approved": false,
+    "storyPublished": false
+  },
+  "continuation": {
+    "kansasCity": "Chewology next, distinct from closed Bluestem",
+    "baltimore": "Salt answered; do not repeat. Resume other Baltimore candidates later."
+  }
+}
