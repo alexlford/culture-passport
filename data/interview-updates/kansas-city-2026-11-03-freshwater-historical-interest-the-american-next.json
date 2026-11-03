@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-03",
+  "area": "Kansas City Metro",
+  "project": "Culture Passport",
+  "answer": {
+    "candidateId": "candidate-kc-freshwater-fine-dining-2017-2020",
+    "venue": "Freshwater (Fine) Dining",
+    "address": "3711 Southwest Trafficway, Kansas City, MO 64111",
+    "historicalOperatingPeriod": "2017–2020",
+    "visitStatus": "not_visited",
+    "attendance": false,
+    "visitDate": null,
+    "reviewCertainty": "explicit_nonattendance",
+    "historicalInterest": true,
+    "historicalInterestNote": "User wishes they had visited the historic restaurant before its 2020 permanent closure.",
+    "wantsToVisit": false,
+    "actionableFutureWishlist": false,
+    "sourceType": "direct_user_statement",
+    "sourceQuote": "Culture Passport Kansas City-region interview: I never visited Freshwater (Fine) Dining in Kansas City, but wish I had. Record explicit nonattendance and private historical interest, not a future-visit wishlist entry because Freshwater permanently closed in 2020. Continue with the next eligible historical venue, photos and four buttons."
+  },
+  "recognitionGuardrails": {
+    "organization": "James Beard Foundation",
+    "year": 2019,
+    "category": "Rising Star Chef of the Year",
+    "recipient": "Calvin Davis at Freshwater",
+    "result": "semifinalist",
+    "notWinner": true,
+    "sourceUrl": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+  },
+  "nextInterview": {
+    "candidateId": "candidate-kansas-city-metro-the-american-restaurant",
+    "venue": "The American Restaurant",
+    "address": "200 E 25th Street, Suite 400, Crown Center, Kansas City, MO 64108",
+    "historicalRegularDiningPeriod": "1974–2016",
+    "currentUse": "private dining, events and occasional concept dinners, distinct from former restaurant",
+    "priorVisitAssessment": "2016–2020 KC group-level tentative negative only; reask individually with archival images; no attendance presumed",
+    "reviewCertainty": "tentative_negative",
+    "recognition": {
+      "organization": "James Beard Foundation",
+      "year": 2018,
+      "category": "Design Icon",
+      "result": "winner",
+      "recipient": "The American Restaurant itself",
+      "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+    },
+    "photographicEvidenceSourceUrls": [
+      "https://www.visitkc.com/listings/the-american-restaurant/",
+      "https://www.crowncenter.com/theamerican"
+    ],
+    "responseButtons": [
+      "Yes — I visited/attended",
+      "Maybe — looks familiar",
+      "No — never visited",
+      "No — but I wish I had"
+    ],
+    "wishlistConstraint": "Historical public dining ended 2016. Wish I had is historical regret only; cannot add to active regular-dining wishlist."
+  },
+  "publication": {
+    "status": "private",
+    "notes": "No dining record for Freshwater; do not publish historical regret or changed story without explicit approval."
+  }
+}
