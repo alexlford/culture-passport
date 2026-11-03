@@ -11,13 +11,13 @@
     "officialConnection": "Directly documented venue-specific James Beard Foundation / Michelin editorial features and program connections support the separate Official Foundation / Guide Connection tier; they are not awards."
   },
   "summary": {
-    "canonExperienceRecords": 59,
-    "distinctPublishedVenues": 56,
+    "canonExperienceRecords": 60,
+    "distinctPublishedVenues": 57,
     "recognized": 28,
     "featuredPersonal": 17,
     "officiallyFeatured": 6,
-    "unfeaturedOther": 6,
-    "additionalConfirmedArchiveOnly": 15,
+    "unfeaturedOther": 7,
+    "additionalConfirmedArchiveOnly": 17,
     "possibleVisitLeads": 3,
     "reviewedButNotConfirmedReservations": 2
   },
@@ -1270,6 +1270,28 @@
       ],
       "editorialNote": "Direct user request: include confirmed first visit anchored to UMBC defeating UVA on March 16, 2018. No claim about dishes ordered or whether game was watched at Salt.",
       "visitConfidence": "direct_user_confirmation_with_verified_historical_calendar_anchor",
+      "publicationStatus": "private_pending_story_review"
+    },
+    {
+      "venueId": "venue-ministry-of-brewing-baltimore",
+      "name": "Ministry of Brewing",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "experienceIds": [
+        "bar-ministry-of-brewing-baltimore-date-unknown"
+      ],
+      "rememberedPeriods": [
+        "Confirmed Baltimore brewery/bar visit; date unknown"
+      ],
+      "recognitionStatus": "editorially_recognized_bar",
+      "sourceUrls": [
+        "https://www.esquire.com/food-drink/bars/a36439312/best-bars-america-2021/"
+      ],
+      "recognitionSummary": [
+        "2021 Esquire Best Bars in America — national editorial inclusion, not Michelin/James Beard/CAMRA award"
+      ],
+      "editorialNote": "Confirmed visit by user. National editorial selection is preserved separately, formal awardQualified=false, no automatic visitor publication.",
+      "visitConfidence": "direct_user_confirmed_date_unknown",
       "publicationStatus": "private_pending_story_review"
     }
   ],
