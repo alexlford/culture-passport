@@ -10081,9 +10081,9 @@
       "recognition": "Boston Globe 2026 Best of the Best brewery/taproom editorial selection",
       "recognitionYear": 2026,
       "awardFamily": "local_editorial_brewery_selection",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "wantsToVisit": null,
-      "priority": "next",
+      "priority": "answered_uncertain",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
       "sourceUrl": "https://www.aeronautbrewing.com/visit/somerville/",
@@ -10100,10 +10100,10 @@
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
         "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
-        "note": "2026 Boston Globe editorial Best of the Best recognized Aeronaut Brewing Co. as a Somerville brewery option; official Somerville location at 14 Tyler Street. Editorial recognition is not an award medal or user attendance evidence; historic other locations not conflated."
+        "note": "Aeronaut brewery appears in Boston Globe June 2026 brewery roundup, publisher editorial selection not a judged medal. User reports only 'Maybe — looks familiar' in Nov 2026. No claimed attendance, date or site."
       },
       "eligibility": {
-        "status": "candidate_eligible_if_visited",
+        "status": "uncertain_visitation_private_memory_lead",
         "basis": "brewing_award_or_curated_editorial_recognition",
         "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
         "screenedOn": "2026-11-03",
@@ -10146,7 +10146,15 @@
           "renderMode": "source_link_only",
           "altText": "Classical musicians with string instruments performing between stainless-steel brewing vessels"
         }
-      ]
+      ],
+      "userAnswer": "Maybe — looks familiar",
+      "answerDate": "2026-11-03",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "confirmedVisitId": null,
+      "uncertaintyNote": "Direct user response 'Maybe — looks familiar' to Aeronaut Brewing Co. Boston metro. No branch, date, tour, beer or confirmed visit established. Do not count as confirmed or add to public visitor records.",
+      "recognitionAttribution": "Boston Globe 2026 Best of the Best editorial recognition for Aeronaut as an area brewery, separate from a judged medal and independent of whether user visited."
     },
     {
       "id": "candidate-boston-brewery-lamplighter-cambridge",
@@ -10154,37 +10162,98 @@
       "name": "Lamplighter Brewing Co.",
       "venueType": "brewery_taproom",
       "addressHint": "284 Broadway, Cambridge, MA 02139; Cambridge Crossing location distinct",
-      "recognition": "Boston Globe 2026 Best of the Best brewery/taproom editorial selection",
-      "recognitionYear": 2026,
-      "awardFamily": "local_editorial_brewery_selection",
+      "recognition": "2020 Great American Beer Festival silver medal for Lazy Tiger (Experimental India Pale Ale), listed brewer Lamplighter Brewing Co., Cambridge, MA; distinct from 2026 Boston Globe Best of the Best editorial brewery selection. Neither proves a specific visit, branch, beer ordered or award at visit time.",
+      "recognitionYear": 2020,
+      "awardFamily": "great_american_beer_festival_and_local_editorial",
       "visitStatus": "unreviewed",
       "wantsToVisit": null,
-      "priority": "queued",
+      "priority": "next",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
-      "sourceUrl": "https://lamplighterbrewing.com/",
+      "sourceUrl": "https://lamplighterbrewing.com/pages/284-broadway-taproom",
       "sourceUrls": [
-        "https://lamplighterbrewing.com/",
-        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+        "https://lamplighterbrewing.com/pages/284-broadway-taproom",
+        "https://lamplighterbrewing.com/pages/110-n-first-street-cx-taproom",
+        "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF2020-Winners-List.pdf",
+        "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+        "https://lamplighterbrewing.com/"
       ],
-      "interviewCue": "Former industrial garage converted into bright Cambridge taproom, Pepita coffee bar by day and hazy IPAs/sours after hours.",
-      "siteScope": "Original Cambridge Broadway taproom, separate from CX",
+      "interviewCue": "Original 284 Broadway Cambridge location opened fall 2016 in a former Metric Systems auto repair shop, Pepita coffee bar and front/back brewery rooms; CX taproom at 110 North First Street near Lechmere opened February 2022, barrel-aging space and broad windows. A yes can confirm brand only unless user specifies a branch.",
+      "siteScope": "Cambridge brewery brand; original Broadway and second Cambridge Crossing distinct, exact site only if user specifies",
       "screening": {
         "status": "eligible_brewery_cultural_candidate_if_attended",
         "basis": "direct_award_or_editorial_evidence",
         "sourceTier": "official_venue_and_primary_publisher",
         "verifiedAt": "2026-11-03",
-        "evidenceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
-        "note": "Recognition belongs to brewery brand or award-listed beer, not user-selected branch. No user Boston brewery visit established."
+        "evidenceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF2020-Winners-List.pdf",
+        "note": "2020 GABF Lazy Tiger experimental IPA silver is an official judged beer medal listed to Cambridge-based brewer. 2026 Boston Globe includes Lamplighter as a local brewery editorial selection. Neither establishes visit date or exact Cambridge taproom."
       },
       "eligibility": {
         "status": "candidate_eligible_if_visited",
         "basis": "brewing_award_or_curated_editorial_recognition",
-        "reason": "Brewing excellence and national/local hospitality editorial recognition count in separate tier, without overriding formal publication approval.",
+        "reason": "Primary GABF 2020 Lazy Tiger beer medal plus 2026 Globe editorial brewery selection; separate evidence tiers with no personal attendance assumed.",
         "screenedOn": "2026-11-03",
         "verifiedForPublication": false
       },
-      "photographicEvidence": []
+      "photographicEvidence": [
+        {
+          "id": "lamplighter-broadway-official-interior",
+          "label": "Broadway taproom interior",
+          "caption": "Official Lamplighter image of the 284 Broadway brewery's main bar, chalkboard menus and white barstools.",
+          "photoSubject": "Lamplighter 284 Broadway Cambridge main bar interior",
+          "sourceUrl": "https://lamplighterbrewing.com/pages/284-broadway-taproom",
+          "sourceOrganization": "Lamplighter Brewing Co.",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Lamplighter Broadway taproom with a lively long bar and beer menus"
+        },
+        {
+          "id": "lamplighter-cx-official-interior",
+          "label": "Cambridge Crossing barrel room",
+          "caption": "Official Lamplighter photo of Cambridge Crossing taproom at 110 North First Street, showing barrels and a light-filled communal seating area.",
+          "photoSubject": "Lamplighter Cambridge Crossing CX taproom interior barrels and tables",
+          "sourceUrl": "https://lamplighterbrewing.com/pages/110-n-first-street-cx-taproom",
+          "sourceOrganization": "Lamplighter Brewing Co.",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Bright Cambridge Crossing taproom with large windows, wood barrels and community tables"
+        },
+        {
+          "id": "lamplighter-cx-official-exterior",
+          "label": "CX courtyard taproom exterior",
+          "caption": "Official brewery image of the Cambridge Crossing courtyard and outdoor tables, distinct from the Broadway location.",
+          "photoSubject": "Lamplighter Cambridge Crossing exterior courtyard taproom",
+          "sourceUrl": "https://lamplighterbrewing.com/pages/110-n-first-street-cx-taproom",
+          "sourceOrganization": "Lamplighter Brewing Co.",
+          "sourceYear": 2026,
+          "imageRights": "unverified",
+          "renderMode": "source_link_only",
+          "altText": "Cambridge Crossing taproom exterior with trees and seating"
+        }
+      ],
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2020,
+          "category": "Experimental India Pale Ale",
+          "result": "silver medal",
+          "product": "Lazy Tiger",
+          "listedBrewer": "Lamplighter Brewing Co., Cambridge, MA",
+          "relationship": "Judged beer medal to Lazy Tiger and listed brewery, not proof of user attendance or beer tasted at either taproom.",
+          "sourceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF2020-Winners-List.pdf"
+        },
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — 11 best local breweries, taprooms, and beer halls",
+          "result": "editorial selection",
+          "recipient": "Lamplighter Brewing Co. (Broadway brewery with mention of Cambridge Crossing)",
+          "relationship": "Publisher editorial brewery/taproom selection; not a GABF medal, and does not establish personal visit date or branch.",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+        }
+      ]
     },
     {
       "id": "candidate-boston-brewery-dorchester-brewing",
@@ -11447,12 +11516,12 @@
         "candidate-boston-brewery-dorchester-brewing",
         "candidate-boston-brewery-mighty-squirrel"
       ],
-      "nextCandidateId": "candidate-boston-brewery-aeronaut-somerville",
+      "nextCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
       "nominationPolicy": "GABF, World Beer Cup, regional judged brewing medals, established local/national editorial best-of lists and preservation or architecture honors qualify as distinct evidence categories; keep medal, beer, brewery, year and site attribution precise.",
       "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
       "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
       "priorBostonInferredSites": 0,
-      "unansweredCandidates": 3,
+      "unansweredCandidates": 2,
       "futureExpansion": [
         "Tree House Brewing Company outside Boston proper",
         "Notch Brewing at Charles River Speedway",
@@ -11468,7 +11537,7 @@
         "Samuel Adams Boston Brewery (Jamaica Plain)",
         "Night Shift Brewing — Boston metro (brand level)"
       ],
-      "lastAnsweredCandidateId": "candidate-boston-brewery-night-shift",
+      "lastAnsweredCandidateId": "candidate-boston-brewery-aeronaut-somerville",
       "confirmedSiteNames": [
         "Harpoon Brewery & Beer Hall — 306 Northern Avenue"
       ],
@@ -11480,6 +11549,9 @@
           "answeredOn": "2026-11-03",
           "followUpToResume": "candidate-boston-brewery-aeronaut-somerville"
         }
+      ],
+      "uncertainCandidateIds": [
+        "candidate-boston-brewery-aeronaut-somerville"
       ]
     },
     "breweryBrandVisitArchive": {
@@ -11505,11 +11577,11 @@
       "area": "Boston",
       "category": "brewery_taprooms",
       "candidateNames": [
-        "Aeronaut Brewing Company"
+        "Lamplighter Brewing Co."
       ],
       "status": "awaiting_user_response",
-      "question": "Have you ever visited Aeronaut Brewing Company in the Greater Boston area? The original Somerville brewery is at 14 Tyler Street, with communal tables, hanging cloud art, live music and a scientific theme. Answer for Aeronaut brand-level unless you confirm a precise venue.",
-      "continuation": "Show verifiable historical Somerville brewery photo cues from Massachusetts tourism and The Boston Calendar. Always offer four choices: Yes — visited, Maybe — looks familiar, No — never visited, No, but want to go. The Boston Globe 2026 editorial mention applies to Aeronaut; not a judged medal or proof of attendance. Continue to Lamplighter next."
+      "question": "Have you visited Lamplighter Brewing Co. in Cambridge? Original Broadway at 284 Broadway opened 2016; the bright split-level Cambridge Crossing site at 110 North First Street opened in February 2022. You can answer at brand level; no specific location or date inferred.",
+      "continuation": "Show separate official photos of Broadway main bar and Cambridge Crossing barrel room. Four buttons: Yes — visited, Maybe — looks familiar, No — never visited, No, but want to go. 2020 GABF Lazy Tiger silver (beer medal) and 2026 Boston Globe editorial selection should remain distinct. Continue Dorchester Brewing next."
     },
     "pausedBatches": [
       {
