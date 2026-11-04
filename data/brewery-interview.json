@@ -236,7 +236,7 @@
     "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
     "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
     "status": "active",
-    "currentCandidateId": "candidate-boston-brewery-aeronaut-somerville",
+    "currentCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
     "queue": [
       "candidate-boston-brewery-trillium-boston-metro",
       "candidate-boston-brewery-samuel-adams-jamaica-plain",
@@ -248,7 +248,7 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-night-shift",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-aeronaut-somerville",
     "lastWishlistCandidateId": "candidate-boston-brewery-night-shift",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)"
@@ -259,6 +259,18 @@
         "answer": "confirmed_brand_visit",
         "recordedOn": "2026-11-03"
       }
+    ],
+    "uncertainAnswers": [
+      {
+        "candidateId": "candidate-boston-brewery-aeronaut-somerville",
+        "status": "maybe_visited",
+        "userAnswer": "Maybe — looks familiar",
+        "answeredOn": "2026-11-03",
+        "siteVisited": null,
+        "visitDate": null,
+        "visitPeriod": null,
+        "note": "No confirmed brewery brand visit. Preserve Boston Globe 2026 brewery editorial recognition independently of attendance. Do not add to public visitor records."
+      }
     ]
   },
   "nextRegions": [
@@ -267,7 +279,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "I know I’ve been to Mighty Squirrel. Confirm at Boston metro brewery-brand level; exact taproom/date unknown; resume Aeronaut.",
+  "lastUserStatement": "Aeronaut Brewing Company: Maybe — looks familiar. Site/date unknown; not a confirmed visit. Continue Lamplighter.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
