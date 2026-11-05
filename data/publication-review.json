@@ -929,6 +929,22 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-kansas-city-jjs-restaurant-date-unknown",
+      "title": "JJ's Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-kansas-city-golden-ox-date-unknown",
+      "title": "Golden Ox",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
