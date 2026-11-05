@@ -248,8 +248,8 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-east-regiment-salem",
-    "lastWishlistCandidateId": "candidate-boston-brewery-east-regiment-salem",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-barrel-house-z-historic-weymouth",
+    "lastWishlistCandidateId": "candidate-boston-brewery-coastal-mass-beverly",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -274,7 +274,11 @@
       "Winter Hill Brewing Company — Somerville",
       "Distraction Brewing Co. — Roslindale",
       "True North Ale Company — Ipswich",
-      "East Regiment Beer Company — Salem"
+      "East Regiment Beer Company — Salem",
+      "Break Rock Brewing — Quincy Marina Bay",
+      "Medford Brewing Company — West Medford",
+      "Untold Brewing — Scituate historic schoolhouse",
+      "Coastal Mass. Brewing — Beverly (formerly Channel Marker)"
     ],
     "outOfOrderAnswers": [
       {
@@ -296,11 +300,11 @@
       }
     ],
     "nextFiveCandidates": [
-      "Break Rock Brewing — Quincy Marina Bay",
-      "Medford Brewing Company — West Medford",
-      "Untold Brewing — Historic Scituate Schoolhouse",
-      "Coastal Mass. Brewing — Beverly",
-      "Barrel House Z — Historic Weymouth"
+      "Hopothecary Ales Brewery & Kitchen — North Reading",
+      "Shovel Town Brewery — North Easton",
+      "7th Wave Brewing — Medfield",
+      "Start Line Brewing — Hopkinton",
+      "Arlington Brewing Company — beer gardens and pop-ups"
     ],
     "rapidFireRounds": [
       {
@@ -957,6 +961,176 @@
           }
         ],
         "policy": "Five explicitly unvisited, exact-site Boston-metro brewery experiences are private future wishes; no verified visit or year. Preserve source-scoped 2024 reader poll for Winter Hill, 2024 World Beer Cup silver and 2023 GABF gold for True North beer products, 2025 reader directory inclusions, and East Regiment non-award heritage article. No public visitor records for negative answers."
+      },
+      {
+        "id": "boston-breweries-rapidfire-2026-11-05-6",
+        "recordedOn": "2026-11-05",
+        "answers": [
+          {
+            "name": "Break Rock Brewing — Quincy Marina Bay",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "sourceQuote": "Break Rock Brewing — Quincy Marina Bay: Not visited — private future wishlist",
+            "wishlistLocation": {
+              "address": "534 Victory Road",
+              "neighborhood": "Marina Bay",
+              "city": "Quincy",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+                "result": "reader-featured venue",
+                "recipient": "Break Rock Brewing, Quincy",
+                "awardType": "community_reader_recommendation",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader recommendation in editorial guide, not a judged brewery medal, category winner, or user attendance."
+              },
+              {
+                "organization": "Visit Massachusetts",
+                "year": null,
+                "category": "Official state tourism business listing",
+                "result": "featured local business",
+                "recipient": "Break Rock Brewing Quincy Marina Bay",
+                "awardType": "destination_listing_not_award",
+                "sourceUrl": "https://www.visitma.com/business/16739/",
+                "relationship": "Public tourism listing supports waterfront location/photo only; not treated as an award."
+              }
+            ]
+          },
+          {
+            "name": "Medford Brewing Company — West Medford",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "sourceQuote": "Medford Brewing Company — West Medford: Not visited — private future wishlist",
+            "wishlistLocation": {
+              "address": "30 Harvard Avenue",
+              "city": "Medford",
+              "neighborhood": "West Medford",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+                "result": "reader-featured venue with comment",
+                "recipient": "Medford Brewing Company, 30 Harvard Avenue",
+                "awardType": "community_reader_recommendation",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader recommends neighborhood brewery and Rude Panda Imperial Porter; reader opinion not brewery medal, award win or personal visit."
+              }
+            ]
+          },
+          {
+            "name": "Untold Brewing — Scituate historic schoolhouse",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "sourceQuote": "Untold Brewing — Scituate historic schoolhouse: Not visited — private future wishlist",
+            "wishlistLocation": {
+              "address": "6 Old Country Way",
+              "city": "Scituate",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+                "result": "reader-featured venue with comment",
+                "recipient": "Untold Brewing, Scituate",
+                "awardType": "community_reader_recommendation",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Community recommendation, not an independently judged beer medal or personal visit."
+              },
+              {
+                "organization": "Massachusetts Brewers Guild",
+                "year": 2021,
+                "category": "Untold Brewery Reopens with More Breathing Room",
+                "result": "brewery heritage report",
+                "recipient": "Untold Brewing, historic schoolhouse",
+                "awardType": "non_award_industry_feature",
+                "sourceUrl": "https://www.massbrewersguild.org/news/2021/5/5/untold-brewery-reopens-this-friday-with-more-breathing-room",
+                "relationship": "Historical schoolhouse and brewery setting feature, not formal award."
+              }
+            ]
+          },
+          {
+            "name": "Coastal Mass. Brewing — Beverly (formerly Channel Marker)",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site_current_and_earlier_brand_name_alias",
+            "siteVisited": null,
+            "visitDate": null,
+            "sourceQuote": "Coastal Mass. Brewing (formerly Channel Marker) — Beverly: Not visited — private future wishlist",
+            "wishlistLocation": {
+              "address": "95 Rantoul Street",
+              "building": "Porter Mill",
+              "city": "Beverly",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "North Shore brewery guide — Coastal Mass. Brewing",
+                "result": "editorial featured local brewery",
+                "recipient": "Coastal Mass. Brewing, Beverly",
+                "awardType": "regional_editorial_guide_selection",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Editorial guide highlight; not a brewing medal, reader poll winner or proof of attendance."
+              },
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+                "result": "included in reader list",
+                "recipient": "Coastal Mass. Brewing, 95 Rantoul Street",
+                "awardType": "community_reader_directory_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Community curated list mention distinct from formal award."
+              }
+            ]
+          },
+          {
+            "name": "Barrel House Z — historic Weymouth",
+            "attendance": "not_visited",
+            "futureWishlist": false,
+            "historicalInterestOnly": true,
+            "siteVisited": null,
+            "visitDate": null,
+            "sourceQuote": "Barrel House Z — historic Weymouth (closed Feb 7 2026): Not visited — private historical interest only (permanently closed)",
+            "historicSite": "95 Woodrock Road, Weymouth, Massachusetts",
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+                "result": "reader-featured venue with comment",
+                "recipient": "Barrel House Z, 95 Woodrock Rd Weymouth",
+                "awardType": "community_reader_recommendation",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Historic 2025 reader recommendation, not a medal or formal trophy. Site closed on February 7, 2026."
+              }
+            ]
+          }
+        ],
+        "policy": "Four specified brewery sites are explicitly unvisited, saved as private actionable future wishes. Coastal Mass and predecessor Channel Marker share a single Beverly venue. Barrel House Z is closed as of Feb 7 2026 and belongs in private historical-interest archive, not active wishlist. No public visit candidates added for any negative response. Reader-guide, industry heritage and editorial non-award mentions are kept distinct from judged beer medals."
       }
     ],
     "historicalInterestOnly": [
@@ -1026,130 +1200,21 @@
           "quote": "Brato Brewhouse + Kitchen (historic Brighton, closed): No — private historical interest only; closed venue"
         },
         "notes": "Historical Brighton premises not visited. Do not create active future wish, do not infer visits elsewhere, exclude from public visitor collection and venue visit counts."
-      }
-    ],
-    "nextFiveVerifiedLeadSources": [
-      {
-        "id": "candidate-boston-brewery-break-rock-quincy",
-        "name": "Break Rock Brewing — Quincy Marina Bay",
-        "where": "534 Victory Road, Marina Bay boardwalk, Quincy, Massachusetts",
-        "scope": "exact_site",
-        "operatingStatus": "operating",
-        "website": "https://www.breakrockbrewing.com/",
-        "recognitions": [
-          {
-            "organization": "Boston.com",
-            "year": 2025,
-            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
-            "result": "reader-featured venue",
-            "recipient": "Break Rock Brewing, Quincy",
-            "awardType": "community_reader_recommendation",
-            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader recommendation in editorial guide, not a judged brewery medal, category winner, or user attendance."
-          },
-          {
-            "organization": "Visit Massachusetts",
-            "year": null,
-            "category": "Official state tourism business listing",
-            "result": "featured local business",
-            "recipient": "Break Rock Brewing Quincy Marina Bay",
-            "awardType": "destination_listing_not_award",
-            "sourceUrl": "https://www.visitma.com/business/16739/",
-            "relationship": "Public tourism listing supports waterfront location/photo only; not treated as an award."
-          }
-        ],
-        "photoSource": "https://www.visitma.com/business/16739/"
       },
       {
-        "id": "candidate-boston-brewery-medford-brewing",
-        "name": "Medford Brewing Company — West Medford",
-        "where": "30 Harvard Avenue, Medford, Massachusetts",
-        "scope": "exact_site",
-        "operatingStatus": "operating",
-        "website": "https://medfordbrew.com/visit-us-2/",
-        "recognitions": [
-          {
-            "organization": "Boston.com",
-            "year": 2025,
-            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
-            "result": "reader-featured venue with comment",
-            "recipient": "Medford Brewing Company, 30 Harvard Avenue",
-            "awardType": "community_reader_recommendation",
-            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader recommends neighborhood brewery and Rude Panda Imperial Porter; reader opinion not brewery medal, award win or personal visit."
-          }
-        ],
-        "photoSource": "https://medfordbrew.com/visit-us-2/"
-      },
-      {
-        "id": "candidate-boston-brewery-untold-scituate",
-        "name": "Untold Brewing — Historic Scituate Schoolhouse",
-        "where": "6 Old Country Way, Scituate, Massachusetts",
-        "scope": "exact_site",
-        "operatingStatus": "operating",
-        "website": "https://www.untoldbrewing.com/scituate",
-        "recognitions": [
-          {
-            "organization": "Boston.com",
-            "year": 2025,
-            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
-            "result": "reader-featured venue with comment",
-            "recipient": "Untold Brewing, Scituate",
-            "awardType": "community_reader_recommendation",
-            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Community recommendation, not an independently judged beer medal or personal visit."
-          },
-          {
-            "organization": "Massachusetts Brewers Guild",
-            "year": 2021,
-            "category": "Untold Brewery Reopens with More Breathing Room",
-            "result": "brewery heritage report",
-            "recipient": "Untold Brewing, historic schoolhouse",
-            "awardType": "non_award_industry_feature",
-            "sourceUrl": "https://www.massbrewersguild.org/news/2021/5/5/untold-brewery-reopens-this-friday-with-more-breathing-room",
-            "relationship": "Historical schoolhouse and brewery setting feature, not formal award."
-          }
-        ],
-        "photoSource": "https://www.untoldbrewing.com/scituate"
-      },
-      {
-        "id": "candidate-boston-brewery-coastal-mass-beverly",
-        "name": "Coastal Mass. Brewing — Beverly",
-        "where": "95 Rantoul Street, Porter Mill, Beverly, Massachusetts",
-        "scope": "exact_site",
-        "operatingStatus": "operating",
-        "website": "https://coastalmassbrewing.com/",
-        "recognitions": [
-          {
-            "organization": "Northshore Magazine",
-            "year": 2026,
-            "category": "North Shore brewery guide — Coastal Mass. Brewing",
-            "result": "editorial featured local brewery",
-            "recipient": "Coastal Mass. Brewing, Beverly",
-            "awardType": "regional_editorial_guide_selection",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Editorial guide highlight; not a brewing medal, reader poll winner or proof of attendance."
-          },
-          {
-            "organization": "Boston.com",
-            "year": 2025,
-            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
-            "result": "included in reader list",
-            "recipient": "Coastal Mass. Brewing, 95 Rantoul Street",
-            "awardType": "community_reader_directory_listing",
-            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Community curated list mention distinct from formal award."
-          }
-        ],
-        "photoSource": "https://coastalmassbrewing.com/"
-      },
-      {
-        "id": "candidate-boston-brewery-barrel-house-z-historic-weymouth",
-        "name": "Barrel House Z — Historic Weymouth",
-        "where": "95 Woodrock Road, Weymouth, Massachusetts",
-        "scope": "exact_historical_site",
-        "operatingStatus": "permanently_closed_2026-02-07",
-        "website": null,
+        "id": "barrel-house-z-historic-weymouth-2026-11-05",
+        "name": "Barrel House Z — historic Weymouth",
+        "status": "not_visited",
+        "attendance": false,
+        "wantsToVisit": false,
+        "interest": "historical_interest_only",
+        "wishlistStatus": "historical_interest_only_closed_location",
+        "formerAddress": "95 Woodrock Road, Weymouth, Massachusetts",
+        "closedOn": "2026-02-07",
+        "closureEvidence": {
+          "sourceUrl": "https://www.boston25news.com/news/local/thats-wrap-popular-mass-brewery-closes-its-doors-after-nearly-decade/LNBZQCQKDVEQFJYWFY3E2HOPXM/",
+          "additionalSourceUrl": "https://www.bostonglobe.com/2026/02/12/business/weymouth-brewery-closed/"
+        },
         "recognitions": [
           {
             "organization": "Boston.com",
@@ -1162,12 +1227,155 @@
             "relationship": "Historic 2025 reader recommendation, not a medal or formal trophy. Site closed on February 7, 2026."
           }
         ],
-        "closureEvidence": {
-          "sourceUrl": "https://www.boston25news.com/news/local/thats-wrap-popular-mass-brewery-closes-its-doors-after-nearly-decade/LNBZQCQKDVEQFJYWFY3E2HOPXM/",
-          "closedOn": "2026-02-07",
-          "publishedOn": "2026-02-13"
+        "source": {
+          "type": "direct_user_response",
+          "date": "2026-11-05",
+          "quote": "Barrel House Z — historic Weymouth (closed Feb 7 2026): Not visited — private historical interest only (permanently closed)"
         },
-        "photoSource": "https://www.boston25news.com/news/local/thats-wrap-popular-mass-brewery-closes-its-doors-after-nearly-decade/LNBZQCQKDVEQFJYWFY3E2HOPXM/"
+        "notes": "Permanently closed historic Weymouth venue, user explicitly did not attend and wishes they had. Private historical interest only; no active wishlist or public visitor record. Previous 2025 reader list is not a judged brewing award."
+      }
+    ],
+    "nextFiveVerifiedLeadSources": [
+      {
+        "id": "candidate-boston-brewery-hopothecary-north-reading",
+        "name": "Hopothecary Ales Brewery & Kitchen — North Reading",
+        "where": "303 Main Street, North Reading, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://hopothecaryales.com/",
+        "recognitions": [
+          {
+            "organization": "Untappd Community Awards",
+            "year": 2024,
+            "category": "Highest-rated Hopfenweisse — United States",
+            "result": "gold / community rating award",
+            "recipient": "Hopothecary Ales — Suspension (Hopfenweisse)",
+            "product": "Suspension",
+            "awardType": "user_rating_based_beer_award",
+            "sourceUrl": "https://hopothecaryales.com/beers/",
+            "relationship": "2024 nationwide community beer-rating distinction (not judged WBC/GABF), specific to beer Suspension; not taproom winner or personal visit."
+          },
+          {
+            "organization": "Untappd Community Awards",
+            "year": 2026,
+            "category": "Highest-rated Hopfenweisse — United States",
+            "result": "gold / community rating award",
+            "recipient": "Hopothecary Ales — Suspension (Hopfenweisse)",
+            "product": "Suspension",
+            "awardType": "user_rating_based_beer_award",
+            "sourceUrl": "https://hopothecaryales.com/beers/",
+            "relationship": "Second nationwide community beer-rating distinction; same named beer, distinct year, not judged medal."
+          }
+        ],
+        "photoSource": "https://hopothecaryales.com/"
+      },
+      {
+        "id": "candidate-boston-brewery-shovel-town-north-easton",
+        "name": "Shovel Town Brewery — North Easton",
+        "where": "50 Oliver Street Rear, historic Ames Shovel Works, North Easton, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://www.shoveltownbrewery.com/",
+        "recognitions": [
+          {
+            "organization": "Untappd Community Awards",
+            "year": 2025,
+            "category": "Massachusetts — Cream Ale / Pumpkin-Yam Beer / Winter Warmer",
+            "result": "3 silvers in separate styles",
+            "recipient": "Shovel Town Brewery beer listings (individual product names not verified)",
+            "awardType": "user_rating_based_beer_award",
+            "sourceUrl": "https://awards.untappd.com/brewery/298774/",
+            "relationship": "Community-rating awards per beer/style; not judged GABF/WBC medals. The award page lists category and score, but product names have not been independently verified."
+          },
+          {
+            "organization": "Untappd Community Awards",
+            "year": 2025,
+            "category": "Massachusetts — English Blonde/Golden Ale",
+            "result": "bronze",
+            "recipient": "Shovel Town Brewery beer listing (name unverified)",
+            "awardType": "user_rating_based_beer_award",
+            "sourceUrl": "https://awards.untappd.com/brewery/298774/",
+            "relationship": "Separate community-rating award, not a taproom award."
+          }
+        ],
+        "heritageFeature": {
+          "organization": "Shovel Town Brewery",
+          "awardType": "historical_architecture_context_not_award",
+          "sourceUrl": "https://www.shoveltownbrewery.com/about-us/",
+          "description": "Located in historic Ames Shovel Works manufacturing building; heritage is not a formal architecture prize."
+        },
+        "photoSource": "https://www.shoveltownbrewery.com/about-us/"
+      },
+      {
+        "id": "candidate-boston-brewery-seventh-wave-medfield",
+        "name": "7th Wave Brewing — Medfield",
+        "where": "120 North Meadows Road, Medfield, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://www.7thwavebrewing.com/",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Reader-recommended Massachusetts breweries",
+            "result": "included in statewide reader directory",
+            "recipient": "7th Wave Brewing, Medfield",
+            "awardType": "community_reader_directory_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader directory listing, not judged brewing award, winner, or evidence of personal attendance."
+          }
+        ],
+        "heritageFeature": {
+          "organization": "Medfield Employers and Merchants Organization",
+          "awardType": "sustainability_business_profile_not_award",
+          "sourceUrl": "https://www.medfieldmemo.org/member-directory/7th-wave-brewing",
+          "description": "Profiles solar array supplying more power than brewery uses; not a formal environmental award."
+        },
+        "photoSource": "https://www.7thwavebrewing.com/"
+      },
+      {
+        "id": "candidate-boston-brewery-start-line-hopkinton",
+        "name": "Start Line Brewing — Hopkinton",
+        "where": "151R Hayden Rowe Street, Hopkinton, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://www.startlinebrewing.com/home",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Reader-recommended Massachusetts breweries",
+            "result": "included with reader quote",
+            "recipient": "Start Line Brewing — Hopkinton",
+            "awardType": "community_reader_directory_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader pick specifically mentions Hop Load Hazy; not a medal, a verified tasting by user, or category winner."
+          }
+        ],
+        "photoSource": "https://www.startlinebrewing.com/home"
+      },
+      {
+        "id": "candidate-boston-brewery-arlington-popups",
+        "name": "Arlington Brewing Company — beer gardens and pop-ups",
+        "where": "Arlington, Massachusetts; event locations vary; 15 Ryder Street dedicated taproom still listed as forthcoming",
+        "scope": "brand_level_popups_not_unopened_permanent_taproom",
+        "status": "active_popups_permanent_venue_not_verified_open",
+        "website": "https://www.drinkarlingtonbeer.com/",
+        "recognitions": [
+          {
+            "organization": "World Beer Cup",
+            "year": 2026,
+            "category": "English Mild or Bitter",
+            "result": "gold medal",
+            "recipient": "Arlington Brewing Company",
+            "product": "Trafford Ale",
+            "awardType": "judged_beer_medal",
+            "sourceUrl": "https://www.drinkarlingtonbeer.com/trafford-wins-gold",
+            "relationship": "Gold won by named beer Trafford Ale, not the not-yet-verified-open 15 Ryder Street premises; brand and popup experience interview must not imply exact building visit."
+          }
+        ],
+        "photoSource": "https://www.millcafe.org/after-hours",
+        "permanentTaproomEvidence": "https://www.drinkarlingtonbeer.com/visit"
       }
     ]
   },
@@ -1177,7 +1385,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Boston brewery round 5: Cisco Seaport, Winter Hill Somerville, Distraction Roslindale, True North Ipswich, East Regiment Salem not visited, each requested as private future wishlist; exact venue where specified; no confirmed attendance or dates.",
+  "lastUserStatement": "Boston brewery Round 6: Break Rock Quincy, Medford Brewing West Medford, Untold Scituate schoolhouse and Coastal Mass / formerly Channel Marker Beverly explicitly not visited and wish to go; Barrel House Z historic Weymouth closed Feb 7 2026, explicitly not visited, historical interest only.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
