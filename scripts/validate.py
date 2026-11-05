@@ -604,8 +604,13 @@ assert "DOWNSTAIRS" in majestic["interviewCue"]
 assert any(r["title"] == "The Majestic Restaurant" and r["status"] == "confirmed" for r in records)
 rec_pier = next(c for c in candidates if c["name"] == "Rec Pier Chop House" and c["area"] == "Baltimore")
 assert rec_pier["visitStatus"] == "confirmed" and rec_pier["confirmedVisitId"] == "dining-rec-pier-chop-house-baltimore"
-assert not any(r["title"] == "Le Fou Frog" for r in records)
-assert not any(c["name"] == "Le Fou Frog" for c in candidates)
+# Le Fou Frog was explicitly confirmed by the user on November 5, 2026.
+# The earlier nonattendance guard is superseded by direct confirmation.
+le_fou_frog = next(r for r in records if r["title"] == "Le Fou Frog")
+assert le_fou_frog["status"] == "confirmed"
+assert le_fou_frog["visit"]["date"] is None
+assert le_fou_frog["visit"]["evidenceType"] == "direct_user_confirmation"
+assert le_fou_frog["curation"]["verifiedForPublication"] is False
 north_pond = next(c for c in candidates if c["name"] == "North Pond" and c["area"] == "Chicago")
 assert north_pond["visitStatus"] == "confirmed" and north_pond["confirmedVisitId"] == "dining-north-pond-chicago-2021"
 assert north_pond["userMemoryLead"]["identityConfirmed"] is True
