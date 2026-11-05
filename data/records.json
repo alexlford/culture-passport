@@ -1572,6 +1572,28 @@
       "sourceId": "brewery-site-cambridge-brewing-kendall-square",
       "venueScope": "The original historic Kendall Square pub, which closed in December 2024; brewery brand remains separate.",
       "locationAttribution": "User identified exact historic venue, but address and visit date have not been established."
+    },
+    {
+      "id": "venue-kansas-city-jjs-restaurant",
+      "name": "JJ's Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "location": null,
+      "sourceId": "kansas-city-baseline-jjs-restaurant",
+      "venueScope": "Kansas City named restaurant; exact visit date unknown",
+      "locationAttribution": "No precise GPS location asserted"
+    },
+    {
+      "id": "venue-kansas-city-golden-ox",
+      "name": "Golden Ox",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "location": null,
+      "sourceId": "kansas-city-baseline-golden-ox",
+      "venueScope": "Kansas City named restaurant; exact visit date unknown",
+      "locationAttribution": "No precise GPS location asserted"
     }
   ],
   "records": [
@@ -9571,6 +9593,123 @@
           "https://www.cambridgebrewingcompany.com/",
           "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/"
         ],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-kansas-city-jjs-restaurant-date-unknown",
+      "type": "dining",
+      "title": "JJ's Restaurant",
+      "venueId": "venue-kansas-city-jjs-restaurant",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed Kansas City restaurant visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation November 5, 2026: JJ's Restaurant — confirmed visited, date unknown.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_named_restaurant_date_unknown"
+      },
+      "summary": "Confirmed personal dining visit to JJ's Restaurant in Kansas City. Date, companions, dishes and occasion are not established.",
+      "memory": {
+        "headline": "A visit to JJ's Restaurant",
+        "teaser": "Confirmed Kansas City dining experience; date unknown.",
+        "story": "I visited JJ's Restaurant in Kansas City. I have not established the date, companions, meal or occasion. Its historic or culinary reputation is background context, not a claim about what happened during my visit.",
+        "period": "Kansas City visit · date unknown",
+        "source": "Direct user confirmation November 5, 2026."
+      },
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "category": "Outstanding Wine and Other Beverages Program",
+          "result": "semifinalist",
+          "recipient": "JJ's Restaurant (current Kansas City location)",
+          "awardFamily": "james_beard",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+          "relationship": "2025 venue beverage-program semifinalist recognition; visit date unknown and award timing relative to visit not established."
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist (venue beverage program, not a Michelin star or JBF win). Date relative to visit unknown."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": true,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": false,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_kansas_city_restaurant_visit_public_candidate",
+        "basis": "direct_user_attendance",
+        "note": "2025 JBF beverage-program semifinalist, not winner. User confirmed visit; public candidate still requires story approval."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "Explicit user confirmation; venue/date details and award attribution not inferred.",
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        ],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-kansas-city-golden-ox-date-unknown",
+      "type": "dining",
+      "title": "Golden Ox",
+      "venueId": "venue-kansas-city-golden-ox",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed Kansas City restaurant visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation November 5, 2026: Golden Ox — confirmed visited, date unknown.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_named_restaurant_date_unknown"
+      },
+      "summary": "Confirmed personal dining visit to Golden Ox in Kansas City. Date, companions, dishes and occasion are not established.",
+      "memory": {
+        "headline": "A visit to Golden Ox",
+        "teaser": "Confirmed Kansas City dining experience; date unknown.",
+        "story": "I visited Golden Ox in Kansas City. I have not established the date, companions, meal or occasion. Its historic or culinary reputation is background context, not a claim about what happened during my visit.",
+        "period": "Kansas City visit · date unknown",
+        "source": "Direct user confirmation November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No specific award verified for this personal visit; include as public visitor candidate regardless of awards."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_kansas_city_restaurant_visit_public_candidate",
+        "basis": "direct_user_attendance",
+        "note": "User confirmed restaurant visit, independent of awards; publication remains subject to review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_regardless_of_award",
+        "reason": "Explicit user confirmation; venue/date details and award attribution not inferred.",
+        "evidenceUrls": [],
         "reviewedOn": "2026-11-05",
         "verifiedForPublication": false
       }

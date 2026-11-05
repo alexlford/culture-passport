@@ -1247,30 +1247,6 @@
       "notes": "Explicit nonattendance and future intent only. No booking or date inferred."
     },
     {
-      "id": "want-to-visit-jjs-restaurant-kc",
-      "candidateId": "candidate-kc-jjs-restaurant",
-      "name": "JJ's Restaurant",
-      "category": "dining",
-      "status": "want_to_visit",
-      "visitStatus": "not_visited",
-      "addedOn": "2026-10-29",
-      "location": {
-        "address": "900 W. 48th Place, Suite 110",
-        "city": "Kansas City",
-        "region": "Missouri",
-        "country": "USA"
-      },
-      "website": "https://jjsrestaurantkc.com/",
-      "userNote": "Haven’t been — add to wishlist",
-      "source": {
-        "type": "direct_user_response",
-        "date": "2026-10-29",
-        "quote": "Haven’t been — add to wishlist"
-      },
-      "desiredVisitDate": null,
-      "notes": "Explicit nonattendance and future intent only; no booking or visit date."
-    },
-    {
       "id": "want-to-visit-green-dirt-on-oak",
       "candidateId": "candidate-kc-green-dirt-on-oak",
       "name": "Green Dirt on Oak",
@@ -3044,6 +3020,162 @@
         }
       ],
       "notes": "Same Beverly Porter Mill physical venue was formerly branded Channel Marker; user explicitly not visited under either name. Do not double count as two breweries. Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-kansas-city-the-belfry",
+      "name": "The Belfry",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kansas-city-the-belfry",
+      "venueScope": "kansas_city_metro_brand_or_named_venue",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Belfry: Not visited, add private future wishlist",
+        "context": "Kansas City selective baseline batch 1"
+      },
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private future wish. Research shortlist award context not automatically asserted as a venue award; source-scoped recognition requires verification before publication.",
+      "candidateId": "candidate-kc-the-belfry"
+    },
+    {
+      "id": "want-to-visit-kansas-city-gr-nauer",
+      "name": "Grünauer",
+      "category": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kansas-city-gr-nauer",
+      "venueScope": "kansas_city_metro_brand_or_named_venue",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Grünauer: Not visited, add private future wishlist",
+        "context": "Kansas City selective baseline batch 1"
+      },
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private future wish. Research shortlist award context not automatically asserted as a venue award; source-scoped recognition requires verification before publication.",
+      "candidateId": "candidate-kansas-city-gr-nauer"
+    },
+    {
+      "id": "want-to-visit-kansas-city-swordfish-toms",
+      "name": "Swordfish Tom's",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kansas-city-swordfish-toms",
+      "venueScope": "kansas_city_metro_brand_or_named_venue",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Swordfish Tom's: Not visited, add private future wishlist",
+        "context": "Kansas City selective baseline batch 1"
+      },
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private future wish. Research shortlist award context not automatically asserted as a venue award; source-scoped recognition requires verification before publication.",
+      "candidateId": "candidate-kansas-city-swordfish-toms"
+    },
+    {
+      "id": "want-to-visit-kansas-city-lonnies-reno-club",
+      "name": "Lonnie's Reno Club",
+      "category": "music_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kansas-city-lonnies-reno-club",
+      "venueScope": "kansas_city_metro_brand_or_named_venue",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Lonnie's Reno Club: Not visited, add private future wishlist",
+        "context": "Kansas City selective baseline batch 1"
+      },
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private future wish. Research shortlist award context not automatically asserted as a venue award; source-scoped recognition requires verification before publication.",
+      "candidateId": "candidate-kansas-city-lonnies-reno-club"
+    },
+    {
+      "id": "want-to-visit-kansas-city-novel-restaurant",
+      "name": "Novel Restaurant",
+      "category": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kansas-city-novel-restaurant",
+      "venueScope": "kansas_city_metro_brand_or_named_venue",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Novel Restaurant: Not visited, add private future wishlist",
+        "context": "Kansas City selective baseline batch 1"
+      },
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private future wish. Research shortlist award context not automatically asserted as a venue award; source-scoped recognition requires verification before publication.",
+      "candidateId": "candidate-kansas-city-novel-restaurant"
+    },
+    {
+      "id": "want-to-visit-kansas-city-the-savoy",
+      "name": "The Savoy",
+      "category": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kansas-city-the-savoy",
+      "venueScope": "kansas_city_metro_brand_or_named_venue",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Savoy: Not visited, add private future wishlist",
+        "context": "Kansas City selective baseline batch 1"
+      },
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private future wish. Research shortlist award context not automatically asserted as a venue award; source-scoped recognition requires verification before publication.",
+      "candidateId": "candidate-kansas-city-the-savoy"
     }
   ],
   "interviewConvention": {

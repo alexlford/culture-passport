@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "region": "Kansas City metro",
+  "recordedOn": "2026-11-05",
+  "batchId": "kansas-city-baseline-2026-11-05-batch1",
+  "answers": [
+    {
+      "name": "The Antler Room",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "Anjin",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "JJ's Restaurant",
+      "status": "confirmed_visited_date_unknown",
+      "date": null
+    },
+    {
+      "name": "The Belfry",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "Grünauer",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "Golden Ox",
+      "status": "confirmed_visited_date_unknown",
+      "date": null
+    },
+    {
+      "name": "Swordfish Tom's",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "Lonnie's Reno Club",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "Novel Restaurant",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "The Savoy",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    },
+    {
+      "name": "The Campground",
+      "status": "not_visited_private_future_wishlist",
+      "date": null
+    }
+  ],
+  "confirmedVisitorCandidateIds": [
+    "dining-kansas-city-jjs-restaurant-date-unknown",
+    "dining-kansas-city-golden-ox-date-unknown"
+  ],
+  "privateWishlistIds": [
+    "want-to-visit-kansas-city-the-antler-room",
+    "want-to-visit-kansas-city-anjin",
+    "want-to-visit-kansas-city-the-belfry",
+    "want-to-visit-kansas-city-gr-nauer",
+    "want-to-visit-kansas-city-swordfish-toms",
+    "want-to-visit-kansas-city-lonnies-reno-club",
+    "want-to-visit-kansas-city-novel-restaurant",
+    "want-to-visit-kansas-city-the-savoy",
+    "want-to-visit-kansas-city-the-campground"
+  ],
+  "nextPhase": "one_selective_historical_gap_batch_then_baltimore_dc",
+  "notes": "Two confirmed visits regardless of award; nine private future wishes; no fabricated attendance dates, venue awards or precise geocodes. Public candidate status does not bypass explicit story review."
+}

@@ -8501,7 +8501,7 @@
       "recognition": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist.",
       "recognitionYear": 2025,
       "awardFamily": "beard",
-      "visitStatus": "not_visited",
+      "visitStatus": "confirmed",
       "researchStatus": "official_recognition_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -8517,10 +8517,11 @@
         "verifiedAt": "2026-10-29",
         "note": "2025 program semifinalist, not winner; no transfer to earlier premises."
       },
-      "reviewedOn": "2026-10-29",
-      "reviewCertainty": "explicit",
-      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
-      "wishlistStatus": "want_to_visit"
+      "reviewedOn": "2026-11-05",
+      "reviewCertainty": "explicit_direct_user_confirmation",
+      "reviewSource": "Direct user confirmation November 5, 2026: JJ's Restaurant — Confirmed visited, date unknown. Supersedes earlier nonattendance response.",
+      "wishlistStatus": "not_applicable_confirmed_visit",
+      "confirmedVisitId": "dining-kansas-city-jjs-restaurant-date-unknown"
     },
     {
       "id": "candidate-kc-acre-parkville",
@@ -8601,10 +8602,12 @@
         "verifiedAt": "2026-10-29",
         "note": "Offsite named restaurant chef-team participation, not an award or a visit to the restaurant."
       },
-      "reviewedOn": "2026-10-29",
+      "reviewedOn": "2026-11-05",
       "reviewCertainty": "explicit",
-      "reviewSource": "Direct user answer: Haven’t been — skip",
-      "wishlistStatus": "not_requested"
+      "reviewSource": "Direct user answer November 5, 2026: The Belfry not visited, add private future wishlist.",
+      "wishlistStatus": "want_to_visit",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-kansas-city-the-belfry"
     },
     {
       "id": "candidate-kc-rozzelle-court",

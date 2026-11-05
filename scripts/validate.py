@@ -79,13 +79,18 @@ assert not any(r["title"] == "Fern Bar" for r in records)
 # Preserve explicit attendance and future-interest answers from the KC list interview.
 kc_wishlist_ids = {
     "candidate-kc-anjin-crossroads", "candidate-kc-the-campground",
-    "candidate-kc-jjs-restaurant", "candidate-kc-green-dirt-on-oak",
+    "candidate-kc-green-dirt-on-oak",
 }
 for cid in kc_wishlist_ids:
     assert next(c for c in candidates if c["id"] == cid)["visitStatus"] == "not_visited"
     wish = next(e for e in wishlist["entries"] if e["candidateId"] == cid)
     assert wish["visitStatus"] == "not_visited" and wish["status"] == "want_to_visit"
-for cid in ("candidate-kc-acre-parkville", "candidate-kc-the-belfry"):
+assert next(c for c in candidates if c["id"] == "candidate-kc-jjs-restaurant")["visitStatus"] == "confirmed"
+assert any(r["title"] == "JJ's Restaurant" and r["status"] == "confirmed" for r in records)
+assert not any(e["candidateId"] == "candidate-kc-jjs-restaurant" for e in wishlist["entries"])
+assert next(c for c in candidates if c["id"] == "candidate-kc-the-belfry")["visitStatus"] == "not_visited"
+assert any(e["candidateId"] == "candidate-kc-the-belfry" and e["status"] == "want_to_visit" for e in wishlist["entries"])
+for cid in ("candidate-kc-acre-parkville",):
     assert next(c for c in candidates if c["id"] == cid)["visitStatus"] == "not_visited"
     assert not any(e["candidateId"] == cid for e in wishlist["entries"])
 for cid in ("candidate-kansas-city-metro-lidia-s-kansas-city", "candidate-kc-rozzelle-court"):
