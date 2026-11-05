@@ -9622,29 +9622,42 @@
         "period": "Kansas City visit · date unknown",
         "source": "Direct user confirmation November 5, 2026."
       },
-      "recognitions": [],
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2025,
+          "category": "Outstanding Wine and Other Beverages Program",
+          "result": "semifinalist",
+          "recipient": "JJ's Restaurant (current Kansas City location)",
+          "awardFamily": "james_beard",
+          "sourceUrl": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+          "relationship": "2025 venue beverage-program semifinalist recognition; visit date unknown and award timing relative to visit not established."
+        }
+      ],
       "guide": {
         "distinction": "not_verified",
         "stars": 0,
         "sourceUrl": null,
-        "note": "No specific award verified for this personal visit; include as public visitor candidate regardless of awards."
+        "note": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist (venue beverage program, not a Michelin star or JBF win). Date relative to visit unknown."
       },
       "sourceUrl": null,
       "editorial": {
-        "awardQualified": false,
+        "awardQualified": true,
         "officialFeature": false,
         "featuredException": false,
-        "culturalSpotlight": true,
+        "culturalSpotlight": false,
         "publicInclusionRequested": true,
         "collection": "confirmed_kansas_city_restaurant_visit_public_candidate",
         "basis": "direct_user_attendance",
-        "note": "User confirmed restaurant visit, independent of awards; publication remains subject to review."
+        "note": "2025 JBF beverage-program semifinalist, not winner. User confirmed visit; public candidate still requires story approval."
       },
       "curation": {
         "status": "included_in_visitor_candidate_pending_story_review",
         "basis": "direct_user_attendance_regardless_of_award",
         "reason": "Explicit user confirmation; venue/date details and award attribution not inferred.",
-        "evidenceUrls": [],
+        "evidenceUrls": [
+          "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+        ],
         "reviewedOn": "2026-11-05",
         "verifiedForPublication": false
       }
