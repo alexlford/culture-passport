@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "purpose": "Interview leads only, not evidence of actual visit",
   "periods": {
     "Baltimore": "2018–2021",
@@ -10165,9 +10165,9 @@
       "recognition": "2020 Great American Beer Festival silver medal for Lazy Tiger (Experimental India Pale Ale), listed brewer Lamplighter Brewing Co., Cambridge, MA; distinct from 2026 Boston Globe Best of the Best editorial brewery selection. Neither proves a specific visit, branch, beer ordered or award at visit time.",
       "recognitionYear": 2020,
       "awardFamily": "great_american_beer_festival_and_local_editorial",
-      "visitStatus": "unreviewed",
-      "wantsToVisit": null,
-      "priority": "next",
+      "visitStatus": "not_visited",
+      "wantsToVisit": true,
+      "priority": "answered",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
       "sourceUrl": "https://lamplighterbrewing.com/pages/284-broadway-taproom",
@@ -10179,7 +10179,7 @@
         "https://lamplighterbrewing.com/"
       ],
       "interviewCue": "Original 284 Broadway Cambridge location opened fall 2016 in a former Metric Systems auto repair shop, Pepita coffee bar and front/back brewery rooms; CX taproom at 110 North First Street near Lechmere opened February 2022, barrel-aging space and broad windows. A yes can confirm brand only unless user specifies a branch.",
-      "siteScope": "Cambridge brewery brand; original Broadway and second Cambridge Crossing distinct, exact site only if user specifies",
+      "siteScope": "One Boston-metro brewery brand wishlist entry; no specific taproom selected.",
       "screening": {
         "status": "eligible_brewery_cultural_candidate_if_attended",
         "basis": "direct_award_or_editorial_evidence",
@@ -10189,7 +10189,7 @@
         "note": "2020 GABF Lazy Tiger experimental IPA silver is an official judged beer medal listed to Cambridge-based brewer. 2026 Boston Globe includes Lamplighter as a local brewery editorial selection. Neither establishes visit date or exact Cambridge taproom."
       },
       "eligibility": {
-        "status": "candidate_eligible_if_visited",
+        "status": "eligible_private_future_wishlist_not_a_visit",
         "basis": "brewing_award_or_curated_editorial_recognition",
         "reason": "Primary GABF 2020 Lazy Tiger beer medal plus 2026 Globe editorial brewery selection; separate evidence tiers with no personal attendance assumed.",
         "screenedOn": "2026-11-03",
@@ -10253,7 +10253,14 @@
           "relationship": "Publisher editorial brewery/taproom selection; not a GABF medal, and does not establish personal visit date or branch.",
           "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
         }
-      ]
+      ],
+      "wishlistEntryId": "want-to-visit-lamplighter-boston-metro",
+      "answerDate": "2026-11-05",
+      "userAnswer": "Want to go",
+      "attendanceEvidence": "Direct user response to visit question: Want to go. Not visited; private future wishlist.",
+      "confirmedVisitId": null,
+      "visitDate": null,
+      "siteVisited": null
     },
     {
       "id": "candidate-boston-brewery-dorchester-brewing",
@@ -10266,7 +10273,7 @@
       "awardFamily": "local_editorial_brewery_selection",
       "visitStatus": "unreviewed",
       "wantsToVisit": null,
-      "priority": "queued",
+      "priority": "next",
       "researchStatus": "official_venue_and_brewery_recognition_screened",
       "addedOn": "2026-11-03",
       "sourceUrl": "https://www.dorchesterbrewing.com/",
@@ -11516,12 +11523,12 @@
         "candidate-boston-brewery-dorchester-brewing",
         "candidate-boston-brewery-mighty-squirrel"
       ],
-      "nextCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
+      "nextCandidateId": "candidate-boston-brewery-dorchester-brewing",
       "nominationPolicy": "GABF, World Beer Cup, regional judged brewing medals, established local/national editorial best-of lists and preservation or architecture honors qualify as distinct evidence categories; keep medal, beer, brewery, year and site attribution precise.",
       "countingPolicy": "At first accept one brand-level brewery visit; if later user verifies specific distinct taprooms, retain separately as site-level memories without double-counting the brand in summary.",
       "photoPolicy": "Prefer official brewery pages and historically dated publication photography; only source-link image rights unverified; do not host or copy without permission.",
       "priorBostonInferredSites": 0,
-      "unansweredCandidates": 2,
+      "unansweredCandidates": 1,
       "futureExpansion": [
         "Tree House Brewing Company outside Boston proper",
         "Notch Brewing at Charles River Speedway",
@@ -11535,13 +11542,14 @@
       "lastConfirmedCandidateId": "candidate-boston-brewery-mighty-squirrel",
       "notVisitedWishlistNames": [
         "Samuel Adams Boston Brewery (Jamaica Plain)",
-        "Night Shift Brewing — Boston metro (brand level)"
+        "Night Shift Brewing — Boston metro (brand level)",
+        "Lamplighter Brewing Co. — Boston metro (brand level)"
       ],
-      "lastAnsweredCandidateId": "candidate-boston-brewery-aeronaut-somerville",
+      "lastAnsweredCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
       "confirmedSiteNames": [
         "Harpoon Brewery & Beer Hall — 306 Northern Avenue"
       ],
-      "lastWishlistCandidateId": "candidate-boston-brewery-night-shift",
+      "lastWishlistCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
       "outOfOrderConfirmations": [
         {
           "candidateId": "candidate-boston-brewery-mighty-squirrel",
@@ -11577,11 +11585,11 @@
       "area": "Boston",
       "category": "brewery_taprooms",
       "candidateNames": [
-        "Lamplighter Brewing Co."
+        "Dorchester Brewing Company"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Lamplighter Brewing Co. in Cambridge? Original Broadway at 284 Broadway opened 2016; the bright split-level Cambridge Crossing site at 110 North First Street opened in February 2022. You can answer at brand level; no specific location or date inferred.",
-      "continuation": "Show separate official photos of Broadway main bar and Cambridge Crossing barrel room. Four buttons: Yes — visited, Maybe — looks familiar, No — never visited, No, but want to go. 2020 GABF Lazy Tiger silver (beer medal) and 2026 Boston Globe editorial selection should remain distinct. Continue Dorchester Brewing next."
+      "question": "Have you visited Dorchester Brewing Company?",
+      "continuation": "Show real venue photos and four buttons. Preserve Boston Globe editorial recognition separately from judged beer medals. Mighty Squirrel already answered; do not repeat."
     },
     "pausedBatches": [
       {

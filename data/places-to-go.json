@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Places I'd like to go",
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "purpose": "Places Alex explicitly wants to visit, with future intent recorded separately from experience and award-watchlist ledgers.",
   "entries": [
     {
@@ -1790,6 +1790,54 @@
         }
       ],
       "notes": "Exactly one Greater Boston brewery-brand wishlist entry, explicit nonattendance and future interest only. No date, branch, reservation, previous order or personal visit asserted. Private wishlist excluded from public experience records."
+    },
+    {
+      "id": "want-to-visit-lamplighter-boston-metro",
+      "candidateId": "candidate-boston-brewery-lamplighter-cambridge",
+      "name": "Lamplighter Brewing Co. — Boston metro",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "lamplighter-brewing-boston-metro",
+      "location": {
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "Brand-level wishlist; no specific taproom selected."
+      },
+      "website": "https://lamplighterbrewing.com/",
+      "userNote": "Want to go",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Want to go"
+      },
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2020,
+          "category": "Experimental India Pale Ale",
+          "result": "silver medal",
+          "product": "Lazy Tiger",
+          "listedBrewer": "Lamplighter Brewing Co., Cambridge, MA",
+          "relationship": "Judged beer medal to Lazy Tiger and listed brewery, not proof of user attendance or beer tasted at either taproom.",
+          "sourceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF2020-Winners-List.pdf"
+        },
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — 11 best local breweries, taprooms, and beer halls",
+          "result": "editorial selection",
+          "recipient": "Lamplighter Brewing Co. (Broadway brewery with mention of Cambridge Crossing)",
+          "relationship": "Publisher editorial brewery/taproom selection; not a GABF medal, and does not establish personal visit date or branch.",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+        }
+      ],
+      "notes": "One private Boston-metro brand wishlist entry. No past attendance, site, date, or beer order implied."
     }
   ],
   "interviewConvention": {

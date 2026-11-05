@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Culture Passport — brewery experiences and historical interview",
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "purpose": "Brewery visits and Boston-area venue-by-venue interview; hospitality and beer awards recorded independently from the visit, without inferring a particular taproom, exact date or beer ordered.",
   "userDirective": "Interview Boston-area breweries and treat brewery visits as qualifying cultural-experience candidates alongside recognized pubs, with no Michelin/JBF-only gate.",
   "countingPolicy": {
@@ -236,7 +236,7 @@
     "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
     "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
     "status": "active",
-    "currentCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
+    "currentCandidateId": "candidate-boston-brewery-dorchester-brewing",
     "queue": [
       "candidate-boston-brewery-trillium-boston-metro",
       "candidate-boston-brewery-samuel-adams-jamaica-plain",
@@ -248,10 +248,11 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-aeronaut-somerville",
-    "lastWishlistCandidateId": "candidate-boston-brewery-night-shift",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
+    "lastWishlistCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
     "notVisitedWishlistBrands": [
-      "Night Shift Brewing (Greater Boston)"
+      "Night Shift Brewing (Greater Boston)",
+      "Lamplighter Brewing Co. (Greater Boston)"
     ],
     "outOfOrderAnswers": [
       {
@@ -279,7 +280,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Aeronaut Brewing Company: Maybe — looks familiar. Site/date unknown; not a confirmed visit. Continue Lamplighter.",
+  "lastUserStatement": "Lamplighter Brewing Co.: Want to go. Not visited; one private Boston-metro brand wishlist entry, no site selected. Continue Dorchester.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
