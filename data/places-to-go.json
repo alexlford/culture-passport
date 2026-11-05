@@ -1838,6 +1838,157 @@
         }
       ],
       "notes": "One private Boston-metro brand wishlist entry. No past attendance, site, date, or beer order implied."
+    },
+    {
+      "id": "want-to-visit-castle-island-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-castle-island-brewing-boston-metro",
+      "name": "Castle Island Brewing Co.",
+      "category": "brewery",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroArea": "Greater Boston, Massachusetts",
+      "location": {
+        "address": null,
+        "city": null,
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "visitDate": null,
+      "siteVisited": null,
+      "venueScope": "Boston metro brewery brand, specific location not selected",
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "result": "multiple medals including Bohemian Shine gold (Czech Pilsner)",
+          "sourceUrl": "https://www.castleislandbeer.com/about",
+          "relationship": "Product-level brewery recognition; visit is explicitly denied, no site inferred"
+        }
+      ],
+      "source": {
+        "type": "direct_user_confirmation",
+        "date": "2026-11-05",
+        "quote": "Castle Island Brewing: No — want to go",
+        "context": "Boston brewery rapid-fire round"
+      },
+      "userNote": "Want to go. I have not visited.",
+      "desiredVisitDate": null,
+      "notes": "Private actionable brewery wishlist only. Award evidence not evidence of personal attendance; don't expose future plans publicly."
+    },
+    {
+      "id": "want-to-visit-notch-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-notch-brewing-boston-metro",
+      "name": "Notch Brewing",
+      "category": "brewery",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroArea": "Greater Boston, Massachusetts",
+      "location": {
+        "address": null,
+        "city": null,
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "visitDate": null,
+      "siteVisited": null,
+      "venueScope": "Boston metro brewery brand, specific location not selected",
+      "recognitions": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2022,
+          "category": "Best of Boston — Best Brewery",
+          "result": "winner",
+          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/award/brewery/",
+          "relationship": "Editorial recognition for brewery brand, separate from attendance"
+        }
+      ],
+      "source": {
+        "type": "direct_user_confirmation",
+        "date": "2026-11-05",
+        "quote": "Notch Brewing: No — want to go",
+        "context": "Boston brewery rapid-fire round"
+      },
+      "userNote": "Want to go. I have not visited.",
+      "desiredVisitDate": null,
+      "notes": "Private actionable brewery wishlist only. Award evidence not evidence of personal attendance; don't expose future plans publicly."
+    },
+    {
+      "id": "want-to-visit-idle-hands-craft-ales-boston-metro",
+      "candidateId": "candidate-boston-brewery-idle-hands-craft-ales-boston-metro",
+      "name": "Idle Hands Craft Ales",
+      "category": "brewery",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroArea": "Greater Boston, Massachusetts",
+      "location": {
+        "address": null,
+        "city": null,
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "visitDate": null,
+      "siteVisited": null,
+      "venueScope": "Boston metro brewery brand, specific location not selected",
+      "recognitions": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2020,
+          "category": "Best of Boston — Best Brewery",
+          "result": "winner",
+          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston/dining/?bestof_search=idle",
+          "relationship": "Editorial recognition, not a beer medal or visit evidence"
+        }
+      ],
+      "source": {
+        "type": "direct_user_confirmation",
+        "date": "2026-11-05",
+        "quote": "Idle Hands Craft Ales: No — want to go",
+        "context": "Boston brewery rapid-fire round"
+      },
+      "userNote": "Want to go. I have not visited.",
+      "desiredVisitDate": null,
+      "notes": "Private actionable brewery wishlist only. Award evidence not evidence of personal attendance; don't expose future plans publicly."
+    },
+    {
+      "id": "want-to-visit-jacks-abby-craft-lagers-boston-metro",
+      "candidateId": "candidate-boston-brewery-jacks-abby-craft-lagers-boston-metro",
+      "name": "Jack's Abby Craft Lagers",
+      "category": "brewery",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroArea": "Greater Boston, Massachusetts",
+      "location": {
+        "address": null,
+        "city": null,
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "visitDate": null,
+      "siteVisited": null,
+      "venueScope": "Boston metro brewery brand, specific location not selected",
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2026,
+          "category": "Hoppy Lager",
+          "product": "Modern IPA",
+          "result": "bronze medal",
+          "sourceUrl": "https://jacksabby.com/modern-ipa-wins-bronze-at-the-2026-world-beer-cup/",
+          "relationship": "Judged medal belongs to beer/brewery, not attendance at any site"
+        }
+      ],
+      "source": {
+        "type": "direct_user_confirmation",
+        "date": "2026-11-05",
+        "quote": "Jack's Abby Craft Lagers: No — want to go",
+        "context": "Boston brewery rapid-fire round"
+      },
+      "userNote": "Want to go. I have not visited.",
+      "desiredVisitDate": null,
+      "notes": "Private actionable brewery wishlist only. Award evidence not evidence of personal attendance; don't expose future plans publicly."
     }
   ],
   "interviewConvention": {
