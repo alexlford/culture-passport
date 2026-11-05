@@ -215,7 +215,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -482,7 +482,7 @@ assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
 assert cafe_leon["addressHint"].startswith("2929 O'Donnell Street")
 assert len(cafe_leon["photographicEvidence"]) >= 2
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
 assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
@@ -1736,7 +1736,7 @@ assert len(harpoon["photographicEvidence"]) >= 2
 assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_only"
            and p["sourceUrl"].startswith("https://") for p in harpoon["photographicEvidence"])
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon"]
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
            for x in interview_data["interviewProgress"]["pausedBatches"])
