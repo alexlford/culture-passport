@@ -2833,6 +2833,217 @@
         }
       ],
       "notes": " Private future wishlist only, not a confirmed experience or public visitor record. Editorial and reader guide recognition does not imply a judged medal or personal visit. Awards to individual beer products remain attributed to those beers."
+    },
+    {
+      "id": "want-to-visit-break-rock-brewing-quincy-marina-bay",
+      "candidateId": "candidate-boston-brewery-break-rock-quincy",
+      "name": "Break Rock Brewing — Quincy Marina Bay",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "break-rock-brewing-quincy-marina-bay",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "534 Victory Road",
+        "neighborhood": "Marina Bay",
+        "city": "Quincy",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.breakrockbrewing.com/",
+      "operatingStatus": "operating",
+      "aliases": [],
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Break Rock Brewing — Quincy Marina Bay: Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 6"
+      },
+      "userNote": "Unvisited exact venue; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+          "result": "reader-featured venue",
+          "recipient": "Break Rock Brewing, Quincy",
+          "awardType": "community_reader_recommendation",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader recommendation in editorial guide, not a judged brewery medal, category winner, or user attendance."
+        },
+        {
+          "organization": "Visit Massachusetts",
+          "year": null,
+          "category": "Official state tourism business listing",
+          "result": "featured local business",
+          "recipient": "Break Rock Brewing Quincy Marina Bay",
+          "awardType": "destination_listing_not_award",
+          "sourceUrl": "https://www.visitma.com/business/16739/",
+          "relationship": "Public tourism listing supports waterfront location/photo only; not treated as an award."
+        }
+      ],
+      "notes": " Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-medford-brewing-west-medford",
+      "candidateId": "candidate-boston-brewery-medford-brewing",
+      "name": "Medford Brewing Company — West Medford",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "medford-brewing-west-medford",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "30 Harvard Avenue",
+        "city": "Medford",
+        "neighborhood": "West Medford",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://medfordbrew.com/visit-us-2/",
+      "operatingStatus": "operating",
+      "aliases": [],
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Medford Brewing Company — West Medford: Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 6"
+      },
+      "userNote": "Unvisited exact venue; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+          "result": "reader-featured venue with comment",
+          "recipient": "Medford Brewing Company, 30 Harvard Avenue",
+          "awardType": "community_reader_recommendation",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader recommends neighborhood brewery and Rude Panda Imperial Porter; reader opinion not brewery medal, award win or personal visit."
+        }
+      ],
+      "notes": " Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-untold-brewing-scituate-schoolhouse",
+      "candidateId": "candidate-boston-brewery-untold-scituate",
+      "name": "Untold Brewing — Scituate historic schoolhouse",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "untold-brewing-scituate-schoolhouse",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "6 Old Country Way",
+        "city": "Scituate",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.untoldbrewing.com/scituate",
+      "operatingStatus": "operating",
+      "aliases": [],
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Untold Brewing — Scituate historic schoolhouse: Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 6"
+      },
+      "userNote": "Unvisited exact venue; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+          "result": "reader-featured venue with comment",
+          "recipient": "Untold Brewing, Scituate",
+          "awardType": "community_reader_recommendation",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Community recommendation, not an independently judged beer medal or personal visit."
+        },
+        {
+          "organization": "Massachusetts Brewers Guild",
+          "year": 2021,
+          "category": "Untold Brewery Reopens with More Breathing Room",
+          "result": "brewery heritage report",
+          "recipient": "Untold Brewing, historic schoolhouse",
+          "awardType": "non_award_industry_feature",
+          "sourceUrl": "https://www.massbrewersguild.org/news/2021/5/5/untold-brewery-reopens-this-friday-with-more-breathing-room",
+          "relationship": "Historical schoolhouse and brewery setting feature, not formal award."
+        }
+      ],
+      "notes": " Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-coastal-mass-brewing-beverly",
+      "candidateId": "candidate-boston-brewery-coastal-mass-beverly",
+      "name": "Coastal Mass. Brewing — Beverly (formerly Channel Marker)",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "coastal-mass-brewing-beverly",
+      "venueScope": "exact_site_current_and_earlier_brand_name_alias",
+      "location": {
+        "address": "95 Rantoul Street",
+        "building": "Porter Mill",
+        "city": "Beverly",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://coastalmassbrewing.com/",
+      "operatingStatus": "operating",
+      "aliases": [
+        "Channel Marker Brewing"
+      ],
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Coastal Mass. Brewing (formerly Channel Marker) — Beverly: Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 6"
+      },
+      "userNote": "Unvisited exact venue; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "North Shore brewery guide — Coastal Mass. Brewing",
+          "result": "editorial featured local brewery",
+          "recipient": "Coastal Mass. Brewing, Beverly",
+          "awardType": "regional_editorial_guide_selection",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Editorial guide highlight; not a brewing medal, reader poll winner or proof of attendance."
+        },
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+          "result": "included in reader list",
+          "recipient": "Coastal Mass. Brewing, 95 Rantoul Street",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Community curated list mention distinct from formal award."
+        }
+      ],
+      "notes": "Same Beverly Porter Mill physical venue was formerly branded Channel Marker; user explicitly not visited under either name. Do not double count as two breweries. Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
     }
   ],
   "interviewConvention": {
