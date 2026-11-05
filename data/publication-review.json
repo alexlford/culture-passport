@@ -921,6 +921,14 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "bar-cambridge-brewing-company-kendall-square-date-unknown",
+      "title": "Cambridge Brewing Company — Kendall Square",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
