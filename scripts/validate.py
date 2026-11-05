@@ -483,7 +483,7 @@ assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinal
 assert cafe_leon["addressHint"].startswith("2929 O'Donnell Street")
 assert len(cafe_leon["photographicEvidence"]) >= 2
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island"
 assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
 # Room 39 is one metro-brand wish, not a confirmed meal or multiple branch wishes.
@@ -1735,7 +1735,7 @@ assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_
 assert len(harpoon["photographicEvidence"]) >= 2
 assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_only"
            and p["sourceUrl"].startswith("https://") for p in harpoon["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island"
 assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon"]
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
