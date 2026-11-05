@@ -1591,7 +1591,7 @@ assert all(x["status"] == "confirmed_brewery_brand_visit" and x["locationStatus"
            and x["siteVisited"] is None and x["visitDate"] is None and x["visitPeriod"] is None
            for x in brand_visits)
 # The user expressly requests every direct visit in the public candidate collection.
-public_brewery_visits = [r for r in records if r.get("editorial",{}).get("publicInclusionRequested")]
+public_brewery_visits = [r for r in records if r["type"] == "bar" and r.get("editorial",{}).get("publicInclusionRequested")]
 site_visits = brewery.get("confirmedSiteVisits", [])
 assert len(site_visits) == 2
 assert {v["id"] for v in site_visits} == {"brewery-site-harpoon-seaport", "brewery-site-cambridge-brewing-kendall-square"}
