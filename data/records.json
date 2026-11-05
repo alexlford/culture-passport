@@ -1572,6 +1572,127 @@
       "sourceId": "brewery-site-cambridge-brewing-kendall-square",
       "venueScope": "The original historic Kendall Square pub, which closed in December 2024; brewery brand remains separate.",
       "locationAttribution": "User identified exact historic venue, but address and visit date have not been established."
+    },
+    {
+      "id": "venue-jj-s-restaurant-kansas-city",
+      "name": "JJ's Restaurant",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "jj-s-restaurant"
+    },
+    {
+      "id": "venue-golden-ox-kansas-city",
+      "name": "Golden Ox",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "golden-ox"
+    },
+    {
+      "id": "venue-le-fou-frog-kansas-city",
+      "name": "Le Fou Frog",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "le-fou-frog"
+    },
+    {
+      "id": "venue-the-classic-cup-cafe-kansas-city",
+      "name": "The Classic Cup Café",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "the-classic-cup-cafe"
+    },
+    {
+      "id": "venue-the-green-lady-lounge-kansas-city",
+      "name": "The Green Lady Lounge",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "the-green-lady-lounge"
+    },
+    {
+      "id": "venue-the-ship-kansas-city",
+      "name": "The Ship",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "the-ship"
+    },
+    {
+      "id": "venue-the-quaff-kansas-city",
+      "name": "The Quaff",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "the-quaff"
+    },
+    {
+      "id": "venue-la-cuchara-baltimore",
+      "name": "La Cuchara",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "la-cuchara"
+    },
+    {
+      "id": "venue-the-elk-room-baltimore",
+      "name": "The Elk Room",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "the-elk-room"
+    },
+    {
+      "id": "venue-the-bluebird-cocktail-room-baltimore",
+      "name": "The Bluebird Cocktail Room",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "the-bluebird-cocktail-room"
+    },
+    {
+      "id": "venue-peter-s-inn-baltimore",
+      "name": "Peter's Inn",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "USA",
+      "address": null,
+      "neighborhood": null,
+      "location": null,
+      "sourceId": "peter-s-inn"
     }
   ],
   "records": [
@@ -9571,6 +9692,589 @@
           "https://www.cambridgebrewingcompany.com/",
           "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/"
         ],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-jj-s-restaurant-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "JJ's Restaurant",
+      "venueId": "venue-jj-s-restaurant-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-major-baseline-1, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to JJ's Restaurant in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to JJ's Restaurant",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting JJ's Restaurant in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-golden-ox-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "Golden Ox",
+      "venueId": "venue-golden-ox-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-major-baseline-1, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to Golden Ox in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to Golden Ox",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting Golden Ox in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-le-fou-frog-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "Le Fou Frog",
+      "venueId": "venue-le-fou-frog-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-final-historical-gap, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to Le Fou Frog in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to Le Fou Frog",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting Le Fou Frog in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-the-classic-cup-cafe-kansas-city-date-unknown",
+      "type": "dining",
+      "title": "The Classic Cup Café",
+      "venueId": "venue-the-classic-cup-cafe-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-final-historical-gap, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to The Classic Cup Café in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to The Classic Cup Café",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting The Classic Cup Café in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-the-green-lady-lounge-kansas-city-date-unknown",
+      "type": "bar",
+      "title": "The Green Lady Lounge",
+      "venueId": "venue-the-green-lady-lounge-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-final-historical-gap, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to The Green Lady Lounge in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to The Green Lady Lounge",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting The Green Lady Lounge in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-the-ship-kansas-city-date-unknown",
+      "type": "bar",
+      "title": "The Ship",
+      "venueId": "venue-the-ship-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-final-historical-gap, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to The Ship in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to The Ship",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting The Ship in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-the-quaff-kansas-city-date-unknown",
+      "type": "bar",
+      "title": "The Quaff",
+      "venueId": "venue-the-quaff-kansas-city",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Kansas City kc-final-historical-gap, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to The Quaff in Kansas City; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to The Quaff",
+        "teaser": "Confirmed visit in Kansas City; the date remains unknown.",
+        "story": "I confirmed visiting The Quaff in Kansas City. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-la-cuchara-baltimore-date-unknown",
+      "type": "dining",
+      "title": "La Cuchara",
+      "venueId": "venue-la-cuchara-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Baltimore/DC baltimore-dc-selective-1, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to La Cuchara in Baltimore; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to La Cuchara",
+        "teaser": "Confirmed visit in Baltimore; the date remains unknown.",
+        "story": "I confirmed visiting La Cuchara in Baltimore. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-the-elk-room-baltimore-date-unknown",
+      "type": "bar",
+      "title": "The Elk Room",
+      "venueId": "venue-the-elk-room-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Baltimore/DC baltimore-dc-selective-1, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to The Elk Room in Baltimore; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to The Elk Room",
+        "teaser": "Confirmed visit in Baltimore; the date remains unknown.",
+        "story": "I confirmed visiting The Elk Room in Baltimore. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-the-bluebird-cocktail-room-baltimore-date-unknown",
+      "type": "bar",
+      "title": "The Bluebird Cocktail Room",
+      "venueId": "venue-the-bluebird-cocktail-room-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Baltimore/DC baltimore-dc-selective-1, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to The Bluebird Cocktail Room in Baltimore; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to The Bluebird Cocktail Room",
+        "teaser": "Confirmed visit in Baltimore; the date remains unknown.",
+        "story": "I confirmed visiting The Bluebird Cocktail Room in Baltimore. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-peter-s-inn-baltimore-date-unknown",
+      "type": "dining",
+      "title": "Peter's Inn",
+      "venueId": "venue-peter-s-inn-baltimore",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed visit · exact date unknown",
+        "precision": "unknown",
+        "source": "Direct user confirmation, Culture Passport Baltimore/DC baltimore-dc-selective-1, November 5, 2026.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_venue_visit_date_unknown",
+        "actualVisitDate": null
+      },
+      "summary": "Confirmed visit to Peter's Inn in Baltimore; exact date, meal or drinks, and companions not established.",
+      "memory": {
+        "headline": "A visit to Peter's Inn",
+        "teaser": "Confirmed visit in Baltimore; the date remains unknown.",
+        "story": "I confirmed visiting Peter's Inn in Baltimore. I have not established when I went, what I ordered, or who accompanied me.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation, November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin/James Beard or other venue award claimed without separately verified attribution."
+      },
+      "sourceUrl": null,
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_culture_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Public visitor candidate regardless of awards; publishing story remains gated by separate review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_confirmation",
+        "reason": "Explicitly confirmed attendance; date unknown; no unverified award attribution.",
+        "evidenceUrls": [],
         "reviewedOn": "2026-11-05",
         "verifiedForPublication": false
       }

@@ -3044,6 +3044,578 @@
         }
       ],
       "notes": "Same Beverly Porter Mill physical venue was formerly branded Channel Marker; user explicitly not visited under either name. Do not double count as two breweries. Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-the-antler-room-kansas-city",
+      "candidateId": "candidate-the-antler-room-kansas-city",
+      "name": "The Antler Room",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-antler-room-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Antler Room: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-anjin-kansas-city",
+      "candidateId": "candidate-anjin-kansas-city",
+      "name": "Anjin",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "anjin-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Anjin: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-the-belfry-kansas-city",
+      "candidateId": "candidate-the-belfry-kansas-city",
+      "name": "The Belfry",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-belfry-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Belfry: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-grunauer-kansas-city",
+      "candidateId": "candidate-grunauer-kansas-city",
+      "name": "Grünauer",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "grunauer-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Grünauer: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-swordfish-tom-s-kansas-city",
+      "candidateId": "candidate-swordfish-tom-s-kansas-city",
+      "name": "Swordfish Tom's",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "swordfish-tom-s-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Swordfish Tom's: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-lonnie-s-reno-club-kansas-city",
+      "candidateId": "candidate-lonnie-s-reno-club-kansas-city",
+      "name": "Lonnie's Reno Club",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "lonnie-s-reno-club-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Lonnie's Reno Club: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-novel-restaurant-kansas-city",
+      "candidateId": "candidate-novel-restaurant-kansas-city",
+      "name": "Novel Restaurant",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "novel-restaurant-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Novel Restaurant: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-the-savoy-kansas-city",
+      "candidateId": "candidate-the-savoy-kansas-city",
+      "name": "The Savoy",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-savoy-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Savoy: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-the-campground-kansas-city",
+      "candidateId": "candidate-the-campground-kansas-city",
+      "name": "The Campground",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-campground-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Campground: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-major-baseline-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-the-capital-grille-country-club-plaza-kansas-city",
+      "candidateId": "candidate-the-capital-grille-country-club-plaza-kansas-city",
+      "name": "The Capital Grille — Country Club Plaza",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-capital-grille-country-club-plaza-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Capital Grille — Country Club Plaza: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-final-historical-gap"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-the-phoenix-kansas-city",
+      "candidateId": "candidate-the-phoenix-kansas-city",
+      "name": "The Phoenix",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-phoenix-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Phoenix: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-final-historical-gap"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-the-bristol-power-light-kansas-city",
+      "candidateId": "candidate-the-bristol-power-light-kansas-city",
+      "name": "The Bristol — Power & Light",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "the-bristol-power-light-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Bristol — Power & Light: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-final-historical-gap"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-cafe-provence-prairie-village-kansas-city",
+      "candidateId": "candidate-cafe-provence-prairie-village-kansas-city",
+      "name": "Cafe Provence — Prairie Village",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "cafe-provence-prairie-village-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Cafe Provence — Prairie Village: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-final-historical-gap"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-andre-s-confiserie-suisse-kansas-city",
+      "candidateId": "candidate-andre-s-confiserie-suisse-kansas-city",
+      "name": "André's Confiserie Suisse",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "andre-s-confiserie-suisse-kansas-city",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Kansas City"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "André's Confiserie Suisse: Not visited; add private future wishlist",
+        "context": "Culture Passport kc-final-historical-gap"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-clavel-baltimore-dc",
+      "candidateId": "candidate-clavel-baltimore-dc",
+      "name": "Clavel",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "clavel-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Clavel: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-alma-cocina-latina-baltimore-dc",
+      "candidateId": "candidate-alma-cocina-latina-baltimore-dc",
+      "name": "Alma Cocina Latina",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "alma-cocina-latina-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Alma Cocina Latina: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-magdalena-baltimore-dc",
+      "candidateId": "candidate-magdalena-baltimore-dc",
+      "name": "Magdalena",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "magdalena-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Magdalena: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-foraged-baltimore-dc",
+      "candidateId": "candidate-foraged-baltimore-dc",
+      "name": "Foraged",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "foraged-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Foraged: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-cinghiale-baltimore-dc",
+      "candidateId": "candidate-cinghiale-baltimore-dc",
+      "name": "Cinghiale",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "cinghiale-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Cinghiale: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-dutch-courage-baltimore-dc",
+      "candidateId": "candidate-dutch-courage-baltimore-dc",
+      "name": "Dutch Courage",
+      "category": "bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "dutch-courage-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Dutch Courage: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-minibar-by-jose-andres-baltimore-dc",
+      "candidateId": "candidate-minibar-by-jose-andres-baltimore-dc",
+      "name": "minibar by José Andrés",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "minibar-by-jose-andres-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "minibar by José Andrés: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
+    },
+    {
+      "id": "want-to-visit-toki-underground-baltimore-dc",
+      "candidateId": "candidate-toki-underground-baltimore-dc",
+      "name": "Toki Underground",
+      "category": "dining",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "toki-underground-baltimore-dc",
+      "venueScope": "named_venue",
+      "location": {
+        "metro": "Baltimore/DC"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Toki Underground: Not visited; add private future wishlist",
+        "context": "Culture Passport baltimore-dc-selective-1"
+      },
+      "userNote": "Not visited; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist only; no personal visit, date, or unverified award claimed."
     }
   ],
   "interviewConvention": {
