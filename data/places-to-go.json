@@ -2185,6 +2185,187 @@
       ],
       "operatingStatus": "operating",
       "notes": "Private future wish only; excluded from public visitor data and total visits. Awards belong to beer product, named submitting brewery or editorial venue as individually indicated; none is proof of attendance."
+    },
+    {
+      "id": "want-to-visit-remnant-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-remnant-brewing-boston-metro",
+      "name": "Remnant Brewing",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "remnant-brewing-boston-metro",
+      "venueScope": "brand_level",
+      "location": {
+        "address": null,
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "addressNote": "Potential Bow Market Somerville or Satellite Cambridge venue; no exact future taproom selected."
+      },
+      "website": "https://www.remnantsomerville.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Remnant Brewing (Greater Boston brand): No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 3"
+      },
+      "userNote": "Not visited; want to go",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — best breweries in Boston, Cambridge and Somerville",
+          "result": "editorial selection",
+          "recipient": "Remnant Brewing — Bow Market, Somerville",
+          "awardType": "local_editorial_selection",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "relationship": "Specific published taproom is the Bow Market site; user's desired destination remains Greater Boston brewery brand. This editorial recognition is not a judged brewing medal or user-attendance proof."
+        },
+        {
+          "organization": "Boston Magazine",
+          "year": 2025,
+          "category": "Best of Boston Readers' Poll — Best Brewery",
+          "result": "runner-up",
+          "recipient": "Remnant Brewing — 2 Bow Market Way",
+          "awardType": "reader_poll_runner_up",
+          "sourceUrl": "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/",
+          "relationship": "Reader poll runner-up, not a winner or beer medal; brand wish does not establish preferred exact site."
+        }
+      ],
+      "notes": "Private future wishlist; no actual user visit. Editorial awards and judged beer medals recorded with distinct scope; no visit date or personal beer order inferred."
+    },
+    {
+      "id": "want-to-visit-long-live-beerworks-roxbury",
+      "candidateId": "candidate-boston-brewery-long-live-beerworks-roxbury",
+      "name": "Long Live Beerworks — Roxbury",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "long-live-beerworks-roxbury",
+      "venueScope": "exact_venue",
+      "location": {
+        "address": "152 Hampden Street",
+        "city": "Boston",
+        "neighborhood": "Roxbury",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.longlivebeerworks.com/boston",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Long Live Beerworks (Roxbury Boston taproom): No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 3"
+      },
+      "userNote": "Not visited; want to go",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — best breweries in Boston, Cambridge and Somerville",
+          "result": "editorial selection",
+          "recipient": "Long Live Roxbury — 152 Hampden Street, Boston",
+          "awardType": "local_editorial_selection",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "relationship": "This is the exact Boston location the user marked not visited. This editorial recognition is not a judged brewing medal or user-attendance proof."
+        }
+      ],
+      "notes": "Private future wishlist; no actual user visit. Editorial awards and judged beer medals recorded with distinct scope; no visit date or personal beer order inferred."
+    },
+    {
+      "id": "want-to-visit-portico-brewing-somerville",
+      "candidateId": "candidate-boston-brewery-portico-brewing-somerville",
+      "name": "Portico Brewing",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "portico-brewing-somerville",
+      "venueScope": "exact_venue",
+      "location": {
+        "address": "101 South Street",
+        "city": "Somerville",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://porticobrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Portico Brewing (Somerville): No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 3"
+      },
+      "userNote": "Not visited; want to go",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — best breweries in Boston, Cambridge and Somerville",
+          "result": "editorial selection",
+          "recipient": "Portico Brewing — 101 South Street, Somerville",
+          "awardType": "local_editorial_selection",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "relationship": "This is the exact Somerville taproom the user marked not visited. This editorial recognition is not a judged brewing medal or user-attendance proof."
+        }
+      ],
+      "notes": "Private future wishlist; no actual user visit. Editorial awards and judged beer medals recorded with distinct scope; no visit date or personal beer order inferred."
+    },
+    {
+      "id": "want-to-visit-medusa-brewing-hudson",
+      "candidateId": "candidate-boston-brewery-medusa-brewing-hudson",
+      "name": "Medusa Brewing Company",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "medusa-brewing-hudson",
+      "venueScope": "exact_venue",
+      "location": {
+        "address": "111 Main Street",
+        "city": "Hudson",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.medusabrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Medusa Brewing Company (Hudson): No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 3"
+      },
+      "userNote": "Not visited; want to go",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2016,
+          "category": "Bohemian-Style Pilsener",
+          "result": "gold medal",
+          "product": "Duchovni",
+          "recipient": "Medusa Brewing Company — beer Duchovni",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.medusabrewing.com/duchovni",
+          "relationship": "The producer's beer was awarded gold, not the user's unvisited Hudson taproom itself. No beer order or visit implied."
+        }
+      ],
+      "notes": "Private future wishlist; no actual user visit. Editorial awards and judged beer medals recorded with distinct scope; no visit date or personal beer order inferred."
     }
   ],
   "interviewConvention": {
