@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "area": "Greater Boston",
+  "recordedOn": "2026-11-05",
+  "roundId": "boston-breweries-rapidfire-2026-11-05-3",
+  "answers": [
+    {
+      "name": "Remnant Brewing",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitDate": null,
+      "siteVisited": null,
+      "visitScope": "brand_level",
+      "desiredLocation": {
+        "address": null,
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "addressNote": "Potential Bow Market Somerville or Satellite Cambridge venue; no exact future taproom selected."
+      },
+      "sourceQuote": "Remnant Brewing (Greater Boston brand): No — want to go; private future wishlist",
+      "awardEvidence": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — best breweries in Boston, Cambridge and Somerville",
+          "result": "editorial selection",
+          "recipient": "Remnant Brewing — Bow Market, Somerville",
+          "awardType": "local_editorial_selection",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "relationship": "Specific published taproom is the Bow Market site; user's desired destination remains Greater Boston brewery brand. This editorial recognition is not a judged brewing medal or user-attendance proof."
+        },
+        {
+          "organization": "Boston Magazine",
+          "year": 2025,
+          "category": "Best of Boston Readers' Poll — Best Brewery",
+          "result": "runner-up",
+          "recipient": "Remnant Brewing — 2 Bow Market Way",
+          "awardType": "reader_poll_runner_up",
+          "sourceUrl": "https://www.bostonmagazine.com/news/2025/07/09/best-of-boston-readers-poll-results/",
+          "relationship": "Reader poll runner-up, not a winner or beer medal; brand wish does not establish preferred exact site."
+        }
+      ]
+    },
+    {
+      "name": "Long Live Beerworks — Roxbury",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitDate": null,
+      "siteVisited": null,
+      "visitScope": "exact_venue",
+      "desiredLocation": {
+        "address": "152 Hampden Street",
+        "city": "Boston",
+        "neighborhood": "Roxbury",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "sourceQuote": "Long Live Beerworks (Roxbury Boston taproom): No — want to go; private future wishlist",
+      "awardEvidence": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — best breweries in Boston, Cambridge and Somerville",
+          "result": "editorial selection",
+          "recipient": "Long Live Roxbury — 152 Hampden Street, Boston",
+          "awardType": "local_editorial_selection",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "relationship": "This is the exact Boston location the user marked not visited. This editorial recognition is not a judged brewing medal or user-attendance proof."
+        }
+      ]
+    },
+    {
+      "name": "Portico Brewing",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitDate": null,
+      "siteVisited": null,
+      "visitScope": "exact_venue",
+      "desiredLocation": {
+        "address": "101 South Street",
+        "city": "Somerville",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "sourceQuote": "Portico Brewing (Somerville): No — want to go; private future wishlist",
+      "awardEvidence": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2026,
+          "category": "Best of the Best — best breweries in Boston, Cambridge and Somerville",
+          "result": "editorial selection",
+          "recipient": "Portico Brewing — 101 South Street, Somerville",
+          "awardType": "local_editorial_selection",
+          "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/",
+          "relationship": "This is the exact Somerville taproom the user marked not visited. This editorial recognition is not a judged brewing medal or user-attendance proof."
+        }
+      ]
+    },
+    {
+      "name": "Medusa Brewing Company",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitDate": null,
+      "siteVisited": null,
+      "visitScope": "exact_venue",
+      "desiredLocation": {
+        "address": "111 Main Street",
+        "city": "Hudson",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "sourceQuote": "Medusa Brewing Company (Hudson): No — want to go; private future wishlist",
+      "awardEvidence": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2016,
+          "category": "Bohemian-Style Pilsener",
+          "result": "gold medal",
+          "product": "Duchovni",
+          "recipient": "Medusa Brewing Company — beer Duchovni",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.medusabrewing.com/duchovni",
+          "relationship": "The producer's beer was awarded gold, not the user's unvisited Hudson taproom itself. No beer order or visit implied."
+        }
+      ]
+    },
+    {
+      "name": "Brato Brewhouse + Kitchen",
+      "attendance": "not_visited",
+      "futureWishlist": false,
+      "historicalInterestOnly": true,
+      "visitDate": null,
+      "historicSite": "190 North Beacon Street, Brighton, Boston, Massachusetts",
+      "sourceQuote": "Brato Brewhouse + Kitchen (historic Brighton, closed): No — private historical interest only; closed venue",
+      "awardEvidence": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2021,
+          "category": "Best of Boston — Best Brewery",
+          "result": "winner",
+          "recipient": "Brato Brewhouse + Kitchen — historic Brighton establishment",
+          "awardType": "editorial_venue_award",
+          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2021/brato-brewhouse-kitchen/",
+          "relationship": "Awarded to historical venue before its November 2022 closure; user never attended."
+        }
+      ]
+    }
+  ],
+  "historicalInterest": {
+    "id": "brato-brewhouse-kitchen-brighton-historical-2026-11-05",
+    "name": "Brato Brewhouse + Kitchen",
+    "status": "not_visited",
+    "attendance": false,
+    "wantsToVisit": false,
+    "interest": "historical_interest_only",
+    "wishlistStatus": "historical_interest_only_closed_location",
+    "formerAddress": "190 North Beacon Street, Brighton, Boston, Massachusetts",
+    "closedOn": "2022-11-06",
+    "closureContext": "Regular service ended November 6, 2022; farewell events November 10–11, 2022 do not establish any user attendance.",
+    "recognitions": [
+      {
+        "organization": "Boston Magazine",
+        "year": 2021,
+        "category": "Best of Boston — Best Brewery",
+        "result": "winner",
+        "recipient": "Brato Brewhouse + Kitchen — historic Brighton establishment",
+        "awardType": "editorial_venue_award",
+        "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2021/brato-brewhouse-kitchen/",
+        "relationship": "Awarded to historical venue before its November 2022 closure; user never attended."
+      }
+    ],
+    "closureEvidence": {
+      "sourceUrl": "https://www.boston.com/community/restaurants/brato-brewhouse-and-kitchen-closes-its-doors/"
+    },
+    "source": {
+      "type": "direct_user_response",
+      "date": "2026-11-05",
+      "quote": "Brato Brewhouse + Kitchen (historic Brighton, closed): No — private historical interest only; closed venue"
+    },
+    "notes": "Historical Brighton premises not visited. Do not create active future wish, do not infer visits elsewhere, exclude from public visitor collection and venue visit counts."
+  },
+  "privateWishlistIds": [
+    "want-to-visit-remnant-brewing-boston-metro",
+    "want-to-visit-long-live-beerworks-roxbury",
+    "want-to-visit-portico-brewing-somerville",
+    "want-to-visit-medusa-brewing-hudson"
+  ],
+  "excludedFromPublicVisitorRecords": [
+    "Remnant Brewing",
+    "Long Live Beerworks — Roxbury",
+    "Portico Brewing",
+    "Medusa Brewing Company",
+    "Brato Brewhouse + Kitchen"
+  ],
+  "nextFive": [
+    {
+      "name": "Tree House Brewing Company — Tewksbury",
+      "scope": "Greater Boston brewery campus (brand-level answers accepted)",
+      "where": "Tewksbury",
+      "recognition": {
+        "organization": "Boston.com",
+        "year": 2025,
+        "category": "Massachusetts best breweries — editorial guide",
+        "result": "featured pick",
+        "recipient": "Tree House Brewing Company (brewery brand, Tewksbury listed among campuses)",
+        "awardType": "editorial_recommendation",
+        "sourceUrl": "https://www.boston.com/food/beer/2025/10/21/best-breweries-massachusetts-2025/"
+      },
+      "photoSource": "https://treehousebrew.com/draft-list-tewksbury"
+    },
+    {
+      "name": "Democracy Brewing — Downtown",
+      "scope": "35 Temple Place (exact Boston venue)",
+      "where": "Downtown Crossing",
+      "recognition": {
+        "organization": "Travel + Leisure",
+        "year": 2025,
+        "category": "11 Best Breweries in Boston, According to Local Experts",
+        "result": "featured pick",
+        "recipient": "Democracy Brewing — Downtown Boston",
+        "awardType": "travel_editorial_recommendation",
+        "sourceUrl": "https://www.travelandleisure.com/best-breweries-in-boston-8420443"
+      },
+      "photoSource": "https://www.democracybrewing.com/locations/downtown"
+    },
+    {
+      "name": "FACES Brewing Company",
+      "scope": "Malden venue",
+      "where": "Malden Center",
+      "recognition": {
+        "organization": "Boston.com",
+        "year": 2025,
+        "category": "Readers' recommended best Massachusetts breweries",
+        "result": "reader-recommended listing",
+        "recipient": "Faces Brewing Company (Malden)",
+        "awardType": "reader_recommendation_listing",
+        "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/"
+      },
+      "photoSource": "https://www.facesbrewing.com/"
+    },
+    {
+      "name": "Drawdown Brewing Company",
+      "scope": "3204 Washington Street, Jamaica Plain",
+      "where": "Jamaica Plain",
+      "recognition": {
+        "organization": "Boston Magazine",
+        "year": 2024,
+        "category": "Best of Boston — Best Place to Watch Women's Sports",
+        "result": "winner",
+        "recipient": "Drawdown Brewing Company",
+        "awardType": "editorial_hospitality_venue_award",
+        "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2024/drawdown-brewing-company/"
+      },
+      "photoSource": "https://www.drawdownbrewing.com/main"
+    },
+    {
+      "name": "Lord Hobo Brewing Company",
+      "scope": "Woburn taproom; brand-level visits count",
+      "where": "Woburn",
+      "recognition": {
+        "organization": "Boston.com",
+        "year": 2025,
+        "category": "Readers' recommended best Massachusetts breweries",
+        "result": "reader-recommended listing",
+        "recipient": "Lord Hobo Brewing (brand, multiple locations)",
+        "awardType": "reader_recommendation_listing",
+        "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/"
+      },
+      "photoSource": "https://lordhobo.com/woburn/"
+    }
+  ],
+  "sourceType": "direct_user_response",
+  "notes": "All five are explicitly unvisited. Exact future venue scoped where user identified it; Remnant wish remains brand-level. Do not disclose wishlists publicly, create confirmed visit records, infer visit dates, or conflate brewing medals with editorial picks."
+}
