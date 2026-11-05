@@ -3044,6 +3044,412 @@
         }
       ],
       "notes": "Same Beverly Porter Mill physical venue was formerly branded Channel Marker; user explicitly not visited under either name. Do not double count as two breweries. Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-the-antler-room-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-antler-room",
+      "name": "The Antler Room",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-antler-room",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Union Hill",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Antler Room: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-anjin-kc-baseline",
+      "candidateId": "candidate-kc-baseline-anjin",
+      "name": "Anjin",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-anjin",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Crossroads",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Anjin: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-the-belfry-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-belfry",
+      "name": "The Belfry",
+      "category": "bar",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-belfry",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Crossroads",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Belfry: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-grunauer-kc-baseline",
+      "candidateId": "candidate-kc-baseline-grunauer",
+      "name": "Grünauer",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-grunauer",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Freight House",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Grünauer: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-swordfish-tom-s-kc-baseline",
+      "candidateId": "candidate-kc-baseline-swordfish-tom-s",
+      "name": "Swordfish Tom's",
+      "category": "bar",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-swordfish-tom-s",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Crossroads",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Swordfish Tom's: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-lonnie-s-reno-club-kc-baseline",
+      "candidateId": "candidate-kc-baseline-lonnie-s-reno-club",
+      "name": "Lonnie's Reno Club",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-lonnie-s-reno-club",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Downtown",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Lonnie's Reno Club: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-novel-restaurant-kc-baseline",
+      "candidateId": "candidate-kc-baseline-novel-restaurant",
+      "name": "Novel Restaurant",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-novel-restaurant",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Crossroads",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Novel Restaurant: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-the-savoy-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-savoy",
+      "name": "The Savoy",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-savoy",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Downtown",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Savoy: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-the-campground-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-campground",
+      "name": "The Campground",
+      "category": "bar",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-campground",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "West Bottoms",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Campground: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 1"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-the-capital-grille-country-club-plaza-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-capital-grille-country-club-plaza",
+      "name": "The Capital Grille — Country Club Plaza",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-capital-grille-country-club-plaza",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Country Club Plaza",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Capital Grille — Country Club Plaza: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 2"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-the-phoenix-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-phoenix",
+      "name": "The Phoenix",
+      "category": "bar",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-phoenix",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Downtown",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Phoenix: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 2"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-the-bristol-power-light-kc-baseline",
+      "candidateId": "candidate-kc-baseline-the-bristol-power-light",
+      "name": "The Bristol — Power & Light",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-the-bristol-power-light",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Power & Light",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Bristol — Power & Light: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 2"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-cafe-provence-prairie-village-kc-baseline",
+      "candidateId": "candidate-kc-baseline-cafe-provence-prairie-village",
+      "name": "Cafe Provence — Prairie Village",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-cafe-provence-prairie-village",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Prairie Village",
+        "region": "Kansas",
+        "neighborhood": "Prairie Village",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Cafe Provence — Prairie Village: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 2"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
+    },
+    {
+      "id": "want-to-visit-andre-s-confiserie-suisse-kc-baseline",
+      "candidateId": "candidate-kc-baseline-andre-s-confiserie-suisse",
+      "name": "André's Confiserie Suisse",
+      "category": "dining",
+      "venueType": "restaurant_or_cultural_venue",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "kc-andre-s-confiserie-suisse",
+      "venueScope": "kansas_city_metro_brand_or_named_site",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "neighborhood": "Country Club Plaza",
+        "country": "USA"
+      },
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "André's Confiserie Suisse: Not visited, add private future wishlist",
+        "context": "Culture Passport Kansas City baseline batch 2"
+      },
+      "userNote": "Explicit nonattendance; want to go.",
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Private wishlist, not public visitor record. No unsupported award attribution."
     }
   ],
   "interviewConvention": {
