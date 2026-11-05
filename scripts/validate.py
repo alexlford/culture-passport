@@ -604,8 +604,14 @@ assert "DOWNSTAIRS" in majestic["interviewCue"]
 assert any(r["title"] == "The Majestic Restaurant" and r["status"] == "confirmed" for r in records)
 rec_pier = next(c for c in candidates if c["name"] == "Rec Pier Chop House" and c["area"] == "Baltimore")
 assert rec_pier["visitStatus"] == "confirmed" and rec_pier["confirmedVisitId"] == "dining-rec-pier-chop-house-baltimore"
-assert not any(r["title"] == "Le Fou Frog" for r in records)
-assert not any(c["name"] == "Le Fou Frog" for c in candidates)
+# Updated after direct Kansas City baseline confirmation on 2026-11-05:
+# Previously unconfirmed; user has now explicitly confirmed the visit.
+le_fou_frog = [r for r in records if r["title"] == "Le Fou Frog"]
+assert len(le_fou_frog) == 1
+assert le_fou_frog[0]["status"] == "confirmed"
+assert le_fou_frog[0]["visit"]["date"] is None
+assert le_fou_frog[0]["curation"]["status"] == "included_in_visitor_candidate_pending_story_review"
+assert not any(c["name"] == "Le Fou Frog" and c["visitStatus"] == "not_visited" for c in candidates)
 north_pond = next(c for c in candidates if c["name"] == "North Pond" and c["area"] == "Chicago")
 assert north_pond["visitStatus"] == "confirmed" and north_pond["confirmedVisitId"] == "dining-north-pond-chicago-2021"
 assert north_pond["userMemoryLead"]["identityConfirmed"] is True

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "recordedOn": "2026-11-05",
+  "project": "Culture Passport",
+  "area": "Kansas City metro",
+  "baselineStatus": "complete",
+  "method": "selective_baseline_first_two_passes",
+  "batches": [
+    {
+      "batch": "1",
+      "yes": [
+        "JJ's Restaurant",
+        "Golden Ox"
+      ],
+      "wish": [
+        "The Antler Room",
+        "Anjin",
+        "The Belfry",
+        "Grünauer",
+        "Swordfish Tom's",
+        "Lonnie's Reno Club",
+        "Novel Restaurant",
+        "The Savoy",
+        "The Campground"
+      ]
+    },
+    {
+      "batch": "2",
+      "yes": [
+        "Le Fou Frog",
+        "The Classic Cup Café",
+        "The Green Lady Lounge",
+        "The Ship",
+        "The Quaff"
+      ],
+      "wish": [
+        "The Capital Grille — Country Club Plaza",
+        "The Phoenix",
+        "The Bristol — Power & Light",
+        "Cafe Provence — Prairie Village",
+        "André's Confiserie Suisse"
+      ]
+    }
+  ],
+  "confirmedVisitorCandidateIds": [
+    {
+      "name": "JJ's Restaurant",
+      "id": "dining-jjs-restaurant-kansas-city-date-unknown"
+    },
+    {
+      "name": "Golden Ox",
+      "id": "dining-golden-ox-kansas-city-date-unknown"
+    },
+    {
+      "name": "Le Fou Frog",
+      "id": "dining-le-fou-frog-kansas-city-date-unknown"
+    },
+    {
+      "name": "The Classic Cup Café",
+      "id": "dining-classic-cup-cafe-kansas-city-date-unknown"
+    },
+    {
+      "name": "The Green Lady Lounge",
+      "id": "bar-green-lady-lounge-kansas-city-date-unknown"
+    },
+    {
+      "name": "The Ship",
+      "id": "bar-the-ship-kansas-city-date-unknown"
+    },
+    {
+      "name": "The Quaff",
+      "id": "bar-the-quaff-kansas-city-date-unknown"
+    }
+  ],
+  "privateWishlistNames": [
+    "The Antler Room",
+    "Anjin",
+    "The Belfry",
+    "Grünauer",
+    "Swordfish Tom's",
+    "Lonnie's Reno Club",
+    "Novel Restaurant",
+    "The Savoy",
+    "The Campground",
+    "The Capital Grille — Country Club Plaza",
+    "The Phoenix",
+    "The Bristol — Power & Light",
+    "Cafe Provence — Prairie Village",
+    "André's Confiserie Suisse"
+  ],
+  "privacy": "Wishlist excluded from public records. Confirmed visits pending publication review. No dates inferred.",
+  "nextRegion": "Baltimore / Washington DC",
+  "notes": "High-value KC retrospective baseline complete; defer additional lower-priority discoveries to later audits."
+}

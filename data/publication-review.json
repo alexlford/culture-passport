@@ -929,6 +929,62 @@
       "status": "pending",
       "approvedDigest": null,
       "reviewedOn": null
+    },
+    {
+      "id": "dining-jjs-restaurant-kansas-city-date-unknown",
+      "title": "JJ's Restaurant",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-golden-ox-kansas-city-date-unknown",
+      "title": "Golden Ox",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-le-fou-frog-kansas-city-date-unknown",
+      "title": "Le Fou Frog",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "dining-classic-cup-cafe-kansas-city-date-unknown",
+      "title": "The Classic Cup Café",
+      "category": "dining",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-green-lady-lounge-kansas-city-date-unknown",
+      "title": "The Green Lady Lounge",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-the-ship-kansas-city-date-unknown",
+      "title": "The Ship",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
+    },
+    {
+      "id": "bar-the-quaff-kansas-city-date-unknown",
+      "title": "The Quaff",
+      "category": "bar",
+      "status": "pending",
+      "approvedDigest": null,
+      "reviewedOn": null
     }
   ]
 }
