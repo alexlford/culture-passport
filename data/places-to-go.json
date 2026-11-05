@@ -2366,6 +2366,219 @@
         }
       ],
       "notes": "Private future wishlist; no actual user visit. Editorial awards and judged beer medals recorded with distinct scope; no visit date or personal beer order inferred."
+    },
+    {
+      "id": "want-to-visit-tree-house-brewing-tewksbury",
+      "candidateId": "candidate-boston-brewery-tree-house-brewing-tewksbury",
+      "name": "Tree House Brewing Company — Tewksbury",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "tree-house-brewing-tewksbury",
+      "venueScope": "specific_brewery_campus",
+      "location": {
+        "city": "Tewksbury",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "Tewksbury campus only; does not establish attendance at other Tree House sites."
+      },
+      "website": "https://treehousebrew.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Tree House Brewing Company — Tewksbury: No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 4"
+      },
+      "userNote": "Never visited the specified Boston-area brewery site; want to visit in future.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Best breweries in Massachusetts — editorial standout",
+          "result": "featured top pick",
+          "recipient": "Tree House Brewing Company brand",
+          "awardType": "editorial_brewery_brand_recommendation",
+          "sourceUrl": "https://www.boston.com/food/beer/2025/10/21/best-breweries-massachusetts-2025/",
+          "relationship": "Editorial pick belongs to brewery brand; Tewksbury listed as one possible destination, not a Tewksbury-only award or proof of attendance."
+        }
+      ],
+      "notes": "Private future wish only. Scope applies only to named brewery campus/venue; no worldwide brand attendance determination. Editorial and award recognition independent of personal visits. Exclude from public visitor records."
+    },
+    {
+      "id": "want-to-visit-democracy-brewing-downtown",
+      "candidateId": "candidate-boston-brewery-democracy-brewing-downtown",
+      "name": "Democracy Brewing — Downtown Boston",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "democracy-brewing-downtown",
+      "venueScope": "specific_site",
+      "location": {
+        "address": "35 Temple Place",
+        "city": "Boston",
+        "neighborhood": "Downtown Crossing",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.democracybrewing.com/locations/downtown",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Democracy Brewing — Downtown Boston: No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 4"
+      },
+      "userNote": "Never visited the specified Boston-area brewery site; want to visit in future.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Travel + Leisure",
+          "year": 2025,
+          "category": "11 Best Breweries in Boston, According to Local Experts",
+          "result": "editorial selection",
+          "recipient": "Democracy Brewing downtown Boston",
+          "awardType": "travel_editorial_venue_recommendation",
+          "sourceUrl": "https://www.travelandleisure.com/best-breweries-in-boston-8420443",
+          "relationship": "Editorial mention explicitly discusses downtown venue; not judged beer medal or visit proof."
+        }
+      ],
+      "notes": "Private future wish only. Scope applies only to named brewery campus/venue; no worldwide brand attendance determination. Editorial and award recognition independent of personal visits. Exclude from public visitor records."
+    },
+    {
+      "id": "want-to-visit-faces-brewing-malden",
+      "candidateId": "candidate-boston-brewery-faces-brewing-malden",
+      "name": "FACES Brewing Company — Malden",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "faces-brewing-malden",
+      "venueScope": "specific_site",
+      "location": {
+        "address": "50 Pleasant Street",
+        "city": "Malden",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.facesbrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "FACES Brewing Company — Malden: No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 4"
+      },
+      "userNote": "Never visited the specified Boston-area brewery site; want to visit in future.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Readers' recommended Massachusetts brewery guide",
+          "result": "included",
+          "recipient": "FACES Brewing Company, Malden",
+          "awardType": "reader_recommendation_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader-backed guide inclusion, not formal beer medal or Best of Boston winner."
+        }
+      ],
+      "notes": "Private future wish only. Scope applies only to named brewery campus/venue; no worldwide brand attendance determination. Editorial and award recognition independent of personal visits. Exclude from public visitor records."
+    },
+    {
+      "id": "want-to-visit-drawdown-brewing-jamaica-plain",
+      "candidateId": "candidate-boston-brewery-drawdown-brewing-jamaica-plain",
+      "name": "Drawdown Brewing Company — Jamaica Plain",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "drawdown-brewing-jamaica-plain",
+      "venueScope": "specific_site",
+      "location": {
+        "address": "3204 Washington Street",
+        "city": "Boston",
+        "neighborhood": "Jamaica Plain",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.drawdownbrewing.com/main",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Drawdown Brewing Company — Jamaica Plain: No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 4"
+      },
+      "userNote": "Never visited the specified Boston-area brewery site; want to visit in future.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2024,
+          "category": "Best of Boston — Best Place to Watch Women's Sports",
+          "result": "winner",
+          "recipient": "Drawdown Brewing Company, Jamaica Plain",
+          "awardType": "editorial_hospitality_venue_award",
+          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2024/drawdown-brewing-company/",
+          "relationship": "Venue hospitality/sports-viewing award, not a judged beer medal or evidence of attendance."
+        }
+      ],
+      "notes": "Private future wish only. Scope applies only to named brewery campus/venue; no worldwide brand attendance determination. Editorial and award recognition independent of personal visits. Exclude from public visitor records."
+    },
+    {
+      "id": "want-to-visit-lord-hobo-brewing-woburn",
+      "candidateId": "candidate-boston-brewery-lord-hobo-brewing-woburn",
+      "name": "Lord Hobo Brewing Company — Woburn",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "lord-hobo-brewing-woburn",
+      "venueScope": "specific_site",
+      "location": {
+        "address": "5 Draper Street",
+        "city": "Woburn",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://lordhobo.com/woburn/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Lord Hobo Brewing Company — Woburn: No — want to go; private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 4"
+      },
+      "userNote": "Never visited the specified Boston-area brewery site; want to visit in future.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Readers' recommended Massachusetts brewery guide",
+          "result": "included with specific Woburn reader recommendation",
+          "recipient": "Lord Hobo Brewing Company — Woburn (reader-mentioned site)",
+          "awardType": "reader_recommendation_listing",
+          "sourceUrl": "https://www.boston.com/food/beer/2025/10/21/best-breweries-massachusetts-2025/",
+          "relationship": "A reader specifically mentions Woburn but this is community editorial recommendation, not judged award or personal visit."
+        }
+      ],
+      "notes": "Private future wish only. Scope applies only to named brewery campus/venue; no worldwide brand attendance determination. Editorial and award recognition independent of personal visits. Exclude from public visitor records."
     }
   ],
   "interviewConvention": {
