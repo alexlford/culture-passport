@@ -1686,6 +1686,41 @@
       "officialConnections": [],
       "expandedReviewTier": "archived_pending_recognition",
       "expandedRecognitionAuditRef": "data/expanded-recognition-audit-2026-10-27.json"
+    },
+    {
+      "id": "venue-officina-washington-dc-site-unconfirmed",
+      "venueId": "venue-officina-washington-dc-site-unconfirmed",
+      "venueName": "Officina",
+      "city": "Washington, DC",
+      "region": "District of Columbia",
+      "experienceIds": [
+        "dining-officina-washington-dc-date-unknown"
+      ],
+      "visitPeriods": [
+        "Confirmed DC restaurant visit, exact date and space unknown"
+      ],
+      "status": "monitoring",
+      "reviewStatus": "no_restaurant_specific_qualifying_award_verified_in_targeted_search",
+      "lastReviewedOn": "2026-11-05",
+      "featuredException": false,
+      "evidenceRefs": [
+        "data/records.json",
+        "data/interview.json"
+      ],
+      "sourceNotes": "User confirmed Officina (DC). No Michelin/James Beard venue distinction is claimed. Chef Nicholas Stefanelli's honors at other venues are not transferable; do not infer the restaurant floor, visit date, order or companions.",
+      "reviewHistory": [
+        {
+          "date": "2026-11-05",
+          "result": "direct_confirmed_visit_venue_awards_not_verified",
+          "note": "Preserve as permanent private restaurant award watchlist and public visitor candidate pending story review.",
+          "evidenceUrls": [
+            "https://officinadc.com/page/the-wharf"
+          ]
+        }
+      ],
+      "recognitionEvents": [],
+      "officialConnections": [],
+      "expandedReviewTier": "archived_pending_recognition"
     }
   ]
 }

@@ -121,7 +121,8 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island"
+assert len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -165,7 +166,7 @@ assert "interview-photo-evidence" in (ROOT / "assets/app.js").read_text(encoding
 # Two distinct Hawaii regions are queued, and no attendance is inferred from queueing.
 hilo = interview_data["interviewChapters"]["hiloHawaii"]
 maui = interview_data["interviewChapters"]["mauiHawaii"]
-assert hilo["status"] == maui["status"] == "queued_unreviewed"
+assert hilo["status"] == "active_selective_high_value_baseline" and maui["status"] == "queued_unreviewed"
 assert hilo["visitClaimsEstablished"] == maui["visitClaimsEstablished"] == 0
 assert hilo["visitYears"] is None and maui["visitYears"] is None
 sequence = [row["area"] for row in interview_data["interviewProgress"]["nextCitySequence"]]
@@ -214,7 +215,7 @@ assert "not a James Beard or Michelin honor" in farina["recognition"]
 assert len(farina["photographicEvidence"]) == 2
 assert all(p["renderMode"] == "source_link_only" and p["imageRights"] == "unverified"
            for p in farina["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 assert not any(r["title"] == "Farina" and r["status"] == "confirmed" for r in records)
 
 # Lawrence bar: attendance is firsthand; its 2025 honor is venue-level and only a semifinalist.
@@ -481,8 +482,8 @@ assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
 assert cafe_leon["addressHint"].startswith("2929 O'Donnell Street")
 assert len(cafe_leon["photographicEvidence"]) >= 2
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island"
 assert "Ministry of Brewing" in interview_data["interviewChapters"]["baltimore"]["nextInterviewSelection"]
 
 # Room 39 is one metro-brand wish, not a confirmed meal or multiple branch wishes.
@@ -1258,6 +1259,7 @@ for venue in venues:
             "venue-brewery-brand-trillium-boston-metro-site-unconfirmed": "Boston",
             "venue-brewery-brand-mighty-squirrel-boston-metro-site-unconfirmed": "Boston",
             "venue-cambridge-brewing-company-kendall-square": "Cambridge",
+            "venue-officina-washington-dc-site-unconfirmed": "Washington, DC",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
@@ -1589,7 +1591,7 @@ assert all(x["status"] == "confirmed_brewery_brand_visit" and x["locationStatus"
            and x["siteVisited"] is None and x["visitDate"] is None and x["visitPeriod"] is None
            for x in brand_visits)
 # The user expressly requests every direct visit in the public candidate collection.
-public_brewery_visits = [r for r in records if r.get("editorial",{}).get("publicInclusionRequested")]
+public_brewery_visits = [r for r in records if r["type"] == "bar" and r.get("editorial",{}).get("publicInclusionRequested")]
 site_visits = brewery.get("confirmedSiteVisits", [])
 assert len(site_visits) == 2
 assert {v["id"] for v in site_visits} == {"brewery-site-harpoon-seaport", "brewery-site-cambridge-brewing-kendall-square"}
@@ -1734,8 +1736,8 @@ assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_
 assert len(harpoon["photographicEvidence"]) >= 2
 assert all(p["imageRights"] == "unverified" and p["renderMode"] == "source_link_only"
            and p["sourceUrl"].startswith("https://") for p in harpoon["photographicEvidence"])
-assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Boston"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island"
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island" and len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 assert any(x["area"] == "Baltimore" and x["candidateNames"] == ["Café Dear Leon"]
            and x["status"] == "paused_for_user_requested_boston_brewery_interview"
            for x in interview_data["interviewProgress"]["pausedBatches"])

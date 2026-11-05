@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "recordedOn": "2026-11-05",
+  "area": "Baltimore and Washington DC",
+  "status": "baseline_complete",
+  "sourceType": "direct_user_batch_response",
+  "deduplication": "Eight pre-existing confirmed canonical visits reused without changing any prior date, precision or evidence. Officina is the ninth confirmed and only new visitor record.",
+  "confirmedVisits": [
+    {
+      "venue": "Charleston",
+      "visitStatus": "confirmed",
+      "visitId": "dining-charleston-baltimore-2018-2021",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": null,
+        "year": 2020,
+        "possibleYears": [
+          2020
+        ],
+        "label": "2020",
+        "precision": "approximate_year",
+        "source": "Alex's explicit confirmation in conversation on 2026-10-24; timeline year 2020 chosen directly by Alex on 2026-10-24"
+      }
+    },
+    {
+      "venue": "Woodberry Kitchen",
+      "visitStatus": "confirmed",
+      "visitId": "dining-woodberry-kitchen-baltimore-2018-2021",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": null,
+        "year": 2018,
+        "possibleYears": [
+          2018
+        ],
+        "label": "2018 (exact dining date not established)",
+        "precision": "approximate_year",
+        "source": "Alex expressly confirmed dining at Woodberry Kitchen and placed it in 2018. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
+        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
+      }
+    },
+    {
+      "venue": "Gunther & Co.",
+      "visitStatus": "confirmed",
+      "visitId": "dining-gunther-and-co-baltimore-2020-02-14",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": "2020-02-14",
+        "year": 2020,
+        "month": 2,
+        "possibleYears": [
+          2020
+        ],
+        "label": "February 14, 2020",
+        "precision": "day",
+        "source": "Alex's direct recollection, October 25, 2026"
+      }
+    },
+    {
+      "venue": "Rec Pier Chop House",
+      "visitStatus": "confirmed",
+      "visitId": "dining-rec-pier-chop-house-baltimore",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [
+          2018,
+          2019,
+          2020,
+          2021
+        ],
+        "label": "Baltimore years (2018–2021; exact dining date unknown)",
+        "precision": "year_range",
+        "source": "Alex expressly confirmed dining at Rec Pier Chop House. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
+        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
+      }
+    },
+    {
+      "venue": "Thames Street Oyster House",
+      "visitStatus": "confirmed",
+      "visitId": "dining-thames-street-oyster-house-baltimore",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": null,
+        "year": null,
+        "month": null,
+        "possibleYears": [],
+        "label": "Date to be established",
+        "precision": "unknown",
+        "source": "Alex's direct recollection, October 25, 2026"
+      }
+    },
+    {
+      "venue": "SALT Tavern",
+      "visitStatus": "confirmed",
+      "visitId": "dining-salt-tavern-baltimore-2018-03-16",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": "2018-03-16",
+        "year": 2018,
+        "month": 3,
+        "possibleYears": [
+          2018
+        ],
+        "precision": "day",
+        "label": "March 16, 2018 · first visit, night of UMBC's upset of Virginia",
+        "source": "User's direct Culture Passport statement November 3, 2026: 'I went to Salt for the first time during UMBC upset of UVA. We need to include it in the Culture Passport.' Date anchored independently to the March 16, 2018 NCAA tournament game.",
+        "evidenceType": "direct_user_recollection_with_historical_event_date_anchor",
+        "attendanceCertainty": "confirmed",
+        "firstVisit": true,
+        "otherVisits": null,
+        "mealTime": null,
+        "mealAndCompanionsUnknown": true,
+        "dateBasis": "Historical event same-evening association; no clock time, game viewing activity, or attendance at game assumed"
+      }
+    },
+    {
+      "venue": "Water for Chocolate",
+      "visitStatus": "confirmed",
+      "visitId": "dining-water-for-chocolate-baltimore-date-unknown",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed Baltimore visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_visit_exact_date_unknown",
+        "companions": null,
+        "orders": null
+      }
+    },
+    {
+      "venue": "Ministry of Brewing",
+      "visitStatus": "confirmed",
+      "visitId": "bar-ministry-of-brewing-baltimore-date-unknown",
+      "recordAction": "deduplicated_existing",
+      "preservedVisit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed Baltimore visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user 2026-11-03: \"I have been to all three of those Baltimore places.\" referring to Water for Chocolate, Ministry of Brewing, and Rye Street Tavern at the Sagamore Spirit distillery. Salt Tavern is separately confirmed from an earlier direct statement.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_visit_exact_date_unknown",
+        "companions": null,
+        "orders": null,
+        "experienceType": "brewery_taproom_visit",
+        "drinksOrdered": null
+      }
+    },
+    {
+      "venue": "Officina",
+      "visitStatus": "confirmed",
+      "visitId": "dining-officina-washington-dc-date-unknown",
+      "recordAction": "new_public_visitor_candidate_pending_story_review",
+      "date": null,
+      "siteUnspecified": true
+    }
+  ],
+  "privateFutureWishlists": [
+    {
+      "venue": "Fiola",
+      "visitStatus": "not_visited",
+      "wishId": "want-to-visit-fiola-washington-dc",
+      "status": "operating_verified_2026-11-05"
+    },
+    {
+      "venue": "The Dabney",
+      "visitStatus": "not_visited",
+      "wishId": "want-to-visit-the-dabney-washington-dc",
+      "status": "operating_verified_2026-11-05"
+    }
+  ],
+  "privateUncertain": [
+    {
+      "venue": "Maydān",
+      "visitStatus": "maybe",
+      "countAsVisit": false
+    }
+  ],
+  "privateResearchOnly": true,
+  "publication": {
+    "visitorCandidatesPendingApproval": true,
+    "wishlistPrivate": true,
+    "uncertainPrivate": true,
+    "noPublicReleaseAuthorized": true
+  },
+  "nextBaseline": {
+    "city": "Hilo, Hawaiʻi Island",
+    "batchId": "hilo-selective-high-value-baseline-2026-11-05",
+    "candidateIds": [
+      "candidate-hilo-lehua-at-imiloa",
+      "candidate-hilo-imiloa-astronomy-center",
+      "candidate-hilo-lyman-museum-mission-house",
+      "candidate-hilo-pacific-tsunami-museum",
+      "candidate-hilo-palace-theater",
+      "candidate-hilo-mokupapapa-discovery-center",
+      "candidate-hilo-east-hawaii-cultural-center",
+      "candidate-hilo-farmers-market",
+      "candidate-hilo-panaewa-rainforest-zoo",
+      "candidate-hilo-wailuku-river-rainbow-falls"
+    ]
+  }
+}

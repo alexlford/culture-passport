@@ -372,7 +372,7 @@
       "awardFamily": "both",
       "interviewCue": "Shaw; open wood-burning hearth; Mid-Atlantic ingredients.",
       "sourceUrl": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -387,7 +387,15 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewCertainty": "explicit_negative",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-the-dabney-washington-dc",
+      "wishlistDecision": "explicit_future_wish",
+      "reviewedOn": "2026-11-05",
+      "visitDate": null,
+      "operatingStatus": "operating_verified_2026-11-05",
+      "reviewSource": "Direct user response 2026-11-05: not visited, private future wishlist."
     },
     {
       "id": "ashington-rose-s-luxury",
@@ -476,7 +484,7 @@
       "awardFamily": "michelin",
       "interviewCue": "Penn Quarter; upscale Italian and handmade pasta.",
       "sourceUrl": "https://guide.michelin.com/mo/en/article/news-and-views/2018-michelin-guide-washington-d-c-results",
-      "visitStatus": "unreviewed",
+      "visitStatus": "not_visited",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -491,7 +499,15 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewCertainty": "explicit_negative",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-fiola-washington-dc",
+      "wishlistDecision": "explicit_future_wish",
+      "reviewedOn": "2026-11-05",
+      "visitDate": null,
+      "operatingStatus": "operating_verified_2026-11-05",
+      "reviewSource": "Direct user response 2026-11-05: not visited, private future wishlist."
     },
     {
       "id": "ashington-kinship",
@@ -632,7 +648,7 @@
       "awardFamily": "michelin",
       "interviewCue": "14th/U Street; large central live-fire hearth; Middle Eastern sharing.",
       "sourceUrl": "https://michelinmedia.com/pages/blog/detail/article/c0/a906/",
-      "visitStatus": "unreviewed",
+      "visitStatus": "maybe",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin",
@@ -647,7 +663,12 @@
         "reason": "Reported Michelin/James Beard distinction in the research ledger; confirm official award category, recipient, and year before promoting a visit.",
         "screenedOn": "2026-10-25",
         "verifiedForPublication": false
-      }
+      },
+      "reviewCertainty": "user_uncertain",
+      "wantsToVisit": false,
+      "visitDate": null,
+      "reviewSource": "Direct user 2026-11-05: Maydan — Washington DC: Maybe, keep unconfirmed.",
+      "reviewedOn": "2026-11-05"
     },
     {
       "id": "ashington-little-pearl",
@@ -10349,6 +10370,260 @@
       "userAnswer": "Yes — visited",
       "answerDate": "2026-11-03",
       "recognitionAttribution": "2026 GABF silver medal belongs to Mighty Squirrel's beer Oktoberfest in American Amber Lager, entered under Waltham, MA. This does not prove the user visited Waltham or drank Oktoberfest."
+    },
+    {
+      "id": "candidate-washington-dc-officina",
+      "area": "Washington, DC",
+      "name": "Officina",
+      "venueType": "restaurant",
+      "visitStatus": "confirmed",
+      "reviewCertainty": "explicit_confirmed",
+      "confirmedVisitId": "dining-officina-washington-dc-date-unknown",
+      "wantsToVisit": false,
+      "visitDate": null,
+      "visitPrecision": "unknown",
+      "recognition": "Officina at The Wharf is a DC Italian multi-level restaurant led by Nicholas Stefanelli; no Michelin/James Beard Officina-specific accolade asserted. Other establishments' awards do not transfer.",
+      "awardFamily": "none_venue_specific_verified",
+      "interviewCue": "Multi-level Italian restaurant and market on the DC Wharf; exact room/site not yet established by user's answer.",
+      "sourceUrl": "https://officinadc.com/page/the-wharf",
+      "screening": {
+        "status": "visitor_candidate_no_award_requirement",
+        "basis": "confirmed_visit",
+        "evidenceUrl": "https://officinadc.com/page/the-wharf",
+        "verifiedAt": "2026-11-05",
+        "note": "Chef awards at other named restaurants are not restaurant awards for Officina."
+      },
+      "eligibility": {
+        "status": "eligible_visitor_candidate",
+        "basis": "direct_user_confirmation",
+        "verifiedForPublication": false
+      },
+      "reviewedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-imiloa-astronomy-center",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "ʻImiloa Astronomy Center",
+      "venueType": "museum_cultural_attraction",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Planetarium and exhibits pairing Polynesian voyaging knowledge with Maunakea astronomy.",
+      "sourceUrl": "https://imiloahawaii.org/",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://imiloahawaii.org/",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-lyman-museum-mission-house",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Lyman Museum and Mission House",
+      "venueType": "museum_historic_site",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Downtown museum and historic 1839 mission house; Hawaiian cultural and natural history.",
+      "sourceUrl": "https://lymanmuseum.org/",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://lymanmuseum.org/",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-pacific-tsunami-museum",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Pacific Tsunami Museum",
+      "venueType": "museum",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Downtown Hilo museum devoted to tsunami history, survivors and science.",
+      "sourceUrl": "https://tsunami.org/",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://tsunami.org/",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-palace-theater",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Historic Palace Theater",
+      "venueType": "theater_cultural_landmark",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "1925 Hilo movie palace hosting live theater, music, films and cultural events; building visit is not proof of a show.",
+      "sourceUrl": "https://hilopalace.com/about/",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://hilopalace.com/about/",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-mokupapapa-discovery-center",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Mokupāpapa Discovery Center",
+      "venueType": "museum_cultural_attraction",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "NOAA-led Northwest Hawaiian Islands culture and marine ecosystem exhibits, including large aquarium.",
+      "sourceUrl": "https://sanctuaries.noaa.gov/papahanaumokuakea/visit/visitor-centers.html",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://sanctuaries.noaa.gov/papahanaumokuakea/visit/visitor-centers.html",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-east-hawaii-cultural-center",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "East Hawaiʻi Cultural Center",
+      "venueType": "arts_cultural_landmark",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Gallery and events in Hilo's historic former courthouse/police station.",
+      "sourceUrl": "https://www.ehcc.org/visit",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://www.ehcc.org/visit",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-farmers-market",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Hilo Farmers Market",
+      "venueType": "food_market",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Downtown open-air market for tropical produce, food, flowers and crafts.",
+      "sourceUrl": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/hilo-farmers-market",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/hilo-farmers-market",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-panaewa-rainforest-zoo",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Panaʻewa Rainforest Zoo & Gardens",
+      "venueType": "zoo_botanical_attraction",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Rainforest zoo and botanical setting outside central Hilo.",
+      "sourceUrl": "https://www.parks.hawaiicounty.gov/divisions/pana-ewa-recreational-complex/pana-ewa-rainforest-zoo-gardens",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://www.parks.hawaiicounty.gov/divisions/pana-ewa-recreational-complex/pana-ewa-rainforest-zoo-gardens",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
+    },
+    {
+      "id": "candidate-hilo-wailuku-river-rainbow-falls",
+      "area": "Hilo, Hawaiʻi Island",
+      "name": "Wailuku River State Park / Rainbow Falls",
+      "venueType": "natural_cultural_landmark",
+      "visitStatus": "unreviewed",
+      "wantsToVisit": false,
+      "recognition": "Culturally significant Hilo heritage, science, environment, food market or arts destination. Not a Michelin or James Beard restaurant award claim.",
+      "awardFamily": "cultural_significance_not_formal_culinary_award",
+      "interviewCue": "Waiānuenue (Rainbow Falls) and nearby Boiling Pots viewpoints west of downtown Hilo.",
+      "sourceUrl": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/wailuku-river-state-park",
+      "screening": {
+        "status": "high_value_cultural_baseline",
+        "basis": "historical_scientific_or_cultural_landmark",
+        "evidenceUrl": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/wailuku-river-state-park",
+        "verifiedAt": "2026-11-05",
+        "note": "Inclusion for interview only; no attendance inferred."
+      },
+      "eligibility": {
+        "status": "candidate_unreviewed",
+        "basis": "major_cultural_attraction",
+        "verifiedForPublication": false
+      },
+      "addedOn": "2026-11-05"
     }
   ],
   "source": {
@@ -11409,7 +11684,7 @@
       ]
     },
     "hiloHawaii": {
-      "status": "queued_unreviewed",
+      "status": "active_selective_high_value_baseline",
       "addedOn": "2026-10-31",
       "directUserRequest": "Let's add Hawaii to the list to interview. Specifically, Hilo and Maui.",
       "visitYears": null,
@@ -11427,8 +11702,18 @@
       "location": "Hilo, Hawaiʻi Island (Big Island)",
       "note": "Distinct from Kailua-Kona; start Hilo city and immediate Hilo-area venues, then extend with user direction",
       "candidateIds": [
-        "candidate-hilo-lehua-at-imiloa"
-      ]
+        "candidate-hilo-lehua-at-imiloa",
+        "candidate-hilo-imiloa-astronomy-center",
+        "candidate-hilo-lyman-museum-mission-house",
+        "candidate-hilo-pacific-tsunami-museum",
+        "candidate-hilo-palace-theater",
+        "candidate-hilo-mokupapapa-discovery-center",
+        "candidate-hilo-east-hawaii-cultural-center",
+        "candidate-hilo-farmers-market",
+        "candidate-hilo-panaewa-rainforest-zoo",
+        "candidate-hilo-wailuku-river-rainbow-falls"
+      ],
+      "highValueBatchId": "hilo-selective-high-value-baseline-2026-11-05"
     },
     "mauiHawaii": {
       "status": "queued_unreviewed",
@@ -11582,14 +11867,24 @@
   },
   "interviewProgress": {
     "currentBatch": {
-      "area": "Boston",
-      "category": "brewery_taprooms",
+      "area": "Hilo, Hawaiʻi Island",
+      "category": "selective_high_value_cultural_baseline",
       "candidateNames": [
-        "Dorchester Brewing Company"
+        "Lehua Restaurant at ʻImiloa",
+        "ʻImiloa Astronomy Center",
+        "Lyman Museum and Mission House",
+        "Pacific Tsunami Museum",
+        "Historic Palace Theater",
+        "Mokupāpapa Discovery Center",
+        "East Hawaiʻi Cultural Center",
+        "Hilo Farmers Market",
+        "Panaʻewa Rainforest Zoo & Gardens",
+        "Wailuku River State Park / Rainbow Falls"
       ],
       "status": "awaiting_user_response",
-      "question": "Have you visited Dorchester Brewing Company?",
-      "continuation": "Show real venue photos and four buttons. Preserve Boston Globe editorial recognition separately from judged beer medals. Mighty Squirrel already answered; do not repeat."
+      "batchId": "hilo-selective-high-value-baseline-2026-11-05",
+      "question": "For each of the ten Hilo experiences, mark visited / maybe / not visited / want to go. No dates or attendance inferred.",
+      "continuation": "After Hilo, transition to Maui high-value baseline; preserve all Boston brewery answered statuses and the paused Dorchester question."
     },
     "pausedBatches": [
       {
@@ -11719,9 +12014,21 @@
         "continuation": "Four answers: Yes visited; Maybe looks familiar; No never visited; No, but want to go. Show historical storefront, pastry and egg-sandwich photographs. Venue named 2026 James Beard Outstanding Bakery semifinalist, not winner; recognition may postdate the actual visit. All three user-mentioned Baltimore venues (Salt, Water for Chocolate, Ministry of Brewing) already confirmed. Resume Kansas City historical after this Baltimore stretch.",
         "pausedOn": "2026-11-03",
         "reason": "User explicitly requested Boston brewery interview; no response to Café Dear Leon was implied. Preserve status unreviewed."
+      },
+      {
+        "area": "Boston",
+        "category": "brewery_taprooms",
+        "candidateNames": [
+          "Dorchester Brewing Company"
+        ],
+        "status": "paused_for_baltimore_closeout_and_hilo_baseline",
+        "question": "Have you visited Dorchester Brewing Company?",
+        "continuation": "Show real venue photos and four buttons. Preserve Boston Globe editorial recognition separately from judged beer medals. Mighty Squirrel already answered; do not repeat.",
+        "pausedOn": "2026-11-05",
+        "reason": "User instructed switching to next city after Baltimore/DC; Dorchester Brewery answer remains unanswered."
       }
     ],
-    "interviewMode": "one_venue_at_a_time",
+    "interviewMode": "rapid_fire_selective_city_baseline",
     "evidencePolicy": "Direct statements establish attendance or non-attendance as of the specified date; unanswered venues remain unreviewed. None of the six Chicago bar candidates are confirmed.",
     "queuedAspenMemoryChecks": [
       {
@@ -11954,13 +12261,14 @@
       },
       {
         "area": "Baltimore",
-        "status": "queued_with_identified_salt_tavern_lead",
-        "review": "Interview historic Salt Tavern from 2006–2018 at 2127 E Pratt Street, with local Best of Baltimore culinary category recognition and Sun 2010 Top 50 rank #10; attendance unknown and no Michelin/JBF asserted. Continue other Baltimore gap audit after Kansas City.",
-        "priorityVenueId": "candidate-baltimore-salt-tavern-pratt-street"
+        "status": "baseline_complete",
+        "review": "Selective baseline and targeted historical-gap pass completed; confirmed visits deduped, DC wishes private, Maydān uncertain.",
+        "priorityVenueId": "candidate-baltimore-salt-tavern-pratt-street",
+        "completedOn": "2026-11-05"
       },
       {
         "area": "Hilo, Hawaiʻi Island",
-        "status": "queued_after_baltimore",
+        "status": "active_high_value_baseline",
         "period": "historical, visit years TBD",
         "review": "Hilo restaurants, bars, closed venues and cultural attractions. Begin with 2025 JBF Lehua candidate; expand only with verified awards, authentic venue photos and direct attendance responses."
       },

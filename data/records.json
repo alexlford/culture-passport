@@ -1572,6 +1572,17 @@
       "sourceId": "brewery-site-cambridge-brewing-kendall-square",
       "venueScope": "The original historic Kendall Square pub, which closed in December 2024; brewery brand remains separate.",
       "locationAttribution": "User identified exact historic venue, but address and visit date have not been established."
+    },
+    {
+      "id": "venue-officina-washington-dc-site-unconfirmed",
+      "name": "Officina",
+      "city": "Washington, DC",
+      "region": "District of Columbia",
+      "country": "USA",
+      "location": null,
+      "sourceId": "officina-washington-dc-brand-level",
+      "venueScope": "Confirmed Washington, DC Officina visit; which floor/restaurant area and exact site were not specified by user.",
+      "locationAttribution": "Officina's Wharf address is official contextual information, not a confirmed visit to a specific room or dining floor."
     }
   ],
   "records": [
@@ -9570,6 +9581,58 @@
         "evidenceUrls": [
           "https://www.cambridgebrewingcompany.com/",
           "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/"
+        ],
+        "reviewedOn": "2026-11-05",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "dining-officina-washington-dc-date-unknown",
+      "type": "dining",
+      "title": "Officina",
+      "venueId": "venue-officina-washington-dc-site-unconfirmed",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed Washington, DC Officina visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user response 2026-11-05: 'Officina — Washington DC: Confirmed visited, date unknown unless already recorded.'",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_dc_brand_visit_site_and_date_unknown"
+      },
+      "summary": "Confirmed visit to Officina in Washington, DC. Exact date and dining space are not identified; Officina at The Wharf is the official operating venue context, not evidence of a specific table, floor, dish or visit date.",
+      "memory": {
+        "headline": "A visit to Officina in Washington, DC",
+        "teaser": "A confirmed DC Italian restaurant visit; date and room remain open details.",
+        "story": "I have been to Officina in Washington, DC. I have not identified the date, dining room or floor, who joined me, or what I ordered.",
+        "period": "Date unknown",
+        "source": "Direct user confirmation November 5, 2026."
+      },
+      "recognitions": [],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "No Michelin or James Beard award has been verified for Officina as a restaurant in this targeted archival update. The chef's recognition at another restaurant is not transferred."
+      },
+      "sourceUrl": "https://officinadc.com/page/the-wharf",
+      "editorial": {
+        "awardQualified": false,
+        "featuredException": false,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_dining_visitor_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Include regardless of awards; private publication review is still required."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance",
+        "reason": "Officina attendance directly confirmed. Specific dining room/site, dishes and visit date unknown; no borrowed awards.",
+        "evidenceUrls": [
+          "https://officinadc.com/page/the-wharf"
         ],
         "reviewedOn": "2026-11-05",
         "verifiedForPublication": false
