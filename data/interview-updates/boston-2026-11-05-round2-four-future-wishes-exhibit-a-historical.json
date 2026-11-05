@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "area": "Greater Boston",
+  "recordedOn": "2026-11-05",
+  "roundId": "boston-breweries-rapidfire-2026-11-05-2",
+  "answers": [
+    {
+      "name": "Roundhead Brewing Company",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitedSite": null,
+      "visitDate": null,
+      "awardEvidence": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2023,
+          "category": "Best of Boston — Best Brewery",
+          "result": "winner",
+          "recipient": "Roundhead Brewing Company",
+          "awardType": "editorial_venue_recognition",
+          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2023/roundhead-brewing-company/",
+          "relationship": "Editorial venue recognition; no visit implied"
+        }
+      ],
+      "sourceQuote": "Roundhead Brewing Company (Hyde Park): Not visited — private future wishlist"
+    },
+    {
+      "name": "Widowmaker Brewing",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitedSite": null,
+      "visitDate": null,
+      "awardEvidence": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2025,
+          "category": "Best of the Best — breweries and taprooms",
+          "result": "editorial selection",
+          "recipient": "Widowmaker Brewing — Brighton at 190 North Beacon Street",
+          "awardType": "editorial_location_recognition",
+          "sourceUrl": "https://www.bostonglobe.com/2025/07/09/magazine/best-local-breweries-taproom-boston/",
+          "relationship": "Award source highlights Brighton venue; user's wish remains brand-level across Greater Boston, no exact destination selected"
+        }
+      ],
+      "sourceQuote": "Widowmaker Brewing (Greater Boston brand): Not visited — private future wishlist"
+    },
+    {
+      "name": "Vitamin Sea Brewing",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitedSite": null,
+      "visitDate": null,
+      "awardEvidence": [
+        {
+          "organization": "United States Beer Tasting Championship",
+          "year": 2025,
+          "category": "New England — Imperial Hazy IPA",
+          "result": "regional champion",
+          "product": "One Big Happy Family",
+          "recipient": "Vitamin Sea Brewing — Weymouth, MA",
+          "awardType": "judged_beer_regional_competition",
+          "sourceUrl": "https://storage.googleapis.com/wzukusers/user-35034849/documents/da39698247374041ad2442f8b41cf8fd/USBTC_Summer_2025_Press_Release-Final.pdf",
+          "relationship": "Judged regional title awarded to a beer from the Weymouth-listed producer; not a visit or tasting claim"
+        },
+        {
+          "organization": "United States Beer Tasting Championship",
+          "year": 2025,
+          "category": "New England — Hazy IPA",
+          "result": "regional champion",
+          "product": "Greetings From Plymouth",
+          "recipient": "Vitamin Sea Brewing — Weymouth, MA",
+          "awardType": "judged_beer_regional_competition",
+          "sourceUrl": "https://storage.googleapis.com/wzukusers/user-35034849/documents/da39698247374041ad2442f8b41cf8fd/USBTC_Summer_2025_Press_Release-Final.pdf",
+          "relationship": "Judged regional title for beer product; does not identify user's desired taproom"
+        }
+      ],
+      "sourceQuote": "Vitamin Sea Brewing (Greater Boston/South Shore brand): Not visited — private future wishlist"
+    },
+    {
+      "name": "Bent Water Brewing Company",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "visitedSite": null,
+      "visitDate": null,
+      "awardEvidence": [
+        {
+          "organization": "Australian International Beer Awards",
+          "year": 2024,
+          "category": "West Coast Style India Pale Ale",
+          "result": "silver medal",
+          "product": "Thunder Funk",
+          "recipient": "Bent Water Brewing",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.bentwaterbrewing.com/bent-water-brewing-earns-two-medals-at-the-2024-australian-international-beer-awards/",
+          "relationship": "Beer product medal; not user attendance"
+        },
+        {
+          "organization": "Australian International Beer Awards",
+          "year": 2024,
+          "category": "American Style Lager",
+          "result": "bronze medal",
+          "product": "Premium Lager",
+          "recipient": "Bent Water Brewing",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.bentwaterbrewing.com/bent-water-brewing-earns-two-medals-at-the-2024-australian-international-beer-awards/",
+          "relationship": "Beer product medal; not user attendance"
+        }
+      ],
+      "sourceQuote": "Bent Water Brewing Company (Lynn): Not visited — private future wishlist"
+    },
+    {
+      "name": "Exhibit 'A' Brewing Company — historic Framingham taproom",
+      "attendance": "not_visited",
+      "futureWishlist": false,
+      "historicalInterestOnly": true,
+      "historicSite": "81 Morton Street, Framingham",
+      "visitDate": null,
+      "sourceQuote": "Exhibit A Brewing (historic Framingham venue): Not visited — private historical interest only, old Framingham site closed",
+      "awardEvidence": [
+        {
+          "organization": "Boston.com",
+          "year": 2020,
+          "category": "Top-rated Massachusetts breweries — ranking based on BeerAdvocate community ratings",
+          "result": "ranked #7",
+          "recipient": "Exhibit 'A' Brewing (then Framingham)",
+          "awardType": "editorial_community_rating_ranking",
+          "sourceUrl": "https://www.boston.com/culture/beer/2020/08/14/these-are-the-top-rated-breweries-in-massachusetts/",
+          "relationship": "Historic editorial ranking; not judged brewing medal or personal attendance"
+        }
+      ]
+    }
+  ],
+  "historicalInterest": {
+    "id": "exhibit-a-brewing-framingham-historic",
+    "name": "Exhibit 'A' Brewing Company — historic Framingham taproom",
+    "status": "not_visited",
+    "attendance": false,
+    "wantsToVisit": false,
+    "interest": "historical_interest_only",
+    "wishlistStatus": "historical_interest_only_closed_location",
+    "formerAddress": "81 Morton Street, Framingham, MA 01702",
+    "formerSiteClosed": "2024-07",
+    "brandCurrentlyOperates": "Williamsburg, Massachusetts",
+    "source": {
+      "type": "direct_user_response",
+      "date": "2026-11-05",
+      "quote": "Exhibit A Brewing (historic Framingham venue): Not visited — private historical interest only, old Framingham site closed"
+    },
+    "recognitions": [
+      {
+        "organization": "Boston.com",
+        "year": 2020,
+        "category": "Top-rated Massachusetts breweries — ranking based on BeerAdvocate community ratings",
+        "result": "ranked #7",
+        "recipient": "Exhibit 'A' Brewing (then Framingham)",
+        "awardType": "editorial_community_rating_ranking",
+        "sourceUrl": "https://www.boston.com/culture/beer/2020/08/14/these-are-the-top-rated-breweries-in-massachusetts/",
+        "relationship": "Historic editorial ranking; not judged brewing medal or personal attendance"
+      }
+    ],
+    "closureEvidence": {
+      "sourceUrl": "https://www.brewbound.com/news/exhibit-a-brewing-to-closing-framingham-brewing-move-to-williamsburg",
+      "relocationSourceUrl": "https://exhibitabrewing.com/"
+    },
+    "notes": "Only the original Framingham site was discussed; user did not visit it and wished they had. Do not add to actionable future-visit wishlist, do not infer visit to current Williamsburg brewery, and do not include in public visitor records."
+  },
+  "privateWishlistIds": [
+    "want-to-visit-roundhead-brewing-boston-metro",
+    "want-to-visit-widowmaker-brewing-boston-metro",
+    "want-to-visit-vitamin-sea-brewing-boston-metro",
+    "want-to-visit-bent-water-brewing-lynn"
+  ],
+  "excludedFromPublicVisitorRecords": [
+    "Roundhead Brewing Company",
+    "Widowmaker Brewing",
+    "Vitamin Sea Brewing",
+    "Bent Water Brewing Company",
+    "Exhibit 'A' Brewing Company — historic Framingham taproom"
+  ],
+  "nextFive": [
+    {
+      "name": "Remnant Brewing",
+      "context": "Somerville Bow Market and Cambridge Satellite",
+      "eligibility": {
+        "organization": "The Boston Globe",
+        "year": 2026,
+        "category": "Best of the Best — 11 Boston-area breweries",
+        "result": "editorial selection",
+        "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      },
+      "website": "https://www.remnantsomerville.com/"
+    },
+    {
+      "name": "Long Live Beerworks — Roxbury",
+      "context": "152 Hampden Street, Roxbury, Boston",
+      "eligibility": {
+        "organization": "The Boston Globe",
+        "year": 2026,
+        "category": "Best of the Best — 11 Boston-area breweries",
+        "result": "editorial selection",
+        "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      },
+      "website": "https://www.longlivebeerworks.com/boston"
+    },
+    {
+      "name": "Portico Brewing",
+      "context": "101 South Street, Somerville",
+      "eligibility": {
+        "organization": "The Boston Globe",
+        "year": 2026,
+        "category": "Best of the Best — 11 Boston-area breweries",
+        "result": "editorial selection",
+        "sourceUrl": "https://www.bostonglobe.com/2026/06/04/magazine/refreshing-breweries-around-boston/"
+      },
+      "website": "https://porticobrewing.com/"
+    },
+    {
+      "name": "Medusa Brewing Company",
+      "context": "Hudson, Greater Boston west-metro",
+      "eligibility": {
+        "organization": "World Beer Cup",
+        "year": 2016,
+        "category": "Bohemian-Style Pilsener",
+        "result": "gold medal",
+        "product": "Duchovni",
+        "sourceUrl": "https://www.medusabrewing.com/duchovni"
+      },
+      "website": "https://www.medusabrewing.com/"
+    },
+    {
+      "name": "Brato Brewhouse + Kitchen (historic)",
+      "context": "190 North Beacon Street, Brighton, closed Nov 2022",
+      "eligibility": {
+        "organization": "Boston Magazine",
+        "year": 2021,
+        "category": "Best of Boston — Best Brewery",
+        "result": "winner",
+        "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2021/brato-brewhouse-kitchen/"
+      },
+      "closureEvidence": "https://www.boston.com/community/restaurants/brato-brewhouse-and-kitchen-closes-its-doors/"
+    }
+  ],
+  "sourceType": "direct_user_answer",
+  "datePrecision": "no attendance reported",
+  "notes": "No new public visitor candidate records: all five answered not visited. Awards are independently sourced with explicit recipient/site scope. Do not create a future wishlist for the closed Framingham Exhibit A site."
+}
