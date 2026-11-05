@@ -1989,6 +1989,202 @@
       "userNote": "Want to go. I have not visited.",
       "desiredVisitDate": null,
       "notes": "Private actionable brewery wishlist only. Award evidence not evidence of personal attendance; don't expose future plans publicly."
+    },
+    {
+      "id": "want-to-visit-roundhead-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-roundhead-brewing-boston-metro",
+      "name": "Roundhead Brewing Company",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "roundhead-brewing-boston-metro",
+      "location": {
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "One metro brand-level future wish; not a claim of visiting or choosing a particular taproom."
+      },
+      "website": "https://roundheadbrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Roundhead Brewing Company (Hyde Park): Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 2"
+      },
+      "userNote": "Have not visited. Want to go.",
+      "desiredVisitDate": null,
+      "visitDate": null,
+      "siteVisited": null,
+      "recognitions": [
+        {
+          "organization": "Boston Magazine",
+          "year": 2023,
+          "category": "Best of Boston — Best Brewery",
+          "result": "winner",
+          "recipient": "Roundhead Brewing Company",
+          "awardType": "editorial_venue_recognition",
+          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2023/roundhead-brewing-company/",
+          "relationship": "Editorial venue recognition; no visit implied"
+        }
+      ],
+      "operatingStatus": "operating",
+      "notes": "Private future wish only; excluded from public visitor data and total visits. Awards belong to beer product, named submitting brewery or editorial venue as individually indicated; none is proof of attendance."
+    },
+    {
+      "id": "want-to-visit-widowmaker-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-widowmaker-brewing-boston-metro",
+      "name": "Widowmaker Brewing",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "widowmaker-brewing-boston-metro",
+      "location": {
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "One metro brand-level future wish; not a claim of visiting or choosing a particular taproom."
+      },
+      "website": "https://www.widowmakerbrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Widowmaker Brewing (Greater Boston brand): Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 2"
+      },
+      "userNote": "Have not visited. Want to go.",
+      "desiredVisitDate": null,
+      "visitDate": null,
+      "siteVisited": null,
+      "recognitions": [
+        {
+          "organization": "The Boston Globe",
+          "year": 2025,
+          "category": "Best of the Best — breweries and taprooms",
+          "result": "editorial selection",
+          "recipient": "Widowmaker Brewing — Brighton at 190 North Beacon Street",
+          "awardType": "editorial_location_recognition",
+          "sourceUrl": "https://www.bostonglobe.com/2025/07/09/magazine/best-local-breweries-taproom-boston/",
+          "relationship": "Award source highlights Brighton venue; user's wish remains brand-level across Greater Boston, no exact destination selected"
+        }
+      ],
+      "operatingStatus": "operating",
+      "notes": "Private future wish only; excluded from public visitor data and total visits. Awards belong to beer product, named submitting brewery or editorial venue as individually indicated; none is proof of attendance."
+    },
+    {
+      "id": "want-to-visit-vitamin-sea-brewing-boston-metro",
+      "candidateId": "candidate-boston-brewery-vitamin-sea-brewing-boston-metro",
+      "name": "Vitamin Sea Brewing",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "vitamin-sea-brewing-boston-metro",
+      "location": {
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "One metro brand-level future wish; not a claim of visiting or choosing a particular taproom."
+      },
+      "website": "https://www.vitaminseabrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Vitamin Sea Brewing (Greater Boston/South Shore brand): Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 2"
+      },
+      "userNote": "Have not visited. Want to go.",
+      "desiredVisitDate": null,
+      "visitDate": null,
+      "siteVisited": null,
+      "recognitions": [
+        {
+          "organization": "United States Beer Tasting Championship",
+          "year": 2025,
+          "category": "New England — Imperial Hazy IPA",
+          "result": "regional champion",
+          "product": "One Big Happy Family",
+          "recipient": "Vitamin Sea Brewing — Weymouth, MA",
+          "awardType": "judged_beer_regional_competition",
+          "sourceUrl": "https://storage.googleapis.com/wzukusers/user-35034849/documents/da39698247374041ad2442f8b41cf8fd/USBTC_Summer_2025_Press_Release-Final.pdf",
+          "relationship": "Judged regional title awarded to a beer from the Weymouth-listed producer; not a visit or tasting claim"
+        },
+        {
+          "organization": "United States Beer Tasting Championship",
+          "year": 2025,
+          "category": "New England — Hazy IPA",
+          "result": "regional champion",
+          "product": "Greetings From Plymouth",
+          "recipient": "Vitamin Sea Brewing — Weymouth, MA",
+          "awardType": "judged_beer_regional_competition",
+          "sourceUrl": "https://storage.googleapis.com/wzukusers/user-35034849/documents/da39698247374041ad2442f8b41cf8fd/USBTC_Summer_2025_Press_Release-Final.pdf",
+          "relationship": "Judged regional title for beer product; does not identify user's desired taproom"
+        }
+      ],
+      "operatingStatus": "operating",
+      "notes": "Private future wish only; excluded from public visitor data and total visits. Awards belong to beer product, named submitting brewery or editorial venue as individually indicated; none is proof of attendance."
+    },
+    {
+      "id": "want-to-visit-bent-water-brewing-lynn",
+      "candidateId": "candidate-boston-brewery-bent-water-brewing-lynn",
+      "name": "Bent Water Brewing Company",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "bent-water-brewing-lynn",
+      "location": {
+        "city": "Greater Boston",
+        "region": "Massachusetts",
+        "country": "USA",
+        "address": null,
+        "addressNote": "One metro brand-level future wish; not a claim of visiting or choosing a particular taproom."
+      },
+      "website": "https://www.bentwaterbrewing.com/",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Bent Water Brewing Company (Lynn): Not visited — private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 2"
+      },
+      "userNote": "Have not visited. Want to go.",
+      "desiredVisitDate": null,
+      "visitDate": null,
+      "siteVisited": null,
+      "recognitions": [
+        {
+          "organization": "Australian International Beer Awards",
+          "year": 2024,
+          "category": "West Coast Style India Pale Ale",
+          "result": "silver medal",
+          "product": "Thunder Funk",
+          "recipient": "Bent Water Brewing",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.bentwaterbrewing.com/bent-water-brewing-earns-two-medals-at-the-2024-australian-international-beer-awards/",
+          "relationship": "Beer product medal; not user attendance"
+        },
+        {
+          "organization": "Australian International Beer Awards",
+          "year": 2024,
+          "category": "American Style Lager",
+          "result": "bronze medal",
+          "product": "Premium Lager",
+          "recipient": "Bent Water Brewing",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.bentwaterbrewing.com/bent-water-brewing-earns-two-medals-at-the-2024-australian-international-beer-awards/",
+          "relationship": "Beer product medal; not user attendance"
+        }
+      ],
+      "operatingStatus": "operating",
+      "notes": "Private future wish only; excluded from public visitor data and total visits. Awards belong to beer product, named submitting brewery or editorial venue as individually indicated; none is proof of attendance."
     }
   ],
   "interviewConvention": {
