@@ -8602,10 +8602,12 @@
         "verifiedAt": "2026-10-29",
         "note": "Offsite named restaurant chef-team participation, not an award or a visit to the restaurant."
       },
-      "reviewedOn": "2026-10-29",
+      "reviewedOn": "2026-11-05",
       "reviewCertainty": "explicit",
-      "reviewSource": "Direct user answer: Haven’t been — skip",
-      "wishlistStatus": "not_requested"
+      "reviewSource": "Direct user answer November 5, 2026: The Belfry not visited, add private future wishlist.",
+      "wishlistStatus": "want_to_visit",
+      "wantsToVisit": true,
+      "wishlistEntryId": "want-to-visit-kansas-city-the-belfry"
     },
     {
       "id": "candidate-kc-rozzelle-court",
