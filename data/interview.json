@@ -8501,7 +8501,7 @@
       "recognition": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist.",
       "recognitionYear": 2025,
       "awardFamily": "beard",
-      "visitStatus": "not_visited",
+      "visitStatus": "confirmed",
       "researchStatus": "official_recognition_verified",
       "addedOn": "2026-10-29",
       "priority": "standard",
@@ -8517,10 +8517,11 @@
         "verifiedAt": "2026-10-29",
         "note": "2025 program semifinalist, not winner; no transfer to earlier premises."
       },
-      "reviewedOn": "2026-10-29",
+      "reviewedOn": "2026-11-05",
       "reviewCertainty": "explicit",
-      "reviewSource": "Direct user answer: Haven’t been — add to wishlist",
-      "wishlistStatus": "want_to_visit"
+      "reviewSource": "Direct user confirmation in Kansas City baseline batch 1, November 5, 2026. Date unknown; supersedes earlier nonattendance interview lead.",
+      "wishlistStatus": "want_to_visit",
+      "confirmedVisitId": "dining-jjs-restaurant-kansas-city-date-unknown"
     },
     {
       "id": "candidate-kc-acre-parkville",
