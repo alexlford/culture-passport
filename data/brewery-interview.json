@@ -248,11 +248,15 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
-    "lastWishlistCandidateId": "candidate-boston-brewery-lamplighter-cambridge",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-jacks-abby-craft-lagers",
+    "lastWishlistCandidateId": "candidate-boston-brewery-jacks-abby-craft-lagers",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
-      "Lamplighter Brewing Co. (Greater Boston)"
+      "Lamplighter Brewing Co. (Greater Boston)",
+      "Castle Island Brewing Co. (Greater Boston)",
+      "Notch Brewing (Greater Boston)",
+      "Idle Hands Craft Ales (Greater Boston)",
+      "Jack's Abby Craft Lagers (Greater Boston)"
     ],
     "outOfOrderAnswers": [
       {
@@ -272,6 +276,58 @@
         "visitPeriod": null,
         "note": "No confirmed brewery brand visit. Preserve Boston Globe 2026 brewery editorial recognition independently of attendance. Do not add to public visitor records."
       }
+    ],
+    "nextFiveCandidates": [
+      "Roundhead Brewing Company (Hyde Park)",
+      "Widowmaker Brewing (Braintree/Brighton)",
+      "Vitamin Sea Brewing (Weymouth)",
+      "Bent Water Brewing (Lynn)",
+      "Exhibit 'A' Brewing (historic Framingham)"
+    ],
+    "rapidFireRounds": [
+      {
+        "id": "boston-breweries-rapidfire-2026-11-05-1",
+        "recordedOn": "2026-11-05",
+        "answers": [
+          {
+            "name": "Castle Island Brewing Co.",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteVisited": null,
+            "visitDate": null
+          },
+          {
+            "name": "Cambridge Brewing Company",
+            "attendance": "confirmed_exact_site_visit",
+            "historicSite": "Kendall Square brewpub",
+            "visitDate": null,
+            "awardAttribution": "historical brewery and brewer distinctions; do not infer user drank award beers",
+            "publicRecordId": "bar-cambridge-brewing-company-kendall-square-date-unknown"
+          },
+          {
+            "name": "Notch Brewing",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteVisited": null,
+            "visitDate": null
+          },
+          {
+            "name": "Idle Hands Craft Ales",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteVisited": null,
+            "visitDate": null
+          },
+          {
+            "name": "Jack's Abby Craft Lagers",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteVisited": null,
+            "visitDate": null
+          }
+        ],
+        "policy": "Keep 4 unvisited brand-level entries in private future wishlist; 1 explicitly confirmed historic exact-site visit in public visitor candidate collection, with date unknown; brewing and editorial awards scoped separately."
+      }
     ]
   },
   "nextRegions": [
@@ -280,7 +336,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Lamplighter Brewing Co.: Want to go. Not visited; one private Boston-metro brand wishlist entry, no site selected. Continue Dorchester.",
+  "lastUserStatement": "Nov 5 rapid fire: Castle Island, Notch, Idle Hands, Jack's Abby not visited, wish to go; Cambridge Brewing Company's historic Kendall Square pub visited, date unknown.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
@@ -314,6 +370,64 @@
         }
       ],
       "note": "No claim of beer ordered, brewery tour, companion, number of visits or visit year. Confirmed named Seaport site, not all Harpoon locations."
+    },
+    {
+      "id": "brewery-site-cambridge-brewing-kendall-square",
+      "name": "Cambridge Brewing Company — Kendall Square historic brewpub",
+      "brand": "Cambridge Brewing Company",
+      "status": "confirmed_exact_site_visit",
+      "metroArea": "Greater Boston, Massachusetts",
+      "siteVisited": "Kendall Square historic brewpub",
+      "locationStatus": "site_confirmed",
+      "city": "Cambridge",
+      "region": "Massachusetts",
+      "address": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "userConfirmedOn": "2026-11-05",
+      "userAnswer": "Yes — visited",
+      "source": {
+        "type": "direct_user_confirmation",
+        "date": "2026-11-05",
+        "context": "Culture Passport Boston brewery rapid-fire round",
+        "response": "Cambridge Brewing Company (historic Kendall Square): Yes — visited"
+      },
+      "publicRecordId": "bar-cambridge-brewing-company-kendall-square-date-unknown",
+      "recognitionContext": [
+        {
+          "organization": "Great American Beer Festival",
+          "result": "12 historical medals",
+          "recipient": "Cambridge Brewing Company beers",
+          "relationship": "Historic brewery's judged beer medals, not proof of any particular beer ordered, visiting date, or medal-era visit",
+          "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "World Beer Cup",
+          "result": "2 historical medals",
+          "recipient": "Cambridge Brewing Company beers",
+          "relationship": "Historic brewery's judged beer medals; individual years/categories not established here",
+          "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "Brewers Association",
+          "year": 2017,
+          "category": "Russell Schehrer Award for Innovation in Brewing",
+          "result": "award presented to longtime brewmaster Will Meyers",
+          "recipient": "Will Meyers",
+          "relationship": "Individual brewmaster's recognition, not a venue award or attendance evidence",
+          "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "operatingHistory": {
+        "opened": 1989,
+        "kendallSquarePubClosed": "2024-12",
+        "breweryBrandContinuingAfterPubClosure": true,
+        "sourceUrl": "https://www.cambridgebrewingcompany.com/"
+      },
+      "note": "Exact historic Kendall Square brewery pub identified by user; visit year, meal, companions, tour and beers unknown. The Kendall Square pub is closed. Historical accolades do not date visit."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "Culture Passport",
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "categories": [
     {
       "id": "dining",
@@ -1559,6 +1559,19 @@
       "sourceId": "brewery-brand-mighty-squirrel-boston-metro",
       "venueScope": "Boston-metro brewery brand only; no physical branch identified. Not a Waltham, Fenway or Watertown venue claim.",
       "locationAttribution": "Brand-level confirmed during Greater Boston interview; exact site unknown, so the location is not mapped to any particular brewery entrance."
+    },
+    {
+      "id": "venue-cambridge-brewing-company-kendall-square",
+      "name": "Cambridge Brewing Company — historic Kendall Square brewpub",
+      "city": "Cambridge",
+      "region": "Massachusetts",
+      "country": "USA",
+      "neighborhood": "Kendall Square",
+      "address": null,
+      "location": null,
+      "sourceId": "brewery-site-cambridge-brewing-kendall-square",
+      "venueScope": "The original historic Kendall Square pub, which closed in December 2024; brewery brand remains separate.",
+      "locationAttribution": "User identified exact historic venue, but address and visit date have not been established."
     }
   ],
   "records": [
@@ -9474,6 +9487,91 @@
           "https://www.greatamericanbeerfestival.com/2026-winners/"
         ],
         "reviewedOn": "2026-11-03",
+        "verifiedForPublication": false
+      }
+    },
+    {
+      "id": "bar-cambridge-brewing-company-kendall-square-date-unknown",
+      "type": "bar",
+      "title": "Cambridge Brewing Company — Kendall Square",
+      "venueId": "venue-cambridge-brewing-company-kendall-square",
+      "status": "confirmed",
+      "favorite": false,
+      "visit": {
+        "date": null,
+        "year": null,
+        "possibleYears": [],
+        "label": "Confirmed historic Kendall Square brewpub visit · date unknown",
+        "precision": "unknown",
+        "source": "Direct user response November 5, 2026: Cambridge Brewing Company (historic Kendall Square): Yes — visited.",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "confirmed_named_historic_brewpub_visit_date_unknown",
+        "actualVisitDate": null,
+        "beersOrdered": null,
+        "breweryTour": null
+      },
+      "summary": "I visited the historic Cambridge Brewing Company brewpub in Kendall Square, Cambridge. The pub operated from 1989 through December 2024; my exact visit date is unknown. CBC had recognized brewing achievements, including GABF and World Beer Cup medals and a 2017 individual brewer innovation award, none of which establishes what I drank.",
+      "memory": {
+        "headline": "A visit to Cambridge Brewing Company in Kendall Square",
+        "teaser": "I visited Cambridge Brewing Company's historic Kendall Square brewpub before it closed; the exact date is not known.",
+        "story": "I visited Cambridge Brewing Company's historic Kendall Square brewpub, but haven't established when I went, who was with me, or what I ordered. The brewery's decades of brewing innovation and awards provide context, not details of my personal meal or drink. The pub closed in December 2024.",
+        "period": "Before December 2024 · exact date unknown",
+        "source": "Direct user confirmation November 5, 2026."
+      },
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "result": "12 historical medals",
+          "recipient": "Cambridge Brewing Company beers",
+          "relationship": "Historic brewery's judged beer medals, not proof of any particular beer ordered, visiting date, or medal-era visit",
+          "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "World Beer Cup",
+          "result": "2 historical medals",
+          "recipient": "Cambridge Brewing Company beers",
+          "relationship": "Historic brewery's judged beer medals; individual years/categories not established here",
+          "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+          "timingRelativeToVisit": "unknown"
+        },
+        {
+          "organization": "Brewers Association",
+          "year": 2017,
+          "category": "Russell Schehrer Award for Innovation in Brewing",
+          "result": "award presented to longtime brewmaster Will Meyers",
+          "recipient": "Will Meyers",
+          "relationship": "Individual brewmaster's recognition, not a venue award or attendance evidence",
+          "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+          "timingRelativeToVisit": "unknown"
+        }
+      ],
+      "guide": {
+        "distinction": "not_verified",
+        "stars": 0,
+        "sourceUrl": null,
+        "note": "Brewing medals and a named-brewer award are distinct from Michelin/James Beard awards."
+      },
+      "sourceUrl": "https://www.cambridgebrewingcompany.com/",
+      "editorial": {
+        "awardQualified": false,
+        "officialFeature": false,
+        "featuredException": false,
+        "culturalSpotlight": true,
+        "publicInclusionRequested": true,
+        "collection": "confirmed_brewery_site_visit_public_candidate",
+        "basis": "direct_user_confirmation",
+        "note": "Include confirmed historic visit even though the pub has closed; publishing personal story is separate pending review."
+      },
+      "curation": {
+        "status": "included_in_visitor_candidate_pending_story_review",
+        "basis": "direct_user_attendance_at_named_historic_site",
+        "reason": "Confirmed attendance at historic Kendall Square brewpub; site and date evidence kept separate from awards.",
+        "evidenceUrls": [
+          "https://www.cambridgebrewingcompany.com/",
+          "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/"
+        ],
+        "reviewedOn": "2026-11-05",
         "verifiedForPublication": false
       }
     }

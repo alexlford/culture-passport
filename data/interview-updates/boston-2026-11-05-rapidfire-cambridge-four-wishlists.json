@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "project": "Culture Passport",
+  "recordedOn": "2026-11-05",
+  "area": "Greater Boston brewery interview",
+  "round": "rapid_fire_5",
+  "answers": [
+    {
+      "name": "Castle Island Brewing Co.",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "siteVisited": null,
+      "visitDate": null
+    },
+    {
+      "name": "Cambridge Brewing Company",
+      "attendance": "confirmed_exact_site_visit",
+      "historicSite": "Kendall Square brewpub",
+      "visitDate": null,
+      "awardAttribution": "historical brewery and brewer distinctions; do not infer user drank award beers",
+      "publicRecordId": "bar-cambridge-brewing-company-kendall-square-date-unknown"
+    },
+    {
+      "name": "Notch Brewing",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "siteVisited": null,
+      "visitDate": null
+    },
+    {
+      "name": "Idle Hands Craft Ales",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "siteVisited": null,
+      "visitDate": null
+    },
+    {
+      "name": "Jack's Abby Craft Lagers",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "siteVisited": null,
+      "visitDate": null
+    }
+  ],
+  "publicCandidateRecordId": "bar-cambridge-brewing-company-kendall-square-date-unknown",
+  "privateWishlistIds": [
+    "want-to-visit-castle-island-brewing-boston-metro",
+    "want-to-visit-notch-brewing-boston-metro",
+    "want-to-visit-idle-hands-craft-ales-boston-metro",
+    "want-to-visit-jacks-abby-craft-lagers-boston-metro"
+  ],
+  "awardSources": {
+    "Cambridge Brewing Company": [
+      {
+        "organization": "Great American Beer Festival",
+        "result": "12 historical medals",
+        "recipient": "Cambridge Brewing Company beers",
+        "relationship": "Historic brewery's judged beer medals, not proof of any particular beer ordered, visiting date, or medal-era visit",
+        "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+        "timingRelativeToVisit": "unknown"
+      },
+      {
+        "organization": "World Beer Cup",
+        "result": "2 historical medals",
+        "recipient": "Cambridge Brewing Company beers",
+        "relationship": "Historic brewery's judged beer medals; individual years/categories not established here",
+        "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+        "timingRelativeToVisit": "unknown"
+      },
+      {
+        "organization": "Brewers Association",
+        "year": 2017,
+        "category": "Russell Schehrer Award for Innovation in Brewing",
+        "result": "award presented to longtime brewmaster Will Meyers",
+        "recipient": "Will Meyers",
+        "relationship": "Individual brewmaster's recognition, not a venue award or attendance evidence",
+        "sourceUrl": "https://www.brewbound.com/news/cambridge-brewing-co-to-close-in-december-after-35-years/",
+        "timingRelativeToVisit": "unknown"
+      }
+    ],
+    "Castle Island Brewing Co.": [
+      {
+        "organization": "Great American Beer Festival",
+        "result": "multiple medals including Bohemian Shine gold (Czech Pilsner)",
+        "sourceUrl": "https://www.castleislandbeer.com/about",
+        "relationship": "Product-level brewery recognition; visit is explicitly denied, no site inferred"
+      }
+    ],
+    "Notch Brewing": [
+      {
+        "organization": "Boston Magazine",
+        "year": 2022,
+        "category": "Best of Boston — Best Brewery",
+        "result": "winner",
+        "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/award/brewery/",
+        "relationship": "Editorial recognition for brewery brand, separate from attendance"
+      }
+    ],
+    "Idle Hands Craft Ales": [
+      {
+        "organization": "Boston Magazine",
+        "year": 2020,
+        "category": "Best of Boston — Best Brewery",
+        "result": "winner",
+        "sourceUrl": "https://www.bostonmagazine.com/best-of-boston/dining/?bestof_search=idle",
+        "relationship": "Editorial recognition, not a beer medal or visit evidence"
+      }
+    ],
+    "Jack's Abby Craft Lagers": [
+      {
+        "organization": "World Beer Cup",
+        "year": 2026,
+        "category": "Hoppy Lager",
+        "product": "Modern IPA",
+        "result": "bronze medal",
+        "sourceUrl": "https://jacksabby.com/modern-ipa-wins-bronze-at-the-2026-world-beer-cup/",
+        "relationship": "Judged medal belongs to beer/brewery, not attendance at any site"
+      }
+    ]
+  },
+  "nextFive": [
+    "Roundhead Brewing Company (Hyde Park)",
+    "Widowmaker Brewing (Braintree/Brighton)",
+    "Vitamin Sea Brewing (Weymouth)",
+    "Bent Water Brewing (Lynn)",
+    "Exhibit 'A' Brewing (historic Framingham)"
+  ],
+  "notes": "Explicit attendance and nonattendance are primary evidence. No unspecified user visit date, beer order, site or awards visit time inferred."
+}

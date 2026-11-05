@@ -1257,6 +1257,7 @@ for venue in venues:
             "venue-brewery-brand-avery-brewing-site-unconfirmed": None,
             "venue-brewery-brand-trillium-boston-metro-site-unconfirmed": "Boston",
             "venue-brewery-brand-mighty-squirrel-boston-metro-site-unconfirmed": "Boston",
+            "venue-cambridge-brewing-company-kendall-square": "Cambridge",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
@@ -1590,21 +1591,29 @@ assert all(x["status"] == "confirmed_brewery_brand_visit" and x["locationStatus"
 # The user expressly requests every direct visit in the public candidate collection.
 public_brewery_visits = [r for r in records if r.get("editorial",{}).get("publicInclusionRequested")]
 site_visits = brewery.get("confirmedSiteVisits", [])
-assert len(site_visits) == 1
-harpoon_private = site_visits[0]
-assert harpoon_private["id"] == "brewery-site-harpoon-seaport"
-assert harpoon_private["locationStatus"] == "site_confirmed"
-assert harpoon_private["visitDate"] is None
+assert len(site_visits) == 2
+assert {v["id"] for v in site_visits} == {"brewery-site-harpoon-seaport", "brewery-site-cambridge-brewing-kendall-square"}
+harpoon_private = next(v for v in site_visits if v["id"] == "brewery-site-harpoon-seaport")
+cambridge_private = next(v for v in site_visits if v["id"] == "brewery-site-cambridge-brewing-kendall-square")
+assert all(v["locationStatus"] == "site_confirmed" and v["visitDate"] is None for v in site_visits)
 assert harpoon_private["publicRecordId"] == "bar-harpoon-brewery-beer-hall-boston-date-unknown"
-assert len(public_brewery_visits) == len(brand_visits) + len(site_visits) == 10
+assert cambridge_private["publicRecordId"] == "bar-cambridge-brewing-company-kendall-square-date-unknown"
+assert cambridge_private["siteVisited"] == "Kendall Square historic brewpub"
+assert len(public_brewery_visits) == len(brand_visits) + len(site_visits) == 11
 assert {r["id"] for r in public_brewery_visits} == ({
     "bar-" + b["id"] + "-visit-date-unknown" for b in brand_visits
-} | {harpoon_private["publicRecordId"]})
+} | {v["publicRecordId"] for v in site_visits})
 assert all(r["status"] == "confirmed" and r["type"] == "bar"
            and r["visit"]["date"] is None and r["visit"]["year"] is None
            and r["visit"]["precision"] == "unknown" for r in public_brewery_visits)
 assert all(next(v for v in venues if v["id"] == r["venueId"])["location"] is None
            for r in public_brewery_visits if r["title"] != "Harpoon Brewery & Beer Hall")
+cambridge_public = next(r for r in public_brewery_visits if r["id"] == cambridge_private["publicRecordId"])
+assert cambridge_public["title"] == "Cambridge Brewing Company — Kendall Square"
+assert cambridge_public["visit"]["date"] is None
+assert len(cambridge_public["recognitions"]) == 3
+assert all(h["sourceUrl"].startswith("https://") for h in cambridge_public["recognitions"])
+assert next(v for v in venues if v["id"] == cambridge_public["venueId"])["city"] == "Cambridge"
 harpoon_public = next(r for r in public_brewery_visits if r["title"] == "Harpoon Brewery & Beer Hall")
 assert harpoon_public["status"] == "confirmed" and harpoon_public["visit"]["date"] is None
 harpoon_venue = next(v for v in venues if v["id"] == harpoon_public["venueId"])
@@ -1614,7 +1623,7 @@ assert harpoon_venue["locationAttribution"].find("not a GPS visit coordinate") >
 assert harpoon_public["recognitions"][0]["year"] == 2024
 assert harpoon_public["recognitions"][0]["recipient"].find("306 Northern Avenue") >= 0
 assert all(next(v for v in venues if v["id"] == r["venueId"])["city"] is None
-           for r in public_brewery_visits if r["title"] not in {"Trillium Brewing Company", "Harpoon Brewery & Beer Hall", "Mighty Squirrel Brewing"})
+           for r in public_brewery_visits if r["title"] not in {"Trillium Brewing Company", "Harpoon Brewery & Beer Hall", "Mighty Squirrel Brewing", "Cambridge Brewing Company — Kendall Square"})
 assert next(v for v in venues if v["name"] == "Trillium Brewing Company")["city"] == "Boston"
 mighty = next(c for c in candidates if c["id"] == "candidate-boston-brewery-mighty-squirrel")
 assert mighty["visitStatus"] == "confirmed" and mighty["wantsToVisit"] is False
