@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "updated": "2026-11-05",
+  "directiveSource": "Explicit user instruction: adopt selective baseline-first process for all remaining cities",
+  "strategy": "Breadth-first culturally significant experiences, then optional historical gap audits; stop exhaustive neighborhood-by-neighborhood searches.",
+  "scope": "All remaining and revisited cities, not just Boston; restaurants, bars, pubs, theater, opera, music, museums, notable attractions and exceptional experiences.",
+  "priorityTiers": [
+    {
+      "tier": 1,
+      "include": [
+        "Michelin stars/Bib Gourmand/Green Star and historically relevant Michelin selections",
+        "James Beard winners, finalists, notable semifinalists, distinguished chefs/bars",
+        "CAMRA recognized pubs and major brewing competition wins",
+        "Major arts and performance institutions, significant performances, culturally defining historic venues"
+      ]
+    },
+    {
+      "tier": 2,
+      "include": [
+        "Historically iconic or locally significant experiences",
+        "Notable hospitality/design awards, landmark cocktail bars, destination restaurants"
+      ]
+    },
+    {
+      "tier": 3,
+      "include": [
+        "Local reader recommendations and ordinary neighborhood taprooms only when exceptionally distinctive or needed to jog a known memory"
+      ],
+      "defaultAction": "defer_to_later_audit"
+    }
+  ],
+  "interview": {
+    "batchSizeTarget": 12,
+    "minimum": 10,
+    "maximum": 15,
+    "showGenuinePhotos": true,
+    "briefMemoryCues": true,
+    "answerChoices": [
+      "confirmed_visit",
+      "maybe_uncertain",
+      "not_visited_future_wishlist",
+      "not_visited_no_wishlist"
+    ],
+    "closedVenueThirdChoice": "not_visited_historical_interest_only",
+    "maxPassesPerCity": 2,
+    "passes": [
+      "major_high_value_candidates",
+      "targeted_historical_misses"
+    ],
+    "dedupeMetroBrands": true,
+    "skipAlreadyAnswered": true,
+    "stopRule": "Mark baseline complete after high-value candidates and one targeted historical-miss pass; do not demand exhaustive neighborhood coverage."
+  },
+  "recordsPolicy": {
+    "confirmedVisit": "Create public visitor candidate regardless of awards; publication subject to separate explicit story review.",
+    "uncertainVisit": "Private, not confirmed, never automatically published.",
+    "futureWishlist": "Private and explicitly not visited; never public.",
+    "closedVenueInterest": "Private historical interest only, not actionable future wishlist.",
+    "dates": "Unknown unless directly supported.",
+    "awards": "Attribution must distinguish specific venue, chef, brewery brand, beer product, editorial list, community ratings, formal medals, and historical context."
+  },
+  "githubPolicy": {
+    "batchUpdates": true,
+    "featureBranchAndPR": true,
+    "requiredHeadChecks": [
+      "validate",
+      "Browser smoke · visitor preview"
+    ],
+    "mergeOnlyOnExactHeadGreen": true,
+    "verifyMergedMainBothChecks": true,
+    "doNotWeakenPublicationGate": true
+  },
+  "baselineRegions": [
+    {
+      "region": "Kansas City metro",
+      "phase": "selective_historical_gap_audit",
+      "status": "in_progress",
+      "alreadyRecordedConfirmedExamples": [
+        "The Majestic",
+        "Manifesto",
+        "Pierpont's at Union Station",
+        "Harvey's at Union Station",
+        "Rye Plaza",
+        "Westport Café",
+        "J. Rieger experiences",
+        "801 Chophouse"
+      ],
+      "alreadyAnsweredWishlistsExamples": [
+        "The Town Company",
+        "The Restaurant at 1900",
+        "Chewology",
+        "Affäre",
+        "Farina",
+        "Of Course",
+        "Fox & Pearl",
+        "Drastic Measures sister bar Wild Child"
+      ],
+      "nextBatchId": "kansas-city-baseline-2026-11-05-batch1",
+      "nextBatchSize": 11
+    },
+    {
+      "region": "Baltimore and Washington DC",
+      "phase": "selective_historical_gap_audit",
+      "status": "queued"
+    },
+    {
+      "region": "Boston metro",
+      "phase": "targeted_high_value_completion_only",
+      "status": "brewery_deep_dive_paused"
+    },
+    {
+      "region": "Cambridge UK",
+      "phase": "targeted_historical_gap_audit",
+      "status": "queued"
+    },
+    {
+      "region": "Hilo and Maui Hawaii",
+      "phase": "initial_high_value_baseline",
+      "status": "queued"
+    }
+  ],
+  "nextInterviewBatch": {
+    "id": "kansas-city-baseline-2026-11-05-batch1",
+    "area": "Kansas City metro",
+    "status": "awaiting_user_answers",
+    "candidates": [
+      {
+        "name": "The Antler Room",
+        "city": "Kansas City",
+        "recognition": "Chef Nick Goellner — James Beard Best Chef Midwest semifinalist 2019, 2020, 2023",
+        "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "memoryCue": "Intimate Union Hill dining room, eclectic seasonal small plates and globally influenced cooking."
+      },
+      {
+        "name": "Anjin",
+        "city": "Kansas City",
+        "recognition": "2026 James Beard Best New Restaurant semifinalist",
+        "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "memoryCue": "Tiny East Crossroads Japanese izakaya chef's counter with open kitchen."
+      },
+      {
+        "name": "JJ's Restaurant",
+        "city": "Kansas City",
+        "recognition": "2025 James Beard Outstanding Wine and Other Beverages Program semifinalist",
+        "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "memoryCue": "Plaza-area wine cellar and old-school upscale dinner."
+      },
+      {
+        "name": "The Belfry",
+        "city": "Kansas City",
+        "recognition": "Chef Celina Tio won 2007 James Beard Best Chef Midwest at The American, not at The Belfry",
+        "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "memoryCue": "Crossroads chef-driven bar and whiskey collection."
+      },
+      {
+        "name": "Grünauer",
+        "city": "Kansas City",
+        "recognition": "Historic Freight House culinary landmark; no asserted James Beard win",
+        "sourceUrl": "https://www.visitkc.com/",
+        "memoryCue": "Austrian schnitzel, dark wood, vaulted brick Freight House dining room."
+      },
+      {
+        "name": "Golden Ox",
+        "city": "Kansas City",
+        "recognition": "Historic Kansas City stockyards steakhouse; local cultural significance, not formal award claim",
+        "sourceUrl": "https://www.visitkc.com/",
+        "memoryCue": "West Bottoms historic steakhouse, KC strip lore."
+      },
+      {
+        "name": "Swordfish Tom's",
+        "city": "Kansas City",
+        "recognition": "Distinctive cocktail institution, editorial/cultural significance only",
+        "sourceUrl": "https://www.visitkc.com/",
+        "memoryCue": "Tiny basement speakeasy with discreet entrance, cocktails only."
+      },
+      {
+        "name": "Lonnie's Reno Club",
+        "city": "Kansas City",
+        "recognition": "Historic Kansas City jazz heritage experience; not asserted formal award",
+        "sourceUrl": "https://www.visitkc.com/",
+        "memoryCue": "Dinner and live jazz show inside Ambassador Hotel, Lonnie McFadden."
+      },
+      {
+        "name": "Novel Restaurant",
+        "city": "Kansas City",
+        "recognition": "Notable chef-driven Crossroads destination, not asserted formal award",
+        "sourceUrl": "https://www.visitkc.com/",
+        "memoryCue": "Seasonal fine dining and house-made pasta in East Crossroads."
+      },
+      {
+        "name": "The Savoy",
+        "city": "Kansas City",
+        "recognition": "Historic hotel dining room; local heritage distinction, not award",
+        "sourceUrl": "https://www.visitkc.com/",
+        "memoryCue": "Historic downtown Savoy hotel restaurant, classic booths and woodwork."
+      },
+      {
+        "name": "The Campground",
+        "city": "Kansas City",
+        "recognition": "2024 James Beard Emerging Chef semifinalist Jeff Workman — chef-at-that-time, not perpetual venue award",
+        "sourceUrl": "https://www.visitkc.com/articles/kansas-citys-james-beard-award-restaurants-and-bars/",
+        "memoryCue": "West Bottoms woodsy restaurant and intimate cocktail bar."
+      }
+    ]
+  }
+}
