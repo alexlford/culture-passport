@@ -194,13 +194,13 @@
       "recognitions": [
         {
           "organization": "The Somerville Times",
-          "year": 2025,
-          "category": "Readers' Choice — Best Brewery (Somerville)",
+          "year": 2024,
+          "category": "Best of Somerville 2024 — Readers' Choice Best Brewery",
           "result": "winner",
           "recipient": "Winter Hill Brewing, 328 Broadway",
           "awardType": "local_reader_poll_win",
           "sourceUrl": "https://www.thesomervilletimes.com/getnews/tst_1_8_25.pdf",
-          "relationship": "Reader poll venue award distinct from judged brewing medal"
+          "relationship": "2024 readers' choice award published in the January 8, 2025 issue. Not a 2025 competition award or judged beer medal."
         },
         {
           "organization": "Boston.com",
