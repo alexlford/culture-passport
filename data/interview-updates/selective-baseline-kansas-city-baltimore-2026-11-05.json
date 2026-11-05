@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "updated": "2026-11-05",
+  "project": "Culture Passport",
+  "method": "selective_baseline_first",
+  "batches": [
+    {
+      "region": "Kansas City",
+      "batch": "kc-major-baseline-1",
+      "confirmed": [
+        "JJ's Restaurant",
+        "Golden Ox"
+      ],
+      "wish": [
+        "The Antler Room",
+        "Anjin",
+        "The Belfry",
+        "Grünauer",
+        "Swordfish Tom's",
+        "Lonnie's Reno Club",
+        "Novel Restaurant",
+        "The Savoy",
+        "The Campground"
+      ],
+      "source": "Direct user response; attendance and wishlist explicit",
+      "dateKnown": false
+    },
+    {
+      "region": "Kansas City",
+      "batch": "kc-final-historical-gap",
+      "confirmed": [
+        "Le Fou Frog",
+        "The Classic Cup Café",
+        "The Green Lady Lounge",
+        "The Ship",
+        "The Quaff"
+      ],
+      "wish": [
+        "The Capital Grille — Country Club Plaza",
+        "The Phoenix",
+        "The Bristol — Power & Light",
+        "Cafe Provence — Prairie Village",
+        "André's Confiserie Suisse"
+      ],
+      "source": "Direct user response; attendance and wishlist explicit",
+      "dateKnown": false
+    },
+    {
+      "region": "Baltimore/DC",
+      "batch": "baltimore-dc-selective-1",
+      "confirmed": [
+        "La Cuchara",
+        "The Elk Room",
+        "The Bluebird Cocktail Room",
+        "Peter's Inn"
+      ],
+      "wish": [
+        "Clavel",
+        "Alma Cocina Latina",
+        "Magdalena",
+        "Foraged",
+        "Cinghiale",
+        "Dutch Courage",
+        "minibar by José Andrés",
+        "Toki Underground"
+      ],
+      "source": "Direct user response; attendance and wishlist explicit",
+      "dateKnown": false
+    }
+  ],
+  "kansasCity": {
+    "baselineStatus": "complete",
+    "passes": 2,
+    "followUp": "Future periodic audits only"
+  },
+  "baltimoreDC": {
+    "baselineStatus": "in_progress",
+    "next": "one final selective historical-gap batch then next city"
+  },
+  "policy": "Confirmed visits public visitor candidates pending review, even without awards. Future wishes private. Unknown dates unknown. No awards asserted without source-level verification.",
+  "counts": {
+    "confirmed": 11,
+    "privateWishes": 22
+  }
+}
