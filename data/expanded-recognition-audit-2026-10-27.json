@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "auditedOn": "2026-11-03",
+  "auditedOn": "2026-11-05",
   "classification": "private_research",
   "title": "Expanded Michelin and James Beard Recognition Audit of Confirmed Culture Passport Restaurants",
   "scope": {
     "source": "data/records.json confirmed dining experiences plus data/dining-awards-audit.json confirmedArchiveOnly entries not represented as canonical dining records",
-    "restaurantEntriesReviewed": 62,
-    "canonicalDistinctVenues": 57,
+    "restaurantEntriesReviewed": 63,
+    "canonicalDistinctVenues": 58,
     "archiveOnlyAdditionalEntries": 5,
-    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted. November 3: Water for Chocolate confirmed as restaurant visit, date unknown, archived without verified formal honor; Ministry of Brewing is a bar and excluded from these restaurant totals. Direct November 3 Baltimore triple confirmation includes Rye Street Tavern at Sagamore, alongside Water for Chocolate and Ministry of Brewing. Salt Tavern separately previously confirmed. Rye visit date and era unknown.",
+    "note": "Includes a Jack Stack restaurant-group memory covering as-yet-unidentified branches in addition to its separately confirmed Overland Park location. Excludes J-Bar (cocktail bar, not restaurant) and all unconfirmed interview candidates. Repeated visits to one venue count once. October 31: added a new separately confirmed Rye Plaza visit to the private award archive, without transferring Bluestem/Leawood awards. November 3: Salt Tavern 2018 confirmed first visit, editorial/personal exception with no national award asserted. November 3: Water for Chocolate confirmed as restaurant visit, date unknown, archived without verified formal honor; Ministry of Brewing is a bar and excluded from these restaurant totals. Direct November 3 Baltimore triple confirmation includes Rye Street Tavern at Sagamore, alongside Water for Chocolate and Ministry of Brewing. Salt Tavern separately previously confirmed. Rye visit date and era unknown. November 5: Officina DC directly confirmed, exact venue section and date unknown; added to archival recognition sweep and watchlist without claiming awards.",
     "coverageLimitation": "Targeted verified official-source sweep and secondary 5280 discovery index, not an exhaustive audit of historical years. 'Not verified' is not 'never honored'; the 2026 Colorado Michelin list should not be generalized to other years or areas. Cambridge additions on 2026-10-28 are coverage placeholders with recognitionReviewStatus pending, not completed recognition reviews.",
-    "restaurantEntriesTracked": 62,
+    "restaurantEntriesTracked": 63,
     "restaurantEntriesPendingRecognitionReview": 0
   },
   "rules": {
@@ -80,7 +80,7 @@
     }
   },
   "countsByTier": {
-    "archived_pending_recognition": 21,
+    "archived_pending_recognition": 22,
     "formal_michelin_jbf_recognition": 26,
     "personal_featured_exception": 10,
     "official_program_or_editorial_connection": 5
@@ -2071,6 +2071,32 @@
       "reviewResult": "Confirmed user visit with unknown date/operating era; no direct Michelin or JBF venue honor verified. Prior chef awards elsewhere cannot be transferred.",
       "watchlistId": "venue-rye-street-tavern-sagamore-baltimore",
       "reviewedOn": "2026-11-03",
+      "recognitionReviewStatus": "reviewed"
+    },
+    {
+      "venueId": "venue-officina-washington-dc-site-unconfirmed",
+      "restaurantName": "Officina",
+      "city": "Washington, DC",
+      "region": "District of Columbia",
+      "venueScope": "Washington DC restaurant brand; exact dining room and branch unconfirmed",
+      "personalVisitStatus": "confirmed",
+      "experienceIds": [
+        "dining-officina-washington-dc-date-unknown"
+      ],
+      "repeatCountRecords": 1,
+      "collectionTier": "archived_pending_recognition",
+      "formalAwardOrGuideQualified": false,
+      "personalFeaturedException": false,
+      "officialProgramConnection": false,
+      "officialSourceUrls": [
+        "https://officinadc.com/page/the-wharf"
+      ],
+      "historicalGuide": "not_verified",
+      "formalRecognitions": [],
+      "officialFeatures": [],
+      "reviewResult": "Confirmed DC visit; specific branch, room and date unknown. No Officina-specific Michelin or James Beard award verified in targeted update; do not transfer chef awards from other venues.",
+      "watchlistId": "venue-officina-washington-dc-site-unconfirmed",
+      "reviewedOn": "2026-11-05",
       "recognitionReviewStatus": "reviewed"
     }
   ],
