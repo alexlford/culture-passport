@@ -248,8 +248,8 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-lord-hobo-woburn",
-    "lastWishlistCandidateId": "candidate-boston-brewery-lord-hobo-woburn",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-east-regiment-salem",
+    "lastWishlistCandidateId": "candidate-boston-brewery-east-regiment-salem",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -269,7 +269,12 @@
       "Democracy Brewing — Downtown Boston",
       "FACES Brewing Company — Malden",
       "Drawdown Brewing Company — Jamaica Plain",
-      "Lord Hobo Brewing Company — Woburn"
+      "Lord Hobo Brewing Company — Woburn",
+      "Cisco Brewers — Seaport Boston",
+      "Winter Hill Brewing Company — Somerville",
+      "Distraction Brewing Co. — Roslindale",
+      "True North Ale Company — Ipswich",
+      "East Regiment Beer Company — Salem"
     ],
     "outOfOrderAnswers": [
       {
@@ -291,11 +296,11 @@
       }
     ],
     "nextFiveCandidates": [
-      "Cisco Brewers — Seaport",
-      "Winter Hill Brewing Company",
-      "Distraction Brewing Co.",
-      "True North Ale Company",
-      "East Regiment Beer Company"
+      "Break Rock Brewing — Quincy Marina Bay",
+      "Medford Brewing Company — West Medford",
+      "Untold Brewing — Historic Scituate Schoolhouse",
+      "Coastal Mass. Brewing — Beverly",
+      "Barrel House Z — Historic Weymouth"
     ],
     "rapidFireRounds": [
       {
@@ -766,6 +771,192 @@
           }
         ],
         "policy": "Five explicitly unvisited specific brewery venues added as private future wishes. Do not infer nonattendance at other same-brand campuses or locations; no confirmed visitor candidate records should be created. Editorial recommendations, community lists and judged beer awards treated as distinct evidence."
+      },
+      {
+        "id": "boston-breweries-rapidfire-2026-11-05-5",
+        "recordedOn": "2026-11-05",
+        "answers": [
+          {
+            "name": "Cisco Brewers — Seaport Boston",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "certainty": "explicit_nonattendance",
+            "wishlistLocation": {
+              "address": "85 Northern Avenue",
+              "city": "Boston",
+              "neighborhood": "Seaport",
+              "region": "Massachusetts",
+              "postalCode": "02210",
+              "country": "USA"
+            },
+            "awardEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Readers' recommended Massachusetts brewery guide",
+                "result": "included",
+                "recipient": "Cisco Brewers (brand, multiple locations)",
+                "awardType": "reader_recommendation_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Brewery-brand inclusion only; not judged medal or specific Seaport taproom award"
+              }
+            ],
+            "sourceQuote": "Cisco Brewers — Seaport Boston: No — want to go, add private future wishlist"
+          },
+          {
+            "name": "Winter Hill Brewing Company — Somerville",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "certainty": "explicit_nonattendance",
+            "wishlistLocation": {
+              "address": "328 Broadway",
+              "city": "Somerville",
+              "region": "Massachusetts",
+              "postalCode": "02145",
+              "country": "USA"
+            },
+            "awardEvidence": [
+              {
+                "organization": "The Somerville Times",
+                "year": 2024,
+                "category": "Best of Somerville 2024 — Readers' Choice Best Brewery",
+                "result": "winner",
+                "recipient": "Winter Hill Brewing, 328 Broadway",
+                "awardType": "local_reader_poll_win",
+                "sourceUrl": "https://www.thesomervilletimes.com/getnews/tst_1_8_25.pdf",
+                "relationship": "2024 readers' choice award published in the January 8, 2025 issue. Not a 2025 competition award or judged beer medal."
+              },
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Readers' recommended Massachusetts brewery guide",
+                "result": "included with reader commentary",
+                "recipient": "Winter Hill Brewing Company, 328 Broadway",
+                "awardType": "reader_recommendation_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader commentary; separate from 2025 Somerville Times award"
+              }
+            ],
+            "sourceQuote": "Winter Hill Brewing Company — Somerville: No — want to go, add private future wishlist"
+          },
+          {
+            "name": "Distraction Brewing Co. — Roslindale",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "certainty": "explicit_nonattendance",
+            "wishlistLocation": {
+              "address": "2 Belgrade Avenue",
+              "city": "Boston",
+              "neighborhood": "Roslindale",
+              "region": "Massachusetts",
+              "postalCode": "02131",
+              "country": "USA"
+            },
+            "awardEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Readers' recommended Massachusetts brewery guide",
+                "result": "included",
+                "recipient": "Distraction Brewing Co., 2 Belgrade Ave, Roslindale",
+                "awardType": "reader_recommendation_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader-curated directory inclusion; not a medal or Best of Boston win"
+              }
+            ],
+            "sourceQuote": "Distraction Brewing Co. — Roslindale: No — want to go, add private future wishlist"
+          },
+          {
+            "name": "True North Ale Company — Ipswich",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "certainty": "explicit_nonattendance",
+            "wishlistLocation": {
+              "address": "116 County Road",
+              "city": "Ipswich",
+              "region": "Massachusetts",
+              "postalCode": "01938",
+              "country": "USA"
+            },
+            "awardEvidence": [
+              {
+                "organization": "World Beer Cup",
+                "year": 2024,
+                "category": "American-Style Lager",
+                "result": "silver medal",
+                "product": "Linebrook Lager",
+                "recipient": "True North Ale Company, Ipswich, MA",
+                "awardType": "judged_beer_medal",
+                "sourceUrl": "https://www.truenorthales.com/pages/awards",
+                "relationship": "Beer award to Linebrook Lager produced by True North; no user visit or tasting implied"
+              },
+              {
+                "organization": "Great American Beer Festival",
+                "year": 2023,
+                "category": "Belgian-Style Ale or French-Style Ale",
+                "result": "gold medal",
+                "product": "Vincianne",
+                "recipient": "True North Ale Co., Ipswich, MA",
+                "awardType": "judged_beer_medal",
+                "sourceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF23-Winners-List.pdf",
+                "relationship": "Product-specific gold medal; does not establish visit date"
+              }
+            ],
+            "sourceQuote": "True North Ale Company — Ipswich: No — want to go, add private future wishlist"
+          },
+          {
+            "name": "East Regiment Beer Company — Salem",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "certainty": "explicit_nonattendance",
+            "wishlistLocation": {
+              "address": "30 Church Street",
+              "city": "Salem",
+              "region": "Massachusetts",
+              "postalCode": "01970",
+              "country": "USA"
+            },
+            "awardEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Readers' recommended Massachusetts brewery guide",
+                "result": "included with reader commentary",
+                "recipient": "East Regiment Beer Company, 30 Church St, Salem",
+                "awardType": "reader_recommendation_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader-recommended inclusion, not a judged brewing medal or national award"
+              },
+              {
+                "organization": "Destination Salem",
+                "year": 2024,
+                "category": "Brewery Bonanza — Salem brewery heritage feature",
+                "result": "featured historic brewery setting",
+                "recipient": "East Regiment Beer Co. in former Salem Fire Station",
+                "awardType": "local_heritage_editorial_feature",
+                "sourceUrl": "https://www.salem.org/blog/brewery-bonanza-sweeps-over-salem-ma/",
+                "relationship": "Heritage/editorial feature about historic firehouse, not formal building award"
+              }
+            ],
+            "sourceQuote": "East Regiment Beer Company — Salem: No — want to go, add private future wishlist"
+          }
+        ],
+        "policy": "Five explicitly unvisited, exact-site Boston-metro brewery experiences are private future wishes; no verified visit or year. Preserve source-scoped 2024 reader poll for Winter Hill, 2024 World Beer Cup silver and 2023 GABF gold for True North beer products, 2025 reader directory inclusions, and East Regiment non-award heritage article. No public visitor records for negative answers."
       }
     ],
     "historicalInterestOnly": [
@@ -839,166 +1030,144 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "id": "candidate-boston-brewery-cisco-seaport",
-        "name": "Cisco Brewers — Seaport",
-        "where": "85 Northern Ave, Boston, MA",
-        "visitScope": "exact_site",
+        "id": "candidate-boston-brewery-break-rock-quincy",
+        "name": "Break Rock Brewing — Quincy Marina Bay",
+        "where": "534 Victory Road, Marina Bay boardwalk, Quincy, Massachusetts",
+        "scope": "exact_site",
+        "operatingStatus": "operating",
+        "website": "https://www.breakrockbrewing.com/",
         "recognitions": [
           {
             "organization": "Boston.com",
             "year": 2025,
-            "category": "Readers' recommended Massachusetts brewery guide",
-            "result": "included",
-            "recipient": "Cisco Brewers (brand, multiple locations)",
-            "awardType": "reader_recommendation_listing",
+            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+            "result": "reader-featured venue",
+            "recipient": "Break Rock Brewing, Quincy",
+            "awardType": "community_reader_recommendation",
             "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Brewery-brand inclusion only; not judged medal or specific Seaport taproom award"
+            "relationship": "Reader recommendation in editorial guide, not a judged brewery medal, category winner, or user attendance."
+          },
+          {
+            "organization": "Visit Massachusetts",
+            "year": null,
+            "category": "Official state tourism business listing",
+            "result": "featured local business",
+            "recipient": "Break Rock Brewing Quincy Marina Bay",
+            "awardType": "destination_listing_not_award",
+            "sourceUrl": "https://www.visitma.com/business/16739/",
+            "relationship": "Public tourism listing supports waterfront location/photo only; not treated as an award."
           }
         ],
-        "website": "https://www.ciscobrewers.com/seaport",
-        "photoSources": [
-          {
-            "sourceUrl": "https://www.ciscobrewers.com/seaport",
-            "imageRights": "unverified",
-            "renderMode": "source_link_only"
-          }
-        ]
+        "photoSource": "https://www.visitma.com/business/16739/"
       },
       {
-        "id": "candidate-boston-brewery-winter-hill-somerville",
-        "name": "Winter Hill Brewing Company",
-        "where": "328 Broadway, Somerville, MA",
-        "visitScope": "exact_site",
+        "id": "candidate-boston-brewery-medford-brewing",
+        "name": "Medford Brewing Company — West Medford",
+        "where": "30 Harvard Avenue, Medford, Massachusetts",
+        "scope": "exact_site",
+        "operatingStatus": "operating",
+        "website": "https://medfordbrew.com/visit-us-2/",
         "recognitions": [
           {
-            "organization": "The Somerville Times",
-            "year": 2024,
-            "category": "Best of Somerville 2024 — Readers' Choice Best Brewery",
-            "result": "winner",
-            "recipient": "Winter Hill Brewing, 328 Broadway",
-            "awardType": "local_reader_poll_win",
-            "sourceUrl": "https://www.thesomervilletimes.com/getnews/tst_1_8_25.pdf",
-            "relationship": "2024 readers' choice award published in the January 8, 2025 issue. Not a 2025 competition award or judged beer medal."
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+            "result": "reader-featured venue with comment",
+            "recipient": "Medford Brewing Company, 30 Harvard Avenue",
+            "awardType": "community_reader_recommendation",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader recommends neighborhood brewery and Rude Panda Imperial Porter; reader opinion not brewery medal, award win or personal visit."
+          }
+        ],
+        "photoSource": "https://medfordbrew.com/visit-us-2/"
+      },
+      {
+        "id": "candidate-boston-brewery-untold-scituate",
+        "name": "Untold Brewing — Historic Scituate Schoolhouse",
+        "where": "6 Old Country Way, Scituate, Massachusetts",
+        "scope": "exact_site",
+        "operatingStatus": "operating",
+        "website": "https://www.untoldbrewing.com/scituate",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+            "result": "reader-featured venue with comment",
+            "recipient": "Untold Brewing, Scituate",
+            "awardType": "community_reader_recommendation",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Community recommendation, not an independently judged beer medal or personal visit."
+          },
+          {
+            "organization": "Massachusetts Brewers Guild",
+            "year": 2021,
+            "category": "Untold Brewery Reopens with More Breathing Room",
+            "result": "brewery heritage report",
+            "recipient": "Untold Brewing, historic schoolhouse",
+            "awardType": "non_award_industry_feature",
+            "sourceUrl": "https://www.massbrewersguild.org/news/2021/5/5/untold-brewery-reopens-this-friday-with-more-breathing-room",
+            "relationship": "Historical schoolhouse and brewery setting feature, not formal award."
+          }
+        ],
+        "photoSource": "https://www.untoldbrewing.com/scituate"
+      },
+      {
+        "id": "candidate-boston-brewery-coastal-mass-beverly",
+        "name": "Coastal Mass. Brewing — Beverly",
+        "where": "95 Rantoul Street, Porter Mill, Beverly, Massachusetts",
+        "scope": "exact_site",
+        "operatingStatus": "operating",
+        "website": "https://coastalmassbrewing.com/",
+        "recognitions": [
+          {
+            "organization": "Northshore Magazine",
+            "year": 2026,
+            "category": "North Shore brewery guide — Coastal Mass. Brewing",
+            "result": "editorial featured local brewery",
+            "recipient": "Coastal Mass. Brewing, Beverly",
+            "awardType": "regional_editorial_guide_selection",
+            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+            "relationship": "Editorial guide highlight; not a brewing medal, reader poll winner or proof of attendance."
           },
           {
             "organization": "Boston.com",
             "year": 2025,
-            "category": "Readers' recommended Massachusetts brewery guide",
-            "result": "included with reader commentary",
-            "recipient": "Winter Hill Brewing Company, 328 Broadway",
-            "awardType": "reader_recommendation_listing",
+            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+            "result": "included in reader list",
+            "recipient": "Coastal Mass. Brewing, 95 Rantoul Street",
+            "awardType": "community_reader_directory_listing",
             "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader commentary; separate from 2025 Somerville Times award"
+            "relationship": "Community curated list mention distinct from formal award."
           }
         ],
-        "website": "https://winterhillbrewing.com/",
-        "photoSources": [
-          {
-            "sourceUrl": "https://www.bostonglobe.com/lifestyle/food-dining/2016/04/05/winter-hill-brewing-has-lot-love-and-beer-for-somerville/3CIooaWlMR7NCvWPhANGrN/story.html",
-            "imageRights": "unverified",
-            "renderMode": "source_link_only"
-          }
-        ]
+        "photoSource": "https://coastalmassbrewing.com/"
       },
       {
-        "id": "candidate-boston-brewery-distraction-roslindale",
-        "name": "Distraction Brewing Co.",
-        "where": "2 Belgrade Ave, Roslindale, Boston, MA",
-        "visitScope": "exact_site",
+        "id": "candidate-boston-brewery-barrel-house-z-historic-weymouth",
+        "name": "Barrel House Z — Historic Weymouth",
+        "where": "95 Woodrock Road, Weymouth, Massachusetts",
+        "scope": "exact_historical_site",
+        "operatingStatus": "permanently_closed_2026-02-07",
+        "website": null,
         "recognitions": [
           {
             "organization": "Boston.com",
             "year": 2025,
-            "category": "Readers' recommended Massachusetts brewery guide",
-            "result": "included",
-            "recipient": "Distraction Brewing Co., 2 Belgrade Ave, Roslindale",
-            "awardType": "reader_recommendation_listing",
+            "category": "Here are the best breweries in Massachusetts — reader-recommended guide",
+            "result": "reader-featured venue with comment",
+            "recipient": "Barrel House Z, 95 Woodrock Rd Weymouth",
+            "awardType": "community_reader_recommendation",
             "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader-curated directory inclusion; not a medal or Best of Boston win"
+            "relationship": "Historic 2025 reader recommendation, not a medal or formal trophy. Site closed on February 7, 2026."
           }
         ],
-        "website": "https://www.distractionbrewingco.com/welcome",
-        "photoSources": [
-          {
-            "sourceUrl": "https://www.distractionbrewingco.com/welcome",
-            "imageRights": "unverified",
-            "renderMode": "source_link_only"
-          }
-        ]
-      },
-      {
-        "id": "candidate-boston-brewery-true-north-ipswich",
-        "name": "True North Ale Company",
-        "where": "116 County Rd, Ipswich, MA",
-        "visitScope": "exact_site",
-        "recognitions": [
-          {
-            "organization": "World Beer Cup",
-            "year": 2024,
-            "category": "American-Style Lager",
-            "result": "silver medal",
-            "product": "Linebrook Lager",
-            "recipient": "True North Ale Company, Ipswich, MA",
-            "awardType": "judged_beer_medal",
-            "sourceUrl": "https://www.truenorthales.com/pages/awards",
-            "relationship": "Beer award to Linebrook Lager produced by True North; no user visit or tasting implied"
-          },
-          {
-            "organization": "Great American Beer Festival",
-            "year": 2023,
-            "category": "Belgian-Style Ale or French-Style Ale",
-            "result": "gold medal",
-            "product": "Vincianne",
-            "recipient": "True North Ale Co., Ipswich, MA",
-            "awardType": "judged_beer_medal",
-            "sourceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF23-Winners-List.pdf",
-            "relationship": "Product-specific gold medal; does not establish visit date"
-          }
-        ],
-        "website": "https://www.truenorthales.com/",
-        "photoSources": [
-          {
-            "sourceUrl": "https://www.truenorthales.com/pages/taproom-offerings",
-            "imageRights": "unverified",
-            "renderMode": "source_link_only"
-          }
-        ]
-      },
-      {
-        "id": "candidate-boston-brewery-east-regiment-salem",
-        "name": "East Regiment Beer Company",
-        "where": "30 Church St, Salem, MA",
-        "visitScope": "exact_site",
-        "recognitions": [
-          {
-            "organization": "Boston.com",
-            "year": 2025,
-            "category": "Readers' recommended Massachusetts brewery guide",
-            "result": "included with reader commentary",
-            "recipient": "East Regiment Beer Company, 30 Church St, Salem",
-            "awardType": "reader_recommendation_listing",
-            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader-recommended inclusion, not a judged brewing medal or national award"
-          },
-          {
-            "organization": "Destination Salem",
-            "year": 2024,
-            "category": "Brewery Bonanza — Salem brewery heritage feature",
-            "result": "featured historic brewery setting",
-            "recipient": "East Regiment Beer Co. in former Salem Fire Station",
-            "awardType": "local_heritage_editorial_feature",
-            "sourceUrl": "https://www.salem.org/blog/brewery-bonanza-sweeps-over-salem-ma/",
-            "relationship": "Heritage/editorial feature about historic firehouse, not formal building award"
-          }
-        ],
-        "website": "https://eastregimentbeercompany.com/",
-        "photoSources": [
-          {
-            "sourceUrl": "https://eastregimentbeercompany.com/",
-            "imageRights": "unverified",
-            "renderMode": "source_link_only"
-          }
-        ]
+        "closureEvidence": {
+          "sourceUrl": "https://www.boston25news.com/news/local/thats-wrap-popular-mass-brewery-closes-its-doors-after-nearly-decade/LNBZQCQKDVEQFJYWFY3E2HOPXM/",
+          "closedOn": "2026-02-07",
+          "publishedOn": "2026-02-13"
+        },
+        "photoSource": "https://www.boston25news.com/news/local/thats-wrap-popular-mass-brewery-closes-its-doors-after-nearly-decade/LNBZQCQKDVEQFJYWFY3E2HOPXM/"
       }
     ]
   },
@@ -1008,7 +1177,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Boston Round 4 all not visited and want to go (private): Tree House Tewksbury, Democracy Brewing Downtown Boston, FACES Malden, Drawdown JP, Lord Hobo Woburn; exact site nonattendance does not imply all-brand worldwide nonattendance.",
+  "lastUserStatement": "Boston brewery round 5: Cisco Seaport, Winter Hill Somerville, Distraction Roslindale, True North Ipswich, East Regiment Salem not visited, each requested as private future wishlist; exact venue where specified; no confirmed attendance or dates.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",

@@ -2579,6 +2579,260 @@
         }
       ],
       "notes": "Private future wish only. Scope applies only to named brewery campus/venue; no worldwide brand attendance determination. Editorial and award recognition independent of personal visits. Exclude from public visitor records."
+    },
+    {
+      "id": "want-to-visit-cisco-brewers-seaport-boston",
+      "candidateId": "candidate-boston-brewery-cisco-seaport",
+      "name": "Cisco Brewers — Seaport Boston",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "cisco-brewers-seaport-boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "85 Northern Avenue",
+        "city": "Boston",
+        "neighborhood": "Seaport",
+        "region": "Massachusetts",
+        "postalCode": "02210",
+        "country": "USA"
+      },
+      "website": "https://www.ciscobrewers.com/seaport",
+      "operatingStatus": "seasonal_closed_for_season_2026-11",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Cisco Brewers — Seaport Boston: No — want to go, add private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 5"
+      },
+      "userNote": "Not visited at the specified site; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Readers' recommended Massachusetts brewery guide",
+          "result": "included",
+          "recipient": "Cisco Brewers (brand, multiple locations)",
+          "awardType": "reader_recommendation_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Brewery-brand inclusion only; not judged medal or specific Seaport taproom award"
+        }
+      ],
+      "notes": "Seaport venue specifically, not Nantucket brand's other venues or Fenway beer garden. Official Seaport venue website states closed for season as of November 2026. Private future wishlist only, not a confirmed experience or public visitor record. Editorial and reader guide recognition does not imply a judged medal or personal visit. Awards to individual beer products remain attributed to those beers."
+    },
+    {
+      "id": "want-to-visit-winter-hill-brewing-somerville",
+      "candidateId": "candidate-boston-brewery-winter-hill-somerville",
+      "name": "Winter Hill Brewing Company — Somerville",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "winter-hill-brewing-somerville",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "328 Broadway",
+        "city": "Somerville",
+        "region": "Massachusetts",
+        "postalCode": "02145",
+        "country": "USA"
+      },
+      "website": "https://winterhillbrewing.com/",
+      "operatingStatus": "operating",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Winter Hill Brewing Company — Somerville: No — want to go, add private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 5"
+      },
+      "userNote": "Not visited at the specified site; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "The Somerville Times",
+          "year": 2024,
+          "category": "Best of Somerville 2024 — Readers' Choice Best Brewery",
+          "result": "winner",
+          "recipient": "Winter Hill Brewing, 328 Broadway",
+          "awardType": "local_reader_poll_win",
+          "sourceUrl": "https://www.thesomervilletimes.com/getnews/tst_1_8_25.pdf",
+          "relationship": "2024 readers' choice award published in the January 8, 2025 issue. Not a 2025 competition award or judged beer medal."
+        },
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Readers' recommended Massachusetts brewery guide",
+          "result": "included with reader commentary",
+          "recipient": "Winter Hill Brewing Company, 328 Broadway",
+          "awardType": "reader_recommendation_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader commentary; separate from 2025 Somerville Times award"
+        }
+      ],
+      "notes": " Private future wishlist only, not a confirmed experience or public visitor record. Editorial and reader guide recognition does not imply a judged medal or personal visit. Awards to individual beer products remain attributed to those beers."
+    },
+    {
+      "id": "want-to-visit-distraction-brewing-roslindale",
+      "candidateId": "candidate-boston-brewery-distraction-roslindale",
+      "name": "Distraction Brewing Co. — Roslindale",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "distraction-brewing-roslindale",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "2 Belgrade Avenue",
+        "city": "Boston",
+        "neighborhood": "Roslindale",
+        "region": "Massachusetts",
+        "postalCode": "02131",
+        "country": "USA"
+      },
+      "website": "https://www.distractionbrewingco.com/welcome",
+      "operatingStatus": "operating",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Distraction Brewing Co. — Roslindale: No — want to go, add private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 5"
+      },
+      "userNote": "Not visited at the specified site; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Readers' recommended Massachusetts brewery guide",
+          "result": "included",
+          "recipient": "Distraction Brewing Co., 2 Belgrade Ave, Roslindale",
+          "awardType": "reader_recommendation_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader-curated directory inclusion; not a medal or Best of Boston win"
+        }
+      ],
+      "notes": " Private future wishlist only, not a confirmed experience or public visitor record. Editorial and reader guide recognition does not imply a judged medal or personal visit. Awards to individual beer products remain attributed to those beers."
+    },
+    {
+      "id": "want-to-visit-true-north-ale-ipswich",
+      "candidateId": "candidate-boston-brewery-true-north-ipswich",
+      "name": "True North Ale Company — Ipswich",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "true-north-ale-ipswich",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "116 County Road",
+        "city": "Ipswich",
+        "region": "Massachusetts",
+        "postalCode": "01938",
+        "country": "USA"
+      },
+      "website": "https://www.truenorthales.com/",
+      "operatingStatus": "operating",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "True North Ale Company — Ipswich: No — want to go, add private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 5"
+      },
+      "userNote": "Not visited at the specified site; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2024,
+          "category": "American-Style Lager",
+          "result": "silver medal",
+          "product": "Linebrook Lager",
+          "recipient": "True North Ale Company, Ipswich, MA",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.truenorthales.com/pages/awards",
+          "relationship": "Beer award to Linebrook Lager produced by True North; no user visit or tasting implied"
+        },
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2023,
+          "category": "Belgian-Style Ale or French-Style Ale",
+          "result": "gold medal",
+          "product": "Vincianne",
+          "recipient": "True North Ale Co., Ipswich, MA",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF23-Winners-List.pdf",
+          "relationship": "Product-specific gold medal; does not establish visit date"
+        }
+      ],
+      "notes": " Private future wishlist only, not a confirmed experience or public visitor record. Editorial and reader guide recognition does not imply a judged medal or personal visit. Awards to individual beer products remain attributed to those beers."
+    },
+    {
+      "id": "want-to-visit-east-regiment-beer-salem",
+      "candidateId": "candidate-boston-brewery-east-regiment-salem",
+      "name": "East Regiment Beer Company — Salem",
+      "category": "bar",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "metroExperienceGroupId": "east-regiment-beer-salem",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "30 Church Street",
+        "city": "Salem",
+        "region": "Massachusetts",
+        "postalCode": "01970",
+        "country": "USA"
+      },
+      "website": "https://eastregimentbeercompany.com/",
+      "operatingStatus": "operating",
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "East Regiment Beer Company — Salem: No — want to go, add private future wishlist",
+        "context": "Culture Passport Boston brewery rapid-fire round 5"
+      },
+      "userNote": "Not visited at the specified site; want to go.",
+      "desiredVisitDate": null,
+      "siteVisited": null,
+      "visitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Readers' recommended Massachusetts brewery guide",
+          "result": "included with reader commentary",
+          "recipient": "East Regiment Beer Company, 30 Church St, Salem",
+          "awardType": "reader_recommendation_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader-recommended inclusion, not a judged brewing medal or national award"
+        },
+        {
+          "organization": "Destination Salem",
+          "year": 2024,
+          "category": "Brewery Bonanza — Salem brewery heritage feature",
+          "result": "featured historic brewery setting",
+          "recipient": "East Regiment Beer Co. in former Salem Fire Station",
+          "awardType": "local_heritage_editorial_feature",
+          "sourceUrl": "https://www.salem.org/blog/brewery-bonanza-sweeps-over-salem-ma/",
+          "relationship": "Heritage/editorial feature about historic firehouse, not formal building award"
+        }
+      ],
+      "notes": " Private future wishlist only, not a confirmed experience or public visitor record. Editorial and reader guide recognition does not imply a judged medal or personal visit. Awards to individual beer products remain attributed to those beers."
     }
   ],
   "interviewConvention": {
