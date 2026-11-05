@@ -11881,7 +11881,7 @@
         "Panaʻewa Rainforest Zoo & Gardens",
         "Wailuku River State Park / Rainbow Falls"
       ],
-      "status": "awaiting_user_responses",
+      "status": "awaiting_user_response",
       "batchId": "hilo-selective-high-value-baseline-2026-11-05",
       "question": "For each of the ten Hilo experiences, mark visited / maybe / not visited / want to go. No dates or attendance inferred.",
       "continuation": "After Hilo, transition to Maui high-value baseline; preserve all Boston brewery answered statuses and the paused Dorchester question."
