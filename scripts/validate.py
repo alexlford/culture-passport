@@ -1259,6 +1259,7 @@ for venue in venues:
             "venue-brewery-brand-trillium-boston-metro-site-unconfirmed": "Boston",
             "venue-brewery-brand-mighty-squirrel-boston-metro-site-unconfirmed": "Boston",
             "venue-cambridge-brewing-company-kendall-square": "Cambridge",
+            "venue-officina-washington-dc-site-unconfirmed": "Washington, DC",
         }
         assert venue["id"] in unmapped_cities, "Document venues awaiting trustworthy map coordinates"
         assert venue["city"] == unmapped_cities[venue["id"]]
