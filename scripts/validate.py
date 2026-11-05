@@ -121,7 +121,8 @@ assert michael_smith["wantsToVisit"] is False
 assert michael_smith["wishlistDecision"] == "explicit_no"
 assert not any(e["candidateId"] == michael_smith["id"] for e in wishlist["entries"])
 assert michael_smith["screening"]["status"] == "award_qualified"
-assert interview_data["interviewProgress"]["currentBatch"]["candidateNames"] == ["Dorchester Brewing Company"]
+assert interview_data["interviewProgress"]["currentBatch"]["area"] == "Hilo, Hawaiʻi Island"
+assert len(interview_data["interviewProgress"]["currentBatch"]["candidateNames"]) == 10
 rye_plaza = next(c for c in candidates if c["id"] == "candidate-kansas-city-metro-rye-plaza")
 assert rye_plaza["visitStatus"] == "confirmed"
 assert rye_plaza["confirmedVisitId"] == "dining-rye-plaza-kansas-city-date-unknown"
@@ -165,7 +166,7 @@ assert "interview-photo-evidence" in (ROOT / "assets/app.js").read_text(encoding
 # Two distinct Hawaii regions are queued, and no attendance is inferred from queueing.
 hilo = interview_data["interviewChapters"]["hiloHawaii"]
 maui = interview_data["interviewChapters"]["mauiHawaii"]
-assert hilo["status"] == maui["status"] == "queued_unreviewed"
+assert hilo["status"] == "active_selective_high_value_baseline" and maui["status"] == "queued_unreviewed"
 assert hilo["visitClaimsEstablished"] == maui["visitClaimsEstablished"] == 0
 assert hilo["visitYears"] is None and maui["visitYears"] is None
 sequence = [row["area"] for row in interview_data["interviewProgress"]["nextCitySequence"]]

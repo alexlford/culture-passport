@@ -3044,6 +3044,66 @@
         }
       ],
       "notes": "Same Beverly Porter Mill physical venue was formerly branded Channel Marker; user explicitly not visited under either name. Do not double count as two breweries. Keep private and outside public visitors. Reader mentions, heritage features, and venue editorial recognition remain separate evidence classes; none establishes personal tasting or visit."
+    },
+    {
+      "id": "want-to-visit-fiola-washington-dc",
+      "candidateId": "ashington-fiola",
+      "name": "Fiola",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "venueScope": "exact_named_DC_restaurant",
+      "location": {
+        "address": "601 Pennsylvania Avenue NW",
+        "city": "Washington",
+        "region": "District of Columbia",
+        "country": "USA"
+      },
+      "website": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/fiola",
+      "operatingStatus": "operating_verified_2026-11-05",
+      "bookable": true,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "Fiola — Washington DC: Not visited, private future wishlist (historical interest only if closed)."
+      },
+      "userNote": "Private future-visit wish only; never a visit.",
+      "desiredVisitDate": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Operating status checked against current official/Michelin pages November 5, 2026. Verify again before scheduling; private only."
+    },
+    {
+      "id": "want-to-visit-the-dabney-washington-dc",
+      "candidateId": "ashington-the-dabney",
+      "name": "The Dabney",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-05",
+      "venueScope": "exact_named_DC_restaurant",
+      "location": {
+        "address": "122 Blagden Alley NW",
+        "city": "Washington",
+        "region": "District of Columbia",
+        "country": "USA"
+      },
+      "website": "https://www.thedabney.com/",
+      "operatingStatus": "operating_verified_2026-11-05",
+      "bookable": true,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-05",
+        "quote": "The Dabney — Washington DC: Not visited, private future wishlist (historical interest only if closed)."
+      },
+      "userNote": "Private future-visit wish only; never a visit.",
+      "desiredVisitDate": null,
+      "visitDate": null,
+      "recognitions": [],
+      "notes": "Operating status checked against current official/Michelin pages November 5, 2026. Verify again before scheduling; private only."
     }
   ],
   "interviewConvention": {
