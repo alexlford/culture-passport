@@ -248,8 +248,8 @@
       "candidate-boston-brewery-mighty-squirrel"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-brato-brewhouse-historic",
-    "lastWishlistCandidateId": "candidate-boston-brewery-medusa-brewing-hudson",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-lord-hobo-woburn",
+    "lastWishlistCandidateId": "candidate-boston-brewery-lord-hobo-woburn",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -264,7 +264,12 @@
       "Remnant Brewing (Greater Boston)",
       "Long Live Beerworks — Roxbury (Greater Boston)",
       "Portico Brewing (Greater Boston)",
-      "Medusa Brewing Company (Greater Boston)"
+      "Medusa Brewing Company (Greater Boston)",
+      "Tree House Brewing Company — Tewksbury",
+      "Democracy Brewing — Downtown Boston",
+      "FACES Brewing Company — Malden",
+      "Drawdown Brewing Company — Jamaica Plain",
+      "Lord Hobo Brewing Company — Woburn"
     ],
     "outOfOrderAnswers": [
       {
@@ -286,11 +291,11 @@
       }
     ],
     "nextFiveCandidates": [
-      "Tree House Brewing Company — Tewksbury",
-      "Democracy Brewing — Downtown",
-      "FACES Brewing Company",
-      "Drawdown Brewing Company",
-      "Lord Hobo Brewing Company"
+      "Cisco Brewers — Seaport",
+      "Winter Hill Brewing Company",
+      "Distraction Brewing Co.",
+      "True North Ale Company",
+      "East Regiment Beer Company"
     ],
     "rapidFireRounds": [
       {
@@ -616,6 +621,151 @@
           }
         ],
         "policy": "Four unvisited active future wishes kept private; one closed Brighton Brato venue historical interest only. No public confirmed visit added. Preserve Boston Globe venue editorial distinctions separately from Medusa's named beer medal and clarify site vs brand."
+      },
+      {
+        "id": "boston-breweries-rapidfire-2026-11-05-4",
+        "recordedOn": "2026-11-05",
+        "answers": [
+          {
+            "name": "Tree House Brewing Company — Tewksbury",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "specific_brewery_campus",
+            "siteVisited": null,
+            "visitDate": null,
+            "wishlistLocation": {
+              "city": "Tewksbury",
+              "region": "Massachusetts",
+              "country": "USA",
+              "address": null,
+              "addressNote": "Tewksbury campus only; does not establish attendance at other Tree House sites."
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Best breweries in Massachusetts — editorial standout",
+                "result": "featured top pick",
+                "recipient": "Tree House Brewing Company brand",
+                "awardType": "editorial_brewery_brand_recommendation",
+                "sourceUrl": "https://www.boston.com/food/beer/2025/10/21/best-breweries-massachusetts-2025/",
+                "relationship": "Editorial pick belongs to brewery brand; Tewksbury listed as one possible destination, not a Tewksbury-only award or proof of attendance."
+              }
+            ],
+            "sourceQuote": "Tree House Brewing Company — Tewksbury: No — want to go; private future wishlist"
+          },
+          {
+            "name": "Democracy Brewing — Downtown Boston",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "specific_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "wishlistLocation": {
+              "address": "35 Temple Place",
+              "city": "Boston",
+              "neighborhood": "Downtown Crossing",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Travel + Leisure",
+                "year": 2025,
+                "category": "11 Best Breweries in Boston, According to Local Experts",
+                "result": "editorial selection",
+                "recipient": "Democracy Brewing downtown Boston",
+                "awardType": "travel_editorial_venue_recommendation",
+                "sourceUrl": "https://www.travelandleisure.com/best-breweries-in-boston-8420443",
+                "relationship": "Editorial mention explicitly discusses downtown venue; not judged beer medal or visit proof."
+              }
+            ],
+            "sourceQuote": "Democracy Brewing — Downtown Boston: No — want to go; private future wishlist"
+          },
+          {
+            "name": "FACES Brewing Company — Malden",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "specific_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "wishlistLocation": {
+              "address": "50 Pleasant Street",
+              "city": "Malden",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Readers' recommended Massachusetts brewery guide",
+                "result": "included",
+                "recipient": "FACES Brewing Company, Malden",
+                "awardType": "reader_recommendation_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader-backed guide inclusion, not formal beer medal or Best of Boston winner."
+              }
+            ],
+            "sourceQuote": "FACES Brewing Company — Malden: No — want to go; private future wishlist"
+          },
+          {
+            "name": "Drawdown Brewing Company — Jamaica Plain",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "specific_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "wishlistLocation": {
+              "address": "3204 Washington Street",
+              "city": "Boston",
+              "neighborhood": "Jamaica Plain",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston Magazine",
+                "year": 2024,
+                "category": "Best of Boston — Best Place to Watch Women's Sports",
+                "result": "winner",
+                "recipient": "Drawdown Brewing Company, Jamaica Plain",
+                "awardType": "editorial_hospitality_venue_award",
+                "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2024/drawdown-brewing-company/",
+                "relationship": "Venue hospitality/sports-viewing award, not a judged beer medal or evidence of attendance."
+              }
+            ],
+            "sourceQuote": "Drawdown Brewing Company — Jamaica Plain: No — want to go; private future wishlist"
+          },
+          {
+            "name": "Lord Hobo Brewing Company — Woburn",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "siteScope": "specific_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "wishlistLocation": {
+              "address": "5 Draper Street",
+              "city": "Woburn",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Readers' recommended Massachusetts brewery guide",
+                "result": "included with specific Woburn reader recommendation",
+                "recipient": "Lord Hobo Brewing Company — Woburn (reader-mentioned site)",
+                "awardType": "reader_recommendation_listing",
+                "sourceUrl": "https://www.boston.com/food/beer/2025/10/21/best-breweries-massachusetts-2025/",
+                "relationship": "A reader specifically mentions Woburn but this is community editorial recommendation, not judged award or personal visit."
+              }
+            ],
+            "sourceQuote": "Lord Hobo Brewing Company — Woburn: No — want to go; private future wishlist"
+          }
+        ],
+        "policy": "Five explicitly unvisited specific brewery venues added as private future wishes. Do not infer nonattendance at other same-brand campuses or locations; no confirmed visitor candidate records should be created. Editorial recommendations, community lists and judged beer awards treated as distinct evidence."
       }
     ],
     "historicalInterestOnly": [
@@ -689,79 +839,166 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "name": "Tree House Brewing Company — Tewksbury",
-        "scope": "Greater Boston brewery campus (brand-level answers accepted)",
-        "where": "Tewksbury",
-        "recognition": {
-          "organization": "Boston.com",
-          "year": 2025,
-          "category": "Massachusetts best breweries — editorial guide",
-          "result": "featured pick",
-          "recipient": "Tree House Brewing Company (brewery brand, Tewksbury listed among campuses)",
-          "awardType": "editorial_recommendation",
-          "sourceUrl": "https://www.boston.com/food/beer/2025/10/21/best-breweries-massachusetts-2025/"
-        },
-        "photoSource": "https://treehousebrew.com/draft-list-tewksbury"
+        "id": "candidate-boston-brewery-cisco-seaport",
+        "name": "Cisco Brewers — Seaport",
+        "where": "85 Northern Ave, Boston, MA",
+        "visitScope": "exact_site",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Readers' recommended Massachusetts brewery guide",
+            "result": "included",
+            "recipient": "Cisco Brewers (brand, multiple locations)",
+            "awardType": "reader_recommendation_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Brewery-brand inclusion only; not judged medal or specific Seaport taproom award"
+          }
+        ],
+        "website": "https://www.ciscobrewers.com/seaport",
+        "photoSources": [
+          {
+            "sourceUrl": "https://www.ciscobrewers.com/seaport",
+            "imageRights": "unverified",
+            "renderMode": "source_link_only"
+          }
+        ]
       },
       {
-        "name": "Democracy Brewing — Downtown",
-        "scope": "35 Temple Place (exact Boston venue)",
-        "where": "Downtown Crossing",
-        "recognition": {
-          "organization": "Travel + Leisure",
-          "year": 2025,
-          "category": "11 Best Breweries in Boston, According to Local Experts",
-          "result": "featured pick",
-          "recipient": "Democracy Brewing — Downtown Boston",
-          "awardType": "travel_editorial_recommendation",
-          "sourceUrl": "https://www.travelandleisure.com/best-breweries-in-boston-8420443"
-        },
-        "photoSource": "https://www.democracybrewing.com/locations/downtown"
+        "id": "candidate-boston-brewery-winter-hill-somerville",
+        "name": "Winter Hill Brewing Company",
+        "where": "328 Broadway, Somerville, MA",
+        "visitScope": "exact_site",
+        "recognitions": [
+          {
+            "organization": "The Somerville Times",
+            "year": 2025,
+            "category": "Readers' Choice — Best Brewery (Somerville)",
+            "result": "winner",
+            "recipient": "Winter Hill Brewing, 328 Broadway",
+            "awardType": "local_reader_poll_win",
+            "sourceUrl": "https://www.thesomervilletimes.com/getnews/tst_1_8_25.pdf",
+            "relationship": "Reader poll venue award distinct from judged brewing medal"
+          },
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Readers' recommended Massachusetts brewery guide",
+            "result": "included with reader commentary",
+            "recipient": "Winter Hill Brewing Company, 328 Broadway",
+            "awardType": "reader_recommendation_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader commentary; separate from 2025 Somerville Times award"
+          }
+        ],
+        "website": "https://winterhillbrewing.com/",
+        "photoSources": [
+          {
+            "sourceUrl": "https://www.bostonglobe.com/lifestyle/food-dining/2016/04/05/winter-hill-brewing-has-lot-love-and-beer-for-somerville/3CIooaWlMR7NCvWPhANGrN/story.html",
+            "imageRights": "unverified",
+            "renderMode": "source_link_only"
+          }
+        ]
       },
       {
-        "name": "FACES Brewing Company",
-        "scope": "Malden venue",
-        "where": "Malden Center",
-        "recognition": {
-          "organization": "Boston.com",
-          "year": 2025,
-          "category": "Readers' recommended best Massachusetts breweries",
-          "result": "reader-recommended listing",
-          "recipient": "Faces Brewing Company (Malden)",
-          "awardType": "reader_recommendation_listing",
-          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/"
-        },
-        "photoSource": "https://www.facesbrewing.com/"
+        "id": "candidate-boston-brewery-distraction-roslindale",
+        "name": "Distraction Brewing Co.",
+        "where": "2 Belgrade Ave, Roslindale, Boston, MA",
+        "visitScope": "exact_site",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Readers' recommended Massachusetts brewery guide",
+            "result": "included",
+            "recipient": "Distraction Brewing Co., 2 Belgrade Ave, Roslindale",
+            "awardType": "reader_recommendation_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader-curated directory inclusion; not a medal or Best of Boston win"
+          }
+        ],
+        "website": "https://www.distractionbrewingco.com/welcome",
+        "photoSources": [
+          {
+            "sourceUrl": "https://www.distractionbrewingco.com/welcome",
+            "imageRights": "unverified",
+            "renderMode": "source_link_only"
+          }
+        ]
       },
       {
-        "name": "Drawdown Brewing Company",
-        "scope": "3204 Washington Street, Jamaica Plain",
-        "where": "Jamaica Plain",
-        "recognition": {
-          "organization": "Boston Magazine",
-          "year": 2024,
-          "category": "Best of Boston — Best Place to Watch Women's Sports",
-          "result": "winner",
-          "recipient": "Drawdown Brewing Company",
-          "awardType": "editorial_hospitality_venue_award",
-          "sourceUrl": "https://www.bostonmagazine.com/best-of-boston-archive/2024/drawdown-brewing-company/"
-        },
-        "photoSource": "https://www.drawdownbrewing.com/main"
+        "id": "candidate-boston-brewery-true-north-ipswich",
+        "name": "True North Ale Company",
+        "where": "116 County Rd, Ipswich, MA",
+        "visitScope": "exact_site",
+        "recognitions": [
+          {
+            "organization": "World Beer Cup",
+            "year": 2024,
+            "category": "American-Style Lager",
+            "result": "silver medal",
+            "product": "Linebrook Lager",
+            "recipient": "True North Ale Company, Ipswich, MA",
+            "awardType": "judged_beer_medal",
+            "sourceUrl": "https://www.truenorthales.com/pages/awards",
+            "relationship": "Beer award to Linebrook Lager produced by True North; no user visit or tasting implied"
+          },
+          {
+            "organization": "Great American Beer Festival",
+            "year": 2023,
+            "category": "Belgian-Style Ale or French-Style Ale",
+            "result": "gold medal",
+            "product": "Vincianne",
+            "recipient": "True North Ale Co., Ipswich, MA",
+            "awardType": "judged_beer_medal",
+            "sourceUrl": "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF23-Winners-List.pdf",
+            "relationship": "Product-specific gold medal; does not establish visit date"
+          }
+        ],
+        "website": "https://www.truenorthales.com/",
+        "photoSources": [
+          {
+            "sourceUrl": "https://www.truenorthales.com/pages/taproom-offerings",
+            "imageRights": "unverified",
+            "renderMode": "source_link_only"
+          }
+        ]
       },
       {
-        "name": "Lord Hobo Brewing Company",
-        "scope": "Woburn taproom; brand-level visits count",
-        "where": "Woburn",
-        "recognition": {
-          "organization": "Boston.com",
-          "year": 2025,
-          "category": "Readers' recommended best Massachusetts breweries",
-          "result": "reader-recommended listing",
-          "recipient": "Lord Hobo Brewing (brand, multiple locations)",
-          "awardType": "reader_recommendation_listing",
-          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/"
-        },
-        "photoSource": "https://lordhobo.com/woburn/"
+        "id": "candidate-boston-brewery-east-regiment-salem",
+        "name": "East Regiment Beer Company",
+        "where": "30 Church St, Salem, MA",
+        "visitScope": "exact_site",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Readers' recommended Massachusetts brewery guide",
+            "result": "included with reader commentary",
+            "recipient": "East Regiment Beer Company, 30 Church St, Salem",
+            "awardType": "reader_recommendation_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader-recommended inclusion, not a judged brewing medal or national award"
+          },
+          {
+            "organization": "Destination Salem",
+            "year": 2024,
+            "category": "Brewery Bonanza — Salem brewery heritage feature",
+            "result": "featured historic brewery setting",
+            "recipient": "East Regiment Beer Co. in former Salem Fire Station",
+            "awardType": "local_heritage_editorial_feature",
+            "sourceUrl": "https://www.salem.org/blog/brewery-bonanza-sweeps-over-salem-ma/",
+            "relationship": "Heritage/editorial feature about historic firehouse, not formal building award"
+          }
+        ],
+        "website": "https://eastregimentbeercompany.com/",
+        "photoSources": [
+          {
+            "sourceUrl": "https://eastregimentbeercompany.com/",
+            "imageRights": "unverified",
+            "renderMode": "source_link_only"
+          }
+        ]
       }
     ]
   },
@@ -771,7 +1008,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Nov 5 round 3: Remnant (metro brand), Long Live Roxbury, Portico Somerville and Medusa Hudson unvisited and want to go; Brato historic Brighton explicitly unvisited with private historical interest only.",
+  "lastUserStatement": "Boston Round 4 all not visited and want to go (private): Tree House Tewksbury, Democracy Brewing Downtown Boston, FACES Malden, Drawdown JP, Lord Hobo Woburn; exact site nonattendance does not imply all-brand worldwide nonattendance.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
