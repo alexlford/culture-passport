@@ -255,11 +255,16 @@
       "candidate-boston-brewery-silvaticus-amesbury",
       "candidate-boston-brewery-granite-coast-peabody",
       "candidate-boston-brewery-couch-dog-salem",
-      "candidate-boston-brewery-lost-shoe-marlborough"
+      "candidate-boston-brewery-lost-shoe-marlborough",
+      "candidate-boston-brewery-mill77-amesbury",
+      "candidate-boston-brewery-backbeat-beverly",
+      "candidate-boston-brewery-gentile-beverly",
+      "candidate-boston-brewery-rockport-rockport",
+      "candidate-boston-brewery-twisted-fate-danvers"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-riverwalk-newburyport",
-    "lastWishlistCandidateId": "candidate-boston-brewery-riverwalk-newburyport",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-lost-shoe-marlborough",
+    "lastWishlistCandidateId": "candidate-boston-brewery-lost-shoe-marlborough",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -296,7 +301,12 @@
       "Dirigible Brewing Company — Littleton",
       "Ipswich Ale Brewery — Brewer's Table",
       "Cold Harbor Brewing — Westborough",
-      "RiverWalk Brewing & Taproom — Newburyport"
+      "RiverWalk Brewing & Taproom — Newburyport",
+      "BareWolf Brewing — Amesbury",
+      "Brewery Silvaticus — Amesbury",
+      "Granite Coast Brewing — Peabody",
+      "Couch Dog Brewing — Salem",
+      "Lost Shoe Brewing & Roasting — Marlborough"
     ],
     "outOfOrderAnswers": [
       {
@@ -338,11 +348,11 @@
       }
     ],
     "nextFiveCandidates": [
-      "BareWolf Brewing — Amesbury",
-      "Brewery Silvaticus — Amesbury",
-      "Granite Coast Brewing — Peabody",
-      "Couch Dog Brewing — Salem",
-      "Lost Shoe Brewing & Roasting — Marlborough"
+      "Mill 77 Brewing — Amesbury",
+      "Backbeat Brewing — Beverly",
+      "Gentile Brewing Company — Beverly",
+      "Rockport Brewing Company — Rockport",
+      "Twisted Fate Brewing — Danvers"
     ],
     "rapidFireRounds": [
       {
@@ -1532,6 +1542,173 @@
             "notes": "Explicit nonattendance at named current site; private future intent only. Publisher/reader accolades and any beer awards are not evidence of personal attendance."
           }
         ]
+      },
+      {
+        "id": "boston-breweries-rapidfire-2026-11-06-9",
+        "recordedOn": "2026-11-06",
+        "answers": [
+          {
+            "name": "BareWolf Brewing — Amesbury",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "BareWolf Brewing — Amesbury: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "12 Oakland Street",
+              "city": "Amesbury",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://barewolfbrewing.com/",
+            "photoSource": "https://barewolfbrewing.com/",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "featured brewery / editorial guide inclusion",
+                "recipient": "BareWolf Brewing (Amesbury)",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "A regional directory describes BareWolf's events and arcade games; not a formal award or evidence of visit."
+              }
+            ],
+            "notes": "User explicitly has not visited and wishes to go; keep private only. Venue recognition, beer medals and editorial features are distinct evidence and not proof of personal attendance."
+          },
+          {
+            "name": "Brewery Silvaticus — Amesbury",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Brewery Silvaticus — Amesbury: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "9 Water Street",
+              "city": "Amesbury",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://www.silvaticusbeers.com/",
+            "photoSource": "https://www.silvaticusbeers.com/",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "featured brewery / editorial guide inclusion",
+                "recipient": "Brewery Silvaticus (Amesbury)",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Not a judged medal or a category award, and not personal attendance."
+              }
+            ],
+            "notes": "User explicitly has not visited and wishes to go; keep private only. Venue recognition, beer medals and editorial features are distinct evidence and not proof of personal attendance."
+          },
+          {
+            "name": "Granite Coast Brewing — Peabody",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Granite Coast Brewing — Peabody: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "77B Main Street",
+              "city": "Peabody",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://www.granitecoastbrewing.com/",
+            "photoSource": "https://www.granitecoastbrewing.com/our-taproom",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine (BONS)",
+                "year": 2026,
+                "category": "Best of North Shore Readers' Choice — Craft Brewery and Tap Room",
+                "result": "Readers' Choice winner",
+                "recipient": "Granite Coast Brewing (Peabody)",
+                "awardType": "publisher_readers_choice_venue_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Community-voted brewery/taproom award to named venue; not a judged beer medal or personal visit."
+              }
+            ],
+            "notes": "User explicitly has not visited and wishes to go; keep private only. Venue recognition, beer medals and editorial features are distinct evidence and not proof of personal attendance."
+          },
+          {
+            "name": "Couch Dog Brewing — Salem",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Couch Dog Brewing — Salem: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "76 Lafayette Street",
+              "city": "Salem",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://www.couchdogbrewing.com/taproom",
+            "photoSource": "https://www.couchdogbrewing.com/private-events",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "featured brewery / editorial guide inclusion",
+                "recipient": "Couch Dog Brewing (Salem)",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Editorial brewery guide feature, not a category win, judged medal, or visit evidence."
+              }
+            ],
+            "notes": "User explicitly has not visited and wishes to go; keep private only. Venue recognition, beer medals and editorial features are distinct evidence and not proof of personal attendance."
+          },
+          {
+            "name": "Lost Shoe Brewing & Roasting — Marlborough",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Lost Shoe Brewing & Roasting — Marlborough: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "19 Weed Street",
+              "city": "Marlborough",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://lostshoebrews.com/",
+            "photoSource": "https://www.newenglandgoodlife.com/good-craft-beer/lost-shoe-brewery-coffee-roaster-stepping-into-history-at-a-new-taproom-and-coffeehouse",
+            "recognitionEvidence": [
+              {
+                "organization": "World Beer Cup",
+                "year": 2025,
+                "category": "Belgian-Style Dubbel",
+                "result": "gold medal",
+                "recipient": "Lost Shoe Brewing & Roasting Co. (brewery) — Size 6 (beer)",
+                "product": "Size 6",
+                "awardType": "judged_beer_medal",
+                "sourceUrl": "https://cdn.worldbeercup.org/wp-content/uploads/2025/05/27092752/WBC-list-25-updated.pdf",
+                "relationship": "Official adjudicated 2025 medal for brewery's named beer, not an award for the taproom and not evidence of a visit or ordering Size 6."
+              }
+            ],
+            "notes": "User explicitly has not visited and wishes to go; keep private only. Venue recognition, beer medals and editorial features are distinct evidence and not proof of personal attendance."
+          }
+        ]
       }
     ],
     "historicalInterestOnly": [
@@ -1638,115 +1815,114 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "id": "candidate-boston-brewery-barewolf-amesbury",
-        "name": "BareWolf Brewing — Amesbury",
-        "where": "12 Oakland Street, Amesbury, Massachusetts",
+        "id": "candidate-boston-brewery-mill77-amesbury",
+        "name": "Mill 77 Brewing — Amesbury",
+        "where": "77 Elm Street, Amesbury, Massachusetts",
         "scope": "exact_site",
         "status": "operating",
-        "website": "https://barewolfbrewing.com/",
-        "photoSource": "https://barewolfbrewing.com/",
+        "website": "https://mill77brewing.com/",
+        "photoSource": "https://mill77brewing.com/",
         "recognitions": [
           {
             "organization": "Northshore Magazine",
             "year": 2026,
             "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "featured brewery / editorial guide inclusion",
-            "recipient": "BareWolf Brewing (Amesbury)",
+            "result": "editorial guide feature",
+            "recipient": "Mill 77 Brewing, Amesbury",
             "awardType": "regional_editorial_guide_feature_not_award",
             "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "A regional directory describes BareWolf's events and arcade games; not a formal award or evidence of visit."
+            "relationship": "Featured as a community-focused brewery and group gathering place; not a judged brewing medal or prize winner, and not attendance evidence."
           }
         ],
-        "feature": "Creative small-batch beers, quirky flower-and-wolf murals, vintage games, and a cozy taproom inside a historic red-brick mill."
+        "feature": "Historic Amesbury carriage mill with exposed brick, tall windows, wooden tables, and indoor/outdoor gathering spaces."
       },
       {
-        "id": "candidate-boston-brewery-silvaticus-amesbury",
-        "name": "Brewery Silvaticus — Amesbury",
-        "where": "9 Water Street, Amesbury, Massachusetts",
+        "id": "candidate-boston-brewery-backbeat-beverly",
+        "name": "Backbeat Brewing — Beverly",
+        "where": "31A Park Street, Beverly, Massachusetts",
         "scope": "exact_site",
         "status": "operating",
-        "website": "https://www.silvaticusbeers.com/",
-        "photoSource": "https://www.silvaticusbeers.com/",
+        "website": "https://backbeatbrewing.com/",
+        "photoSource": "https://backbeatbrewing.com/",
         "recognitions": [
           {
             "organization": "Northshore Magazine",
             "year": 2026,
             "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "featured brewery / editorial guide inclusion",
-            "recipient": "Brewery Silvaticus (Amesbury)",
+            "result": "editorial guide feature",
+            "recipient": "Backbeat Brewing, Beverly",
             "awardType": "regional_editorial_guide_feature_not_award",
             "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Not a judged medal or a category award, and not personal attendance."
+            "relationship": "Editorial brewery guide mentions taproom coffee roastery and British snack shop, not a judged medal or attendance."
           }
         ],
-        "feature": "Old-world Belgian farmhouse ales and German-style lagers beneath an Amesbury mill smokestack, with a dog-friendly riverfront beer garden."
+        "feature": "Bright orange-fronted brewery and coffee roastery with a distinctive long bank of wood-handled draft taps and specialty British snacks."
       },
       {
-        "id": "candidate-boston-brewery-granite-coast-peabody",
-        "name": "Granite Coast Brewing — Peabody",
-        "where": "77B Main Street, Peabody, Massachusetts",
+        "id": "candidate-boston-brewery-gentile-beverly",
+        "name": "Gentile Brewing Company — Beverly",
+        "where": "59 Park Street Unit 1, Beverly, Massachusetts",
         "scope": "exact_site",
         "status": "operating",
-        "website": "https://www.granitecoastbrewing.com/",
-        "photoSource": "https://www.granitecoastbrewing.com/our-taproom",
-        "recognitions": [
-          {
-            "organization": "Northshore Magazine (BONS)",
-            "year": 2026,
-            "category": "Best of North Shore Readers' Choice — Craft Brewery and Tap Room",
-            "result": "Readers' Choice winner",
-            "recipient": "Granite Coast Brewing (Peabody)",
-            "awardType": "publisher_readers_choice_venue_award",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Community-voted brewery/taproom award to named venue; not a judged beer medal or personal visit."
-          }
-        ],
-        "feature": "Peabody neighborhood taproom with a bright wooden-floor interior and large front windows; BONS 2026 reader-voted craft brewery/taproom winner."
-      },
-      {
-        "id": "candidate-boston-brewery-couch-dog-salem",
-        "name": "Couch Dog Brewing — Salem",
-        "where": "76 Lafayette Street, Salem, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://www.couchdogbrewing.com/taproom",
-        "photoSource": "https://www.couchdogbrewing.com/private-events",
+        "website": "https://gentilebrewing.com/",
+        "photoSource": "https://gentilebrewing.com/",
         "recognitions": [
           {
             "organization": "Northshore Magazine",
             "year": 2026,
             "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "featured brewery / editorial guide inclusion",
-            "recipient": "Couch Dog Brewing (Salem)",
+            "result": "editorial guide feature",
+            "recipient": "Gentile Brewing Company, Beverly",
             "awardType": "regional_editorial_guide_feature_not_award",
             "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Editorial brewery guide feature, not a category win, judged medal, or visit evidence."
+            "relationship": "Editorial feature about a nano-brewery in an 1884 building; not a judged medal or verification of user attendance."
           }
         ],
-        "feature": "AAPI-owned Salem taproom with inventive Asian-inspired beers, including five-spice wheat and yuzu rice ale; cozy neighborhood atmosphere."
+        "feature": "Small family-owned nanobrewery in the former 1884 Creesy Shoe Factory near the Beverly MBTA station, offering English-inspired beers and wood-framed chalkboard menus."
       },
       {
-        "id": "candidate-boston-brewery-lost-shoe-marlborough",
-        "name": "Lost Shoe Brewing & Roasting — Marlborough",
-        "where": "19 Weed Street, Marlborough, Massachusetts",
+        "id": "candidate-boston-brewery-rockport-rockport",
+        "name": "Rockport Brewing Company — Rockport",
+        "where": "17 Railroad Avenue, Rockport, Massachusetts",
         "scope": "exact_site",
         "status": "operating",
-        "website": "https://lostshoebrews.com/",
-        "photoSource": "https://www.newenglandgoodlife.com/good-craft-beer/lost-shoe-brewery-coffee-roaster-stepping-into-history-at-a-new-taproom-and-coffeehouse",
+        "website": "https://www.rockportbrewingcompany.com/",
+        "photoSource": "https://www.rockportbrewingcompany.com/about-taproom",
         "recognitions": [
           {
-            "organization": "World Beer Cup",
-            "year": 2025,
-            "category": "Belgian-Style Dubbel",
-            "result": "gold medal",
-            "recipient": "Lost Shoe Brewing & Roasting Co. (brewery) — Size 6 (beer)",
-            "product": "Size 6",
-            "awardType": "judged_beer_medal",
-            "sourceUrl": "https://cdn.worldbeercup.org/wp-content/uploads/2025/05/27092752/WBC-list-25-updated.pdf",
-            "relationship": "Official adjudicated 2025 medal for brewery's named beer, not an award for the taproom and not evidence of a visit or ordering Size 6."
+            "organization": "Northshore Magazine",
+            "year": 2026,
+            "category": "The Complete Guide to Every North Shore Brewery",
+            "result": "editorial guide feature",
+            "recipient": "Rockport Brewing Company (Rockport taproom)",
+            "awardType": "regional_editorial_guide_feature_not_award",
+            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+            "relationship": "Editorial brewery guide features its Cape Ann Museum heritage-themed beer series; the museum partnership is not itself an award or proof of personal attendance."
           }
         ],
-        "feature": "A dual-purpose brewery and coffee roaster in downtown Marlborough; its Size 6 dubbel took 2025 World Beer Cup gold."
+        "feature": "Seaside-town taproom with teal bar, wooden beer taps, and Cape Ann Museum-linked historical beer names, right by the commuter rail."
+      },
+      {
+        "id": "candidate-boston-brewery-twisted-fate-danvers",
+        "name": "Twisted Fate Brewing — Danvers",
+        "where": "120 Andover Street, Suite 4, Danvers, Massachusetts",
+        "scope": "exact_site_brewery_brand_multiple_sites",
+        "status": "operating",
+        "website": "https://twistedfatebrewing.com/",
+        "photoSource": "https://twistedfatebrewing.com/",
+        "recognitions": [
+          {
+            "organization": "Northshore Magazine",
+            "year": 2026,
+            "category": "The Complete Guide to Every North Shore Brewery",
+            "result": "editorial guide feature",
+            "recipient": "Twisted Fate Brewing (Danvers taproom)",
+            "awardType": "regional_editorial_guide_feature_not_award",
+            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+            "relationship": "2026 Danvers-specific editorial feature, not a brewery medal, award or user attendance."
+          }
+        ],
+        "feature": "Majority woman-owned family nano-brewery, wooden pallet-style bar, and casual family-friendly taproom; separate Revere location exists and is not inferred."
       }
     ]
   },
@@ -1756,7 +1932,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Boston brewery Round 8: Dirigible Littleton, Ipswich Ale Brewer's Table, Cold Harbor Westborough and RiverWalk Newburyport expressly not visited and want to go; Oak & Iron Andover maybe visited, not confirmed. Preserve unknown dates and distinction of editorial/reader awards. No confirmed new visit.",
+  "lastUserStatement": "Boston brewery rapid-fire Round 9: BareWolf Amesbury, Brewery Silvaticus Amesbury, Granite Coast Peabody, Couch Dog Salem, and Lost Shoe Marlborough all explicitly not visited and desired future visits. No new confirmed visits, unknown visit dates preserved. Historical evidence includes judged 2025 World Beer Cup beer gold for Lost Shoe Size 6, readers' 2026 BONS winner for Granite Coast, and editorial listings for others.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
