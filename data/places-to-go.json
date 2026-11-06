@@ -3681,6 +3681,221 @@
         }
       ],
       "notes": "Private future wishlist, not an attendance or publication record. Any adjudicated beer medal is attributed to the named beer and brewery, not a personal tasting; reader-voted venue award and editorial guide features retain distinct provenance."
+    },
+    {
+      "id": "want-to-visit-mill77-amesbury",
+      "candidateId": "candidate-boston-brewery-mill77-amesbury",
+      "name": "Mill 77 Brewing — Amesbury",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "77 Elm Street",
+        "city": "Amesbury",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://mill77brewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Mill 77 Brewing — Amesbury: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 10"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "editorial guide feature",
+          "recipient": "Mill 77 Brewing, Amesbury",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Featured as a community-focused brewery and group gathering place; not a judged brewing medal or prize winner, and not attendance evidence."
+        }
+      ],
+      "notes": "Private user-requested future-visit wishlist. Does not need to pass public award eligibility. Do not promote to public visitor records unless a future visit is explicitly confirmed."
+    },
+    {
+      "id": "want-to-visit-backbeat-beverly",
+      "candidateId": "candidate-boston-brewery-backbeat-beverly",
+      "name": "Backbeat Brewing — Beverly",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "31A Park Street",
+        "city": "Beverly",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://backbeatbrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Backbeat Brewing — Beverly: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 10"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "editorial guide feature",
+          "recipient": "Backbeat Brewing, Beverly",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Editorial brewery guide mentions taproom coffee roastery and British snack shop, not a judged medal or attendance."
+        }
+      ],
+      "notes": "Private user-requested future-visit wishlist. Does not need to pass public award eligibility. Do not promote to public visitor records unless a future visit is explicitly confirmed."
+    },
+    {
+      "id": "want-to-visit-gentile-beverly",
+      "candidateId": "candidate-boston-brewery-gentile-beverly",
+      "name": "Gentile Brewing Company — Beverly",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "59 Park Street Unit 1",
+        "city": "Beverly",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://gentilebrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Gentile Brewing Company — Beverly: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 10"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "editorial guide feature",
+          "recipient": "Gentile Brewing Company, Beverly",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Editorial feature about a nano-brewery in an 1884 building; not a judged medal or verification of user attendance."
+        }
+      ],
+      "notes": "Private user-requested future-visit wishlist. Does not need to pass public award eligibility. Do not promote to public visitor records unless a future visit is explicitly confirmed."
+    },
+    {
+      "id": "want-to-visit-rockport-rockport",
+      "candidateId": "candidate-boston-brewery-rockport-rockport",
+      "name": "Rockport Brewing Company — Rockport",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "17 Railroad Avenue",
+        "city": "Rockport",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.rockportbrewingcompany.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Rockport Brewing Company — Rockport: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 10"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "editorial guide feature",
+          "recipient": "Rockport Brewing Company (Rockport taproom)",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Editorial brewery guide features its Cape Ann Museum heritage-themed beer series; the museum partnership is not itself an award or proof of personal attendance."
+        }
+      ],
+      "notes": "Private user-requested future-visit wishlist. Does not need to pass public award eligibility. Do not promote to public visitor records unless a future visit is explicitly confirmed."
+    },
+    {
+      "id": "want-to-visit-twisted-fate-danvers",
+      "candidateId": "candidate-boston-brewery-twisted-fate-danvers",
+      "name": "Twisted Fate Brewing — Danvers",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site_brewery_brand_multiple_sites",
+      "location": {
+        "address": "120 Andover Street, Suite 4",
+        "city": "Danvers",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://twistedfatebrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Twisted Fate Brewing — Danvers: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 10"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "editorial guide feature",
+          "recipient": "Twisted Fate Brewing (Danvers taproom)",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "2026 Danvers-specific editorial feature, not a brewery medal, award or user attendance."
+        }
+      ],
+      "notes": "Private user-requested future-visit wishlist. Does not need to pass public award eligibility. Do not promote to public visitor records unless a future visit is explicitly confirmed."
     }
   ],
   "interviewConvention": {
