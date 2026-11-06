@@ -3465,6 +3465,222 @@
         }
       ],
       "notes": "Private future wishlist only. Award/editorial evidence retained separately from explicit nonattendance. Not a public visitor record."
+    },
+    {
+      "id": "want-to-visit-barewolf-amesbury",
+      "candidateId": "candidate-boston-brewery-barewolf-amesbury",
+      "name": "BareWolf Brewing — Amesbury",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "12 Oakland Street",
+        "city": "Amesbury",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://barewolfbrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "BareWolf Brewing — Amesbury: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 9"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "featured brewery / editorial guide inclusion",
+          "recipient": "BareWolf Brewing (Amesbury)",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "A regional directory describes BareWolf's events and arcade games; not a formal award or evidence of visit."
+        }
+      ],
+      "notes": "Private future wishlist, not an attendance or publication record. Any adjudicated beer medal is attributed to the named beer and brewery, not a personal tasting; reader-voted venue award and editorial guide features retain distinct provenance."
+    },
+    {
+      "id": "want-to-visit-silvaticus-amesbury",
+      "candidateId": "candidate-boston-brewery-silvaticus-amesbury",
+      "name": "Brewery Silvaticus — Amesbury",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "9 Water Street",
+        "city": "Amesbury",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.silvaticusbeers.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Brewery Silvaticus — Amesbury: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 9"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "featured brewery / editorial guide inclusion",
+          "recipient": "Brewery Silvaticus (Amesbury)",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Not a judged medal or a category award, and not personal attendance."
+        }
+      ],
+      "notes": "Private future wishlist, not an attendance or publication record. Any adjudicated beer medal is attributed to the named beer and brewery, not a personal tasting; reader-voted venue award and editorial guide features retain distinct provenance."
+    },
+    {
+      "id": "want-to-visit-granite-coast-peabody",
+      "candidateId": "candidate-boston-brewery-granite-coast-peabody",
+      "name": "Granite Coast Brewing — Peabody",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "77B Main Street",
+        "city": "Peabody",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.granitecoastbrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Granite Coast Brewing — Peabody: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 9"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine (BONS)",
+          "year": 2026,
+          "category": "Best of North Shore Readers' Choice — Craft Brewery and Tap Room",
+          "result": "Readers' Choice winner",
+          "recipient": "Granite Coast Brewing (Peabody)",
+          "awardType": "publisher_readers_choice_venue_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Community-voted brewery/taproom award to named venue; not a judged beer medal or personal visit."
+        }
+      ],
+      "notes": "Private future wishlist, not an attendance or publication record. Any adjudicated beer medal is attributed to the named beer and brewery, not a personal tasting; reader-voted venue award and editorial guide features retain distinct provenance."
+    },
+    {
+      "id": "want-to-visit-couch-dog-salem",
+      "candidateId": "candidate-boston-brewery-couch-dog-salem",
+      "name": "Couch Dog Brewing — Salem",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "76 Lafayette Street",
+        "city": "Salem",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.couchdogbrewing.com/taproom",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Couch Dog Brewing — Salem: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 9"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2026,
+          "category": "The Complete Guide to Every North Shore Brewery",
+          "result": "featured brewery / editorial guide inclusion",
+          "recipient": "Couch Dog Brewing (Salem)",
+          "awardType": "regional_editorial_guide_feature_not_award",
+          "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+          "relationship": "Editorial brewery guide feature, not a category win, judged medal, or visit evidence."
+        }
+      ],
+      "notes": "Private future wishlist, not an attendance or publication record. Any adjudicated beer medal is attributed to the named beer and brewery, not a personal tasting; reader-voted venue award and editorial guide features retain distinct provenance."
+    },
+    {
+      "id": "want-to-visit-lost-shoe-marlborough",
+      "candidateId": "candidate-boston-brewery-lost-shoe-marlborough",
+      "name": "Lost Shoe Brewing & Roasting — Marlborough",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston / North Shore Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "19 Weed Street",
+        "city": "Marlborough",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://lostshoebrews.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Lost Shoe Brewing & Roasting — Marlborough: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 9"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2025,
+          "category": "Belgian-Style Dubbel",
+          "result": "gold medal",
+          "recipient": "Lost Shoe Brewing & Roasting Co. (brewery) — Size 6 (beer)",
+          "product": "Size 6",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://cdn.worldbeercup.org/wp-content/uploads/2025/05/27092752/WBC-list-25-updated.pdf",
+          "relationship": "Official adjudicated 2025 medal for brewery's named beer, not an award for the taproom and not evidence of a visit or ordering Size 6."
+        }
+      ],
+      "notes": "Private future wishlist, not an attendance or publication record. Any adjudicated beer medal is attributed to the named beer and brewery, not a personal tasting; reader-voted venue award and editorial guide features retain distinct provenance."
     }
   ],
   "interviewConvention": {
