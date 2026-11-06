@@ -260,11 +260,12 @@
       "candidate-boston-brewery-backbeat-beverly",
       "candidate-boston-brewery-gentile-beverly",
       "candidate-boston-brewery-rockport-rockport",
-      "candidate-boston-brewery-twisted-fate-danvers"
+      "candidate-boston-brewery-twisted-fate-danvers",
+      "candidate-boston-brewery-wormtown-worcester-2026"
     ],
-    "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-lost-shoe-marlborough",
-    "lastWishlistCandidateId": "candidate-boston-brewery-lost-shoe-marlborough",
+    "guidelines": "Preserve user-answered Boston brewery history. For previously unmentioned venues, first downselect by Culture Passport award criteria; do not continue generic directory-only brewery lists. Use verified historical photos, descriptions, four answer choices and a submit control; never infer attendance or exact site from beer recognition. User-confirmed visits remain public visitor candidates regardless of awards, subject to story review.",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-twisted-fate-danvers",
+    "lastWishlistCandidateId": "candidate-boston-brewery-twisted-fate-danvers",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -306,7 +307,12 @@
       "Brewery Silvaticus — Amesbury",
       "Granite Coast Brewing — Peabody",
       "Couch Dog Brewing — Salem",
-      "Lost Shoe Brewing & Roasting — Marlborough"
+      "Lost Shoe Brewing & Roasting — Marlborough",
+      "Mill 77 Brewing — Amesbury",
+      "Backbeat Brewing — Beverly",
+      "Gentile Brewing Company — Beverly",
+      "Rockport Brewing Company — Rockport",
+      "Twisted Fate Brewing — Danvers"
     ],
     "outOfOrderAnswers": [
       {
@@ -348,11 +354,7 @@
       }
     ],
     "nextFiveCandidates": [
-      "Mill 77 Brewing — Amesbury",
-      "Backbeat Brewing — Beverly",
-      "Gentile Brewing Company — Beverly",
-      "Rockport Brewing Company — Rockport",
-      "Twisted Fate Brewing — Danvers"
+      "Wormtown Brewery — Worcester"
     ],
     "rapidFireRounds": [
       {
@@ -1709,6 +1711,172 @@
             "notes": "User explicitly has not visited and wishes to go; keep private only. Venue recognition, beer medals and editorial features are distinct evidence and not proof of personal attendance."
           }
         ]
+      },
+      {
+        "id": "boston-breweries-rapidfire-2026-11-06-10",
+        "recordedOn": "2026-11-06",
+        "answers": [
+          {
+            "name": "Mill 77 Brewing — Amesbury",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Mill 77 Brewing — Amesbury: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "77 Elm Street",
+              "city": "Amesbury",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://mill77brewing.com/",
+            "photoSource": "https://mill77brewing.com/",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "editorial guide feature",
+                "recipient": "Mill 77 Brewing, Amesbury",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Featured as a community-focused brewery and group gathering place; not a judged brewing medal or prize winner, and not attendance evidence."
+              }
+            ],
+            "notes": "Explicitly unvisited. Future-visit wish only, kept private. 2026 Northshore Magazine regional brewery guide feature is editorial exposure, not formal award, judged medal, or proof of personal attendance."
+          },
+          {
+            "name": "Backbeat Brewing — Beverly",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Backbeat Brewing — Beverly: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "31A Park Street",
+              "city": "Beverly",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://backbeatbrewing.com/",
+            "photoSource": "https://backbeatbrewing.com/",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "editorial guide feature",
+                "recipient": "Backbeat Brewing, Beverly",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Editorial brewery guide mentions taproom coffee roastery and British snack shop, not a judged medal or attendance."
+              }
+            ],
+            "notes": "Explicitly unvisited. Future-visit wish only, kept private. 2026 Northshore Magazine regional brewery guide feature is editorial exposure, not formal award, judged medal, or proof of personal attendance."
+          },
+          {
+            "name": "Gentile Brewing Company — Beverly",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Gentile Brewing Company — Beverly: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "59 Park Street Unit 1",
+              "city": "Beverly",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://gentilebrewing.com/",
+            "photoSource": "https://gentilebrewing.com/",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "editorial guide feature",
+                "recipient": "Gentile Brewing Company, Beverly",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Editorial feature about a nano-brewery in an 1884 building; not a judged medal or verification of user attendance."
+              }
+            ],
+            "notes": "Explicitly unvisited. Future-visit wish only, kept private. 2026 Northshore Magazine regional brewery guide feature is editorial exposure, not formal award, judged medal, or proof of personal attendance."
+          },
+          {
+            "name": "Rockport Brewing Company — Rockport",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Rockport Brewing Company — Rockport: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "17 Railroad Avenue",
+              "city": "Rockport",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://www.rockportbrewingcompany.com/",
+            "photoSource": "https://www.rockportbrewingcompany.com/about-taproom",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "editorial guide feature",
+                "recipient": "Rockport Brewing Company (Rockport taproom)",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "Editorial brewery guide features its Cape Ann Museum heritage-themed beer series; the museum partnership is not itself an award or proof of personal attendance."
+              }
+            ],
+            "notes": "Explicitly unvisited. Future-visit wish only, kept private. 2026 Northshore Magazine regional brewery guide feature is editorial exposure, not formal award, judged medal, or proof of personal attendance."
+          },
+          {
+            "name": "Twisted Fate Brewing — Danvers",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site_brewery_brand_multiple_sites",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Twisted Fate Brewing — Danvers: Not visited — want to go",
+            "wishlistLocation": {
+              "address": "120 Andover Street, Suite 4",
+              "city": "Danvers",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "website": "https://twistedfatebrewing.com/",
+            "photoSource": "https://twistedfatebrewing.com/",
+            "recognitionEvidence": [
+              {
+                "organization": "Northshore Magazine",
+                "year": 2026,
+                "category": "The Complete Guide to Every North Shore Brewery",
+                "result": "editorial guide feature",
+                "recipient": "Twisted Fate Brewing (Danvers taproom)",
+                "awardType": "regional_editorial_guide_feature_not_award",
+                "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
+                "relationship": "2026 Danvers-specific editorial feature, not a brewery medal, award or user attendance."
+              }
+            ],
+            "notes": "Explicitly unvisited. Future-visit wish only, kept private. 2026 Northshore Magazine regional brewery guide feature is editorial exposure, not formal award, judged medal, or proof of personal attendance."
+          }
+        ]
       }
     ],
     "historicalInterestOnly": [
@@ -1815,114 +1983,33 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "id": "candidate-boston-brewery-mill77-amesbury",
-        "name": "Mill 77 Brewing — Amesbury",
-        "where": "77 Elm Street, Amesbury, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://mill77brewing.com/",
-        "photoSource": "https://mill77brewing.com/",
+        "id": "candidate-boston-brewery-wormtown-worcester-2026",
+        "name": "Wormtown Brewery — Worcester",
+        "category": "brewery",
+        "metroArea": "Worcester / Greater Massachusetts",
+        "location": {
+          "address": "72 Shrewsbury Street",
+          "city": "Worcester",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://wormtownbrewery.com/visit/",
+        "photoSource": "https://wormtownbrewery.com/a-fresh-pour-is-here-a-behind-the-scenes-look-at-the-new-wormtown-worcester-taproom/",
         "recognitions": [
           {
-            "organization": "Northshore Magazine",
+            "organization": "Great American Beer Festival",
             "year": 2026,
-            "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "editorial guide feature",
-            "recipient": "Mill 77 Brewing, Amesbury",
-            "awardType": "regional_editorial_guide_feature_not_award",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Featured as a community-focused brewery and group gathering place; not a judged brewing medal or prize winner, and not attendance evidence."
+            "awardType": "judged_beer_medal",
+            "category": "American Wheat Beer",
+            "result": "gold",
+            "product": "Summer Ale",
+            "recipient": "Wormtown Brewery — Summer Ale",
+            "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+            "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
           }
         ],
-        "feature": "Historic Amesbury carriage mill with exposed brick, tall windows, wooden tables, and indoor/outdoor gathering spaces."
-      },
-      {
-        "id": "candidate-boston-brewery-backbeat-beverly",
-        "name": "Backbeat Brewing — Beverly",
-        "where": "31A Park Street, Beverly, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://backbeatbrewing.com/",
-        "photoSource": "https://backbeatbrewing.com/",
-        "recognitions": [
-          {
-            "organization": "Northshore Magazine",
-            "year": 2026,
-            "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "editorial guide feature",
-            "recipient": "Backbeat Brewing, Beverly",
-            "awardType": "regional_editorial_guide_feature_not_award",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Editorial brewery guide mentions taproom coffee roastery and British snack shop, not a judged medal or attendance."
-          }
-        ],
-        "feature": "Bright orange-fronted brewery and coffee roastery with a distinctive long bank of wood-handled draft taps and specialty British snacks."
-      },
-      {
-        "id": "candidate-boston-brewery-gentile-beverly",
-        "name": "Gentile Brewing Company — Beverly",
-        "where": "59 Park Street Unit 1, Beverly, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://gentilebrewing.com/",
-        "photoSource": "https://gentilebrewing.com/",
-        "recognitions": [
-          {
-            "organization": "Northshore Magazine",
-            "year": 2026,
-            "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "editorial guide feature",
-            "recipient": "Gentile Brewing Company, Beverly",
-            "awardType": "regional_editorial_guide_feature_not_award",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Editorial feature about a nano-brewery in an 1884 building; not a judged medal or verification of user attendance."
-          }
-        ],
-        "feature": "Small family-owned nanobrewery in the former 1884 Creesy Shoe Factory near the Beverly MBTA station, offering English-inspired beers and wood-framed chalkboard menus."
-      },
-      {
-        "id": "candidate-boston-brewery-rockport-rockport",
-        "name": "Rockport Brewing Company — Rockport",
-        "where": "17 Railroad Avenue, Rockport, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://www.rockportbrewingcompany.com/",
-        "photoSource": "https://www.rockportbrewingcompany.com/about-taproom",
-        "recognitions": [
-          {
-            "organization": "Northshore Magazine",
-            "year": 2026,
-            "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "editorial guide feature",
-            "recipient": "Rockport Brewing Company (Rockport taproom)",
-            "awardType": "regional_editorial_guide_feature_not_award",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "Editorial brewery guide features its Cape Ann Museum heritage-themed beer series; the museum partnership is not itself an award or proof of personal attendance."
-          }
-        ],
-        "feature": "Seaside-town taproom with teal bar, wooden beer taps, and Cape Ann Museum-linked historical beer names, right by the commuter rail."
-      },
-      {
-        "id": "candidate-boston-brewery-twisted-fate-danvers",
-        "name": "Twisted Fate Brewing — Danvers",
-        "where": "120 Andover Street, Suite 4, Danvers, Massachusetts",
-        "scope": "exact_site_brewery_brand_multiple_sites",
-        "status": "operating",
-        "website": "https://twistedfatebrewing.com/",
-        "photoSource": "https://twistedfatebrewing.com/",
-        "recognitions": [
-          {
-            "organization": "Northshore Magazine",
-            "year": 2026,
-            "category": "The Complete Guide to Every North Shore Brewery",
-            "result": "editorial guide feature",
-            "recipient": "Twisted Fate Brewing (Danvers taproom)",
-            "awardType": "regional_editorial_guide_feature_not_award",
-            "sourceUrl": "https://www.nshoremag.com/eat-drink/north-shore-brewery-guide/",
-            "relationship": "2026 Danvers-specific editorial feature, not a brewery medal, award or user attendance."
-          }
-        ],
-        "feature": "Majority woman-owned family nano-brewery, wooden pallet-style bar, and casual family-friendly taproom; separate Revere location exists and is not inferred."
+        "screeningTier": "adjudicated_beer_medal",
+        "feature": "Worcester brewery and taproom with local pride, games, 16 taps and a 2026 renovated interior."
       }
     ]
   },
@@ -1932,7 +2019,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Boston brewery rapid-fire Round 9: BareWolf Amesbury, Brewery Silvaticus Amesbury, Granite Coast Peabody, Couch Dog Salem, and Lost Shoe Marlborough all explicitly not visited and desired future visits. No new confirmed visits, unknown visit dates preserved. Historical evidence includes judged 2025 World Beer Cup beer gold for Lost Shoe Size 6, readers' 2026 BONS winner for Granite Coast, and editorial listings for others.",
+  "lastUserStatement": "Boston brewery Round 10: Mill 77 Amesbury, Backbeat Beverly, Gentile Beverly, Rockport Brewing, Twisted Fate Danvers all explicitly not visited; all five private wishlist. User adds standing criterion: before interviewing about previously unmentioned restaurants, breweries, pubs, bars etc, downselect with Culture Passport qualifying awards/recognition instead of exhaustively screening ordinary venues. Next 5 curated leads are mixed Boston award-qualified venues.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
@@ -2025,5 +2112,222 @@
       },
       "note": "Exact historic Kendall Square brewery pub identified by user; visit year, meal, companions, tour and beers unknown. The Kendall Square pub is closed. Historical accolades do not date visit."
     }
-  ]
+  ],
+  "unpromptedVenueScreeningPolicy": {
+    "classification": "private_research",
+    "authorizedOn": "2026-11-06",
+    "userDirective": "For restaurants, breweries, pubs, bars and similar venues the user has NOT explicitly said they visited, downselect from all plausible interview leads using existing Culture Passport award/recognition criteria first. Do not exhaust generic lists of ordinary venues. Visit confirmation is always eligible for the public visitor candidate record regardless of award status, subject to existing story-review gate.",
+    "prioritize": [
+      "MICHELIN Stars and Bib Gourmands, and James Beard award winners/finalists/semifinalists for restaurants and bars",
+      "CAMRA official pub awards and qualifying formal recognition for UK pubs",
+      "GABF and World Beer Cup judged beer medals and formal brewer awards for brewery candidates (tag beer-level vs venue-level precisely)",
+      "Specific named publisher Best-Of category award winners only at separately labeled lower tier when collection rules allow"
+    ],
+    "notSufficientAlone": [
+      "ordinary editorial brewery directories or guide features",
+      "reader recommendation directories without named category winner",
+      "unverified marketing superlatives or tourist listings",
+      "brand/product recognition misrepresented as an exact-site award"
+    ],
+    "protect": [
+      "never infer a visit from an award, wish, photo or reservation",
+      "keep confirmed, maybe, not-visited, wish, historic interest and unanswered states distinct",
+      "unknown visit date stays null",
+      "do not imply user consumed a winning beer",
+      "user-requested wishlists stay private even if venue lacks qualifying awards",
+      "do not ask filler venues merely to reach a fixed batch size"
+    ],
+    "round10PreviouslyPreparedLeadsScreenedOut": [
+      {
+        "id": "candidate-boston-brewery-mill77-amesbury",
+        "name": "Mill 77 Brewing — Amesbury",
+        "classification": "not_selected_for_unprompted_visit_interview",
+        "reasons": [
+          "Only editorial guide coverage currently documented, no independently verified qualifying medal or award as of this screen"
+        ],
+        "notAttendanceFinding": true,
+        "previousAnswersUnchanged": true
+      },
+      {
+        "id": "candidate-boston-brewery-backbeat-beverly",
+        "name": "Backbeat Brewing — Beverly",
+        "classification": "not_selected_for_unprompted_visit_interview",
+        "reasons": [
+          "Only editorial guide coverage currently documented, no independently verified qualifying medal or award as of this screen"
+        ],
+        "notAttendanceFinding": true,
+        "previousAnswersUnchanged": true
+      },
+      {
+        "id": "candidate-boston-brewery-gentile-beverly",
+        "name": "Gentile Brewing Company — Beverly",
+        "classification": "not_selected_for_unprompted_visit_interview",
+        "reasons": [
+          "Only editorial guide coverage currently documented, no independently verified qualifying medal or award as of this screen"
+        ],
+        "notAttendanceFinding": true,
+        "previousAnswersUnchanged": true
+      },
+      {
+        "id": "candidate-boston-brewery-rockport-rockport",
+        "name": "Rockport Brewing Company — Rockport",
+        "classification": "not_selected_for_unprompted_visit_interview",
+        "reasons": [
+          "Only editorial guide coverage currently documented, no independently verified qualifying medal or award as of this screen"
+        ],
+        "notAttendanceFinding": true,
+        "previousAnswersUnchanged": true
+      },
+      {
+        "id": "candidate-boston-brewery-twisted-fate-danvers",
+        "name": "Twisted Fate Brewing — Danvers",
+        "classification": "not_selected_for_unprompted_visit_interview",
+        "reasons": [
+          "Only editorial guide coverage currently documented, no independently verified qualifying medal or award as of this screen"
+        ],
+        "notAttendanceFinding": true,
+        "previousAnswersUnchanged": true
+      }
+    ],
+    "nextCuratedBatchId": "boston-criteria-qualified-mixed-2026-11-06-11",
+    "nextCuratedBatch": [
+      {
+        "id": "candidate-boston-brewery-wormtown-worcester-2026",
+        "name": "Wormtown Brewery — Worcester",
+        "category": "brewery",
+        "metroArea": "Worcester / Greater Massachusetts",
+        "location": {
+          "address": "72 Shrewsbury Street",
+          "city": "Worcester",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://wormtownbrewery.com/visit/",
+        "photoSource": "https://wormtownbrewery.com/a-fresh-pour-is-here-a-behind-the-scenes-look-at-the-new-wormtown-worcester-taproom/",
+        "recognitions": [
+          {
+            "organization": "Great American Beer Festival",
+            "year": 2026,
+            "awardType": "judged_beer_medal",
+            "category": "American Wheat Beer",
+            "result": "gold",
+            "product": "Summer Ale",
+            "recipient": "Wormtown Brewery — Summer Ale",
+            "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+            "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
+          }
+        ],
+        "screeningTier": "adjudicated_beer_medal",
+        "feature": "Worcester brewery and taproom with local pride, games, 16 taps and a 2026 renovated interior."
+      },
+      {
+        "id": "candidate-boston-311-omakase",
+        "name": "311 Omakase — Boston",
+        "category": "dining",
+        "location": {
+          "address": "605 Tremont Street",
+          "city": "Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://311boston.com/home",
+        "photoSource": "https://311boston.com/home",
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_star",
+            "category": "One MICHELIN Star",
+            "result": "1 star",
+            "recipient": "311 Omakase",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Restaurant-level award; no visit implied."
+          }
+        ],
+        "screeningTier": "michelin_star",
+        "feature": "Intimate minimalist ten-seat Japanese omakase counter in the South End."
+      },
+      {
+        "id": "candidate-boston-o-ya",
+        "name": "O Ya — Boston",
+        "category": "dining",
+        "location": {
+          "address": "9 East Street",
+          "city": "Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.o-ya.restaurant/location/o-ya-boston/",
+        "photoSource": "https://www.o-ya.restaurant/",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Restaurant",
+            "result": "semifinalist",
+            "recipient": "O Ya — Boston",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Restaurant-level semifinalist, not prize win; no user visit implied."
+          }
+        ],
+        "screeningTier": "james_beard_restaurant_semifinalist",
+        "feature": "Intimate, refined omakase restaurant with brick, timber and long sushi counter in Boston's Leather District."
+      },
+      {
+        "id": "candidate-somerville-spoke-wine-bar",
+        "name": "Spoke Wine Bar — Somerville",
+        "category": "bar",
+        "location": {
+          "address": "89 Holland Street",
+          "city": "Somerville",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.spokewinebar.com/",
+        "photoSource": "https://www.spokewinebar.com/",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Bar",
+            "result": "semifinalist",
+            "recipient": "Spoke Wine Bar — Somerville",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Named bar-level semifinalist, not an award win; no personal visit implied."
+          }
+        ],
+        "screeningTier": "james_beard_bar_semifinalist",
+        "feature": "Warm neighborhood wine bar in Davis Square with curved counter, natural wines, and thoughtful small plates."
+      },
+      {
+        "id": "candidate-boston-ostra",
+        "name": "Ostra — Boston",
+        "category": "dining",
+        "location": {
+          "address": "1 Charles Street South",
+          "city": "Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://ostraboston.com/",
+        "photoSource": "https://ostraboston.com/",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Hospitality",
+            "result": "semifinalist",
+            "recipient": "Ostra — Boston",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Restaurant-level hospitality semifinalist (not award win); does not imply user attendance."
+          }
+        ],
+        "screeningTier": "james_beard_hospitality_semifinalist",
+        "feature": "High-ceiling Mediterranean seafood dining room near Boston Common, white tablecloths and caramel leather banquettes."
+      }
+    ]
+  }
 }
