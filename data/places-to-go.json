@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Places I'd like to go",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "purpose": "Places Alex explicitly wants to visit, with future intent recorded separately from experience and award-watchlist ledgers.",
   "entries": [
     {
@@ -3104,6 +3104,189 @@
       "visitDate": null,
       "recognitions": [],
       "notes": "Operating status checked against current official/Michelin pages November 5, 2026. Verify again before scheduling; private only."
+    },
+    {
+      "id": "want-to-visit-shovel-town-north-easton",
+      "candidateId": "candidate-boston-brewery-shovel-town-north-easton",
+      "name": "Shovel Town Brewery — North Easton",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "50 Oliver Street Rear",
+        "city": "North Easton",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.shoveltownbrewery.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Shovel Town Brewery — North Easton: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 7"
+      },
+      "userNote": "Have not visited; want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Untappd Community Awards",
+          "year": 2025,
+          "category": "Massachusetts — Cream Ale / Pumpkin-Yam Beer / Winter Warmer",
+          "result": "3 silvers in separate styles",
+          "recipient": "Shovel Town Brewery beer listings (individual product names not verified)",
+          "awardType": "user_rating_based_beer_award",
+          "sourceUrl": "https://awards.untappd.com/brewery/298774/",
+          "relationship": "Community-rating awards per beer/style; not judged GABF/WBC medals. The award page lists category and score, but product names have not been independently verified."
+        },
+        {
+          "organization": "Untappd Community Awards",
+          "year": 2025,
+          "category": "Massachusetts — English Blonde/Golden Ale",
+          "result": "bronze",
+          "recipient": "Shovel Town Brewery beer listing (name unverified)",
+          "awardType": "user_rating_based_beer_award",
+          "sourceUrl": "https://awards.untappd.com/brewery/298774/",
+          "relationship": "Separate community-rating award, not a taproom award."
+        }
+      ],
+      "notes": "Unvisited site and private future wishlist. Community and beer accolades do not prove visit; keep outside public visitors."
+    },
+    {
+      "id": "want-to-visit-seventh-wave-medfield",
+      "candidateId": "candidate-boston-brewery-seventh-wave-medfield",
+      "name": "7th Wave Brewing — Medfield",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "120 North Meadows Road",
+        "city": "Medfield",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.7thwavebrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "7th Wave Brewing — Medfield: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 7"
+      },
+      "userNote": "Have not visited; want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Reader-recommended Massachusetts breweries",
+          "result": "included in statewide reader directory",
+          "recipient": "7th Wave Brewing, Medfield",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader directory listing, not judged brewing award, winner, or evidence of personal attendance."
+        }
+      ],
+      "notes": "Unvisited site and private future wishlist. Community and beer accolades do not prove visit; keep outside public visitors."
+    },
+    {
+      "id": "want-to-visit-start-line-hopkinton",
+      "candidateId": "candidate-boston-brewery-start-line-hopkinton",
+      "name": "Start Line Brewing — Hopkinton",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "151R Hayden Rowe Street",
+        "city": "Hopkinton",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.startlinebrewing.com/home",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Start Line Brewing — Hopkinton: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 7"
+      },
+      "userNote": "Have not visited; want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Reader-recommended Massachusetts breweries",
+          "result": "included with reader quote",
+          "recipient": "Start Line Brewing — Hopkinton",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader pick specifically mentions Hop Load Hazy; not a medal, a verified tasting by user, or category winner."
+        }
+      ],
+      "notes": "Unvisited site and private future wishlist. Community and beer accolades do not prove visit; keep outside public visitors."
+    },
+    {
+      "id": "want-to-visit-arlington-popups",
+      "candidateId": "candidate-boston-brewery-arlington-popups",
+      "name": "Arlington Brewing Company — beer gardens and pop-ups",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "brand_popups_site_not_confirmed",
+      "location": {
+        "address": null,
+        "city": "Arlington",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.drinkarlingtonbeer.com/",
+      "operatingStatus": "popups_active_no_verified_permanent_taproom",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Arlington Brewing Company — beer gardens and pop-ups: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 7"
+      },
+      "userNote": "Have not visited; want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "World Beer Cup",
+          "year": 2026,
+          "category": "English Mild or Bitter",
+          "result": "gold medal",
+          "recipient": "Arlington Brewing Company",
+          "product": "Trafford Ale",
+          "awardType": "judged_beer_medal",
+          "sourceUrl": "https://www.drinkarlingtonbeer.com/trafford-wins-gold",
+          "relationship": "Gold won by named beer Trafford Ale, not the not-yet-verified-open 15 Ryder Street premises; brand and popup experience interview must not imply exact building visit."
+        }
+      ],
+      "notes": "Only brand-level pop-up / beer-garden interest; do not assert visit to proposed 15 Ryder Street site. 2026 World Beer Cup gold belongs to beer Trafford Ale; not personal tasting or attendance. Private only."
     }
   ],
   "interviewConvention": {
