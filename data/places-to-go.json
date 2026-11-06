@@ -3287,6 +3287,184 @@
         }
       ],
       "notes": "Only brand-level pop-up / beer-garden interest; do not assert visit to proposed 15 Ryder Street site. 2026 World Beer Cup gold belongs to beer Trafford Ale; not personal tasting or attendance. Private only."
+    },
+    {
+      "id": "want-to-visit-dirigible-littleton",
+      "candidateId": "candidate-boston-brewery-dirigible-littleton",
+      "name": "Dirigible Brewing Company — Littleton",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "24 Porter Road",
+        "city": "Littleton",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://dirigiblebrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Dirigible Brewing Company — Littleton: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 8"
+      },
+      "userNote": "I have not visited; I want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Reader-recommended Massachusetts breweries",
+          "result": "included in directory",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader recommendation, not a judged medal, venue winner, or user visit."
+        }
+      ],
+      "notes": "Private future wishlist only. Award/editorial evidence retained separately from explicit nonattendance. Not a public visitor record."
+    },
+    {
+      "id": "want-to-visit-ipswich-brewers-table",
+      "candidateId": "candidate-boston-brewery-ipswich-brewers-table",
+      "name": "Ipswich Ale Brewery — Brewer's Table",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "2 Brewery Place",
+        "city": "Ipswich",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.ipswichalebrewery.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Ipswich Ale Brewery — Brewer's Table: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 8"
+      },
+      "userNote": "I have not visited; I want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Northshore Magazine",
+          "year": 2020,
+          "category": "Best of North Shore (BONS) Readers' Choice — Best Gastropub",
+          "result": "winner",
+          "recipient": "Ipswich Ale Brewer's Table",
+          "awardType": "publisher_readers_choice_venue_award",
+          "sourceUrl": "https://www.ipswichalebrewery.com/",
+          "relationship": "Reader-voted award for restaurant, not judged beer medal; not evidence of attendance."
+        },
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Reader-recommended Massachusetts breweries",
+          "result": "Ipswich Ale Brewery included in directory",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Brewery brand directory entry; separately contextualized from Brewer's Table venue award."
+        }
+      ],
+      "notes": "Private future wishlist only. Award/editorial evidence retained separately from explicit nonattendance. Not a public visitor record."
+    },
+    {
+      "id": "want-to-visit-cold-harbor-westborough",
+      "candidateId": "candidate-boston-brewery-cold-harbor-westborough",
+      "name": "Cold Harbor Brewing — Westborough",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "66 Otis Street",
+        "city": "Westborough",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://coldharborbrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Cold Harbor Brewing — Westborough: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 8"
+      },
+      "userNote": "I have not visited; I want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Reader-recommended Massachusetts breweries",
+          "result": "Cold Harbor Brewing included in directory",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Editorially compiled reader directory, not judged medal or venue win."
+        }
+      ],
+      "notes": "Private future wishlist only. Award/editorial evidence retained separately from explicit nonattendance. Not a public visitor record."
+    },
+    {
+      "id": "want-to-visit-riverwalk-newburyport",
+      "candidateId": "candidate-boston-brewery-riverwalk-newburyport",
+      "name": "RiverWalk Brewing & Taproom — Newburyport",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston, Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "40 Parker Street",
+        "city": "Newburyport",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://riverwalkbrewing.com/",
+      "operatingStatus": "operating",
+      "siteVisited": null,
+      "visitDate": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "RiverWalk Brewing & Taproom — Newburyport: Not visited — want to go",
+        "context": "Culture Passport Boston brewery rapid-fire round 8"
+      },
+      "userNote": "I have not visited; I want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Boston.com",
+          "year": 2025,
+          "category": "Reader-recommended Massachusetts breweries",
+          "result": "RiverWalk Brewing Co. included in directory",
+          "awardType": "community_reader_directory_listing",
+          "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+          "relationship": "Reader guide entry, not a judged award, prize winner, or personal attendance."
+        }
+      ],
+      "notes": "Private future wishlist only. Award/editorial evidence retained separately from explicit nonattendance. Not a public visitor record."
     }
   ],
   "interviewConvention": {
