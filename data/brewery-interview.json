@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "classification": "private_research",
   "title": "Culture Passport — brewery experiences and historical interview",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "purpose": "Brewery visits and Boston-area venue-by-venue interview; hospitality and beer awards recorded independently from the visit, without inferring a particular taproom, exact date or beer ordered.",
   "userDirective": "Interview Boston-area breweries and treat brewery visits as qualifying cultural-experience candidates alongside recognized pubs, with no Michelin/JBF-only gate.",
   "countingPolicy": {
@@ -236,7 +236,7 @@
     "scope": "Greater Boston, including Boston, Cambridge, Somerville, Everett, Brighton, and adjacent Massachusetts brewery destinations; start with Boston city proper",
     "dateScope": "User has recalled visiting Boston; brewery visit dates and site identities remain unknown",
     "status": "active",
-    "currentCandidateId": "candidate-boston-brewery-dorchester-brewing",
+    "currentCandidateId": "candidate-boston-brewery-dirigible-littleton",
     "queue": [
       "candidate-boston-brewery-trillium-boston-metro",
       "candidate-boston-brewery-samuel-adams-jamaica-plain",
@@ -245,11 +245,16 @@
       "candidate-boston-brewery-aeronaut-somerville",
       "candidate-boston-brewery-lamplighter-cambridge",
       "candidate-boston-brewery-dorchester-brewing",
-      "candidate-boston-brewery-mighty-squirrel"
+      "candidate-boston-brewery-mighty-squirrel",
+      "candidate-boston-brewery-dirigible-littleton",
+      "candidate-boston-brewery-oak-iron-andover",
+      "candidate-boston-brewery-ipswich-brewers-table",
+      "candidate-boston-brewery-cold-harbor-westborough",
+      "candidate-boston-brewery-riverwalk-newburyport"
     ],
     "guidelines": "One venue/brand at a time; real historical photos with source links; present four answers. Preserve old Boston-area taprooms and operating eras; recognize beer medals, formal brewer awards, and publisher best-of lists in separate explicit tiers. No attendance inferred for queue.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-barrel-house-z-historic-weymouth",
-    "lastWishlistCandidateId": "candidate-boston-brewery-coastal-mass-beverly",
+    "lastAnsweredCandidateId": "candidate-boston-brewery-arlington-popups",
+    "lastWishlistCandidateId": "candidate-boston-brewery-arlington-popups",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -278,7 +283,11 @@
       "Break Rock Brewing — Quincy Marina Bay",
       "Medford Brewing Company — West Medford",
       "Untold Brewing — Scituate historic schoolhouse",
-      "Coastal Mass. Brewing — Beverly (formerly Channel Marker)"
+      "Coastal Mass. Brewing — Beverly (formerly Channel Marker)",
+      "Shovel Town Brewery — North Easton",
+      "7th Wave Brewing — Medfield",
+      "Start Line Brewing — Hopkinton",
+      "Arlington Brewing Company — beer gardens and pop-ups"
     ],
     "outOfOrderAnswers": [
       {
@@ -297,14 +306,24 @@
         "visitDate": null,
         "visitPeriod": null,
         "note": "No confirmed brewery brand visit. Preserve Boston Globe 2026 brewery editorial recognition independently of attendance. Do not add to public visitor records."
+      },
+      {
+        "candidateId": "candidate-boston-brewery-hopothecary-north-reading",
+        "status": "maybe_visited",
+        "userAnswer": "Maybe visited",
+        "answeredOn": "2026-11-06",
+        "siteVisited": null,
+        "visitDate": null,
+        "visitPeriod": null,
+        "note": "Hopothecary Ales Brewery & Kitchen — North Reading is unconfirmed. Do not publish a visit, infer site/date, or treat awards as attendance."
       }
     ],
     "nextFiveCandidates": [
-      "Hopothecary Ales Brewery & Kitchen — North Reading",
-      "Shovel Town Brewery — North Easton",
-      "7th Wave Brewing — Medfield",
-      "Start Line Brewing — Hopkinton",
-      "Arlington Brewing Company — beer gardens and pop-ups"
+      "Dirigible Brewing Company — Littleton",
+      "Oak & Iron Brewing Co. — Andover",
+      "Ipswich Ale Brewery — Brewer's Table",
+      "Cold Harbor Brewing — Westborough",
+      "RiverWalk Brewing & Taproom — Newburyport"
     ],
     "rapidFireRounds": [
       {
@@ -1131,6 +1150,198 @@
           }
         ],
         "policy": "Four specified brewery sites are explicitly unvisited, saved as private actionable future wishes. Coastal Mass and predecessor Channel Marker share a single Beverly venue. Barrel House Z is closed as of Feb 7 2026 and belongs in private historical-interest archive, not active wishlist. No public visit candidates added for any negative response. Reader-guide, industry heritage and editorial non-award mentions are kept distinct from judged beer medals."
+      },
+      {
+        "id": "boston-breweries-rapidfire-2026-11-06-7",
+        "recordedOn": "2026-11-06",
+        "answers": [
+          {
+            "name": "Hopothecary Ales Brewery & Kitchen — North Reading",
+            "attendance": "maybe_visited",
+            "certainty": "unconfirmed_maybe",
+            "futureWishlist": false,
+            "siteScope": "exact_site_unconfirmed",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Hopothecary Ales Brewery & Kitchen — North Reading: Maybe visited",
+            "locationLead": {
+              "address": "303 Main Street",
+              "city": "North Reading",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Untappd Community Awards",
+                "year": 2024,
+                "category": "Highest-rated Hopfenweisse — United States",
+                "result": "gold / community rating award",
+                "recipient": "Hopothecary Ales — Suspension (Hopfenweisse)",
+                "product": "Suspension",
+                "awardType": "user_rating_based_beer_award",
+                "sourceUrl": "https://hopothecaryales.com/beers/",
+                "relationship": "2024 nationwide community beer-rating distinction (not judged WBC/GABF), specific to beer Suspension; not taproom winner or personal visit."
+              },
+              {
+                "organization": "Untappd Community Awards",
+                "year": 2026,
+                "category": "Highest-rated Hopfenweisse — United States",
+                "result": "gold / community rating award",
+                "recipient": "Hopothecary Ales — Suspension (Hopfenweisse)",
+                "product": "Suspension",
+                "awardType": "user_rating_based_beer_award",
+                "sourceUrl": "https://hopothecaryales.com/beers/",
+                "relationship": "Second nationwide community beer-rating distinction; same named beer, distinct year, not judged medal."
+              }
+            ],
+            "notes": "Not a confirmed visit. No public visitor record; no date or exact-site assertion."
+          },
+          {
+            "name": "Shovel Town Brewery — North Easton",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Shovel Town Brewery — North Easton: Not visited — want to go",
+            "locationLead": {
+              "address": "50 Oliver Street Rear",
+              "city": "North Easton",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Untappd Community Awards",
+                "year": 2025,
+                "category": "Massachusetts — Cream Ale / Pumpkin-Yam Beer / Winter Warmer",
+                "result": "3 silvers in separate styles",
+                "recipient": "Shovel Town Brewery beer listings (individual product names not verified)",
+                "awardType": "user_rating_based_beer_award",
+                "sourceUrl": "https://awards.untappd.com/brewery/298774/",
+                "relationship": "Community-rating awards per beer/style; not judged GABF/WBC medals. The award page lists category and score, but product names have not been independently verified."
+              },
+              {
+                "organization": "Untappd Community Awards",
+                "year": 2025,
+                "category": "Massachusetts — English Blonde/Golden Ale",
+                "result": "bronze",
+                "recipient": "Shovel Town Brewery beer listing (name unverified)",
+                "awardType": "user_rating_based_beer_award",
+                "sourceUrl": "https://awards.untappd.com/brewery/298774/",
+                "relationship": "Separate community-rating award, not a taproom award."
+              }
+            ],
+            "heritageFeature": {
+              "organization": "Shovel Town Brewery",
+              "awardType": "historical_architecture_context_not_award",
+              "sourceUrl": "https://www.shoveltownbrewery.com/about-us/",
+              "description": "Located in historic Ames Shovel Works manufacturing building; heritage is not a formal architecture prize."
+            },
+            "notes": "Explicitly unvisited; private future interest only. Beer/brand honors and reader/editorial features are not evidence of attendance."
+          },
+          {
+            "name": "7th Wave Brewing — Medfield",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "7th Wave Brewing — Medfield: Not visited — want to go",
+            "locationLead": {
+              "address": "120 North Meadows Road",
+              "city": "Medfield",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Reader-recommended Massachusetts breweries",
+                "result": "included in statewide reader directory",
+                "recipient": "7th Wave Brewing, Medfield",
+                "awardType": "community_reader_directory_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader directory listing, not judged brewing award, winner, or evidence of personal attendance."
+              }
+            ],
+            "heritageFeature": {
+              "organization": "Medfield Employers and Merchants Organization",
+              "awardType": "sustainability_business_profile_not_award",
+              "sourceUrl": "https://www.medfieldmemo.org/member-directory/7th-wave-brewing",
+              "description": "Profiles solar array supplying more power than brewery uses; not a formal environmental award."
+            },
+            "notes": "Explicitly unvisited; private future interest only. Beer/brand honors and reader/editorial features are not evidence of attendance."
+          },
+          {
+            "name": "Start Line Brewing — Hopkinton",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "exact_site",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Start Line Brewing — Hopkinton: Not visited — want to go",
+            "locationLead": {
+              "address": "151R Hayden Rowe Street",
+              "city": "Hopkinton",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "Boston.com",
+                "year": 2025,
+                "category": "Reader-recommended Massachusetts breweries",
+                "result": "included with reader quote",
+                "recipient": "Start Line Brewing — Hopkinton",
+                "awardType": "community_reader_directory_listing",
+                "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+                "relationship": "Reader pick specifically mentions Hop Load Hazy; not a medal, a verified tasting by user, or category winner."
+              }
+            ],
+            "notes": "Explicitly unvisited; private future interest only. Beer/brand honors and reader/editorial features are not evidence of attendance."
+          },
+          {
+            "name": "Arlington Brewing Company — beer gardens and pop-ups",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance",
+            "siteScope": "brand_popups_site_not_confirmed",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Arlington Brewing Company — beer gardens and pop-ups: Not visited — want to go",
+            "locationLead": {
+              "address": null,
+              "city": "Arlington",
+              "region": "Massachusetts",
+              "country": "USA"
+            },
+            "recognitionEvidence": [
+              {
+                "organization": "World Beer Cup",
+                "year": 2026,
+                "category": "English Mild or Bitter",
+                "result": "gold medal",
+                "recipient": "Arlington Brewing Company",
+                "product": "Trafford Ale",
+                "awardType": "judged_beer_medal",
+                "sourceUrl": "https://www.drinkarlingtonbeer.com/trafford-wins-gold",
+                "relationship": "Gold won by named beer Trafford Ale, not the not-yet-verified-open 15 Ryder Street premises; brand and popup experience interview must not imply exact building visit."
+              }
+            ],
+            "permanentTaproomEvidence": "https://www.drinkarlingtonbeer.com/visit",
+            "notes": "Explicitly unvisited; private future interest only. Beer/brand honors and reader/editorial features are not evidence of attendance."
+          }
+        ]
       }
     ],
     "historicalInterestOnly": [
@@ -1237,145 +1448,119 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "id": "candidate-boston-brewery-hopothecary-north-reading",
-        "name": "Hopothecary Ales Brewery & Kitchen — North Reading",
-        "where": "303 Main Street, North Reading, Massachusetts",
+        "id": "candidate-boston-brewery-dirigible-littleton",
+        "name": "Dirigible Brewing Company — Littleton",
+        "where": "24 Porter Road, Littleton, Massachusetts",
         "scope": "exact_site",
         "status": "operating",
-        "website": "https://hopothecaryales.com/",
-        "recognitions": [
-          {
-            "organization": "Untappd Community Awards",
-            "year": 2024,
-            "category": "Highest-rated Hopfenweisse — United States",
-            "result": "gold / community rating award",
-            "recipient": "Hopothecary Ales — Suspension (Hopfenweisse)",
-            "product": "Suspension",
-            "awardType": "user_rating_based_beer_award",
-            "sourceUrl": "https://hopothecaryales.com/beers/",
-            "relationship": "2024 nationwide community beer-rating distinction (not judged WBC/GABF), specific to beer Suspension; not taproom winner or personal visit."
-          },
-          {
-            "organization": "Untappd Community Awards",
-            "year": 2026,
-            "category": "Highest-rated Hopfenweisse — United States",
-            "result": "gold / community rating award",
-            "recipient": "Hopothecary Ales — Suspension (Hopfenweisse)",
-            "product": "Suspension",
-            "awardType": "user_rating_based_beer_award",
-            "sourceUrl": "https://hopothecaryales.com/beers/",
-            "relationship": "Second nationwide community beer-rating distinction; same named beer, distinct year, not judged medal."
-          }
-        ],
-        "photoSource": "https://hopothecaryales.com/"
-      },
-      {
-        "id": "candidate-boston-brewery-shovel-town-north-easton",
-        "name": "Shovel Town Brewery — North Easton",
-        "where": "50 Oliver Street Rear, historic Ames Shovel Works, North Easton, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://www.shoveltownbrewery.com/",
-        "recognitions": [
-          {
-            "organization": "Untappd Community Awards",
-            "year": 2025,
-            "category": "Massachusetts — Cream Ale / Pumpkin-Yam Beer / Winter Warmer",
-            "result": "3 silvers in separate styles",
-            "recipient": "Shovel Town Brewery beer listings (individual product names not verified)",
-            "awardType": "user_rating_based_beer_award",
-            "sourceUrl": "https://awards.untappd.com/brewery/298774/",
-            "relationship": "Community-rating awards per beer/style; not judged GABF/WBC medals. The award page lists category and score, but product names have not been independently verified."
-          },
-          {
-            "organization": "Untappd Community Awards",
-            "year": 2025,
-            "category": "Massachusetts — English Blonde/Golden Ale",
-            "result": "bronze",
-            "recipient": "Shovel Town Brewery beer listing (name unverified)",
-            "awardType": "user_rating_based_beer_award",
-            "sourceUrl": "https://awards.untappd.com/brewery/298774/",
-            "relationship": "Separate community-rating award, not a taproom award."
-          }
-        ],
-        "heritageFeature": {
-          "organization": "Shovel Town Brewery",
-          "awardType": "historical_architecture_context_not_award",
-          "sourceUrl": "https://www.shoveltownbrewery.com/about-us/",
-          "description": "Located in historic Ames Shovel Works manufacturing building; heritage is not a formal architecture prize."
-        },
-        "photoSource": "https://www.shoveltownbrewery.com/about-us/"
-      },
-      {
-        "id": "candidate-boston-brewery-seventh-wave-medfield",
-        "name": "7th Wave Brewing — Medfield",
-        "where": "120 North Meadows Road, Medfield, Massachusetts",
-        "scope": "exact_site",
-        "status": "operating",
-        "website": "https://www.7thwavebrewing.com/",
+        "website": "https://dirigiblebrewing.com/",
+        "photoSource": "https://dirigiblebrewing.com/the-brewert",
         "recognitions": [
           {
             "organization": "Boston.com",
             "year": 2025,
             "category": "Reader-recommended Massachusetts breweries",
-            "result": "included in statewide reader directory",
-            "recipient": "7th Wave Brewing, Medfield",
+            "result": "included in directory",
             "awardType": "community_reader_directory_listing",
             "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader directory listing, not judged brewing award, winner, or evidence of personal attendance."
+            "relationship": "Reader recommendation, not a judged medal, venue winner, or user visit."
           }
         ],
-        "heritageFeature": {
-          "organization": "Medfield Employers and Merchants Organization",
-          "awardType": "sustainability_business_profile_not_award",
-          "sourceUrl": "https://www.medfieldmemo.org/member-directory/7th-wave-brewing",
-          "description": "Profiles solar array supplying more power than brewery uses; not a formal environmental award."
-        },
-        "photoSource": "https://www.7thwavebrewing.com/"
+        "feature": "Steampunk-inspired brewery, tabletop games and locally sourced beers."
       },
       {
-        "id": "candidate-boston-brewery-start-line-hopkinton",
-        "name": "Start Line Brewing — Hopkinton",
-        "where": "151R Hayden Rowe Street, Hopkinton, Massachusetts",
+        "id": "candidate-boston-brewery-oak-iron-andover",
+        "name": "Oak & Iron Brewing Co. — Andover",
+        "where": "18 Red Spring Road, Andover, Massachusetts",
         "scope": "exact_site",
         "status": "operating",
-        "website": "https://www.startlinebrewing.com/home",
+        "website": "https://www.oakandironbrewing.com/",
+        "photoSource": "https://www.oakandironbrewing.com/visit",
         "recognitions": [
           {
             "organization": "Boston.com",
             "year": 2025,
             "category": "Reader-recommended Massachusetts breweries",
-            "result": "included with reader quote",
-            "recipient": "Start Line Brewing — Hopkinton",
+            "result": "included in directory",
             "awardType": "community_reader_directory_listing",
             "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
-            "relationship": "Reader pick specifically mentions Hop Load Hazy; not a medal, a verified tasting by user, or category winner."
+            "relationship": "Community listing, not a medal or proof of personal attendance."
           }
         ],
-        "photoSource": "https://www.startlinebrewing.com/home"
+        "feature": "Brick industrial taproom and Shawsheen River beer garden."
       },
       {
-        "id": "candidate-boston-brewery-arlington-popups",
-        "name": "Arlington Brewing Company — beer gardens and pop-ups",
-        "where": "Arlington, Massachusetts; event locations vary; 15 Ryder Street dedicated taproom still listed as forthcoming",
-        "scope": "brand_level_popups_not_unopened_permanent_taproom",
-        "status": "active_popups_permanent_venue_not_verified_open",
-        "website": "https://www.drinkarlingtonbeer.com/",
+        "id": "candidate-boston-brewery-ipswich-brewers-table",
+        "name": "Ipswich Ale Brewery — Brewer's Table",
+        "where": "2 Brewery Place, Ipswich, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://www.ipswichalebrewery.com/",
+        "photoSource": "https://www.ipswichalebrewery.com/",
         "recognitions": [
           {
-            "organization": "World Beer Cup",
-            "year": 2026,
-            "category": "English Mild or Bitter",
-            "result": "gold medal",
-            "recipient": "Arlington Brewing Company",
-            "product": "Trafford Ale",
-            "awardType": "judged_beer_medal",
-            "sourceUrl": "https://www.drinkarlingtonbeer.com/trafford-wins-gold",
-            "relationship": "Gold won by named beer Trafford Ale, not the not-yet-verified-open 15 Ryder Street premises; brand and popup experience interview must not imply exact building visit."
+            "organization": "Northshore Magazine",
+            "year": 2020,
+            "category": "Best of North Shore (BONS) Readers' Choice — Best Gastropub",
+            "result": "winner",
+            "recipient": "Ipswich Ale Brewer's Table",
+            "awardType": "publisher_readers_choice_venue_award",
+            "sourceUrl": "https://www.ipswichalebrewery.com/",
+            "relationship": "Reader-voted award for restaurant, not judged beer medal; not evidence of attendance."
+          },
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Reader-recommended Massachusetts breweries",
+            "result": "Ipswich Ale Brewery included in directory",
+            "awardType": "community_reader_directory_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Brewery brand directory entry; separately contextualized from Brewer's Table venue award."
           }
         ],
-        "photoSource": "https://www.millcafe.org/after-hours",
-        "permanentTaproomEvidence": "https://www.drinkarlingtonbeer.com/visit"
+        "feature": "Brick brewery and gastropub with beer garden and brewing tanks."
+      },
+      {
+        "id": "candidate-boston-brewery-cold-harbor-westborough",
+        "name": "Cold Harbor Brewing — Westborough",
+        "where": "66 Otis Street, Westborough, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://coldharborbrewing.com/",
+        "photoSource": "https://coldharborbrewing.com/pages/brewery-eatery",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Reader-recommended Massachusetts breweries",
+            "result": "Cold Harbor Brewing included in directory",
+            "awardType": "community_reader_directory_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Editorially compiled reader directory, not judged medal or venue win."
+          }
+        ],
+        "feature": "Westborough brewhouse, restaurant and event space; current address 66 Otis Street (not older 108 Milk Street listing)."
+      },
+      {
+        "id": "candidate-boston-brewery-riverwalk-newburyport",
+        "name": "RiverWalk Brewing & Taproom — Newburyport",
+        "where": "40 Parker Street, Newburyport, Massachusetts",
+        "scope": "exact_site",
+        "status": "operating",
+        "website": "https://riverwalkbrewing.com/",
+        "photoSource": "https://riverwalkbrewing.com/",
+        "recognitions": [
+          {
+            "organization": "Boston.com",
+            "year": 2025,
+            "category": "Reader-recommended Massachusetts breweries",
+            "result": "RiverWalk Brewing Co. included in directory",
+            "awardType": "community_reader_directory_listing",
+            "sourceUrl": "https://www.boston.com/community/readers-say/2025/04/23/the-best-breweries-in-massachusetts/",
+            "relationship": "Reader guide entry, not a judged award, prize winner, or personal attendance."
+          }
+        ],
+        "feature": "Bright production taproom with a tap board, restaurant food and outdoor tables."
       }
     ]
   },
@@ -1385,7 +1570,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Boston brewery Round 6: Break Rock Quincy, Medford Brewing West Medford, Untold Scituate schoolhouse and Coastal Mass / formerly Channel Marker Beverly explicitly not visited and wish to go; Barrel House Z historic Weymouth closed Feb 7 2026, explicitly not visited, historical interest only.",
+  "lastUserStatement": "Boston brewery Round 7: Hopothecary North Reading maybe visited (unconfirmed); Shovel Town North Easton, 7th Wave Medfield, Start Line Hopkinton, and Arlington Brewing pop-ups explicitly not visited and wanted for private future visits. No confirmed new visits or publication approvals.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
