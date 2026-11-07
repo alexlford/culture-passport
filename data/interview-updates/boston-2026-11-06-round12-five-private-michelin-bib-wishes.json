@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "area": "Greater Boston",
+  "roundId": "boston-michelin-bib-2026-11-06-12",
+  "recordedOn": "2026-11-06",
+  "source": "direct_user_response",
+  "attendanceConvention": "Wishlist = not visited + future intent",
+  "answers": [
+    {
+      "candidateId": "candidate-boston-fox-and-the-knife",
+      "name": "Fox & The Knife",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Fox & The Knife: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Fox & The Knife",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+    },
+    {
+      "candidateId": "candidate-boston-bar-volpe",
+      "name": "Bar Volpe",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Bar Volpe: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Bar Volpe",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+    },
+    {
+      "candidateId": "candidate-brookline-mahaniyom",
+      "name": "Mahaniyom",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Mahaniyom: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Mahaniyom",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+    },
+    {
+      "candidateId": "candidate-cambridge-pagu",
+      "name": "Pagu",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Pagu: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Pagu",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+    },
+    {
+      "candidateId": "candidate-cambridge-jahunger",
+      "name": "Jahunger",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Jahunger: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Jahunger",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+    }
+  ],
+  "publicVisitorCandidateAdditions": [],
+  "reason": "All five responses explicitly indicate no past visit",
+  "recognitionAttribution": "2025 Michelin Bib Gourmand is restaurant-level, distinct from Michelin stars; award research not proof of attendance."
+}

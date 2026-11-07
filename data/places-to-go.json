@@ -4112,6 +4112,226 @@
         }
       ],
       "notes": "Private future-visit wishlist only. Preserve official recognition provenance and exact recipient; no visit, date, reservation, or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-fox-and-the-knife-boston",
+      "candidateId": "candidate-boston-fox-and-the-knife",
+      "name": "Fox & The Knife",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "28 W Broadway",
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": null,
+      "operatingStatus": "unverified",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Fox & The Knife: Wishlist",
+        "context": "Culture Passport Boston Round 12 prequalified interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Fox & The Knife",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "Private future-visit wishlist. Michelin Guide 2025 Bib Gourmand is restaurant-specific, not a Star. No attendance, booking, date or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-bar-volpe-boston",
+      "candidateId": "candidate-boston-bar-volpe",
+      "name": "Bar Volpe",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "170 W Broadway",
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": null,
+      "operatingStatus": "unverified",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Bar Volpe: Wishlist",
+        "context": "Culture Passport Boston Round 12 prequalified interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Bar Volpe",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "Private future-visit wishlist. Michelin Guide 2025 Bib Gourmand is restaurant-specific, not a Star. No attendance, booking, date or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-mahaniyom-brookline",
+      "candidateId": "candidate-brookline-mahaniyom",
+      "name": "Mahaniyom",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "236 Washington St",
+        "city": "Brookline",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": null,
+      "operatingStatus": "unverified",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Mahaniyom: Wishlist",
+        "context": "Culture Passport Boston Round 12 prequalified interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Mahaniyom",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "Private future-visit wishlist. Michelin Guide 2025 Bib Gourmand is restaurant-specific, not a Star. No attendance, booking, date or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-pagu-cambridge",
+      "candidateId": "candidate-cambridge-pagu",
+      "name": "Pagu",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "310 Massachusetts Ave",
+        "city": "Cambridge",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": null,
+      "operatingStatus": "unverified",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Pagu: Wishlist",
+        "context": "Culture Passport Boston Round 12 prequalified interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Pagu",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "Private future-visit wishlist. Michelin Guide 2025 Bib Gourmand is restaurant-specific, not a Star. No attendance, booking, date or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-jahunger-cambridge",
+      "candidateId": "candidate-cambridge-jahunger",
+      "name": "Jahunger",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "272 Brookline St",
+        "city": "Cambridge",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": null,
+      "operatingStatus": "unverified",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Jahunger: Wishlist",
+        "context": "Culture Passport Boston Round 12 prequalified interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_bib_gourmand",
+          "category": "Bib Gourmand",
+          "result": "selected",
+          "recipient": "Jahunger",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+        }
+      ],
+      "notes": "Private future-visit wishlist. Michelin Guide 2025 Bib Gourmand is restaurant-specific, not a Star. No attendance, booking, date or public visitor record implied."
     }
   ],
   "interviewConvention": {
