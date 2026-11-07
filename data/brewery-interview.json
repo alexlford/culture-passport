@@ -260,12 +260,11 @@
       "candidate-boston-brewery-backbeat-beverly",
       "candidate-boston-brewery-gentile-beverly",
       "candidate-boston-brewery-rockport-rockport",
-      "candidate-boston-brewery-twisted-fate-danvers",
-      "candidate-boston-brewery-wormtown-worcester-2026"
+      "candidate-boston-brewery-twisted-fate-danvers"
     ],
     "guidelines": "Preserve user-answered Boston brewery history. For previously unmentioned venues, first downselect by Culture Passport award criteria; do not continue generic directory-only brewery lists. Use verified historical photos, descriptions, four answer choices and a submit control; never infer attendance or exact site from beer recognition. User-confirmed visits remain public visitor candidates regardless of awards, subject to story review.",
-    "lastAnsweredCandidateId": "candidate-boston-brewery-twisted-fate-danvers",
-    "lastWishlistCandidateId": "candidate-boston-brewery-twisted-fate-danvers",
+    "lastAnsweredCandidateId": "candidate-boston-ostra",
+    "lastWishlistCandidateId": "candidate-boston-ostra",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -312,7 +311,12 @@
       "Backbeat Brewing — Beverly",
       "Gentile Brewing Company — Beverly",
       "Rockport Brewing Company — Rockport",
-      "Twisted Fate Brewing — Danvers"
+      "Twisted Fate Brewing — Danvers",
+      "Wormtown Brewery — Worcester",
+      "311 Omakase — Boston",
+      "O Ya — Boston",
+      "Spoke Wine Bar — Somerville",
+      "Ostra — Boston"
     ],
     "outOfOrderAnswers": [
       {
@@ -354,7 +358,11 @@
       }
     ],
     "nextFiveCandidates": [
-      "Wormtown Brewery — Worcester"
+      "Fox & The Knife",
+      "Bar Volpe",
+      "Mahaniyom",
+      "Pagu",
+      "Jahunger"
     ],
     "rapidFireRounds": [
       {
@@ -1877,6 +1885,133 @@
             "notes": "Explicitly unvisited. Future-visit wish only, kept private. 2026 Northshore Magazine regional brewery guide feature is editorial exposure, not formal award, judged medal, or proof of personal attendance."
           }
         ]
+      },
+      {
+        "id": "boston-criteria-qualified-mixed-2026-11-06-11",
+        "recordedOn": "2026-11-06",
+        "answers": [
+          {
+            "candidateId": "candidate-boston-brewery-wormtown-worcester-2026",
+            "name": "Wormtown Brewery — Worcester",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Wormtown Brewery — Worcester: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "Great American Beer Festival",
+                "year": 2026,
+                "awardType": "judged_beer_medal",
+                "category": "American Wheat Beer",
+                "result": "gold",
+                "product": "Summer Ale",
+                "recipient": "Wormtown Brewery — Summer Ale",
+                "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+                "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
+              }
+            ],
+            "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+          },
+          {
+            "candidateId": "candidate-boston-311-omakase",
+            "name": "311 Omakase — Boston",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "311 Omakase — Boston: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "MICHELIN Guide",
+                "year": 2025,
+                "awardType": "michelin_star",
+                "category": "One MICHELIN Star",
+                "result": "1 star",
+                "recipient": "311 Omakase",
+                "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+                "relationship": "Restaurant-level award; no visit implied."
+              }
+            ],
+            "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+          },
+          {
+            "candidateId": "candidate-boston-o-ya",
+            "name": "O Ya — Boston",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "O Ya — Boston: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "James Beard Foundation",
+                "year": 2026,
+                "awardType": "jbf_semifinalist",
+                "category": "Outstanding Restaurant",
+                "result": "semifinalist",
+                "recipient": "O Ya — Boston",
+                "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+                "relationship": "Restaurant-level semifinalist, not prize win; no user visit implied."
+              }
+            ],
+            "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+          },
+          {
+            "candidateId": "candidate-somerville-spoke-wine-bar",
+            "name": "Spoke Wine Bar — Somerville",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Spoke Wine Bar — Somerville: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "James Beard Foundation",
+                "year": 2026,
+                "awardType": "jbf_semifinalist",
+                "category": "Outstanding Bar",
+                "result": "semifinalist",
+                "recipient": "Spoke Wine Bar — Somerville",
+                "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+                "relationship": "Named bar-level semifinalist, not an award win; no personal visit implied."
+              }
+            ],
+            "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+          },
+          {
+            "candidateId": "candidate-boston-ostra",
+            "name": "Ostra — Boston",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Ostra — Boston: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "James Beard Foundation",
+                "year": 2026,
+                "awardType": "jbf_semifinalist",
+                "category": "Outstanding Hospitality",
+                "result": "semifinalist",
+                "recipient": "Ostra — Boston",
+                "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+                "relationship": "Restaurant-level hospitality semifinalist (not award win); does not imply user attendance."
+              }
+            ],
+            "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+          }
+        ]
       }
     ],
     "historicalInterestOnly": [
@@ -1983,33 +2118,129 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "id": "candidate-boston-brewery-wormtown-worcester-2026",
-        "name": "Wormtown Brewery — Worcester",
-        "category": "brewery",
-        "metroArea": "Worcester / Greater Massachusetts",
+        "id": "candidate-boston-fox-and-the-knife",
+        "name": "Fox & The Knife",
+        "category": "dining",
         "location": {
-          "address": "72 Shrewsbury Street",
-          "city": "Worcester",
+          "address": "28 W Broadway",
+          "city": "Boston",
           "region": "Massachusetts",
           "country": "USA"
         },
-        "website": "https://wormtownbrewery.com/visit/",
-        "photoSource": "https://wormtownbrewery.com/a-fresh-pour-is-here-a-behind-the-scenes-look-at-the-new-wormtown-worcester-taproom/",
         "recognitions": [
           {
-            "organization": "Great American Beer Festival",
-            "year": 2026,
-            "awardType": "judged_beer_medal",
-            "category": "American Wheat Beer",
-            "result": "gold",
-            "product": "Summer Ale",
-            "recipient": "Wormtown Brewery — Summer Ale",
-            "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
-            "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Fox & The Knife",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
           }
         ],
-        "screeningTier": "adjudicated_beer_medal",
-        "feature": "Worcester brewery and taproom with local pride, games, 16 taps and a 2026 renovated interior."
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Lively South Boston enoteca by chef Karen Akunowicz with stuffed focaccia, handmade pastas, aperitivi and amaro."
+      },
+      {
+        "id": "candidate-boston-bar-volpe",
+        "name": "Bar Volpe",
+        "category": "dining",
+        "location": {
+          "address": "170 W Broadway",
+          "city": "Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Bar Volpe",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+          }
+        ],
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Candlelit Southern Italian restaurant with seafood pastas, two bars, wood-fired cooking and a deep amaro list."
+      },
+      {
+        "id": "candidate-brookline-mahaniyom",
+        "name": "Mahaniyom",
+        "category": "dining",
+        "location": {
+          "address": "236 Washington St",
+          "city": "Brookline",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Mahaniyom",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+          }
+        ],
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Compact Brookline Village Thai small-plates and cocktail bar, known for seafood salads and crab red curry."
+      },
+      {
+        "id": "candidate-cambridge-pagu",
+        "name": "Pagu",
+        "category": "dining",
+        "location": {
+          "address": "310 Massachusetts Ave",
+          "city": "Cambridge",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Pagu",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+          }
+        ],
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Tracy Chang's bright Cambridge Japanese/Spanish small-plates restaurant, featuring baos, patatas bravas and laksa."
+      },
+      {
+        "id": "candidate-cambridge-jahunger",
+        "name": "Jahunger",
+        "category": "dining",
+        "location": {
+          "address": "272 Brookline St",
+          "city": "Cambridge",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Jahunger",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+          }
+        ],
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Cambridge Uyghur restaurant specializing in hand-pulled noodles, lamb, dumplings and Xinjiang spices."
       }
     ]
   },
@@ -2019,7 +2250,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Boston brewery Round 10: Mill 77 Amesbury, Backbeat Beverly, Gentile Beverly, Rockport Brewing, Twisted Fate Danvers all explicitly not visited; all five private wishlist. User adds standing criterion: before interviewing about previously unmentioned restaurants, breweries, pubs, bars etc, downselect with Culture Passport qualifying awards/recognition instead of exhaustively screening ordinary venues. Next 5 curated leads are mixed Boston award-qualified venues.",
+  "lastUserStatement": "Round 11: Wormtown Brewery, 311 Omakase, O Ya, Spoke Wine Bar and Ostra are all explicit unvisited private future wishlists. No public visitor additions. Round 12 prequalified five Boston-area MICHELIN Bib Gourmand restaurants, each with venue-level official provenance.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
@@ -2189,145 +2420,134 @@
         "previousAnswersUnchanged": true
       }
     ],
-    "nextCuratedBatchId": "boston-criteria-qualified-mixed-2026-11-06-11",
+    "nextCuratedBatchId": "boston-michelin-bib-2026-11-06-12",
     "nextCuratedBatch": [
       {
-        "id": "candidate-boston-brewery-wormtown-worcester-2026",
-        "name": "Wormtown Brewery — Worcester",
-        "category": "brewery",
-        "metroArea": "Worcester / Greater Massachusetts",
-        "location": {
-          "address": "72 Shrewsbury Street",
-          "city": "Worcester",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "website": "https://wormtownbrewery.com/visit/",
-        "photoSource": "https://wormtownbrewery.com/a-fresh-pour-is-here-a-behind-the-scenes-look-at-the-new-wormtown-worcester-taproom/",
-        "recognitions": [
-          {
-            "organization": "Great American Beer Festival",
-            "year": 2026,
-            "awardType": "judged_beer_medal",
-            "category": "American Wheat Beer",
-            "result": "gold",
-            "product": "Summer Ale",
-            "recipient": "Wormtown Brewery — Summer Ale",
-            "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
-            "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
-          }
-        ],
-        "screeningTier": "adjudicated_beer_medal",
-        "feature": "Worcester brewery and taproom with local pride, games, 16 taps and a 2026 renovated interior."
-      },
-      {
-        "id": "candidate-boston-311-omakase",
-        "name": "311 Omakase — Boston",
+        "id": "candidate-boston-fox-and-the-knife",
+        "name": "Fox & The Knife",
         "category": "dining",
         "location": {
-          "address": "605 Tremont Street",
+          "address": "28 W Broadway",
           "city": "Boston",
           "region": "Massachusetts",
           "country": "USA"
         },
-        "website": "https://311boston.com/home",
-        "photoSource": "https://311boston.com/home",
         "recognitions": [
           {
             "organization": "MICHELIN Guide",
             "year": 2025,
-            "awardType": "michelin_star",
-            "category": "One MICHELIN Star",
-            "result": "1 star",
-            "recipient": "311 Omakase",
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Fox & The Knife",
             "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Restaurant-level award; no visit implied."
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
           }
         ],
-        "screeningTier": "michelin_star",
-        "feature": "Intimate minimalist ten-seat Japanese omakase counter in the South End."
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Lively South Boston enoteca by chef Karen Akunowicz with stuffed focaccia, handmade pastas, aperitivi and amaro."
       },
       {
-        "id": "candidate-boston-o-ya",
-        "name": "O Ya — Boston",
+        "id": "candidate-boston-bar-volpe",
+        "name": "Bar Volpe",
         "category": "dining",
         "location": {
-          "address": "9 East Street",
+          "address": "170 W Broadway",
           "city": "Boston",
           "region": "Massachusetts",
           "country": "USA"
         },
-        "website": "https://www.o-ya.restaurant/location/o-ya-boston/",
-        "photoSource": "https://www.o-ya.restaurant/",
         "recognitions": [
           {
-            "organization": "James Beard Foundation",
-            "year": 2026,
-            "awardType": "jbf_semifinalist",
-            "category": "Outstanding Restaurant",
-            "result": "semifinalist",
-            "recipient": "O Ya — Boston",
-            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
-            "relationship": "Restaurant-level semifinalist, not prize win; no user visit implied."
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Bar Volpe",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
           }
         ],
-        "screeningTier": "james_beard_restaurant_semifinalist",
-        "feature": "Intimate, refined omakase restaurant with brick, timber and long sushi counter in Boston's Leather District."
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Candlelit Southern Italian restaurant with seafood pastas, two bars, wood-fired cooking and a deep amaro list."
       },
       {
-        "id": "candidate-somerville-spoke-wine-bar",
-        "name": "Spoke Wine Bar — Somerville",
-        "category": "bar",
-        "location": {
-          "address": "89 Holland Street",
-          "city": "Somerville",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "website": "https://www.spokewinebar.com/",
-        "photoSource": "https://www.spokewinebar.com/",
-        "recognitions": [
-          {
-            "organization": "James Beard Foundation",
-            "year": 2026,
-            "awardType": "jbf_semifinalist",
-            "category": "Outstanding Bar",
-            "result": "semifinalist",
-            "recipient": "Spoke Wine Bar — Somerville",
-            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
-            "relationship": "Named bar-level semifinalist, not an award win; no personal visit implied."
-          }
-        ],
-        "screeningTier": "james_beard_bar_semifinalist",
-        "feature": "Warm neighborhood wine bar in Davis Square with curved counter, natural wines, and thoughtful small plates."
-      },
-      {
-        "id": "candidate-boston-ostra",
-        "name": "Ostra — Boston",
+        "id": "candidate-brookline-mahaniyom",
+        "name": "Mahaniyom",
         "category": "dining",
         "location": {
-          "address": "1 Charles Street South",
-          "city": "Boston",
+          "address": "236 Washington St",
+          "city": "Brookline",
           "region": "Massachusetts",
           "country": "USA"
         },
-        "website": "https://ostraboston.com/",
-        "photoSource": "https://ostraboston.com/",
         "recognitions": [
           {
-            "organization": "James Beard Foundation",
-            "year": 2026,
-            "awardType": "jbf_semifinalist",
-            "category": "Outstanding Hospitality",
-            "result": "semifinalist",
-            "recipient": "Ostra — Boston",
-            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
-            "relationship": "Restaurant-level hospitality semifinalist (not award win); does not imply user attendance."
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Mahaniyom",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
           }
         ],
-        "screeningTier": "james_beard_hospitality_semifinalist",
-        "feature": "High-ceiling Mediterranean seafood dining room near Boston Common, white tablecloths and caramel leather banquettes."
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Compact Brookline Village Thai small-plates and cocktail bar, known for seafood salads and crab red curry."
+      },
+      {
+        "id": "candidate-cambridge-pagu",
+        "name": "Pagu",
+        "category": "dining",
+        "location": {
+          "address": "310 Massachusetts Ave",
+          "city": "Cambridge",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Pagu",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+          }
+        ],
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Tracy Chang's bright Cambridge Japanese/Spanish small-plates restaurant, featuring baos, patatas bravas and laksa."
+      },
+      {
+        "id": "candidate-cambridge-jahunger",
+        "name": "Jahunger",
+        "category": "dining",
+        "location": {
+          "address": "272 Brookline St",
+          "city": "Cambridge",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "recognitions": [
+          {
+            "organization": "MICHELIN Guide",
+            "year": 2025,
+            "awardType": "michelin_bib_gourmand",
+            "category": "Bib Gourmand",
+            "result": "selected",
+            "recipient": "Jahunger",
+            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+          }
+        ],
+        "screeningTier": "michelin_bib_gourmand",
+        "feature": "Cambridge Uyghur restaurant specializing in hand-pulled noodles, lamb, dumplings and Xinjiang spices."
       }
-    ]
+    ],
+    "lastCompletedBatchId": "boston-criteria-qualified-mixed-2026-11-06-11"
   }
 }
