@@ -3896,6 +3896,222 @@
         }
       ],
       "notes": "Private user-requested future-visit wishlist. Does not need to pass public award eligibility. Do not promote to public visitor records unless a future visit is explicitly confirmed."
+    },
+    {
+      "id": "want-to-visit-wormtown-worcester",
+      "candidateId": "candidate-boston-brewery-wormtown-worcester-2026",
+      "name": "Wormtown Brewery — Worcester",
+      "category": "brewery",
+      "venueType": "brewery_taproom",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Worcester / Greater Massachusetts",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "72 Shrewsbury Street",
+        "city": "Worcester",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://wormtownbrewery.com/visit/",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Wormtown Brewery — Worcester: Wishlist",
+        "context": "Culture Passport Boston Round 11 prefiltered five-venue interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "awardType": "judged_beer_medal",
+          "category": "American Wheat Beer",
+          "result": "gold",
+          "product": "Summer Ale",
+          "recipient": "Wormtown Brewery — Summer Ale",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+          "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
+        }
+      ],
+      "notes": "Private future-visit wishlist only. Preserve official recognition provenance and exact recipient; no visit, date, reservation, or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-311-omakase-boston",
+      "candidateId": "candidate-boston-311-omakase",
+      "name": "311 Omakase — Boston",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "605 Tremont Street",
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://311boston.com/home",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "311 Omakase — Boston: Wishlist",
+        "context": "Culture Passport Boston Round 11 prefiltered five-venue interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_star",
+          "category": "One MICHELIN Star",
+          "result": "1 star",
+          "recipient": "311 Omakase",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Restaurant-level award; no visit implied."
+        }
+      ],
+      "notes": "Private future-visit wishlist only. Preserve official recognition provenance and exact recipient; no visit, date, reservation, or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-o-ya-boston",
+      "candidateId": "candidate-boston-o-ya",
+      "name": "O Ya — Boston",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "9 East Street",
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.o-ya.restaurant/location/o-ya-boston/",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "O Ya — Boston: Wishlist",
+        "context": "Culture Passport Boston Round 11 prefiltered five-venue interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "awardType": "jbf_semifinalist",
+          "category": "Outstanding Restaurant",
+          "result": "semifinalist",
+          "recipient": "O Ya — Boston",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "relationship": "Restaurant-level semifinalist, not prize win; no user visit implied."
+        }
+      ],
+      "notes": "Private future-visit wishlist only. Preserve official recognition provenance and exact recipient; no visit, date, reservation, or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-spoke-wine-bar-somerville",
+      "candidateId": "candidate-somerville-spoke-wine-bar",
+      "name": "Spoke Wine Bar — Somerville",
+      "category": "bar",
+      "venueType": "wine_bar",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "89 Holland Street",
+        "city": "Somerville",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://www.spokewinebar.com/",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Spoke Wine Bar — Somerville: Wishlist",
+        "context": "Culture Passport Boston Round 11 prefiltered five-venue interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "awardType": "jbf_semifinalist",
+          "category": "Outstanding Bar",
+          "result": "semifinalist",
+          "recipient": "Spoke Wine Bar — Somerville",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "relationship": "Named bar-level semifinalist, not an award win; no personal visit implied."
+        }
+      ],
+      "notes": "Private future-visit wishlist only. Preserve official recognition provenance and exact recipient; no visit, date, reservation, or public visitor record implied."
+    },
+    {
+      "id": "want-to-visit-ostra-boston",
+      "candidateId": "candidate-boston-ostra",
+      "name": "Ostra — Boston",
+      "category": "dining",
+      "venueType": "restaurant",
+      "status": "want_to_visit",
+      "visitStatus": "not_visited",
+      "addedOn": "2026-11-06",
+      "metroArea": "Greater Boston",
+      "venueScope": "exact_site",
+      "location": {
+        "address": "1 Charles Street South",
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "USA"
+      },
+      "website": "https://ostraboston.com/",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "source": {
+        "type": "direct_user_response",
+        "date": "2026-11-06",
+        "quote": "Ostra — Boston: Wishlist",
+        "context": "Culture Passport Boston Round 11 prefiltered five-venue interview"
+      },
+      "userNote": "I have not visited, but want to go.",
+      "desiredVisitDate": null,
+      "recognitions": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "awardType": "jbf_semifinalist",
+          "category": "Outstanding Hospitality",
+          "result": "semifinalist",
+          "recipient": "Ostra — Boston",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "relationship": "Restaurant-level hospitality semifinalist (not award win); does not imply user attendance."
+        }
+      ],
+      "notes": "Private future-visit wishlist only. Preserve official recognition provenance and exact recipient; no visit, date, reservation, or public visitor record implied."
     }
   ],
   "interviewConvention": {
