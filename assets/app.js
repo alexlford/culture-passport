@@ -195,6 +195,84 @@
     }
     return panel;
   }
+
+  // Photographic provenance is explicit and independent of a visit or award.
+  // Every displayed image is a documentary photograph with a source and reuse license.
+  // A historical/context photograph is NEVER evidence the user appears in the frame.
+  const photoLedger=Object.freeze({
+    "dining-minetta-tavern-nyc-2016-2017":{
+      url:"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Minetta_Tavern_%E2%80%93_January_2023_%E2%80%93_by_MainlyTwelve.jpg/960px-Minetta_Tavern_%E2%80%93_January_2023_%E2%80%93_by_MainlyTwelve.jpg",
+      source:"https://commons.wikimedia.org/wiki/File:Minetta_Tavern_%E2%80%93_January_2023_%E2%80%93_by_MainlyTwelve.jpg",
+      credit:"MainlyTwelve",license:"CC BY-SA 4.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/4.0/",
+      caption:"Minetta Tavern exterior, photographed January 2023—after the remembered meal.",
+      alt:"The dark, historic storefront and entrance to Minetta Tavern in New York City."
+    },
+    "bar-eagle-cambridge-visit-date-unknown":{
+      url:"https://upload.wikimedia.org/wikipedia/commons/b/b2/The_Eagle_pub_ceiling.jpg",
+      source:"https://commons.wikimedia.org/wiki/File:The_Eagle_pub_ceiling.jpg",
+      credit:"Cmglee",license:"CC BY-SA 3.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/3.0/",
+      caption:"The Eagle's airmen-signed ceiling and historic bar, photographed in 2011; not a personal visit photo.",
+      alt:"Inside The Eagle pub in Cambridge, showing RAF signatures across the ceiling above the bar."
+    },
+    "concert-lollapalooza-all-three-days":{
+      url:"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Muse_at_Lollapalooza_2007_%281015565680%29.jpg/960px-Muse_at_Lollapalooza_2007_%281015565680%29.jpg",
+      source:"https://commons.wikimedia.org/wiki/File:Muse_at_Lollapalooza_2007_(1015565680).jpg",
+      credit:"Octavio Ruiz Cervera",license:"CC BY-SA 2.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/2.0/",
+      caption:"Muse bassist Chris Wolstenholme performing at Lollapalooza, August 4, 2007; a photograph of the event, not the attendee.",
+      alt:"Muse bassist Chris Wolstenholme playing a red bass guitar on stage at Lollapalooza 2007."
+    },
+    "opera-wagner-s-ring-cycle-lyric-opera-of-chicago":{
+      url:"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Lyric_Opera_of_Chicago_interior.jpg/960px-Lyric_Opera_of_Chicago_interior.jpg",
+      source:"https://commons.wikimedia.org/wiki/File:Lyric_Opera_of_Chicago_interior.jpg",
+      credit:"Zesmerelda",license:"CC BY-SA 2.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/2.0/",
+      caption:"Inside the Lyric Opera of Chicago, photographed in 2005; an architectural view, not a Ring Cycle performance.",
+      alt:"The ornate gold architectural interior of the Lyric Opera of Chicago auditorium."
+    },
+    "theater-second-city-chicago-2017":{
+      url:"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_Second_City_Marquee_in_Chicago_01.jpg/960px-The_Second_City_Marquee_in_Chicago_01.jpg",
+      source:"https://commons.wikimedia.org/wiki/File:The_Second_City_Marquee_in_Chicago_01.jpg",
+      credit:"PoetishBookwormus",license:"CC BY-SA 4.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/4.0/",
+      caption:"The Second City marquee in Chicago, photographed August 2022—not the 2017 outing.",
+      alt:"The Second City theater's marquee against a blue sky in Chicago."
+    },
+    "film-american-fiction-denver-film-festival-2023":{
+      url:"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Denver_Municipal_Auditorium.JPG/960px-Denver_Municipal_Auditorium.JPG",
+      source:"https://commons.wikimedia.org/wiki/File:Denver_Municipal_Auditorium.JPG",
+      credit:"Jeffrey Beall",license:"CC BY-SA 3.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/3.0/",
+      caption:"Historic exterior of the Denver auditorium complex, home to the Ellie Caulkins Opera House, photographed in 2009; not footage of the festival.",
+      alt:"The historic limestone facade of Denver's municipal auditorium building."
+    }
+  });
+  const photoFor=(r)=>photoLedger[r.id]||null;
+  function creditedPhotograph(r,compact=false){
+    const photo=photoFor(r);
+    if(!photo||!photo.url||!photo.source||!photo.licenseUrl)return null;
+    const fig=el("figure",compact?"record-photo":"experience-photograph");
+    const img=el("img");
+    img.src=photo.url;
+    img.alt=photo.alt;
+    img.decoding="async";
+    img.loading="lazy";
+    img.referrerPolicy="no-referrer";
+    img.addEventListener("error",()=>{fig.hidden=true;});
+    fig.append(img);
+    if(compact){
+      const credit=el("figcaption","record-photo-credit","Photo: "+photo.credit+" · "+photo.license);
+      fig.append(credit);
+    }else{
+      const caption=el("figcaption","experience-photo-credit");
+      caption.append(el("p","photo-context",photo.caption));
+      const credit=el("span","photo-attribution","Photograph: "+photo.credit+" · ");
+      const source=link("Original image",photo.source);
+      source.target="_blank";source.rel="noopener noreferrer";
+      const license=link(photo.license,photo.licenseUrl);
+      license.target="_blank";license.rel="noopener noreferrer";
+      credit.append(source,document.createTextNode(" · "),license,document.createTextNode(" · cropped to fit the layout"));
+      caption.append(credit);
+      fig.append(caption);
+    }
+    return fig;
+  }
   function empty(parent,title,description,url,label){
     parent.replaceChildren();
     const block=el("div","empty");
@@ -218,7 +296,10 @@
     const chapter=el("div","record-chapter");
     chapter.append(el("span","",mode.chapter),el("span","record-mark",mode.mark));
     chapter.lastChild.setAttribute("aria-hidden","true");
-    a.append(chapter,top,h,description,bottom);
+    a.append(chapter,top);
+    const photograph=creditedPhotograph(r,true);
+    if(photograph)a.append(photograph);
+    a.append(h,description,bottom);
     return a;
   }
   function siteStats(db){
@@ -508,6 +589,8 @@
     host.replaceChildren();
     host.className="detail detail--"+r.type;
     host.append(experienceCover(r,v));
+    const photograph=creditedPhotograph(r);
+    if(photograph)host.append(photograph);
     const period=el("p","memory-period",storyPeriod(r)+" · "+[v.city,v.region].filter(Boolean).join(", "));
     host.append(period);
     if(isRecalled(r))host.append(el("p","recalled-notice",

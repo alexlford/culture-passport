@@ -394,3 +394,23 @@ main:focus{outline:none}
   .opera-act-number{font-size:23px}
 }
 @media(prefers-reduced-motion:reduce){.record-card{transition:none}.record-card:hover{transform:none}}
+
+/* Authenticated documentary imagery: real venues/events and visible license credits. */
+.record-photo{margin:0 0 20px;min-width:0;background:rgba(255,255,255,.1);border:1px solid currentColor;padding:4px}
+.record-photo img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center;display:block;background:#ded9d2}
+.record-photo-credit{padding:6px 5px 2px;font-size:9px;font-weight:600;letter-spacing:.01em;line-height:1.5;opacity:.85}
+.record-card--dining .record-photo,.record-card--theater .record-photo{border-color:#d6c9bb}
+.record-card--bar .record-photo,.record-card--concert .record-photo,.record-card--opera .record-photo,.record-card--film .record-photo{border-color:rgba(245,236,218,.35)}
+.experience-photograph{margin:20px 0 37px;border:1px solid var(--line);background:var(--cream)}
+.experience-photograph img{display:block;width:100%;height:auto;max-height:540px;aspect-ratio:16/9;object-fit:cover;object-position:center;background:#dfd9d1}
+.experience-photo-credit{display:flex;justify-content:space-between;gap:10px 24px;flex-wrap:wrap;align-items:baseline;padding:16px clamp(17px,3vw,29px);border-top:1px solid var(--line)}
+.photo-context{font-size:12px;line-height:1.65;margin:0;max-width:58ch}
+.photo-attribution{font-size:10px;color:var(--muted);line-height:1.65}
+.photo-attribution a{font-weight:700;color:var(--wine);text-underline-offset:3px}
+.record-photo[hidden],.experience-photograph[hidden]{display:none}
+@media(max-width:720px){
+ .record-photo img{aspect-ratio:16/9}
+ .experience-photograph img{aspect-ratio:4/3;max-height:380px}
+ .experience-photo-credit{display:block}
+ .photo-attribution{display:block;margin-top:10px}
+}

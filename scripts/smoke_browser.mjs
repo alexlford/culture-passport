@@ -126,6 +126,40 @@ try{
     }
     assert(await page.locator("#record-detail.detail--film .experience-program").count()===1,
       "Film chapter did not retain its screening presentation");
+    // Photo pilot: one real, source-linked, licensed image per cultural chapter.
+    // A venue photo does not claim to show a user's own evening or performance.
+    const photographicRecords={
+      dining:"dining-minetta-tavern-nyc-2016-2017",
+      bar:"bar-eagle-cambridge-visit-date-unknown",
+      concert:"concert-lollapalooza-all-three-days",
+      opera:"opera-wagner-s-ring-cycle-lyric-opera-of-chicago",
+      theater:"theater-second-city-chicago-2017",
+      film:"film-american-fiction-denver-film-festival-2023"
+    };
+    for(const [type,id] of Object.entries(photographicRecords)){
+      const r=data.records.find(x=>x.id===id);
+      assert(r?.type===type,"Photo provenance target missing from visitor export: "+id);
+      await page.goto(BASE+"record.html?id="+encodeURIComponent(id),
+        {waitUntil:"domcontentloaded"});
+      const image=page.locator(".experience-photograph img");
+      await image.waitFor();
+      assert((await image.getAttribute("alt"))?.length>15,
+        "Photographic alt text missing: "+id);
+      assert((await image.getAttribute("src"))?.startsWith("https://"),
+        "Photography is not drawn from its approved photo source: "+id);
+      assert(await page.locator(".experience-photo-credit .photo-context").count()===1,
+        "Photo/date distinction missing: "+id);
+      assert(await page.locator(".experience-photo-credit .photo-attribution a").count()===2,
+        "Visible image-source and license links are required: "+id);
+      assert((await page.locator(".photo-attribution").innerText()).includes("CC BY-SA"),
+        "Creative Commons attribution missing: "+id);
+      await page.screenshot({path:path.join(screenshots,name+"-photograph-"+type+".png"),
+        fullPage:true,animations:"disabled"});
+    }
+    await page.goto(BASE+"explore.html",{waitUntil:"domcontentloaded"});
+    await page.locator("#explore-results a.record-card").first().waitFor();
+    assert(await page.locator("#explore-results .record-photo img").count()===6,
+      "Expected six licensed photographic cards in the public collection");
     // Union Station memories retain the user's occasion and exact Foundation relationship.
     await page.goto(BASE+"record.html?id=dining-pierponts-union-station-multiple-visits",{waitUntil:"domcontentloaded"});
     await page.locator("#record-detail h1").waitFor();
