@@ -231,3 +231,9 @@ main:focus{outline:none}
 /* Editorial ornaments are text glyphs, never platform emoji. Keep the palette consistent on iOS. */
 .monogram span,.tiny-star,.art-star,.chapter-symbol,.closing>span,.interview-banner>span,.feature-year{font-family:Georgia,'Times New Roman',serif;font-variant-emoji:text}
 .button-main>span{font-family:Georgia,'Times New Roman',serif;font-variant-emoji:text;color:var(--paper);font-size:17px;line-height:1}
+
+/* City-level Culture Map: editorial burgundy markers, accessible directory. */
+.culture-marker{width:30px;height:30px;border:2px solid var(--paper);background:var(--wine);color:var(--paper);border-radius:50%;font-size:11px;font-weight:800;font-variant-numeric:tabular-nums;box-shadow:0 2px 9px rgba(55,36,42,.28)}
+.leaflet-marker-icon:focus-visible,.city-summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.map-unlocated{margin-top:18px;padding-top:8px;border-top:2px solid var(--wine)}
+.map-unlocated .city-summary strong{color:var(--wine)}
