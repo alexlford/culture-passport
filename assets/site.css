@@ -227,3 +227,7 @@ main:focus{outline:none}
 .interview-photo-link{font-size:13px;font-weight:700;color:var(--wine);text-decoration:underline;text-underline-offset:3px}
 .interview-photo-caption,.interview-photo-caveat{font-size:11px;color:var(--muted);line-height:1.55;margin:5px 0 0}
 .interview-photo-caveat{font-style:italic}
+
+/* Editorial ornaments are text glyphs, never platform emoji. Keep the palette consistent on iOS. */
+.monogram span,.tiny-star,.art-star,.chapter-symbol,.closing>span,.interview-banner>span,.feature-year{font-family:Georgia,'Times New Roman',serif;font-variant-emoji:text}
+.button-main>span{font-family:Georgia,'Times New Roman',serif;font-variant-emoji:text;color:var(--paper);font-size:17px;line-height:1}
