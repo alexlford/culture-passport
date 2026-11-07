@@ -162,6 +162,20 @@ try{
     await page.locator(".map-tile-fallback:visible").waitFor({timeout:12000});
     assert(await page.locator(".map-tile-fallback a[href='#city-list']").isVisible(),
       "Map outage fallback must link to the city directory");
+    // Every visitor record must remain discoverable in the city directory,
+    // even when its venue has no coordinates or no confirmed city.
+    const expectedMapped=data.records.filter(r=>r.status==="confirmed"||
+      (r.status==="recollected"&&r.editorial?.userRequestedMemory===true)).length;
+    const actualMapped=await page.locator("#city-list .map-place-list li a").count();
+    assert(actualMapped===expectedMapped,
+      "Map directory omitted "+(expectedMapped-actualMapped)+" confirmed experiences");
+    const mapText=await page.locator("#city-list").innerText();
+    assert(mapText.includes("West Hollywood")&&mapText.includes("Cambridge")&&
+      mapText.includes("New York")&&mapText.includes("Location not confirmed"),
+      "Map omits an established city or unknown-location records");
+    assert((await page.locator(".culture-marker").count())>0,
+      "City markers failed to render");
+
     await page.locator("#map-category").selectOption("bar");
     await page.waitForFunction(()=>document.querySelector("#map-summary")?.textContent?.includes("cities"));
     assert((await page.locator("#city-list details.city-section").count())>0,"Map category filter erased bars");

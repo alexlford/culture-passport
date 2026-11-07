@@ -74,7 +74,7 @@
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
-    bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record ↗"));
+    bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record →"));
     a.append(top,h,description,bottom);
     return a;
   }
@@ -109,9 +109,9 @@
     records.forEach(r=>{
       const v=venues.get(r.venueId);
       const a=link("",href(r),"feature-row");
-      a.append(el("span","feature-year",timelineChapter(r)==="Other memories"?"✳":timelineChapter(r)));
+      a.append(el("span","feature-year",timelineChapter(r)==="Other memories"?"✦":timelineChapter(r)));
       const mid=el("div");mid.append(el("strong","",r.title),el("small","",v.city+" · "+(r.memory?.headline||"A place in the collection")));
-      a.append(mid,el("span","feature-arrow","↗"));host.append(a);
+      a.append(mid,el("span","feature-arrow","→"));host.append(a);
     });
     // City editions are generated from confirmed *curated* stories only. This
     // works on both the private archive and the separately sanitized preview,
@@ -142,7 +142,7 @@
         card.append(el("h3","city-edition-name",entry.city));
         card.append(el("span","city-edition-count",entry.venueIds.size+" confirmed "+(entry.venueIds.size===1?"place":"places")));
         card.append(el("p","city-edition-memory","From the archive: "+preview.title));
-        card.append(el("span","city-edition-cta","Explore stories ↗"));
+        card.append(el("span","city-edition-cta","Explore stories →"));
         cityHost.append(card);
       });
     }
@@ -156,7 +156,7 @@
           const title=el("div");
           title.append(el("strong","",r.title),
             el("small","",(venue?.city||"Chicago")+" · Shared recollection · Visit unconfirmed"));
-          row.append(el("span","feature-year","◒"),title,el("span","feature-arrow","↗"));
+          row.append(el("span","feature-year","◒"),title,el("span","feature-arrow","→"));
           shared.append(row);
         });
     }
@@ -202,7 +202,7 @@
         const section=el("section","timeline-group"),year=el("div","timeline-year",label),stack=el("div","timeline-stack");
         rows.forEach(r=>{const v=venues.get(r.venueId);const a=link("",href(r),"timeline-entry"),mid=el("div");
           mid.append(el("small","",r.type.toUpperCase()+" · "+v.city+" · "+storyPeriod(r)),el("h3","",r.title),el("p","timeline-memory",storyTeaser(r)));
-          a.append(mid,el("span","","↗"));stack.append(a);
+          a.append(mid,el("span","","→"));stack.append(a);
         });
         section.append(year,stack);host.append(section);
       }
@@ -213,9 +213,18 @@
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const available=db.records.filter(inCollection);
-    // Map points are city-centroid *representations* until independently
-    // verified venue coordinates become available. Do not place pins at
-    // address approximations or imply the GPS belongs to the venue.
+    // These are explicitly CITY-LEVEL reference coordinates, never venue positions.
+    // Existing verified city coordinates in the collection take precedence.
+    // Sources: Ordnance Survey Open Names (Cambridge UK), LA Almanac (West Hollywood),
+    // public NYC center listing, and Cambridge Massachusetts city coordinates.
+    const cityCenters=new Map([
+      ["Cambridge · Cambridgeshire, England · United Kingdom",[52.20486,0.11968]],
+      ["West Hollywood · California · USA",[34.088267,-118.371831]],
+      ["New York · New York · USA",[40.7128,-74.0060]],
+      ["Cambridge · Massachusetts · USA",[42.37361,-71.11056]]
+    ]);
+    const validPoint=(v)=>v?.location&&Number.isFinite(v.location.lat)&&
+      Number.isFinite(v.location.lng)&&Math.abs(v.location.lat)<=90&&Math.abs(v.location.lng)<=180;
     let leafletMap=null,markers=[];
     if(typeof window.L!=="undefined"){
       host.replaceChildren();
@@ -226,14 +235,10 @@
       tileFallback.append(el("strong","","Map background unavailable"),
         el("p","","The city directory still works. Select a city below to explore your experiences."),
         link("Browse cities ↓","#city-list"));
-      // A tile outage must not turn the page into an unlabelled, empty map.
       let successfulTiles=0,failedTiles=0;
       const layer=L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
         {attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:18});
-      layer.on("tileload",()=>{
-        successfulTiles+=1;
-        tileFallback.hidden=true;
-      });
+      layer.on("tileload",()=>{successfulTiles+=1;tileFallback.hidden=true;});
       layer.on("tileerror",()=>{
         failedTiles+=1;
         if(successfulTiles===0&&failedTiles>=2)tileFallback.hidden=false;
@@ -248,54 +253,59 @@
     function render(){
       markers.forEach(m=>{if(leafletMap)leafletMap.removeLayer(m);});
       markers=[];
-      const groups=new Map();
+      const groups=new Map(),unlocated=[];
       for(const r of available){
         if(category.value!=="all"&&r.type!==category.value)continue;
         const v=venues.get(r.venueId);
-        if(!v?.location||!Number.isFinite(v.location.lat)||!Number.isFinite(v.location.lng))continue;
+        // A known city still belongs in the directory when its venue has no
+        // coordinates. Do not silently hide confirmed visits.
+        if(!v?.city){unlocated.push(r);continue;}
         const cityKey=[v.city,v.region,v.country].filter(Boolean).join(" · ");
         if(!groups.has(cityKey)){
-          groups.set(cityKey,{key:cityKey,name:v.city,region:v.region,
-            lat:v.location.lat,lng:v.location.lng,records:[],venues:new Set()});
+          groups.set(cityKey,{key:cityKey,name:v.city,region:v.region||v.country||"",
+            lat:null,lng:null,records:[],venues:new Set()});
         }
         const g=groups.get(cityKey);
+        if(validPoint(v)&&g.lat===null){g.lat=v.location.lat;g.lng=v.location.lng;}
         g.records.push(r);
         g.venues.add(r.venueId);
       }
       list.replaceChildren();
-      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||String(a.region||"").localeCompare(String(b.region||"")));
-      if(!groupsSorted.length){
-        const noResults=el("p","map-legend","No places or experiences in this category yet.");
-        list.append(noResults);
-        if(leafletMap)leafletMap.setView([39.5,-98.35],4);
-        return;
-      }
-      const locations=[];
+      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||
+        String(a.region||"").localeCompare(String(b.region||"")));
       const selectedCity=new URLSearchParams(location.search).get("city");
-      let focus=null;
+      const nameMatches=selectedCity?groupsSorted.filter(g=>g.name===selectedCity):[];
+      let focus=null,pinnedCities=0;
+      const locations=[];
       for(const g of groupsSorted){
+        if(g.lat===null&&cityCenters.has(g.key)){
+          [g.lat,g.lng]=cityCenters.get(g.key);
+        }
         const details=el("details","city-section");
         const summary=el("summary","city-summary");
         const name=el("strong","",g.name);
-        const qualifier=el("span","",g.venues.size+" place"+(g.venues.size===1?"":"s")+" · "+g.region);
-        summary.append(name,qualifier);
-        details.append(summary);
+        const qualifier=el("span","",g.venues.size+" place"+(g.venues.size===1?"":"s")+
+          " · "+g.region+(g.lat===null?" · Map position pending":""));
+        summary.append(name,qualifier);details.append(summary);
         const ul=el("ul","map-place-list");
-        const rows=[...g.records].sort((a,b)=>a.title.localeCompare(b.title));
-        for(const r of rows){
+        for(const r of [...g.records].sort((a,b)=>a.title.localeCompare(b.title))){
           const li=el("li"),a=link(r.title,href(r));
           a.append(el("span","",storyPeriod(r)));
           li.append(a);ul.append(li);
         }
-        details.append(ul);
-        list.append(details);
-        if(selectedCity===g.name||selectedCity===g.key){details.open=true;focus=g;}
-        if(leafletMap){
+        details.append(ul);list.append(details);
+        if(selectedCity===g.key||(nameMatches.length===1&&selectedCity===g.name)){
+          details.open=true;focus=g.lat!==null?g:null;
+        }
+        if(g.lat!==null)pinnedCities++;
+        if(leafletMap&&g.lat!==null){
           const marker=L.marker([g.lat,g.lng],{icon:L.divIcon({
             className:"",html:'<div class="culture-marker" aria-hidden="true">'+g.venues.size+'</div>',
-            iconSize:[28,28],iconAnchor:[14,14]})}).addTo(leafletMap);
+            iconSize:[30,30],iconAnchor:[15,15]})}).addTo(leafletMap);
           const popup=el("div","map-popup");
-          popup.append(el("strong","",g.name),el("p","",g.venues.size+" place"+(g.venues.size===1?"":"s")+" · city-level pin, not an exact venue"));
+          popup.append(el("strong","",g.name+" · "+g.region),
+            el("p","",g.venues.size+" place"+(g.venues.size===1?"":"s")+
+              " · city-level pin, not an exact venue"));
           const openCity=el("button","map-popup-link","View places in this city");
           openCity.type="button";
           openCity.addEventListener("click",()=>{
@@ -304,17 +314,43 @@
           });
           popup.append(openCity);
           marker.bindPopup(popup);
-          markers.push(marker);
-          locations.push([g.lat,g.lng]);
+          summary.addEventListener("click",()=>{
+            leafletMap.setView([g.lat,g.lng],9,{animate:false});
+            marker.openPopup();
+          });
+          markers.push(marker);locations.push([g.lat,g.lng]);
+
         }
       }
-      const total=groupsSorted.reduce((n,g)=>n+g.venues.size,0);
+      if(!groupsSorted.length&&!unlocated.length){
+        list.append(el("p","map-legend","No experiences in this category yet."));
+      }
+      if(unlocated.length){
+        const details=el("details","city-section map-unlocated");
+        const summary=el("summary","city-summary");
+        summary.append(el("strong","","Location not confirmed"),
+          el("span","",unlocated.length+" experience"+(unlocated.length===1?"":"s")+
+            " · no city pin"));
+        details.append(summary);
+        const ul=el("ul","map-place-list");
+        for(const r of [...unlocated].sort((a,b)=>a.title.localeCompare(b.title))){
+          const li=el("li"),a=link(r.title,href(r));
+          a.append(el("span","","City or venue location not confirmed"));
+          li.append(a);ul.append(li);
+        }
+        details.append(ul);list.append(details);
+      }
+      const totalRecords=groupsSorted.reduce((n,g)=>n+g.records.length,0)+unlocated.length;
       const status=byId("map-summary");
-      if(status)status.textContent=groupsSorted.length+" cities · "+total+" city-grouped places · Approximate location markers";
+      if(status)status.textContent=totalRecords+" experiences · "+pinnedCities+
+        " cities on the map"+(unlocated.length?" · "+unlocated.length+
+        " with locations to confirm":"")+(groupsSorted.length>pinnedCities?
+        " · "+(groupsSorted.length-pinnedCities)+" cities awaiting map positions":"");
       if(leafletMap){
         if(focus)leafletMap.setView([focus.lat,focus.lng],9,{animate:false});
         else if(locations.length===1)leafletMap.setView(locations[0],9,{animate:false});
-        else leafletMap.fitBounds(locations,{padding:[45,45],maxZoom:9});
+        else if(locations.length)leafletMap.fitBounds(locations,{padding:[45,45],maxZoom:9});
+        else leafletMap.setView([39.5,-98.35],4,{animate:false});
       }
     }
     category.addEventListener("change",render);
@@ -346,7 +382,7 @@
         el("p","memory-quote",storyTeaser(r)));
     }
     if((r.favorite||r.editorial?.featuredException)&&!isRecalled(r)){
-      host.append(el("p","eyebrow memory-favorite","✳ KEPT FOR THE MEMORY"));
+      host.append(el("p","eyebrow memory-favorite","✦ KEPT FOR THE MEMORY"));
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
       host.append(el("p","memory-disclosure",r.editorial?.culturalSpotlight?
@@ -407,7 +443,7 @@
             el("p","",award.recipient+" · "+award.result));
           if(award.relationship)card.append(el("p","",award.relationship));
           if(award.sourceUrl?.startsWith("https://")){
-            const a=link("Read official recognition ↗",award.sourceUrl);
+            const a=link("Read official recognition →",award.sourceUrl);
             a.target="_blank";a.rel="noopener noreferrer";card.append(a);
           }
           item.append(card);
@@ -416,7 +452,7 @@
           const refs=el("div","onsite-sources");
           for(const source of experience.sources){
             if(!source.url?.startsWith("https://"))continue;
-            const a=link(source.label+" ↗",source.url);
+            const a=link(source.label+" →",source.url);
             a.target="_blank";a.rel="noopener noreferrer";refs.append(a);
           }
           item.append(refs);
@@ -437,7 +473,7 @@
           el("p","",award.recipient+" · "+award.result));
         if(award.relationship)card.append(el("p","",award.relationship));
         if(award.sourceUrl?.startsWith("https://")){
-          const a=link("Recognition source ↗",award.sourceUrl);
+          const a=link("Recognition source →",award.sourceUrl);
           a.target="_blank";a.rel="noopener noreferrer";card.append(a);
         }
         cards.append(card);
@@ -450,29 +486,29 @@
         const section=el("section","related-experiences");
         section.append(el("h2","","Connected Kansas City stories"),
           el("p","onsite-intro","The historic Rieger Hotel restaurant and Manifesto cocktail bar were separate experiences at a different address, not rooms inside this distillery."));
-        for(const other of related)section.append(link(other.title+" ↗",href(other)));
+        for(const other of related)section.append(link(other.title+" →",href(other)));
         host.append(section);
       }
     }
     const around=el("div","experience-navigation");
-    around.append(link("Explore experiences in "+(v.city||"this city")+" ↗","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));
-    if(v.location&&v.city)around.append(link("Find this city on the map ↗","./map.html?"+new URLSearchParams({city:v.city}).toString()));
+    around.append(link("Explore experiences in "+(v.city||"this city")+" →","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));
+    if(v.location&&v.city)around.append(link("Find this city on the map →","./map.html?"+new URLSearchParams({city:v.city}).toString()));
     // Link to a *place-name search*, never an unverified door-level GPS marker.
     // Restaurants can move/close; this is a lookup, not proof of present operation.
     if(v.name&&v.city){
       const placeQuery=[v.name,v.city,v.region].filter(Boolean).join(", ");
       const mapsUrl="https://www.google.com/maps/search/?"+new URLSearchParams({api:"1",query:placeQuery}).toString();
-      const lookup=link("Look up this venue ↗",mapsUrl);
+      const lookup=link("Look up this venue →",mapsUrl);
       lookup.target="_blank";lookup.rel="noopener noreferrer";
       around.append(lookup);
     }
     host.append(around);
         const badges=el("div","award-list"),g=r.guide;
     if(g?.distinction==="starred"){
-      const b=el("div","award-card");b.append(el("strong","","Michelin · "+g.stars+" star"+(g.stars===1?"":"s")),el("p","","Recognition belongs to the restaurant, but may differ from the date of the meal."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
-    }else if(g?.distinction==="bib"){const b=el("div","award-card");b.append(el("strong","","Michelin Bib Gourmand"),el("p","",g.note||"Michelin recognition for great food at good value, not a Michelin star."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);}
+      const b=el("div","award-card");b.append(el("strong","","Michelin · "+g.stars+" star"+(g.stars===1?"":"s")),el("p","","Recognition belongs to the restaurant, but may differ from the date of the meal."));if(g.sourceUrl)b.append(link("Guide source →",g.sourceUrl));badges.append(b);
+    }else if(g?.distinction==="bib"){const b=el("div","award-card");b.append(el("strong","","Michelin Bib Gourmand"),el("p","",g.note||"Michelin recognition for great food at good value, not a Michelin star."));if(g.sourceUrl)b.append(link("Guide source →",g.sourceUrl));badges.append(b);}
     else if(g?.distinction==="plate"||g?.distinction==="selected"){
-      const b=el("div","award-card");b.append(el("strong","",g.distinction==="plate"?"Michelin · The Plate (historical)":"Michelin Selected"),el("p","","Guide recognition, not a Michelin star. The listing year may differ from the dining year."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
+      const b=el("div","award-card");b.append(el("strong","",g.distinction==="plate"?"Michelin · The Plate (historical)":"Michelin Selected"),el("p","","Guide recognition, not a Michelin star. The listing year may differ from the dining year."));if(g.sourceUrl)b.append(link("Guide source →",g.sourceUrl));badges.append(b);
     }
     for(const feature of r.officialFeatures||[]){
       // Label editorial and program connections with their exact relationship.
@@ -482,7 +518,7 @@
       b.append(el("p","",feature.category+" — not an award or nomination."));
       if(feature.relationship)b.append(el("p","",feature.relationship));
       if(feature.venueScope==="named_branch_chef_team_offsite_event")b.append(el("p","","Chefs from this branch took part in an event held elsewhere; the restaurant did not host it."));
-      if(feature.sourceUrl)b.append(link(isEditorial?"Official editorial source ↗":"Official program source ↗",feature.sourceUrl));
+      if(feature.sourceUrl)b.append(link(isEditorial?"Official editorial source →":"Official program source →",feature.sourceUrl));
       badges.append(b);
     }
     for(const a of r.recognitions||[]){
@@ -492,7 +528,7 @@
         el("p","",a.recipient+" · "+a.result));
       if(a.relationship)b.append(el("p","",a.relationship));
       if(a.timingRelativeToVisit==="after_visit")b.append(el("p","","Recognized after the remembered visit."));
-      if(a.sourceUrl)b.append(link(a.organization==="CAMRA"?"CAMRA recognition source ↗":"Award source ↗",a.sourceUrl));
+      if(a.sourceUrl)b.append(link(a.organization==="CAMRA"?"CAMRA recognition source →":"Award source →",a.sourceUrl));
       badges.append(b);
     }
     if(badges.childElementCount)host.append(el("h2","","Why it stands out"),badges);
@@ -616,7 +652,7 @@
           for(const photo of x.photographicEvidence){
             if(photo.renderMode!=="source_link_only"||typeof photo.sourceUrl!=="string"||!photo.sourceUrl.startsWith("https://"))continue;
             const item=el("div","interview-photo-item");
-            const a=link(photo.label+" ↗",photo.sourceUrl,"interview-photo-link");
+            const a=link(photo.label+" →",photo.sourceUrl,"interview-photo-link");
             a.target="_blank";a.rel="noopener noreferrer";item.append(a);
             if(photo.caption)item.append(el("p","interview-photo-caption",photo.caption));
             photos.append(item);
@@ -666,7 +702,7 @@
           }
           card.append(choices);
         }
-        if(x.sourceUrl){const a=link("Source / restaurant ↗",x.sourceUrl,"source-link");a.target="_blank";a.rel="noopener noreferrer";card.append(a);}
+        if(x.sourceUrl){const a=link("Source / restaurant →",x.sourceUrl,"source-link");a.target="_blank";a.rel="noopener noreferrer";card.append(a);}
         list.append(card);
       });
       persist();
