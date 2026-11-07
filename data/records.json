@@ -2608,7 +2608,7 @@
       "memory": {
         "headline": "A meal worth returning for",
         "teaser": "A fun distillery meal you returned to across several Breckenridge trips.",
-        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The story here is the place you returned to, not an exact ledger of each reservation.",
+        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The exact dates and details of those meals remain unknown.",
         "period": "2021",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
       }
@@ -2667,7 +2667,7 @@
       "memory": {
         "headline": "A meal worth returning for",
         "teaser": "A fun distillery meal you returned to across several Breckenridge trips.",
-        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The story here is the place you returned to, not an exact ledger of each reservation.",
+        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The exact dates and details of those meals remain unknown.",
         "period": "2022",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
       }
@@ -2726,7 +2726,7 @@
       "memory": {
         "headline": "A meal worth returning for",
         "teaser": "A fun distillery meal you returned to across several Breckenridge trips.",
-        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The story here is the place you returned to, not an exact ledger of each reservation.",
+        "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The exact dates and details of those meals remain unknown.",
         "period": "2023",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
       },
@@ -2757,13 +2757,13 @@
         "date": null,
         "year": null,
         "possibleYears": [],
-        "label": "Date not established (2021 reservation on file)",
+        "label": "Date unknown",
         "precision": "unknown",
         "source": "Alex directly confirmed having eaten at Q House in the Culture Passport interview on October 26, 2026; the 2021-10-21 reservation is separate evidence and does not verify the dining date.",
         "evidenceType": "direct_user_recollection",
         "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
       },
-      "summary": "A confirmed visit to Q House, the modern Chinese restaurant on East Colfax. The date and details of the meal are not established. A completed reservation for October 21, 2021 is preserved separately and must not be treated as proof of the meal date. Q House was named a 2019 James Beard Best New Restaurant semifinalist and later included in the Michelin Guide.",
+      "summary": "A confirmed visit to Q House, the modern Chinese restaurant on East Colfax. The date and details of the meal are not established. Q House was named a 2019 James Beard Best New Restaurant semifinalist and later included in the Michelin Guide.",
       "recognitions": [
         {
           "organization": "James Beard Foundation",
@@ -2782,7 +2782,7 @@
         "stars": 0,
         "historicalVisitDistinction": "unknown_visit_date",
         "sourceUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
-        "note": "Michelin Selected status documented in 2023, following the 2021 reservation; because the actual dining date is unknown, no recognition at the time of the meal is claimed."
+        "note": "Michelin Selected status documented in 2023; because the actual dining date is unknown, no recognition at the time of the meal is claimed."
       },
       "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
       "editorial": {
@@ -2815,8 +2815,8 @@
       ],
       "memory": {
         "headline": "Q House on East Colfax",
-        "teaser": "A confirmed Denver Chinese dining memory, with a historical reservation kept separately from the remembered meal.",
-        "story": "I ate at Q House on East Colfax in Denver. The intimate modern Chinese restaurant was known for Sichuan-influenced dishes and shared plates. I also have a reservation on file for October 21, 2021, but I haven't confirmed that as the date of the meal. The particular dishes, companions and occasion remain to be filled in.",
+        "teaser": "A confirmed dining memory at Q House on East Colfax in Denver; the meal date remains unknown.",
+        "story": "I ate at Q House on East Colfax in Denver. The intimate modern Chinese restaurant was known for Sichuan-influenced dishes and shared plates. The date, particular dishes, companions and occasion remain unknown.",
         "period": "Denver years; meal date unknown",
         "source": "Alex directly confirmed attending Q House; restaurant and award history independently sourced, and dated reservation recorded separately."
       }
@@ -2831,13 +2831,13 @@
         "date": null,
         "year": null,
         "possibleYears": [],
-        "label": "Date not established (March 2022 reservation on file)",
+        "label": "Date unknown",
         "precision": "unknown",
         "source": "Alex directly confirmed dining at Wildflower in the October 26, 2026 Culture Passport interview. A March 21, 2022 reservation is separately recorded but is not a verified date of the attended meal.",
         "evidenceType": "direct_user_recollection",
         "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
       },
-      "summary": "A confirmed Wildflower dining experience in Denver's LoHi neighborhood. The evening's date, companions, and dishes are still unestablished. A March 21, 2022 reservation for seven is kept as separate booking evidence, not proof that the meal occurred then. Michelin Guide Selected status and the 2025 Michelin Young Chef Award are restaurant context, not necessarily awards held on the visit date.",
+      "summary": "A confirmed Wildflower dining experience in Denver's LoHi neighborhood. The evening's date, companions, and dishes are still unestablished. Michelin Guide Selected status and the 2025 Michelin Young Chef Award are restaurant context, not necessarily awards held on the visit date.",
       "recognitions": [
         {
           "organization": "MICHELIN Guide",
@@ -2890,7 +2890,7 @@
       "memory": {
         "headline": "An evening at Wildflower in LoHi",
         "teaser": "A confirmed Denver dining memory in Wildflower's intimate, vintage-inspired room.",
-        "story": "I ate at Wildflower in LoHi, in a warmly decorated restaurant known for its seasonal cooking and intimate atmosphere. I have a historical reservation for March 21, 2022, for seven people, but I have not confirmed that it was the night I dined there. I can return to the company, dishes and occasion when those memories become clearer.",
+        "story": "I ate at Wildflower in LoHi, in a warmly decorated restaurant known for its seasonal cooking and intimate atmosphere. The exact date, company, dishes and occasion remain unknown.",
         "period": "Denver years; exact dining date unknown",
         "source": "Direct personal dining confirmation on 2026-10-26; venue and awards independently documented; dated reservation distinct from attended visit."
       }
@@ -3890,7 +3890,7 @@
         "source": "Previously archived direct user attendance and date, explicitly reconfirmed by Alex on October 25, 2026; Murray State university newsletter reported the Concert Choir and University Chorale Carnegie Hall engagement on January 18, 2010.",
         "evidenceType": "direct_user_confirmation_and_historical_program"
       },
-      "summary": "Attended the Murray State Concert Choir and University Chorale performance at Carnegie Hall on January 18, 2010, to see sister Michelle perform. This experience was already confirmed in Culture Passport; not a new research lead.",
+      "summary": "Attended the Murray State Concert Choir and University Chorale performance at Carnegie Hall on January 18, 2010, to see sister Michelle perform.",
       "memory": {
         "headline": "Seeing Michelle perform at Carnegie Hall",
         "teaser": "A family trip to New York to hear Michelle perform with Murray State's choirs at Carnegie Hall.",
@@ -6301,11 +6301,11 @@
           "sourceNote": "Historical Resy booking for The Butcher's Daughter - West Hollywood, for three people. Alex separately confirmed eating at The Butcher's Daughter, without verifying the exact date or who attended."
         }
       ],
-      "summary": "Confirmed dining visit to The Butcher's Daughter at 8755 Melrose Avenue in West Hollywood. The exact meal date, companions and dishes remain unconfirmed. A separate Resy reservation for July 29, 2023, party of three, is preserved as historical booking evidence only. No direct Michelin or James Beard recognition has been verified for this location.",
+      "summary": "Confirmed dining visit to The Butcher's Daughter at 8755 Melrose Avenue in West Hollywood. The exact meal date, companions and dishes remain unconfirmed. No direct Michelin or James Beard recognition has been verified for this location.",
       "memory": {
         "headline": "The Butcher's Daughter, West Hollywood",
         "teaser": "A confirmed stop at the plant-forward Melrose Avenue restaurant; the evening itself is still being pieced together.",
-        "story": "I ate at The Butcher's Daughter in West Hollywood, on Melrose Avenue. I remember the restaurant and can now pin down the location, though I haven't established the exact day, what we ordered, or who joined me. There's a Resy booking from July 2023 in the archive, but that isn't proof of the date of the meal I recall.",
+        "story": "I ate at The Butcher's Daughter in West Hollywood, on Melrose Avenue. I remember the restaurant and can now pin down the location, though I haven't established the exact day, what we ordered, or who joined me.",
         "period": "West Hollywood visit; meal date unknown",
         "source": "User directly confirmed restaurant attendance and West Hollywood branch in October 27, 2026 Culture Passport discussion. The July 29, 2023 Resy entry remains separately sourced reservation evidence; no companions asserted. Eater verifies September 2022 opening of that branch."
       },
@@ -6878,7 +6878,7 @@
         "stars": 0,
         "historicalVisitDistinction": "none_claimed",
         "sourceUrl": null,
-        "note": "No verified exact-venue Michelin or James Beard award/guide distinction established from this interview. Future research pending."
+        "note": "No Michelin or James Beard award or Guide distinction has been verified for this specific location."
       },
       "sourceUrl": "https://www.fitzbillies.com/pages/trumpington-street",
       "editorial": {
@@ -8097,11 +8097,11 @@
         "drinksOrdered": null,
         "companions": null
       },
-      "summary": "Confirmed November 1, 2026 visit to the historic Grand Central cocktail bar, The Campbell, at 15 Vanderbilt Avenue in Manhattan. The dated Resy confirmation and explicit user visit testimony are combined attendance evidence. Recognized in select editorial bar/design lists by Time Out, Tasting Table and Eater New York; these are editorial honors, not formal Michelin/James Beard or Spirited Awards wins.",
+      "summary": "Confirmed November 1, 2026 visit to the historic Grand Central cocktail bar, The Campbell, at 15 Vanderbilt Avenue in Manhattan. Recognized in select editorial bar/design lists by Time Out, Tasting Table and Eater New York; these are editorial honors, not formal Michelin/James Beard or Spirited Awards wins.",
       "memory": {
         "headline": "An evening at The Campbell",
         "teaser": "A confirmed visit to the historic Grand Central cocktail bar, recognized by New York food-and-drink editors.",
-        "story": "I went to The Campbell near Grand Central Terminal on November 1, 2026. The visit is documented both by my booking and my own confirmation. I have not yet recorded the cocktails, companions or other memories from the evening.",
+        "story": "I went to The Campbell near Grand Central Terminal on November 1, 2026. I have not yet recorded the cocktails, companions or other memories from the evening.",
         "period": "November 1, 2026",
         "source": "Direct user confirmation November 1, 2026 and screenshot of Resy confirmation; historical/editorial recognition separately sourced."
       },
@@ -8164,7 +8164,7 @@
       "story": {
         "headline": "A cocktail stop at Grand Central",
         "paragraphs": [
-          "I visited The Campbell on November 1, 2026. The reservation screenshot and my own confirmation establish the date; I have not yet specified what I ordered, who was with me, or the precise time we arrived.",
+          "I visited The Campbell on November 1, 2026. I have not yet specified what I ordered, who was with me, or the precise time we arrived.",
           "The bar occupies a historic Grand Central space, known for its richly decorated interior. Its current operation followed a 2017 reopening.",
           "Time Out's 2025 Midtown bar guide ranked The Campbell second, Tasting Table included it in a 2023 citywide cocktail selection, and Eater recognized its design after the 2017 reopening. These are editorial honors rather than formal industry-award wins."
         ],
@@ -8220,11 +8220,11 @@
           "sourceAssetNote": "The original user-supplied photograph is attached to the ChatGPT conversation, not copied into the GitHub repository. A path or filename is not a published photo URL."
         }
       },
-      "summary": "Confirmed November 1, 2026 visit to Tonchin's Midtown Manhattan ramen restaurant at 13 W 36th Street. Firsthand photo shows the Tonchin nameplate and MICHELIN plaques for 2019–2025; the MICHELIN Guide identifies Tonchin as a Bib Gourmand restaurant. The dated 9 PM Resy reservation corroborates the visit but does not establish exact arrival time, meals ordered, or diners.",
+      "summary": "Confirmed November 1, 2026 visit to Tonchin's Midtown Manhattan ramen restaurant at 13 W 36th Street. Firsthand photo shows the Tonchin nameplate and MICHELIN plaques for 2019–2025; the MICHELIN Guide identifies Tonchin as a Bib Gourmand restaurant. The exact arrival time, meals ordered, and companions remain unknown.",
       "memory": {
         "headline": "Tonchin's Michelin-recognized ramen in Midtown",
         "teaser": "A November evening at Tonchin, with a firsthand photograph of its Michelin Guide plaques from 2019 through 2025.",
-        "story": "I went to Tonchin in Midtown Manhattan on November 1, 2026. I photographed the restaurant's row of Michelin plaques marked 2019 through 2025, just above a small Tonchin nameplate. My reservation was for 9:00 PM. I have not yet recorded which ramen, sides or drinks I ordered, or who was with me.",
+        "story": "I went to Tonchin in Midtown Manhattan on November 1, 2026. I photographed the restaurant's row of Michelin plaques marked 2019 through 2025, just above a small Tonchin nameplate. I have not yet recorded which ramen, sides or drinks I ordered, or who was with me.",
         "period": "November 1, 2026",
         "source": "Direct user photo and 'Add Tonchin' request on November 1, 2026, alongside prior same-day Resy reservation screenshot."
       },
@@ -8279,7 +8279,7 @@
         "paragraphs": [
           "I visited Tonchin, the Midtown Manhattan ramen restaurant at 13 West 36th Street, on November 1, 2026. My photograph captures the Tonchin nameplate below MICHELIN plaques labeled from 2019 to 2025.",
           "The Michelin Guide includes Tonchin in its New York Bib Gourmand directory, a recognition distinct from Michelin stars. The photographed plaques are a personal reminder of the restaurant's history with the Guide, not proof of an individual Michelin star or a year-by-year Bib Gourmand award.",
-          "The visit was linked to my 9 PM Resy reservation, but I haven't recorded the precise arrival time, what I ordered, or who joined me."
+          "I haven't recorded the precise arrival time, what I ordered, or who joined me."
         ],
         "sourceUrls": [
           {
@@ -8648,7 +8648,7 @@
         "companions": null,
         "orders": null
       },
-      "summary": "Confirmed visit to chef Sean Guy's Water for Chocolate at 1841 E Lombard Street, Baltimore; visit date, companions, and dishes not specified. No verified Michelin/James Beard honor, so kept in the permanent private award-watchlist archive without claiming award qualification.",
+      "summary": "Confirmed visit to chef Sean Guy's Water for Chocolate at 1841 E Lombard Street, Baltimore; visit date, companions, and dishes not specified. No Michelin or James Beard honor has been verified for this restaurant.",
       "memory": {
         "headline": "A visit to Water for Chocolate in Baltimore",
         "teaser": "I visited chef Sean Guy's intimate East Lombard Street restaurant; the date remains unknown.",

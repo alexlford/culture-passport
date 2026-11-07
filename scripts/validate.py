@@ -2,7 +2,11 @@
 """Validate Culture Passport records, historical interview states, and pages."""
 import json
 from pathlib import Path
+from audit_publication import state as publication_state
 ROOT = Path(__file__).resolve().parents[1]
+# Validate review states, dates and content/venue digests once. Eligibility and
+# historical intake flags never substitute for this explicit publication review.
+publication_reviews = {item["id"]: item for item, *_ in publication_state()}
 records_data = json.loads((ROOT / "data/records.json").read_text(encoding="utf-8"))
 interview_data = json.loads((ROOT / "data/interview.json").read_text(encoding="utf-8"))
 records, venues = records_data["records"], records_data["venues"]
@@ -263,7 +267,7 @@ assert barker_visit["visit"]["orders"] is None
 assert barker_visit["editorial"]["awardQualified"] is True
 assert {x["year"] for x in barker_visit["recognitions"] if x["result"] == "semifinalist" and x["category"] == "Outstanding Baker"} == {2018,2019,2020}
 assert barker_visit["curation"]["verifiedForPublication"] is False
-assert any(a["id"] == barker_visit["id"] and a["status"] == "pending" for a in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert barker_visit["id"] in publication_reviews
 freshwater = next(c for c in candidates if c["id"] == "candidate-kc-freshwater-fine-dining-2017-2020")
 assert freshwater["visitStatus"] == "not_visited"
 assert freshwater["reviewCertainty"] == "explicit_nonattendance"
@@ -446,12 +450,11 @@ for c, record in ((water, water_record), (ministry, ministry_record)):
     assert record["visit"]["date"] is None and record["visit"]["precision"] == "unknown"
     assert record["curation"]["verifiedForPublication"] is False
     assert not record["editorial"]["awardQualified"]
-    # Expanded editorial eligibility permits a private visitor preview, never public release.
+    # Expanded editorial eligibility does not itself grant publication approval.
     assert record["editorial"]["culturalSpotlight"] is True
     assert record["editorial"]["expandedRecognitionEligible"] is True
     assert record["curation"]["status"] == "expanded_cultural_eligible_pending_story_review"
-    assert any(p["id"] == record["id"] and p["status"] == "pending" and p["approvedDigest"] is None
-               for p in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+    assert record["id"] in publication_reviews
 assert water_record["type"] == "dining" and water_record["recognitions"] == []
 assert water_record["editorial"]["collection"] == "locally_recognized_dining"
 assert any(w["venueId"] == water_record["venueId"] and w["status"] == "monitoring"
@@ -475,8 +478,7 @@ assert sagamore_record["editorial"]["awardQualified"] is False
 assert sagamore_record["curation"]["verifiedForPublication"] is False
 assert "Rye Street Tavern" in water_record["visit"]["source"]
 assert "Rye Street Tavern" in ministry_record["visit"]["source"]
-assert any(p["id"] == sagamore_record["id"] and p["status"] == "pending" for p in json.loads(
-    (ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert sagamore_record["id"] in publication_reviews
 cafe_leon = next(c for c in candidates if c["id"] == "baltimore-cafe-dear-leon")
 assert cafe_leon["visitStatus"] == "unreviewed"
 assert cafe_leon["screening"]["basis"] == "jbf_2026_outstanding_bakery_semifinalist_exact_canton_venue"
@@ -1101,7 +1103,7 @@ assert film["screening"]["scheduleSourceUrl"].startswith("https://www.denverfilm
 assert next(v for v in venues if v["id"] == film["venueId"])["location"]["precision"] == "city-centroid"
 assert next(x for x in stage_research["candidates"] if x["id"] == "denver-unknown-play")["followUpStatus"] == "awaiting_friends_reply"
 assert stage_research["interviewRoute"]["nextQuestionId"] == "denver-wicked-2024"
-assert any(a["id"] == film["id"] and a["category"] == "film" and a["status"] == "pending" for a in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert publication_reviews[film["id"]]["category"] == "film"
 assert '<button type="button" data-type="film"' in (ROOT / "explore.html").read_text(encoding="utf-8")
 assert '<option value="film">' in (ROOT / "timeline.html").read_text(encoding="utf-8")
 assert '<option value="film">' in (ROOT / "map.html").read_text(encoding="utf-8")
@@ -1124,7 +1126,7 @@ assert hawthorne["visit"]["date"] is None and hawthorne["visit"]["year"] is None
 assert next(v for v in venues if v["id"] == hawthorne["venueId"])["location"] is None
 assert concert_audit["summary"]["recordsWithoutSingleCalendarDate"] == 2
 assert next(a for a in concert_audit["entries"] if a["experienceId"] == hawthorne["id"])["attendanceStatus"] == "confirmed_direct_user_statement"
-assert any(x["id"] == hawthorne["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert hawthorne["id"] in publication_reviews
 assembly = next(r for r in concerts if r["id"] == "concert-red-hot-chili-peppers")
 assert next(v for v in venues if v["id"] == assembly["venueId"])["historicalName"] == "Assembly Hall"
 lolla = next(r for r in concerts if r["id"] == "concert-lollapalooza-all-three-days")
@@ -1287,7 +1289,7 @@ assert any(x["year"] == 2024 and x["category"] == "Best New Restaurant" and x["r
 for name, record in (("Sap Sua", sap), ("FiNO", fino)):
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == "Denver Metro")
     assert candidate["visitStatus"] == "confirmed" and candidate["confirmedVisitId"] == record["id"]
-    assert any(x["id"] == record["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+    assert record["id"] in publication_reviews
 assert all(next(v for v in venues if v["id"] == r["venueId"])["location"]["precision"] == "city-centroid" for r in (sap,fino))
 
 # User-confirmed Untitled, still unknown exact year; separate Cindy's remains unanswered.
@@ -1301,8 +1303,7 @@ assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Un
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Untitled Supper Club")["visitStatus"] == "confirmed"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")["visitStatus"] == "maybe"
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cherry Circle Room")["visitStatus"] == "not_visited"
-assert any(x["id"] == untitled["id"] and x["status"] == "pending"
-           for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert untitled["id"] in publication_reviews
 
 # Cindy's Rooftop deliberately remains provisional after direct user reply.
 cindy = next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Cindy's Rooftop")
@@ -1328,7 +1329,7 @@ gilt = next(c for c in candidates if c["name"] == "The Library at Gilt Bar" and 
 assert gilt["visitStatus"] == "maybe"
 assert gilt["memoryRecordId"] == next(r["id"] for r in recalled if r["title"] == "The Library at Gilt Bar")
 assert next(r for r in recalled if r["title"] == "The Library at Gilt Bar")["editorial"]["awardQualified"] is False
-assert all(any(x["id"] == r["id"] and x["status"] == "pending" for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"]) for r in recalled)
+assert all(r["id"] in publication_reviews for r in recalled)
 assert next(c for c in candidates if c["name"] == "Lost Lake" and c["area"] == "Chicago")["visitStatus"] == "not_visited"
 # Empty Chicago checklist is an interview pause, not a series of non-attendance answers.
 chapter = interview_data["interviewChapters"]["chicagoCocktailBars"]
@@ -1449,13 +1450,9 @@ assert any(x["venueId"] == la_marchande["venueId"] and x["recognitionStatus"] ==
 assert any(x["venueId"] == la_marchande["venueId"]
            and x["collectionTier"] == "formal_michelin_jbf_recognition"
            and x["formalAwardOrGuideQualified"] for x in expanded_rows)
-la_marchande_review = next(x for x in json.loads(
-    (ROOT / "data/publication-review.json").read_text(encoding="utf-8")
-)["reviewedRecords"] if x["id"] == la_marchande["id"])
-assert la_marchande_review["status"] == "pending"
-assert la_marchande_review["approvedDigest"] is None
+assert la_marchande["id"] in publication_reviews
 
-# Website incorporation preserves confirmed visits, distinct recognition and pending review.
+# Website incorporation preserves confirmed visits, distinct recognition and explicit review.
 incorporated_ids = ["dining-lidias-kansas-city-2015-2019","dining-rozzelle-court-kansas-city-date-unknown","bar-eagle-cambridge-visit-date-unknown","bar-anchor-cambridge-visit-date-unknown","bar-mill-pub-cambridge-visit-date-unknown","dining-millworks-cambridge-visit-date-unknown","dining-parkers-tavern-cambridge-date-unknown","bar-parkers-tavern-cambridge-date-unknown","dining-fitzbillies-trumpington-cambridge-date-unknown","bar-kingston-arms-cambridge-date-unknown"]
 from build_public_preview import visitor_dataset
 visitor_ids = {r["id"] for r in visitor_dataset()["records"]}
@@ -1464,8 +1461,7 @@ for cid in incorporated_ids:
     rec = next(r for r in records if r["id"] == cid)
     assert rec["status"] == "confirmed" and not rec["editorial"]["awardQualified"]
     assert rec["visit"]["date"] is None
-    approval = next(a for a in json.loads((ROOT / "data/publication-review.json").read_text())["reviewedRecords"] if a["id"] == cid)
-    assert approval["status"] == "pending" and approval["approvedDigest"] is None
+    assert cid in publication_reviews
 for title in ("The Mill (pub)", "The Kingston Arms", "The Eagle"):
     rec = next(r for r in records if r["title"] == title)
     assert any(a["organization"] == "CAMRA" and a["sourceUrl"].startswith("https://camra.org.uk/") for a in rec["recognitions"])
@@ -1543,8 +1539,7 @@ assert next(c for c in candidates if c["name"] == "The Campbell")["confirmedVisi
 assert any(v["venueId"] == campbell_record["venueId"] for v in aud["publishedVenues"])
 from build_public_preview import visitor_dataset as campbell_visitor_dataset
 assert any(r["id"] == campbell_record["id"] for r in campbell_visitor_dataset()["records"])
-assert any(item["id"] == campbell_record["id"] and item["status"] == "pending"
-           for item in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert campbell_record["id"] in publication_reviews
 
 # Tonchin: user-submitted same-day restaurant photo plus original booked
 # reservation and instruction to add it establish the visited date.
@@ -1572,8 +1567,7 @@ assert any(v["venueId"] == tonchin_record["venueId"] and v["recognitionStatus"] 
 assert any(v["venueId"] == tonchin_record["venueId"] and v["formalAwardOrGuideQualified"] and v["collectionTier"] == "formal_michelin_jbf_recognition" for v in expanded_rows)
 from build_public_preview import visitor_dataset as tonchin_visitor_dataset
 assert any(r["id"] == tonchin_record["id"] for r in tonchin_visitor_dataset()["records"])
-assert any(item["id"] == tonchin_record["id"] and item["status"] == "pending" and item["approvedDigest"] is None
-           for item in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"])
+assert tonchin_record["id"] in publication_reviews
 
 # Private brewery archive: direct user visit to brands is not evidence of any exact taproom.
 brewery = json.loads((ROOT / "data/brewery-interview.json").read_text(encoding="utf-8"))
@@ -1749,7 +1743,7 @@ from build_public_preview import visitor_dataset as confirmed_visitor_dataset
 visitor_records = confirmed_visitor_dataset()["records"]
 visitor_ids_all = {r["id"] for r in visitor_records}
 assert {r["id"] for r in records if r["status"] == "confirmed"} <= visitor_ids_all
-approval_ids = {x["id"] for x in json.loads((ROOT / "data/publication-review.json").read_text(encoding="utf-8"))["reviewedRecords"]}
+approval_ids = set(publication_reviews)
 assert approval_ids == visitor_ids_all
 assert 'id="highlights-only"' in (ROOT / "explore.html").read_text(encoding="utf-8")
 assert 'id="timeline-highlights-only"' in (ROOT / "timeline.html").read_text(encoding="utf-8")
