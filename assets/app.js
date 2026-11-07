@@ -74,7 +74,7 @@
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
-    bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record ↗"));
+    bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record →"));
     a.append(top,h,description,bottom);
     return a;
   }
@@ -109,9 +109,9 @@
     records.forEach(r=>{
       const v=venues.get(r.venueId);
       const a=link("",href(r),"feature-row");
-      a.append(el("span","feature-year",timelineChapter(r)==="Other memories"?"✳":timelineChapter(r)));
+      a.append(el("span","feature-year",timelineChapter(r)==="Other memories"?"✦":timelineChapter(r)));
       const mid=el("div");mid.append(el("strong","",r.title),el("small","",v.city+" · "+(r.memory?.headline||"A place in the collection")));
-      a.append(mid,el("span","feature-arrow","↗"));host.append(a);
+      a.append(mid,el("span","feature-arrow","→"));host.append(a);
     });
     // City editions are generated from confirmed *curated* stories only. This
     // works on both the private archive and the separately sanitized preview,
@@ -142,7 +142,7 @@
         card.append(el("h3","city-edition-name",entry.city));
         card.append(el("span","city-edition-count",entry.venueIds.size+" confirmed "+(entry.venueIds.size===1?"place":"places")));
         card.append(el("p","city-edition-memory","From the archive: "+preview.title));
-        card.append(el("span","city-edition-cta","Explore stories ↗"));
+        card.append(el("span","city-edition-cta","Explore stories →"));
         cityHost.append(card);
       });
     }
@@ -156,7 +156,7 @@
           const title=el("div");
           title.append(el("strong","",r.title),
             el("small","",(venue?.city||"Chicago")+" · Shared recollection · Visit unconfirmed"));
-          row.append(el("span","feature-year","◒"),title,el("span","feature-arrow","↗"));
+          row.append(el("span","feature-year","◒"),title,el("span","feature-arrow","→"));
           shared.append(row);
         });
     }
@@ -202,7 +202,7 @@
         const section=el("section","timeline-group"),year=el("div","timeline-year",label),stack=el("div","timeline-stack");
         rows.forEach(r=>{const v=venues.get(r.venueId);const a=link("",href(r),"timeline-entry"),mid=el("div");
           mid.append(el("small","",r.type.toUpperCase()+" · "+v.city+" · "+storyPeriod(r)),el("h3","",r.title),el("p","timeline-memory",storyTeaser(r)));
-          a.append(mid,el("span","","↗"));stack.append(a);
+          a.append(mid,el("span","","→"));stack.append(a);
         });
         section.append(year,stack);host.append(section);
       }
@@ -346,7 +346,7 @@
         el("p","memory-quote",storyTeaser(r)));
     }
     if((r.favorite||r.editorial?.featuredException)&&!isRecalled(r)){
-      host.append(el("p","eyebrow memory-favorite","✳ KEPT FOR THE MEMORY"));
+      host.append(el("p","eyebrow memory-favorite","✦ KEPT FOR THE MEMORY"));
     }
     if(["dining","bar"].includes(r.type)&&!r.editorial?.awardQualified){
       host.append(el("p","memory-disclosure",r.editorial?.culturalSpotlight?
@@ -407,7 +407,7 @@
             el("p","",award.recipient+" · "+award.result));
           if(award.relationship)card.append(el("p","",award.relationship));
           if(award.sourceUrl?.startsWith("https://")){
-            const a=link("Read official recognition ↗",award.sourceUrl);
+            const a=link("Read official recognition →",award.sourceUrl);
             a.target="_blank";a.rel="noopener noreferrer";card.append(a);
           }
           item.append(card);
@@ -416,7 +416,7 @@
           const refs=el("div","onsite-sources");
           for(const source of experience.sources){
             if(!source.url?.startsWith("https://"))continue;
-            const a=link(source.label+" ↗",source.url);
+            const a=link(source.label+" →",source.url);
             a.target="_blank";a.rel="noopener noreferrer";refs.append(a);
           }
           item.append(refs);
@@ -437,7 +437,7 @@
           el("p","",award.recipient+" · "+award.result));
         if(award.relationship)card.append(el("p","",award.relationship));
         if(award.sourceUrl?.startsWith("https://")){
-          const a=link("Recognition source ↗",award.sourceUrl);
+          const a=link("Recognition source →",award.sourceUrl);
           a.target="_blank";a.rel="noopener noreferrer";card.append(a);
         }
         cards.append(card);
@@ -450,29 +450,29 @@
         const section=el("section","related-experiences");
         section.append(el("h2","","Connected Kansas City stories"),
           el("p","onsite-intro","The historic Rieger Hotel restaurant and Manifesto cocktail bar were separate experiences at a different address, not rooms inside this distillery."));
-        for(const other of related)section.append(link(other.title+" ↗",href(other)));
+        for(const other of related)section.append(link(other.title+" →",href(other)));
         host.append(section);
       }
     }
     const around=el("div","experience-navigation");
-    around.append(link("Explore experiences in "+(v.city||"this city")+" ↗","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));
-    if(v.location&&v.city)around.append(link("Find this city on the map ↗","./map.html?"+new URLSearchParams({city:v.city}).toString()));
+    around.append(link("Explore experiences in "+(v.city||"this city")+" →","./explore.html?"+new URLSearchParams({city:v.city||""}).toString()));
+    if(v.location&&v.city)around.append(link("Find this city on the map →","./map.html?"+new URLSearchParams({city:v.city}).toString()));
     // Link to a *place-name search*, never an unverified door-level GPS marker.
     // Restaurants can move/close; this is a lookup, not proof of present operation.
     if(v.name&&v.city){
       const placeQuery=[v.name,v.city,v.region].filter(Boolean).join(", ");
       const mapsUrl="https://www.google.com/maps/search/?"+new URLSearchParams({api:"1",query:placeQuery}).toString();
-      const lookup=link("Look up this venue ↗",mapsUrl);
+      const lookup=link("Look up this venue →",mapsUrl);
       lookup.target="_blank";lookup.rel="noopener noreferrer";
       around.append(lookup);
     }
     host.append(around);
         const badges=el("div","award-list"),g=r.guide;
     if(g?.distinction==="starred"){
-      const b=el("div","award-card");b.append(el("strong","","Michelin · "+g.stars+" star"+(g.stars===1?"":"s")),el("p","","Recognition belongs to the restaurant, but may differ from the date of the meal."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
-    }else if(g?.distinction==="bib"){const b=el("div","award-card");b.append(el("strong","","Michelin Bib Gourmand"),el("p","",g.note||"Michelin recognition for great food at good value, not a Michelin star."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);}
+      const b=el("div","award-card");b.append(el("strong","","Michelin · "+g.stars+" star"+(g.stars===1?"":"s")),el("p","","Recognition belongs to the restaurant, but may differ from the date of the meal."));if(g.sourceUrl)b.append(link("Guide source →",g.sourceUrl));badges.append(b);
+    }else if(g?.distinction==="bib"){const b=el("div","award-card");b.append(el("strong","","Michelin Bib Gourmand"),el("p","",g.note||"Michelin recognition for great food at good value, not a Michelin star."));if(g.sourceUrl)b.append(link("Guide source →",g.sourceUrl));badges.append(b);}
     else if(g?.distinction==="plate"||g?.distinction==="selected"){
-      const b=el("div","award-card");b.append(el("strong","",g.distinction==="plate"?"Michelin · The Plate (historical)":"Michelin Selected"),el("p","","Guide recognition, not a Michelin star. The listing year may differ from the dining year."));if(g.sourceUrl)b.append(link("Guide source ↗",g.sourceUrl));badges.append(b);
+      const b=el("div","award-card");b.append(el("strong","",g.distinction==="plate"?"Michelin · The Plate (historical)":"Michelin Selected"),el("p","","Guide recognition, not a Michelin star. The listing year may differ from the dining year."));if(g.sourceUrl)b.append(link("Guide source →",g.sourceUrl));badges.append(b);
     }
     for(const feature of r.officialFeatures||[]){
       // Label editorial and program connections with their exact relationship.
@@ -482,7 +482,7 @@
       b.append(el("p","",feature.category+" — not an award or nomination."));
       if(feature.relationship)b.append(el("p","",feature.relationship));
       if(feature.venueScope==="named_branch_chef_team_offsite_event")b.append(el("p","","Chefs from this branch took part in an event held elsewhere; the restaurant did not host it."));
-      if(feature.sourceUrl)b.append(link(isEditorial?"Official editorial source ↗":"Official program source ↗",feature.sourceUrl));
+      if(feature.sourceUrl)b.append(link(isEditorial?"Official editorial source →":"Official program source →",feature.sourceUrl));
       badges.append(b);
     }
     for(const a of r.recognitions||[]){
@@ -492,7 +492,7 @@
         el("p","",a.recipient+" · "+a.result));
       if(a.relationship)b.append(el("p","",a.relationship));
       if(a.timingRelativeToVisit==="after_visit")b.append(el("p","","Recognized after the remembered visit."));
-      if(a.sourceUrl)b.append(link(a.organization==="CAMRA"?"CAMRA recognition source ↗":"Award source ↗",a.sourceUrl));
+      if(a.sourceUrl)b.append(link(a.organization==="CAMRA"?"CAMRA recognition source →":"Award source →",a.sourceUrl));
       badges.append(b);
     }
     if(badges.childElementCount)host.append(el("h2","","Why it stands out"),badges);
@@ -616,7 +616,7 @@
           for(const photo of x.photographicEvidence){
             if(photo.renderMode!=="source_link_only"||typeof photo.sourceUrl!=="string"||!photo.sourceUrl.startsWith("https://"))continue;
             const item=el("div","interview-photo-item");
-            const a=link(photo.label+" ↗",photo.sourceUrl,"interview-photo-link");
+            const a=link(photo.label+" →",photo.sourceUrl,"interview-photo-link");
             a.target="_blank";a.rel="noopener noreferrer";item.append(a);
             if(photo.caption)item.append(el("p","interview-photo-caption",photo.caption));
             photos.append(item);
@@ -666,7 +666,7 @@
           }
           card.append(choices);
         }
-        if(x.sourceUrl){const a=link("Source / restaurant ↗",x.sourceUrl,"source-link");a.target="_blank";a.rel="noopener noreferrer";card.append(a);}
+        if(x.sourceUrl){const a=link("Source / restaurant →",x.sourceUrl,"source-link");a.target="_blank";a.rel="noopener noreferrer";card.append(a);}
         list.append(card);
       });
       persist();
