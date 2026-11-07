@@ -213,9 +213,18 @@
     const host=byId("culture-map"),list=byId("city-list"),category=byId("map-category");
     const venues=new Map(db.venues.map(v=>[v.id,v]));
     const available=db.records.filter(inCollection);
-    // Map points are city-centroid *representations* until independently
-    // verified venue coordinates become available. Do not place pins at
-    // address approximations or imply the GPS belongs to the venue.
+    // These are explicitly CITY-LEVEL reference coordinates, never venue positions.
+    // Existing verified city coordinates in the collection take precedence.
+    // Sources: Ordnance Survey Open Names (Cambridge UK), LA Almanac (West Hollywood),
+    // public NYC center listing, and Cambridge Massachusetts city coordinates.
+    const cityCenters=new Map([
+      ["Cambridge · Cambridgeshire, England · United Kingdom",[52.20486,0.11968]],
+      ["West Hollywood · California · USA",[34.088267,-118.371831]],
+      ["New York · New York · USA",[40.7128,-74.0060]],
+      ["Cambridge · Massachusetts · USA",[42.37361,-71.11056]]
+    ]);
+    const validPoint=(v)=>v?.location&&Number.isFinite(v.location.lat)&&
+      Number.isFinite(v.location.lng)&&Math.abs(v.location.lat)<=90&&Math.abs(v.location.lng)<=180;
     let leafletMap=null,markers=[];
     if(typeof window.L!=="undefined"){
       host.replaceChildren();
@@ -226,14 +235,10 @@
       tileFallback.append(el("strong","","Map background unavailable"),
         el("p","","The city directory still works. Select a city below to explore your experiences."),
         link("Browse cities ↓","#city-list"));
-      // A tile outage must not turn the page into an unlabelled, empty map.
       let successfulTiles=0,failedTiles=0;
       const layer=L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
         {attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:18});
-      layer.on("tileload",()=>{
-        successfulTiles+=1;
-        tileFallback.hidden=true;
-      });
+      layer.on("tileload",()=>{successfulTiles+=1;tileFallback.hidden=true;});
       layer.on("tileerror",()=>{
         failedTiles+=1;
         if(successfulTiles===0&&failedTiles>=2)tileFallback.hidden=false;
@@ -248,54 +253,58 @@
     function render(){
       markers.forEach(m=>{if(leafletMap)leafletMap.removeLayer(m);});
       markers=[];
-      const groups=new Map();
+      const groups=new Map(),unlocated=[];
       for(const r of available){
         if(category.value!=="all"&&r.type!==category.value)continue;
         const v=venues.get(r.venueId);
-        if(!v?.location||!Number.isFinite(v.location.lat)||!Number.isFinite(v.location.lng))continue;
+        // A known city still belongs in the directory when its venue has no
+        // coordinates. Do not silently hide confirmed visits.
+        if(!v?.city){unlocated.push(r);continue;}
         const cityKey=[v.city,v.region,v.country].filter(Boolean).join(" · ");
         if(!groups.has(cityKey)){
-          groups.set(cityKey,{key:cityKey,name:v.city,region:v.region,
-            lat:v.location.lat,lng:v.location.lng,records:[],venues:new Set()});
+          groups.set(cityKey,{key:cityKey,name:v.city,region:v.region||v.country||"",
+            lat:null,lng:null,records:[],venues:new Set()});
         }
         const g=groups.get(cityKey);
+        if(validPoint(v)&&g.lat===null){g.lat=v.location.lat;g.lng=v.location.lng;}
         g.records.push(r);
         g.venues.add(r.venueId);
       }
       list.replaceChildren();
-      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||String(a.region||"").localeCompare(String(b.region||"")));
-      if(!groupsSorted.length){
-        const noResults=el("p","map-legend","No places or experiences in this category yet.");
-        list.append(noResults);
-        if(leafletMap)leafletMap.setView([39.5,-98.35],4);
-        return;
-      }
-      const locations=[];
+      const groupsSorted=[...groups.values()].sort((a,b)=>a.name.localeCompare(b.name)||
+        String(a.region||"").localeCompare(String(b.region||"")));
       const selectedCity=new URLSearchParams(location.search).get("city");
-      let focus=null;
+      const nameMatches=selectedCity?groupsSorted.filter(g=>g.name===selectedCity):[];
+      let focus=null,locatedRecords=0,pinnedCities=0;
+      const locations=[];
       for(const g of groupsSorted){
+        if(g.lat===null&&cityCenters.has(g.key)){
+          [g.lat,g.lng]=cityCenters.get(g.key);
+        }
         const details=el("details","city-section");
         const summary=el("summary","city-summary");
         const name=el("strong","",g.name);
-        const qualifier=el("span","",g.venues.size+" place"+(g.venues.size===1?"":"s")+" · "+g.region);
-        summary.append(name,qualifier);
-        details.append(summary);
+        const qualifier=el("span","",g.venues.size+" place"+(g.venues.size===1?"":"s")+
+          " · "+g.region+(g.lat===null?" · Map position pending":""));
+        summary.append(name,qualifier);details.append(summary);
         const ul=el("ul","map-place-list");
-        const rows=[...g.records].sort((a,b)=>a.title.localeCompare(b.title));
-        for(const r of rows){
+        for(const r of [...g.records].sort((a,b)=>a.title.localeCompare(b.title))){
           const li=el("li"),a=link(r.title,href(r));
           a.append(el("span","",storyPeriod(r)));
           li.append(a);ul.append(li);
         }
-        details.append(ul);
-        list.append(details);
-        if(selectedCity===g.name||selectedCity===g.key){details.open=true;focus=g;}
-        if(leafletMap){
+        details.append(ul);list.append(details);
+        if(selectedCity===g.key||(nameMatches.length===1&&selectedCity===g.name)){
+          details.open=true;focus=g.lat!==null?g:null;
+        }
+        if(leafletMap&&g.lat!==null){
           const marker=L.marker([g.lat,g.lng],{icon:L.divIcon({
             className:"",html:'<div class="culture-marker" aria-hidden="true">'+g.venues.size+'</div>',
-            iconSize:[28,28],iconAnchor:[14,14]})}).addTo(leafletMap);
+            iconSize:[30,30],iconAnchor:[15,15]})}).addTo(leafletMap);
           const popup=el("div","map-popup");
-          popup.append(el("strong","",g.name),el("p","",g.venues.size+" place"+(g.venues.size===1?"":"s")+" · city-level pin, not an exact venue"));
+          popup.append(el("strong","",g.name+" · "+g.region),
+            el("p","",g.venues.size+" place"+(g.venues.size===1?"":"s")+
+              " · city-level pin, not an exact venue"));
           const openCity=el("button","map-popup-link","View places in this city");
           openCity.type="button";
           openCity.addEventListener("click",()=>{
@@ -304,17 +313,40 @@
           });
           popup.append(openCity);
           marker.bindPopup(popup);
-          markers.push(marker);
-          locations.push([g.lat,g.lng]);
+          summary.addEventListener("click",()=>{
+            leafletMap.setView([g.lat,g.lng],9,{animate:false});
+            marker.openPopup();
+          });
+          markers.push(marker);locations.push([g.lat,g.lng]);
+          locatedRecords+=g.records.length;pinnedCities++;
         }
       }
-      const total=groupsSorted.reduce((n,g)=>n+g.venues.size,0);
+      if(unlocated.length){
+        const details=el("details","city-section map-unlocated");
+        const summary=el("summary","city-summary");
+        summary.append(el("strong","","Location not confirmed"),
+          el("span","",unlocated.length+" experience"+(unlocated.length===1?"":"s")+
+            " · no city pin"));
+        details.append(summary);
+        const ul=el("ul","map-place-list");
+        for(const r of [...unlocated].sort((a,b)=>a.title.localeCompare(b.title))){
+          const li=el("li"),a=link(r.title,href(r));
+          a.append(el("span","","City or venue location not confirmed"));
+          li.append(a);ul.append(li);
+        }
+        details.append(ul);list.append(details);
+      }
+      const totalRecords=groupsSorted.reduce((n,g)=>n+g.records.length,0)+unlocated.length;
       const status=byId("map-summary");
-      if(status)status.textContent=groupsSorted.length+" cities · "+total+" city-grouped places · Approximate location markers";
+      if(status)status.textContent=totalRecords+" experiences · "+pinnedCities+
+        " cities on the map"+(unlocated.length?" · "+unlocated.length+
+        " with locations to confirm":"")+(groupsSorted.length>pinnedCities?
+        " · "+(groupsSorted.length-pinnedCities)+" cities awaiting map positions":"");
       if(leafletMap){
         if(focus)leafletMap.setView([focus.lat,focus.lng],9,{animate:false});
         else if(locations.length===1)leafletMap.setView(locations[0],9,{animate:false});
-        else leafletMap.fitBounds(locations,{padding:[45,45],maxZoom:9});
+        else if(locations.length)leafletMap.fitBounds(locations,{padding:[45,45],maxZoom:9});
+        else leafletMap.setView([39.5,-98.35],4,{animate:false});
       }
     }
     category.addEventListener("change",render);
