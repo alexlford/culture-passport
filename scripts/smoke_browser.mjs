@@ -111,7 +111,7 @@ try{
       await page.locator("#record-detail .experience-program").waitFor();
       assert(await page.locator("#record-detail.detail--"+type).count()===1,
         "Missing distinct "+type+" detail theme");
-      assert(await page.locator(".experience-cover h1").innerText()===sample.title,
+      assert(await page.locator(".experience-cover h1").textContent()===sample.title,
         "Experience cover changed the approved "+type+" title");
       assert(await page.locator(".experience-program h2").count()===1,
         "Missing evidence-aware "+type+" chapter program");
