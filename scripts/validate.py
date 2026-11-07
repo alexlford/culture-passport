@@ -3,7 +3,10 @@
 import json
 from pathlib import Path
 from audit_publication import state as publication_state
+from audit_public_source import audit as audit_public_source
 ROOT = Path(__file__).resolve().parents[1]
+# Public research may include wishlists, but never raw booking logistics.
+audit_public_source(ROOT)
 # Validate review states, dates and content/venue digests once. Eligibility and
 # historical intake flags never substitute for this explicit publication review.
 publication_reviews = {item["id"]: item for item, *_ in publication_state()}
@@ -21,7 +24,7 @@ venue_ids = {v["id"] for v in venues}
 assert all(r["status"] in {"confirmed", "recollected", "reservation_only"} and r["type"] in types for r in records)
 assert len([r for r in records if r["status"] == "confirmed"]) >= 58
 assert not any(r["status"] == "reservation_only" for r in records)  # both reservation leads now have separately confirmed venue visits
-assert all(r["visit"]["date"] is None and r["reservations"] for r in records if r["status"] == "reservation_only")
+assert not any(r.get("reservations") for r in records), "Raw booking logistics must not return to public source"
 assert all(r["venueId"] in venue_ids and r["visit"]["source"] for r in records)
 assert all(r["visit"].get("date") is None or r["visit"]["precision"] == "day" for r in records)
 assert all(v["location"] is None or v["location"]["precision"] == "city-centroid" for v in venues)
@@ -827,65 +830,31 @@ assert 'id="interview-period"' in (ROOT / "interview.html").read_text(encoding="
 assert 'byId("interview-period")' in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert (ROOT / "assets/app.js").exists()
 assert (ROOT / "assets/site.css").exists()
+# The former evidence ledger is now a public removal notice, not a store of
+# booking times, party sizes or screenshots. Independently confirmed visits and
+# precise award distinctions are validated against the retained cultural records.
 evidence_data = json.loads((ROOT / "data/reservation-evidence.json").read_text(encoding="utf-8"))
-reservations = evidence_data["entries"]
-assert len(reservations) == 22 and len({e["id"] for e in reservations}) == 22
-booked_campbell = next(e for e in reservations if e["id"] == "the-campbell-new-york-2026-11-01")
-assert booked_campbell["name"] == "The Campbell"
-assert booked_campbell["reservationDate"] == "2026-11-01" and booked_campbell["reservationTime"] == "19:30"
-assert booked_campbell["timezone"] == "America/New_York" and booked_campbell["partySize"] == 3
-assert booked_campbell["platform"] == "Resy" and booked_campbell["reservationStatus"] == "visited_confirmed"
-assert booked_campbell["attendanceInference"] == "user_confirmed_attendance"
-assert booked_campbell["publicCuration"] == "research_only"
-assert booked_campbell["recognition"]["status"] == "not_verified_as_qualifying"
-assert booked_campbell["recognition"]["formalAwards"]["verified"] is False
-assert booked_campbell["recognition"]["classification"]["currentPolicy"] == "editorially_recognized_personal_selection"
-assert booked_campbell["recognition"]["classification"]["publicationStatus"] == "pending_story_review"
-assert booked_campbell["recognition"]["classification"]["possibleExpandedTier"] == "editorially_recognized_bar"
-assert len(booked_campbell["recognition"]["editorialSelections"]) == 3
-assert {(item["publisher"], item["publicationDate"]) for item in booked_campbell["recognition"]["editorialSelections"]} == {("Tasting Table", "2023-02-16"), ("Time Out New York", "2025-03-10"), ("Eater New York", "2017-12-29")}
-assert all(item["sourceUrl"].startswith("https://") and item["type"].endswith("not_award") for item in booked_campbell["recognition"]["editorialSelections"])
-assert booked_campbell["recognition"]["historicalUnverified"][0]["confidence"] == "secondary_reproduction_only_original_list_not_located"
-assert booked_campbell["childrenPolicy"]["sourceUrl"].startswith("https://www.thecampbellnyc.com/")
+assert evidence_data["publicSourceStatus"] == "sanitized_for_public_source"
+assert evidence_data["entries"] == evidence_data["rows"] == []
 assert any(r["title"] == "The Campbell" and r["status"] == "confirmed" for r in records)
-assert sum(1 for e in reservations if e["reservationStatus"] == "completed") >= 1
-booked_tonchin = next(e for e in reservations if e["id"] == "tonchin-new-york-2026-11-01")
-assert booked_tonchin["name"] == "Tonchin New York"
-assert booked_tonchin["reservationDate"] == "2026-11-01" and booked_tonchin["reservationTime"] == "21:00"
-assert booked_tonchin["partySize"] == 4 and booked_tonchin["seating"] == "Dining Room"
-assert booked_tonchin["reservationStatus"] == "visited_confirmed"
-assert booked_tonchin["attendanceInference"] == "confirmed_on_site_photo_and_user_instruction"
-assert booked_tonchin["publicCuration"] == "pending_explicit_story_review"
-assert booked_tonchin["recognition"]["distinction"] == "Bib Gourmand"
 assert any(r["title"] == "Tonchin New York" and r["status"] == "confirmed" for r in records)
-assert all(e["reservationDate"] and e["partySize"] >= 1 and e["source"] == "user_provided_reservation_screenshot" for e in reservations)
-assert not any(e["name"] == "Le Fou Frog" for e in reservations)
-assert sum(1 for e in reservations if e["name"] == "Ritual Social House") == 2
-assert sum(1 for e in reservations if e["reservationStatus"] == "waitlist_completed") == 1
-blanco = next(e for e in reservations if e["name"].startswith("Blanco Cocina"))
-assert blanco["attendanceInference"] == "not_confirmed"
-# Historical reservations remain verifiable even after separate user confirmation of dining.
-for name, date, evidence_name in [("Wildflower", "2022-03-21", "Wildflower - Denver")]:
+# Direct venue confirmation remains distinct from an unverified meal date.
+for name in ("Wildflower",):
     restaurant = next(r for r in records if r["title"] == name)
     assert restaurant["status"] == "confirmed" and restaurant["visit"]["date"] is None
     assert restaurant["visit"]["evidenceType"] == "direct_user_recollection"
     assert restaurant["visit"]["attendanceCertainty"] == "restaurant_visit_confirmed_exact_date_unverified"
     assert restaurant["editorial"]["awardQualified"] is True
-    assert any(b["date"] == date and b["attendanceInference"] == "reservation_date_not_verified_as_meal_date" for b in restaurant["reservations"])
-    assert any(e.get("archivedRecordId") == restaurant["id"] and e["publicCuration"] == "research_only" for e in reservations)
-    assert next(e for e in reservations if e["name"] == evidence_name)["attendanceInference"] == "venue_visit_confirmed_separately_exact_date_unverified"
+    assert "reservations" not in restaurant
     candidate = next(c for c in candidates if c["name"] == name and c["area"] == "Denver Metro")
     assert candidate["visitStatus"] == "confirmed" and candidate["confirmedVisitId"] == restaurant["id"]
 q_house = next(r for r in records if r["title"] == "Q House")
-assert q_house["status"] == "confirmed"
+assert q_house["status"] == "confirmed" and "reservations" not in q_house
 assert q_house["visit"]["date"] is None and q_house["visit"]["evidenceType"] == "direct_user_recollection"
 assert q_house["visit"]["attendanceCertainty"] == "restaurant_visit_confirmed_exact_date_unverified"
-assert any(b["date"] == "2021-10-21" and b["attendanceInference"] == "reservation_date_not_verified_as_meal_date" for b in q_house["reservations"])
 assert any(a["organization"] == "James Beard Foundation" and a["year"] == 2019 and a["result"] == "semifinalist" and a["timingRelativeToVisit"] == "visit_date_unknown" for a in q_house["recognitions"])
 q_house_candidate = next(c for c in candidates if c["area"] == "Denver Metro" and c["name"] == "Q House")
 assert q_house_candidate["visitStatus"] == "confirmed" and q_house_candidate["confirmedVisitId"] == q_house["id"]
-assert next(e for e in reservations if e["name"] == "Q House")["reservationDate"] == "2021-10-21"
-assert next(e for e in reservations if e["name"] == "Q House")["attendanceInference"] == "venue_visit_confirmed_separately_exact_date_unverified"
 wildflower = next(r for r in records if r["title"] == "Wildflower")
 assert wildflower["guide"]["stars"] == 0 and all(a["timingRelativeToVisit"] == "visit_date_unknown" for a in wildflower["recognitions"])
 uchi = next(c for c in candidates if c["name"] == "Uchi Denver")
@@ -905,27 +874,17 @@ assert "culture.alexlford.com" in (ROOT / "README.md").read_text(encoding="utf-8
 print("Culture Passport OK: %d experiences, %d venues, %d interview prospects" %
       (len(records), len(venues), len(candidates)))
 
-# Reservation provenance must be distinct from user-confirmed visits.
-evidence = json.loads((ROOT / "data/reservation-evidence.json").read_text(encoding="utf-8"))
-assert len(evidence["entries"]) == 22 and len(evidence["rows"]) == 54 and len({r["name"] for r in evidence["rows"]}) == 48
-future_campbell = next(r for r in evidence["rows"] if r["name"] == "The Campbell" and r["date"] == "2026-11-01")
-assert future_campbell["time"] == "19:30" and future_campbell["partySize"] == 3
-assert future_campbell["platform"] == "Resy" and future_campbell["status"] == "visited_confirmed"
-assert future_campbell["attendanceInference"] == "user_confirmed_attendance"
-future_tonchin = next(r for r in evidence["rows"] if r["name"] == "Tonchin New York")
-assert future_tonchin["date"] == "2026-11-01" and future_tonchin["time"] == "21:00"
-assert future_tonchin["status"] == "visited_confirmed"
-assert future_tonchin["attendanceInference"] == "confirmed_on_site_photo_and_user_instruction"
-assert not any(r["name"] == "Le Fou Frog" for r in evidence["rows"])
+# Purging raw source rows must never promote an unconfirmed venue to a visit.
+assert evidence_data["entries"] == evidence_data["rows"] == []
 assert not any(r["title"] == "Le Fou Frog" for r in records)
 republique = next(r for r in records if r["title"] == "République")
 assert republique["visit"]["date"] == "2026-10-24" and republique["visit"]["evidenceType"] == "direct_user_recollection"
-for title, date in [("Woodberry Kitchen", "2018-05-16"), ("Momofuku CCDC", "2018-08-21"), ("Rec Pier Chop House", "2018-05-16")]:
+for title in ("Woodberry Kitchen", "Momofuku CCDC", "Rec Pier Chop House"):
     row = next(r for r in records if r["title"] == title)
     assert row["status"] == "confirmed" and row["visit"]["date"] is None
     assert row["visit"]["precision"] != "day"
     assert row["visit"]["attendanceCertainty"] == "user_confirmed_venue_exact_meal_date_unverified"
-    assert any(b["date"] == date and b["attendanceInference"] == "not_independently_verified" for b in row["reservations"])
+    assert "reservations" not in row
 assert "2018" in next(r for r in records if r["title"] == "Woodberry Kitchen")["visit"]["label"]
 
 # Yuan Wonton qualifies on its chef-owner's 2026 James Beard Best Chef: Mountain win.
@@ -948,7 +907,7 @@ for name in ("Safta", "Smok"):
     q = next(x for x in candidates if x["name"] == name and x["area"] == "Denver Metro")
     assert q["visitStatus"] == "confirmed" and q["confirmedVisitId"] == r["id"]
 
-# The story should lead the experience page, with precise booking details tucked away.
+# The story leads the experience page; raw booking logistics are not retained.
 assert sum(bool(r.get("memory")) for r in records) >= 19
 assert 'Historical notes & sources' in (ROOT / "assets/app.js").read_text(encoding="utf-8")
 assert 'const storyPeriod=(r)' in (ROOT / "assets/app.js").read_text(encoding="utf-8")
@@ -972,21 +931,17 @@ assert 'id="interview-next"' in interview_html and 'id="interview-previous"' in 
 assert 'id="interview-save-status"' in interview_html
 for title in ("Sauvage", "Charleston", "Safta", "Manifesto"):
     rec = next(r for r in records if r["title"] == title)
-    assert rec.get("reservations") and rec.get("memory",{}).get("story")
+    assert not rec.get("reservations") and rec.get("memory",{}).get("story")
 manifesto = next(r for r in records if r["title"] == "Manifesto")
-assert manifesto["reservations"][0]["date"] == "2019-10-25"
-assert len([r for r in evidence["rows"] if r["name"] == "Sauvage"]) == 2
-assert len([r for r in evidence["rows"] if r["name"] == "Michelob Ultra Mountain House"]) == 3
+assert "reservations" not in manifesto
 assert not any(r["title"] in {"Michelob Ultra Mountain House", "The Butcher's Daughter - West Hollywood", "Willow Creek Restaurant", "Q39 South"} for r in records)
 
-# The 2023 West Hollywood Resy booking was explicitly confirmed as a restaurant
-# visit in the October 27, 2026 LA interview, NOT as an exact attended date.
+# The West Hollywood branch is confirmed independently; its meal date remains unknown.
 butchers = next(r for r in records if r["id"] == "dining-butchers-daughter-los-angeles-date-unknown")
 assert butchers["status"] == "confirmed" and butchers["type"] == "dining"
 assert butchers["title"] == "The Butcher's Daughter"
 assert butchers["visit"]["date"] is None and butchers["visit"]["precision"] == "unknown"
-assert butchers["reservations"][0]["date"] == "2023-07-29"
-assert butchers["reservations"][0]["partySize"] == 3
+assert "reservations" not in butchers
 assert butchers["editorial"]["awardQualified"] is False
 assert butchers["venueId"] == "venue-butchers-daughter-west-hollywood"
 assert butchers["visit"]["attendanceCertainty"] == "venue_and_branch_confirmed_date_unknown"
@@ -995,8 +950,6 @@ assert "provisionally" not in butchers["visit"]["source"].lower()
 assert interview_data["interviewChapters"]["losAngeles"]["confirmedNamedVisits"] == 2
 assert any(x["name"] == "The Butcher's Daughter (West Hollywood)" and x["visitStatus"] == "confirmed"
     for x in candidates)
-assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["date"] == "2023-07-29"
-assert next(x for x in evidence["rows"] if x["name"] == "The Butcher's Daughter - West Hollywood")["attendanceInference"] == "restaurant_and_west_hollywood_branch_confirmed_independently_of_booking_date"
 assert next(x for x in candidates if x["id"] == "candidate-la-joy-highland-park")["visitStatus"] == "maybe"
 assert next(x for x in candidates if x["id"] == "candidate-la-pine-crane-dtla")["visitStatus"] == "unreviewed"
 assert "The Butcher's Daughter" in interview_data["interviewChapters"]["losAngeles"]["confirmedNames"]
@@ -1351,7 +1304,7 @@ assert "did not visit" in lost_lake["reviewSource"]
 assert next(c for c in candidates if c["area"] == "Chicago" and c["name"] == "Kumiko")["visitStatus"] == "not_visited"
 assert not any(r["title"] == "Lost Lake" for r in records)
 
-# Watchlist is a durable, private audit trail for confirmed restaurants without
+# Watchlist retains public research for confirmed restaurants without
 # verified qualifying awards. New memory-only dining entries must be added to it.
 watch = json.loads((ROOT / "data/restaurant-award-watchlist.json").read_text(encoding="utf-8"))
 assert watch["version"] == 1 and watch["classification"] == "private_research"
@@ -1521,34 +1474,35 @@ assert set(jrieger["relatedExperienceIds"]) == {
 
 assert next(c for c in candidates if c["id"] == "candidate-kc-lifted-spirits-distillery")["visitStatus"] == "maybe"
 
-# The Campbell is an attended November 1 bar visit, corroborated by the dated
-# Resy booking and direct user confirmation. Editorial selections do not become awards.
+# The Campbell is a directly confirmed November 1 bar visit.
+# Editorial selections do not become formal awards.
 campbell_record = next(r for r in records if r["id"] == "bar-the-campbell-grand-central-new-york")
 assert campbell_record["type"] == "bar" and campbell_record["status"] == "confirmed"
 assert campbell_record["visit"]["date"] == "2026-11-01"
-assert campbell_record["visit"]["evidenceType"] == "direct_user_confirmation_and_dated_reservation_screenshot"
-assert campbell_record["visit"]["linkedReservationId"] == "the-campbell-new-york-2026-11-01"
+assert campbell_record["visit"]["evidenceType"] == "direct_user_confirmation"
+assert "linkedReservationId" not in campbell_record["visit"]
 assert campbell_record["editorial"]["featuredException"] is True
 assert campbell_record["editorial"]["awardQualified"] is False
 assert campbell_record["editorial"]["collection"] == "editorially_recognized_bar"
 assert campbell_record["recognitions"] == [] and len(campbell_record["editorialRecognitions"]) == 3
-assert booked_campbell["confirmedVisitId"] == campbell_record["id"]
-assert booked_campbell["confirmedVisitDate"] == "2026-11-01"
-assert future_campbell["confirmedVisitId"] == campbell_record["id"]
+assert {(item["organization"], item["year"]) for item in campbell_record["editorialRecognitions"]} == {
+    ("Tasting Table", 2023), ("Time Out New York", 2025), ("Eater New York", 2017)}
+assert all(item["sourceUrl"].startswith("https://") and item["type"].startswith("editorial_")
+           for item in campbell_record["editorialRecognitions"])
 assert next(c for c in candidates if c["name"] == "The Campbell")["confirmedVisitId"] == campbell_record["id"]
 assert any(v["venueId"] == campbell_record["venueId"] for v in aud["publishedVenues"])
 from build_public_preview import visitor_dataset as campbell_visitor_dataset
 assert any(r["id"] == campbell_record["id"] for r in campbell_visitor_dataset()["records"])
 assert campbell_record["id"] in publication_reviews
 
-# Tonchin: user-submitted same-day restaurant photo plus original booked
-# reservation and instruction to add it establish the visited date.
+# Tonchin retains its directly confirmed same-day photograph and visit date;
+# the original booking logistics are removed.
 tonchin_record = next(r for r in records if r["id"] == "dining-tonchin-new-york-2026-11-01")
 assert tonchin_record["type"] == "dining" and tonchin_record["status"] == "confirmed"
 assert tonchin_record["visit"]["date"] == "2026-11-01" and tonchin_record["visit"]["precision"] == "day"
-assert tonchin_record["visit"]["linkedReservationId"] == "tonchin-new-york-2026-11-01"
-assert tonchin_record["visit"]["evidenceType"] == "direct_user_same_day_photo_and_confirmed_reservation"
-assert tonchin_record["visit"]["photoEvidence"]["sourceFilename"] == "IMG_3661.jpeg"
+assert "linkedReservationId" not in tonchin_record["visit"]
+assert tonchin_record["visit"]["evidenceType"] == "direct_user_photo"
+assert tonchin_record["visit"]["photoEvidence"]["sourceType"] == "user_uploaded_in_chat"
 assert tonchin_record["visit"]["photoEvidence"]["imageBytesArchivedInGitHub"] is False
 assert tonchin_record["visit"]["arrivalTime"] is None
 assert tonchin_record["visit"]["actualPartySize"] is None
@@ -1558,10 +1512,6 @@ assert tonchin_record["guide"]["distinction"] == "bib" and tonchin_record["guide
 assert tonchin_record["guide"]["verifiedEditions"] == [2025]
 assert tonchin_record["recognitions"][0]["organization"] == "MICHELIN Guide"
 assert tonchin_record["recognitions"][0]["result"] == "Bib Gourmand"
-assert booked_tonchin["confirmedVisitId"] == tonchin_record["id"]
-assert booked_tonchin["confirmedVisitDate"] == "2026-11-01"
-assert booked_tonchin["photoEvidence"]["sourceFilename"] == "IMG_3661.jpeg"
-assert future_tonchin["confirmedVisitId"] == tonchin_record["id"]
 assert next(x for x in candidates if x["id"] == "candidate-new-york-city-tonchin-midtown")["confirmedVisitId"] == tonchin_record["id"]
 assert any(v["venueId"] == tonchin_record["venueId"] and v["recognitionStatus"] == "qualifies" for v in aud["publishedVenues"])
 assert any(v["venueId"] == tonchin_record["venueId"] and v["formalAwardOrGuideQualified"] and v["collectionTier"] == "formal_michelin_jbf_recognition" for v in expanded_rows)

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Print a privacy-risk inventory without revealing individual private data.
+"""Report public-source and visitor-release counts without printing personal data.
 
-This is NOT a clearance to change GitHub repository visibility. Git history
-may expose content even when the working tree or Pages artifact is sanitized.
+The owner permits public wishlists and research. Raw booking logistics remain
+excluded, and website publication still requires its independent story gate.
 """
 import json
 from pathlib import Path
+from audit_public_source import audit as audit_public_source
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -15,6 +16,7 @@ def load(filename):
 
 
 def main():
+    checked_files = audit_public_source(ROOT)
     records=load("records.json")["records"]
     interview=load("interview.json")
     performance=load("performance-interview.json")
@@ -24,17 +26,17 @@ def main():
     personal=[r for r in records if r.get("memory")]
     booking=[r for r in records if r.get("reservations")]
     notes=[c for c in review if c.get("interviewNote") or c.get("reviewSource") or c.get("userMemoryLead")]
-    print("PRE-PUBLICATION DATA INVENTORY (aggregate counts only)")
+    print("PUBLIC SOURCE AND VISITOR RELEASE INVENTORY (aggregate counts only)")
+    print(f"  Public source datasets checked: {checked_files}")
     print(f"  Cultural record entries: {len(records)}; personal-story fields: {len(personal)}")
     print(f"  Records with reservation metadata: {len(booking)}")
     print(f"  Restaurant research candidates: {len(review)}; reviewed answers: {len(reviewed)}")
     print(f"  Candidates with review notes / personal leads: {len(notes)}")
     print(f"  Performance identification candidates: {len(performance['candidates'])}")
     print(f"  Reservation-source entries: {len(reservations['entries'])}; source rows: {len(reservations['rows'])}")
-    print("  Reminder: changing the GitHub repository to PUBLIC makes its files and Git history accessible.")
-    print("  HTML noindex does not protect the source code or published research datasets.")
-    print("  No publication is authorized by this report; review the sensitive material and full history first.")
-    print("  Consider publishing from a separate, clean distribution repository, keeping source private.")
+    print("  Public wishlists/research are allowed; raw booking logistics and detected credentials/contact email are rejected.")
+    print("  The visitor export and content-locked story approvals independently control website publication.")
+    print("  Current-tree checks do not purge earlier Git history or Actions artifacts.")
 
 
 if __name__=="__main__":
