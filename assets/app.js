@@ -142,8 +142,12 @@
       }else{
         intro(r.memory?.teaser||r.summary);
         facts([programLine("Artist / event",r.title),
-          programLine("Show",storyPeriod(r)),
-          v.name?programLine("Venue",v.name):null]);
+          programLine("Show or festival attendance",storyPeriod(r)),
+          v.name?programLine("Venue",v.name):null,
+          r.visit?.timeWindow?.startDate&&r.visit?.timeWindow?.endDate?
+            programLine("Confirmed festival attendance window",
+              readableDate(r.visit.timeWindow.startDate)+" – "+
+              readableDate(r.visit.timeWindow.endDate)):null]);
       }
       source("Event-history source",r.historicalEventVerification?.sourceUrl);
     }else if(r.type==="opera"){
@@ -164,7 +168,9 @@
         });
         panel.append(list);
       }else{
-        facts([programLine("Performance",r.title),programLine("Period",storyPeriod(r))]);
+        facts([programLine("Opera / cycle",r.title),
+          programLine("Attendance period",storyPeriod(r)),
+          v.name?programLine("Company / venue",v.name):null]);
       }
       if(performances.length)intro("The original programs identify Michelle as an actor; they do not establish specific characters or singing roles.");
     }else if(r.type==="theater"){
@@ -179,8 +185,8 @@
     }else if(r.type==="film"){
       const p=r.screening;
       intro(r.memory?.teaser||r.summary);
-      facts([programLine("Festival",p?.festival),
-        programLine("Screening",p?.program),
+      facts([programLine("Festival",p?.festival||r.memory?.headline),
+        programLine("Screening",p?.program||r.title),
         programLine("Attended",p?.attendanceDate?readableDate(p.attendanceDate):storyPeriod(r)),
         programLine("Director",p?.filmDirector),
         programLine("Screening venue",p?.location||v.name),
