@@ -1,6 +1,8 @@
 name: Deploy Culture Passport
 
 # Manual release only: review personally identifying stories and Git history first.
+# A release-request file change on main is also an explicit, auditable manual release.
+# Ordinary pushes never publish; the approved visitor-only export remains mandatory.
 # Configure GitHub Pages only when you approve visitor content.
 # The owner permits public source; only the approved visitor export is deployed.
 on:
@@ -11,6 +13,10 @@ on:
         type: boolean
         required: true
         default: false
+  push:
+    branches: [main]
+    paths:
+      - '.github/deployment-request.json'
 
 permissions:
   contents: read
@@ -23,13 +29,24 @@ concurrency:
 
 jobs:
   publish:
-    if: ${{ inputs.privacy_review_approved == true }}
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.privacy_review_approved == true) || (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Verify approved release request for commit-triggered publishing
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          request = json.loads(Path('.github/deployment-request.json').read_text())
+          assert request.get('approval') == 'explicit-user-request', 'Missing explicit release approval'
+          assert request.get('target') == 'culture.alexlford.com', 'Unexpected publishing target'
+          assert request.get('publish') == 'approved-visitor-export-only', 'Unsupported publication scope'
+          PY
       - name: Validate site before publishing
         run: |
           python scripts/validate.py
