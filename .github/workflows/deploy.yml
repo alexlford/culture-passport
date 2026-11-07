@@ -2,7 +2,7 @@ name: Deploy Culture Passport
 
 # Manual release only: review personally identifying stories and Git history first.
 # Configure GitHub Pages only when you approve visitor content.
-# On the currently private repository, check GitHub Pages plan/visibility eligibility first.
+# The owner permits public source; only the approved visitor export is deployed.
 on:
   workflow_dispatch:
     inputs:

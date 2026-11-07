@@ -37,8 +37,8 @@
         ],
         "label": "2018 (exact dining date not established)",
         "precision": "approximate_year",
-        "source": "Alex expressly confirmed dining at Woodberry Kitchen and placed it in 2018. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
-        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "source": "Alex expressly confirmed dining at Woodberry Kitchen and placed it in 2018.",
+        "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
       }
     },
@@ -75,8 +75,8 @@
         ],
         "label": "Baltimore years (2018–2021; exact dining date unknown)",
         "precision": "year_range",
-        "source": "Alex expressly confirmed dining at Rec Pier Chop House. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
-        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "source": "Alex expressly confirmed dining at Rec Pier Chop House.",
+        "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
       }
     },

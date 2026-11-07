@@ -46,14 +46,13 @@
     "featuredExceptions": "Venue-specific Michelin/JBF honors are the default inclusion criteria, but the user's express favorites Sauvage, Gunther & Co., Death & Co Denver and provisional favorite The Majestic are displayed in the primary collection despite no established qualifying award. FiNO was added as a user-selected confirmed 2026 visit without award recognition; this does not imply it is a personal favorite.",
     "beverages": "Stand-alone cocktail bars are type=bar, never counted as restaurants. James Beard Outstanding Bar Program includes bar semifinalists. Never borrow recognition from another location within a chain.",
     "repeatVisits": "A venue may be visited in multiple years. Each confirmed year is represented as a separate experience record with a stable unique ID, sharing one venue ID; do not manufacture precise calendar dates or collapse years into one event.",
-    "reservationEvidence": "Date and party size from completed reservation screenshots are documentary evidence, not independent proof of check-in or dining. Only directly restaurant-level Michelin/JBF recognition enters the curated collection automatically. The user explicitly excluded Le Fou Frog: it must not enter any deployed venue/experience ledger, even though its date appears in private conversation uploads.",
     "storyFirst": "Each published entry leads with a grounded personal memory, atmosphere, or occasion. Dates are retained in provenance but the public timeline emphasizes approximate years, seasons, and meaningful events. Never fabricate meals, companion details, specific actions, or feelings not supplied by the user.",
     "dateDisplay": "Date/party details are backend evidence, available in a collapsed archive-notes section on experience pages, not default cards or timeline. Exact date may be shown only if necessary to a user-given occasion (Valentine's Day, etc.).",
     "familyStory": "A venue may carry a narrative across sister restaurants or expansions. Guide badges identify the recognized original without treating each branch as a separate unverified award.",
     "criterionAudit": "Keep separate: verified Michelin Guide inclusion (stars, Bib, Selected/historical Plate), James Beard semifinalist/finalist/winner at the specific venue or chef while working there, explicitly featured personal memories, user-confirmed history without award, uncertain leads, and reservation-only evidence. Never count unverified founders' awards from unrelated restaurants or award years as the historical dining year.",
     "stageMemories": "Confirmed live outings can be recorded with a provisional production title. Verify the tour period and venue independently but do not infer exact performance dates; labels are about the memory.",
     "culturalExperiences": "Concert, festival, theatrical, live television, magic and opera entries can be supported by user recollections or personal event archive screenshots without Michelin/James Beard recognition. Show exact performance dates only when supported; a run's date window never proves a particular night.",
-    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date. A booking without direct visit confirmation is reservation_only and excluded from published experiences. Store booking date, party size, and provenance under reservations, not visit.date.",
+    "reservationDisambiguation": "Confirmed venue attendance never makes a completed reservation date a confirmed meal date.",
     "confirmedVisitPublicInclusion": "Every direct user-confirmed visit is included in the visitor-data candidate collection without an external-award gate. Brewery-brand visits count as confirmed experiences even if a precise taproom, city or date is unknown; these remain unmapped until a legitimate location cue is available. Public release of story wording requires separate editorial review; this inclusion instruction does not automatically approve every story or launch the site."
   },
   "venues": [
@@ -1123,7 +1122,7 @@
       "neighborhood": "Melrose / West Hollywood Design District",
       "location": null,
       "sourceId": "the-butchers-daughter-west-hollywood",
-      "locationAttribution": "User explicitly confirmed dining at The Butcher's Daughter's West Hollywood location on 2026-10-27. The separately documented 2023 West Hollywood Resy reservation corroborates the location but does not establish the date of the meal."
+      "locationAttribution": "User explicitly confirmed dining at The Butcher's Daughter's West Hollywood location on 2026-10-27."
     },
     {
       "id": "venue-pierponts-union-station-kansas-city",
@@ -1357,7 +1356,7 @@
       "address": "15 Vanderbilt Avenue, New York, NY 10017",
       "location": null,
       "sourceId": "the-campbell-grand-central-new-york",
-      "locationAttribution": "Exact venue from official business site and user-provided Resy confirmation, no exact coordinate inferred."
+      "locationAttribution": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
     },
     {
       "id": "venue-tonchin-midtown-new-york",
@@ -1856,16 +1855,7 @@
         "story": "I visited Charleston during my Baltimore years, around 2020. Chef Cindy Wolf's restaurant is part of the city's fine-dining history, and an evening there remains part of mine. The particular dishes and companions can be added if those details return.",
         "period": "2020",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
-      },
-      "reservations": [
-        {
-          "date": "2020-10-26",
-          "platform": "Resy",
-          "occasion": "Outdoor seating",
-          "partySize": 2,
-          "verification": "historical_reservation_only"
-        }
-      ]
+      }
     },
     {
       "id": "dining-woodberry-kitchen-baltimore-2018-2021",
@@ -1881,8 +1871,8 @@
         ],
         "label": "2018 (exact dining date not established)",
         "precision": "approximate_year",
-        "source": "Alex expressly confirmed dining at Woodberry Kitchen and placed it in 2018. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
-        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "source": "Alex expressly confirmed dining at Woodberry Kitchen and placed it in 2018.",
+        "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
       },
       "summary": "Confirmed Woodberry Kitchen visit, placed on the 2018 timeline (exact date unknown). Chef Spike Gjerde won the James Beard Best Chef: Mid-Atlantic award in 2015, before this visit.",
@@ -1929,17 +1919,7 @@
         "story": "Woodberry Kitchen is one of the Baltimore restaurants I remember visiting in 2018. Its focus on Chesapeake ingredients and regional food traditions makes it an important part of the city's dining story. The memory can become more detailed over time.",
         "period": "2018",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
-      },
-      "reservations": [
-        {
-          "date": "2018-05-16",
-          "partySize": 2,
-          "reservationStatus": "completed",
-          "attendanceInference": "not_independently_verified",
-          "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical booking evidence; exact dining date unverified"
-        }
-      ]
+      }
     },
     {
       "id": "dining-momofuku-ccdc-washington-dc",
@@ -1957,8 +1937,8 @@
         ],
         "label": "Washington, DC years (2018–2020; exact dining date unknown)",
         "precision": "year_range",
-        "source": "Alex expressly confirmed dining at Momofuku CCDC. A completed 2018-08-21 reservation is on file but is not independently proven as the dining date.",
-        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "source": "Alex expressly confirmed dining at Momofuku CCDC.",
+        "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
       },
       "summary": "Confirmed visit to David Chang's Momofuku CCDC in Washington, DC. Exact meal date uncertain; restaurant operated 2015 to March 2020. Michelin listed it with The Plate designation in 2019 (not a star). Chang's 2013 James Beard Outstanding Chef award was for Momofuku Noodle Bar in New York, not this restaurant.",
@@ -2007,17 +1987,7 @@
         "story": "You recalled visiting one of David Chang's restaurants in Washington and then confirmed it was Momofuku CCDC. That identification is the story worth preserving.",
         "period": "2018",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
-      },
-      "reservations": [
-        {
-          "date": "2018-08-21",
-          "partySize": 4,
-          "reservationStatus": "completed",
-          "attendanceInference": "not_independently_verified",
-          "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical booking evidence; exact dining date unverified"
-        }
-      ]
+      }
     },
     {
       "id": "dining-sauvage-steamboat-2021-01",
@@ -2070,22 +2040,6 @@
         "period": "Winter 2021",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
       },
-      "reservations": [
-        {
-          "date": "2022-02-14",
-          "platform": "Resy",
-          "occasion": "Valentine's Day",
-          "partySize": 6,
-          "verification": "historical_reservation_only"
-        },
-        {
-          "date": "2021-01-17",
-          "platform": "Resy",
-          "occasion": "Dining room",
-          "partySize": 4,
-          "verification": "historical_reservation_only"
-        }
-      ],
       "story": {
         "headline": "A winter tasting-menu memory in Steamboat",
         "paragraphs": [
@@ -2361,8 +2315,8 @@
         ],
         "label": "Baltimore years (2018–2021; exact dining date unknown)",
         "precision": "year_range",
-        "source": "Alex expressly confirmed dining at Rec Pier Chop House. A completed 2018-05-16 reservation is on file but is not independently proven as the dining date.",
-        "evidenceType": "direct_confirmation_of_venue_plus_reservation",
+        "source": "Alex expressly confirmed dining at Rec Pier Chop House.",
+        "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "user_confirmed_venue_exact_meal_date_unverified"
       },
       "summary": "Confirmed visit to Rec Pier Chop House, the Italian chophouse inside Sagamore Pendry Baltimore in Fells Point. Exact meal date remains unknown.",
@@ -2398,17 +2352,7 @@
         "story": "You recalled dining at the Sagamore Pendry Baltimore and identified its restaurant as Rec Pier Chop House. It connects another place and occasion to your Baltimore years.",
         "period": "Baltimore years",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
-      },
-      "reservations": [
-        {
-          "date": "2018-05-16",
-          "partySize": 2,
-          "reservationStatus": "completed",
-          "attendanceInference": "not_independently_verified",
-          "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical booking evidence; exact dining date unverified"
-        }
-      ]
+      }
     },
     {
       "id": "bar-manifesto-kansas-city",
@@ -2458,15 +2402,6 @@
         "period": "Kansas City years",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
       },
-      "reservations": [
-        {
-          "date": "2019-10-25",
-          "platform": "Tock",
-          "occasion": "Drinks at Manifesto",
-          "partySize": 6,
-          "verification": "historical_reservation_only"
-        }
-      ],
       "story": {
         "headline": "A basement cocktail room that helped change Kansas City",
         "paragraphs": [
@@ -2729,23 +2664,7 @@
         "story": "You described Breckenridge Distillery as a fun, nice meal and recalled visits in several different years. The exact dates and details of those meals remain unknown.",
         "period": "2023",
         "source": "User’s directly shared recollection, with verified contextual description where applicable"
-      },
-      "reservations": [
-        {
-          "date": "2023-01-11",
-          "platform": "Tock",
-          "occasion": "Table reservation",
-          "partySize": 4,
-          "verification": "historical_reservation_only"
-        },
-        {
-          "date": "2023-01-05",
-          "platform": "Tock",
-          "occasion": "Chef counter reservation",
-          "partySize": 2,
-          "verification": "historical_reservation_only"
-        }
-      ]
+      }
     },
     {
       "id": "dining-q-house-denver-2021-10-21",
@@ -2759,7 +2678,7 @@
         "possibleYears": [],
         "label": "Date unknown",
         "precision": "unknown",
-        "source": "Alex directly confirmed having eaten at Q House in the Culture Passport interview on October 26, 2026; the 2021-10-21 reservation is separate evidence and does not verify the dining date.",
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
         "evidenceType": "direct_user_recollection",
         "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
       },
@@ -2789,12 +2708,12 @@
         "awardQualified": true,
         "collection": "recognized_dining",
         "basis": "james_beard_and_michelin",
-        "note": "2019 James Beard Best New Restaurant semifinalist directly recognizes Q House. Michelin Selected status came in 2023; the meal date is unknown. Attendance is directly user-confirmed; 2021-10-21 remains a booking date only."
+        "note": "2019 James Beard Best New Restaurant semifinalist directly recognizes Q House. Michelin Selected status came in 2023; the meal date is unknown."
       },
       "curation": {
         "status": "qualifies",
         "basis": "james_beard_and_michelin",
-        "reason": "Q House was a 2019 James Beard Best New Restaurant semifinalist, with Michelin Guide selection subsequently recorded in 2023. Alex directly confirms eating there, but the meal date has not been established and is not necessarily the 2021-10-21 reservation date.",
+        "reason": "Q House was a 2019 James Beard Best New Restaurant semifinalist, with Michelin Guide selection subsequently recorded in 2023.",
         "evidenceUrls": [
           "https://www.michelin.com/en/publications/products-and-services/michelin-guide-2023-colorado-introducing-the-first-michelin-stars",
           "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists"
@@ -2803,16 +2722,6 @@
         "confidence": "documented_award; confirmed_restaurant_attendance_by_user; exact_visit_date_unknown",
         "awardAtVisit": "Visit date is unknown; award status at the actual meal is not asserted."
       },
-      "reservations": [
-        {
-          "date": "2021-10-21",
-          "partySize": 2,
-          "reservationStatus": "completed",
-          "attendanceInference": "reservation_date_not_verified_as_meal_date",
-          "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Booking date documented. Alex separately confirmed dining at the venue but not dining on this exact date."
-        }
-      ],
       "memory": {
         "headline": "Q House on East Colfax",
         "teaser": "A confirmed dining memory at Q House on East Colfax in Denver; the meal date remains unknown.",
@@ -2833,7 +2742,7 @@
         "possibleYears": [],
         "label": "Date unknown",
         "precision": "unknown",
-        "source": "Alex directly confirmed dining at Wildflower in the October 26, 2026 Culture Passport interview. A March 21, 2022 reservation is separately recorded but is not a verified date of the attended meal.",
+        "source": "Alex directly confirmed dining at Wildflower in the October 26, 2026 Culture Passport interview.",
         "evidenceType": "direct_user_recollection",
         "attendanceCertainty": "restaurant_visit_confirmed_exact_date_unverified"
       },
@@ -2863,7 +2772,7 @@
         "awardQualified": true,
         "collection": "recognized_dining",
         "basis": "michelin",
-        "note": "Michelin Selected 2026 and Michelin Young Chef Award for Aiden Tibbetts in 2025. Attendance separately confirmed by user; March 21, 2022 is only an historical reservation date, not the verified meal date."
+        "note": "Michelin Selected 2026 and Michelin Young Chef Award for Aiden Tibbetts in 2025."
       },
       "curation": {
         "status": "qualifies",
@@ -2877,22 +2786,12 @@
         "confidence": "documented_recognition; user_confirmed_attendance; exact_meal_date_unknown",
         "awardAtVisit": "Actual meal date unspecified; do not claim Michelin Selected or chef award were in effect during the visit."
       },
-      "reservations": [
-        {
-          "date": "2022-03-21",
-          "partySize": 7,
-          "reservationStatus": "completed",
-          "attendanceInference": "reservation_date_not_verified_as_meal_date",
-          "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical booking for seven on March 21, 2022; Alex separately confirmed visiting Wildflower without confirming a dinner on this date."
-        }
-      ],
       "memory": {
         "headline": "An evening at Wildflower in LoHi",
         "teaser": "A confirmed Denver dining memory in Wildflower's intimate, vintage-inspired room.",
         "story": "I ate at Wildflower in LoHi, in a warmly decorated restaurant known for its seasonal cooking and intimate atmosphere. The exact date, company, dishes and occasion remain unknown.",
         "period": "Denver years; exact dining date unknown",
-        "source": "Direct personal dining confirmation on 2026-10-26; venue and awards independently documented; dated reservation distinct from attended visit."
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       }
     },
     {
@@ -3000,16 +2899,7 @@
         ],
         "reviewedOn": "2026-10-25",
         "confidence": "documented_recognition; firsthand user-confirmed visit; time unknown"
-      },
-      "reservations": [
-        {
-          "date": "2022-07-12",
-          "platform": "Resy",
-          "occasion": "Dining",
-          "partySize": 3,
-          "verification": "historical_reservation_only"
-        }
-      ]
+      }
     },
     {
       "id": "dining-smok-denver",
@@ -3075,8 +2965,8 @@
         "possibleYears": [],
         "label": "Denver years",
         "precision": "unknown",
-        "source": "Alex directly confirmed visiting Mister Oso during the October 25, 2026 Culture Passport interview; completed Wash Park reservation screenshot on file for March 31, 2024.",
-        "evidenceType": "user_confirmed_venue_and_booking",
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
+        "evidenceType": "direct_user_confirmation",
         "attendanceCertainty": "user_confirmed_venue"
       },
       "summary": "You remember Mister Oso as part of Denver's evolving dining scene, with its roots in Señor Bear and its expansion across neighborhoods.",
@@ -3106,7 +2996,7 @@
       "curation": {
         "status": "qualifies",
         "basis": "michelin_restaurant_brand",
-        "reason": "Mister Oso's original RiNo location received a Michelin Bib Gourmand in 2023; user confirmed a Mister Oso visit, with a prior Wash Park reservation, but did not specify every visited branch.",
+        "reason": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
         "evidenceUrls": [
           "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/mister-oso",
           "https://www.westword.com/food-drink/mr-oso-wash-park-open-14893628/"
@@ -5147,7 +5037,7 @@
         "teaser": "A friend remembered the basement Library at Gilt Bar; the intimate, candlelit place deserves a page of its own.",
         "story": "A message brought back a Chicago name without needing a date: 'The Library in Gilt Bar.' That is the sort of clue I want to keep. The Library sits tucked below Gilt Bar, where books, velvety booths and warm lamps evoke another era. I cannot yet add the night, the companions or the drinks from personal recollection, but the room has a place in the story of those Chicago years.",
         "period": "Chicago · friend-recalled, year unknown",
-        "source": "Friend's explicit venue identification from user-supplied screenshot; no independent user visit confirmation."
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       },
       "recognitions": [],
       "guide": {
@@ -5422,7 +5312,7 @@
         "possibleYears": [],
         "label": "Date not established",
         "precision": "unknown",
-        "source": "Alex reconfirmed dining at Uchi Denver October 25, 2026. A May 15, 2022 reservation is recorded separately and does not prove the visit date.",
+        "source": "Alex reconfirmed dining at Uchi Denver October 25, 2026.",
         "evidenceType": "direct_user_recollection"
       },
       "summary": "A confirmed visit to Uchi Denver in RiNo, linked to an official James Beard Foundation fundraising dinner hosted at the same Denver restaurant in July 2019. The Foundation connection is historical context, not a Beard Award, and the user's actual dining date remains unknown.",
@@ -5789,7 +5679,7 @@
       ],
       "recognitionClaimReview": {
         "auditedOn": "2026-10-27",
-        "source": "User-provided screenshot of a generated response claiming 2026 JBF Outstanding Hospitality nomination, 2025 Michelin Outstanding Hospitality winner, and USA Today 2026 Restaurant of the Year.",
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
         "claims": [
           {
             "claim": "2026 James Beard Outstanding Hospitality nominee",
@@ -6287,27 +6177,17 @@
         "possibleYears": [],
         "label": "West Hollywood dining visit; exact date unknown",
         "precision": "unknown",
-        "source": "Alex confirmed on October 27, 2026 that he ate at The Butcher's Daughter, and separately specified that the West Hollywood location was the one visited. Historical Resy evidence documents a booking at that branch for 2023-07-29, not a confirmed date of the attended meal.",
+        "source": "Alex confirmed on October 27, 2026 that he ate at The Butcher's Daughter, and separately specified that the West Hollywood location was the one visited.",
         "evidenceType": "direct_user_recollection",
         "attendanceCertainty": "venue_and_branch_confirmed_date_unknown"
       },
-      "reservations": [
-        {
-          "date": "2023-07-29",
-          "partySize": 3,
-          "reservationStatus": "historical_reservation",
-          "attendanceInference": "reservation_date_not_verified_as_meal_date",
-          "source": "user_provided_reservation_screenshot",
-          "sourceNote": "Historical Resy booking for The Butcher's Daughter - West Hollywood, for three people. Alex separately confirmed eating at The Butcher's Daughter, without verifying the exact date or who attended."
-        }
-      ],
       "summary": "Confirmed dining visit to The Butcher's Daughter at 8755 Melrose Avenue in West Hollywood. The exact meal date, companions and dishes remain unconfirmed. No direct Michelin or James Beard recognition has been verified for this location.",
       "memory": {
         "headline": "The Butcher's Daughter, West Hollywood",
         "teaser": "A confirmed stop at the plant-forward Melrose Avenue restaurant; the evening itself is still being pieced together.",
         "story": "I ate at The Butcher's Daughter in West Hollywood, on Melrose Avenue. I remember the restaurant and can now pin down the location, though I haven't established the exact day, what we ordered, or who joined me.",
         "period": "West Hollywood visit; meal date unknown",
-        "source": "User directly confirmed restaurant attendance and West Hollywood branch in October 27, 2026 Culture Passport discussion. The July 29, 2023 Resy entry remains separately sourced reservation evidence; no companions asserted. Eater verifies September 2022 opening of that branch."
+        "source": "User directly confirmed restaurant attendance and West Hollywood branch in October 27, 2026 Culture Passport discussion. Eater verifies September 2022 opening of that branch."
       },
       "recognitions": [],
       "guide": {
@@ -6324,7 +6204,7 @@
         "featuredException": false,
         "collection": "archived_personal_memory",
         "basis": null,
-        "note": "West Hollywood branch explicitly confirmed by user, irrespective of awards. Exact dining date unconfirmed; July 2023 historical booking must not be treated as visit-date proof. Independent Eater and LA Magazine coverage not a Michelin/JBF award."
+        "note": "West Hollywood branch explicitly confirmed by user, irrespective of awards. Independent Eater and LA Magazine coverage not a Michelin/JBF award."
       },
       "curation": {
         "status": "outside_scope",
@@ -8088,11 +7968,10 @@
         ],
         "precision": "day",
         "label": "November 1, 2026 · cocktail bar visit",
-        "source": "User confirmed on November 1, 2026: 'add the Campbell to the went list', immediately following the confirmed same-day 7:30 PM Resy booking. User then explicitly clarified 'It’s proof!!! Stop being so restrictive.' The dated reservation and personal confirmation together establish the visit; 7:30 PM is booking time, not an established arrival time.",
-        "evidenceType": "direct_user_confirmation_and_dated_reservation_screenshot",
-        "attendanceCertainty": "user_confirmed_visit_date_reservation_correlated",
+        "source": "User then explicitly clarified 'It’s proof!!!",
+        "evidenceType": "direct_user_confirmation",
+        "attendanceCertainty": "user_confirmed_visit_date",
         "experienceType": "cocktail_bar_visit",
-        "linkedReservationId": "the-campbell-new-york-2026-11-01",
         "arrivalTime": null,
         "drinksOrdered": null,
         "companions": null
@@ -8103,7 +7982,7 @@
         "teaser": "A confirmed visit to the historic Grand Central cocktail bar, recognized by New York food-and-drink editors.",
         "story": "I went to The Campbell near Grand Central Terminal on November 1, 2026. I have not yet recorded the cocktails, companions or other memories from the evening.",
         "period": "November 1, 2026",
-        "source": "Direct user confirmation November 1, 2026 and screenshot of Resy confirmation; historical/editorial recognition separately sourced."
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       },
       "recognitions": [],
       "editorialRecognitions": [
@@ -8203,11 +8082,9 @@
         ],
         "precision": "day",
         "label": "November 1, 2026 · Tonchin Midtown visit",
-        "source": "On November 1, 2026, user posted a photograph inside Tonchin showing the restaurant nameplate and dated MICHELIN plaques and directly instructed 'Add Tonchin'. This, together with the existing same-day Resy confirmation, establishes an attended visit. The 9:00 PM time and four guests are reservation details, not necessarily actual arrival time or attendance headcount.",
-        "evidenceType": "direct_user_same_day_photo_and_confirmed_reservation",
+        "source": "On November 1, 2026, user posted a photograph inside Tonchin showing the restaurant nameplate and dated MICHELIN plaques and directly instructed 'Add Tonchin'.",
+        "evidenceType": "direct_user_photo",
         "attendanceCertainty": "confirmed_on_site_photo_and_user_instruction",
-        "linkedReservationId": "tonchin-new-york-2026-11-01",
-        "bookingTime": "21:00",
         "arrivalTime": null,
         "actualPartySize": null,
         "orders": null,
@@ -8216,8 +8093,7 @@
           "sourceFilename": "IMG_3661.jpeg",
           "captureDateInferredFromConversation": "2026-11-01",
           "imageContent": "Tonchin nameplate on wood counter directly below MICHELIN plaques marked 2019, 2020, 2021, 2022, 2023, 2024, 2025.",
-          "imageBytesArchivedInGitHub": false,
-          "sourceAssetNote": "The original user-supplied photograph is attached to the ChatGPT conversation, not copied into the GitHub repository. A path or filename is not a published photo URL."
+          "imageBytesArchivedInGitHub": false
         }
       },
       "summary": "Confirmed November 1, 2026 visit to Tonchin's Midtown Manhattan ramen restaurant at 13 W 36th Street. Firsthand photo shows the Tonchin nameplate and MICHELIN plaques for 2019–2025; the MICHELIN Guide identifies Tonchin as a Bib Gourmand restaurant. The exact arrival time, meals ordered, and companions remain unknown.",
@@ -8226,7 +8102,7 @@
         "teaser": "A November evening at Tonchin, with a firsthand photograph of its Michelin Guide plaques from 2019 through 2025.",
         "story": "I went to Tonchin in Midtown Manhattan on November 1, 2026. I photographed the restaurant's row of Michelin plaques marked 2019 through 2025, just above a small Tonchin nameplate. I have not yet recorded which ramen, sides or drinks I ordered, or who was with me.",
         "period": "November 1, 2026",
-        "source": "Direct user photo and 'Add Tonchin' request on November 1, 2026, alongside prior same-day Resy reservation screenshot."
+        "source": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       },
       "recognitions": [
         {

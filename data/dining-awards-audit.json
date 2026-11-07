@@ -1,7 +1,7 @@
 {
   "version": 1,
   "auditedOn": "2026-11-03",
-  "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. 2026-10-25 integrity pass: Q House and Wildflower have award-qualified venue identities but reservation-only personal evidence, so their experience entries are archived with nonconfirmed status, excluded from public totals. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation. October 27, 2026 Union Station follow-up: repeated Pierpont's dining and Harvey's after-wedding goodbye brunch directly confirmed and explicitly selected. Pierpont's is linked by a 2011 Foundation editorial mention; Harvey's is a personal-memory exception. No new formal awards or exact visit dates. October 31 direct 801 Chophouse downtown KCMO visit: date unknown; Wine Spectator Best of Award of Excellence (wine program, 2023 and 2025) is separately documented, not Michelin or James Beard.",
+  "scope": "The confirmed Culture Passport dining/bar records, plus new restaurant and Kansas City BBQ memories and high-value uncertain booking leads. The separate 178-candidate interview is an ongoing research queue, not 178 fully reverified places. Add two user-confirmed Denver visits in 2024 and 2026; new recognition only based on specific primary 2024 James Beard semifinalist documentation for Sắp Sửa; FiNO is an explicit nonaward user-selection, not a favorite designation. October 27, 2026 Union Station follow-up: repeated Pierpont's dining and Harvey's after-wedding goodbye brunch directly confirmed and explicitly selected. Pierpont's is linked by a 2011 Foundation editorial mention; Harvey's is a personal-memory exception. No new formal awards or exact visit dates. October 31 direct 801 Chophouse downtown KCMO visit: date unknown; Wine Spectator Best of Award of Excellence (wine program, 2023 and 2025) is separately documented, not Michelin or James Beard.",
   "criteria": {
     "qualifies": "Documented Michelin Guide star, Bib Gourmand, Selected/recommended/historical Plate, or a James Beard winner/finalist/semifinalist for the restaurant or chef during their tenure there.",
     "personal": "User explicitly chose to preserve a personally meaningful venue regardless of award.",
@@ -601,7 +601,7 @@
         "Michelin Selected (2023)",
         "James Beard semifinalist 2019: Q House, Denver, Best New Restaurant"
       ],
-      "editorialNote": "2019 James Beard Best New Restaurant semifinalist; 2023 Michelin Selected. Directly confirmed restaurant visit on 2026-10-26; actual meal date unknown. 2021-10-21 was a reservation, not a verified meal date.",
+      "editorialNote": "2019 James Beard Best New Restaurant semifinalist; 2023 Michelin Selected. Directly confirmed restaurant visit on 2026-10-26; actual meal date unknown.",
       "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown",
       "publicationStatus": "pending_explicit_privacy_review"
     },
@@ -625,7 +625,7 @@
         "Michelin Guide Selected (2026)",
         "Michelin Young Chef Award 2025: Aiden Tibbetts"
       ],
-      "editorialNote": "Wildflower visit directly confirmed October 26, 2026; the date of the meal is unknown. March 21, 2022 is a historical reservation for seven, not a verified meal date. Michelin distinctions may postdate the meal.",
+      "editorialNote": "Wildflower visit directly confirmed October 26, 2026; the date of the meal is unknown. Michelin distinctions may postdate the meal.",
       "visitConfidence": "direct_user_confirmation_exact_meal_date_unknown",
       "publicationStatus": "pending_explicit_privacy_review"
     },
@@ -700,7 +700,7 @@
         "dining-butchers-daughter-los-angeles-date-unknown"
       ],
       "rememberedPeriods": [
-        "Confirmed dining at West Hollywood branch; exact meal date unknown. Separate July 29, 2023 Resy booking for three."
+        "Confirmed dining at West Hollywood branch; exact meal date unknown."
       ],
       "recognitionStatus": "confirmed_memory_no_eligible_award_verified",
       "sourceUrls": [
@@ -708,7 +708,7 @@
         "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-california-2026"
       ],
       "recognitionSummary": [],
-      "editorialNote": "Alex directly confirmed The Butcher's Daughter West Hollywood visit on October 27, 2026; historical July 2023 reservation is corroborating evidence of this branch only, not the verified meal date or companions. No directly qualifying Michelin/JBF recognition verified.",
+      "editorialNote": "No directly qualifying Michelin/JBF recognition verified.",
       "visitConfidence": "user_confirmed_west_hollywood_branch_date_unknown",
       "publicationStatus": "archived_private_not_curated"
     },
@@ -1163,7 +1163,7 @@
         "bar-the-campbell-grand-central-new-york"
       ],
       "rememberedPeriods": [
-        "Confirmed November 1, 2026 visit; user testimony plus Resy screenshot; exact arrival time unverified"
+        "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       ],
       "recognitionStatus": "editorial_selection_separate_from_formal_awards",
       "sourceUrls": [
@@ -1187,7 +1187,7 @@
         "dining-tonchin-new-york-2026-11-01"
       ],
       "rememberedPeriods": [
-        "Confirmed November 1, 2026 visit; photograph of 2019–2025 MICHELIN plaques and prior Resy booking"
+        "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       ],
       "recognitionStatus": "qualifies",
       "sourceUrls": [
@@ -1284,7 +1284,7 @@
     {
       "name": "Q39",
       "city": "Kansas City",
-      "period": "Kansas City years; historical reservation at Q39 South in 2025",
+      "period": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
       "status": "confirmed_memory_no_eligible_award_verified",
       "note": "Chef-driven competition barbecue credentials do not substitute for a Michelin or James Beard honor."
     },

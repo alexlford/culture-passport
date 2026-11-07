@@ -16,21 +16,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Validate experience data and site pages
         run: python scripts/validate.py
+      - name: Test public-source booking and credential safeguards
+        run: python -m unittest discover -s scripts -p test_public_source.py
       - name: Audit static routes, deep links and staging privacy safeguards
         run: python scripts/audit_static_site.py
       - name: Print safe aggregate publication risk inventory
         run: python scripts/report_publication_risk.py
       - name: Validate clean visitor export without publishing
         run: python scripts/build_public_preview.py --check
-      - name: Validate explicit story-review manifest and generate private review packet
-        run: python scripts/audit_publication.py --check --report
-      - name: Upload private publication review packet
-        uses: actions/upload-artifact@v4
-        with:
-          name: culture-private-publication-review
-          path: test-results/publication-review.md
-          retention-days: 7
-          if-no-files-found: error
+      - name: Validate explicit story-review manifest
+        run: python scripts/audit_publication.py --check
       - name: Audit independent Passport navigation
         run: python scripts/audit_passport_navigation.py culture
       - name: Check interactive JavaScript syntax
@@ -43,7 +38,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
-      - name: Checkout private source
+      - name: Checkout public source
         uses: actions/checkout@v4
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -57,9 +52,9 @@ jobs:
         run: python scripts/build_public_preview.py --output dist
       - name: Test rendered pages at mobile and desktop widths
         run: node scripts/smoke_browser.mjs
-      - name: Test loading recovery and independent private interview
+      - name: Test loading recovery and independent research interview
         run: node scripts/smoke_loading.mjs
-      - name: Upload private QA screenshots
+      - name: Upload visitor QA screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:

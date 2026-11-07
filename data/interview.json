@@ -30,7 +30,7 @@
     "maybe",
     "not_visited"
   ],
-  "notes": "Recognition year may predate or postdate the user's potential visit. An honor awarded to a chef is recorded as a chef honor, not proof that a restaurant received a Michelin star. Charleston is a confirmed visit and is prefilled as visited; do not require re-interview or let stale browser state override that. Woodberry Kitchen is also a confirmed visit; the restaurant interview must lock this answer as visited while retaining the 2015 chef award as pre-visit recognition. In the first-person interview, Alex explicitly ruled out Clavel as a Baltimore visit (2018–2021); it stays in interview results as not visited and is never counted as a restaurant visit. Cinghiale was explicitly ruled out in the user's Baltimore interview and must not be counted as a visit. Petit Louis Bistro is directly ruled out as an 2018–2021 Baltimore visit, and browser interview answers must not override this. Foraged originally served in Hampden and relocated to Station North in late 2021. Foraged is explicitly ruled out during Baltimore 2018–2021. Alex recalled visiting a David Chang restaurant in Washington DC, without naming the venue. Momofuku CCDC is a strong historically supported identity lead, but MUST remain unconfirmed and must NOT increment confirmed visit or Michelin-star counts until Alex identifies the venue. Ekiben is explicitly not visited (Baltimore 2018–2021). Momofuku CCDC is now specifically confirmed by Alex; the restaurant was identified in Washington, DC, and held a 2019 Michelin Plate distinction, not a star. Its exact visit date remains unknown. Its chef-founder David Chang's 2013 James Beard win was at a different location in NYC. On October 25, Alex marked Alma Cocina Latina as possibly visited during Baltimore 2018–2021; this is an explicit uncertain interview response and does not make a confirmed restaurant visit. Magdalena interview clues now distinguish pre-2020 fine dining from the October 2020 Maryland Bistro rebrand. Keep discovering period-appropriate restaurants in Baltimore/DC and Colorado based on the user's reported favorite meals. The Pendry restaurant identity remains an unconfirmed lead until the user verifies Rec Pier Chop House. Continued discovery batch 2026-10-25: 15 additional time-compatible Baltimore/DC restaurant candidates from dated historical sources. All remain unreviewed and excluded from public experience totals. Interview returns to Magdalena next; candidate discovery can continue periodically during future review sessions. Gunther & Co. appears as a confirmed dining record in the Culture Passport source archive. Its candidate status is locked as confirmed rather than inviting duplicate confirmation. Two new interview areas from direct user history: Charleston, South Carolina, three-month stay 2017–2018, and Kansas City metro frequent visits from 2010–present. The Majestic Restaurant is a strong identification lead for steakhouse + basement jazz, not confirmed by name. Distinguish James Beard chef awards from awards for the restaurant; consider post-visit award years. Confirmed by user: The Majestic Restaurant (Kansas City), Rec Pier Chop House (Baltimore). User dated Breckenridge Distillery dining to three separate years 2021/2022/2023; NYC speakeasy interview window 2018–2020; Chicago and Kansas City 2010–present; St Louis Hill Italian meal 2011–2014. None of these regional windows establish a visit to any unconfirmed candidate. Breckenridge has three year-specific Culture experience IDs attached to one venue. User uploaded OpenTable reservation screenshots on 2026-10-25. They establish Dominic's on the Hill (2012-12-28), Q House (2021-10-21), Wildflower (2022-03-21), Uchi Denver (2022-05-15), and other completed reservations. Le Fou Frog intentionally omitted from the published records and ledger per user's opt-out. Mister Oso reservation is WASH PARK, unlike the Bib Gourmand RiNo location. NYC PDT (Please Don't Tell) classified as a possibly visited bar during 2018–2020, not confirmed. The bar's 2012 James Beard Outstanding Bar Program victory is independently verified. Nine further JBF-recognized bar leads from 2018, 2025 and 2026: none counted as visited. Person-level JBF distinctions remain attributed to the person. User's direct 2026-10-25 interview response: The Dead Rabbit was NOT visited in NYC 2018–2020. PDT (Please Don't Tell) remains a possible visit only. Do not promote either to confirmed experiences or counts. North Pond Chicago is an unreviewed Michelin/James Beard candidate proposed in an independently merged update; this lead has not been confirmed by name. Mister Oso is a CONFIRMED restaurant visit; tell the family story with Señor Bear, RiNo 2019, Wash Park 2022, and Michelin's 2023 Bib Gourmand for the RiNo original. No extra branch-level interview question is necessary. Additional Boulder and mountain-town Michelin Guide candidates added from Michelin's official 2026 Colorado list for faster, batch-style questioning. Entries are leads only, no user visit claims. User explicitly marked Dante (Greenwich Village NYC) not visited during 2018–2020. Preserve PDT possibly visited and Dead Rabbit/Leyenda not visited, and skip repeat questions for answered venues. NYC cocktail interview: Bar Goto explicitly not visited (2018–2020). Previous answers are preserved: PDT possible, The Dead Rabbit not visited, Leyenda not visited and Dante not visited. Existing Conditions is the next unanswered James Beard-recognized bar. Recent rapid-fire results synchronized: Annette, Mercantile, North Pond, Barolo confirmed; Lucina maybe; KC BBQ Joe's, Q39, Arthur Bryant's and Jack Stack confirmed but archive-only due to no direct Michelin/JBF recognition; Jack Stack location unconfirmed. Avoid duplicate candidate questions. Personal Culture Passport continues to concerts, opera, plays and other arts. The Aviary (Chicago) explicitly not visited on 2026-10-25; The Office downstairs remains separately unreviewed and must not inherit Aviary's award. The Violet Hour is the next Chicago qualifying cocktail bar to interview. Chicago cocktail-bar interview: The Violet Hour explicitly not visited (2026-10-25); previous response The Aviary not visited; The Office downstairs separately unreviewed. Continue with Lost Lake (not yet answered). Chicago identification clues from friend (2026-10-25): Untitled Supper Club and Cindy's Rooftop at the Chicago Athletic Association, both friend-reported only and awaiting user's confirmation. Untitled is a Michelin Bib Gourmand (2019–2020); Cindy's was a 2016 James Beard design nominee. Cherry Circle Room separately won 2016 design award, NOT assumed visited. Untitled Supper Club confirmed from user's direct recollection (2026-10-25), visit year unknown. Birthday outing originally remembered by a friend. Cindy's remains maybe. Chicago follow-up on 2026-10-25: Cindy's Rooftop remains MAYBE per explicit user request; friend supplied bar identity but user cannot independently confirm. Do not create a confirmed/public visit. Next cocktail-bar question: Lost Lake. Lost Lake explicitly not visited (2026-10-25), directly confirmed by user. Kumiko is the next unreviewed Chicago James Beard-recognized cocktail bar. Editorial direction: preserve vibes and friend-recalled Chicago places even with unknown dates or uncertain attendance. Cindy's Rooftop and The Library at Gilt Bar included as 'recollected' memory vignettes; neither counted as a confirmed user visit. Lost Lake remains unreviewed. October 25, 2026 follow-up: Alex answered 'None of those yet' to Kumiko, Best Intentions, Bisous, Hopleaf Bar, Truce, and Cherry Circle Room. These six are not visited as of this interview, not unreviewed or confirmed. The Chicago bar interview is closed for now at his request; his other Chicago confirmations and recollections are preserved. Continue Kansas City dining.",
+  "notes": "Recognition year may predate or postdate the user's potential visit. An honor awarded to a chef is recorded as a chef honor, not proof that a restaurant received a Michelin star. Charleston is a confirmed visit and is prefilled as visited; do not require re-interview or let stale browser state override that. Woodberry Kitchen is also a confirmed visit; the restaurant interview must lock this answer as visited while retaining the 2015 chef award as pre-visit recognition. In the first-person interview, Alex explicitly ruled out Clavel as a Baltimore visit (2018–2021); it stays in interview results as not visited and is never counted as a restaurant visit. Cinghiale was explicitly ruled out in the user's Baltimore interview and must not be counted as a visit. Petit Louis Bistro is directly ruled out as an 2018–2021 Baltimore visit, and browser interview answers must not override this. Foraged originally served in Hampden and relocated to Station North in late 2021. Foraged is explicitly ruled out during Baltimore 2018–2021. Alex recalled visiting a David Chang restaurant in Washington DC, without naming the venue. Momofuku CCDC is a strong historically supported identity lead, but MUST remain unconfirmed and must NOT increment confirmed visit or Michelin-star counts until Alex identifies the venue. Ekiben is explicitly not visited (Baltimore 2018–2021). Momofuku CCDC is now specifically confirmed by Alex; the restaurant was identified in Washington, DC, and held a 2019 Michelin Plate distinction, not a star. Its exact visit date remains unknown. Its chef-founder David Chang's 2013 James Beard win was at a different location in NYC. On October 25, Alex marked Alma Cocina Latina as possibly visited during Baltimore 2018–2021; this is an explicit uncertain interview response and does not make a confirmed restaurant visit. Magdalena interview clues now distinguish pre-2020 fine dining from the October 2020 Maryland Bistro rebrand. Keep discovering period-appropriate restaurants in Baltimore/DC and Colorado based on the user's reported favorite meals. The Pendry restaurant identity remains an unconfirmed lead until the user verifies Rec Pier Chop House. Continued discovery batch 2026-10-25: 15 additional time-compatible Baltimore/DC restaurant candidates from dated historical sources. All remain unreviewed and excluded from public experience totals. Interview returns to Magdalena next; candidate discovery can continue periodically during future review sessions. Gunther & Co. appears as a confirmed dining record in the Culture Passport source archive. Its candidate status is locked as confirmed rather than inviting duplicate confirmation. Two new interview areas from direct user history: Charleston, South Carolina, three-month stay 2017–2018, and Kansas City metro frequent visits from 2010–present. The Majestic Restaurant is a strong identification lead for steakhouse + basement jazz, not confirmed by name. Distinguish James Beard chef awards from awards for the restaurant; consider post-visit award years. Confirmed by user: The Majestic Restaurant (Kansas City), Rec Pier Chop House (Baltimore). User dated Breckenridge Distillery dining to three separate years 2021/2022/2023; NYC speakeasy interview window 2018–2020; Chicago and Kansas City 2010–present; St Louis Hill Italian meal 2011–2014. None of these regional windows establish a visit to any unconfirmed candidate. Breckenridge has three year-specific Culture experience IDs attached to one venue. Le Fou Frog intentionally omitted from the published records and ledger per user's opt-out. Mister Oso reservation is WASH PARK, unlike the Bib Gourmand RiNo location. NYC PDT (Please Don't Tell) classified as a possibly visited bar during 2018–2020, not confirmed. The bar's 2012 James Beard Outstanding Bar Program victory is independently verified. Nine further JBF-recognized bar leads from 2018, 2025 and 2026: none counted as visited. Person-level JBF distinctions remain attributed to the person. User's direct 2026-10-25 interview response: The Dead Rabbit was NOT visited in NYC 2018–2020. PDT (Please Don't Tell) remains a possible visit only. Do not promote either to confirmed experiences or counts. North Pond Chicago is an unreviewed Michelin/James Beard candidate proposed in an independently merged update; this lead has not been confirmed by name. Mister Oso is a CONFIRMED restaurant visit; tell the family story with Señor Bear, RiNo 2019, Wash Park 2022, and Michelin's 2023 Bib Gourmand for the RiNo original. No extra branch-level interview question is necessary. Additional Boulder and mountain-town Michelin Guide candidates added from Michelin's official 2026 Colorado list for faster, batch-style questioning. Entries are leads only, no user visit claims. User explicitly marked Dante (Greenwich Village NYC) not visited during 2018–2020. Preserve PDT possibly visited and Dead Rabbit/Leyenda not visited, and skip repeat questions for answered venues. NYC cocktail interview: Bar Goto explicitly not visited (2018–2020). Previous answers are preserved: PDT possible, The Dead Rabbit not visited, Leyenda not visited and Dante not visited. Existing Conditions is the next unanswered James Beard-recognized bar. Recent rapid-fire results synchronized: Annette, Mercantile, North Pond, Barolo confirmed; Lucina maybe; KC BBQ Joe's, Q39, Arthur Bryant's and Jack Stack confirmed but archive-only due to no direct Michelin/JBF recognition; Jack Stack location unconfirmed. Avoid duplicate candidate questions. Personal Culture Passport continues to concerts, opera, plays and other arts. The Aviary (Chicago) explicitly not visited on 2026-10-25; The Office downstairs remains separately unreviewed and must not inherit Aviary's award. The Violet Hour is the next Chicago qualifying cocktail bar to interview. Chicago cocktail-bar interview: The Violet Hour explicitly not visited (2026-10-25); previous response The Aviary not visited; The Office downstairs separately unreviewed. Continue with Lost Lake (not yet answered). Chicago identification clues from friend (2026-10-25): Untitled Supper Club and Cindy's Rooftop at the Chicago Athletic Association, both friend-reported only and awaiting user's confirmation. Untitled is a Michelin Bib Gourmand (2019–2020); Cindy's was a 2016 James Beard design nominee. Cherry Circle Room separately won 2016 design award, NOT assumed visited. Untitled Supper Club confirmed from user's direct recollection (2026-10-25), visit year unknown. Birthday outing originally remembered by a friend. Cindy's remains maybe. Chicago follow-up on 2026-10-25: Cindy's Rooftop remains MAYBE per explicit user request; friend supplied bar identity but user cannot independently confirm. Do not create a confirmed/public visit. Next cocktail-bar question: Lost Lake. Lost Lake explicitly not visited (2026-10-25), directly confirmed by user. Kumiko is the next unreviewed Chicago James Beard-recognized cocktail bar. Editorial direction: preserve vibes and friend-recalled Chicago places even with unknown dates or uncertain attendance. Cindy's Rooftop and The Library at Gilt Bar included as 'recollected' memory vignettes; neither counted as a confirmed user visit. Lost Lake remains unreviewed. October 25, 2026 follow-up: Alex answered 'None of those yet' to Kumiko, Best Intentions, Bisous, Hopleaf Bar, Truce, and Cherry Circle Room. These six are not visited as of this interview, not unreviewed or confirmed. The Chicago bar interview is closed for now at his request; his other Chicago confirmations and recollections are preserved. Continue Kansas City dining.",
   "candidates": [
     {
       "id": "altimore-charleston",
@@ -74,7 +74,7 @@
       "sourceUrl": "https://archive.jamesbeard.org/index.php/blog/2015-james-beard-award-winners",
       "visitStatus": "confirmed",
       "confirmedVisitId": "dining-woodberry-kitchen-baltimore-2018-2021",
-      "visitPeriod": "2018-05-16 · reservation for 2",
+      "visitPeriod": "Date and attendance confidence are recorded independently of booking evidence.",
       "visitSource": "Alex explicitly confirmed visiting Woodberry Kitchen in current Culinary Passport interview on 2026-10-24",
       "timelineYear": 2018,
       "yearPlacementSource": "Alex's timeline placement on 2026-10-24",
@@ -94,7 +94,7 @@
         "verifiedForPublication": false
       },
       "visitDate": "2018-05-16",
-      "visitDateEvidence": "Completed reservation screenshot shared by Alex on 2026-10-25, plus prior direct confirmation of dining at this venue."
+      "visitDateEvidence": "Date and attendance confidence are recorded independently of booking evidence."
     },
     {
       "id": "altimore-clavel",
@@ -343,7 +343,7 @@
         "confirmedOn": "2026-10-25"
       },
       "confirmedVisitId": "dining-momofuku-ccdc-washington-dc",
-      "visitPeriod": "2018-08-21 · reservation for 4",
+      "visitPeriod": "Date and attendance confidence are recorded independently of booking evidence.",
       "visitSource": "Alex directly identified Momofuku CCDC on 2026-10-25 as the David Chang DC restaurant previously remembered",
       "screening": {
         "status": "award_qualified",
@@ -361,7 +361,7 @@
         "verifiedForPublication": false
       },
       "visitDate": "2018-08-21",
-      "visitDateEvidence": "Completed reservation screenshot shared by Alex on 2026-10-25, plus prior direct confirmation of dining at this venue."
+      "visitDateEvidence": "Date and attendance confidence are recorded independently of booking evidence."
     },
     {
       "id": "ashington-the-dabney",
@@ -1229,7 +1229,7 @@
         "verifiedForPublication": true
       },
       "confirmedVisitId": "dining-mister-oso-denver",
-      "visitPeriod": "Denver years; Wash Park reservation from 2024; visit to Mister Oso confirmed; no need to reconstruct further dates",
+      "visitPeriod": "Date and attendance confidence are recorded independently of booking evidence.",
       "reviewedOn": "2026-10-25",
       "reviewSource": "User explicitly confirmed Mister Oso as a visited restaurant."
     },
@@ -1455,7 +1455,7 @@
         "confirmedOn": "2026-10-25"
       },
       "confirmedVisitId": "dining-rec-pier-chop-house-baltimore",
-      "visitPeriod": "2018-05-16 · reservation for 2",
+      "visitPeriod": "Date and attendance confidence are recorded independently of booking evidence.",
       "reviewedOn": "2026-10-25",
       "reviewSource": "Direct user confirmation on 2026-10-25",
       "screening": {
@@ -1474,7 +1474,7 @@
         "verifiedForPublication": false
       },
       "visitDate": "2018-05-16",
-      "visitDateEvidence": "Completed reservation screenshot shared by Alex on 2026-10-25, plus prior direct confirmation of dining at this venue."
+      "visitDateEvidence": "Date and attendance confidence are recorded independently of booking evidence."
     },
     {
       "id": "candidate-baltimore-le-comptoir-du-vin",
@@ -4190,13 +4190,13 @@
         "note": "Identity lead only. No venue-specific qualifying award established."
       },
       "userMemoryLead": {
-        "recalled": "OpenTable screenshot confirms Dominic's on the Hill booking December 28, 2012, and Alex recognized it as the Italian restaurant.",
+        "recalled": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
         "identityConfirmed": true,
         "source": "User memory on 2026-10-25",
         "confirmedOn": "2026-10-25"
       },
       "visitPeriod": "December 28, 2012",
-      "reviewSource": "User-supplied screenshot showing completed reservation on 2012-12-28 for two diners (not independently verified attendance).",
+      "reviewSource": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
       "reviewedOn": "2026-10-25",
       "researchOnly": true
     },
@@ -4613,27 +4613,19 @@
       "interviewCue": "Upscale modern Chinese on East Colfax; closed in October 2025.",
       "sourceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
       "visitStatus": "confirmed",
-      "visitPeriod": "Denver years; exact dining date unknown (reservation recorded for 2021-10-21)",
+      "visitPeriod": "Date and attendance confidence are recorded independently of booking evidence.",
       "reviewedOn": "2026-10-26",
-      "reviewSource": "Alex directly confirmed actually eating at Q House on 2026-10-26. Booking on 2021-10-21 is evidence of a reservation only, not the confirmed dining date.",
+      "reviewSource": "Alex directly confirmed actually eating at Q House on 2026-10-26.",
       "screening": {
         "status": "award_qualified",
         "basis": "venue_recognition",
         "evidenceUrl": "https://www.jamesbeard.org/blog/the-2019-james-beard-award-semifinalists",
         "sourceTier": "primary",
         "verifiedAt": "2026-10-25",
-        "note": "2019 James Beard Best New Restaurant semifinalist; 2023 Michelin Selected (after meal) Completed reservation on file; meal attendance has not been confirmed."
+        "note": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       },
-      "bookingEvidence": {
-        "reservationDate": "2021-10-21",
-        "partySize": 2,
-        "attendance": "venue_visit_confirmed_separately",
-        "source": "completed_reservation_screenshot",
-        "note": "Reservation date is historical evidence only; it is not a verified visit date."
-      },
-      "bookingLeadRecordId": "dining-q-house-denver-2021-10-21",
       "confirmedVisitId": "dining-q-house-denver-2021-10-21",
-      "visitSource": "Direct user confirmation of Q House dining, 2026-10-26; historical reservation evidence is separate.",
+      "visitSource": "Date and attendance confidence are recorded independently of booking evidence.",
       "visitNote": "Restaurant visit is confirmed; exact meal date and companions are not. Do not infer the visit happened on the dated reservation or that Michelin status existed at the meal."
     },
     {
@@ -4646,27 +4638,19 @@
       "interviewCue": "LoHi contemporary seasonal tasting and à la carte menus.",
       "sourceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
       "visitStatus": "confirmed",
-      "visitPeriod": "Denver years; date of meal unknown. Reservation recorded 2022-03-21.",
+      "visitPeriod": "Denver years; date of meal unknown.",
       "reviewedOn": "2026-10-26",
-      "reviewSource": "Direct user confirmation of Wildflower attendance, with 2022-03-21 reservation kept as separate historical evidence.",
+      "reviewSource": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
       "screening": {
         "status": "award_qualified",
         "basis": "venue_recognition",
         "evidenceUrl": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/wildflower",
         "sourceTier": "primary",
         "verifiedAt": "2026-10-25",
-        "note": "MICHELIN Guide Selected in 2026; 2025 Young Chef Award for Aiden Tibbetts (both after 2022 meal) Completed reservation on file; meal attendance has not been confirmed."
+        "note": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently."
       },
-      "bookingEvidence": {
-        "reservationDate": "2022-03-21",
-        "partySize": 7,
-        "attendance": "venue_visit_confirmed_separately_exact_date_unverified",
-        "source": "completed_reservation_screenshot",
-        "note": "Reservation is confirmed; exact date of attended dinner remains unknown."
-      },
-      "bookingLeadRecordId": "dining-wildflower-denver-2022-03-21",
       "confirmedVisitId": "dining-wildflower-denver-2022-03-21",
-      "visitSource": "Alex directly confirmed having eaten at Wildflower on 2026-10-26, without confirming the reservation date as his dining date.",
+      "visitSource": "Date and attendance confidence are recorded independently of booking evidence.",
       "visitNote": "The restaurant visit is confirmed. Do not infer meal happened on 2022-03-21, or that any award was held at the time of the meal."
     },
     {
@@ -4679,9 +4663,9 @@
       "interviewCue": "Japanese sushi and omakase at 2500 Lawrence Street, founded by chef Tyson Cole.",
       "sourceUrl": "https://uchi.uchirestaurants.com/our-story/",
       "visitStatus": "confirmed",
-      "visitPeriod": "Date unspecified; historical reservation on May 15, 2022 does not establish meal date.",
+      "visitPeriod": "Date and attendance confidence are recorded independently of booking evidence.",
       "reviewedOn": "2026-10-25",
-      "reviewSource": "User-provided screenshot of a completed reservation for 2022-05-15; actual seating is not independently verified.",
+      "reviewSource": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
       "screening": {
         "status": "needs_verification",
         "basis": "founder_award_at_other_location",
@@ -6322,7 +6306,7 @@
       "addedOn": "2026-10-27",
       "priority": "high",
       "addressHint": "214 Elk Ave",
-      "visitNote": "Visit confirmed. Historical newspaper/festival sources document Sunflower's chef alumni and independent press features. A user-shared screenshot falsely attributes Michelin 2025 and JBF 2026 honors; official award lists identify Restaurant Olivia. Keep genuine alumni/festival relationships in researched context, not direct awards.",
+      "visitNote": "Visit confirmed. Historical newspaper/festival sources document Sunflower's chef alumni and independent press features. Keep genuine alumni/festival relationships in researched context, not direct awards.",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -7000,7 +6984,7 @@
       "researchStatus": "previous_strong_liu_lead_now_secondary_to_joy_not_confirmed",
       "addedOn": "2026-10-27",
       "priority": "secondary_possible_identity_after_user_favored_joy",
-      "visitNote": "On October 27, 2026 Alex stated 'I have a strong feeling it is Liu's Cafe' when shown Liu's Cafe as a candidate for a Taiwanese restaurant visited with his friend Jay around West Hollywood/Los Angeles. This is a strong but expressly tentative restaurant identification, not a confirmed named venue meal. Keep status MAYBE and do not create a canonical dining record, award-watchlist entry or public experience. Original Koreatown location opened August 31, 2023: any earlier meal cannot have been at Liu's Cafe. The 2023-07-29 Butcher's Daughter West Hollywood reservation predates opening and must not be reused as the Taiwanese visit date. A Westwood branch now also exists, but user's visit branch is unconfirmed. On 2026-10-27 user subsequently said 'Leaning towards Joy'; retain Liu's as a possible visit and preserve the earlier strong feeling without claiming Liu's as the primary identification.",
+      "visitNote": "On October 27, 2026 Alex stated 'I have a strong feeling it is Liu's Cafe' when shown Liu's Cafe as a candidate for a Taiwanese restaurant visited with his friend Jay around West Hollywood/Los Angeles. This is a strong but expressly tentative restaurant identification, not a confirmed named venue meal. Keep status MAYBE and do not create a canonical dining record, award-watchlist entry or public experience. Original Koreatown location opened August 31, 2023: any earlier meal cannot have been at Liu's Cafe. A Westwood branch now also exists, but user's visit branch is unconfirmed. On 2026-10-27 user subsequently said 'Leaning towards Joy'; retain Liu's as a possible visit and preserve the earlier strong feeling without claiming Liu's as the primary identification.",
       "screening": {
         "status": "verified_michelin_bib_2026",
         "basis": "michelin",
@@ -7288,7 +7272,7 @@
       "name": "The Butcher's Daughter (West Hollywood)",
       "sourceUrl": "https://thebutchersdaughter.com/location-all/west-hollywood",
       "addressHint": "8755 Melrose Ave, West Hollywood, CA 90069",
-      "interviewCue": "Confirmed The Butcher's Daughter restaurant visit in LA. Earlier Resy reservation July 29, 2023 for three at West Hollywood supports but does not prove the specific meal/branch. Don't confuse with Venice location at 1205 Abbot Kinney. Ask if iconic green greenhouse-style bar in Melrose dining room is familiar.",
+      "interviewCue": "Confirmed The Butcher's Daughter restaurant visit in LA. Don't confuse with Venice location at 1205 Abbot Kinney. Ask if iconic green greenhouse-style bar in Melrose dining room is familiar.",
       "area": "Los Angeles / West Hollywood",
       "recognition": "No venue-specific Michelin/James Beard award or official program link verified in October 2026 screening. Keep in permanent private restaurant recognition watchlist.",
       "recognitionYear": null,
@@ -7297,7 +7281,7 @@
       "researchStatus": "direct_user_confirmed_west_hollywood_branch",
       "addedOn": "2026-10-27",
       "priority": "high",
-      "visitNote": "On October 27, 2026 Alex directly confirmed visiting The Butcher's Daughter at its West Hollywood branch, 8755 Melrose Ave. Venue and branch are confirmed independently of the 2023-07-29 Resy reservation, which must not be treated as exact meal date. Companions, dishes, and date are unknown.",
+      "visitNote": "On October 27, 2026 Alex directly confirmed visiting The Butcher's Daughter at its West Hollywood branch, 8755 Melrose Ave. Companions, dishes, and date are unknown.",
       "screening": {
         "status": "memory_only",
         "basis": null,
@@ -7315,8 +7299,8 @@
       },
       "confirmedVisitId": "dining-butchers-daughter-los-angeles-date-unknown",
       "reviewedOn": "2026-10-27",
-      "visitPeriod": "West Hollywood restaurant visit, exact date unknown. Separate reservation July 29, 2023 for three.",
-      "visitSource": "Direct user confirmation of venue and West Hollywood branch, October 27, 2026. Historical 2023 Resy screenshot is corroborating reservation evidence only."
+      "visitPeriod": "West Hollywood restaurant visit, exact date unknown.",
+      "visitSource": "Direct user confirmation of venue and West Hollywood branch, October 27, 2026."
     },
     {
       "id": "candidate-la-joy-highland-park",
@@ -9264,7 +9248,7 @@
       "recognition": "Time Out 2025 #2 Midtown bars; Tasting Table 2023 best NYC cocktail bars; Eater New York 2017 design feature. Editorial selections, not formal awards.",
       "recognitionYear": 2025,
       "awardFamily": "independent_editorial",
-      "interviewCue": "Historic cocktail lounge at 15 Vanderbilt Avenue inside Grand Central Terminal; user's Nov 1, 2026 Resy confirmation at 7:30 PM for three and explicit attendance confirmation.",
+      "interviewCue": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
       "sourceUrl": "https://www.thecampbellnyc.com/",
       "visitStatus": "confirmed",
       "confirmedVisitId": "bar-the-campbell-grand-central-new-york",
@@ -9273,7 +9257,7 @@
       "priority": "high",
       "addedOn": "2026-11-01",
       "reviewedOn": "2026-11-01",
-      "reviewSource": "User: 'add the Campbell to the went list' then 'It’s proof!!! Stop being so restrictive.' Dated Resy screenshot previously shared.",
+      "reviewSource": "User: 'add the Campbell to the went list' then 'It’s proof!!!",
       "screening": {
         "status": "editorially_recognized",
         "basis": "selective_food_and_drink_editorial_lists",
@@ -9306,7 +9290,7 @@
       "priority": "high",
       "addedOn": "2026-11-01",
       "reviewedOn": "2026-11-01",
-      "reviewSource": "User uploaded an in-restaurant photograph of the MICHELIN plaques and Tonchin nameplate on November 1, 2026, instructing 'Add Tonchin'; same-day prior Resy screenshot confirms booking at 9 PM for 4, not actual arrival or actual diners.",
+      "reviewSource": "Personal booking logistics and raw upload references were removed from the public source. Attendance and visit-date confidence remain recorded independently.",
       "screening": {
         "status": "award_qualified",
         "basis": "michelin_bib_gourmand_exact_location",
@@ -10806,7 +10790,7 @@
         "ROW DTLA"
       ],
       "source": "Direct user recollection October 27, 2026",
-      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. No evidence links the 2023-07-29 Butcher's Daughter reservation to this meal; that booking predates Liu's opening. West Hollywood and South Bay research both remain active. After user's continued strong preference for Liu's, researched all seven previously logged alternative candidates using current operator photos, dated opening announcements and Michelin 2026 California data. All alternative attendance statuses remain unreviewed; no false negative votes or named confirmed meals entered. See comparativeReview. User then said 'It could've been Joy', explicitly promoting Joy on York (Highland Park) to a second possible identity. This is not confirmation; Liu's original strong-feeling lead remains possible. Distinguishing features: Joy's red floral banquette and exposed brick vs Liu's white walls and long dark communal table/vintage posters. Joy opened March 6 2018; Liu's opened August 31 2023. Restaurant-specific award status is distinct: Liu's current Michelin Bib, no direct Michelin/JBF qualification established for Joy. Keep both out of canonical and watchlist until user specifically confirms actual visit. Update 2026-10-27: user now explicitly leans towards Joy (Highland Park) rather than Liu's Cafe, though neither venue is confirmed. Prior stronger early suspicion of Liu's remains an honest historical interview clue. Opening dates: Joy 2018 and Liu's August 31 2023. Do not publish or count as qualifying visits.",
+      "note": "Alex recalls buddy Jay taking him to several LA-area restaurants, one Taiwanese. On October 27, 2026, after reviewing Taiwanese candidates, Alex expressed a strong feeling that Liu's Cafe was the venue. This is the leading likely identity, but not a confirmed named restaurant visit. Liu's opened in Koreatown August 31, 2023; its current Michelin Bib Gourmand status meets curation criteria IF a visit is later confirmed. The original location has a long dark wood communal table, bentwood chairs, vintage framed art, green tile drinking-water station, brass pendant lights, a pastry display, and Taiwanese/Hong Kong comfort food. West Hollywood and South Bay research both remain active. After user's continued strong preference for Liu's, researched all seven previously logged alternative candidates using current operator photos, dated opening announcements and Michelin 2026 California data. All alternative attendance statuses remain unreviewed; no false negative votes or named confirmed meals entered. See comparativeReview. User then said 'It could've been Joy', explicitly promoting Joy on York (Highland Park) to a second possible identity. This is not confirmation; Liu's original strong-feeling lead remains possible. Distinguishing features: Joy's red floral banquette and exposed brick vs Liu's white walls and long dark communal table/vintage posters. Joy opened March 6 2018; Liu's opened August 31 2023. Restaurant-specific award status is distinct: Liu's current Michelin Bib, no direct Michelin/JBF qualification established for Joy. Keep both out of canonical and watchlist until user specifically confirms actual visit. Update 2026-10-27: user now explicitly leans towards Joy (Highland Park) rather than Liu's Cafe, though neither venue is confirmed. Prior stronger early suspicion of Liu's remains an honest historical interview clue. Opening dates: Joy 2018 and Liu's August 31 2023. Do not publish or count as qualifying visits.",
       "publishAsExperience": false,
       "visitStatus": "unidentified_two_possible_venues",
       "confirmedVisitId": null,
@@ -11475,11 +11459,11 @@
       ],
       "unidentifiedDiningMemories": 1,
       "companion": "Jay (user-supplied)",
-      "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Its July 29, 2023 Resy reservation is separate booking evidence, not a verified dining date. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
+      "confirmedContext": "Confirmed named LA meals include République and The Butcher's Daughter (West Hollywood), the latter explicitly identified by the user on October 27, 2026. Jay accompanied Alex to several other unnamed restaurants in/around West Hollywood; among them was a Taiwanese restaurant whose identity and date remain unknown.",
       "candidateCount": 17,
       "unreviewed": 5,
       "confirmedNamedRecordsRemainUnchanged": true,
-      "notes": "The Butcher's Daughter visit AND West Hollywood branch are directly confirmed, not merely inferred from the 2023 reservation. The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Opening Aug 31 2023 rules out earlier LA meals; The Butcher's Daughter 2023-07-29 booking cannot establish the Liu's visit. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed.",
+      "notes": "The Taiwanese restaurant with Jay remains unresolved. Current Michelin/JBF recognition at candidate restaurants is not evidence of attendance and recognition year does not establish the status on an unknown visit date. As of Oct 27, user explicitly insists that the West Hollywood search must continue in parallel with the Space Park/South Bay chapter. Four additional exact-address Michelin Selected candidates added: Petit Trois L'Original, Chi Spacca, Angelini Osteria, Ardor; all unreviewed for attendance. The Taiwanese place with Jay is still priority identity research. User on 2026-10-27 stated 'I have a strong feeling it is Liu's Cafe.' Candidate promoted from unreviewed to MAYBE and leading probable ID only. Do NOT increment confirmed LA count of 2; do not publish or award-watchlist Liu's as visited. Active South Bay / Space Park chapter stays in parallel. Comparative audit of Liu's plus seven existing candidates completed and saved 2026-10-27; Liu remains MAYBE based on user's strong recollection, alternatives UNREVIEWED; no additional LA confirmed restaurants. 2026-10-27 user added 'It could've been Joy' after photo comparison. Mark Joy MAYBE as well as existing Liu's MAYBE; do not change 2 confirmed named LA venues or count Joy as a formal Michelin/JBF visit. Both candidates visually distinct and historically possible only after respective opening years. User now says 'Leaning towards Joy'; update primary uncertain candidate to Joy, preserving earlier Liu's hypothesis. Named LA confirmed visits remain exactly République and The Butcher's Daughter (West Hollywood), and both parallel LA research chapters remain active. October 27, 2026: Alex answered 'Nope' to Osteria Mozza, now NOT VISITED. Pizzeria Mozza at 641 N Highland Avenue remains unreviewed and is the next visual prompt. Joy remains the leading tentative Taiwanese identity, Liu's Cafe secondary; no new confirmed visits. October 27, 2026: Alex answered 'Nope' for Pizzeria Mozza; both Osteria Mozza and Pizzeria Mozza are NOT VISITED. Continue one venue at a time with Jon & Vinny's original Fairfax branch. Joy remains the leading tentative Taiwanese identity and Liu's Cafe secondary; no new confirmed meals. October 27, 2026: Jon & Vinny's original Fairfax location explicitly NOT VISITED ('Nope'). Continue with Somni; distinguish current Nemo Street restaurant opened November 2024 from the earlier SLS Beverly Hills restaurant (2018–2020). Joy and Liu's Cafe remain tentative, and named confirmed LA visits remain two. October 27, 2026: Somni's current West Hollywood / Nemo Street restaurant explicitly NOT VISITED. Alex requested it on the private places-to-go list; entry want-to-visit-somni-west-hollywood records future interest without adding a meal. Continue with Petit Trois L'Original; Joy and Liu's remain tentative. October 27, 2026: Petit Trois L'Original explicitly NOT VISITED and added at Alex's request to the private places-to-go list beside Somni. No new personal dining experience. Continue with Chi Spacca at 6610 Melrose Avenue; Joy and Liu's remain uncertain. October 27, 2026: User explicitly answered 'Nope' for Chi Spacca; mark NOT VISITED without a dining or future-visit record. Next visual prompt is Angelini Osteria at 7313 Beverly Boulevard. Somni and Petit Trois remain on the places-to-go list; Joy leads Liu's Cafe as an unconfirmed Taiwanese identity. October 27, 2026: Angelini Osteria response 'I don’t think so' saved as a TENTATIVE negative (probably not visited), not a definitive exclusion. Next Ardor at the West Hollywood EDITION. Both places-to-go entries, all South Bay uncertainties, and Joy-leading/Liu-secondary identity clues remain unchanged. October 27, 2026: Ardor explicitly NOT VISITED and added at user request to places-to-go alongside Somni and Petit Trois L'Original. All eight named Michelin-shortlisted Hollywood-area restaurants now screened. Angelini's negative remains tentative. Continue the remaining LA identity leads with Pine & Crane Silver Lake; Joy is still leading, Liu's secondary, neither confirmed. October 27: Pine & Crane Silver Lake added to places-to-go by explicit request. Past attendance remains UNREVIEWED because no visit answer was given. Continue with Kato; preserve Joy as leading Taiwanese identity and Liu's secondary. October 27, 2026: Kato explicitly NOT VISITED ('Nope'); no personal record or places-to-go addition. Next Formosa Cafe as an unresolved West Hollywood restaurant identification lead. Pine & Crane Silver Lake past attendance remains unanswered despite its wishlist entry; Joy and Liu's stay unconfirmed.",
       "researchStatus": "parallel_active_with_space_park_south_bay",
       "verifiedMichelinShortlistNearWeHo": [
         "Osteria Mozza",

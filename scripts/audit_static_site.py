@@ -122,15 +122,10 @@ def audit_dynamic_data():
 
 
 def audit_basic_secrets():
-    # This does NOT certify the repository or its Git history for publication.
-    # Before changing private -> public, review personal stories, interview
-    # responses, reservation source rows, and commit history explicitly.
-    for f in (ROOT / "data").glob("*.json"):
-        raw = f.read_text(encoding="utf-8")
-        assert not re.search(r"(?i)(?:sk-[A-Za-z0-9]{18,}|gh[pousr]_[A-Za-z0-9_]{20,}|-----BEGIN PRIVATE KEY-----)", raw), (
-            f.name + ": possible credential material")
-        assert not re.search(r"(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", raw), (
-            f.name + ": possible personal email address")
+    # Check every dataset, including nested interview updates. Benign research
+    # and wishlists may be public, while booking logistics stay excluded.
+    from audit_public_source import audit
+    audit(ROOT)
 
 
 def audit_editorial_and_city_links(records):
@@ -189,7 +184,7 @@ def main():
     audit_release_approval_gate()
     audit_basic_secrets()
     print(f"OK: {len(PAGE_NAMES)} static pages, {links} links/assets, {len(records)} archive records;")
-    print("staging metadata and local deep links checked. Privacy approval and visual QA remain open.")
+    print("staging metadata, local deep links and public-source safeguards checked; release approval is validated separately.")
 
 
 if __name__ == "__main__":
