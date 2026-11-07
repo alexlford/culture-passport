@@ -263,8 +263,8 @@
       "candidate-boston-brewery-twisted-fate-danvers"
     ],
     "guidelines": "Preserve user-answered Boston brewery history. For previously unmentioned venues, first downselect by Culture Passport award criteria; do not continue generic directory-only brewery lists. Use verified historical photos, descriptions, four answer choices and a submit control; never infer attendance or exact site from beer recognition. User-confirmed visits remain public visitor candidates regardless of awards, subject to story review.",
-    "lastAnsweredCandidateId": "candidate-boston-ostra",
-    "lastWishlistCandidateId": "candidate-boston-ostra",
+    "lastAnsweredCandidateId": "candidate-cambridge-jahunger",
+    "lastWishlistCandidateId": "candidate-cambridge-jahunger",
     "notVisitedWishlistBrands": [
       "Night Shift Brewing (Greater Boston)",
       "Lamplighter Brewing Co. (Greater Boston)",
@@ -316,7 +316,12 @@
       "311 Omakase — Boston",
       "O Ya — Boston",
       "Spoke Wine Bar — Somerville",
-      "Ostra — Boston"
+      "Ostra — Boston",
+      "Fox & The Knife",
+      "Bar Volpe",
+      "Mahaniyom",
+      "Pagu",
+      "Jahunger"
     ],
     "outOfOrderAnswers": [
       {
@@ -358,11 +363,11 @@
       }
     ],
     "nextFiveCandidates": [
-      "Fox & The Knife",
-      "Bar Volpe",
-      "Mahaniyom",
-      "Pagu",
-      "Jahunger"
+      "Sumiao Hunan Kitchen",
+      "Talulla",
+      "Comfort Kitchen",
+      "Tonino",
+      "Verveine Cafe & Bakery"
     ],
     "rapidFireRounds": [
       {
@@ -2012,6 +2017,132 @@
             "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
           }
         ]
+      },
+      {
+        "id": "boston-michelin-bib-2026-11-06-12",
+        "recordedOn": "2026-11-06",
+        "answers": [
+          {
+            "candidateId": "candidate-boston-fox-and-the-knife",
+            "name": "Fox & The Knife",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Fox & The Knife: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "MICHELIN Guide",
+                "year": 2025,
+                "awardType": "michelin_bib_gourmand",
+                "category": "Bib Gourmand",
+                "result": "selected",
+                "recipient": "Fox & The Knife",
+                "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+                "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+              }
+            ],
+            "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+          },
+          {
+            "candidateId": "candidate-boston-bar-volpe",
+            "name": "Bar Volpe",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Bar Volpe: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "MICHELIN Guide",
+                "year": 2025,
+                "awardType": "michelin_bib_gourmand",
+                "category": "Bib Gourmand",
+                "result": "selected",
+                "recipient": "Bar Volpe",
+                "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+                "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+              }
+            ],
+            "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+          },
+          {
+            "candidateId": "candidate-brookline-mahaniyom",
+            "name": "Mahaniyom",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Mahaniyom: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "MICHELIN Guide",
+                "year": 2025,
+                "awardType": "michelin_bib_gourmand",
+                "category": "Bib Gourmand",
+                "result": "selected",
+                "recipient": "Mahaniyom",
+                "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+                "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+              }
+            ],
+            "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+          },
+          {
+            "candidateId": "candidate-cambridge-pagu",
+            "name": "Pagu",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Pagu: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "MICHELIN Guide",
+                "year": 2025,
+                "awardType": "michelin_bib_gourmand",
+                "category": "Bib Gourmand",
+                "result": "selected",
+                "recipient": "Pagu",
+                "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+                "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+              }
+            ],
+            "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+          },
+          {
+            "candidateId": "candidate-cambridge-jahunger",
+            "name": "Jahunger",
+            "attendance": "not_visited",
+            "futureWishlist": true,
+            "certainty": "explicit_nonattendance_by_wishlist_convention",
+            "siteVisited": null,
+            "visitDate": null,
+            "visitPeriod": null,
+            "sourceQuote": "Jahunger: Wishlist",
+            "recognitionEvidence": [
+              {
+                "organization": "MICHELIN Guide",
+                "year": 2025,
+                "awardType": "michelin_bib_gourmand",
+                "category": "Bib Gourmand",
+                "result": "selected",
+                "recipient": "Jahunger",
+                "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+                "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+              }
+            ],
+            "notes": "2025 Michelin Bib Gourmand belongs to the named restaurant. A future wish is not an attended visit."
+          }
+        ]
       }
     ],
     "historicalInterestOnly": [
@@ -2118,90 +2249,17 @@
     ],
     "nextFiveVerifiedLeadSources": [
       {
-        "id": "candidate-boston-fox-and-the-knife",
-        "name": "Fox & The Knife",
+        "id": "candidate-cambridge-sumiao-hunan-kitchen",
+        "name": "Sumiao Hunan Kitchen",
         "category": "dining",
         "location": {
-          "address": "28 W Broadway",
-          "city": "Boston",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "recognitions": [
-          {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Fox & The Knife",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
-          }
-        ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Lively South Boston enoteca by chef Karen Akunowicz with stuffed focaccia, handmade pastas, aperitivi and amaro."
-      },
-      {
-        "id": "candidate-boston-bar-volpe",
-        "name": "Bar Volpe",
-        "category": "dining",
-        "location": {
-          "address": "170 W Broadway",
-          "city": "Boston",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "recognitions": [
-          {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Bar Volpe",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
-          }
-        ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Candlelit Southern Italian restaurant with seafood pastas, two bars, wood-fired cooking and a deep amaro list."
-      },
-      {
-        "id": "candidate-brookline-mahaniyom",
-        "name": "Mahaniyom",
-        "category": "dining",
-        "location": {
-          "address": "236 Washington St",
-          "city": "Brookline",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "recognitions": [
-          {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Mahaniyom",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
-          }
-        ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Compact Brookline Village Thai small-plates and cocktail bar, known for seafood salads and crab red curry."
-      },
-      {
-        "id": "candidate-cambridge-pagu",
-        "name": "Pagu",
-        "category": "dining",
-        "location": {
-          "address": "310 Massachusetts Ave",
+          "address": "270 Third Street",
           "city": "Cambridge",
           "region": "Massachusetts",
           "country": "USA"
         },
+        "website": "https://www.sumiaohunan.com/",
+        "feature": "Colorful Kendall Square Hunan restaurant with punchy chili flavors, fish, spicy vegetables and cocktails.",
         "recognitions": [
           {
             "organization": "MICHELIN Guide",
@@ -2209,38 +2267,126 @@
             "awardType": "michelin_bib_gourmand",
             "category": "Bib Gourmand",
             "result": "selected",
-            "recipient": "Pagu",
+            "recipient": "Sumiao Hunan Kitchen",
             "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+            "relationship": "Restaurant-level Bib Gourmand, not a Star or personal attendance."
           }
         ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Tracy Chang's bright Cambridge Japanese/Spanish small-plates restaurant, featuring baos, patatas bravas and laksa."
+        "screeningTier": "michelin_bib_gourmand"
       },
       {
-        "id": "candidate-cambridge-jahunger",
-        "name": "Jahunger",
+        "id": "candidate-cambridge-talulla",
+        "name": "Talulla",
         "category": "dining",
         "location": {
-          "address": "272 Brookline St",
+          "address": "377 Walden Street",
           "city": "Cambridge",
           "region": "Massachusetts",
           "country": "USA"
         },
+        "website": "https://www.talullacambridge.com/",
+        "feature": "Small white-tablecloth Huron Village restaurant with seasonal tasting menus and optional wine pairings.",
         "recognitions": [
           {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Jahunger",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Wine and Other Beverages Program",
+            "result": "semifinalist",
+            "recipient": "Talulla, Cambridge, MA",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Venue's beverage program recognized; not a win, and does not imply dining attendance."
           }
         ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Cambridge Uyghur restaurant specializing in hand-pulled noodles, lamb, dumplings and Xinjiang spices."
+        "screeningTier": "james_beard_venue_program_semifinalist"
+      },
+      {
+        "id": "candidate-dorchester-comfort-kitchen",
+        "name": "Comfort Kitchen",
+        "category": "dining",
+        "location": {
+          "address": "611 Columbia Road",
+          "city": "Dorchester, Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.comfortkitchenbos.com/",
+        "feature": "Diaspora-inspired global comfort food in a converted 1912 historic streetcar comfort station; jerk duck, roti and cocktails.",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2024,
+            "awardType": "jbf_finalist",
+            "category": "Best New Restaurant",
+            "result": "finalist",
+            "recipient": "Comfort Kitchen, Dorchester, MA",
+            "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+            "relationship": "Restaurant-level finalist, not winner or attendance."
+          },
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Best Chef: Northeast",
+            "result": "semifinalist",
+            "recipient": "Sāsha Coleman, Comfort Kitchen",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Chef-specific semifinalist associated with venue; not a restaurant trophy or evidence of a visit."
+          }
+        ],
+        "screeningTier": "james_beard_venue_finalist"
+      },
+      {
+        "id": "candidate-boston-tonino-jamaica-plain",
+        "name": "Tonino",
+        "category": "dining",
+        "location": {
+          "address": "669A Centre Street",
+          "city": "Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.toninojp.com/",
+        "feature": "Intimate Jamaica Plain Roman-inspired trattoria with taleggio cappelletti, pizzas, handmade pasta and aperitivi.",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Best Chef: Northeast",
+            "result": "semifinalist",
+            "recipient": "Luke Fetbroth, Tonino, Boston, MA",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Individual chef recognition, not restaurant-level award or visit evidence."
+          }
+        ],
+        "screeningTier": "james_beard_chef_semifinalist"
+      },
+      {
+        "id": "candidate-cambridge-verveine-cafe-bakery",
+        "name": "Verveine Cafe & Bakery",
+        "category": "cafe_bakery",
+        "location": {
+          "address": "298 Massachusetts Avenue",
+          "city": "Cambridge",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.verveinecafe.com/",
+        "feature": "Bright dedicated gluten-free bakery-café with pastries, breads, breakfast and lunch from chef-owner Monica Glass.",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Pastry Chef or Baker",
+            "result": "semifinalist",
+            "recipient": "Monica Glass, Verveine Cafe & Bakery",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Chef/baker recognition associated with named café; not a site-level award or visit evidence."
+          }
+        ],
+        "screeningTier": "james_beard_chef_semifinalist"
       }
     ]
   },
@@ -2250,7 +2396,7 @@
     "Greater Boston brewery retrospective",
     "Other named cities and historical craft brewery venues"
   ],
-  "lastUserStatement": "Round 11: Wormtown Brewery, 311 Omakase, O Ya, Spoke Wine Bar and Ostra are all explicit unvisited private future wishlists. No public visitor additions. Round 12 prequalified five Boston-area MICHELIN Bib Gourmand restaurants, each with venue-level official provenance.",
+  "lastUserStatement": "Boston Round 12: Fox & The Knife, Bar Volpe, Mahaniyom, Pagu, Jahunger all Wishlist (not visited, want to go); no confirmed visits or public additions. Next Round 13 five new Michelin Bib/JBF award-screened Greater Boston venues.",
   "confirmedSiteVisits": [
     {
       "id": "brewery-site-harpoon-seaport",
@@ -2420,93 +2566,20 @@
         "previousAnswersUnchanged": true
       }
     ],
-    "nextCuratedBatchId": "boston-michelin-bib-2026-11-06-12",
+    "nextCuratedBatchId": "boston-criteria-qualified-mixed-2026-11-06-13",
     "nextCuratedBatch": [
       {
-        "id": "candidate-boston-fox-and-the-knife",
-        "name": "Fox & The Knife",
+        "id": "candidate-cambridge-sumiao-hunan-kitchen",
+        "name": "Sumiao Hunan Kitchen",
         "category": "dining",
         "location": {
-          "address": "28 W Broadway",
-          "city": "Boston",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "recognitions": [
-          {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Fox & The Knife",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
-          }
-        ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Lively South Boston enoteca by chef Karen Akunowicz with stuffed focaccia, handmade pastas, aperitivi and amaro."
-      },
-      {
-        "id": "candidate-boston-bar-volpe",
-        "name": "Bar Volpe",
-        "category": "dining",
-        "location": {
-          "address": "170 W Broadway",
-          "city": "Boston",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "recognitions": [
-          {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Bar Volpe",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
-          }
-        ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Candlelit Southern Italian restaurant with seafood pastas, two bars, wood-fired cooking and a deep amaro list."
-      },
-      {
-        "id": "candidate-brookline-mahaniyom",
-        "name": "Mahaniyom",
-        "category": "dining",
-        "location": {
-          "address": "236 Washington St",
-          "city": "Brookline",
-          "region": "Massachusetts",
-          "country": "USA"
-        },
-        "recognitions": [
-          {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Mahaniyom",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
-          }
-        ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Compact Brookline Village Thai small-plates and cocktail bar, known for seafood salads and crab red curry."
-      },
-      {
-        "id": "candidate-cambridge-pagu",
-        "name": "Pagu",
-        "category": "dining",
-        "location": {
-          "address": "310 Massachusetts Ave",
+          "address": "270 Third Street",
           "city": "Cambridge",
           "region": "Massachusetts",
           "country": "USA"
         },
+        "website": "https://www.sumiaohunan.com/",
+        "feature": "Colorful Kendall Square Hunan restaurant with punchy chili flavors, fish, spicy vegetables and cocktails.",
         "recognitions": [
           {
             "organization": "MICHELIN Guide",
@@ -2514,40 +2587,128 @@
             "awardType": "michelin_bib_gourmand",
             "category": "Bib Gourmand",
             "result": "selected",
-            "recipient": "Pagu",
+            "recipient": "Sumiao Hunan Kitchen",
             "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+            "relationship": "Restaurant-level Bib Gourmand, not a Star or personal attendance."
           }
         ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Tracy Chang's bright Cambridge Japanese/Spanish small-plates restaurant, featuring baos, patatas bravas and laksa."
+        "screeningTier": "michelin_bib_gourmand"
       },
       {
-        "id": "candidate-cambridge-jahunger",
-        "name": "Jahunger",
+        "id": "candidate-cambridge-talulla",
+        "name": "Talulla",
         "category": "dining",
         "location": {
-          "address": "272 Brookline St",
+          "address": "377 Walden Street",
           "city": "Cambridge",
           "region": "Massachusetts",
           "country": "USA"
         },
+        "website": "https://www.talullacambridge.com/",
+        "feature": "Small white-tablecloth Huron Village restaurant with seasonal tasting menus and optional wine pairings.",
         "recognitions": [
           {
-            "organization": "MICHELIN Guide",
-            "year": 2025,
-            "awardType": "michelin_bib_gourmand",
-            "category": "Bib Gourmand",
-            "result": "selected",
-            "recipient": "Jahunger",
-            "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
-            "relationship": "Named restaurant-level Bib Gourmand in the Boston 2025 Michelin Guide. Not a Michelin star and not attendance evidence."
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Wine and Other Beverages Program",
+            "result": "semifinalist",
+            "recipient": "Talulla, Cambridge, MA",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Venue's beverage program recognized; not a win, and does not imply dining attendance."
           }
         ],
-        "screeningTier": "michelin_bib_gourmand",
-        "feature": "Cambridge Uyghur restaurant specializing in hand-pulled noodles, lamb, dumplings and Xinjiang spices."
+        "screeningTier": "james_beard_venue_program_semifinalist"
+      },
+      {
+        "id": "candidate-dorchester-comfort-kitchen",
+        "name": "Comfort Kitchen",
+        "category": "dining",
+        "location": {
+          "address": "611 Columbia Road",
+          "city": "Dorchester, Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.comfortkitchenbos.com/",
+        "feature": "Diaspora-inspired global comfort food in a converted 1912 historic streetcar comfort station; jerk duck, roti and cocktails.",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2024,
+            "awardType": "jbf_finalist",
+            "category": "Best New Restaurant",
+            "result": "finalist",
+            "recipient": "Comfort Kitchen, Dorchester, MA",
+            "sourceUrl": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+            "relationship": "Restaurant-level finalist, not winner or attendance."
+          },
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Best Chef: Northeast",
+            "result": "semifinalist",
+            "recipient": "Sāsha Coleman, Comfort Kitchen",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Chef-specific semifinalist associated with venue; not a restaurant trophy or evidence of a visit."
+          }
+        ],
+        "screeningTier": "james_beard_venue_finalist"
+      },
+      {
+        "id": "candidate-boston-tonino-jamaica-plain",
+        "name": "Tonino",
+        "category": "dining",
+        "location": {
+          "address": "669A Centre Street",
+          "city": "Boston",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.toninojp.com/",
+        "feature": "Intimate Jamaica Plain Roman-inspired trattoria with taleggio cappelletti, pizzas, handmade pasta and aperitivi.",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Best Chef: Northeast",
+            "result": "semifinalist",
+            "recipient": "Luke Fetbroth, Tonino, Boston, MA",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Individual chef recognition, not restaurant-level award or visit evidence."
+          }
+        ],
+        "screeningTier": "james_beard_chef_semifinalist"
+      },
+      {
+        "id": "candidate-cambridge-verveine-cafe-bakery",
+        "name": "Verveine Cafe & Bakery",
+        "category": "cafe_bakery",
+        "location": {
+          "address": "298 Massachusetts Avenue",
+          "city": "Cambridge",
+          "region": "Massachusetts",
+          "country": "USA"
+        },
+        "website": "https://www.verveinecafe.com/",
+        "feature": "Bright dedicated gluten-free bakery-café with pastries, breads, breakfast and lunch from chef-owner Monica Glass.",
+        "recognitions": [
+          {
+            "organization": "James Beard Foundation",
+            "year": 2026,
+            "awardType": "jbf_semifinalist",
+            "category": "Outstanding Pastry Chef or Baker",
+            "result": "semifinalist",
+            "recipient": "Monica Glass, Verveine Cafe & Bakery",
+            "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+            "relationship": "Chef/baker recognition associated with named café; not a site-level award or visit evidence."
+          }
+        ],
+        "screeningTier": "james_beard_chef_semifinalist"
       }
     ],
-    "lastCompletedBatchId": "boston-criteria-qualified-mixed-2026-11-06-11"
+    "lastCompletedBatchId": "boston-michelin-bib-2026-11-06-12"
   }
 }
