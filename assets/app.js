@@ -56,6 +56,139 @@
   const dateDay=(r)=>Number(r.visit?.date?.slice(8,10))||0;
   const byDate=(a,b)=>yearForSorting(b)-yearForSorting(a)||dateMonth(b)-dateMonth(a)||dateDay(b)-dateDay(a)||a.title.localeCompare(b.title);
   const titleFor={dining:"Restaurants",bar:"Bars, Pubs & Breweries",concert:"Concerts",opera:"Opera",theater:"Theater",film:"Film & Festivals"};
+  // Each chapter has its own editorial voice; never fabricate details missing from the archive.
+  const experienceModes={
+    dining:{chapter:"01 / THE TABLE",genre:"Dining",heading:"At the table",program:"THE TABLE NOTES",mark:"✦"},
+    bar:{chapter:"02 / AFTER DARK",genre:"Bars & breweries",heading:"After dark",program:"THE ROOM",mark:"◒"},
+    concert:{chapter:"03 / LIVE",genre:"Concert",heading:"In the crowd",program:"THE LIVE RECORD",mark:"≋"},
+    opera:{chapter:"04 / THE OPERA",genre:"Opera",heading:"From the program",program:"THE OPERA PROGRAM",mark:"◇"},
+    theater:{chapter:"05 / THE STAGE",genre:"Theater",heading:"In the playbill",program:"THE PRODUCTION",mark:"✧"},
+    film:{chapter:"06 / THE SCREEN",genre:"Film & festival",heading:"The screening",program:"THE FESTIVAL PROGRAM",mark:"▣"}
+  };
+  const experienceMode=(r)=>experienceModes[r.type]||experienceModes.dining;
+  const safeExternalLink=(label,url)=>{
+    if(typeof url!=="string"||!url.startsWith("https://"))return null;
+    const a=link(label+" →",url);
+    a.target="_blank";a.rel="noopener noreferrer";
+    return a;
+  };
+  const programLine=(label,value)=>{
+    if(value===null||value===undefined||String(value).trim()==="")return null;
+    const row=el("div","program-fact");
+    row.append(el("dt","",label),el("dd","",value));
+    return row;
+  };
+  function experienceCover(r,v){
+    const mode=experienceMode(r),cover=el("header","experience-cover");
+    const bar=el("div","cover-topline");
+    bar.append(el("span","",mode.chapter),el("span","cover-symbol",mode.mark));
+    bar.lastChild.setAttribute("aria-hidden","true");
+    cover.append(bar,el("p","cover-genre",mode.genre+" / Culture Passport"),
+      el("h1","",r.title));
+    const headline=r.memory?.headline;
+    if(headline&&headline.toLocaleLowerCase()!==r.title.toLocaleLowerCase()){
+      cover.append(el("p","cover-deck",headline));
+    }else if(r.summary){
+      cover.append(el("p","cover-deck",r.summary));
+    }
+    const line=el("div","cover-baseline");
+    line.append(el("span","",storyPeriod(r)),
+      el("span","",[v.city,v.region].filter(Boolean).join(" / ")||"Location unconfirmed"));
+    cover.append(line);
+    return cover;
+  }
+  function experienceProgram(r,v){
+    const mode=experienceMode(r),panel=el("section","experience-program experience-program--"+r.type);
+    panel.setAttribute("aria-label",mode.heading);
+    panel.append(el("p","eyebrow",mode.program),el("h2","",mode.heading));
+    const intro=(copy)=>{if(copy)panel.append(el("p","program-intro",copy));};
+    const facts=(items)=>{
+      const dl=el("dl","program-facts");
+      items.filter(Boolean).forEach(x=>dl.append(x));
+      if(dl.childElementCount)panel.append(dl);
+    };
+    const source=(label,url)=>{const a=safeExternalLink(label,url);if(a)panel.append(a);};
+    if(r.type==="dining"){
+      intro(r.memory?.teaser||r.summary);
+      const g=r.guide;
+      const starCount=g?.distinction==="starred"&&Number.isInteger(g.stars)&&g.stars>0?g.stars:null;
+      const distinction=starCount?starCount+" Michelin "+(starCount===1?"star":"stars"):
+        g?.distinction==="bib"?"Michelin Bib Gourmand":
+        g?.distinction==="selected"?"Michelin Selected":
+        g?.distinction==="plate"?"Michelin Plate (historical)":null;
+      facts([programLine("The remembered meal",storyPeriod(r)),
+        distinction?programLine("Guide distinction",distinction):null,
+        g?.edition&&distinction?programLine("Guide edition",g.edition):null]);
+      if(distinction)intro("Guide distinctions are recorded separately from the visit; a listing does not establish the recognition held on the night of the meal.");
+    }else if(r.type==="bar"){
+      intro(r.memory?.teaser||r.summary);
+      facts([programLine("Place",v.name||r.title),
+        programLine("Occasion",storyPeriod(r)),
+        isRecalled(r)?programLine("Visit status","Recalled by a friend · personal attendance unconfirmed"):null]);
+    }else if(r.type==="concert"){
+      const acts=Array.isArray(r.attendedPerformers)?r.attendedPerformers.filter(x=>x.artist):[];
+      if(acts.length){
+        intro("Artists personally recalled from this festival. This is not a complete lineup, a setlist, or a record of stage times.");
+        const dates=[...new Set(acts.map(x=>x.date||"Date not recorded"))];
+        const lineup=el("div","concert-lineup");
+        for(const date of dates){
+          const block=el("div","concert-day");
+          block.append(el("h3","",date==="Date not recorded"?date:readableDate(date)));
+          const ul=el("ul","concert-performers");
+          acts.filter(x=>(x.date||"Date not recorded")===date).forEach(x=>ul.append(el("li","",x.artist)));
+          block.append(ul);lineup.append(block);
+        }
+        panel.append(lineup);
+      }else{
+        intro(r.memory?.teaser||r.summary);
+        facts([programLine("Artist / event",r.title),
+          programLine("Show",storyPeriod(r)),
+          v.name?programLine("Venue",v.name):null]);
+      }
+      source("Event-history source",r.historicalEventVerification?.sourceUrl);
+    }else if(r.type==="opera"){
+      const performances=Array.isArray(r.attendedPerformances)?
+        r.attendedPerformances.filter(x=>x.attendance==="confirmed"):[];
+      intro("The performances attended, with surviving program credits kept separate from the personal memory.");
+      if(performances.length){
+        const list=el("ol","opera-acts");
+        performances.forEach((p,i)=>{
+          const item=el("li","opera-act");
+          item.append(el("span","opera-act-number",String(i+1).padStart(2,"0")));
+          const desc=el("div");
+          desc.append(el("h3","",p.title),el("p","opera-date",readableDate(p.date)));
+          if(p.michelleFordCredit)desc.append(el("p","opera-credit","Program credit: Michelle Ford · "+p.michelleFordCredit));
+          const a=safeExternalLink("Original Lyric program",p.programUrl);
+          if(a)desc.append(a);
+          item.append(desc);list.append(item);
+        });
+        panel.append(list);
+      }else{
+        facts([programLine("Performance",r.title),programLine("Period",storyPeriod(r))]);
+      }
+      if(performances.length)intro("The original programs identify Michelle as an actor; they do not establish specific characters or singing roles.");
+    }else if(r.type==="theater"){
+      const p=r.production;
+      intro(r.memory?.teaser||r.summary);
+      facts([programLine("Production",p?.titleConfirmed===false?
+        (p.name||r.title)+" (tentative identification)":p?.name||r.title),
+        p?.engagementWindow?programLine("Production run (not attendance date)",p.engagementWindow):null,
+        programLine("Remembered outing",storyPeriod(r)),
+        v.name?programLine("Stage / venue",v.name):null]);
+      source("Production source",p?.sourceUrl);
+    }else if(r.type==="film"){
+      const p=r.screening;
+      intro(r.memory?.teaser||r.summary);
+      facts([programLine("Festival",p?.festival),
+        programLine("Screening",p?.program),
+        programLine("Attended",p?.attendanceDate?readableDate(p.attendanceDate):storyPeriod(r)),
+        programLine("Director",p?.filmDirector),
+        programLine("Screening venue",p?.location||v.name),
+        p?.scheduledTime?programLine("Published screening time (not arrival)",p.scheduledTime):null]);
+      source("Original festival program",p?.scheduleSourceUrl);
+    }
+    return panel;
+  }
   function empty(parent,title,description,url,label){
     parent.replaceChildren();
     const block=el("div","empty");
@@ -68,14 +201,18 @@
     all(".nav a").forEach(a=>{const current=a.dataset.nav===target;a.classList.toggle("active",current);if(current)a.setAttribute("aria-current","page");});
   }
   function card(r,v){
-    const a=link(" ",href(r),"record-card");
+    const mode=experienceMode(r);
+    const a=link(" ",href(r),"record-card record-card--"+r.type);
     a.textContent="";
     const categoryLabel=isRecalled(r)?"FRIEND-RECALLED MEMORY":r.editorial?.awardQualified?"MICHELIN / JAMES BEARD RECOGNIZED":r.editorial?.culturalSpotlight?"CULTURAL DESTINATION":r.editorial?.officialFeature?"OFFICIAL FOUNDATION CONNECTION":r.editorial?.featuredException?"PERSONAL FEATURE":r.recognitions?.length?"OTHER RECOGNITION":r.type.toUpperCase();
     const top=el("p","eyebrow",categoryLabel+" / "+(v?.city||"LOCATION UNKNOWN"));
     const h=el("h3","",r.title),description=el("p","",storyTeaser(r));
     const bottom=el("div","record-footer");
     bottom.append(el("span","",storyPeriod(r)+(r.favorite?" · A favorite":"")),el("span","","Open record →"));
-    a.append(top,h,description,bottom);
+    const chapter=el("div","record-chapter");
+    chapter.append(el("span","",mode.chapter),el("span","record-mark",mode.mark));
+    chapter.lastChild.setAttribute("aria-hidden","true");
+    a.append(chapter,top,h,description,bottom);
     return a;
   }
   function siteStats(db){
@@ -108,7 +245,7 @@
     host.replaceChildren();
     records.forEach(r=>{
       const v=venues.get(r.venueId);
-      const a=link("",href(r),"feature-row");
+      const a=link("",href(r),"feature-row feature-row--"+r.type);
       a.append(el("span","feature-year",timelineChapter(r)==="Other memories"?"✦":timelineChapter(r)));
       const mid=el("div");mid.append(el("strong","",r.title),el("small","",v.city+" · "+(r.memory?.headline||"A place in the collection")));
       a.append(mid,el("span","feature-arrow","→"));host.append(a);
@@ -200,7 +337,7 @@
       if(!results.length){empty(host,"No memories in this chapter yet.","More places can be added as the stories return.");return;}
       for(const [label,rows] of grouped){
         const section=el("section","timeline-group"),year=el("div","timeline-year",label),stack=el("div","timeline-stack");
-        rows.forEach(r=>{const v=venues.get(r.venueId);const a=link("",href(r),"timeline-entry"),mid=el("div");
+        rows.forEach(r=>{const v=venues.get(r.venueId);const a=link("",href(r),"timeline-entry timeline-entry--"+r.type),mid=el("div");
           mid.append(el("small","",r.type.toUpperCase()+" · "+v.city+" · "+storyPeriod(r)),el("h3","",r.title),el("p","timeline-memory",storyTeaser(r)));
           a.append(mid,el("span","","→"));stack.append(a);
         });
@@ -363,7 +500,8 @@
     document.title=r.title+" | Culture Passport";
     const v=db.venues.find(x=>x.id===r.venueId)||{},context=r.memory;
     host.replaceChildren();
-    host.append(el("p","eyebrow",r.type.toUpperCase()+" / "+(v.city||"")),el("h1","",r.title));
+    host.className="detail detail--"+r.type;
+    host.append(experienceCover(r,v));
     const period=el("p","memory-period",storyPeriod(r)+" · "+[v.city,v.region].filter(Boolean).join(", "));
     host.append(period);
     if(isRecalled(r))host.append(el("p","recalled-notice",
@@ -393,6 +531,7 @@
           "Official James Beard Foundation program connection, not an award or nomination."):
         "A confirmed personal visit; no venue-specific Michelin or James Beard award is claimed."));
     }
+    host.append(experienceProgram(r,v));
     if(r.story?.paragraphs?.length){
       const feature=el("section","feature-story");
       feature.append(el("p","eyebrow","BEHIND THE EXPERIENCE"),
