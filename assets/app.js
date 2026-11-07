@@ -275,7 +275,7 @@
         String(a.region||"").localeCompare(String(b.region||"")));
       const selectedCity=new URLSearchParams(location.search).get("city");
       const nameMatches=selectedCity?groupsSorted.filter(g=>g.name===selectedCity):[];
-      let focus=null,locatedRecords=0,pinnedCities=0;
+      let focus=null,pinnedCities=0;
       const locations=[];
       for(const g of groupsSorted){
         if(g.lat===null&&cityCenters.has(g.key)){
@@ -297,6 +297,7 @@
         if(selectedCity===g.key||(nameMatches.length===1&&selectedCity===g.name)){
           details.open=true;focus=g.lat!==null?g:null;
         }
+        if(g.lat!==null)pinnedCities++;
         if(leafletMap&&g.lat!==null){
           const marker=L.marker([g.lat,g.lng],{icon:L.divIcon({
             className:"",html:'<div class="culture-marker" aria-hidden="true">'+g.venues.size+'</div>',
@@ -318,8 +319,11 @@
             marker.openPopup();
           });
           markers.push(marker);locations.push([g.lat,g.lng]);
-          locatedRecords+=g.records.length;pinnedCities++;
+
         }
+      }
+      if(!groupsSorted.length&&!unlocated.length){
+        list.append(el("p","map-legend","No experiences in this category yet."));
       }
       if(unlocated.length){
         const details=el("details","city-section map-unlocated");
