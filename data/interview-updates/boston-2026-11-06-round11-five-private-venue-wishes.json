@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "classification": "private_research",
+  "project": "Culture Passport",
+  "area": "Greater Boston and Worcester",
+  "roundId": "boston-criteria-qualified-mixed-2026-11-06-11",
+  "recordedOn": "2026-11-06",
+  "source": "direct_user_response",
+  "attendanceConvention": "Wishlist = explicitly not visited and want to go",
+  "answers": [
+    {
+      "candidateId": "candidate-boston-brewery-wormtown-worcester-2026",
+      "name": "Wormtown Brewery — Worcester",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Wormtown Brewery — Worcester: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "Great American Beer Festival",
+          "year": 2026,
+          "awardType": "judged_beer_medal",
+          "category": "American Wheat Beer",
+          "result": "gold",
+          "product": "Summer Ale",
+          "recipient": "Wormtown Brewery — Summer Ale",
+          "sourceUrl": "https://www.greatamericanbeerfestival.com/2026-winners/",
+          "relationship": "Medal awarded to specific beer made by brewery; does not establish visit to current Worcester taproom or personal tasting."
+        }
+      ],
+      "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+    },
+    {
+      "candidateId": "candidate-boston-311-omakase",
+      "name": "311 Omakase — Boston",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "311 Omakase — Boston: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "MICHELIN Guide",
+          "year": 2025,
+          "awardType": "michelin_star",
+          "category": "One MICHELIN Star",
+          "result": "1 star",
+          "recipient": "311 Omakase",
+          "sourceUrl": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-michelin-guide-boston-2025",
+          "relationship": "Restaurant-level award; no visit implied."
+        }
+      ],
+      "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+    },
+    {
+      "candidateId": "candidate-boston-o-ya",
+      "name": "O Ya — Boston",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "O Ya — Boston: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "awardType": "jbf_semifinalist",
+          "category": "Outstanding Restaurant",
+          "result": "semifinalist",
+          "recipient": "O Ya — Boston",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "relationship": "Restaurant-level semifinalist, not prize win; no user visit implied."
+        }
+      ],
+      "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+    },
+    {
+      "candidateId": "candidate-somerville-spoke-wine-bar",
+      "name": "Spoke Wine Bar — Somerville",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Spoke Wine Bar — Somerville: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "awardType": "jbf_semifinalist",
+          "category": "Outstanding Bar",
+          "result": "semifinalist",
+          "recipient": "Spoke Wine Bar — Somerville",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "relationship": "Named bar-level semifinalist, not an award win; no personal visit implied."
+        }
+      ],
+      "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+    },
+    {
+      "candidateId": "candidate-boston-ostra",
+      "name": "Ostra — Boston",
+      "attendance": "not_visited",
+      "futureWishlist": true,
+      "certainty": "explicit_nonattendance_by_wishlist_convention",
+      "siteVisited": null,
+      "visitDate": null,
+      "visitPeriod": null,
+      "sourceQuote": "Ostra — Boston: Wishlist",
+      "recognitionEvidence": [
+        {
+          "organization": "James Beard Foundation",
+          "year": 2026,
+          "awardType": "jbf_semifinalist",
+          "category": "Outstanding Hospitality",
+          "result": "semifinalist",
+          "recipient": "Ostra — Boston",
+          "sourceUrl": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "relationship": "Restaurant-level hospitality semifinalist (not award win); does not imply user attendance."
+        }
+      ],
+      "notes": "User selected Wishlist; per 2026-10-28 convention this means not visited, wants to go. No attendance, visit date, winning beer tasting, or publication implied."
+    }
+  ],
+  "publicVisitorCandidateAdditions": [],
+  "reason": "All five were explicit wishlist selections; no visited answer",
+  "recognitionAttribution": "Wormtown's GABF award belongs to Summer Ale beer, not taproom; 311 has a restaurant Michelin star; O Ya, Spoke and Ostra have venue-level James Beard semifinalist distinctions; no awards are attendance evidence."
+}
