@@ -96,6 +96,36 @@ try{
       const metrics=await pageCheck(page,url,selector,name);
       console.log("PASS",name,url,metrics.width,metrics.documentWidth);
     }
+    // Six distinct cultural chapters must render as different programs on
+    // real iPhone and desktop viewports, using only the approved visitor export.
+    const chapterCases=["dining","bar","concert","opera","theater","film"];
+    for(const type of chapterCases){
+      const sample=data.records.find(r=>r.type===type&&(
+        type==="dining"?r.guide?.distinction==="starred":
+        type==="theater"?r.production?.engagementWindow:
+        true))||data.records.find(r=>r.type===type);
+      assert(sample,"Missing visitor story for "+type);
+      const response=await page.goto(BASE+"record.html?id="+encodeURIComponent(sample.id),
+        {waitUntil:"domcontentloaded"});
+      assert(response?.ok(),"Chapter route unavailable: "+type);
+      await page.locator("#record-detail .experience-program").waitFor();
+      assert(await page.locator("#record-detail.detail--"+type).count()===1,
+        "Missing distinct "+type+" detail theme");
+      assert(await page.locator(".experience-cover h1").textContent()===sample.title,
+        "Experience cover changed the approved "+type+" title");
+      assert(await page.locator(".experience-program h2").count()===1,
+        "Missing evidence-aware "+type+" chapter program");
+      const dimensions=await page.evaluate(()=>({
+        width:document.documentElement.clientWidth,
+        scroll:document.documentElement.scrollWidth
+      }));
+      assert(dimensions.scroll<=dimensions.width+3,
+        name+" "+type+" cover overflows viewport "+JSON.stringify(dimensions));
+      await page.screenshot({path:path.join(screenshots,name+"-chapter-"+type+".png"),
+        fullPage:true,animations:"disabled"});
+    }
+    assert(await page.locator("#record-detail.detail--film .experience-program").count()===1,
+      "Film chapter did not retain its screening presentation");
     // Union Station memories retain the user's occasion and exact Foundation relationship.
     await page.goto(BASE+"record.html?id=dining-pierponts-union-station-multiple-visits",{waitUntil:"domcontentloaded"});
     await page.locator("#record-detail h1").waitFor();
@@ -204,7 +234,7 @@ try{
     }
     await context.close();
   }
-  console.log("PASS: 10 rendered screenshots; search, map filters, history, venue lookup, keyboard focus, and mobile/desktop overflow.");
+  console.log("PASS: 22 rendered screenshots; six distinct chapter programs, search, map filters, history, venue lookup, keyboard focus, and mobile/desktop overflow.");
 }finally{
   server.kill("SIGTERM");
   await browser.close();

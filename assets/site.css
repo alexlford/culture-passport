@@ -237,3 +237,160 @@ main:focus{outline:none}
 .leaflet-marker-icon:focus-visible,.city-summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .map-unlocated{margin-top:18px;padding-top:8px;border-top:2px solid var(--wine)}
 .map-unlocated .city-summary strong{color:var(--wine)}
+
+
+/* CULTURE PASSPORT / SIX EDITORIAL CHAPTERS
+   Restrained type and architectural motifs, not platform emoji.
+   Experience styles must never imply awards, dates or setlists that are absent from data. */
+.record-card{position:relative;overflow:hidden;isolation:isolate;transition:border-color .18s ease,transform .18s ease,box-shadow .18s ease}
+.record-card:hover{transform:translateY(-3px);box-shadow:0 9px 24px rgba(32,40,46,.09)}
+.record-chapter{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:10px;letter-spacing:.17em;text-transform:uppercase;font-weight:800;margin-bottom:24px}
+.record-mark{font:400 29px/1 Georgia,serif;font-variant-emoji:text;letter-spacing:0}
+.record-card .eyebrow{margin:0 0 17px;font-size:9px;letter-spacing:.12em}
+.record-card h3{position:relative}
+.record-card--dining{background:#fcf9f1;border-top:4px double #a98355}
+.record-card--dining .record-chapter,.record-card--dining .record-mark{color:#81543c}
+.record-card--bar{background:#412a40;color:#fff5eb;border-color:#412a40}
+.record-card--bar .record-chapter,.record-card--bar .record-mark{color:#e6bb93}
+.record-card--bar .eyebrow,.record-card--bar p{color:#e9d2d6}
+.record-card--bar .record-footer{border-color:#856377;color:#fff2df}
+.record-card--concert{background:#203945;color:#f5f4ed;border-color:#203945;
+  background-image:linear-gradient(145deg,transparent 50%,rgba(149,189,191,.11) 50.5%,transparent 51%),repeating-linear-gradient(90deg,transparent 0 28px,rgba(192,223,217,.035) 28px 29px)}
+.record-card--concert .record-chapter,.record-card--concert .record-mark{color:#b7d6d3}
+.record-card--concert .eyebrow,.record-card--concert p{color:#cbdfd8}
+.record-card--concert .record-footer{border-color:#69868c;color:#f5f4ed}
+.record-card--concert h3{font-family:var(--sans);font-weight:800;text-transform:uppercase;letter-spacing:-.055em;line-height:1.05}
+.record-card--opera{background:#642c45;color:#fbefe5;border-color:#642c45;outline:1px solid #a97e6d;outline-offset:-9px}
+.record-card--opera .record-chapter,.record-card--opera .record-mark{color:#f0c78e}
+.record-card--opera .eyebrow,.record-card--opera p{color:#edd3d3}
+.record-card--opera .record-footer{border-color:#b47d8b;color:#fff1dc}
+.record-card--opera h3{font-weight:500;letter-spacing:-.045em}
+.record-card--theater{background:#f9efd9;border-top:6px solid #ab8547}
+.record-card--theater .record-chapter,.record-card--theater .record-mark{color:#80602c}
+.record-card--theater h3{font-size:clamp(26px,2.4vw,34px)}
+.record-card--film{background:#242c32;color:#fff9ee;border-color:#242c32;
+  background-image:linear-gradient(90deg,rgba(246,227,183,.10) 0 1px,transparent 1px),linear-gradient(180deg,rgba(255,255,255,.04),transparent);background-size:33px 100%,auto}
+.record-card--film .record-chapter,.record-card--film .record-mark{color:#e1b3ab}
+.record-card--film .eyebrow,.record-card--film p{color:#e0d8d2}
+.record-card--film .record-footer{border-color:#667078;color:#fff6e9}
+.record-card--film h3{font-family:var(--sans);font-size:clamp(24px,2.2vw,31px);line-height:1.15;font-weight:700}
+.record-card--bar:hover,.record-card--concert:hover,.record-card--opera:hover,.record-card--film:hover{border-color:#bd9982}
+
+.detail{max-width:1040px;padding-top:16px}
+.experience-cover{position:relative;isolation:isolate;overflow:hidden;background:#fcf9f2;border:1px solid var(--line);
+  padding:clamp(29px,5.3vw,66px);min-height:340px;display:flex;flex-direction:column;justify-content:center;margin:8px 0 23px}
+.experience-cover>*{position:relative;z-index:1}
+.cover-topline{display:flex;justify-content:space-between;align-items:center;gap:15px;
+  border-bottom:1px solid currentColor;padding:0 0 14px;margin-bottom:45px;
+  font-size:10px;letter-spacing:.2em;font-weight:800;text-transform:uppercase}
+.cover-symbol{font:400 29px/1 Georgia,serif;font-variant-emoji:text;letter-spacing:0}
+.cover-genre{font-size:10px;text-transform:uppercase;letter-spacing:.24em;font-weight:800;margin:0 0 14px}
+.detail .experience-cover h1{margin:0 0 24px;max-width:900px;font:500 clamp(42px,6.5vw,83px)/1.1 var(--serif);
+  letter-spacing:-.055em;overflow-wrap:anywhere}
+.cover-deck{font:400 clamp(16px,2vw,23px)/1.5 var(--serif);max-width:700px;margin:0 0 30px}
+.cover-baseline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 22px;margin-top:auto;
+  padding-top:17px;border-top:1px solid currentColor;text-transform:uppercase;font-size:10px;
+  letter-spacing:.08em;font-weight:750}
+.detail .memory-period{display:none}
+.detail .experience-orientation{margin-top:18px}
+.detail .memory-heading{max-width:820px}
+.detail--dining .experience-cover{color:#603444;background:linear-gradient(155deg,#fffdf6,#efe5d5);border-top:6px double #b08a57}
+.detail--dining .experience-cover:before{content:"TABLE";position:absolute;right:-7%;bottom:18%;font:500 clamp(120px,19vw,265px)/1 var(--serif);
+  color:rgba(146,112,73,.07);transform:rotate(-12deg);pointer-events:none}
+.detail--dining .cover-topline,.detail--dining .cover-baseline{border-color:#bcaa91}
+.detail--bar .experience-cover{color:#fff6e9;background:radial-gradient(circle at 90% 10%,#795271 0,transparent 39%),#372239;
+  border:1px solid #735671}
+.detail--bar .experience-cover:before{content:"";position:absolute;inset:16px;border:1px solid rgba(230,180,160,.45);pointer-events:none}
+.detail--bar .cover-topline,.detail--bar .cover-baseline{border-color:#916e87}
+.detail--bar .cover-symbol{color:#e7c1a5}
+.detail--concert .experience-cover{background:linear-gradient(125deg,#142932,#2a5260);color:#f7f5e9;border-color:#284c57;
+  background-image:repeating-linear-gradient(90deg,transparent 0 43px,rgba(255,255,255,.024) 43px 44px),linear-gradient(125deg,#142932,#2a5260)}
+.detail--concert .experience-cover:before{content:"LIVE";position:absolute;right:-3%;bottom:12%;font:900 clamp(130px,22vw,300px)/.85 var(--sans);
+  color:rgba(177,208,206,.10);letter-spacing:-.07em;pointer-events:none}
+.detail--concert .experience-cover h1{font-family:var(--sans);font-weight:800;text-transform:uppercase;line-height:1.03;letter-spacing:-.055em}
+.detail--concert .cover-topline,.detail--concert .cover-baseline{border-color:#63858a}
+.detail--opera .experience-cover{background:linear-gradient(145deg,#612940,#3a2037);color:#fff0dd;border:2px solid #b49665}
+.detail--opera .experience-cover:before{content:"";position:absolute;inset:17px;border:1px solid rgba(244,205,156,.5);pointer-events:none}
+.detail--opera .cover-topline,.detail--opera .cover-baseline{border-color:#aa866f}
+.detail--opera .cover-symbol{color:#eed6a5}
+.detail--opera .experience-cover h1{font-weight:400;line-height:1.2}
+.detail--theater .experience-cover{background:linear-gradient(125deg,#f9eecd,#fffaf0);color:#493b33;border:1px solid #b69a6c;border-top:10px solid #957240}
+.detail--theater .experience-cover:before{content:"PLAYBILL";position:absolute;top:45%;right:-20%;font:800 clamp(80px,14vw,165px)/1 var(--sans);
+  color:rgba(138,99,49,.07);transform:rotate(-90deg);pointer-events:none}
+.detail--theater .cover-topline,.detail--theater .cover-baseline{border-color:#bdac8e}
+.detail--film .experience-cover{background:#20262d;color:#fff8ec;border:1px solid #434a4e;
+  background-image:linear-gradient(180deg,rgba(0,0,0,.32),rgba(56,50,51,.08)),repeating-linear-gradient(90deg,transparent 0 59px,rgba(255,255,255,.015) 59px 60px)}
+.detail--film .experience-cover:before,.detail--film .experience-cover:after{content:"";position:absolute;left:16px;right:16px;height:12px;
+  background:repeating-linear-gradient(90deg,rgba(255,238,208,.27) 0 16px,transparent 16px 45px);opacity:.7}
+.detail--film .experience-cover:before{top:10px}.detail--film .experience-cover:after{bottom:10px}
+.detail--film .experience-cover h1{font-family:var(--sans);font-weight:700;letter-spacing:-.06em}
+.detail--film .cover-topline,.detail--film .cover-baseline{border-color:#697279}
+.detail--film .cover-symbol{color:#e2bd9f}
+
+.experience-program{position:relative;margin:44px 0 54px;padding:clamp(25px,4.5vw,49px);
+  border:1px solid var(--line);background:var(--cream);overflow:hidden}
+.experience-program>.eyebrow{margin-bottom:14px}
+.detail .experience-program h2{font:500 clamp(31px,4.1vw,48px)/1.15 var(--serif);
+  margin:0 0 23px;letter-spacing:-.045em}
+.experience-program .program-intro{font:400 clamp(15px,1.7vw,19px)/1.7 var(--serif);max-width:68ch;margin:0 0 26px}
+.program-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:19px 0 13px;gap:0 35px}
+.program-fact{padding:17px 0;border-top:1px solid var(--line);min-width:0}
+.program-fact dt{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.13em;margin-bottom:6px}
+.program-fact dd{margin:0;font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+.experience-program>a,.opera-act a{color:inherit;text-underline-offset:4px;font-size:12px;font-weight:800;display:inline-block;margin:12px 0 0}
+.experience-program--dining{background:#fff9ef;border-top:4px double #a88557}
+.experience-program--dining .eyebrow{color:#926e44}
+.experience-program--bar{background:#39273a;color:#fff3e6;border-color:#6f5769}
+.experience-program--bar .eyebrow,.experience-program--bar .program-fact dt{color:#e1bbad}
+.experience-program--bar .program-fact{border-color:#7a6070}
+.experience-program--concert{background:#e8efef;border-top:5px solid #315766}
+.experience-program--concert .eyebrow{color:#315766}
+.concert-lineup{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:25px 0}
+.concert-day{background:#fbfcf8;padding:20px 22px;border-top:3px solid #386879;min-width:0}
+.detail .concert-day h3{font:800 13px/1.4 var(--sans);letter-spacing:.04em;text-transform:uppercase;margin:0 0 13px;color:#315766}
+.concert-performers{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.concert-performers li{font:600 14px/1.45 var(--sans);padding-bottom:8px;border-bottom:1px solid #d9e5e5}
+.experience-program--opera{background:#f8f0e6;border:1px solid #b99f80;border-top:5px solid #692c44}
+.experience-program--opera .eyebrow{color:#692c44}
+.opera-acts{list-style:none;padding:0;margin:6px 0;display:grid;gap:0}
+.opera-act{display:grid;grid-template-columns:55px minmax(0,1fr);gap:17px;padding:23px 0;border-top:1px solid #ccbba6}
+.opera-act-number{font:400 28px/1 var(--serif);color:#8b5166}
+.detail .opera-act h3{font:500 clamp(22px,3vw,34px)/1.2 var(--serif);margin:0 0 8px}
+.opera-date{font-size:13px;font-weight:750;color:#673b4d;margin:0}
+.opera-credit{margin:6px 0 0;font-size:12px;color:#625658}
+.experience-program--theater{background:#fff7e4;border:1px solid #bc9b67;border-top:8px solid #a07a43}
+.experience-program--theater:before{content:"";position:absolute;inset:13px;border:1px dashed rgba(144,107,54,.35);pointer-events:none}
+.experience-program--theater>*{position:relative}
+.experience-program--theater .eyebrow,.experience-program--theater dt{color:#8b6438}
+.experience-program--film{background:#252c32;color:#fff5e8;border:1px solid #404c53;padding-left:clamp(34px,5.4vw,65px)}
+.experience-program--film:before{content:"";position:absolute;left:10px;top:0;bottom:0;width:10px;
+  background:repeating-linear-gradient(180deg,#c7ae91 0 15px,transparent 15px 42px);opacity:.7}
+.experience-program--film .eyebrow,.experience-program--film dt{color:#edbdad}
+.experience-program--film .program-fact{border-color:#566068}
+.experience-program--film a{color:#f3c5b4}
+.timeline-entry{border-left:4px solid transparent}
+.timeline-entry--dining{border-left-color:#a88557}
+.timeline-entry--bar{border-left-color:#76516b;background:#f7f1f5}
+.timeline-entry--concert{border-left-color:#315766;background:#eef2f2}
+.timeline-entry--opera{border-left-color:#813854;background:#f9eef3}
+.timeline-entry--theater{border-left-color:#ac8141;background:#fbf5e8}
+.timeline-entry--film{border-left-color:#333d45;background:#f0f0ef}
+.feature-row--concert,.feature-row--opera,.feature-row--film{padding-left:12px;border-left:3px solid var(--blue)}
+.feature-row--opera{border-left-color:var(--wine)}.feature-row--film{border-left-color:var(--dark)}
+.chapter-concert{background:linear-gradient(155deg,#f0f5f3,var(--cream));border-top:3px solid #315766}
+.chapter-opera{background:linear-gradient(155deg,#f5eced,var(--cream));border-top:3px solid #813854}
+.chapter-theater{background:linear-gradient(155deg,#fcf3e2,var(--cream));border-top:3px solid #ac8141}
+.chapter-film{background:linear-gradient(155deg,#ecedf0,var(--cream));border-top:3px solid #333d45}
+.chapter-dining{border-top:3px solid #a88557}.chapter-bar{border-top:3px solid #76516b}
+@media(max-width:720px){
+  .experience-cover{min-height:300px;padding:27px 24px}
+  .cover-topline{margin-bottom:32px}
+  .detail .experience-cover h1{font-size:clamp(38px,10vw,61px);overflow-wrap:anywhere}
+  .detail--concert .experience-cover h1,.detail--film .experience-cover h1{font-size:clamp(34px,9vw,55px)}
+  .cover-baseline{font-size:9px}
+  .experience-program{padding:24px 20px}
+  .program-facts,.concert-lineup{grid-template-columns:1fr}
+  .opera-act{grid-template-columns:38px minmax(0,1fr);gap:12px}
+  .opera-act-number{font-size:23px}
+}
+@media(prefers-reduced-motion:reduce){.record-card{transition:none}.record-card:hover{transform:none}}
