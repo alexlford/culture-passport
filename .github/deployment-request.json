@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-07",
+  "target": "culture.alexlford.com",
+  "approval": "explicit-user-request",
+  "publish": "approved-visitor-export-only",
+  "reason": "Deploy previously reviewed Culture Passport visual and city-map corrections from merged PR #133",
+  "source_pr": "https://github.com/alexlford/culture-passport/pull/133"
+}
